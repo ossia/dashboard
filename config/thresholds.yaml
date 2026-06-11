@@ -1,0 +1,32 @@
+# Severity thresholds. Units: days unless stated otherwise.
+
+submodule:
+  behindWarnDays: 60
+  behindCritDays: 365
+  # A pin that is not reachable from the target's default branch is always
+  # at least `warn`; set to crit to escalate.
+  offBranchSeverity: warn
+
+upstream:
+  # dead-upstream fork: upstream HEAD newer than our pin AND more recent
+  # than this many days ago => "revived" warning
+  revivedWindowDays: 180
+
+branch:
+  # unique commits, no PR
+  prlessIdleWarnDays: 90
+  # branches older than this with no unique commits are listed as prunable
+  staleDays: 365
+
+pr:
+  idleWarnDays: 30
+  behindWarnCommits: 50
+
+actions:
+  # mutable refs (@master, @main) are `info`; N majors behind => warn
+  majorsBehindWarn: 1
+
+environments:
+  # newer distro cycle exists but absent from CI matrix => info
+  # current cycle past EOL => crit
+  eolSoonDays: 90 # EOL within this window => warn

@@ -1,0 +1,9 @@
+---
+interface Props {
+  sev: "ok" | "info" | "warn" | "crit";
+  label?: string;
+}
+const { sev, label } = Astro.props;
+---
+
+<span class={`sev sev-${sev}`} data-k={{ ok: 0, info: 1, warn: 2, crit: 3 }[sev]}>{label ?? sev}</span>

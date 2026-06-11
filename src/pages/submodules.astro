@@ -1,0 +1,57 @@
+---
+import Layout from "../components/Layout.astro";
+import Sev from "../components/Sev.astro";
+import { snapshot, fmtDate, fmtBehind, sevRank, num } from "../lib/snapshot.ts";
+
+const rows = [...snapshot.submodules].sort(
+  (a, b) => sevRank[b.severity] - sevRank[a.severity] || (b.behindDays ?? 0) - (a.behindDays ?? 0),
+);
+---
+
+<Layout title="submodules" active="submodules">
+  <h1>submodule pins</h1>
+  <p class="note">
+    Every submodule of every tracked repo, graded against the target repository:
+    is the pinned commit on the target's default branch, and how far behind its HEAD is it?
+  </p>
+  <input class="filter" data-table="t" placeholder="filter…" />
+  <table class="data" id="t">
+    <thead>
+      <tr>
+        <th>sev</th><th>repo</th><th>path</th><th>target</th>
+        <th>pinned</th><th>pin date</th><th>on default?</th>
+        <th>behind</th><th>commits</th><th>target HEAD</th>
+      </tr>
+    </thead>
+    <tbody>
+      {rows.map((m) => (
+        <tr>
+          <td data-k={sevRank[m.severity]}><Sev sev={m.severity} /></td>
+          <td class="mono">{m.parentRepo.split("/")[1]}</td>
+          <td class="mono">{m.path.replace(/^3rdparty\//, "")}</td>
+          <td class="mono">
+            {m.targetRepo
+              ? <a href={`https://github.com/${m.targetRepo}`}>{m.targetRepo}</a>
+              : m.url}
+          </td>
+          <td class="mono">
+            {m.targetRepo
+              ? <a href={`https://github.com/${m.targetRepo}/commit/${m.pinnedSha}`}>{m.pinnedSha.slice(0, 9)}</a>
+              : m.pinnedSha.slice(0, 9)}
+          </td>
+          <td data-k={m.pinnedDate ?? ""}>{fmtDate(m.pinnedDate)}</td>
+          <td>
+            {m.onDefaultBranch === null
+              ? "—"
+              : m.onDefaultBranch
+                ? m.targetDefaultBranch
+                : <span class="sev-warn">no → {m.containingBranches.join(", ") || "unreachable"}</span>}
+          </td>
+          <td class="num" data-k={num(m.behindDays)}>{fmtBehind(m.behindDays)}</td>
+          <td class="num" data-k={num(m.behindCount)}>{m.behindCount ?? "—"}</td>
+          <td data-k={m.targetHeadDate ?? ""}>{fmtDate(m.targetHeadDate)}</td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+</Layout>

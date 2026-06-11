@@ -1,0 +1,7 @@
+[
+ {"cycle":"26.04","codename":"Resolute Raccoon","releaseDate":"2026-04-23","eol":"2031-04-23","lts":true},
+ {"cycle":"25.10","codename":"Questing Quokka","releaseDate":"2025-10-09","eol":"2026-07-09","lts":false},
+ {"cycle":"25.04","codename":"Plucky Puffin","releaseDate":"2025-04-17","eol":"2026-01-17","lts":false},
+ {"cycle":"24.04","codename":"Noble Numbat","releaseDate":"2024-04-25","eol":"2029-05-31","lts":true},
+ {"cycle":"22.04","codename":"Jammy Jellyfish","releaseDate":"2022-04-21","eol":"2027-06-01","lts":true}
+]

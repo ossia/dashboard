@@ -1,0 +1,56 @@
+---
+import "../styles/global.css";
+import { snapshot, staleSections } from "../lib/snapshot.ts";
+
+interface Props {
+  title: string;
+  active: string;
+}
+const { title, active } = Astro.props;
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+const nav = [
+  ["", "overview"],
+  ["submodules", "submodules"],
+  ["upstreams", "upstreams"],
+  ["prs", "PRs"],
+  ["branches", "branches"],
+  ["actions", "actions"],
+  ["environments", "environments"],
+  ["packaging", "packaging"],
+];
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title} · ossia dashboard</title>
+    <meta name="description" content="Dependency & freshness dashboard for the ossia / celtera repositories" />
+  </head>
+  <body>
+    <header class="site">
+      <span class="brand">ossia·dashboard</span>
+      <nav>
+        {nav.map(([href, label]) => (
+          <a href={`${base}/${href}`} aria-current={active === (href || "index") ? "page" : undefined}>{label}</a>
+        ))}
+      </nav>
+      <span class="gen mono">generated {snapshot.generatedAt.slice(0, 16).replace("T", " ")}Z</span>
+    </header>
+    <main>
+      {staleSections.length > 0 && (
+        <div class="stale-banner">
+          ⚠ non-live data: {staleSections.map((s) => `${s.name} (${s.source})`).join(", ")} — refreshed automatically by CI.
+        </div>
+      )}
+      <slot />
+    </main>
+    <footer class="site">
+      snapshot schema v{snapshot.schemaVersion} ·
+      <a href="https://github.com/ossia/dashboard">ossia/dashboard</a> ·
+      data via git ls-remote, GitHub API, endoflife.date, repology
+    </footer>
+    <script src={`${base}/table.js`} defer></script>
+  </body>
+</html>

@@ -1,0 +1,64 @@
+---
+import Layout from "../components/Layout.astro";
+import Sev from "../components/Sev.astro";
+import { snapshot, sevRank } from "../lib/snapshot.ts";
+
+const cats = [
+  ["file-pin", "file pins (Dockerfile.llvm, fetch-sdk.sh, …)"],
+  ["image", "container images in CI"],
+  ["runner", "runners"],
+] as const;
+const byCat = (c: string) =>
+  snapshot.environments
+    .filter((e) => e.category === c)
+    .sort((a, b) => sevRank[b.severity] - sevRank[a.severity] || a.repo.localeCompare(b.repo) || a.current.localeCompare(b.current));
+const statusClass: Record<string, string> = {
+  eol: "sev-crit",
+  "eol-soon": "sev-warn",
+  behind: "sev-info",
+  current: "sev-ok",
+  unknown: "",
+};
+---
+
+<Layout title="environments" active="environments">
+  <h1>build environments</h1>
+  <p class="note">
+    Distro images, runners and version pins inside watched files, vs
+    endoflife.date and upstream releases. Watched files are declared in
+    <code>config/watch.yaml</code>.
+  </p>
+
+  {cats.map(([cat, label]) => (
+    <>
+      <h2>{label}</h2>
+      <table class="data">
+        <thead>
+          <tr>
+            <th>sev</th><th>repo</th><th>what</th><th>current</th>
+            <th>status</th><th>latest</th><th>EOL</th><th>where</th>
+          </tr>
+        </thead>
+        <tbody>
+          {byCat(cat).map((e) => (
+            <tr>
+              <td data-k={sevRank[e.severity]}><Sev sev={e.severity} /></td>
+              <td class="mono">{e.repo === "*" ? "all" : e.repo.split("/")[1]}</td>
+              <td>{e.name}</td>
+              <td class="mono">{e.current}</td>
+              <td>
+                <span class={statusClass[e.status]}>{e.status}</span>
+                {e.missingFromMatrix.length > 0 && (
+                  <span class="msg"> missing: {e.missingFromMatrix.join(", ")}</span>
+                )}
+              </td>
+              <td class="mono">{e.latest ?? "—"}</td>
+              <td data-k={e.eolDate ?? ""}>{e.eolDate ?? "—"}</td>
+              <td class="msg mono">{e.location}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </>
+  ))}
+</Layout>

@@ -1,0 +1,42 @@
+---
+import Layout from "../components/Layout.astro";
+import Sev from "../components/Sev.astro";
+import { snapshot, fmtAgo, sevRank, num } from "../lib/snapshot.ts";
+
+const rows = [...snapshot.prs].sort(
+  (a, b) => sevRank[b.severity] - sevRank[a.severity] || (b.behindBase ?? 0) - (a.behindBase ?? 0),
+);
+---
+
+<Layout title="PRs" active="prs">
+  <h1>open pull requests</h1>
+  <p class="note">
+    All open PRs across the tracked repos. <em>behind</em> = commits on the base branch
+    that the PR doesn't have; <em>idle</em> = time since last update.
+  </p>
+  <input class="filter" data-table="t" placeholder="filter…" />
+  <table class="data" id="t">
+    <thead>
+      <tr>
+        <th>sev</th><th>repo</th><th>PR</th><th>author</th><th>base</th>
+        <th>behind</th><th>ahead</th><th>age</th><th>idle</th><th>CI</th>
+      </tr>
+    </thead>
+    <tbody>
+      {rows.map((p) => (
+        <tr>
+          <td data-k={sevRank[p.severity]}><Sev sev={p.severity} /></td>
+          <td class="mono">{p.repo.split("/")[1]}</td>
+          <td><a href={p.url}>#{p.number}</a> {p.draft && <em>(draft)</em>} {p.title}</td>
+          <td class="mono">{p.author}</td>
+          <td class="mono">{p.baseRef}</td>
+          <td class="num" data-k={num(p.behindBase)}>{p.behindBase ?? "—"}</td>
+          <td class="num" data-k={num(p.aheadOfBase)}>{p.aheadOfBase ?? "—"}</td>
+          <td class="num" data-k={p.ageDays}>{fmtAgo(p.createdAt)}</td>
+          <td class="num" data-k={p.idleDays}>{fmtAgo(p.updatedAt)}</td>
+          <td>{p.ciStatus === "success" ? <span class="sev-ok">✓</span> : p.ciStatus === "failure" ? <span class="sev-crit">✗</span> : p.ciStatus ?? "—"}</td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+</Layout>

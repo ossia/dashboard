@@ -1,0 +1,51 @@
+---
+import Layout from "../components/Layout.astro";
+import Sev from "../components/Sev.astro";
+import { snapshot, sevRank } from "../lib/snapshot.ts";
+
+const meta = snapshot.sections.packaging;
+const statusClass: Record<string, string> = {
+  newest: "sev-ok",
+  devel: "sev-info",
+  unique: "sev-info",
+  outdated: "sev-warn",
+  legacy: "sev-crit",
+};
+---
+
+<Layout title="packaging" active="packaging">
+  <h1>downstream packaging</h1>
+  <p class="note">
+    Repology view: are distributions shipping our latest releases?
+    (The "are others up to date with us" half of the dashboard.)
+  </p>
+
+  {snapshot.packaging.length === 0 && (
+    <p class="note">
+      No data — repology.org was unreachable when this snapshot was collected
+      ({meta?.error}). The scheduled CI run fills this in.
+    </p>
+  )}
+
+  {snapshot.packaging.map((p) => (
+    <>
+      <h2>
+        <a href={`https://repology.org/project/${p.project}/versions`}>{p.project}</a>
+        {" "}— newest {p.newestVersion ?? "?"} · {p.newest}/{p.total} repos current ·
+        {" "}<Sev sev={p.severity} label={`${p.outdated} outdated`} />
+      </h2>
+      <table class="data">
+        <thead><tr><th>distro repo</th><th>version</th><th>status</th></tr></thead>
+        <tbody>
+          {p.versions.map((v) => (
+            <tr>
+              <td class="mono">{v.repo}</td>
+              <td class="mono">{v.version}</td>
+              <td><span class={statusClass[v.status] ?? ""}>{v.status}</span></td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </>
+  ))}
+</Layout>

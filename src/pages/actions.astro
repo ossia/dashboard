@@ -1,0 +1,47 @@
+---
+import Layout from "../components/Layout.astro";
+import Sev from "../components/Sev.astro";
+import { snapshot, sevRank } from "../lib/snapshot.ts";
+
+const rows = [...snapshot.actions].sort(
+  (a, b) => sevRank[b.severity] - sevRank[a.severity] || a.action.localeCompare(b.action),
+);
+---
+
+<Layout title="actions" active="actions">
+  <h1>GitHub Actions</h1>
+  <p class="note">
+    Every <code>uses:</code> across every workflow of the tracked repos, vs the
+    action's latest released tag. Mutable refs (<code>@master</code>) are flagged.
+  </p>
+  <input class="filter" data-table="t" placeholder="filter…" />
+  <table class="data" id="t">
+    <thead>
+      <tr>
+        <th>sev</th><th>action</th><th>latest</th><th>refs in use</th><th>used by</th>
+      </tr>
+    </thead>
+    <tbody>
+      {rows.map((a) => {
+        const refsInUse = [...new Set(a.refs.map((r) => r.ref))];
+        const usedBy = [...new Set(a.refs.map((r) => `${r.repo.split("/")[1]}/${r.workflow}`))];
+        return (
+          <tr>
+            <td data-k={sevRank[a.severity]}><Sev sev={a.severity} /></td>
+            <td class="mono"><a href={`https://github.com/${a.action.split("/").slice(0, 2).join("/")}`}>{a.action}</a></td>
+            <td class="mono">{a.latestTag ?? "—"}</td>
+            <td class="mono">
+              {refsInUse.map((r, i) => (
+                <>
+                  {i > 0 && ", "}
+                  <span class={a.outdatedRefs.includes(r) ? "sev-warn" : a.mutableRefs.includes(r) ? "sev-info" : ""}>{r}</span>
+                </>
+              ))}
+            </td>
+            <td class="msg">{usedBy.join(", ")}</td>
+          </tr>
+        );
+      })}
+    </tbody>
+  </table>
+</Layout>

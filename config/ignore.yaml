@@ -1,0 +1,10 @@
+# Silence known-fine findings. Every entry must have a reason.
+# match: substring matched against the attention item id
+#        (ids look like "<category>:<repo>:<subject>"; see lib/severity.ts)
+
+ignore:
+  - match: "branch:ossia/score:gh-pages"
+    reason: generated documentation branch, never has a PR
+
+  - match: "branch:ossia/libossia:gh-pages"
+    reason: generated documentation branch, never has a PR

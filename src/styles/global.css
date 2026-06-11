@@ -1,0 +1,132 @@
+:root {
+  --bg: #ffffff;
+  --bg2: #f5f6f8;
+  --fg: #1a1d21;
+  --fg2: #5c6470;
+  --line: #e3e6ea;
+  --link: #0b62c4;
+  --ok: #2da44e;
+  --info: #0b62c4;
+  --warn: #bf8700;
+  --crit: #cf222e;
+  --mono: ui-monospace, "SF Mono", "Cascadia Mono", Menlo, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #101418;
+    --bg2: #171c22;
+    --fg: #e3e8ee;
+    --fg2: #8a94a3;
+    --line: #2a313a;
+    --link: #58a6ff;
+    --ok: #3fb950;
+    --info: #58a6ff;
+    --warn: #d29922;
+    --crit: #f85149;
+  }
+}
+
+* { box-sizing: border-box; }
+html { color-scheme: light dark; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--fg);
+  font: 14px/1.45 system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+code, .mono { font-family: var(--mono); font-size: 12.5px; }
+
+header.site {
+  display: flex;
+  align-items: baseline;
+  gap: 1.25rem;
+  flex-wrap: wrap;
+  padding: 0.6rem 1.25rem;
+  border-bottom: 1px solid var(--line);
+  background: var(--bg2);
+}
+header.site .brand { font-weight: 650; color: var(--fg); }
+header.site nav { display: flex; gap: 0.9rem; flex-wrap: wrap; }
+header.site nav a { color: var(--fg2); }
+header.site nav a[aria-current="page"] { color: var(--fg); font-weight: 600; }
+header.site .gen { margin-left: auto; color: var(--fg2); font-size: 12px; }
+
+main { padding: 1rem 1.25rem 3rem; max-width: 96rem; margin: 0 auto; }
+h1 { font-size: 1.15rem; margin: 0.4rem 0 0.2rem; }
+h2 { font-size: 0.95rem; margin: 1.4rem 0 0.4rem; }
+p.note { color: var(--fg2); margin: 0.2rem 0 0.8rem; max-width: 60rem; }
+
+/* severity */
+.sev { display: inline-flex; align-items: center; gap: 0.35em; white-space: nowrap; }
+.sev::before { content: ""; width: 8px; height: 8px; border-radius: 50%; flex: none; }
+.sev-ok::before { background: var(--ok); }
+.sev-info::before { background: var(--info); }
+.sev-warn::before { background: var(--warn); }
+.sev-crit::before { background: var(--crit); }
+.sev-ok { color: var(--ok); }
+.sev-info { color: var(--info); }
+.sev-warn { color: var(--warn); }
+.sev-crit { color: var(--crit); }
+
+/* tables */
+table.data { border-collapse: collapse; width: 100%; margin: 0.4rem 0 1rem; }
+table.data th, table.data td {
+  text-align: left;
+  padding: 0.3rem 0.7rem 0.3rem 0;
+  border-bottom: 1px solid var(--line);
+  vertical-align: top;
+}
+table.data th {
+  font-size: 11.5px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--fg2);
+  cursor: pointer;
+  user-select: none;
+  white-space: nowrap;
+}
+table.data th[data-sorted="asc"]::after { content: " ↑"; }
+table.data th[data-sorted="desc"]::after { content: " ↓"; }
+table.data td.num { font-variant-numeric: tabular-nums; }
+table.data tr:hover td { background: var(--bg2); }
+
+input.filter {
+  background: var(--bg2);
+  color: var(--fg);
+  border: 1px solid var(--line);
+  border-radius: 5px;
+  padding: 0.25rem 0.5rem;
+  font: inherit;
+  width: 18rem;
+  max-width: 100%;
+}
+
+/* index page */
+.strip { display: grid; grid-template-columns: repeat(auto-fill, minmax(19rem, 1fr)); gap: 0.6rem; margin: 0.8rem 0 1rem; }
+.repo-card {
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 0.55rem 0.7rem;
+  background: var(--bg2);
+}
+.repo-card .head { display: flex; justify-content: space-between; gap: 0.5rem; }
+.repo-card .meta { color: var(--fg2); font-size: 12px; margin-top: 0.15rem; }
+.repo-card .cats { margin-top: 0.3rem; display: flex; flex-wrap: wrap; gap: 0.5rem; font-size: 12px; }
+
+ul.attention { list-style: none; padding: 0; margin: 0.3rem 0; }
+ul.attention li { padding: 0.28rem 0; border-bottom: 1px solid var(--line); display: flex; gap: 0.6rem; flex-wrap: wrap; }
+ul.attention .cat { color: var(--fg2); font-size: 12px; min-width: 6.5rem; }
+ul.attention .msg { color: var(--fg2); }
+
+.stale-banner {
+  border: 1px solid var(--warn);
+  border-radius: 6px;
+  padding: 0.4rem 0.7rem;
+  margin: 0.6rem 0;
+  font-size: 12.5px;
+  color: var(--fg2);
+}
+
+footer.site { padding: 0.8rem 1.25rem; color: var(--fg2); font-size: 12px; border-top: 1px solid var(--line); }

@@ -1,0 +1,30 @@
+# Repositories tracked by the dashboard.
+#
+#   slug:           owner/name on github.com
+#   collect:        which collectors apply (default: all of
+#                   [submodules, branches, prs, actions])
+#   depsRegistry:   path of a deps.yaml-style registry inside the repo
+#                   (the score one also describes libossia's vendored deps)
+
+repos:
+  - slug: ossia/score
+    depsRegistry: 3rdparty/deps.yaml
+
+  - slug: ossia/libossia
+
+  - slug: celtera/avendish
+
+  - slug: celtera/libremidi
+
+  - slug: ossia/actions
+
+  - slug: ossia/dashboard
+
+  - slug: sat-mtl/skills
+
+  - slug: sat-mtl/carto-tcp-avendish
+
+# Repositories that are not tracked themselves but whose releases matter
+# (used by watch.yaml `latest: git-tag:` resolvers and the SDK checks).
+releaseSources:
+  - ossia/score-sdk

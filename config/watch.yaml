@@ -1,0 +1,58 @@
+# Declarative "file pin" watches: files inside tracked repos that pin
+# versions of external things. Each pin has a regex with one capture
+# group (the current value) and a `latest:` resolver:
+#
+#   git-tag:<owner/repo>[#<prefix>]   highest semver-ish tag, optionally
+#                                     only tags starting with <prefix>
+#   eol:<product>                     endoflife.date product; reports both
+#                                     EOL status of the current value and
+#                                     the newest available cycle
+#   none                              just surfaced, no comparison
+#
+# Files are read from the repo's default branch at collect time.
+
+watches:
+  - repo: ossia/score
+    file: cmake/Deployment/Linux/AppImage/Dockerfile.llvm
+    pins:
+      - name: AppImage base image
+        regex: 'FROM\s+almalinux:(\S+)'
+        latest: eol:almalinux
+      - name: AppImage CMake
+        regex: 'cmake-([0-9.]+)-linux'
+        latest: git-tag:Kitware/CMake
+
+  - repo: ossia/score
+    file: tools/fetch-sdk.sh
+    pins:
+      - name: ossia SDK version
+        regex: 'SDK_VERSION=(sdk[0-9]+)'
+        latest: git-tag:ossia/score-sdk
+      - name: SDK boost
+        regex: 'BOOST_VER=boost_([0-9_]+)'
+        latest: git-tag:boostorg/boost#boost-
+      - name: SDK CMake
+        regex: 'CMAKE_VERSION=([0-9.]+)'
+        latest: git-tag:Kitware/CMake
+
+# Container images and `runs-on:` runners are extracted automatically from
+# every workflow of every tracked repo; this maps the image names to
+# endoflife.date products so EOL / newer-release checks apply.
+imageProducts:
+  ubuntu: ubuntu
+  debian: debian
+  fedora: fedora
+  almalinux: almalinux
+  opensuse/leap: opensuse
+
+# Distro families where we want a "new version exists but is absent from
+# the CI matrix" signal, computed against all images found in workflows.
+matrixCoverage:
+  - ubuntu
+  - debian
+  - fedora
+
+# Repology projects to ingest (downstream packaging freshness).
+repology:
+  - ossia-score
+  - libossia

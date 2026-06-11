@@ -1,0 +1,80 @@
+import { readFileSync } from "node:fs";
+import path from "node:path";
+import { parse } from "yaml";
+
+const CONFIG_DIR = path.resolve("config");
+
+function load<T>(name: string): T {
+  return parse(readFileSync(path.join(CONFIG_DIR, name), "utf8")) as T;
+}
+
+export interface RepoConfig {
+  slug: string;
+  depsRegistry?: string;
+  collect?: string[];
+}
+
+export interface WatchPin {
+  name: string;
+  regex: string;
+  latest: string; // "git-tag:owner/repo[#prefix]" | "eol:product" | "none"
+}
+
+export interface FileWatch {
+  repo: string;
+  file: string;
+  pins: WatchPin[];
+}
+
+export interface Config {
+  repos: RepoConfig[];
+  releaseSources: string[];
+  watches: FileWatch[];
+  imageProducts: Record<string, string>;
+  matrixCoverage: string[];
+  repology: string[];
+  thresholds: Thresholds;
+  ignore: { match: string; reason: string }[];
+}
+
+export interface Thresholds {
+  submodule: {
+    behindWarnDays: number;
+    behindCritDays: number;
+    offBranchSeverity: "warn" | "crit";
+  };
+  upstream: { revivedWindowDays: number };
+  branch: { prlessIdleWarnDays: number; staleDays: number };
+  pr: { idleWarnDays: number; behindWarnCommits: number };
+  actions: { majorsBehindWarn: number };
+  environments: { eolSoonDays: number };
+}
+
+export function loadConfig(): Config {
+  const repos = load<{ repos: RepoConfig[]; releaseSources?: string[] }>("repos.yaml");
+  const watch = load<{
+    watches: FileWatch[];
+    imageProducts: Record<string, string>;
+    matrixCoverage: string[];
+    repology: string[];
+  }>("watch.yaml");
+  const thresholds = load<Thresholds>("thresholds.yaml");
+  const ignore = load<{ ignore: { match: string; reason: string }[] }>("ignore.yaml");
+  return {
+    repos: repos.repos,
+    releaseSources: repos.releaseSources ?? [],
+    watches: watch.watches,
+    imageProducts: watch.imageProducts,
+    matrixCoverage: watch.matrixCoverage,
+    repology: watch.repology,
+    thresholds,
+    ignore: ignore.ignore ?? [],
+  };
+}
+
+export function daysAgo(iso: string | null | undefined): number | null {
+  if (!iso) return null;
+  const t = Date.parse(iso);
+  if (Number.isNaN(t)) return null;
+  return (Date.now() - t) / 86_400_000;
+}

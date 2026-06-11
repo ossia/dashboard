@@ -1,0 +1,77 @@
+---
+import Layout from "../components/Layout.astro";
+import Sev from "../components/Sev.astro";
+import { snapshot, fmtAgo, sevRank } from "../lib/snapshot.ts";
+
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+const cats = ["submodules", "prs", "branches", "actions", "environments"] as const;
+const catPage: Record<string, string> = {
+  submodule: "submodules",
+  upstream: "upstreams",
+  pr: "prs",
+  branch: "branches",
+  action: "actions",
+  environment: "environments",
+  packaging: "packaging",
+};
+const crit = snapshot.attention.filter((a) => a.severity === "crit");
+const warn = snapshot.attention.filter((a) => a.severity === "warn");
+function worstOf(counts: Record<string, { warn: number; crit: number; info: number }>): "ok" | "info" | "warn" | "crit" {
+  let w: "ok" | "info" | "warn" | "crit" = "ok";
+  for (const c of Object.values(counts)) {
+    if (c.crit > 0) return "crit";
+    if (c.warn > 0) w = "warn";
+    else if (c.info > 0 && w === "ok") w = "info";
+  }
+  return w;
+}
+---
+
+<Layout title="overview" active="index">
+  <h1>overview</h1>
+  <p class="note">
+    {crit.length} critical · {warn.length} warnings across {snapshot.repos.length} repositories,
+    {snapshot.submodules.length} submodule pins, {snapshot.upstreams.length} tracked upstreams,
+    {snapshot.prs.length} open PRs.
+  </p>
+
+  <div class="strip">
+    {snapshot.repos.map((r) => (
+      <div class="repo-card">
+        <div class="head">
+          <a href={`https://github.com/${r.slug}`} class="mono">{r.slug}</a>
+          <Sev sev={worstOf(r.counts)} />
+        </div>
+        <div class="meta mono">{r.defaultBranch} @ {r.headSha.slice(0, 9)} · {fmtAgo(r.headDate)}</div>
+        <div class="cats">
+          {cats.map((c) => {
+            const n = r.counts[c];
+            if (!n || (n.warn === 0 && n.crit === 0 && n.info === 0)) return null;
+            return (
+              <span>
+                <a href={`${base}/${c}`}>{c}</a>:
+                {n.crit > 0 && <span class="sev-crit"> {n.crit} crit</span>}
+                {n.warn > 0 && <span class="sev-warn"> {n.warn} warn</span>}
+                {n.info > 0 && <span class="sev-info"> {n.info} info</span>}
+              </span>
+            );
+          })}
+        </div>
+      </div>
+    ))}
+  </div>
+
+  <h2>needs attention</h2>
+  {snapshot.attention.length === 0 && <p class="note">Nothing. Everything is up to date.</p>}
+  <ul class="attention">
+    {snapshot.attention.map((a) => (
+      <li>
+        <Sev sev={a.severity} label="" />
+        <span class="cat"><a href={`${base}/${catPage[a.category]}`}>{a.category}</a></span>
+        <span class="mono">{a.repo}</span>
+        {a.url ? <a href={a.url}>{a.subject}</a> : <span>{a.subject}</span>}
+        <span class="msg">{a.message}</span>
+      </li>
+    ))}
+  </ul>
+</Layout>

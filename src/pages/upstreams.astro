@@ -1,0 +1,68 @@
+---
+import Layout from "../components/Layout.astro";
+import Sev from "../components/Sev.astro";
+import { snapshot, fmtDate, sevRank } from "../lib/snapshot.ts";
+
+const rows = [...snapshot.upstreams].sort(
+  (a, b) =>
+    sevRank[b.severity] - sevRank[a.severity] ||
+    Number(b.revived) - Number(a.revived) ||
+    a.name.localeCompare(b.name),
+);
+const revived = rows.filter((r) => r.revived);
+---
+
+<Layout title="upstreams" active="upstreams">
+  <h1>3rd-party upstreams</h1>
+  <p class="note">
+    Driven by <code>score/3rdparty/deps.yaml</code> (the registry Renovate consumes):
+    pinned version/SHA vs the real upstream's latest tag and HEAD.
+    <strong>revived</strong> = a fork's upstream that was dormant has new commits — worth
+    checking whether patches can go back upstream.
+  </p>
+
+  {revived.length > 0 && (
+    <>
+      <h2>upstreams that came back to life ({revived.length})</h2>
+      <ul class="attention">
+        {revived.map((u) => (
+          <li>
+            <Sev sev={u.severity} label="" />
+            <a class="mono" href={`https://github.com/${u.upstream}`}>{u.upstream}</a>
+            <span class="msg">{u.notes.join("; ")}</span>
+          </li>
+        ))}
+      </ul>
+    </>
+  )}
+
+  <h2>full registry</h2>
+  <input class="filter" data-table="t" placeholder="filter…" />
+  <table class="data" id="t">
+    <thead>
+      <tr>
+        <th>sev</th><th>name</th><th>kind</th><th>upstream</th>
+        <th>pinned</th><th>latest tag</th><th>tag date</th><th>upstream HEAD</th><th>notes</th>
+      </tr>
+    </thead>
+    <tbody>
+      {rows.map((u) => (
+        <tr>
+          <td data-k={sevRank[u.severity]}><Sev sev={u.severity} /></td>
+          <td class="mono">{u.name}</td>
+          <td>{u.revived ? "revived" : u.kind}</td>
+          <td class="mono">
+            {u.upstream
+              ? <a href={u.upstream.startsWith("gitlab:") ? `https://gitlab.com/${u.upstream.slice(7)}` : `https://github.com/${u.upstream}`}>{u.upstream}</a>
+              : "—"}
+          </td>
+          <td class="mono">{u.pinnedVersion ?? u.pinnedSha ?? "—"}</td>
+          <td class="mono">{u.latestTag ?? "—"}</td>
+          <td data-k={u.latestTagDate ?? ""}>{fmtDate(u.latestTagDate)}</td>
+          <td data-k={u.upstreamHeadDate ?? ""}>{fmtDate(u.upstreamHeadDate)}</td>
+          <td class="msg">{u.notes.join("; ")}</td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+</Layout>
