@@ -9,14 +9,7 @@ import { execFile } from "node:child_process";
 import { existsSync, mkdirSync } from "node:fs";
 import { promisify } from "node:util";
 import path from "node:path";
-import { repoUrl } from "./git.ts";
-
-function authFlags(): string[] {
-  const token = process.env.GITHUB_TOKEN ?? process.env.GH_TOKEN;
-  if (!token) return [];
-  const b64 = Buffer.from(`x-access-token:${token}`).toString("base64");
-  return ["-c", `http.https://github.com/.extraheader=Authorization: Basic ${b64}`];
-}
+import { authFlags, repoUrl } from "./git.ts";
 
 const execFileP = promisify(execFile);
 const CACHE_DIR = process.env.GITCACHE_DIR ?? path.resolve(".gitcache");
@@ -45,7 +38,7 @@ async function workTreeUncached(slug: string): Promise<string | null> {
       await execFileP(
         "git",
         [...authFlags(), "clone", "--depth=1", "--filter=blob:limit=262144", "--no-tags", repoUrl(slug), dir],
-        { timeout: 300_000, maxBuffer: 16 * 1024 * 1024 },
+        { cwd: path.dirname(dir), timeout: 300_000, maxBuffer: 16 * 1024 * 1024 },
       );
     } else {
       await execFileP("git", [...authFlags(), "fetch", "--depth=1", "origin"], { cwd: dir, timeout: 300_000 });

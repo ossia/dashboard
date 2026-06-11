@@ -136,3 +136,9 @@ console.log(
     `${snapshot.actions.length} actions, ${snapshot.environments.length} env pins ` +
     `(${((Date.now() - t0) / 1000).toFixed(1)}s)`,
 );
+console.log(
+  "section sources: " +
+    Object.entries(snapshot.sections)
+      .map(([k, m]) => `${k}=${m.source}`)
+      .join(" "),
+);

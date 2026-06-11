@@ -46,20 +46,34 @@ function localRemoteUrl(slug: string): string | null {
   return url;
 }
 
-/** Authenticate github.com fetches when a token is available (private repos). */
-function authFlags(): string[] {
+/**
+ * Authenticate github.com fetches when a token is available (private repos).
+ * The first, empty extraheader clears any inherited value — actions/checkout
+ * stores its own Authorization extraheader in the workspace repo config, and
+ * sending both makes GitHub reject the request with "Duplicate header".
+ */
+export function authFlags(): string[] {
   const token = process.env.GITHUB_TOKEN ?? process.env.GH_TOKEN;
   if (!token) return [];
   const b64 = Buffer.from(`x-access-token:${token}`).toString("base64");
-  return ["-c", `http.https://github.com/.extraheader=Authorization: Basic ${b64}`];
+  return [
+    "-c",
+    "http.https://github.com/.extraheader=",
+    "-c",
+    `http.https://github.com/.extraheader=Authorization: Basic ${b64}`,
+  ];
 }
 
 async function git(
   args: string[],
   opts: { cwd?: string; timeout?: number } = {},
 ): Promise<string> {
+  // Default to the cache dir, never the process cwd: when run from inside a
+  // checkout (CI workspace), the enclosing repo's config would apply to
+  // network commands like ls-remote.
+  mkdirSync(CACHE_DIR, { recursive: true });
   const { stdout } = await execFileP("git", args, {
-    cwd: opts.cwd,
+    cwd: opts.cwd ?? CACHE_DIR,
     timeout: opts.timeout ?? GIT_TIMEOUT_MS,
     maxBuffer: 64 * 1024 * 1024,
     env: { ...process.env, GIT_TERMINAL_PROMPT: "0" },
