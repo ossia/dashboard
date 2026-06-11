@@ -26,7 +26,7 @@ Useful environment variables for `npm run collect`:
 
 | var | effect |
 |---|---|
-| `GITHUB_TOKEN` | enables live PR data (GraphQL) |
+| `GITHUB_TOKEN` | enables live PR data (GraphQL) and private-repo access; in CI an optional `DASHBOARD_PAT` secret takes precedence to reach private repos outside the org |
 | `LOCAL_REPOS_DIR` | use existing checkouts at `$dir/<name>` instead of cloning |
 | `GITCACHE_DIR` | where bare commit-graph clones are cached (default `.gitcache`) |
 | `DASHBOARD_BASE` | site base path (default `/dashboard`) |

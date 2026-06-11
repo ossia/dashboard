@@ -142,3 +142,5 @@ console.log(
       .map(([k, m]) => `${k}=${m.source}`)
       .join(" "),
 );
+for (const [k, m] of Object.entries(snapshot.sections))
+  if (m.source !== "live" && m.error) console.warn(`  ${k}: ${m.error}`);

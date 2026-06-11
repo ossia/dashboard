@@ -9,6 +9,7 @@ on:
 
 permissions:
   contents: write # commit refreshed snapshot
+  pull-requests: read # PR collector (GraphQL)
   pages: write
   id-token: write
 
@@ -38,7 +39,10 @@ jobs:
 
       - name: Collect snapshot
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # DASHBOARD_PAT (optional org/user PAT) extends coverage to private
+          # repos outside this org (sat-mtl/*), which the workflow's own
+          # GITHUB_TOKEN can never see.
+          GITHUB_TOKEN: ${{ secrets.DASHBOARD_PAT != '' && secrets.DASHBOARD_PAT || secrets.GITHUB_TOKEN }}
         run: npm run collect
 
       - name: Commit refreshed snapshot
