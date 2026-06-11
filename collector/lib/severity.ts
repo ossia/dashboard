@@ -59,7 +59,10 @@ export function buildAttention(s: Snapshot, cfg: Config): AttentionItem[] {
       category: "branch",
       repo: b.repo,
       subject: b.name,
-      message: `${b.ahead ?? "?"} unique commits, no PR, last commit ${b.lastCommitDate?.slice(0, 10) ?? "?"}`,
+      message:
+        `${b.aheadReal ?? b.ahead ?? "?"} unmerged commits` +
+        (b.landedEquivalent ? ` (${b.landedEquivalent} already cherry-picked)` : "") +
+        `, no PR, last commit ${b.lastCommitDate?.slice(0, 10) ?? "?"}`,
       url: `https://github.com/${b.repo}/tree/${b.name}`,
       severity: b.severity,
     });

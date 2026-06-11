@@ -73,7 +73,9 @@ export interface BranchInfo {
   name: string;
   sha: string;
   lastCommitDate: string | null;
-  ahead: number | null; // unique commits vs default branch
+  ahead: number | null; // commits not reachable from the default branch
+  aheadReal: number | null; // ahead minus cherry-picked/rebased equivalents
+  landedEquivalent: number | null; // unique commits whose patch already landed
   behind: number | null;
   hasPR: boolean | null; // null when PR data was unavailable
   prNumber: number | null;

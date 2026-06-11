@@ -97,7 +97,7 @@ Everything carries `severity: ok | info | warn | crit`, assigned by
 | submodule pin not reachable from target default branch | — | always | — |
 | deps.yaml pinned tag ≠ upstream latest tag | newer patch | newer minor/major | — |
 | dead-upstream fork: upstream commits < 180 d old, newer than pin | — | always | — |
-| branch w/ unique commits, no PR | idle < 90 d | idle ≥ 90 d | — |
+| branch w/ real unmerged commits (cherry-pick/rebase-aware), no PR | idle < 90 d | idle ≥ 90 d | — |
 | open PR | behind base > 0 | idle > 30 d or behind > 50 commits | — |
 | action `uses:` ref | mutable ref (`@master`) | behind latest major | — |
 | distro image / runner | newer stable release exists, not in matrix | — | EOL |

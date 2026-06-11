@@ -355,3 +355,42 @@ export async function pmap<T, R>(
   await Promise.all(workers);
   return out;
 }
+
+export interface CommitMeta {
+  sha: string;
+  authorEmail: string;
+  authorTime: number;
+  summary: string;
+}
+
+/** Commit metadata for a ref or range (works on tree:0 clones). */
+export async function logCommits(
+  slug: string,
+  range: string,
+  opts: { noMerges?: boolean; maxCount?: number } = {},
+): Promise<CommitMeta[] | null> {
+  const dir = await commitGraph(slug);
+  if (!dir) return null;
+  try {
+    const args = ["log", "--format=%H%x09%ae%x09%at%x09%s"];
+    if (opts.noMerges) args.push("--no-merges");
+    if (opts.maxCount) args.push(`--max-count=${opts.maxCount}`);
+    args.push(range);
+    const out = await git(args, { cwd: dir });
+    const commits: CommitMeta[] = [];
+    for (const line of out.split("\n")) {
+      if (!line) continue;
+      const [sha, authorEmail, at, ...rest] = line.split("\t");
+      if (!sha || !authorEmail || !at) continue;
+      commits.push({
+        sha,
+        authorEmail,
+        authorTime: Number(at),
+        summary: rest.join("\t"),
+      });
+    }
+    return commits;
+  } catch {
+    return null;
+  }
+}

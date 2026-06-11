@@ -1,40 +1,40 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-06-11T23:14:44.845Z",
+ "generatedAt": "2026-06-11T23:24:19.695Z",
  "sections": {
   "repos": {
    "source": "live",
-   "collectedAt": "2026-06-11T23:14:32.118Z"
+   "collectedAt": "2026-06-11T23:24:12.055Z"
   },
   "submodules": {
    "source": "live",
-   "collectedAt": "2026-06-11T23:14:42.915Z"
+   "collectedAt": "2026-06-11T23:24:17.861Z"
   },
   "upstreams": {
    "source": "live",
-   "collectedAt": "2026-06-11T23:14:42.309Z"
+   "collectedAt": "2026-06-11T23:24:17.481Z"
   },
   "prs": {
    "source": "fixture",
-   "collectedAt": "2026-06-11T23:14:32.125Z",
+   "collectedAt": "2026-06-11T23:24:12.058Z",
    "error": "no GITHUB_TOKEN"
   },
   "branches": {
    "source": "live",
-   "collectedAt": "2026-06-11T23:14:44.845Z"
+   "collectedAt": "2026-06-11T23:24:19.694Z"
   },
   "actions": {
    "source": "live",
-   "collectedAt": "2026-06-11T23:14:34.552Z"
+   "collectedAt": "2026-06-11T23:24:13.426Z"
   },
   "environments": {
    "source": "fixture",
-   "collectedAt": "2026-06-11T23:14:35.212Z",
+   "collectedAt": "2026-06-11T23:24:13.966Z",
    "error": "endoflife.date unreachable; cycle data from committed fixture"
   },
   "packaging": {
    "source": "unavailable",
-   "collectedAt": "2026-06-11T23:14:33.813Z",
+   "collectedAt": "2026-06-11T23:24:12.991Z",
    "error": "HTTP 403"
   }
  },
@@ -42,8 +42,8 @@
   {
    "slug": "ossia/score",
    "defaultBranch": "master",
-   "headSha": "c8d32e071fcb63c982ed32aff906c21e62990dbb",
-   "headDate": "2026-06-11T03:43:34+09:00",
+   "headSha": "66bc8e1bf0486b12776e8f266cee4907b06dbd57",
+   "headDate": "2026-06-11T19:17:58-04:00",
    "counts": {
     "submodules": {
      "warn": 16,
@@ -53,12 +53,12 @@
     "prs": {
      "warn": 34,
      "crit": 0,
-     "info": 5
+     "info": 6
     },
     "branches": {
-     "warn": 45,
+     "warn": 35,
      "crit": 0,
-     "info": 21
+     "info": 9
     },
     "actions": {
      "warn": 4,
@@ -89,9 +89,9 @@
      "info": 4
     },
     "branches": {
-     "warn": 31,
+     "warn": 24,
      "crit": 0,
-     "info": 8
+     "info": 2
     },
     "actions": {
      "warn": 6,
@@ -112,9 +112,9 @@
      "info": 2
     },
     "branches": {
-     "warn": 2,
+     "warn": 1,
      "crit": 0,
-     "info": 16
+     "info": 3
     },
     "actions": {
      "warn": 2,
@@ -135,7 +135,7 @@
      "info": 1
     },
     "branches": {
-     "warn": 4,
+     "warn": 2,
      "crit": 0,
      "info": 2
     },
@@ -152,11 +152,6 @@
    "headSha": "13b1c6cfcfa545ffbce0af98dd8af6d4eb88a48e",
    "headDate": "2026-06-12T06:47:21+09:00",
    "counts": {
-    "branches": {
-     "warn": 0,
-     "crit": 0,
-     "info": 2
-    },
     "actions": {
      "warn": 2,
      "crit": 0,
@@ -167,8 +162,8 @@
   {
    "slug": "ossia/dashboard",
    "defaultBranch": "main",
-   "headSha": "3e66d59a196dce194576f5f108fae446c120df67",
-   "headDate": "2026-06-11T22:55:19+00:00",
+   "headSha": "676c8849c4368372cf7bf9a15bb9640e0a3116f7",
+   "headDate": "2026-06-11T23:19:07+00:00",
    "counts": {
     "actions": {
      "warn": 2,
@@ -538,7 +533,7 @@
     "master"
    ],
    "behindCount": 19,
-   "behindDays": 520.1189120370369,
+   "behindDays": 520.1189120370371,
    "targetHeadSha": "43d2fe1b133cc9ded823fde6bd10560721a36e98",
    "targetHeadDate": "2024-03-20T12:15:56-04:00",
    "severity": "crit",
@@ -705,7 +700,7 @@
     "master"
    ],
    "behindCount": 5,
-   "behindDays": 123.96619212962965,
+   "behindDays": 123.96619212962963,
    "targetHeadSha": "327cea8183f4bc09581b3b4c54702f2f388926fd",
    "targetHeadDate": "2026-04-02T20:11:43+01:00",
    "severity": "warn",
@@ -749,7 +744,7 @@
     "update-e920d1c"
    ],
    "behindCount": 149,
-   "behindDays": 706.2357175925927,
+   "behindDays": 706.2357175925926,
    "targetHeadSha": "75fa45bdee634e6b3ad36e1db33a69c1ba43417c",
    "targetHeadDate": "2026-06-01T09:43:44+02:00",
    "severity": "crit",
@@ -858,7 +853,7 @@
     "5.0"
    ],
    "behindCount": 594,
-   "behindDays": 214.2639583333333,
+   "behindDays": 214.26395833333333,
    "targetHeadSha": "5b3089dd7b11cfc08560b1638f09d6849bf67e5e",
    "targetHeadDate": "2026-06-10T20:05:02-07:00",
    "severity": "warn",
@@ -966,7 +961,7 @@
     "fix/uninitialized-error"
    ],
    "behindCount": 154,
-   "behindDays": 127.97862268518517,
+   "behindDays": 127.97862268518519,
    "targetHeadSha": "5d2490f515cf773f984da9ec0a1aec103d00d238",
    "targetHeadDate": "2026-06-11T21:40:45+00:00",
    "severity": "warn",
@@ -1127,7 +1122,7 @@
     "release"
    ],
    "behindCount": 274,
-   "behindDays": 265.6977083333333,
+   "behindDays": 265.69770833333337,
    "targetHeadSha": "e8deaf2ec3b53ced589fce6f640061e5b32eeeaa",
    "targetHeadDate": "2026-06-10T11:30:17+02:00",
    "severity": "warn",
@@ -1148,7 +1143,7 @@
     "master"
    ],
    "behindCount": 5,
-   "behindDays": 627.2471412037037,
+   "behindDays": 627.2471412037038,
    "targetHeadSha": "131af2c479c6ba36142ee9805e9f60fc4adfa22c",
    "targetHeadDate": "2026-03-28T13:16:24-04:00",
    "severity": "crit",
@@ -1232,7 +1227,7 @@
     "master"
    ],
    "behindCount": 1,
-   "behindDays": 21.619444444444525,
+   "behindDays": 21.61944444444441,
    "targetHeadSha": "03ce77f4f0228783c1424aca0e62af3878971162",
    "targetHeadDate": "2024-12-31T09:40:59-05:00",
    "severity": "info",
@@ -1727,7 +1722,7 @@
     "main"
    ],
    "behindCount": 213,
-   "behindDays": 997.3578935185185,
+   "behindDays": 997.3578935185186,
    "targetHeadSha": "972a15cedd008d846f1a39b2e88ce48d7f166cbd",
    "targetHeadDate": "2026-01-22T18:27:47-05:00",
    "severity": "crit",
@@ -3459,7 +3454,7 @@
    "updatedAt": "2026-06-06T16:35:17Z",
    "ageDays": 11,
    "idleDays": 5.3,
-   "behindBase": 9,
+   "behindBase": 10,
    "aheadOfBase": 1,
    "ciStatus": null,
    "severity": "info"
@@ -3477,7 +3472,7 @@
    "updatedAt": "2026-06-05T19:05:19Z",
    "ageDays": 21.1,
    "idleDays": 6.2,
-   "behindBase": 24,
+   "behindBase": 25,
    "aheadOfBase": 7,
    "ciStatus": null,
    "severity": "info"
@@ -3495,10 +3490,10 @@
    "updatedAt": "2026-06-11T00:12:35Z",
    "ageDays": 28.8,
    "idleDays": 1,
-   "behindBase": 0,
+   "behindBase": 1,
    "aheadOfBase": 55,
    "ciStatus": null,
-   "severity": "ok"
+   "severity": "info"
   },
   {
    "repo": "ossia/score",
@@ -3512,8 +3507,8 @@
    "createdAt": "2026-04-21T08:17:30Z",
    "updatedAt": "2026-05-29T02:51:59Z",
    "ageDays": 51.6,
-   "idleDays": 13.8,
-   "behindBase": 135,
+   "idleDays": 13.9,
+   "behindBase": 136,
    "aheadOfBase": 1,
    "ciStatus": null,
    "severity": "warn"
@@ -3530,8 +3525,8 @@
    "createdAt": "2026-04-20T03:05:16Z",
    "updatedAt": "2026-05-29T02:51:59Z",
    "ageDays": 52.8,
-   "idleDays": 13.8,
-   "behindBase": 59,
+   "idleDays": 13.9,
+   "behindBase": 60,
    "aheadOfBase": 1,
    "ciStatus": null,
    "severity": "warn"
@@ -3548,8 +3543,8 @@
    "createdAt": "2026-04-02T12:57:29Z",
    "updatedAt": "2026-05-29T02:51:59Z",
    "ageDays": 70.4,
-   "idleDays": 13.8,
-   "behindBase": 136,
+   "idleDays": 13.9,
+   "behindBase": 137,
    "aheadOfBase": 1,
    "ciStatus": null,
    "severity": "warn"
@@ -3566,8 +3561,8 @@
    "createdAt": "2026-03-07T01:30:39Z",
    "updatedAt": "2026-05-29T02:51:59Z",
    "ageDays": 96.9,
-   "idleDays": 13.8,
-   "behindBase": 234,
+   "idleDays": 13.9,
+   "behindBase": 235,
    "aheadOfBase": 5,
    "ciStatus": null,
    "severity": "warn"
@@ -3584,8 +3579,8 @@
    "createdAt": "2026-03-01T23:03:06Z",
    "updatedAt": "2026-05-29T02:51:59Z",
    "ageDays": 102,
-   "idleDays": 13.8,
-   "behindBase": 243,
+   "idleDays": 13.9,
+   "behindBase": 244,
    "aheadOfBase": 1,
    "ciStatus": null,
    "severity": "warn"
@@ -3602,8 +3597,8 @@
    "createdAt": "2026-02-28T01:26:20Z",
    "updatedAt": "2026-05-29T02:51:59Z",
    "ageDays": 103.9,
-   "idleDays": 13.8,
-   "behindBase": 243,
+   "idleDays": 13.9,
+   "behindBase": 244,
    "aheadOfBase": 1,
    "ciStatus": null,
    "severity": "warn"
@@ -3620,8 +3615,8 @@
    "createdAt": "2026-02-23T05:46:50Z",
    "updatedAt": "2026-05-29T02:51:59Z",
    "ageDays": 108.7,
-   "idleDays": 13.8,
-   "behindBase": 271,
+   "idleDays": 13.9,
+   "behindBase": 272,
    "aheadOfBase": 4,
    "ciStatus": null,
    "severity": "warn"
@@ -3638,8 +3633,8 @@
    "createdAt": "2026-02-14T19:53:19Z",
    "updatedAt": "2026-05-29T02:51:59Z",
    "ageDays": 117.1,
-   "idleDays": 13.8,
-   "behindBase": 283,
+   "idleDays": 13.9,
+   "behindBase": 284,
    "aheadOfBase": 1,
    "ciStatus": null,
    "severity": "warn"
@@ -3656,8 +3651,8 @@
    "createdAt": "2026-01-28T00:56:46Z",
    "updatedAt": "2026-05-29T02:51:59Z",
    "ageDays": 134.9,
-   "idleDays": 13.8,
-   "behindBase": 372,
+   "idleDays": 13.9,
+   "behindBase": 373,
    "aheadOfBase": 3,
    "ciStatus": null,
    "severity": "warn"
@@ -3674,8 +3669,8 @@
    "createdAt": "2026-01-25T21:05:19Z",
    "updatedAt": "2026-05-29T02:51:59Z",
    "ageDays": 137.1,
-   "idleDays": 13.8,
-   "behindBase": 396,
+   "idleDays": 13.9,
+   "behindBase": 397,
    "aheadOfBase": 1,
    "ciStatus": null,
    "severity": "warn"
@@ -3692,8 +3687,8 @@
    "createdAt": "2026-01-21T06:07:25Z",
    "updatedAt": "2026-05-29T02:51:59Z",
    "ageDays": 141.7,
-   "idleDays": 13.8,
-   "behindBase": 449,
+   "idleDays": 13.9,
+   "behindBase": 450,
    "aheadOfBase": 1,
    "ciStatus": null,
    "severity": "warn"
@@ -3710,8 +3705,8 @@
    "createdAt": "2026-01-21T06:05:56Z",
    "updatedAt": "2026-05-29T02:51:59Z",
    "ageDays": 141.7,
-   "idleDays": 13.8,
-   "behindBase": 449,
+   "idleDays": 13.9,
+   "behindBase": 450,
    "aheadOfBase": 1,
    "ciStatus": null,
    "severity": "warn"
@@ -3728,8 +3723,8 @@
    "createdAt": "2026-01-11T03:43:42Z",
    "updatedAt": "2026-05-29T02:51:59Z",
    "ageDays": 151.8,
-   "idleDays": 13.8,
-   "behindBase": 466,
+   "idleDays": 13.9,
+   "behindBase": 467,
    "aheadOfBase": 3,
    "ciStatus": null,
    "severity": "warn"
@@ -3746,8 +3741,8 @@
    "createdAt": "2025-11-01T02:39:20Z",
    "updatedAt": "2026-05-29T02:51:59Z",
    "ageDays": 222.9,
-   "idleDays": 13.8,
-   "behindBase": 525,
+   "idleDays": 13.9,
+   "behindBase": 526,
    "aheadOfBase": 3,
    "ciStatus": null,
    "severity": "warn"
@@ -3764,8 +3759,8 @@
    "createdAt": "2025-07-13T19:01:19Z",
    "updatedAt": "2026-05-29T02:51:59Z",
    "ageDays": 333.2,
-   "idleDays": 13.8,
-   "behindBase": 1062,
+   "idleDays": 13.9,
+   "behindBase": 1063,
    "aheadOfBase": 2,
    "ciStatus": null,
    "severity": "warn"
@@ -3782,8 +3777,8 @@
    "createdAt": "2025-05-02T17:34:29Z",
    "updatedAt": "2026-05-29T02:51:59Z",
    "ageDays": 405.2,
-   "idleDays": 13.8,
-   "behindBase": 1116,
+   "idleDays": 13.9,
+   "behindBase": 1117,
    "aheadOfBase": 19,
    "ciStatus": null,
    "severity": "warn"
@@ -3800,8 +3795,8 @@
    "createdAt": "2025-04-21T20:15:12Z",
    "updatedAt": "2026-05-29T02:51:59Z",
    "ageDays": 416.1,
-   "idleDays": 13.8,
-   "behindBase": 1152,
+   "idleDays": 13.9,
+   "behindBase": 1153,
    "aheadOfBase": 1,
    "ciStatus": null,
    "severity": "warn"
@@ -3818,8 +3813,8 @@
    "createdAt": "2025-04-17T18:39:09Z",
    "updatedAt": "2026-05-29T02:51:59Z",
    "ageDays": 420.2,
-   "idleDays": 13.8,
-   "behindBase": 1191,
+   "idleDays": 13.9,
+   "behindBase": 1192,
    "aheadOfBase": 1,
    "ciStatus": null,
    "severity": "warn"
@@ -3836,8 +3831,8 @@
    "createdAt": "2025-04-04T04:12:09Z",
    "updatedAt": "2026-05-29T02:51:59Z",
    "ageDays": 433.8,
-   "idleDays": 13.8,
-   "behindBase": 1271,
+   "idleDays": 13.9,
+   "behindBase": 1272,
    "aheadOfBase": 1,
    "ciStatus": null,
    "severity": "warn"
@@ -3854,8 +3849,8 @@
    "createdAt": "2025-03-22T21:34:38Z",
    "updatedAt": "2026-05-29T02:51:59Z",
    "ageDays": 446.1,
-   "idleDays": 13.8,
-   "behindBase": 1293,
+   "idleDays": 13.9,
+   "behindBase": 1294,
    "aheadOfBase": 1,
    "ciStatus": null,
    "severity": "warn"
@@ -3872,8 +3867,8 @@
    "createdAt": "2025-02-06T17:47:49Z",
    "updatedAt": "2026-05-29T02:52:00Z",
    "ageDays": 490.2,
-   "idleDays": 13.8,
-   "behindBase": 525,
+   "idleDays": 13.9,
+   "behindBase": 526,
    "aheadOfBase": 4,
    "ciStatus": null,
    "severity": "warn"
@@ -3890,8 +3885,8 @@
    "createdAt": "2025-01-16T03:58:31Z",
    "updatedAt": "2026-05-29T02:51:59Z",
    "ageDays": 511.8,
-   "idleDays": 13.8,
-   "behindBase": 952,
+   "idleDays": 13.9,
+   "behindBase": 953,
    "aheadOfBase": 6,
    "ciStatus": null,
    "severity": "warn"
@@ -3908,8 +3903,8 @@
    "createdAt": "2024-12-30T14:33:01Z",
    "updatedAt": "2026-05-29T02:51:59Z",
    "ageDays": 528.4,
-   "idleDays": 13.8,
-   "behindBase": 952,
+   "idleDays": 13.9,
+   "behindBase": 953,
    "aheadOfBase": 1,
    "ciStatus": null,
    "severity": "info"
@@ -3927,7 +3922,7 @@
    "updatedAt": "2026-06-02T23:37:44Z",
    "ageDays": 528.8,
    "idleDays": 9,
-   "behindBase": 31,
+   "behindBase": 32,
    "aheadOfBase": 3,
    "ciStatus": null,
    "severity": "info"
@@ -3944,8 +3939,8 @@
    "createdAt": "2024-12-24T22:59:38Z",
    "updatedAt": "2026-05-29T02:51:59Z",
    "ageDays": 534,
-   "idleDays": 13.8,
-   "behindBase": 1514,
+   "idleDays": 13.9,
+   "behindBase": 1515,
    "aheadOfBase": 1,
    "ciStatus": null,
    "severity": "warn"
@@ -3962,8 +3957,8 @@
    "createdAt": "2024-12-24T22:55:16Z",
    "updatedAt": "2026-05-29T02:51:59Z",
    "ageDays": 534,
-   "idleDays": 13.8,
-   "behindBase": 1299,
+   "idleDays": 13.9,
+   "behindBase": 1300,
    "aheadOfBase": 1,
    "ciStatus": null,
    "severity": "warn"
@@ -3980,8 +3975,8 @@
    "createdAt": "2024-12-24T19:04:13Z",
    "updatedAt": "2026-05-29T02:51:59Z",
    "ageDays": 534.2,
-   "idleDays": 13.8,
-   "behindBase": 1514,
+   "idleDays": 13.9,
+   "behindBase": 1515,
    "aheadOfBase": 1,
    "ciStatus": null,
    "severity": "warn"
@@ -3998,8 +3993,8 @@
    "createdAt": "2024-12-24T19:03:21Z",
    "updatedAt": "2026-05-29T02:51:59Z",
    "ageDays": 534.2,
-   "idleDays": 13.8,
-   "behindBase": 1299,
+   "idleDays": 13.9,
+   "behindBase": 1300,
    "aheadOfBase": 1,
    "ciStatus": null,
    "severity": "warn"
@@ -4016,8 +4011,8 @@
    "createdAt": "2024-12-01T17:48:05Z",
    "updatedAt": "2026-05-29T02:51:59Z",
    "ageDays": 557.2,
-   "idleDays": 13.8,
-   "behindBase": 1514,
+   "idleDays": 13.9,
+   "behindBase": 1515,
    "aheadOfBase": 1,
    "ciStatus": null,
    "severity": "warn"
@@ -4034,8 +4029,8 @@
    "createdAt": "2024-12-01T17:47:05Z",
    "updatedAt": "2026-05-29T02:52:00Z",
    "ageDays": 557.2,
-   "idleDays": 13.8,
-   "behindBase": 1299,
+   "idleDays": 13.9,
+   "behindBase": 1300,
    "aheadOfBase": 3,
    "ciStatus": null,
    "severity": "warn"
@@ -4052,8 +4047,8 @@
    "createdAt": "2024-12-01T17:46:24Z",
    "updatedAt": "2026-05-29T02:52:00Z",
    "ageDays": 557.2,
-   "idleDays": 13.8,
-   "behindBase": 1299,
+   "idleDays": 13.9,
+   "behindBase": 1300,
    "aheadOfBase": 1,
    "ciStatus": null,
    "severity": "warn"
@@ -4070,8 +4065,8 @@
    "createdAt": "2024-12-01T17:46:08Z",
    "updatedAt": "2026-05-29T02:52:00Z",
    "ageDays": 557.2,
-   "idleDays": 13.8,
-   "behindBase": 1514,
+   "idleDays": 13.9,
+   "behindBase": 1515,
    "aheadOfBase": 1,
    "ciStatus": null,
    "severity": "warn"
@@ -4088,8 +4083,8 @@
    "createdAt": "2024-09-25T16:25:13Z",
    "updatedAt": "2026-05-29T02:52:00Z",
    "ageDays": 624.3,
-   "idleDays": 13.8,
-   "behindBase": 282,
+   "idleDays": 13.9,
+   "behindBase": 283,
    "aheadOfBase": 1,
    "ciStatus": null,
    "severity": "info"
@@ -4106,8 +4101,8 @@
    "createdAt": "2023-02-14T12:39:55Z",
    "updatedAt": "2026-05-29T02:52:00Z",
    "ageDays": 1213.4,
-   "idleDays": 13.8,
-   "behindBase": 2682,
+   "idleDays": 13.9,
+   "behindBase": 2683,
    "aheadOfBase": 1,
    "ciStatus": null,
    "severity": "warn"
@@ -4124,8 +4119,8 @@
    "createdAt": "2022-05-10T15:30:38Z",
    "updatedAt": "2026-05-29T02:52:00Z",
    "ageDays": 1493.3,
-   "idleDays": 13.8,
-   "behindBase": 3211,
+   "idleDays": 13.9,
+   "behindBase": 3212,
    "aheadOfBase": 3,
    "ciStatus": null,
    "severity": "warn"
@@ -4142,8 +4137,8 @@
    "createdAt": "2021-08-19T08:02:14Z",
    "updatedAt": "2026-05-29T02:52:00Z",
    "ageDays": 1757.6,
-   "idleDays": 13.8,
-   "behindBase": 3911,
+   "idleDays": 13.9,
+   "behindBase": 3912,
    "aheadOfBase": 20,
    "ciStatus": null,
    "severity": "warn"
@@ -4285,7 +4280,7 @@
    "draft": false,
    "createdAt": "2025-03-22T12:27:31Z",
    "updatedAt": "2026-03-02T20:12:25Z",
-   "ageDays": 446.4,
+   "ageDays": 446.5,
    "idleDays": 101.1,
    "behindBase": 172,
    "aheadOfBase": 1,
@@ -4375,7 +4370,7 @@
    "draft": false,
    "createdAt": "2025-01-04T22:06:58Z",
    "updatedAt": "2026-06-09T23:58:41Z",
-   "ageDays": 523,
+   "ageDays": 523.1,
    "idleDays": 2,
    "behindBase": 65,
    "aheadOfBase": 1,
@@ -4660,7 +4655,9 @@
    "sha": "d915b3f516ab88bbdeadcedde8fd7affb8843d75",
    "lastCommitDate": "2024-09-11T17:13:49-04:00",
    "ahead": 4,
-   "behind": 1845,
+   "aheadReal": 1,
+   "landedEquivalent": 3,
+   "behind": 1846,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -4671,7 +4668,9 @@
    "sha": "5bf3ed6d39760e008a19755fc637e37b1b4fa013",
    "lastCommitDate": "2024-09-12T11:12:58-04:00",
    "ahead": 0,
-   "behind": 1844,
+   "aheadReal": 0,
+   "landedEquivalent": null,
+   "behind": 1845,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -4682,7 +4681,9 @@
    "sha": "a96d6301131372e592b7b3ea295d1df675c2a49c",
    "lastCommitDate": "2024-05-28T12:28:25-04:00",
    "ahead": 0,
-   "behind": 2021,
+   "aheadReal": 0,
+   "landedEquivalent": null,
+   "behind": 2022,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -4693,7 +4694,9 @@
    "sha": "a028378ee067f7a2feb1f83f9c4dd65219ae01ee",
    "lastCommitDate": "2026-02-16T14:00:20-05:00",
    "ahead": 1,
-   "behind": 282,
+   "aheadReal": 1,
+   "landedEquivalent": 0,
+   "behind": 283,
    "hasPR": true,
    "prNumber": 1571,
    "severity": "ok"
@@ -4704,7 +4707,9 @@
    "sha": "f420f6cdbd6612fbf3ec5278664024c726fa0d03",
    "lastCommitDate": "2024-11-18T08:31:23-05:00",
    "ahead": 0,
-   "behind": 1632,
+   "aheadReal": 0,
+   "landedEquivalent": null,
+   "behind": 1633,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -4715,7 +4720,9 @@
    "sha": "83b615b0b766b1566ded1c4e03b45c66f1713f5b",
    "lastCommitDate": "2025-12-29T23:54:50-05:00",
    "ahead": 4,
-   "behind": 525,
+   "aheadReal": 4,
+   "landedEquivalent": 0,
+   "behind": 526,
    "hasPR": true,
    "prNumber": 1710,
    "severity": "ok"
@@ -4726,7 +4733,9 @@
    "sha": "dfad884574a0946b89ed90f8f496e29e5cd268c6",
    "lastCommitDate": "2025-04-30T22:12:44-04:00",
    "ahead": 0,
-   "behind": 1142,
+   "aheadReal": 0,
+   "landedEquivalent": null,
+   "behind": 1143,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -4737,7 +4746,9 @@
    "sha": "f77ca84a3ebfb04c3a5c99f8a866608c8d55a83a",
    "lastCommitDate": "2026-06-05T15:04:41-04:00",
    "ahead": 7,
-   "behind": 24,
+   "aheadReal": 5,
+   "landedEquivalent": 2,
+   "behind": 25,
    "hasPR": true,
    "prNumber": 2052,
    "severity": "ok"
@@ -4748,7 +4759,9 @@
    "sha": "b2f56f78ef31fc19b5a29bd14108141401eb8103",
    "lastCommitDate": "2026-03-09T09:09:49-04:00",
    "ahead": 0,
-   "behind": 215,
+   "aheadReal": 0,
+   "landedEquivalent": null,
+   "behind": 216,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -4759,7 +4772,9 @@
    "sha": "2aa4e0185244b5236c596d6ce5dc78af3784cd17",
    "lastCommitDate": "2026-02-14T14:52:42-05:00",
    "ahead": 1,
-   "behind": 283,
+   "aheadReal": 1,
+   "landedEquivalent": 0,
+   "behind": 284,
    "hasPR": true,
    "prNumber": 1963,
    "severity": "ok"
@@ -4770,7 +4785,9 @@
    "sha": "e039964945774e636d882d33f2211fa8463d59b5",
    "lastCommitDate": "2021-10-25T09:33:28+02:00",
    "ahead": 2,
-   "behind": 5831,
+   "aheadReal": 2,
+   "landedEquivalent": 0,
+   "behind": 5832,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -4781,10 +4798,12 @@
    "sha": "e314bd071b400027f2b893e11eaadb6b9bb2ff3a",
    "lastCommitDate": "2026-03-28T15:41:08-04:00",
    "ahead": 1,
-   "behind": 180,
+   "aheadReal": 0,
+   "landedEquivalent": 1,
+   "behind": 181,
    "hasPR": false,
    "prNumber": null,
-   "severity": "info"
+   "severity": "ok"
   },
   {
    "repo": "ossia/score",
@@ -4792,10 +4811,12 @@
    "sha": "4b3e7ef1936ce51ef303af215ea7a28762c77548",
    "lastCommitDate": "2025-01-22T16:14:25-05:00",
    "ahead": 13,
-   "behind": 1506,
+   "aheadReal": 0,
+   "landedEquivalent": 13,
+   "behind": 1507,
    "hasPR": false,
    "prNumber": null,
-   "severity": "warn"
+   "severity": "ok"
   },
   {
    "repo": "ossia/score",
@@ -4803,7 +4824,9 @@
    "sha": "1414045f741b7c04fbfb845c0019c88c9587542a",
    "lastCommitDate": "2022-06-15T12:23:56+02:00",
    "ahead": 1,
-   "behind": 3169,
+   "aheadReal": 1,
+   "landedEquivalent": 0,
+   "behind": 3170,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -4814,10 +4837,12 @@
    "sha": "16c608efd0324e2e2e1a42f05bc789f72b44295e",
    "lastCommitDate": "2025-01-11T18:27:38-05:00",
    "ahead": 1,
-   "behind": 1420,
+   "aheadReal": 0,
+   "landedEquivalent": 1,
+   "behind": 1421,
    "hasPR": false,
    "prNumber": null,
-   "severity": "warn"
+   "severity": "ok"
   },
   {
    "repo": "ossia/score",
@@ -4825,7 +4850,9 @@
    "sha": "107a18fdd4ee39107f0aedfd6445efbff471ce35",
    "lastCommitDate": "2026-06-09T08:29:14-04:00",
    "ahead": 3,
-   "behind": 1,
+   "aheadReal": 3,
+   "landedEquivalent": 0,
+   "behind": 2,
    "hasPR": false,
    "prNumber": null,
    "severity": "info"
@@ -4836,18 +4863,22 @@
    "sha": "581e63806b793f5283a7f34b717ba5da215b2e3e",
    "lastCommitDate": "2026-06-10T10:14:53-04:00",
    "ahead": 1,
-   "behind": 1,
+   "aheadReal": 0,
+   "landedEquivalent": 1,
+   "behind": 2,
    "hasPR": false,
    "prNumber": null,
-   "severity": "info"
+   "severity": "ok"
   },
   {
    "repo": "ossia/score",
    "name": "claude/scene-graph-build-fixes-cyhwnm",
-   "sha": "3403f299ac5b1e56f5a32a241647d9edae9be4b1",
-   "lastCommitDate": "2026-06-11T22:57:07+00:00",
-   "ahead": 67,
-   "behind": 0,
+   "sha": "2562991346da6ea6957b09d76b8f278b065e202e",
+   "lastCommitDate": "2026-06-11T23:14:42+00:00",
+   "ahead": 68,
+   "aheadReal": 68,
+   "landedEquivalent": 0,
+   "behind": 1,
    "hasPR": false,
    "prNumber": null,
    "severity": "info"
@@ -4858,7 +4889,9 @@
    "sha": "3c7480b5a4e85cfd600ea6d84b77457ee62239c8",
    "lastCommitDate": "2020-10-19T18:05:35+02:00",
    "ahead": 1,
-   "behind": 4925,
+   "aheadReal": 1,
+   "landedEquivalent": 0,
+   "behind": 4926,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -4869,10 +4902,12 @@
    "sha": "419cae3bf1236fd75a52d17ed9ef6b67b2182f7c",
    "lastCommitDate": "2026-06-05T15:37:31-04:00",
    "ahead": 2,
-   "behind": 24,
+   "aheadReal": 0,
+   "landedEquivalent": 2,
+   "behind": 25,
    "hasPR": false,
    "prNumber": null,
-   "severity": "info"
+   "severity": "ok"
   },
   {
    "repo": "ossia/score",
@@ -4880,7 +4915,9 @@
    "sha": "b4db99b19fc2920e24d74c8b39fe7ef436fed99f",
    "lastCommitDate": "2016-03-15T12:10:42+01:00",
    "ahead": 2,
-   "behind": 9330,
+   "aheadReal": 2,
+   "landedEquivalent": 0,
+   "behind": 9331,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -4891,10 +4928,12 @@
    "sha": "5cbb25d8055a6e2e33082d4052accde34504741e",
    "lastCommitDate": "2026-05-10T21:47:05-04:00",
    "ahead": 2,
-   "behind": 47,
+   "aheadReal": 0,
+   "landedEquivalent": 2,
+   "behind": 48,
    "hasPR": false,
    "prNumber": null,
-   "severity": "info"
+   "severity": "ok"
   },
   {
    "repo": "ossia/score",
@@ -4902,7 +4941,9 @@
    "sha": "f39f3c1adaa553b8c9f66459dd3787207046a1cb",
    "lastCommitDate": "2026-03-01T17:50:44-05:00",
    "ahead": 1,
-   "behind": 243,
+   "aheadReal": 1,
+   "landedEquivalent": 0,
+   "behind": 244,
    "hasPR": true,
    "prNumber": 1975,
    "severity": "ok"
@@ -4913,7 +4954,9 @@
    "sha": "04c15bced5e6e808b4c64920966ab6792b98b35e",
    "lastCommitDate": "2026-01-21T01:05:49-05:00",
    "ahead": 1,
-   "behind": 449,
+   "aheadReal": 1,
+   "landedEquivalent": 0,
+   "behind": 450,
    "hasPR": true,
    "prNumber": 1940,
    "severity": "ok"
@@ -4924,7 +4967,9 @@
    "sha": "093b5c34a16d637cce3a92acfaaaf33e3d43ef7a",
    "lastCommitDate": "2026-03-06T20:30:10-05:00",
    "ahead": 5,
-   "behind": 234,
+   "aheadReal": 2,
+   "landedEquivalent": 3,
+   "behind": 235,
    "hasPR": true,
    "prNumber": 1989,
    "severity": "ok"
@@ -4935,7 +4980,9 @@
    "sha": "cec5c3154659f2eb96af968ad4d9c7b3d61c4c1e",
    "lastCommitDate": "2026-01-11T11:26:25-05:00",
    "ahead": 3,
-   "behind": 466,
+   "aheadReal": 3,
+   "landedEquivalent": 0,
+   "behind": 467,
    "hasPR": true,
    "prNumber": 1933,
    "severity": "ok"
@@ -4946,7 +4993,9 @@
    "sha": "b6ca73681515c2b0b93a2d42b96b88c71926f8f0",
    "lastCommitDate": "2025-03-22T15:35:27+01:00",
    "ahead": 3,
-   "behind": 1299,
+   "aheadReal": 2,
+   "landedEquivalent": 1,
+   "behind": 1300,
    "hasPR": true,
    "prNumber": 1604,
    "severity": "ok"
@@ -4957,7 +5006,9 @@
    "sha": "a7bb9330db35cb55ea9e8f4ab913afb88d8971f3",
    "lastCommitDate": "2026-06-02T08:40:17-04:00",
    "ahead": 1,
-   "behind": 31,
+   "aheadReal": 1,
+   "landedEquivalent": 0,
+   "behind": 32,
    "hasPR": false,
    "prNumber": null,
    "severity": "info"
@@ -4968,7 +5019,9 @@
    "sha": "7eff9a82467b8040c896333a7f484fecb9af631b",
    "lastCommitDate": "2025-03-22T15:34:45+01:00",
    "ahead": 1,
-   "behind": 1299,
+   "aheadReal": 1,
+   "landedEquivalent": 0,
+   "behind": 1300,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -4979,7 +5032,9 @@
    "sha": "7ad0de8733811c1e5e8061022066357501eca5e1",
    "lastCommitDate": "2025-03-22T15:29:54+01:00",
    "ahead": 1,
-   "behind": 1299,
+   "aheadReal": 1,
+   "landedEquivalent": 0,
+   "behind": 1300,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -4990,7 +5045,9 @@
    "sha": "086c53cd9c6ad7d37c6b6c036a54cdbf1e7b9912",
    "lastCommitDate": "2025-07-29T23:47:08-04:00",
    "ahead": 1,
-   "behind": 952,
+   "aheadReal": 1,
+   "landedEquivalent": 0,
+   "behind": 953,
    "hasPR": true,
    "prNumber": 1652,
    "severity": "ok"
@@ -5001,7 +5058,9 @@
    "sha": "164651b5082496b4f225f03f293455ad98abad0a",
    "lastCommitDate": "2024-12-25T23:52:28-05:00",
    "ahead": 1,
-   "behind": 1514,
+   "aheadReal": 1,
+   "landedEquivalent": 0,
+   "behind": 1515,
    "hasPR": true,
    "prNumber": 1638,
    "severity": "ok"
@@ -5012,10 +5071,12 @@
    "sha": "44776c61e3a9aa41cee4d4ee31ce2e56ac75aab2",
    "lastCommitDate": "2022-11-03T16:15:44+01:00",
    "ahead": 2,
-   "behind": 2831,
+   "aheadReal": 0,
+   "landedEquivalent": 2,
+   "behind": 2832,
    "hasPR": false,
    "prNumber": null,
-   "severity": "warn"
+   "severity": "ok"
   },
   {
    "repo": "ossia/score",
@@ -5023,7 +5084,9 @@
    "sha": "f6389f21555c54e02b54f701f623201b156fc777",
    "lastCommitDate": "2024-08-28T20:16:40-04:00",
    "ahead": 2,
-   "behind": 1859,
+   "aheadReal": 2,
+   "landedEquivalent": 0,
+   "behind": 1860,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -5034,7 +5097,9 @@
    "sha": "f0bc54e81873d5ca161dfaa0e5e28f1970318bfc",
    "lastCommitDate": "2025-03-22T15:32:07+01:00",
    "ahead": 1,
-   "behind": 1299,
+   "aheadReal": 1,
+   "landedEquivalent": 0,
+   "behind": 1300,
    "hasPR": true,
    "prNumber": 1631,
    "severity": "ok"
@@ -5045,7 +5110,9 @@
    "sha": "d01a02a6bb5b1e9468007e8e4a058b7ee834d65a",
    "lastCommitDate": "2024-12-25T23:54:59-05:00",
    "ahead": 1,
-   "behind": 1514,
+   "aheadReal": 1,
+   "landedEquivalent": 0,
+   "behind": 1515,
    "hasPR": true,
    "prNumber": 1632,
    "severity": "ok"
@@ -5056,7 +5123,9 @@
    "sha": "045ac1deabd4ec11caee3cca9f718a44f30fa017",
    "lastCommitDate": "2025-03-22T15:31:47+01:00",
    "ahead": 1,
-   "behind": 1299,
+   "aheadReal": 1,
+   "landedEquivalent": 0,
+   "behind": 1300,
    "hasPR": true,
    "prNumber": 1636,
    "severity": "ok"
@@ -5067,7 +5136,9 @@
    "sha": "516b2d45b54f253dc1b0309ccf63cb2c37772956",
    "lastCommitDate": "2024-12-25T23:55:39-05:00",
    "ahead": 1,
-   "behind": 1514,
+   "aheadReal": 1,
+   "landedEquivalent": 0,
+   "behind": 1515,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -5078,7 +5149,9 @@
    "sha": "1743e151d53f5f456b253e799c9716bcb9eaf0c4",
    "lastCommitDate": "2025-02-08T10:26:26-05:00",
    "ahead": 2,
-   "behind": 1360,
+   "aheadReal": 1,
+   "landedEquivalent": 1,
+   "behind": 1361,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -5089,10 +5162,12 @@
    "sha": "4bd8e43d999f66b7ce79654ca6ecb2d028fa67a6",
    "lastCommitDate": "2026-06-08T00:17:19-04:00",
    "ahead": 5,
-   "behind": 9,
+   "aheadReal": 0,
+   "landedEquivalent": 5,
+   "behind": 10,
    "hasPR": false,
    "prNumber": null,
-   "severity": "info"
+   "severity": "ok"
   },
   {
    "repo": "ossia/score",
@@ -5100,7 +5175,9 @@
    "sha": "09de3578b017a86119501f7334352df413c3e4fe",
    "lastCommitDate": "2024-12-25T23:55:17-05:00",
    "ahead": 1,
-   "behind": 1514,
+   "aheadReal": 1,
+   "landedEquivalent": 0,
+   "behind": 1515,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -5111,10 +5188,12 @@
    "sha": "a6f843f8c066732a46204298e42fa909a4c6554c",
    "lastCommitDate": "2023-11-21T11:11:48-05:00",
    "ahead": 3,
-   "behind": 2300,
+   "aheadReal": 0,
+   "landedEquivalent": 3,
+   "behind": 2301,
    "hasPR": false,
    "prNumber": null,
-   "severity": "warn"
+   "severity": "ok"
   },
   {
    "repo": "ossia/score",
@@ -5122,7 +5201,9 @@
    "sha": "5dc9c9d126f555e5cc7c8b87932c7ec8b978b448",
    "lastCommitDate": "2026-03-23T05:03:10-04:00",
    "ahead": 7,
-   "behind": 209,
+   "aheadReal": 1,
+   "landedEquivalent": 6,
+   "behind": 210,
    "hasPR": false,
    "prNumber": null,
    "severity": "info"
@@ -5133,10 +5214,12 @@
    "sha": "befbb713ca42fb8468db2c88a66e6cc03b977908",
    "lastCommitDate": "2022-06-17T11:07:13+02:00",
    "ahead": 1,
-   "behind": 3119,
+   "aheadReal": 0,
+   "landedEquivalent": 1,
+   "behind": 3120,
    "hasPR": false,
    "prNumber": null,
-   "severity": "warn"
+   "severity": "ok"
   },
   {
    "repo": "ossia/score",
@@ -5144,7 +5227,9 @@
    "sha": "1ce257fb2c61d2c60cf919fe2a1ee506e95579ff",
    "lastCommitDate": "2025-04-04T00:12:00-04:00",
    "ahead": 1,
-   "behind": 1271,
+   "aheadReal": 1,
+   "landedEquivalent": 0,
+   "behind": 1272,
    "hasPR": true,
    "prNumber": 1757,
    "severity": "ok"
@@ -5155,7 +5240,9 @@
    "sha": "a34f9b4f41d1422388267b082a8e13682c30d22b",
    "lastCommitDate": "2026-01-21T01:07:15-05:00",
    "ahead": 1,
-   "behind": 449,
+   "aheadReal": 1,
+   "landedEquivalent": 0,
+   "behind": 450,
    "hasPR": true,
    "prNumber": 1941,
    "severity": "ok"
@@ -5166,7 +5253,9 @@
    "sha": "e492333da3f300782dd5083d68f8d2442f3376d7",
    "lastCommitDate": "2021-01-13T23:52:46+01:00",
    "ahead": 1,
-   "behind": 4690,
+   "aheadReal": 1,
+   "landedEquivalent": 0,
+   "behind": 4691,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -5177,7 +5266,9 @@
    "sha": "6111578f894cf344955cf3e0ba07ee19eed48319",
    "lastCommitDate": "2019-03-28T10:36:57-07:00",
    "ahead": 1,
-   "behind": 6092,
+   "aheadReal": 1,
+   "landedEquivalent": 0,
+   "behind": 6093,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -5188,7 +5279,9 @@
    "sha": "d34f62f50191389efbb1424277504b9da9f1a2ab",
    "lastCommitDate": "2026-06-07T20:44:21-04:00",
    "ahead": 1,
-   "behind": 9,
+   "aheadReal": 1,
+   "landedEquivalent": 0,
+   "behind": 10,
    "hasPR": false,
    "prNumber": null,
    "severity": "info"
@@ -5199,10 +5292,12 @@
    "sha": "cfff7f724f6d99132083e864905dd30ec69a3a1b",
    "lastCommitDate": "2024-11-09T13:26:26-05:00",
    "ahead": 8,
-   "behind": 1708,
+   "aheadReal": 0,
+   "landedEquivalent": 8,
+   "behind": 1709,
    "hasPR": false,
    "prNumber": null,
-   "severity": "warn"
+   "severity": "ok"
   },
   {
    "repo": "ossia/score",
@@ -5210,10 +5305,12 @@
    "sha": "57409c60f17250cc025e15f9f8f540a16fd2c697",
    "lastCommitDate": "2026-06-05T11:10:09-04:00",
    "ahead": 3,
-   "behind": 27,
+   "aheadReal": 0,
+   "landedEquivalent": 3,
+   "behind": 28,
    "hasPR": false,
    "prNumber": null,
-   "severity": "info"
+   "severity": "ok"
   },
   {
    "repo": "ossia/score",
@@ -5221,10 +5318,12 @@
    "sha": "6f0e5e3bf53422aeba743436a35fd2c76372e6f2",
    "lastCommitDate": "2025-03-22T15:38:12+01:00",
    "ahead": 1,
-   "behind": 1299,
+   "aheadReal": 0,
+   "landedEquivalent": 1,
+   "behind": 1300,
    "hasPR": false,
    "prNumber": null,
-   "severity": "warn"
+   "severity": "ok"
   },
   {
    "repo": "ossia/score",
@@ -5232,7 +5331,9 @@
    "sha": "aae4131d8a778896e6f2efc36642e1cb6aa74b01",
    "lastCommitDate": "2026-03-01T18:02:52-05:00",
    "ahead": 1,
-   "behind": 243,
+   "aheadReal": 1,
+   "landedEquivalent": 0,
+   "behind": 244,
    "hasPR": true,
    "prNumber": 1978,
    "severity": "ok"
@@ -5243,7 +5344,9 @@
    "sha": "4417b7ffe15209a4b24d23c2a05cd62c18e3ab7e",
    "lastCommitDate": "2025-12-29T23:46:10-05:00",
    "ahead": 3,
-   "behind": 525,
+   "aheadReal": 3,
+   "landedEquivalent": 0,
+   "behind": 526,
    "hasPR": true,
    "prNumber": 1892,
    "severity": "ok"
@@ -5254,7 +5357,9 @@
    "sha": "c440449052a9362bf45099b264d53c4f6a4d6376",
    "lastCommitDate": "2017-03-01T22:23:01+01:00",
    "ahead": 4,
-   "behind": 8049,
+   "aheadReal": 3,
+   "landedEquivalent": 0,
+   "behind": 8050,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -5265,10 +5370,12 @@
    "sha": "da2acee5c7dd1297c6d8530de56ac6592eab765d",
    "lastCommitDate": "2026-05-28T22:19:22-04:00",
    "ahead": 2,
-   "behind": 44,
+   "aheadReal": 0,
+   "landedEquivalent": 2,
+   "behind": 45,
    "hasPR": false,
    "prNumber": null,
-   "severity": "info"
+   "severity": "ok"
   },
   {
    "repo": "ossia/score",
@@ -5276,7 +5383,9 @@
    "sha": "f5537e27fb0148e9940f7e06d6c962c6b406d7ba",
    "lastCommitDate": "2025-07-29T23:47:37-04:00",
    "ahead": 6,
-   "behind": 952,
+   "aheadReal": 6,
+   "landedEquivalent": 0,
+   "behind": 953,
    "hasPR": true,
    "prNumber": 1676,
    "severity": "ok"
@@ -5287,7 +5396,9 @@
    "sha": "83dd93d588b7a639d6d3050cb921175ede3d3bf9",
    "lastCommitDate": "2026-04-02T18:02:58-04:00",
    "ahead": 14,
-   "behind": 136,
+   "aheadReal": 12,
+   "landedEquivalent": 2,
+   "behind": 137,
    "hasPR": false,
    "prNumber": null,
    "severity": "info"
@@ -5298,7 +5409,9 @@
    "sha": "9c3350b6a5f59c562012b4b2af43d3af0c83d919",
    "lastCommitDate": "2026-06-02T12:20:06-04:00",
    "ahead": 1,
-   "behind": 31,
+   "aheadReal": 1,
+   "landedEquivalent": 0,
+   "behind": 32,
    "hasPR": false,
    "prNumber": null,
    "severity": "info"
@@ -5309,7 +5422,9 @@
    "sha": "cfa8e510075df25c50a76840326c8c7201836019",
    "lastCommitDate": "2019-03-09T17:54:41+01:00",
    "ahead": 1,
-   "behind": 6119,
+   "aheadReal": 1,
+   "landedEquivalent": 0,
+   "behind": 6120,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -5320,7 +5435,9 @@
    "sha": "5ccab9e84b4bcbf4c03783f7a710dae4832838a5",
    "lastCommitDate": "2019-01-06T16:26:27+01:00",
    "ahead": 13,
-   "behind": 6221,
+   "aheadReal": 11,
+   "landedEquivalent": 1,
+   "behind": 6222,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -5331,7 +5448,9 @@
    "sha": "e025e050f0e435c7b3ff77444ef064ec0159c66a",
    "lastCommitDate": "2026-06-02T19:37:46-04:00",
    "ahead": 3,
-   "behind": 31,
+   "aheadReal": 2,
+   "landedEquivalent": 1,
+   "behind": 32,
    "hasPR": true,
    "prNumber": 1649,
    "severity": "ok"
@@ -5342,10 +5461,12 @@
    "sha": "ddc581ec88b29d4247c4ed43e561705783123dd3",
    "lastCommitDate": "2026-06-01T09:38:14-04:00",
    "ahead": 1,
-   "behind": 32,
+   "aheadReal": 0,
+   "landedEquivalent": 1,
+   "behind": 33,
    "hasPR": false,
    "prNumber": null,
-   "severity": "info"
+   "severity": "ok"
   },
   {
    "repo": "ossia/score",
@@ -5353,7 +5474,9 @@
    "sha": "d2181e3a9ff6b0d832a77ec5d19950f86c8410cb",
    "lastCommitDate": "2025-03-22T12:38:14+01:00",
    "ahead": 1,
-   "behind": 1299,
+   "aheadReal": 1,
+   "landedEquivalent": 0,
+   "behind": 1300,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -5364,10 +5487,12 @@
    "sha": "44d6fb876ba65b7ef4d0a698b5a0b031e085189d",
    "lastCommitDate": "2026-05-30T17:32:25-04:00",
    "ahead": 1,
-   "behind": 44,
+   "aheadReal": 0,
+   "landedEquivalent": 1,
+   "behind": 45,
    "hasPR": false,
    "prNumber": null,
-   "severity": "info"
+   "severity": "ok"
   },
   {
    "repo": "ossia/score",
@@ -5375,7 +5500,9 @@
    "sha": "7d288e366081dc69e904f055f6e5bed927b14d14",
    "lastCommitDate": "2025-03-22T17:34:29-04:00",
    "ahead": 1,
-   "behind": 1293,
+   "aheadReal": 1,
+   "landedEquivalent": 0,
+   "behind": 1294,
    "hasPR": true,
    "prNumber": 1745,
    "severity": "ok"
@@ -5386,7 +5513,9 @@
    "sha": "2e1185f109ef3d13e6bdde5fbeb4fcf035982cdd",
    "lastCommitDate": "2026-01-25T16:05:11-05:00",
    "ahead": 1,
-   "behind": 396,
+   "aheadReal": 1,
+   "landedEquivalent": 0,
+   "behind": 397,
    "hasPR": true,
    "prNumber": 1946,
    "severity": "ok"
@@ -5397,7 +5526,9 @@
    "sha": "152af712fb631fb7945fafe51de15fbfeeb59cde",
    "lastCommitDate": "2021-08-11T15:07:33+02:00",
    "ahead": 4,
-   "behind": 3993,
+   "aheadReal": 4,
+   "landedEquivalent": 0,
+   "behind": 3994,
    "hasPR": true,
    "prNumber": 1287,
    "severity": "ok"
@@ -5408,7 +5539,9 @@
    "sha": "7c138413bd94f02c932b4783a0e104ec11e86397",
    "lastCommitDate": "2026-04-02T08:57:11-04:00",
    "ahead": 1,
-   "behind": 136,
+   "aheadReal": 1,
+   "landedEquivalent": 0,
+   "behind": 137,
    "hasPR": true,
    "prNumber": 2019,
    "severity": "ok"
@@ -5419,10 +5552,12 @@
    "sha": "422b2bced29f43f9f055d2331191fb6e3c3efb75",
    "lastCommitDate": "2026-06-05T23:42:38-04:00",
    "ahead": 12,
-   "behind": 22,
+   "aheadReal": 0,
+   "landedEquivalent": 12,
+   "behind": 23,
    "hasPR": false,
    "prNumber": null,
-   "severity": "info"
+   "severity": "ok"
   },
   {
    "repo": "ossia/score",
@@ -5430,7 +5565,9 @@
    "sha": "9cf0bfd9461b9d5e35fac7c7debc143fbb0362ed",
    "lastCommitDate": "2026-06-10T20:12:23-04:00",
    "ahead": 55,
-   "behind": 0,
+   "aheadReal": 55,
+   "landedEquivalent": 0,
+   "behind": 1,
    "hasPR": true,
    "prNumber": 2050,
    "severity": "ok"
@@ -5441,7 +5578,9 @@
    "sha": "ab7b7223b0bf2a23dbf5b2a99f23707d0a48f7d2",
    "lastCommitDate": "2026-06-06T12:35:09-04:00",
    "ahead": 1,
-   "behind": 9,
+   "aheadReal": 1,
+   "landedEquivalent": 0,
+   "behind": 10,
    "hasPR": true,
    "prNumber": 2065,
    "severity": "ok"
@@ -5452,10 +5591,12 @@
    "sha": "1fdbb288e5fa2dba293540eeb195c27c713af3ef",
    "lastCommitDate": "2026-06-02T22:07:11-04:00",
    "ahead": 2,
-   "behind": 30,
+   "aheadReal": 0,
+   "landedEquivalent": 2,
+   "behind": 31,
    "hasPR": false,
    "prNumber": null,
-   "severity": "info"
+   "severity": "ok"
   },
   {
    "repo": "ossia/score",
@@ -5463,10 +5604,12 @@
    "sha": "36b551f3a5ac5ec4624e7256d942d8654bb1d757",
    "lastCommitDate": "2024-12-21T17:14:45-05:00",
    "ahead": 1,
-   "behind": 1522,
+   "aheadReal": 0,
+   "landedEquivalent": 1,
+   "behind": 1523,
    "hasPR": false,
    "prNumber": null,
-   "severity": "warn"
+   "severity": "ok"
   },
   {
    "repo": "ossia/score",
@@ -5474,10 +5617,12 @@
    "sha": "9cb7f1db946ba94b8323114f1b2d03bc10c581de",
    "lastCommitDate": "2026-05-30T17:44:55-04:00",
    "ahead": 2,
-   "behind": 34,
+   "aheadReal": 0,
+   "landedEquivalent": 2,
+   "behind": 35,
    "hasPR": false,
    "prNumber": null,
-   "severity": "info"
+   "severity": "ok"
   },
   {
    "repo": "ossia/score",
@@ -5485,7 +5630,9 @@
    "sha": "b09359ef6a6ee608e2fd208cf042292fab32b928",
    "lastCommitDate": "2025-04-17T14:38:41-04:00",
    "ahead": 1,
-   "behind": 1191,
+   "aheadReal": 1,
+   "landedEquivalent": 0,
+   "behind": 1192,
    "hasPR": true,
    "prNumber": 1768,
    "severity": "ok"
@@ -5496,7 +5643,9 @@
    "sha": "cb4c14a4bb2e5db4da9b5213fe19165c22850a5d",
    "lastCommitDate": "2025-04-21T16:58:01-04:00",
    "ahead": 1,
-   "behind": 1152,
+   "aheadReal": 1,
+   "landedEquivalent": 0,
+   "behind": 1153,
    "hasPR": true,
    "prNumber": 1772,
    "severity": "ok"
@@ -5507,7 +5656,9 @@
    "sha": "90376e738dc9dcacabb9cea7ac9d4da88b70d128",
    "lastCommitDate": "2023-01-03T16:52:41+01:00",
    "ahead": 1,
-   "behind": 2741,
+   "aheadReal": 1,
+   "landedEquivalent": 0,
+   "behind": 2742,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -5518,7 +5669,9 @@
    "sha": "c9ffab0d45cc33bfe13f1834442167a4453bc4d0",
    "lastCommitDate": "2026-04-20T04:05:01+01:00",
    "ahead": 1,
-   "behind": 59,
+   "aheadReal": 1,
+   "landedEquivalent": 0,
+   "behind": 60,
    "hasPR": true,
    "prNumber": 2032,
    "severity": "ok"
@@ -5529,7 +5682,9 @@
    "sha": "88e148162de3527bf4a1bb5a1ae0524d02da18bb",
    "lastCommitDate": "2026-01-29T00:12:20-05:00",
    "ahead": 3,
-   "behind": 372,
+   "aheadReal": 3,
+   "landedEquivalent": 0,
+   "behind": 373,
    "hasPR": true,
    "prNumber": 1950,
    "severity": "ok"
@@ -5540,7 +5695,9 @@
    "sha": "6ddd7f01ffdd41d1d6f709bee44868551294317b",
    "lastCommitDate": "2026-02-24T13:26:18-05:00",
    "ahead": 4,
-   "behind": 271,
+   "aheadReal": 2,
+   "landedEquivalent": 2,
+   "behind": 272,
    "hasPR": true,
    "prNumber": 1969,
    "severity": "ok"
@@ -5551,7 +5708,9 @@
    "sha": "e99d82b1d5d686592a8f98de9c361e15e69ed5c1",
    "lastCommitDate": "2026-04-21T10:17:14+02:00",
    "ahead": 1,
-   "behind": 135,
+   "aheadReal": 1,
+   "landedEquivalent": 0,
+   "behind": 136,
    "hasPR": true,
    "prNumber": 2034,
    "severity": "ok"
@@ -5562,7 +5721,9 @@
    "sha": "08c529a130b65b2649768df8c3c272b537fd8aad",
    "lastCommitDate": "2026-02-27T12:14:30-05:00",
    "ahead": 4,
-   "behind": 250,
+   "aheadReal": 3,
+   "landedEquivalent": 1,
+   "behind": 251,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -5573,7 +5734,9 @@
    "sha": "e94b10d2df59cc2b8c2c43d71dccdebca8391fb4",
    "lastCommitDate": "2025-12-17T17:00:59-05:00",
    "ahead": 1,
-   "behind": 594,
+   "aheadReal": 1,
+   "landedEquivalent": 0,
+   "behind": 595,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -5584,7 +5747,9 @@
    "sha": "8e794a45ea12eb2f191e7a9921ee8042b626d09f",
    "lastCommitDate": "2026-04-08T21:55:30+02:00",
    "ahead": 4,
-   "behind": 132,
+   "aheadReal": 4,
+   "landedEquivalent": 0,
+   "behind": 133,
    "hasPR": false,
    "prNumber": null,
    "severity": "info"
@@ -5595,7 +5760,9 @@
    "sha": "3fe42c549be54adb562544c46abe3034e90563ff",
    "lastCommitDate": "2016-08-01T15:12:05+02:00",
    "ahead": 8,
-   "behind": 8725,
+   "aheadReal": 7,
+   "landedEquivalent": 1,
+   "behind": 8726,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -5606,7 +5773,9 @@
    "sha": "45a52198fe1d433ea1733a9e38e8295af4c0e1b0",
    "lastCommitDate": "2023-05-17T14:31:39-04:00",
    "ahead": 12,
-   "behind": 2515,
+   "aheadReal": 12,
+   "landedEquivalent": 0,
+   "behind": 2516,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -5617,7 +5786,9 @@
    "sha": "74fdbc4164759c1478abf82f948644a377ff52d2",
    "lastCommitDate": "2024-05-19T17:55:18+02:00",
    "ahead": 0,
-   "behind": 2059,
+   "aheadReal": 0,
+   "landedEquivalent": null,
+   "behind": 2060,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -5628,7 +5799,9 @@
    "sha": "96b815cc262c151f5da0c05ac906bc37dc4fd29f",
    "lastCommitDate": "2022-02-20T10:06:01+01:00",
    "ahead": 1,
-   "behind": 3387,
+   "aheadReal": 1,
+   "landedEquivalent": 0,
+   "behind": 3388,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -5639,7 +5812,9 @@
    "sha": "e3ff08606f9c6c69687c6d7cd38ea36f2530959e",
    "lastCommitDate": "2020-01-27T22:34:17+01:00",
    "ahead": 3,
-   "behind": 5812,
+   "aheadReal": 2,
+   "landedEquivalent": 1,
+   "behind": 5813,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -5650,7 +5825,9 @@
    "sha": "a83476d2b0f812d15ca57b5293d6eef9ec582fd2",
    "lastCommitDate": "2019-07-22T00:22:25+02:00",
    "ahead": 1,
-   "behind": 5883,
+   "aheadReal": 1,
+   "landedEquivalent": 0,
+   "behind": 5884,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -5661,10 +5838,12 @@
    "sha": "45fd2c9d7c2bd8ebe49ff43f98895208345e87f1",
    "lastCommitDate": "2022-06-05T14:45:25+02:00",
    "ahead": 10,
-   "behind": 3163,
+   "aheadReal": 0,
+   "landedEquivalent": 10,
+   "behind": 3164,
    "hasPR": false,
    "prNumber": null,
-   "severity": "warn"
+   "severity": "ok"
   },
   {
    "repo": "ossia/score",
@@ -5672,7 +5851,9 @@
    "sha": "f2d5e29fc0fca9898fe64c74848428b68a334b72",
    "lastCommitDate": "2026-06-01T20:49:39-04:00",
    "ahead": 1,
-   "behind": 31,
+   "aheadReal": 1,
+   "landedEquivalent": 0,
+   "behind": 32,
    "hasPR": false,
    "prNumber": null,
    "severity": "info"
@@ -5683,7 +5864,9 @@
    "sha": "7129362ab5efd34acdcc61d7f16bd0430ba1280a",
    "lastCommitDate": "2022-09-03T16:03:22+02:00",
    "ahead": 1,
-   "behind": 2913,
+   "aheadReal": 1,
+   "landedEquivalent": 0,
+   "behind": 2914,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -5694,7 +5877,9 @@
    "sha": "dfaad530fbe919d4c2d596c4534546d73eabb0d8",
    "lastCommitDate": "2017-12-29T22:16:45+01:00",
    "ahead": 0,
-   "behind": 7314,
+   "aheadReal": 0,
+   "landedEquivalent": null,
+   "behind": 7315,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -5705,7 +5890,9 @@
    "sha": "a86031d82dbb6133efcf5560ad8d916016c9d6a5",
    "lastCommitDate": "2016-08-01T13:53:49+02:00",
    "ahead": 5,
-   "behind": 8725,
+   "aheadReal": 5,
+   "landedEquivalent": 0,
+   "behind": 8726,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -5716,7 +5903,9 @@
    "sha": "b55a22bd45f508d3e48519de4c4ef75f10ce04c2",
    "lastCommitDate": "2022-06-24T09:59:23+02:00",
    "ahead": 1,
-   "behind": 3102,
+   "aheadReal": 1,
+   "landedEquivalent": 0,
+   "behind": 3103,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -5727,7 +5916,9 @@
    "sha": "141dfbbee160bbb57880fbd5488fbe12dc6dcc25",
    "lastCommitDate": "2024-12-25T23:55:33-05:00",
    "ahead": 1,
-   "behind": 1514,
+   "aheadReal": 1,
+   "landedEquivalent": 0,
+   "behind": 1515,
    "hasPR": true,
    "prNumber": 1601,
    "severity": "ok"
@@ -5738,7 +5929,9 @@
    "sha": "72e7d1fed1e43536efd1a1ea9f1404708fd4ea09",
    "lastCommitDate": "2024-12-25T23:55:22-05:00",
    "ahead": 1,
-   "behind": 1514,
+   "aheadReal": 1,
+   "landedEquivalent": 0,
+   "behind": 1515,
    "hasPR": true,
    "prNumber": 1605,
    "severity": "ok"
@@ -5749,7 +5942,9 @@
    "sha": "2f5cd8bf9e0ad1efa2d29d144590b6ad559c6e6b",
    "lastCommitDate": "2025-03-22T15:36:57+01:00",
    "ahead": 1,
-   "behind": 1299,
+   "aheadReal": 1,
+   "landedEquivalent": 0,
+   "behind": 1300,
    "hasPR": true,
    "prNumber": 1603,
    "severity": "ok"
@@ -5760,7 +5955,9 @@
    "sha": "40258979a0fcdef936bc4efa58eab31917690b09",
    "lastCommitDate": "2025-10-28T01:28:25-04:00",
    "ahead": 1,
-   "behind": 650,
+   "aheadReal": 1,
+   "landedEquivalent": 0,
+   "behind": 651,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -5771,7 +5968,9 @@
    "sha": "5abea0db90b3c8af46804eb1c9980503f7401680",
    "lastCommitDate": "2022-12-26T16:09:30-05:00",
    "ahead": 1,
-   "behind": 2758,
+   "aheadReal": 1,
+   "landedEquivalent": 0,
+   "behind": 2759,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -5782,7 +5981,9 @@
    "sha": "73c9e21534a2e98b8428e8d07af632efc5c092c8",
    "lastCommitDate": "2024-08-05T09:25:34-04:00",
    "ahead": 8,
-   "behind": 1892,
+   "aheadReal": 8,
+   "landedEquivalent": 0,
+   "behind": 1893,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -5793,7 +5994,9 @@
    "sha": "92946e11eb3289d838dc9aefd901e201adda6d8f",
    "lastCommitDate": "2025-02-02T16:24:54-05:00",
    "ahead": 14,
-   "behind": 1392,
+   "aheadReal": 13,
+   "landedEquivalent": 1,
+   "behind": 1393,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -5804,7 +6007,9 @@
    "sha": "7b46b9b42177ff227622bd288664f5eaba775ceb",
    "lastCommitDate": "2025-05-05T08:56:16-04:00",
    "ahead": 19,
-   "behind": 1116,
+   "aheadReal": 16,
+   "landedEquivalent": 3,
+   "behind": 1117,
    "hasPR": true,
    "prNumber": 1778,
    "severity": "ok"
@@ -5815,7 +6020,9 @@
    "sha": "9a10564f4c2208ee41b746f935a5304d43e4f54e",
    "lastCommitDate": "2026-03-06T14:23:06-05:00",
    "ahead": 21,
-   "behind": 394,
+   "aheadReal": 17,
+   "landedEquivalent": 4,
+   "behind": 395,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -5826,7 +6033,9 @@
    "sha": "1997c06d13ef36a39b7fa46a9f131852e1513602",
    "lastCommitDate": "2026-03-09T17:17:23-04:00",
    "ahead": 24,
-   "behind": 222,
+   "aheadReal": 20,
+   "landedEquivalent": 4,
+   "behind": 223,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -5837,10 +6046,12 @@
    "sha": "4a23982d4f093b2baec059415696400dc8779ed6",
    "lastCommitDate": "2020-10-02T22:32:51+02:00",
    "ahead": 2,
-   "behind": 5001,
+   "aheadReal": 0,
+   "landedEquivalent": 2,
+   "behind": 5002,
    "hasPR": false,
    "prNumber": null,
-   "severity": "warn"
+   "severity": "ok"
   },
   {
    "repo": "ossia/score",
@@ -5848,7 +6059,9 @@
    "sha": "cff0f168e7f10857aa6bdcb08d3c1a7205bd7261",
    "lastCommitDate": "2023-09-06T23:25:09+02:00",
    "ahead": 2,
-   "behind": 2383,
+   "aheadReal": 2,
+   "landedEquivalent": 0,
+   "behind": 2384,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -5859,6 +6072,8 @@
    "sha": "b069ea276fef23d95a26d1c780c0580a4f012c0d",
    "lastCommitDate": "2026-06-10T08:46:27+00:00",
    "ahead": 4,
+   "aheadReal": 4,
+   "landedEquivalent": 0,
    "behind": 0,
    "hasPR": true,
    "prNumber": 891,
@@ -5870,6 +6085,8 @@
    "sha": "e128d601bae3918f98c80d1fa1b6a8a1e803e061",
    "lastCommitDate": "2026-06-10T22:57:09+00:00",
    "ahead": 1,
+   "aheadReal": 1,
+   "landedEquivalent": 0,
    "behind": 0,
    "hasPR": true,
    "prNumber": 892,
@@ -5881,10 +6098,12 @@
    "sha": "f91b60bc9bc7d8640684a76fd8bcaf0c128dff1d",
    "lastCommitDate": "2021-01-12T01:44:32+01:00",
    "ahead": 3,
+   "aheadReal": 0,
+   "landedEquivalent": 3,
    "behind": 1588,
    "hasPR": false,
    "prNumber": null,
-   "severity": "warn"
+   "severity": "ok"
   },
   {
    "repo": "ossia/libossia",
@@ -5892,6 +6111,8 @@
    "sha": "26c9da5dd73654a3ba2ae0fded0d5d7bfa861e98",
    "lastCommitDate": "2017-10-22T16:52:52+02:00",
    "ahead": 4,
+   "aheadReal": 4,
+   "landedEquivalent": 0,
    "behind": 4398,
    "hasPR": false,
    "prNumber": null,
@@ -5903,6 +6124,8 @@
    "sha": "b7d2d1ec846b025dd087eef9eddc0d731c0fc414",
    "lastCommitDate": "2025-03-22T13:27:20+01:00",
    "ahead": 1,
+   "aheadReal": 1,
+   "landedEquivalent": 0,
    "behind": 172,
    "hasPR": true,
    "prNumber": 864,
@@ -5914,6 +6137,8 @@
    "sha": "8295420c93398c32e03a21b28fcb8523d04e21d3",
    "lastCommitDate": "2024-12-16T14:43:10-05:00",
    "ahead": 1,
+   "aheadReal": 1,
+   "landedEquivalent": 0,
    "behind": 246,
    "hasPR": false,
    "prNumber": null,
@@ -5925,6 +6150,8 @@
    "sha": "1cbbd06d41b41423467d0ae2e304da83cee3c67a",
    "lastCommitDate": "2018-04-14T16:22:50+02:00",
    "ahead": 1,
+   "aheadReal": 1,
+   "landedEquivalent": 0,
    "behind": 3645,
    "hasPR": false,
    "prNumber": null,
@@ -5936,6 +6163,8 @@
    "sha": "82e42e57b27b53c4a841f2550b0bba9b72f20e86",
    "lastCommitDate": "2022-04-21T14:59:02+02:00",
    "ahead": 1,
+   "aheadReal": 1,
+   "landedEquivalent": 0,
    "behind": 859,
    "hasPR": false,
    "prNumber": null,
@@ -5947,6 +6176,8 @@
    "sha": "06599d1e6ab9b961ce1c620830e14677a932bd6c",
    "lastCommitDate": "2020-02-25T14:44:23+01:00",
    "ahead": 1,
+   "aheadReal": 1,
+   "landedEquivalent": 0,
    "behind": 2549,
    "hasPR": false,
    "prNumber": null,
@@ -5958,6 +6189,8 @@
    "sha": "e2471480d9c34a027347683894774a9bff5acf28",
    "lastCommitDate": "2022-05-23T12:11:10+02:00",
    "ahead": 3,
+   "aheadReal": 2,
+   "landedEquivalent": 1,
    "behind": 796,
    "hasPR": false,
    "prNumber": null,
@@ -5969,6 +6202,8 @@
    "sha": "2c41454fbcafc16cb6533b48980ea25c8b307c0e",
    "lastCommitDate": "2026-04-07T10:45:22+02:00",
    "ahead": 6,
+   "aheadReal": 6,
+   "landedEquivalent": 0,
    "behind": 33,
    "hasPR": true,
    "prNumber": 874,
@@ -5980,6 +6215,8 @@
    "sha": "207db6d6532daa4c849f30f37248b342fd64d04c",
    "lastCommitDate": "2021-11-21T09:36:57+01:00",
    "ahead": 10,
+   "aheadReal": 9,
+   "landedEquivalent": 0,
    "behind": 1052,
    "hasPR": false,
    "prNumber": null,
@@ -5991,10 +6228,12 @@
    "sha": "beb428267a9c07cd384e5c152e517e8812cd6035",
    "lastCommitDate": "2026-06-01T18:22:47-04:00",
    "ahead": 1,
+   "aheadReal": 0,
+   "landedEquivalent": 1,
    "behind": 24,
    "hasPR": false,
    "prNumber": null,
-   "severity": "info"
+   "severity": "ok"
   },
   {
    "repo": "ossia/libossia",
@@ -6002,10 +6241,12 @@
    "sha": "05e5df3a67e513d28599d35338d593d2f8ca4b78",
    "lastCommitDate": "2026-06-08T00:14:18-04:00",
    "ahead": 10,
+   "aheadReal": 0,
+   "landedEquivalent": 10,
    "behind": 10,
    "hasPR": false,
    "prNumber": null,
-   "severity": "info"
+   "severity": "ok"
   },
   {
    "repo": "ossia/libossia",
@@ -6013,6 +6254,8 @@
    "sha": "dce0a80172c06f8d23b90fe4cd67cc8809b50d21",
    "lastCommitDate": "2026-01-10T21:04:20-05:00",
    "ahead": 0,
+   "aheadReal": 0,
+   "landedEquivalent": null,
    "behind": 65,
    "hasPR": false,
    "prNumber": null,
@@ -6024,6 +6267,8 @@
    "sha": "ac896d02c81fb6a9bf91e81f676b50dcc4881dad",
    "lastCommitDate": "2020-11-30T23:47:25+01:00",
    "ahead": 3,
+   "aheadReal": 3,
+   "landedEquivalent": 0,
    "behind": 1708,
    "hasPR": false,
    "prNumber": null,
@@ -6035,6 +6280,8 @@
    "sha": "617844f420c039b5ceee791ae499fe282d4caa37",
    "lastCommitDate": "2021-01-16T16:07:17+01:00",
    "ahead": 2,
+   "aheadReal": 2,
+   "landedEquivalent": 0,
    "behind": 1588,
    "hasPR": false,
    "prNumber": null,
@@ -6046,6 +6293,8 @@
    "sha": "a5e8fbc88bd182d068cecfdac04aa0958d701c62",
    "lastCommitDate": "2021-02-10T08:44:45+01:00",
    "ahead": 8,
+   "aheadReal": 8,
+   "landedEquivalent": 0,
    "behind": 1467,
    "hasPR": false,
    "prNumber": null,
@@ -6057,6 +6306,8 @@
    "sha": "17860db8aec878033abe259bb9826462db0b1a5c",
    "lastCommitDate": "2026-05-29T15:51:52-04:00",
    "ahead": 1,
+   "aheadReal": 1,
+   "landedEquivalent": 0,
    "behind": 32,
    "hasPR": true,
    "prNumber": 863,
@@ -6068,10 +6319,12 @@
    "sha": "4e431c9dcc32a01444be692047624e6e38ce4352",
    "lastCommitDate": "2021-02-04T19:13:54+01:00",
    "ahead": 1,
+   "aheadReal": 0,
+   "landedEquivalent": 1,
    "behind": 1538,
    "hasPR": false,
    "prNumber": null,
-   "severity": "warn"
+   "severity": "ok"
   },
   {
    "repo": "ossia/libossia",
@@ -6079,6 +6332,8 @@
    "sha": "c2ee7a80d6c6231818604d2f4987809361628fb3",
    "lastCommitDate": "2017-11-15T14:10:54+01:00",
    "ahead": 4,
+   "aheadReal": 4,
+   "landedEquivalent": 0,
    "behind": 4039,
    "hasPR": false,
    "prNumber": null,
@@ -6090,10 +6345,12 @@
    "sha": "7e82142c9b3ff0d3800cd45058408f87f8ddb41f",
    "lastCommitDate": "2022-07-21T22:43:11+02:00",
    "ahead": 1,
+   "aheadReal": 0,
+   "landedEquivalent": 1,
    "behind": 771,
    "hasPR": false,
    "prNumber": null,
-   "severity": "warn"
+   "severity": "ok"
   },
   {
    "repo": "ossia/libossia",
@@ -6101,10 +6358,12 @@
    "sha": "65ed6dd1b59dedf9e95ab8e225d2c73e197283b5",
    "lastCommitDate": "2026-06-01T13:09:46-04:00",
    "ahead": 1,
+   "aheadReal": 0,
+   "landedEquivalent": 1,
    "behind": 29,
    "hasPR": false,
    "prNumber": null,
-   "severity": "info"
+   "severity": "ok"
   },
   {
    "repo": "ossia/libossia",
@@ -6112,6 +6371,8 @@
    "sha": "51703afed65696aa84af393bd1b019c1ad308232",
    "lastCommitDate": "2026-06-02T21:22:35-04:00",
    "ahead": 11,
+   "aheadReal": 11,
+   "landedEquivalent": 0,
    "behind": 17,
    "hasPR": true,
    "prNumber": 876,
@@ -6123,6 +6384,8 @@
    "sha": "5067ff04747f99a3a8719e3bc5178c9af5f8ddab",
    "lastCommitDate": "2026-03-09T23:22:57-04:00",
    "ahead": 3,
+   "aheadReal": 3,
+   "landedEquivalent": 0,
    "behind": 45,
    "hasPR": true,
    "prNumber": 875,
@@ -6134,10 +6397,12 @@
    "sha": "4e80a33ae30122d6c31fa873c2c08071ca734293",
    "lastCommitDate": "2026-06-01T13:47:20-04:00",
    "ahead": 1,
+   "aheadReal": 0,
+   "landedEquivalent": 1,
    "behind": 30,
    "hasPR": false,
    "prNumber": null,
-   "severity": "info"
+   "severity": "ok"
   },
   {
    "repo": "ossia/libossia",
@@ -6145,10 +6410,12 @@
    "sha": "3f8dba71b82fc588a348bd72dc5e41afa569df4f",
    "lastCommitDate": "2025-12-17T12:47:41-05:00",
    "ahead": 4,
+   "aheadReal": 0,
+   "landedEquivalent": 4,
    "behind": 85,
    "hasPR": false,
    "prNumber": null,
-   "severity": "warn"
+   "severity": "ok"
   },
   {
    "repo": "ossia/libossia",
@@ -6156,6 +6423,8 @@
    "sha": "11d007443223257c194f46565aaecdb0d35c4781",
    "lastCommitDate": "2026-05-29T15:51:56-04:00",
    "ahead": 2,
+   "aheadReal": 2,
+   "landedEquivalent": 0,
    "behind": 32,
    "hasPR": true,
    "prNumber": 858,
@@ -6167,6 +6436,8 @@
    "sha": "8e7456c7021507f28bf435142488ee839fba161f",
    "lastCommitDate": "2019-03-09T17:53:38+01:00",
    "ahead": 1,
+   "aheadReal": 1,
+   "landedEquivalent": 0,
    "behind": 2635,
    "hasPR": false,
    "prNumber": null,
@@ -6178,6 +6449,8 @@
    "sha": "d54fe4fedc3cbc6cb5ae5252a5cbf9af62ab705b",
    "lastCommitDate": "2018-04-04T16:54:32+02:00",
    "ahead": 2,
+   "aheadReal": 2,
+   "landedEquivalent": 0,
    "behind": 3663,
    "hasPR": false,
    "prNumber": null,
@@ -6189,6 +6462,8 @@
    "sha": "f2453bb1b4f1d30e68c49dc6437070c4cd59eb57",
    "lastCommitDate": "2018-02-09T12:47:49+01:00",
    "ahead": 2,
+   "aheadReal": 2,
+   "landedEquivalent": 0,
    "behind": 3878,
    "hasPR": false,
    "prNumber": null,
@@ -6200,10 +6475,12 @@
    "sha": "e35e55c1283052eff98ae888bdfcfa6ba3567134",
    "lastCommitDate": "2026-06-01T19:14:03-04:00",
    "ahead": 1,
+   "aheadReal": 0,
+   "landedEquivalent": 1,
    "behind": 22,
    "hasPR": false,
    "prNumber": null,
-   "severity": "info"
+   "severity": "ok"
   },
   {
    "repo": "ossia/libossia",
@@ -6211,10 +6488,12 @@
    "sha": "2050131c5ff9c3d0b9f944bc5051372655782ddb",
    "lastCommitDate": "2026-05-29T15:50:48-04:00",
    "ahead": 1,
+   "aheadReal": 0,
+   "landedEquivalent": 1,
    "behind": 32,
    "hasPR": false,
    "prNumber": null,
-   "severity": "info"
+   "severity": "ok"
   },
   {
    "repo": "ossia/libossia",
@@ -6222,6 +6501,8 @@
    "sha": "cdc7da4aadc4adca332224ef988ec188ab636d24",
    "lastCommitDate": "2018-02-12T23:04:52+01:00",
    "ahead": 4,
+   "aheadReal": 1,
+   "landedEquivalent": 3,
    "behind": 3728,
    "hasPR": false,
    "prNumber": null,
@@ -6233,6 +6514,8 @@
    "sha": "52cd19cccf9fbc5de671e454cafc58145c530cf0",
    "lastCommitDate": "2026-05-29T11:22:14-04:00",
    "ahead": 18,
+   "aheadReal": 18,
+   "landedEquivalent": 0,
    "behind": 33,
    "hasPR": false,
    "prNumber": null,
@@ -6244,6 +6527,8 @@
    "sha": "311483d9977d5e2ebc8dd41fd793a94fda289490",
    "lastCommitDate": "2020-02-24T11:32:06+01:00",
    "ahead": 3,
+   "aheadReal": 3,
+   "landedEquivalent": 0,
    "behind": 2305,
    "hasPR": false,
    "prNumber": null,
@@ -6255,6 +6540,8 @@
    "sha": "4e3dabc78d739da8d8d3903ec3007efdd175635d",
    "lastCommitDate": "2018-04-09T11:49:48+02:00",
    "ahead": 3,
+   "aheadReal": 2,
+   "landedEquivalent": 1,
    "behind": 3670,
    "hasPR": false,
    "prNumber": null,
@@ -6266,6 +6553,8 @@
    "sha": "21e578ca026e3e532c2237ba244292f1bd10e6bc",
    "lastCommitDate": "2018-08-28T15:52:26+02:00",
    "ahead": 2,
+   "aheadReal": 1,
+   "landedEquivalent": 1,
    "behind": 3025,
    "hasPR": false,
    "prNumber": null,
@@ -6277,6 +6566,8 @@
    "sha": "9aa6b23a47f7c9de9adb727a69ad092fffc8542e",
    "lastCommitDate": "2026-01-15T19:17:08-05:00",
    "ahead": 0,
+   "aheadReal": 0,
+   "landedEquivalent": null,
    "behind": 63,
    "hasPR": false,
    "prNumber": null,
@@ -6288,6 +6579,8 @@
    "sha": "511748d1dae60ca1e97234fca7eeebb53fb7f85b",
    "lastCommitDate": "2026-06-10T22:58:23+00:00",
    "ahead": 1,
+   "aheadReal": 1,
+   "landedEquivalent": 0,
    "behind": 7567,
    "hasPR": false,
    "prNumber": null,
@@ -6299,6 +6592,8 @@
    "sha": "eaa26cff4e67301b539f96111e13bd94b326c6c8",
    "lastCommitDate": "2020-07-02T23:17:40+02:00",
    "ahead": 2,
+   "aheadReal": 1,
+   "landedEquivalent": 1,
    "behind": 2167,
    "hasPR": false,
    "prNumber": null,
@@ -6310,6 +6605,8 @@
    "sha": "8306d1079a5b9b2d246cf7c7ed4706e751524fdb",
    "lastCommitDate": "2021-09-02T11:28:11+02:00",
    "ahead": 1,
+   "aheadReal": 1,
+   "landedEquivalent": 0,
    "behind": 1235,
    "hasPR": false,
    "prNumber": null,
@@ -6321,6 +6618,8 @@
    "sha": "69fcf68bc09894bc5dff43a7aaa053fd58c4e8c2",
    "lastCommitDate": "2020-01-27T22:25:23+01:00",
    "ahead": 20,
+   "aheadReal": 2,
+   "landedEquivalent": 18,
    "behind": 2419,
    "hasPR": false,
    "prNumber": null,
@@ -6332,6 +6631,8 @@
    "sha": "3bba58e25c4526b896aa9a2b4fc62a29bafeab60",
    "lastCommitDate": "2019-06-26T16:09:21+02:00",
    "ahead": 1,
+   "aheadReal": 1,
+   "landedEquivalent": 0,
    "behind": 2438,
    "hasPR": false,
    "prNumber": null,
@@ -6343,6 +6644,8 @@
    "sha": "9cfef50a33cc251085dccca46af34d0fc18ab3ba",
    "lastCommitDate": "2016-07-26T11:02:43+02:00",
    "ahead": 0,
+   "aheadReal": 0,
+   "landedEquivalent": null,
    "behind": 6554,
    "hasPR": false,
    "prNumber": null,
@@ -6354,6 +6657,8 @@
    "sha": "46de6d1ad800d473b749fa29b52f89b42861e28d",
    "lastCommitDate": "2018-04-14T15:12:42+02:00",
    "ahead": 0,
+   "aheadReal": 0,
+   "landedEquivalent": null,
    "behind": 3645,
    "hasPR": false,
    "prNumber": null,
@@ -6365,10 +6670,12 @@
    "sha": "294122b8dba6af1bd0fe4c38d86cea8d589689d8",
    "lastCommitDate": "2018-04-25T10:09:46+02:00",
    "ahead": 1,
+   "aheadReal": 0,
+   "landedEquivalent": 1,
    "behind": 3371,
    "hasPR": false,
    "prNumber": null,
-   "severity": "warn"
+   "severity": "ok"
   },
   {
    "repo": "ossia/libossia",
@@ -6376,10 +6683,12 @@
    "sha": "b3b2e610ea4504a15fddaf6708dca35dbf2b00ed",
    "lastCommitDate": "2019-09-02T23:27:55+02:00",
    "ahead": 4,
+   "aheadReal": 0,
+   "landedEquivalent": 4,
    "behind": 2416,
    "hasPR": false,
    "prNumber": null,
-   "severity": "warn"
+   "severity": "ok"
   },
   {
    "repo": "ossia/libossia",
@@ -6387,6 +6696,8 @@
    "sha": "e9016f5e4dce2a7c2b7445d885ddc147734dcb64",
    "lastCommitDate": "2026-05-29T15:50:57-04:00",
    "ahead": 1,
+   "aheadReal": 1,
+   "landedEquivalent": 0,
    "behind": 32,
    "hasPR": true,
    "prNumber": 877,
@@ -6398,6 +6709,8 @@
    "sha": "172d049b7a09daa28ff1836b65d562eaf6189261",
    "lastCommitDate": "2022-11-16T22:50:45-05:00",
    "ahead": 1,
+   "aheadReal": 1,
+   "landedEquivalent": 0,
    "behind": 690,
    "hasPR": false,
    "prNumber": null,
@@ -6409,6 +6722,8 @@
    "sha": "b5bfeb0f4cff5e0932efa646521ba7ae102101ea",
    "lastCommitDate": "2022-05-16T21:13:12+02:00",
    "ahead": 5,
+   "aheadReal": 1,
+   "landedEquivalent": 4,
    "behind": 803,
    "hasPR": false,
    "prNumber": null,
@@ -6420,10 +6735,12 @@
    "sha": "1ca1e00f34ceb5b00b3ba89d165d104874e0451b",
    "lastCommitDate": "2022-05-15T16:57:38+02:00",
    "ahead": 4,
+   "aheadReal": 0,
+   "landedEquivalent": 4,
    "behind": 803,
    "hasPR": false,
    "prNumber": null,
-   "severity": "warn"
+   "severity": "ok"
   },
   {
    "repo": "celtera/avendish",
@@ -6431,10 +6748,12 @@
    "sha": "0d648561fab231da78fc6ecc839fd65658e05ad7",
    "lastCommitDate": "2026-06-09T07:30:53-04:00",
    "ahead": 3,
+   "aheadReal": 0,
+   "landedEquivalent": 3,
    "behind": 35,
    "hasPR": false,
    "prNumber": null,
-   "severity": "info"
+   "severity": "ok"
   },
   {
    "repo": "celtera/avendish",
@@ -6442,6 +6761,8 @@
    "sha": "6d95ff0bbb1524b5846e4222f5dc610f9e8d0b7a",
    "lastCommitDate": "2026-06-11T11:04:11+09:00",
    "ahead": 0,
+   "aheadReal": 0,
+   "landedEquivalent": null,
    "behind": 0,
    "hasPR": false,
    "prNumber": null,
@@ -6453,10 +6774,12 @@
    "sha": "bdb5ed63e7752a3215a0cc47947b5a076cc9a098",
    "lastCommitDate": "2026-06-09T08:27:52-04:00",
    "ahead": 4,
+   "aheadReal": 0,
+   "landedEquivalent": 4,
    "behind": 35,
    "hasPR": false,
    "prNumber": null,
-   "severity": "info"
+   "severity": "ok"
   },
   {
    "repo": "celtera/avendish",
@@ -6464,10 +6787,12 @@
    "sha": "711bcf1be44c9d6b4ba5625877209dd1f28c25f9",
    "lastCommitDate": "2026-06-10T20:21:46-04:00",
    "ahead": 1,
+   "aheadReal": 0,
+   "landedEquivalent": 1,
    "behind": 2,
    "hasPR": false,
    "prNumber": null,
-   "severity": "info"
+   "severity": "ok"
   },
   {
    "repo": "celtera/avendish",
@@ -6475,10 +6800,12 @@
    "sha": "82f0bb65bb393ce19d7440ca7c0e2c6a9efda1e9",
    "lastCommitDate": "2026-06-10T05:48:21+00:00",
    "ahead": 20,
+   "aheadReal": 0,
+   "landedEquivalent": 20,
    "behind": 32,
    "hasPR": false,
    "prNumber": null,
-   "severity": "info"
+   "severity": "ok"
   },
   {
    "repo": "celtera/avendish",
@@ -6486,10 +6813,12 @@
    "sha": "33bfd42e673aef8d6ff99b63fb2d89150077ca60",
    "lastCommitDate": "2026-06-10T08:21:46+00:00",
    "ahead": 5,
+   "aheadReal": 0,
+   "landedEquivalent": 5,
    "behind": 7,
    "hasPR": false,
    "prNumber": null,
-   "severity": "info"
+   "severity": "ok"
   },
   {
    "repo": "celtera/avendish",
@@ -6497,6 +6826,8 @@
    "sha": "e51f568393ca383e27a62b18d4ff50c53d5a1da2",
    "lastCommitDate": "2026-06-10T20:29:41+00:00",
    "ahead": 1,
+   "aheadReal": 1,
+   "landedEquivalent": 0,
    "behind": 2,
    "hasPR": true,
    "prNumber": 101,
@@ -6508,6 +6839,8 @@
    "sha": "aaa17f9730c399b39458d03b90824363a97d1072",
    "lastCommitDate": "2024-11-26T11:21:58-05:00",
    "ahead": 1,
+   "aheadReal": 1,
+   "landedEquivalent": 0,
    "behind": 276,
    "hasPR": true,
    "prNumber": 44,
@@ -6519,6 +6852,8 @@
    "sha": "3f3e6ff1fb40c4166c5d4e54f74ab475a919536a",
    "lastCommitDate": "2024-12-09T15:05:21-05:00",
    "ahead": 1,
+   "aheadReal": 1,
+   "landedEquivalent": 0,
    "behind": 264,
    "hasPR": true,
    "prNumber": 46,
@@ -6530,6 +6865,8 @@
    "sha": "53e5de41e2814319637531cc7b6304b0d99e6214",
    "lastCommitDate": "2024-11-26T11:20:46-05:00",
    "ahead": 1,
+   "aheadReal": 1,
+   "landedEquivalent": 0,
    "behind": 420,
    "hasPR": true,
    "prNumber": 43,
@@ -6541,6 +6878,8 @@
    "sha": "1070108bbd81d854132a4d1ab61a4b45e4473e1e",
    "lastCommitDate": "2026-03-20T16:37:52+01:00",
    "ahead": 2,
+   "aheadReal": 1,
+   "landedEquivalent": 0,
    "behind": 65,
    "hasPR": true,
    "prNumber": 62,
@@ -6552,10 +6891,12 @@
    "sha": "07471e19c1e2379268cb00d7b2cd32e87d50da3f",
    "lastCommitDate": "2026-05-02T18:17:25-04:00",
    "ahead": 10,
+   "aheadReal": 0,
+   "landedEquivalent": 10,
    "behind": 63,
    "hasPR": false,
    "prNumber": null,
-   "severity": "info"
+   "severity": "ok"
   },
   {
    "repo": "celtera/avendish",
@@ -6563,6 +6904,8 @@
    "sha": "079b10b13334c3ba05a539bdf6e0096084d10b44",
    "lastCommitDate": "2026-06-02T19:22:14-04:00",
    "ahead": 1,
+   "aheadReal": 1,
+   "landedEquivalent": 0,
    "behind": 52,
    "hasPR": false,
    "prNumber": null,
@@ -6574,10 +6917,12 @@
    "sha": "628fb5af028c947751c3576b30965da50bbee796",
    "lastCommitDate": "2026-06-09T09:14:11-04:00",
    "ahead": 8,
+   "aheadReal": 0,
+   "landedEquivalent": 8,
    "behind": 32,
    "hasPR": false,
    "prNumber": null,
-   "severity": "info"
+   "severity": "ok"
   },
   {
    "repo": "celtera/avendish",
@@ -6585,6 +6930,8 @@
    "sha": "fbd4f4481a1942047ab45dfa19701c0e65056ddf",
    "lastCommitDate": "2026-03-20T16:36:15+01:00",
    "ahead": 1,
+   "aheadReal": 1,
+   "landedEquivalent": 0,
    "behind": 65,
    "hasPR": true,
    "prNumber": 45,
@@ -6596,6 +6943,8 @@
    "sha": "7050313eda34c62c829ec7e61f2fccaee675e533",
    "lastCommitDate": "2026-03-20T18:06:43+01:00",
    "ahead": 1,
+   "aheadReal": 1,
+   "landedEquivalent": 0,
    "behind": 65,
    "hasPR": true,
    "prNumber": 63,
@@ -6607,6 +6956,8 @@
    "sha": "053954bc7a69c46acb340175e8fe10ac41028851",
    "lastCommitDate": "2025-01-04T17:06:05-05:00",
    "ahead": 2,
+   "aheadReal": 2,
+   "landedEquivalent": 0,
    "behind": 255,
    "hasPR": true,
    "prNumber": 47,
@@ -6618,10 +6969,12 @@
    "sha": "081dbd4deac35ca16e8cc4ba2e0b523f1468d916",
    "lastCommitDate": "2026-06-09T09:14:29-04:00",
    "ahead": 4,
+   "aheadReal": 0,
+   "landedEquivalent": 4,
    "behind": 32,
    "hasPR": false,
    "prNumber": null,
-   "severity": "info"
+   "severity": "ok"
   },
   {
    "repo": "celtera/avendish",
@@ -6629,10 +6982,12 @@
    "sha": "f89a32d69dad0e459156aa875dfb1002d0b29589",
    "lastCommitDate": "2026-03-20T23:23:10+01:00",
    "ahead": 2,
+   "aheadReal": 0,
+   "landedEquivalent": 2,
    "behind": 65,
    "hasPR": false,
    "prNumber": null,
-   "severity": "info"
+   "severity": "ok"
   },
   {
    "repo": "celtera/avendish",
@@ -6640,10 +6995,12 @@
    "sha": "5d4f053f0215e2df6cedcb401451754d8ec6da8d",
    "lastCommitDate": "2026-06-07T20:50:57-04:00",
    "ahead": 10,
+   "aheadReal": 0,
+   "landedEquivalent": 10,
    "behind": 46,
    "hasPR": false,
    "prNumber": null,
-   "severity": "info"
+   "severity": "ok"
   },
   {
    "repo": "celtera/avendish",
@@ -6651,10 +7008,12 @@
    "sha": "dbda527650f913d93be190452c39c89fa3824313",
    "lastCommitDate": "2026-06-02T17:47:58-04:00",
    "ahead": 1,
+   "aheadReal": 0,
+   "landedEquivalent": 1,
    "behind": 53,
    "hasPR": false,
    "prNumber": null,
-   "severity": "info"
+   "severity": "ok"
   },
   {
    "repo": "celtera/avendish",
@@ -6662,10 +7021,12 @@
    "sha": "0f2668e26ba1699cf6368b29e1f58f901d3ce1c3",
    "lastCommitDate": "2026-01-28T11:25:03-05:00",
    "ahead": 3,
+   "aheadReal": 0,
+   "landedEquivalent": 3,
    "behind": 90,
    "hasPR": false,
    "prNumber": null,
-   "severity": "warn"
+   "severity": "ok"
   },
   {
    "repo": "celtera/avendish",
@@ -6673,6 +7034,8 @@
    "sha": "bc7d6431de78a36e740a4e7846465e156c7bd6f0",
    "lastCommitDate": "2026-05-03T19:36:09-04:00",
    "ahead": 2,
+   "aheadReal": 2,
+   "landedEquivalent": 0,
    "behind": 53,
    "hasPR": false,
    "prNumber": null,
@@ -6684,10 +7047,12 @@
    "sha": "e0781081fedf84f014bbe917b1d77cf2d76e9bdd",
    "lastCommitDate": "2026-06-09T23:21:40-04:00",
    "ahead": 5,
+   "aheadReal": 0,
+   "landedEquivalent": 5,
    "behind": 32,
    "hasPR": false,
    "prNumber": null,
-   "severity": "info"
+   "severity": "ok"
   },
   {
    "repo": "celtera/avendish",
@@ -6695,6 +7060,8 @@
    "sha": "3c2636bf826e62ec96729066088c67949d5150a8",
    "lastCommitDate": "2026-06-02T21:32:09+00:00",
    "ahead": 113,
+   "aheadReal": 113,
+   "landedEquivalent": 0,
    "behind": 879,
    "hasPR": false,
    "prNumber": null,
@@ -6706,10 +7073,12 @@
    "sha": "b66712015bce7245697ee8a5235fb17cc0ddbf32",
    "lastCommitDate": "2026-06-10T18:11:08-04:00",
    "ahead": 1,
+   "aheadReal": 0,
+   "landedEquivalent": 1,
    "behind": 2,
    "hasPR": false,
    "prNumber": null,
-   "severity": "info"
+   "severity": "ok"
   },
   {
    "repo": "celtera/avendish",
@@ -6717,6 +7086,8 @@
    "sha": "b6dc3ccc25b9e84be416b52efdb80578d9ea03c4",
    "lastCommitDate": "2024-12-19T13:34:48-05:00",
    "ahead": 2,
+   "aheadReal": 2,
+   "landedEquivalent": 0,
    "behind": 261,
    "hasPR": false,
    "prNumber": null,
@@ -6728,6 +7099,8 @@
    "sha": "cc63e6dc24c61d07ef146be32d499eb30421f729",
    "lastCommitDate": "2024-12-19T14:35:51-05:00",
    "ahead": 3,
+   "aheadReal": 3,
+   "landedEquivalent": 0,
    "behind": 261,
    "hasPR": true,
    "prNumber": 54,
@@ -6739,6 +7112,8 @@
    "sha": "a2ccd2cee20a65fbc57bc5651e422775311bd0d3",
    "lastCommitDate": "2026-03-20T16:36:58+01:00",
    "ahead": 3,
+   "aheadReal": 2,
+   "landedEquivalent": 0,
    "behind": 65,
    "hasPR": true,
    "prNumber": 60,
@@ -6750,6 +7125,8 @@
    "sha": "c7a7d8dbe41a43f736cd1c587450a1bafbc8ce8c",
    "lastCommitDate": "2022-07-23T15:37:15+02:00",
    "ahead": 2,
+   "aheadReal": 2,
+   "landedEquivalent": 0,
    "behind": 633,
    "hasPR": true,
    "prNumber": 61,
@@ -6761,10 +7138,12 @@
    "sha": "be2087c4a3cce43fce86aa380c4ba59b77216c3b",
    "lastCommitDate": "2024-08-21T20:51:16-04:00",
    "ahead": 4,
+   "aheadReal": 0,
+   "landedEquivalent": 4,
    "behind": 306,
    "hasPR": false,
    "prNumber": null,
-   "severity": "warn"
+   "severity": "ok"
   },
   {
    "repo": "celtera/libremidi",
@@ -6772,6 +7151,8 @@
    "sha": "b40df7d51e36a746bec5850b731ec00f95884703",
    "lastCommitDate": "2026-01-25T12:19:25-05:00",
    "ahead": 15,
+   "aheadReal": 1,
+   "landedEquivalent": 14,
    "behind": 47,
    "hasPR": false,
    "prNumber": null,
@@ -6783,6 +7164,8 @@
    "sha": "5c8c9a2a2e73251bf318b81447b99cd0a089016e",
    "lastCommitDate": "2021-03-07T12:56:30+01:00",
    "ahead": 6,
+   "aheadReal": 2,
+   "landedEquivalent": 4,
    "behind": 637,
    "hasPR": false,
    "prNumber": null,
@@ -6794,6 +7177,8 @@
    "sha": "25ca9d28b8d79342ababe59f04d41c62801c7d74",
    "lastCommitDate": "2026-01-16T09:53:31-05:00",
    "ahead": 1,
+   "aheadReal": 1,
+   "landedEquivalent": 0,
    "behind": 46,
    "hasPR": true,
    "prNumber": 191,
@@ -6805,6 +7190,8 @@
    "sha": "70491af37dd8902e9d3e1e6309a499f486b0cccc",
    "lastCommitDate": "2026-06-05T23:44:11-04:00",
    "ahead": 4,
+   "aheadReal": 4,
+   "landedEquivalent": 0,
    "behind": 0,
    "hasPR": false,
    "prNumber": null,
@@ -6816,6 +7203,8 @@
    "sha": "00d3b0634b2610481ee504e6fcda9821c8b52910",
    "lastCommitDate": "2026-06-01T21:08:14+00:00",
    "ahead": 26,
+   "aheadReal": 26,
+   "landedEquivalent": 0,
    "behind": 737,
    "hasPR": false,
    "prNumber": null,
@@ -6827,10 +7216,12 @@
    "sha": "db48a4d3c362c99356681ce98b2024e88cbb5ba9",
    "lastCommitDate": "2023-07-20T07:52:50-04:00",
    "ahead": 1,
+   "aheadReal": 0,
+   "landedEquivalent": 1,
    "behind": 563,
    "hasPR": false,
    "prNumber": null,
-   "severity": "warn"
+   "severity": "ok"
   },
   {
    "repo": "celtera/libremidi",
@@ -6838,6 +7229,8 @@
    "sha": "607541eb62436021248b6a5889b70cb74555b637",
    "lastCommitDate": "2024-12-01T12:56:33-05:00",
    "ahead": 1,
+   "aheadReal": 1,
+   "landedEquivalent": 0,
    "behind": 209,
    "hasPR": true,
    "prNumber": 124,
@@ -6849,10 +7242,12 @@
    "sha": "9b545f617344549641d57b2726a1233aebe0a0b0",
    "lastCommitDate": "2026-05-21T08:41:46-04:00",
    "ahead": 1,
+   "aheadReal": 0,
+   "landedEquivalent": 1,
    "behind": 8,
    "hasPR": false,
    "prNumber": null,
-   "severity": "info"
+   "severity": "ok"
   },
   {
    "repo": "ossia/actions",
@@ -6860,17 +7255,21 @@
    "sha": "1ecf7e0d7cf75f7558190343dc9b37806364e971",
    "lastCommitDate": "2026-06-10T20:29:42-04:00",
    "ahead": 1,
+   "aheadReal": 0,
+   "landedEquivalent": 1,
    "behind": 3,
    "hasPR": false,
    "prNumber": null,
-   "severity": "info"
+   "severity": "ok"
   },
   {
    "repo": "ossia/dashboard",
    "name": "claude/submodule-dependency-dashboard-of1zuq",
-   "sha": "3e66d59a196dce194576f5f108fae446c120df67",
-   "lastCommitDate": "2026-06-11T22:55:19+00:00",
+   "sha": "676c8849c4368372cf7bf9a15bb9640e0a3116f7",
+   "lastCommitDate": "2026-06-11T23:19:07+00:00",
    "ahead": 0,
+   "aheadReal": 0,
+   "landedEquivalent": null,
    "behind": 0,
    "hasPR": false,
    "prNumber": null,
@@ -9036,30 +9435,12 @@
    "severity": "warn"
   },
   {
-   "id": "branch:celtera/avendish:fix/categories",
-   "category": "branch",
-   "repo": "celtera/avendish",
-   "subject": "fix/categories",
-   "message": "3 unique commits, no PR, last commit 2026-01-28",
-   "url": "https://github.com/celtera/avendish/tree/fix/categories",
-   "severity": "warn"
-  },
-  {
    "id": "branch:celtera/avendish:test-patternal-2",
    "category": "branch",
    "repo": "celtera/avendish",
    "subject": "test-patternal-2",
-   "message": "2 unique commits, no PR, last commit 2024-12-19",
+   "message": "2 unmerged commits, no PR, last commit 2024-12-19",
    "url": "https://github.com/celtera/avendish/tree/test-patternal-2",
-   "severity": "warn"
-  },
-  {
-   "id": "branch:celtera/libremidi:4.x",
-   "category": "branch",
-   "repo": "celtera/libremidi",
-   "subject": "4.x",
-   "message": "4 unique commits, no PR, last commit 2024-08-21",
-   "url": "https://github.com/celtera/libremidi/tree/4.x",
    "severity": "warn"
   },
   {
@@ -9067,7 +9448,7 @@
    "category": "branch",
    "repo": "celtera/libremidi",
    "subject": "5.x",
-   "message": "15 unique commits, no PR, last commit 2026-01-25",
+   "message": "1 unmerged commits (14 already cherry-picked), no PR, last commit 2026-01-25",
    "url": "https://github.com/celtera/libremidi/tree/5.x",
    "severity": "warn"
   },
@@ -9076,26 +9457,8 @@
    "category": "branch",
    "repo": "celtera/libremidi",
    "subject": "feature/poll",
-   "message": "6 unique commits, no PR, last commit 2021-03-07",
+   "message": "2 unmerged commits (4 already cherry-picked), no PR, last commit 2021-03-07",
    "url": "https://github.com/celtera/libremidi/tree/feature/poll",
-   "severity": "warn"
-  },
-  {
-   "id": "branch:celtera/libremidi:v3",
-   "category": "branch",
-   "repo": "celtera/libremidi",
-   "subject": "v3",
-   "message": "1 unique commits, no PR, last commit 2023-07-20",
-   "url": "https://github.com/celtera/libremidi/tree/v3",
-   "severity": "warn"
-  },
-  {
-   "id": "branch:ossia/libossia:feature/653-fix_intermediate_node",
-   "category": "branch",
-   "repo": "ossia/libossia",
-   "subject": "feature/653-fix_intermediate_node",
-   "message": "3 unique commits, no PR, last commit 2021-01-12",
-   "url": "https://github.com/ossia/libossia/tree/feature/653-fix_intermediate_node",
    "severity": "warn"
   },
   {
@@ -9103,7 +9466,7 @@
    "category": "branch",
    "repo": "ossia/libossia",
    "subject": "feature/appveyor",
-   "message": "4 unique commits, no PR, last commit 2017-10-22",
+   "message": "4 unmerged commits, no PR, last commit 2017-10-22",
    "url": "https://github.com/ossia/libossia/tree/feature/appveyor",
    "severity": "warn"
   },
@@ -9112,7 +9475,7 @@
    "category": "branch",
    "repo": "ossia/libossia",
    "subject": "feature/beast_websockets",
-   "message": "1 unique commits, no PR, last commit 2024-12-16",
+   "message": "1 unmerged commits, no PR, last commit 2024-12-16",
    "url": "https://github.com/ossia/libossia/tree/feature/beast_websockets",
    "severity": "warn"
   },
@@ -9121,7 +9484,7 @@
    "category": "branch",
    "repo": "ossia/libossia",
    "subject": "feature/connection_callback",
-   "message": "1 unique commits, no PR, last commit 2018-04-14",
+   "message": "1 unmerged commits, no PR, last commit 2018-04-14",
    "url": "https://github.com/ossia/libossia/tree/feature/connection_callback",
    "severity": "warn"
   },
@@ -9130,7 +9493,7 @@
    "category": "branch",
    "repo": "ossia/libossia",
    "subject": "feature/default_critical",
-   "message": "1 unique commits, no PR, last commit 2022-04-21",
+   "message": "1 unmerged commits, no PR, last commit 2022-04-21",
    "url": "https://github.com/ossia/libossia/tree/feature/default_critical",
    "severity": "warn"
   },
@@ -9139,7 +9502,7 @@
    "category": "branch",
    "repo": "ossia/libossia",
    "subject": "feature/dump_units",
-   "message": "1 unique commits, no PR, last commit 2020-02-25",
+   "message": "1 unmerged commits, no PR, last commit 2020-02-25",
    "url": "https://github.com/ossia/libossia/tree/feature/dump_units",
    "severity": "warn"
   },
@@ -9148,7 +9511,7 @@
    "category": "branch",
    "repo": "ossia/libossia",
    "subject": "feature/feature/schedule_object_outlet",
-   "message": "3 unique commits, no PR, last commit 2022-05-23",
+   "message": "2 unmerged commits (1 already cherry-picked), no PR, last commit 2022-05-23",
    "url": "https://github.com/ossia/libossia/tree/feature/feature/schedule_object_outlet",
    "severity": "warn"
   },
@@ -9157,7 +9520,7 @@
    "category": "branch",
    "repo": "ossia/libossia",
    "subject": "feature/github-action",
-   "message": "10 unique commits, no PR, last commit 2021-11-21",
+   "message": "9 unmerged commits, no PR, last commit 2021-11-21",
    "url": "https://github.com/ossia/libossia/tree/feature/github-action",
    "severity": "warn"
   },
@@ -9166,7 +9529,7 @@
    "category": "branch",
    "repo": "ossia/libossia",
    "subject": "feature/model_autoname",
-   "message": "3 unique commits, no PR, last commit 2020-11-30",
+   "message": "3 unmerged commits, no PR, last commit 2020-11-30",
    "url": "https://github.com/ossia/libossia/tree/feature/model_autoname",
    "severity": "warn"
   },
@@ -9175,7 +9538,7 @@
    "category": "branch",
    "repo": "ossia/libossia",
    "subject": "feature/multi_address",
-   "message": "2 unique commits, no PR, last commit 2021-01-16",
+   "message": "2 unmerged commits, no PR, last commit 2021-01-16",
    "url": "https://github.com/ossia/libossia/tree/feature/multi_address",
    "severity": "warn"
   },
@@ -9184,17 +9547,8 @@
    "category": "branch",
    "repo": "ossia/libossia",
    "subject": "feature/npm_package",
-   "message": "8 unique commits, no PR, last commit 2021-02-10",
+   "message": "8 unmerged commits, no PR, last commit 2021-02-10",
    "url": "https://github.com/ossia/libossia/tree/feature/npm_package",
-   "severity": "warn"
-  },
-  {
-   "id": "branch:ossia/libossia:feature/protocol_echo",
-   "category": "branch",
-   "repo": "ossia/libossia",
-   "subject": "feature/protocol_echo",
-   "message": "1 unique commits, no PR, last commit 2021-02-04",
-   "url": "https://github.com/ossia/libossia/tree/feature/protocol_echo",
    "severity": "warn"
   },
   {
@@ -9202,26 +9556,8 @@
    "category": "branch",
    "repo": "ossia/libossia",
    "subject": "feature/python_manylinux",
-   "message": "4 unique commits, no PR, last commit 2017-11-15",
+   "message": "4 unmerged commits, no PR, last commit 2017-11-15",
    "url": "https://github.com/ossia/libossia/tree/feature/python_manylinux",
-   "severity": "warn"
-  },
-  {
-   "id": "branch:ossia/libossia:feature/re2",
-   "category": "branch",
-   "repo": "ossia/libossia",
-   "subject": "feature/re2",
-   "message": "1 unique commits, no PR, last commit 2022-07-21",
-   "url": "https://github.com/ossia/libossia/tree/feature/re2",
-   "severity": "warn"
-  },
-  {
-   "id": "branch:ossia/libossia:feature/rework_geometry",
-   "category": "branch",
-   "repo": "ossia/libossia",
-   "subject": "feature/rework_geometry",
-   "message": "4 unique commits, no PR, last commit 2025-12-17",
-   "url": "https://github.com/ossia/libossia/tree/feature/rework_geometry",
    "severity": "warn"
   },
   {
@@ -9229,7 +9565,7 @@
    "category": "branch",
    "repo": "ossia/libossia",
    "subject": "feature/simple_mapping",
-   "message": "1 unique commits, no PR, last commit 2019-03-09",
+   "message": "1 unmerged commits, no PR, last commit 2019-03-09",
    "url": "https://github.com/ossia/libossia/tree/feature/simple_mapping",
    "severity": "warn"
   },
@@ -9238,7 +9574,7 @@
    "category": "branch",
    "repo": "ossia/libossia",
    "subject": "feature/smart_pointer",
-   "message": "2 unique commits, no PR, last commit 2018-04-04",
+   "message": "2 unmerged commits, no PR, last commit 2018-04-04",
    "url": "https://github.com/ossia/libossia/tree/feature/smart_pointer",
    "severity": "warn"
   },
@@ -9247,7 +9583,7 @@
    "category": "branch",
    "repo": "ossia/libossia",
    "subject": "feature/speed",
-   "message": "2 unique commits, no PR, last commit 2018-02-09",
+   "message": "2 unmerged commits, no PR, last commit 2018-02-09",
    "url": "https://github.com/ossia/libossia/tree/feature/speed",
    "severity": "warn"
   },
@@ -9256,7 +9592,7 @@
    "category": "branch",
    "repo": "ossia/libossia",
    "subject": "fix/appveyor",
-   "message": "4 unique commits, no PR, last commit 2018-02-12",
+   "message": "1 unmerged commits (3 already cherry-picked), no PR, last commit 2018-02-12",
    "url": "https://github.com/ossia/libossia/tree/fix/appveyor",
    "severity": "warn"
   },
@@ -9265,7 +9601,7 @@
    "category": "branch",
    "repo": "ossia/libossia",
    "subject": "fix/ci-rpi-build",
-   "message": "3 unique commits, no PR, last commit 2020-02-24",
+   "message": "3 unmerged commits, no PR, last commit 2020-02-24",
    "url": "https://github.com/ossia/libossia/tree/fix/ci-rpi-build",
    "severity": "warn"
   },
@@ -9274,7 +9610,7 @@
    "category": "branch",
    "repo": "ossia/libossia",
    "subject": "fix/ofxOssia",
-   "message": "3 unique commits, no PR, last commit 2018-04-09",
+   "message": "2 unmerged commits (1 already cherry-picked), no PR, last commit 2018-04-09",
    "url": "https://github.com/ossia/libossia/tree/fix/ofxOssia",
    "severity": "warn"
   },
@@ -9283,7 +9619,7 @@
    "category": "branch",
    "repo": "ossia/libossia",
    "subject": "fix/qml_preset_win",
-   "message": "2 unique commits, no PR, last commit 2018-08-28",
+   "message": "1 unmerged commits (1 already cherry-picked), no PR, last commit 2018-08-28",
    "url": "https://github.com/ossia/libossia/tree/fix/qml_preset_win",
    "severity": "warn"
   },
@@ -9292,7 +9628,7 @@
    "category": "branch",
    "repo": "ossia/libossia",
    "subject": "hotfix/512-catch_loadbanged_value",
-   "message": "2 unique commits, no PR, last commit 2020-07-02",
+   "message": "1 unmerged commits (1 already cherry-picked), no PR, last commit 2020-07-02",
    "url": "https://github.com/ossia/libossia/tree/hotfix/512-catch_loadbanged_value",
    "severity": "warn"
   },
@@ -9301,7 +9637,7 @@
    "category": "branch",
    "repo": "ossia/libossia",
    "subject": "revert-739-wip/positions",
-   "message": "1 unique commits, no PR, last commit 2021-09-02",
+   "message": "1 unmerged commits, no PR, last commit 2021-09-02",
    "url": "https://github.com/ossia/libossia/tree/revert-739-wip/positions",
    "severity": "warn"
   },
@@ -9310,7 +9646,7 @@
    "category": "branch",
    "repo": "ossia/libossia",
    "subject": "stable",
-   "message": "20 unique commits, no PR, last commit 2020-01-27",
+   "message": "2 unmerged commits (18 already cherry-picked), no PR, last commit 2020-01-27",
    "url": "https://github.com/ossia/libossia/tree/stable",
    "severity": "warn"
   },
@@ -9319,26 +9655,8 @@
    "category": "branch",
    "repo": "ossia/libossia",
    "subject": "unity3d_updates",
-   "message": "1 unique commits, no PR, last commit 2019-06-26",
+   "message": "1 unmerged commits, no PR, last commit 2019-06-26",
    "url": "https://github.com/ossia/libossia/tree/unity3d_updates",
-   "severity": "warn"
-  },
-  {
-   "id": "branch:ossia/libossia:v3",
-   "category": "branch",
-   "repo": "ossia/libossia",
-   "subject": "v3",
-   "message": "1 unique commits, no PR, last commit 2018-04-25",
-   "url": "https://github.com/ossia/libossia/tree/v3",
-   "severity": "warn"
-  },
-  {
-   "id": "branch:ossia/libossia:wip/exec_loops",
-   "category": "branch",
-   "repo": "ossia/libossia",
-   "subject": "wip/exec_loops",
-   "message": "4 unique commits, no PR, last commit 2019-09-02",
-   "url": "https://github.com/ossia/libossia/tree/wip/exec_loops",
    "severity": "warn"
   },
   {
@@ -9346,7 +9664,7 @@
    "category": "branch",
    "repo": "ossia/libossia",
    "subject": "wip/optimize-ossia-remote",
-   "message": "1 unique commits, no PR, last commit 2022-11-16",
+   "message": "1 unmerged commits, no PR, last commit 2022-11-16",
    "url": "https://github.com/ossia/libossia/tree/wip/optimize-ossia-remote",
    "severity": "warn"
   },
@@ -9355,17 +9673,8 @@
    "category": "branch",
    "repo": "ossia/libossia",
    "subject": "wip/total_variant_refactor",
-   "message": "5 unique commits, no PR, last commit 2022-05-16",
+   "message": "1 unmerged commits (4 already cherry-picked), no PR, last commit 2022-05-16",
    "url": "https://github.com/ossia/libossia/tree/wip/total_variant_refactor",
-   "severity": "warn"
-  },
-  {
-   "id": "branch:ossia/libossia:wip/variant_refactor",
-   "category": "branch",
-   "repo": "ossia/libossia",
-   "subject": "wip/variant_refactor",
-   "message": "4 unique commits, no PR, last commit 2022-05-15",
-   "url": "https://github.com/ossia/libossia/tree/wip/variant_refactor",
    "severity": "warn"
   },
   {
@@ -9373,7 +9682,7 @@
    "category": "branch",
    "repo": "ossia/score",
    "subject": "1504-resize-windows-split",
-   "message": "4 unique commits, no PR, last commit 2024-09-11",
+   "message": "1 unmerged commits (3 already cherry-picked), no PR, last commit 2024-09-11",
    "url": "https://github.com/ossia/score/tree/1504-resize-windows-split",
    "severity": "warn"
   },
@@ -9382,17 +9691,8 @@
    "category": "branch",
    "repo": "ossia/score",
    "subject": "2.5.2/hotfixes",
-   "message": "2 unique commits, no PR, last commit 2021-10-25",
+   "message": "2 unmerged commits, no PR, last commit 2021-10-25",
    "url": "https://github.com/ossia/score/tree/2.5.2/hotfixes",
-   "severity": "warn"
-  },
-  {
-   "id": "branch:ossia/score:889-add-open-in-external-editor-button-to-embedded-editor",
-   "category": "branch",
-   "repo": "ossia/score",
-   "subject": "889-add-open-in-external-editor-button-to-embedded-editor",
-   "message": "13 unique commits, no PR, last commit 2025-01-22",
-   "url": "https://github.com/ossia/score/tree/889-add-open-in-external-editor-button-to-embedded-editor",
    "severity": "warn"
   },
   {
@@ -9400,17 +9700,8 @@
    "category": "branch",
    "repo": "ossia/score",
    "subject": "addition/audio_device_import",
-   "message": "1 unique commits, no PR, last commit 2022-06-15",
+   "message": "1 unmerged commits, no PR, last commit 2022-06-15",
    "url": "https://github.com/ossia/score/tree/addition/audio_device_import",
-   "severity": "warn"
-  },
-  {
-   "id": "branch:ossia/score:bltzr-patch-1",
-   "category": "branch",
-   "repo": "ossia/score",
-   "subject": "bltzr-patch-1",
-   "message": "1 unique commits, no PR, last commit 2025-01-11",
-   "url": "https://github.com/ossia/score/tree/bltzr-patch-1",
    "severity": "warn"
   },
   {
@@ -9418,7 +9709,7 @@
    "category": "branch",
    "repo": "ossia/score",
    "subject": "experiment/monofont",
-   "message": "1 unique commits, no PR, last commit 2020-10-19",
+   "message": "1 unmerged commits, no PR, last commit 2020-10-19",
    "url": "https://github.com/ossia/score/tree/experiment/monofont",
    "severity": "warn"
   },
@@ -9427,7 +9718,7 @@
    "category": "branch",
    "repo": "ossia/score",
    "subject": "feature/CSP_execution",
-   "message": "2 unique commits, no PR, last commit 2016-03-15",
+   "message": "2 unmerged commits, no PR, last commit 2016-03-15",
    "url": "https://github.com/ossia/score/tree/feature/CSP_execution",
    "severity": "warn"
   },
@@ -9436,7 +9727,7 @@
    "category": "branch",
    "repo": "ossia/score",
    "subject": "feature/direct_video_input",
-   "message": "1 unique commits, no PR, last commit 2025-03-22",
+   "message": "1 unmerged commits, no PR, last commit 2025-03-22",
    "url": "https://github.com/ossia/score/tree/feature/direct_video_input",
    "severity": "warn"
   },
@@ -9445,17 +9736,8 @@
    "category": "branch",
    "repo": "ossia/score",
    "subject": "feature/erin_led_show",
-   "message": "1 unique commits, no PR, last commit 2025-03-22",
+   "message": "1 unmerged commits, no PR, last commit 2025-03-22",
    "url": "https://github.com/ossia/score/tree/feature/erin_led_show",
-   "severity": "warn"
-  },
-  {
-   "id": "branch:ossia/score:feature/find-n-replace",
-   "category": "branch",
-   "repo": "ossia/score",
-   "subject": "feature/find-n-replace",
-   "message": "2 unique commits, no PR, last commit 2022-11-03",
-   "url": "https://github.com/ossia/score/tree/feature/find-n-replace",
    "severity": "warn"
   },
   {
@@ -9463,7 +9745,7 @@
    "category": "branch",
    "repo": "ossia/score",
    "subject": "feature/hwdevice",
-   "message": "2 unique commits, no PR, last commit 2024-08-28",
+   "message": "2 unmerged commits, no PR, last commit 2024-08-28",
    "url": "https://github.com/ossia/score/tree/feature/hwdevice",
    "severity": "warn"
   },
@@ -9472,7 +9754,7 @@
    "category": "branch",
    "repo": "ossia/score",
    "subject": "feature/isf_compute",
-   "message": "1 unique commits, no PR, last commit 2024-12-25",
+   "message": "1 unmerged commits, no PR, last commit 2024-12-25",
    "url": "https://github.com/ossia/score/tree/feature/isf_compute",
    "severity": "warn"
   },
@@ -9481,7 +9763,7 @@
    "category": "branch",
    "repo": "ossia/score",
    "subject": "feature/isf_input_for_model_display",
-   "message": "2 unique commits, no PR, last commit 2025-02-08",
+   "message": "1 unmerged commits (1 already cherry-picked), no PR, last commit 2025-02-08",
    "url": "https://github.com/ossia/score/tree/feature/isf_input_for_model_display",
    "severity": "warn"
   },
@@ -9490,26 +9772,8 @@
    "category": "branch",
    "repo": "ossia/score",
    "subject": "feature/led_strip",
-   "message": "1 unique commits, no PR, last commit 2024-12-25",
+   "message": "1 unmerged commits, no PR, last commit 2024-12-25",
    "url": "https://github.com/ossia/score/tree/feature/led_strip",
-   "severity": "warn"
-  },
-  {
-   "id": "branch:ossia/score:feature/libsimpleio",
-   "category": "branch",
-   "repo": "ossia/score",
-   "subject": "feature/libsimpleio",
-   "message": "3 unique commits, no PR, last commit 2023-11-21",
-   "url": "https://github.com/ossia/score/tree/feature/libsimpleio",
-   "severity": "warn"
-  },
-  {
-   "id": "branch:ossia/score:feature/llfio",
-   "category": "branch",
-   "repo": "ossia/score",
-   "subject": "feature/llfio",
-   "message": "1 unique commits, no PR, last commit 2022-06-17",
-   "url": "https://github.com/ossia/score/tree/feature/llfio",
    "severity": "warn"
   },
   {
@@ -9517,7 +9781,7 @@
    "category": "branch",
    "repo": "ossia/score",
    "subject": "feature/multi_address",
-   "message": "1 unique commits, no PR, last commit 2021-01-13",
+   "message": "1 unmerged commits, no PR, last commit 2021-01-13",
    "url": "https://github.com/ossia/score/tree/feature/multi_address",
    "severity": "warn"
   },
@@ -9526,26 +9790,8 @@
    "category": "branch",
    "repo": "ossia/score",
    "subject": "feature/new_sequences",
-   "message": "1 unique commits, no PR, last commit 2019-03-28",
+   "message": "1 unmerged commits, no PR, last commit 2019-03-28",
    "url": "https://github.com/ossia/score/tree/feature/new_sequences",
-   "severity": "warn"
-  },
-  {
-   "id": "branch:ossia/score:feature/osc_with_oscquery",
-   "category": "branch",
-   "repo": "ossia/score",
-   "subject": "feature/osc_with_oscquery",
-   "message": "8 unique commits, no PR, last commit 2024-11-09",
-   "url": "https://github.com/ossia/score/tree/feature/osc_with_oscquery",
-   "severity": "warn"
-  },
-  {
-   "id": "branch:ossia/score:feature/prompt_composer",
-   "category": "branch",
-   "repo": "ossia/score",
-   "subject": "feature/prompt_composer",
-   "message": "1 unique commits, no PR, last commit 2025-03-22",
-   "url": "https://github.com/ossia/score/tree/feature/prompt_composer",
    "severity": "warn"
   },
   {
@@ -9553,7 +9799,7 @@
    "category": "branch",
    "repo": "ossia/score",
    "subject": "feature/qtquick",
-   "message": "4 unique commits, no PR, last commit 2017-03-01",
+   "message": "3 unmerged commits, no PR, last commit 2017-03-01",
    "url": "https://github.com/ossia/score/tree/feature/qtquick",
    "severity": "warn"
   },
@@ -9562,7 +9808,7 @@
    "category": "branch",
    "repo": "ossia/score",
    "subject": "feature/simple_mapping",
-   "message": "1 unique commits, no PR, last commit 2019-03-09",
+   "message": "1 unmerged commits, no PR, last commit 2019-03-09",
    "url": "https://github.com/ossia/score/tree/feature/simple_mapping",
    "severity": "warn"
   },
@@ -9571,7 +9817,7 @@
    "category": "branch",
    "repo": "ossia/score",
    "subject": "feature/simple_states",
-   "message": "13 unique commits, no PR, last commit 2019-01-06",
+   "message": "11 unmerged commits (1 already cherry-picked), no PR, last commit 2019-01-06",
    "url": "https://github.com/ossia/score/tree/feature/simple_states",
    "severity": "warn"
   },
@@ -9580,7 +9826,7 @@
    "category": "branch",
    "repo": "ossia/score",
    "subject": "feature/transparent_rendertarget",
-   "message": "1 unique commits, no PR, last commit 2025-03-22",
+   "message": "1 unmerged commits, no PR, last commit 2025-03-22",
    "url": "https://github.com/ossia/score/tree/feature/transparent_rendertarget",
    "severity": "warn"
   },
@@ -9589,17 +9835,8 @@
    "category": "branch",
    "repo": "ossia/score",
    "subject": "fix_images_leak",
-   "message": "1 unique commits, no PR, last commit 2025-12-17",
+   "message": "1 unmerged commits, no PR, last commit 2025-12-17",
    "url": "https://github.com/ossia/score/tree/fix_images_leak",
-   "severity": "warn"
-  },
-  {
-   "id": "branch:ossia/score:fix-include-qurl",
-   "category": "branch",
-   "repo": "ossia/score",
-   "subject": "fix-include-qurl",
-   "message": "1 unique commits, no PR, last commit 2024-12-21",
-   "url": "https://github.com/ossia/score/tree/fix-include-qurl",
    "severity": "warn"
   },
   {
@@ -9607,7 +9844,7 @@
    "category": "branch",
    "repo": "ossia/score",
    "subject": "fix/find-n-replace-fix",
-   "message": "1 unique commits, no PR, last commit 2023-01-03",
+   "message": "1 unmerged commits, no PR, last commit 2023-01-03",
    "url": "https://github.com/ossia/score/tree/fix/find-n-replace-fix",
    "severity": "warn"
   },
@@ -9616,7 +9853,7 @@
    "category": "branch",
    "repo": "ossia/score",
    "subject": "fix/window_screen_positioning",
-   "message": "4 unique commits, no PR, last commit 2026-02-27",
+   "message": "3 unmerged commits (1 already cherry-picked), no PR, last commit 2026-02-27",
    "url": "https://github.com/ossia/score/tree/fix/window_screen_positioning",
    "severity": "warn"
   },
@@ -9625,7 +9862,7 @@
    "category": "branch",
    "repo": "ossia/score",
    "subject": "master_with_jamoma",
-   "message": "8 unique commits, no PR, last commit 2016-08-01",
+   "message": "7 unmerged commits (1 already cherry-picked), no PR, last commit 2016-08-01",
    "url": "https://github.com/ossia/score/tree/master_with_jamoma",
    "severity": "warn"
   },
@@ -9634,7 +9871,7 @@
    "category": "branch",
    "repo": "ossia/score",
    "subject": "net_integration",
-   "message": "12 unique commits, no PR, last commit 2023-05-17",
+   "message": "12 unmerged commits, no PR, last commit 2023-05-17",
    "url": "https://github.com/ossia/score/tree/net_integration",
    "severity": "warn"
   },
@@ -9643,7 +9880,7 @@
    "category": "branch",
    "repo": "ossia/score",
    "subject": "robots",
-   "message": "1 unique commits, no PR, last commit 2022-02-20",
+   "message": "1 unmerged commits, no PR, last commit 2022-02-20",
    "url": "https://github.com/ossia/score/tree/robots",
    "severity": "warn"
   },
@@ -9652,7 +9889,7 @@
    "category": "branch",
    "repo": "ossia/score",
    "subject": "stable",
-   "message": "3 unique commits, no PR, last commit 2020-01-27",
+   "message": "2 unmerged commits (1 already cherry-picked), no PR, last commit 2020-01-27",
    "url": "https://github.com/ossia/score/tree/stable",
    "severity": "warn"
   },
@@ -9661,17 +9898,8 @@
    "category": "branch",
    "repo": "ossia/score",
    "subject": "testlfo",
-   "message": "1 unique commits, no PR, last commit 2019-07-22",
+   "message": "1 unmerged commits, no PR, last commit 2019-07-22",
    "url": "https://github.com/ossia/score/tree/testlfo",
-   "severity": "warn"
-  },
-  {
-   "id": "branch:ossia/score:ui/range-slider",
-   "category": "branch",
-   "repo": "ossia/score",
-   "subject": "ui/range-slider",
-   "message": "10 unique commits, no PR, last commit 2022-06-05",
-   "url": "https://github.com/ossia/score/tree/ui/range-slider",
    "severity": "warn"
   },
   {
@@ -9679,7 +9907,7 @@
    "category": "branch",
    "repo": "ossia/score",
    "subject": "util/alloc_count",
-   "message": "1 unique commits, no PR, last commit 2022-09-03",
+   "message": "1 unmerged commits, no PR, last commit 2022-09-03",
    "url": "https://github.com/ossia/score/tree/util/alloc_count",
    "severity": "warn"
   },
@@ -9688,7 +9916,7 @@
    "category": "branch",
    "repo": "ossia/score",
    "subject": "v1.0.0-a71",
-   "message": "5 unique commits, no PR, last commit 2016-08-01",
+   "message": "5 unmerged commits, no PR, last commit 2016-08-01",
    "url": "https://github.com/ossia/score/tree/v1.0.0-a71",
    "severity": "warn"
   },
@@ -9697,7 +9925,7 @@
    "category": "branch",
    "repo": "ossia/score",
    "subject": "wip/antialiasing",
-   "message": "1 unique commits, no PR, last commit 2022-06-24",
+   "message": "1 unmerged commits, no PR, last commit 2022-06-24",
    "url": "https://github.com/ossia/score/tree/wip/antialiasing",
    "severity": "warn"
   },
@@ -9706,7 +9934,7 @@
    "category": "branch",
    "repo": "ossia/score",
    "subject": "wip/geometry_filter_fixes",
-   "message": "1 unique commits, no PR, last commit 2025-10-28",
+   "message": "1 unmerged commits, no PR, last commit 2025-10-28",
    "url": "https://github.com/ossia/score/tree/wip/geometry_filter_fixes",
    "severity": "warn"
   },
@@ -9715,7 +9943,7 @@
    "category": "branch",
    "repo": "ossia/score",
    "subject": "wip/import_v2_v3",
-   "message": "1 unique commits, no PR, last commit 2022-12-26",
+   "message": "1 unmerged commits, no PR, last commit 2022-12-26",
    "url": "https://github.com/ossia/score/tree/wip/import_v2_v3",
    "severity": "warn"
   },
@@ -9724,7 +9952,7 @@
    "category": "branch",
    "repo": "ossia/score",
    "subject": "wip/pico",
-   "message": "8 unique commits, no PR, last commit 2024-08-05",
+   "message": "8 unmerged commits, no PR, last commit 2024-08-05",
    "url": "https://github.com/ossia/score/tree/wip/pico",
    "severity": "warn"
   },
@@ -9733,7 +9961,7 @@
    "category": "branch",
    "repo": "ossia/score",
    "subject": "wip/pico-next",
-   "message": "14 unique commits, no PR, last commit 2025-02-02",
+   "message": "13 unmerged commits (1 already cherry-picked), no PR, last commit 2025-02-02",
    "url": "https://github.com/ossia/score/tree/wip/pico-next",
    "severity": "warn"
   },
@@ -9742,7 +9970,7 @@
    "category": "branch",
    "repo": "ossia/score",
    "subject": "wip/pico-next-3",
-   "message": "21 unique commits, no PR, last commit 2026-03-06",
+   "message": "17 unmerged commits (4 already cherry-picked), no PR, last commit 2026-03-06",
    "url": "https://github.com/ossia/score/tree/wip/pico-next-3",
    "severity": "warn"
   },
@@ -9751,17 +9979,8 @@
    "category": "branch",
    "repo": "ossia/score",
    "subject": "wip/pico-next-5",
-   "message": "24 unique commits, no PR, last commit 2026-03-09",
+   "message": "20 unmerged commits (4 already cherry-picked), no PR, last commit 2026-03-09",
    "url": "https://github.com/ossia/score/tree/wip/pico-next-5",
-   "severity": "warn"
-  },
-  {
-   "id": "branch:ossia/score:wip/snapshot_icons",
-   "category": "branch",
-   "repo": "ossia/score",
-   "subject": "wip/snapshot_icons",
-   "message": "2 unique commits, no PR, last commit 2020-10-02",
-   "url": "https://github.com/ossia/score/tree/wip/snapshot_icons",
    "severity": "warn"
   },
   {
@@ -9769,7 +9988,7 @@
    "category": "branch",
    "repo": "ossia/score",
    "subject": "wip/video-simple",
-   "message": "2 unique commits, no PR, last commit 2023-09-06",
+   "message": "2 unmerged commits, no PR, last commit 2023-09-06",
    "url": "https://github.com/ossia/score/tree/wip/video-simple",
    "severity": "warn"
   },
@@ -9931,7 +10150,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1288 Feature/wasm remote 2",
-   "message": "idle 14d, 3911 commits behind master",
+   "message": "idle 14d, 3912 commits behind master",
    "url": "https://github.com/ossia/score/pull/1288",
    "severity": "warn"
   },
@@ -9940,7 +10159,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1399 [wip] Supporting more midi messages in MidiDrop plugin",
-   "message": "idle 14d, 3211 commits behind master",
+   "message": "idle 14d, 3212 commits behind master",
    "url": "https://github.com/ossia/score/pull/1399",
    "severity": "warn"
   },
@@ -9949,7 +10168,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1454 fix #1451 and #1452",
-   "message": "idle 14d, 2682 commits behind master",
+   "message": "idle 14d, 2683 commits behind master",
    "url": "https://github.com/ossia/score/pull/1454",
    "severity": "warn"
   },
@@ -9958,7 +10177,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1601 perf: prereserve some audio buffers",
-   "message": "idle 14d, 1514 commits behind master",
+   "message": "idle 14d, 1515 commits behind master",
    "url": "https://github.com/ossia/score/pull/1601",
    "severity": "warn"
   },
@@ -9967,7 +10186,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1603 wip: better implementation of customfloatcontrol",
-   "message": "idle 14d, 1299 commits behind master",
+   "message": "idle 14d, 1300 commits behind master",
    "url": "https://github.com/ossia/score/pull/1603",
    "severity": "warn"
   },
@@ -9976,7 +10195,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1604 core: Implement a command transaction system",
-   "message": "idle 14d, 1299 commits behind master",
+   "message": "idle 14d, 1300 commits behind master",
    "url": "https://github.com/ossia/score/pull/1604",
    "severity": "warn"
   },
@@ -9985,7 +10204,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1605 curve: start work on optimized pointarray rendering",
-   "message": "idle 14d, 1514 commits behind master",
+   "message": "idle 14d, 1515 commits behind master",
    "url": "https://github.com/ossia/score/pull/1605",
    "severity": "warn"
   },
@@ -9994,7 +10213,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1631 ui: work on improving drag and drop magnetic behaviour",
-   "message": "idle 14d, 1299 commits behind master",
+   "message": "idle 14d, 1300 commits behind master",
    "url": "https://github.com/ossia/score/pull/1631",
    "severity": "warn"
   },
@@ -10003,7 +10222,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1632 simpleio: improve pwm handling",
-   "message": "idle 14d, 1514 commits behind master",
+   "message": "idle 14d, 1515 commits behind master",
    "url": "https://github.com/ossia/score/pull/1632",
    "severity": "warn"
   },
@@ -10012,7 +10231,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1636 video: start working towards control ports in video proces",
-   "message": "idle 14d, 1299 commits behind master",
+   "message": "idle 14d, 1300 commits behind master",
    "url": "https://github.com/ossia/score/pull/1636",
    "severity": "warn"
   },
@@ -10021,7 +10240,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1638 faust: use default FAUSTFLOAT configuration if using faust from distro",
-   "message": "idle 14d, 1514 commits behind master",
+   "message": "idle 14d, 1515 commits behind master",
    "url": "https://github.com/ossia/score/pull/1638",
    "severity": "warn"
   },
@@ -10030,7 +10249,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1676 osc: work on adding more features to rate limiter",
-   "message": "idle 14d, 952 commits behind master",
+   "message": "idle 14d, 953 commits behind master",
    "url": "https://github.com/ossia/score/pull/1676",
    "severity": "warn"
   },
@@ -10039,7 +10258,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1710 Improve package manager UX",
-   "message": "idle 14d, 525 commits behind master",
+   "message": "idle 14d, 526 commits behind master",
    "url": "https://github.com/ossia/score/pull/1710",
    "severity": "warn"
   },
@@ -10048,7 +10267,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1745 video: try a different tradeoff of video playback options",
-   "message": "idle 14d, 1293 commits behind master",
+   "message": "idle 14d, 1294 commits behind master",
    "url": "https://github.com/ossia/score/pull/1745",
    "severity": "warn"
   },
@@ -10057,7 +10276,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1757 mcp: try to see how would an implementation would look",
-   "message": "idle 14d, 1271 commits behind master",
+   "message": "idle 14d, 1272 commits behind master",
    "url": "https://github.com/ossia/score/pull/1757",
    "severity": "warn"
   },
@@ -10066,7 +10285,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1768 fix/adjust_grid_size_to_generate_values_from_-1_to_1",
-   "message": "idle 14d, 1191 commits behind master",
+   "message": "idle 14d, 1192 commits behind master",
    "url": "https://github.com/ossia/score/pull/1768",
    "severity": "warn"
   },
@@ -10075,7 +10294,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1772 make a debug appimage",
-   "message": "idle 14d, 1152 commits behind master",
+   "message": "idle 14d, 1153 commits behind master",
    "url": "https://github.com/ossia/score/pull/1772",
    "severity": "warn"
   },
@@ -10084,7 +10303,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1778 wip/pico next 2",
-   "message": "idle 14d, 1116 commits behind master",
+   "message": "idle 14d, 1117 commits behind master",
    "url": "https://github.com/ossia/score/pull/1778",
    "severity": "warn"
   },
@@ -10093,7 +10312,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1827 feature/enable vulkan raytracing extensions",
-   "message": "idle 14d, 1062 commits behind master",
+   "message": "idle 14d, 1063 commits behind master",
    "url": "https://github.com/ossia/score/pull/1827",
    "severity": "warn"
   },
@@ -10102,7 +10321,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1892 ble: use qtbluetooth",
-   "message": "idle 14d, 525 commits behind master",
+   "message": "idle 14d, 526 commits behind master",
    "url": "https://github.com/ossia/score/pull/1892",
    "severity": "warn"
   },
@@ -10111,7 +10330,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1933 feature/codeeditor dock",
-   "message": "idle 14d, 466 commits behind master",
+   "message": "idle 14d, 467 commits behind master",
    "url": "https://github.com/ossia/score/pull/1933",
    "severity": "warn"
   },
@@ -10120,7 +10339,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1940 wip: experiment with bw64",
-   "message": "idle 14d, 449 commits behind master",
+   "message": "idle 14d, 450 commits behind master",
    "url": "https://github.com/ossia/score/pull/1940",
    "severity": "warn"
   },
@@ -10129,7 +10348,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1941 midi: wip on MIDI parsing of automations, tempo, etc.",
-   "message": "idle 14d, 449 commits behind master",
+   "message": "idle 14d, 450 commits behind master",
    "url": "https://github.com/ossia/score/pull/1941",
    "severity": "warn"
   },
@@ -10138,7 +10357,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1946 ui: experiment with a generic view tool",
-   "message": "idle 14d, 396 commits behind master",
+   "message": "idle 14d, 397 commits behind master",
    "url": "https://github.com/ossia/score/pull/1946",
    "severity": "warn"
   },
@@ -10147,7 +10366,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1950 table: try to see if 1D and 2D make the cut",
-   "message": "idle 14d, 372 commits behind master",
+   "message": "idle 14d, 373 commits behind master",
    "url": "https://github.com/ossia/score/pull/1950",
    "severity": "warn"
   },
@@ -10156,7 +10375,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1963 inspector: suggest alternative label display for better readability",
-   "message": "idle 14d, 283 commits behind master",
+   "message": "idle 14d, 284 commits behind master",
    "url": "https://github.com/ossia/score/pull/1963",
    "severity": "warn"
   },
@@ -10165,7 +10384,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1969 dynamic ports: handle live reloading in ossia",
-   "message": "idle 14d, 271 commits behind master",
+   "message": "idle 14d, 272 commits behind master",
    "url": "https://github.com/ossia/score/pull/1969",
    "severity": "warn"
   },
@@ -10174,7 +10393,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1975 audio: implement an ASIO-based audio backend. Fixes #1422",
-   "message": "idle 14d, 243 commits behind master",
+   "message": "idle 14d, 244 commits behind master",
    "url": "https://github.com/ossia/score/pull/1975",
    "severity": "warn"
   },
@@ -10183,7 +10402,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1978 js: experiment with QtQuick-based nodal process",
-   "message": "idle 14d, 243 commits behind master",
+   "message": "idle 14d, 244 commits behind master",
    "url": "https://github.com/ossia/score/pull/1978",
    "severity": "warn"
   },
@@ -10192,7 +10411,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1989 feature/clip launcher",
-   "message": "idle 14d, 234 commits behind master",
+   "message": "idle 14d, 235 commits behind master",
    "url": "https://github.com/ossia/score/pull/1989",
    "severity": "warn"
   },
@@ -10201,7 +10420,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#2019 [ci skip] wip: webengine support",
-   "message": "idle 14d, 136 commits behind master",
+   "message": "idle 14d, 137 commits behind master",
    "url": "https://github.com/ossia/score/pull/2019",
    "severity": "warn"
   },
@@ -10210,7 +10429,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#2032 TBD: mapper: keep mapper device readable via Device.read() after device reconnects",
-   "message": "idle 14d, 59 commits behind master",
+   "message": "idle 14d, 60 commits behind master",
    "url": "https://github.com/ossia/score/pull/2032",
    "severity": "warn"
   },
@@ -10219,7 +10438,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#2034 wip: wasm: update to latest Qt, make gfx work",
-   "message": "idle 14d, 135 commits behind master",
+   "message": "idle 14d, 136 commits behind master",
    "url": "https://github.com/ossia/score/pull/2034",
    "severity": "warn"
   },

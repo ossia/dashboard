@@ -3,8 +3,12 @@ import Layout from "../components/Layout.astro";
 import Sev from "../components/Sev.astro";
 import { snapshot, fmtDate, sevRank, num } from "../lib/snapshot.ts";
 
-const interesting = snapshot.branches.filter((b) => (b.ahead ?? 0) > 0 || b.severity !== "ok");
+const real = (b: (typeof snapshot.branches)[number]) => b.aheadReal ?? b.ahead;
+const interesting = snapshot.branches.filter((b) => (real(b) ?? 0) > 0 || b.severity !== "ok");
 const prless = interesting.filter((b) => b.hasPR === false);
+const cherryOnly = snapshot.branches.filter(
+  (b) => (b.ahead ?? 0) > 0 && (b.aheadReal ?? 1) === 0,
+).length;
 const rows = [...interesting].sort(
   (a, b) => sevRank[b.severity] - sevRank[a.severity] || (b.lastCommitDate ?? "").localeCompare(a.lastCommitDate ?? ""),
 );
@@ -14,15 +18,18 @@ const mergedOrEmpty = snapshot.branches.length - interesting.length;
 <Layout title="branches" active="branches">
   <h1>branches</h1>
   <p class="note">
-    Branches with commits not on the default branch. {prless.length} have no open PR.
-    ({mergedOrEmpty} fully-merged branches hidden — prunable.)
+    Branches with commits that are <em>actually</em> missing from the default branch:
+    commits whose patch already landed via cherry-pick or rebase (matched by author +
+    author-date or author + summary) don't count. {prless.length} branches have real
+    unmerged work and no open PR. {mergedOrEmpty} branches hidden as prunable
+    ({cherryOnly} of them only had already-cherry-picked commits).
   </p>
   <input class="filter" data-table="t" placeholder="filter…" />
   <table class="data" id="t">
     <thead>
       <tr>
         <th>sev</th><th>repo</th><th>branch</th><th>last commit</th>
-        <th>ahead</th><th>behind</th><th>PR</th>
+        <th>unmerged</th><th>picked</th><th>behind</th><th>PR</th>
       </tr>
     </thead>
     <tbody>
@@ -32,7 +39,8 @@ const mergedOrEmpty = snapshot.branches.length - interesting.length;
           <td class="mono">{b.repo.split("/")[1]}</td>
           <td class="mono"><a href={`https://github.com/${b.repo}/tree/${b.name}`}>{b.name}</a></td>
           <td data-k={b.lastCommitDate ?? ""}>{fmtDate(b.lastCommitDate)}</td>
-          <td class="num" data-k={num(b.ahead)}>{b.ahead ?? "—"}</td>
+          <td class="num" data-k={num(real(b))}>{real(b) ?? "—"}</td>
+          <td class="num" data-k={num(b.landedEquivalent)}>{b.landedEquivalent || ""}</td>
           <td class="num" data-k={num(b.behind)}>{b.behind ?? "—"}</td>
           <td>
             {b.hasPR === null
