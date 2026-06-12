@@ -1,39 +1,40 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-06-12T10:41:30.920Z",
+ "generatedAt": "2026-06-12T15:43:14.894Z",
  "sections": {
   "repos": {
    "source": "live",
-   "collectedAt": "2026-06-12T10:41:18.994Z"
+   "collectedAt": "2026-06-12T15:42:58.076Z"
   },
   "submodules": {
    "source": "live",
-   "collectedAt": "2026-06-12T10:41:28.854Z"
+   "collectedAt": "2026-06-12T15:43:12.785Z"
   },
   "upstreams": {
    "source": "live",
-   "collectedAt": "2026-06-12T10:41:28.376Z"
+   "collectedAt": "2026-06-12T15:43:12.037Z"
   },
   "prs": {
    "source": "fixture",
-   "collectedAt": "2026-06-12T10:41:25.797Z",
+   "collectedAt": "2026-06-12T15:43:07.765Z",
    "error": "graphql sat-mtl/skills: Could not resolve to a Repository with the name 'sat-mtl/skills'."
   },
   "branches": {
    "source": "live",
-   "collectedAt": "2026-06-12T10:41:30.920Z"
+   "collectedAt": "2026-06-12T15:43:14.893Z"
   },
   "actions": {
    "source": "live",
-   "collectedAt": "2026-06-12T10:41:23.348Z"
+   "collectedAt": "2026-06-12T15:43:05.276Z"
   },
   "environments": {
-   "source": "live",
-   "collectedAt": "2026-06-12T10:41:24.079Z"
+   "source": "fixture",
+   "collectedAt": "2026-06-12T15:43:13.249Z",
+   "error": "endoflife.date unreachable; cycle data from committed fixture"
   },
   "packaging": {
    "source": "live",
-   "collectedAt": "2026-06-12T10:41:22.969Z"
+   "collectedAt": "2026-06-12T15:43:04.515Z"
   }
  },
  "repos": [
@@ -101,8 +102,8 @@
   {
    "slug": "celtera/avendish",
    "defaultBranch": "main",
-   "headSha": "2d600ac55555b831744db46a86fc535895066f5f",
-   "headDate": "2026-06-12T08:52:47+09:00",
+   "headSha": "c3f4b7cc3313f8905b09eab89d03a70ca0588969",
+   "headDate": "2026-06-12T22:40:14+09:00",
    "counts": {
     "prs": {
      "warn": 10,
@@ -112,7 +113,7 @@
     "branches": {
      "warn": 1,
      "crit": 0,
-     "info": 4
+     "info": 3
     },
     "actions": {
      "warn": 2,
@@ -147,21 +148,21 @@
   {
    "slug": "ossia/actions",
    "defaultBranch": "master",
-   "headSha": "13b1c6cfcfa545ffbce0af98dd8af6d4eb88a48e",
-   "headDate": "2026-06-12T06:47:21+09:00",
+   "headSha": "81d587af6b1125097410cb94d2f6a5271d4d7c2b",
+   "headDate": "2026-06-12T22:40:51+09:00",
    "counts": {
     "actions": {
-     "warn": 2,
+     "warn": 7,
      "crit": 0,
-     "info": 9
+     "info": 20
     }
    }
   },
   {
    "slug": "ossia/dashboard",
    "defaultBranch": "main",
-   "headSha": "99b023d64e3fccc85e00a57610af378ff5d5e9de",
-   "headDate": "2026-06-12T05:06:06Z",
+   "headSha": "ef1bcf84ba41126dc8fd91c16f90e0c3f55a0b82",
+   "headDate": "2026-06-12T10:41:30Z",
    "counts": {
     "actions": {
      "warn": 2,
@@ -525,7 +526,7 @@
     "master"
    ],
    "behindCount": 19,
-   "behindDays": 520.1189120370371,
+   "behindDays": 520.118912037037,
    "targetHeadSha": "43d2fe1b133cc9ded823fde6bd10560721a36e98",
    "targetHeadDate": "2024-03-20T12:15:56-04:00",
    "severity": "crit",
@@ -589,13 +590,13 @@
     "claude/touchdesigner-memory-leak-dj85i2",
     "main"
    ],
-   "behindCount": 3,
-   "behindDays": 1.5612847222222221,
-   "targetHeadSha": "2d600ac55555b831744db46a86fc535895066f5f",
-   "targetHeadDate": "2026-06-12T08:52:47+09:00",
+   "behindCount": 8,
+   "behindDays": 2.135902777777778,
+   "targetHeadSha": "c3f4b7cc3313f8905b09eab89d03a70ca0588969",
+   "targetHeadDate": "2026-06-12T22:40:14+09:00",
    "severity": "info",
    "notes": [
-    "3 commits / 2 days behind celtera/avendish@main"
+    "8 commits / 2 days behind celtera/avendish@main"
    ]
   },
   {
@@ -652,7 +653,7 @@
     "master"
    ],
    "behindCount": 2,
-   "behindDays": 11.861469907407406,
+   "behindDays": 11.861469907407407,
    "targetHeadSha": "32f203695dea0073722699890d8f3faca58ff9bb",
    "targetHeadDate": "2026-06-02T19:17:51+01:00",
    "severity": "info",
@@ -692,7 +693,7 @@
     "master"
    ],
    "behindCount": 5,
-   "behindDays": 123.96619212962963,
+   "behindDays": 123.96619212962962,
    "targetHeadSha": "327cea8183f4bc09581b3b4c54702f2f388926fd",
    "targetHeadDate": "2026-04-02T20:11:43+01:00",
    "severity": "warn",
@@ -736,7 +737,7 @@
     "update-e920d1c"
    ],
    "behindCount": 149,
-   "behindDays": 706.2357175925926,
+   "behindDays": 706.2357175925927,
    "targetHeadSha": "75fa45bdee634e6b3ad36e1db33a69c1ba43417c",
    "targetHeadDate": "2026-06-01T09:43:44+02:00",
    "severity": "crit",
@@ -824,7 +825,7 @@
     "main"
    ],
    "behindCount": 1,
-   "behindDays": 292.84749999999997,
+   "behindDays": 292.8475,
    "targetHeadSha": "515f55df910369390428e1411205f7e669f15bd3",
    "targetHeadDate": "2026-05-10T11:10:56+02:00",
    "severity": "warn",
@@ -884,7 +885,7 @@
    "onDefaultBranch": false,
    "containingBranches": [],
    "behindCount": 2,
-   "behindDays": 52.4029976851852,
+   "behindDays": 52.402997685185184,
    "targetHeadSha": "3100c21f864aacbeece57a3bd93af340074f34cb",
    "targetHeadDate": "2026-04-07T20:20:53-04:00",
    "severity": "warn",
@@ -928,7 +929,7 @@
     "master"
    ],
    "behindCount": 28,
-   "behindDays": 133.88820601851853,
+   "behindDays": 133.8882060185185,
    "targetHeadSha": "dd857e5fd3e3faf8a42319140c52d7e73c62f983",
    "targetHeadDate": "2026-06-12T12:25:00+02:00",
    "severity": "warn",
@@ -1110,16 +1111,15 @@
    "targetDefaultBranch": "main",
    "onDefaultBranch": true,
    "containingBranches": [
-    "main",
-    "release"
+    "main"
    ],
-   "behindCount": 274,
-   "behindDays": 265.6977083333333,
-   "targetHeadSha": "e8deaf2ec3b53ced589fce6f640061e5b32eeeaa",
-   "targetHeadDate": "2026-06-10T11:30:17+02:00",
+   "behindCount": 275,
+   "behindDays": 267.92743055555553,
+   "targetHeadSha": "11ddbcb7898d2d3445d431a54814367b21dee6ad",
+   "targetHeadDate": "2026-06-12T17:01:05+02:00",
    "severity": "warn",
    "notes": [
-    "274 commits / 9 months behind fmtlib/fmt@main"
+    "275 commits / 9 months behind fmtlib/fmt@main"
    ]
   },
   {
@@ -1135,7 +1135,7 @@
     "master"
    ],
    "behindCount": 5,
-   "behindDays": 627.2471412037037,
+   "behindDays": 627.2471412037038,
    "targetHeadSha": "131af2c479c6ba36142ee9805e9f60fc4adfa22c",
    "targetHeadDate": "2026-03-28T13:16:24-04:00",
    "severity": "crit",
@@ -1735,7 +1735,7 @@
     "main"
    ],
    "behindCount": 12,
-   "behindDays": 353.20518518518514,
+   "behindDays": 353.2051851851852,
    "targetHeadSha": "dab09336d6a221299159a5ddc76cdcf6967ba9dd",
    "targetHeadDate": "2026-05-08T12:52:58+02:00",
    "severity": "warn",
@@ -1797,7 +1797,7 @@
     "master"
    ],
    "behindCount": 67,
-   "behindDays": 601.8124652777778,
+   "behindDays": 601.8124652777777,
    "targetHeadSha": "b233b96e49d371bad00300f59b5ba581100b8745",
    "targetHeadDate": "2026-06-08T14:35:52+04:00",
    "severity": "crit",
@@ -1820,7 +1820,7 @@
     "master"
    ],
    "behindCount": 65,
-   "behindDays": 173.98489583333335,
+   "behindDays": 173.98489583333333,
    "targetHeadSha": "9634bedb5b5a2ca38c1ee7108a9358a4e233f14d",
    "targetHeadDate": "2026-03-04T06:25:00+10:00",
    "severity": "warn",
@@ -2195,8 +2195,8 @@
    "pinnedSha": null,
    "latestTag": "v3.1",
    "latestTagDate": "2023-10-01T00:29:17-04:00",
-   "upstreamHeadSha": "2d600ac55555b831744db46a86fc535895066f5f",
-   "upstreamHeadDate": "2026-06-12T08:52:47+09:00",
+   "upstreamHeadSha": "c3f4b7cc3313f8905b09eab89d03a70ca0588969",
+   "upstreamHeadDate": "2026-06-12T22:40:14+09:00",
    "outdated": false,
    "revived": false,
    "severity": "ok",
@@ -3042,8 +3042,8 @@
    "pinnedSha": null,
    "latestTag": "12.1.0",
    "latestTagDate": "2025-10-29T07:40:27-07:00",
-   "upstreamHeadSha": "e8deaf2ec3b53ced589fce6f640061e5b32eeeaa",
-   "upstreamHeadDate": "2026-06-10T11:30:17+02:00",
+   "upstreamHeadSha": "11ddbcb7898d2d3445d431a54814367b21dee6ad",
+   "upstreamHeadDate": "2026-06-12T17:01:05+02:00",
    "outdated": false,
    "revived": false,
    "severity": "ok",
@@ -3444,8 +3444,8 @@
    "draft": false,
    "createdAt": "2026-05-31T23:16:46Z",
    "updatedAt": "2026-06-06T16:35:17Z",
-   "ageDays": 11.5,
-   "idleDays": 5.8,
+   "ageDays": 11.7,
+   "idleDays": 6,
    "behindBase": 10,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -3462,8 +3462,8 @@
    "draft": false,
    "createdAt": "2026-05-21T19:59:34Z",
    "updatedAt": "2026-06-05T19:05:19Z",
-   "ageDays": 21.6,
-   "idleDays": 6.7,
+   "ageDays": 21.8,
+   "idleDays": 6.9,
    "behindBase": 25,
    "aheadOfBase": 7,
    "ciStatus": null,
@@ -3480,8 +3480,8 @@
    "draft": true,
    "createdAt": "2026-05-14T03:36:42Z",
    "updatedAt": "2026-06-11T00:12:35Z",
-   "ageDays": 29.3,
-   "idleDays": 1.4,
+   "ageDays": 29.5,
+   "idleDays": 1.6,
    "behindBase": 1,
    "aheadOfBase": 55,
    "ciStatus": null,
@@ -3498,8 +3498,8 @@
    "draft": false,
    "createdAt": "2026-04-21T08:17:30Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 52.1,
-   "idleDays": 14.3,
+   "ageDays": 52.3,
+   "idleDays": 14.5,
    "behindBase": 136,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -3516,8 +3516,8 @@
    "draft": false,
    "createdAt": "2026-04-20T03:05:16Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 53.3,
-   "idleDays": 14.3,
+   "ageDays": 53.5,
+   "idleDays": 14.5,
    "behindBase": 60,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -3534,8 +3534,8 @@
    "draft": false,
    "createdAt": "2026-04-02T12:57:29Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 70.9,
-   "idleDays": 14.3,
+   "ageDays": 71.1,
+   "idleDays": 14.5,
    "behindBase": 137,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -3552,8 +3552,8 @@
    "draft": false,
    "createdAt": "2026-03-07T01:30:39Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 97.4,
-   "idleDays": 14.3,
+   "ageDays": 97.6,
+   "idleDays": 14.5,
    "behindBase": 235,
    "aheadOfBase": 5,
    "ciStatus": null,
@@ -3570,8 +3570,8 @@
    "draft": false,
    "createdAt": "2026-03-01T23:03:06Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 102.5,
-   "idleDays": 14.3,
+   "ageDays": 102.7,
+   "idleDays": 14.5,
    "behindBase": 244,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -3588,8 +3588,8 @@
    "draft": false,
    "createdAt": "2026-02-28T01:26:20Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 104.4,
-   "idleDays": 14.3,
+   "ageDays": 104.6,
+   "idleDays": 14.5,
    "behindBase": 244,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -3606,8 +3606,8 @@
    "draft": false,
    "createdAt": "2026-02-23T05:46:50Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 109.2,
-   "idleDays": 14.3,
+   "ageDays": 109.4,
+   "idleDays": 14.5,
    "behindBase": 272,
    "aheadOfBase": 4,
    "ciStatus": null,
@@ -3624,8 +3624,8 @@
    "draft": false,
    "createdAt": "2026-02-14T19:53:19Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 117.6,
-   "idleDays": 14.3,
+   "ageDays": 117.8,
+   "idleDays": 14.5,
    "behindBase": 284,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -3642,8 +3642,8 @@
    "draft": false,
    "createdAt": "2026-01-28T00:56:46Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 135.4,
-   "idleDays": 14.3,
+   "ageDays": 135.6,
+   "idleDays": 14.5,
    "behindBase": 373,
    "aheadOfBase": 3,
    "ciStatus": null,
@@ -3660,8 +3660,8 @@
    "draft": false,
    "createdAt": "2026-01-25T21:05:19Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 137.6,
-   "idleDays": 14.3,
+   "ageDays": 137.8,
+   "idleDays": 14.5,
    "behindBase": 397,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -3678,8 +3678,8 @@
    "draft": false,
    "createdAt": "2026-01-21T06:07:25Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 142.2,
-   "idleDays": 14.3,
+   "ageDays": 142.4,
+   "idleDays": 14.5,
    "behindBase": 450,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -3696,8 +3696,8 @@
    "draft": false,
    "createdAt": "2026-01-21T06:05:56Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 142.2,
-   "idleDays": 14.3,
+   "ageDays": 142.4,
+   "idleDays": 14.5,
    "behindBase": 450,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -3714,8 +3714,8 @@
    "draft": false,
    "createdAt": "2026-01-11T03:43:42Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 152.3,
-   "idleDays": 14.3,
+   "ageDays": 152.5,
+   "idleDays": 14.5,
    "behindBase": 467,
    "aheadOfBase": 3,
    "ciStatus": null,
@@ -3732,8 +3732,8 @@
    "draft": false,
    "createdAt": "2025-11-01T02:39:20Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 223.3,
-   "idleDays": 14.3,
+   "ageDays": 223.5,
+   "idleDays": 14.5,
    "behindBase": 526,
    "aheadOfBase": 3,
    "ciStatus": null,
@@ -3750,8 +3750,8 @@
    "draft": false,
    "createdAt": "2025-07-13T19:01:19Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 333.7,
-   "idleDays": 14.3,
+   "ageDays": 333.9,
+   "idleDays": 14.5,
    "behindBase": 1063,
    "aheadOfBase": 2,
    "ciStatus": null,
@@ -3768,8 +3768,8 @@
    "draft": false,
    "createdAt": "2025-05-02T17:34:29Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 405.7,
-   "idleDays": 14.3,
+   "ageDays": 405.9,
+   "idleDays": 14.5,
    "behindBase": 1117,
    "aheadOfBase": 19,
    "ciStatus": null,
@@ -3786,8 +3786,8 @@
    "draft": false,
    "createdAt": "2025-04-21T20:15:12Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 416.6,
-   "idleDays": 14.3,
+   "ageDays": 416.8,
+   "idleDays": 14.5,
    "behindBase": 1153,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -3804,8 +3804,8 @@
    "draft": false,
    "createdAt": "2025-04-17T18:39:09Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 420.7,
-   "idleDays": 14.3,
+   "ageDays": 420.9,
+   "idleDays": 14.5,
    "behindBase": 1192,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -3822,8 +3822,8 @@
    "draft": false,
    "createdAt": "2025-04-04T04:12:09Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 434.3,
-   "idleDays": 14.3,
+   "ageDays": 434.5,
+   "idleDays": 14.5,
    "behindBase": 1272,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -3840,8 +3840,8 @@
    "draft": false,
    "createdAt": "2025-03-22T21:34:38Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 446.5,
-   "idleDays": 14.3,
+   "ageDays": 446.8,
+   "idleDays": 14.5,
    "behindBase": 1294,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -3858,8 +3858,8 @@
    "draft": false,
    "createdAt": "2025-02-06T17:47:49Z",
    "updatedAt": "2026-05-29T02:52:00Z",
-   "ageDays": 490.7,
-   "idleDays": 14.3,
+   "ageDays": 490.9,
+   "idleDays": 14.5,
    "behindBase": 526,
    "aheadOfBase": 4,
    "ciStatus": null,
@@ -3876,8 +3876,8 @@
    "draft": false,
    "createdAt": "2025-01-16T03:58:31Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 512.3,
-   "idleDays": 14.3,
+   "ageDays": 512.5,
+   "idleDays": 14.5,
    "behindBase": 953,
    "aheadOfBase": 6,
    "ciStatus": null,
@@ -3894,8 +3894,8 @@
    "draft": true,
    "createdAt": "2024-12-30T14:33:01Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 528.8,
-   "idleDays": 14.3,
+   "ageDays": 529,
+   "idleDays": 14.5,
    "behindBase": 953,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -3912,8 +3912,8 @@
    "draft": false,
    "createdAt": "2024-12-30T03:47:50Z",
    "updatedAt": "2026-06-02T23:37:44Z",
-   "ageDays": 529.3,
-   "idleDays": 9.5,
+   "ageDays": 529.5,
+   "idleDays": 9.7,
    "behindBase": 32,
    "aheadOfBase": 3,
    "ciStatus": null,
@@ -3930,8 +3930,8 @@
    "draft": false,
    "createdAt": "2024-12-24T22:59:38Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 534.5,
-   "idleDays": 14.3,
+   "ageDays": 534.7,
+   "idleDays": 14.5,
    "behindBase": 1515,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -3948,8 +3948,8 @@
    "draft": false,
    "createdAt": "2024-12-24T22:55:16Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 534.5,
-   "idleDays": 14.3,
+   "ageDays": 534.7,
+   "idleDays": 14.5,
    "behindBase": 1300,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -3966,8 +3966,8 @@
    "draft": false,
    "createdAt": "2024-12-24T19:04:13Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 534.7,
-   "idleDays": 14.3,
+   "ageDays": 534.9,
+   "idleDays": 14.5,
    "behindBase": 1515,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -3984,8 +3984,8 @@
    "draft": false,
    "createdAt": "2024-12-24T19:03:21Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 534.7,
-   "idleDays": 14.3,
+   "ageDays": 534.9,
+   "idleDays": 14.5,
    "behindBase": 1300,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -4002,8 +4002,8 @@
    "draft": false,
    "createdAt": "2024-12-01T17:48:05Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 557.7,
-   "idleDays": 14.3,
+   "ageDays": 557.9,
+   "idleDays": 14.5,
    "behindBase": 1515,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -4020,8 +4020,8 @@
    "draft": false,
    "createdAt": "2024-12-01T17:47:05Z",
    "updatedAt": "2026-05-29T02:52:00Z",
-   "ageDays": 557.7,
-   "idleDays": 14.3,
+   "ageDays": 557.9,
+   "idleDays": 14.5,
    "behindBase": 1300,
    "aheadOfBase": 3,
    "ciStatus": null,
@@ -4038,8 +4038,8 @@
    "draft": false,
    "createdAt": "2024-12-01T17:46:24Z",
    "updatedAt": "2026-05-29T02:52:00Z",
-   "ageDays": 557.7,
-   "idleDays": 14.3,
+   "ageDays": 557.9,
+   "idleDays": 14.5,
    "behindBase": 1300,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -4056,8 +4056,8 @@
    "draft": false,
    "createdAt": "2024-12-01T17:46:08Z",
    "updatedAt": "2026-05-29T02:52:00Z",
-   "ageDays": 557.7,
-   "idleDays": 14.3,
+   "ageDays": 557.9,
+   "idleDays": 14.5,
    "behindBase": 1515,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -4074,8 +4074,8 @@
    "draft": true,
    "createdAt": "2024-09-25T16:25:13Z",
    "updatedAt": "2026-05-29T02:52:00Z",
-   "ageDays": 624.8,
-   "idleDays": 14.3,
+   "ageDays": 625,
+   "idleDays": 14.5,
    "behindBase": 283,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -4092,8 +4092,8 @@
    "draft": false,
    "createdAt": "2023-02-14T12:39:55Z",
    "updatedAt": "2026-05-29T02:52:00Z",
-   "ageDays": 1213.9,
-   "idleDays": 14.3,
+   "ageDays": 1214.1,
+   "idleDays": 14.5,
    "behindBase": 2683,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -4110,8 +4110,8 @@
    "draft": false,
    "createdAt": "2022-05-10T15:30:38Z",
    "updatedAt": "2026-05-29T02:52:00Z",
-   "ageDays": 1493.8,
-   "idleDays": 14.3,
+   "ageDays": 1494,
+   "idleDays": 14.5,
    "behindBase": 3212,
    "aheadOfBase": 3,
    "ciStatus": null,
@@ -4128,8 +4128,8 @@
    "draft": false,
    "createdAt": "2021-08-19T08:02:14Z",
    "updatedAt": "2026-05-29T02:52:00Z",
-   "ageDays": 1758.1,
-   "idleDays": 14.3,
+   "ageDays": 1758.3,
+   "idleDays": 14.5,
    "behindBase": 3912,
    "aheadOfBase": 20,
    "ciStatus": null,
@@ -4146,8 +4146,8 @@
    "draft": false,
    "createdAt": "2021-08-18T12:22:47Z",
    "updatedAt": "2021-08-19T07:27:08Z",
-   "ageDays": 1758.9,
-   "idleDays": 1758.1,
+   "ageDays": 1759.1,
+   "idleDays": 1758.3,
    "behindBase": 0,
    "aheadOfBase": 9,
    "ciStatus": null,
@@ -4164,8 +4164,8 @@
    "draft": false,
    "createdAt": "2026-06-10T22:57:48Z",
    "updatedAt": "2026-06-10T22:57:48Z",
-   "ageDays": 1.5,
-   "idleDays": 1.5,
+   "ageDays": 1.7,
+   "idleDays": 1.7,
    "behindBase": 0,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -4182,8 +4182,8 @@
    "draft": false,
    "createdAt": "2026-06-10T06:11:45Z",
    "updatedAt": "2026-06-10T08:46:30Z",
-   "ageDays": 2.2,
-   "idleDays": 2.1,
+   "ageDays": 2.4,
+   "idleDays": 2.3,
    "behindBase": 0,
    "aheadOfBase": 4,
    "ciStatus": null,
@@ -4200,8 +4200,8 @@
    "draft": false,
    "createdAt": "2026-04-21T08:16:34Z",
    "updatedAt": "2026-05-29T19:50:59Z",
-   "ageDays": 52.1,
-   "idleDays": 13.6,
+   "ageDays": 52.3,
+   "idleDays": 13.8,
    "behindBase": 32,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -4218,8 +4218,8 @@
    "draft": false,
    "createdAt": "2026-03-24T08:58:00Z",
    "updatedAt": "2026-06-03T01:22:37Z",
-   "ageDays": 80.1,
-   "idleDays": 9.4,
+   "ageDays": 80.3,
+   "idleDays": 9.6,
    "behindBase": 17,
    "aheadOfBase": 11,
    "ciStatus": null,
@@ -4236,8 +4236,8 @@
    "draft": false,
    "createdAt": "2026-03-10T03:23:16Z",
    "updatedAt": "2026-03-10T03:23:16Z",
-   "ageDays": 94.3,
-   "idleDays": 94.3,
+   "ageDays": 94.5,
+   "idleDays": 94.5,
    "behindBase": 45,
    "aheadOfBase": 3,
    "ciStatus": null,
@@ -4254,8 +4254,8 @@
    "draft": false,
    "createdAt": "2026-03-10T03:20:39Z",
    "updatedAt": "2026-04-07T08:45:57Z",
-   "ageDays": 94.3,
-   "idleDays": 66.1,
+   "ageDays": 94.5,
+   "idleDays": 66.3,
    "behindBase": 33,
    "aheadOfBase": 6,
    "ciStatus": null,
@@ -4272,8 +4272,8 @@
    "draft": false,
    "createdAt": "2025-03-22T12:27:31Z",
    "updatedAt": "2026-03-02T20:12:25Z",
-   "ageDays": 446.9,
-   "idleDays": 101.6,
+   "ageDays": 447.1,
+   "idleDays": 101.8,
    "behindBase": 172,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -4290,8 +4290,8 @@
    "draft": false,
    "createdAt": "2025-03-22T12:23:17Z",
    "updatedAt": "2026-05-29T19:51:54Z",
-   "ageDays": 446.9,
-   "idleDays": 13.6,
+   "ageDays": 447.1,
+   "idleDays": 13.8,
    "behindBase": 32,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -4308,8 +4308,8 @@
    "draft": false,
    "createdAt": "2025-01-16T03:57:41Z",
    "updatedAt": "2026-05-29T19:51:58Z",
-   "ageDays": 512.3,
-   "idleDays": 13.6,
+   "ageDays": 512.5,
+   "idleDays": 13.8,
    "behindBase": 32,
    "aheadOfBase": 2,
    "ciStatus": null,
@@ -4326,8 +4326,8 @@
    "draft": false,
    "createdAt": "2023-02-14T12:44:06Z",
    "updatedAt": "2026-03-02T20:12:25Z",
-   "ageDays": 1213.9,
-   "idleDays": 101.6,
+   "ageDays": 1214.1,
+   "idleDays": 101.8,
    "behindBase": 626,
    "aheadOfBase": 2,
    "ciStatus": null,
@@ -4344,9 +4344,9 @@
    "draft": false,
    "createdAt": "2026-06-10T20:30:06Z",
    "updatedAt": "2026-06-10T20:30:06Z",
-   "ageDays": 1.6,
-   "idleDays": 1.6,
-   "behindBase": 3,
+   "ageDays": 1.8,
+   "idleDays": 1.8,
+   "behindBase": 8,
    "aheadOfBase": 1,
    "ciStatus": null,
    "severity": "info"
@@ -4362,9 +4362,9 @@
    "draft": false,
    "createdAt": "2025-01-04T22:06:58Z",
    "updatedAt": "2026-06-09T23:58:41Z",
-   "ageDays": 523.5,
-   "idleDays": 2.4,
-   "behindBase": 66,
+   "ageDays": 523.7,
+   "idleDays": 2.7,
+   "behindBase": 71,
    "aheadOfBase": 1,
    "ciStatus": null,
    "severity": "warn"
@@ -4380,9 +4380,9 @@
    "draft": false,
    "createdAt": "2025-01-02T18:20:42Z",
    "updatedAt": "2026-06-09T23:58:41Z",
-   "ageDays": 525.7,
-   "idleDays": 2.4,
-   "behindBase": 66,
+   "ageDays": 525.9,
+   "idleDays": 2.7,
+   "behindBase": 71,
    "aheadOfBase": 2,
    "ciStatus": null,
    "severity": "warn"
@@ -4398,9 +4398,9 @@
    "draft": false,
    "createdAt": "2024-12-24T15:13:11Z",
    "updatedAt": "2026-06-09T23:58:41Z",
-   "ageDays": 534.8,
-   "idleDays": 2.4,
-   "behindBase": 634,
+   "ageDays": 535,
+   "idleDays": 2.7,
+   "behindBase": 639,
    "aheadOfBase": 2,
    "ciStatus": null,
    "severity": "warn"
@@ -4416,9 +4416,9 @@
    "draft": false,
    "createdAt": "2024-12-24T15:12:04Z",
    "updatedAt": "2026-06-09T23:58:41Z",
-   "ageDays": 534.8,
-   "idleDays": 2.4,
-   "behindBase": 66,
+   "ageDays": 535,
+   "idleDays": 2.7,
+   "behindBase": 71,
    "aheadOfBase": 3,
    "ciStatus": null,
    "severity": "warn"
@@ -4434,9 +4434,9 @@
    "draft": true,
    "createdAt": "2024-12-17T17:46:00Z",
    "updatedAt": "2026-06-09T23:58:41Z",
-   "ageDays": 541.7,
-   "idleDays": 2.4,
-   "behindBase": 262,
+   "ageDays": 541.9,
+   "idleDays": 2.7,
+   "behindBase": 267,
    "aheadOfBase": 3,
    "ciStatus": null,
    "severity": "info"
@@ -4452,9 +4452,9 @@
    "draft": false,
    "createdAt": "2024-12-09T20:10:24Z",
    "updatedAt": "2026-06-09T23:58:41Z",
-   "ageDays": 549.6,
-   "idleDays": 2.4,
-   "behindBase": 256,
+   "ageDays": 549.8,
+   "idleDays": 2.7,
+   "behindBase": 261,
    "aheadOfBase": 2,
    "ciStatus": null,
    "severity": "warn"
@@ -4470,9 +4470,9 @@
    "draft": false,
    "createdAt": "2024-12-09T20:10:16Z",
    "updatedAt": "2026-06-09T23:58:41Z",
-   "ageDays": 549.6,
-   "idleDays": 2.4,
-   "behindBase": 265,
+   "ageDays": 549.8,
+   "idleDays": 2.7,
+   "behindBase": 270,
    "aheadOfBase": 1,
    "ciStatus": null,
    "severity": "warn"
@@ -4488,9 +4488,9 @@
    "draft": false,
    "createdAt": "2024-11-26T16:22:40Z",
    "updatedAt": "2026-06-09T23:58:41Z",
-   "ageDays": 562.8,
-   "idleDays": 2.4,
-   "behindBase": 66,
+   "ageDays": 563,
+   "idleDays": 2.7,
+   "behindBase": 71,
    "aheadOfBase": 1,
    "ciStatus": null,
    "severity": "warn"
@@ -4506,9 +4506,9 @@
    "draft": false,
    "createdAt": "2024-11-26T16:22:07Z",
    "updatedAt": "2026-06-09T23:58:41Z",
-   "ageDays": 562.8,
-   "idleDays": 2.4,
-   "behindBase": 277,
+   "ageDays": 563,
+   "idleDays": 2.7,
+   "behindBase": 282,
    "aheadOfBase": 1,
    "ciStatus": null,
    "severity": "warn"
@@ -4524,9 +4524,9 @@
    "draft": false,
    "createdAt": "2024-11-26T16:20:59Z",
    "updatedAt": "2026-06-09T23:58:42Z",
-   "ageDays": 562.8,
-   "idleDays": 2.4,
-   "behindBase": 421,
+   "ageDays": 563,
+   "idleDays": 2.7,
+   "behindBase": 426,
    "aheadOfBase": 1,
    "ciStatus": null,
    "severity": "warn"
@@ -4542,9 +4542,9 @@
    "draft": false,
    "createdAt": "2022-04-22T15:13:20Z",
    "updatedAt": "2026-06-09T23:58:41Z",
-   "ageDays": 1511.8,
-   "idleDays": 2.4,
-   "behindBase": 685,
+   "ageDays": 1512,
+   "idleDays": 2.7,
+   "behindBase": 690,
    "aheadOfBase": 4,
    "ciStatus": null,
    "severity": "warn"
@@ -4560,8 +4560,8 @@
    "draft": false,
    "createdAt": "2026-06-02T06:19:55Z",
    "updatedAt": "2026-06-02T16:17:13Z",
-   "ageDays": 10.2,
-   "idleDays": 9.8,
+   "ageDays": 10.4,
+   "idleDays": 10,
    "behindBase": 0,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -4578,8 +4578,8 @@
    "draft": false,
    "createdAt": "2026-03-30T14:09:50Z",
    "updatedAt": "2026-06-02T05:30:35Z",
-   "ageDays": 73.9,
-   "idleDays": 10.2,
+   "ageDays": 74.1,
+   "idleDays": 10.4,
    "behindBase": 0,
    "aheadOfBase": 4,
    "ciStatus": null,
@@ -4596,8 +4596,8 @@
    "draft": false,
    "createdAt": "2026-01-17T23:34:50Z",
    "updatedAt": "2026-01-17T23:34:50Z",
-   "ageDays": 145.5,
-   "idleDays": 145.5,
+   "ageDays": 145.7,
+   "idleDays": 145.7,
    "behindBase": 46,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -4614,8 +4614,8 @@
    "draft": true,
    "createdAt": "2025-05-30T17:03:07Z",
    "updatedAt": "2026-01-12T06:54:34Z",
-   "ageDays": 377.7,
-   "idleDays": 151.2,
+   "ageDays": 377.9,
+   "idleDays": 151.4,
    "behindBase": 130,
    "aheadOfBase": 14,
    "ciStatus": null,
@@ -4632,8 +4632,8 @@
    "draft": false,
    "createdAt": "2024-12-01T17:57:17Z",
    "updatedAt": "2026-01-12T06:54:34Z",
-   "ageDays": 557.7,
-   "idleDays": 151.2,
+   "ageDays": 557.9,
+   "idleDays": 151.4,
    "behindBase": 209,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -6755,7 +6755,7 @@
    "ahead": 3,
    "aheadReal": 0,
    "landedEquivalent": 3,
-   "behind": 36,
+   "behind": 41,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -6768,7 +6768,7 @@
    "ahead": 0,
    "aheadReal": 0,
    "landedEquivalent": null,
-   "behind": 1,
+   "behind": 6,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -6781,7 +6781,7 @@
    "ahead": 4,
    "aheadReal": 0,
    "landedEquivalent": 4,
-   "behind": 36,
+   "behind": 41,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -6794,7 +6794,7 @@
    "ahead": 1,
    "aheadReal": 0,
    "landedEquivalent": 1,
-   "behind": 3,
+   "behind": 8,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -6805,12 +6805,12 @@
    "sha": "f87c70b149e042a693ebc9d3051c04844f69749e",
    "lastCommitDate": "2026-06-12T02:05:08-04:00",
    "ahead": 5,
-   "aheadReal": 5,
-   "landedEquivalent": 0,
-   "behind": 1,
+   "aheadReal": 0,
+   "landedEquivalent": 5,
+   "behind": 6,
    "hasPR": false,
    "prNumber": null,
-   "severity": "info"
+   "severity": "ok"
   },
   {
    "repo": "celtera/avendish",
@@ -6820,7 +6820,7 @@
    "ahead": 20,
    "aheadReal": 0,
    "landedEquivalent": 20,
-   "behind": 33,
+   "behind": 38,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -6833,7 +6833,7 @@
    "ahead": 5,
    "aheadReal": 0,
    "landedEquivalent": 5,
-   "behind": 8,
+   "behind": 13,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -6846,7 +6846,7 @@
    "ahead": 1,
    "aheadReal": 0,
    "landedEquivalent": 1,
-   "behind": 3,
+   "behind": 8,
    "hasPR": true,
    "prNumber": 101,
    "severity": "ok"
@@ -6859,7 +6859,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 277,
+   "behind": 282,
    "hasPR": true,
    "prNumber": 44,
    "severity": "ok"
@@ -6872,7 +6872,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 265,
+   "behind": 270,
    "hasPR": true,
    "prNumber": 46,
    "severity": "ok"
@@ -6885,7 +6885,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 421,
+   "behind": 426,
    "hasPR": true,
    "prNumber": 43,
    "severity": "ok"
@@ -6898,7 +6898,7 @@
    "ahead": 2,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 66,
+   "behind": 71,
    "hasPR": true,
    "prNumber": 62,
    "severity": "ok"
@@ -6911,7 +6911,7 @@
    "ahead": 10,
    "aheadReal": 0,
    "landedEquivalent": 10,
-   "behind": 64,
+   "behind": 69,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -6924,7 +6924,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 53,
+   "behind": 58,
    "hasPR": false,
    "prNumber": null,
    "severity": "info"
@@ -6937,7 +6937,7 @@
    "ahead": 8,
    "aheadReal": 0,
    "landedEquivalent": 8,
-   "behind": 33,
+   "behind": 38,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -6950,7 +6950,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 66,
+   "behind": 71,
    "hasPR": true,
    "prNumber": 45,
    "severity": "ok"
@@ -6963,7 +6963,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 66,
+   "behind": 71,
    "hasPR": true,
    "prNumber": 63,
    "severity": "ok"
@@ -6976,7 +6976,7 @@
    "ahead": 2,
    "aheadReal": 2,
    "landedEquivalent": 0,
-   "behind": 256,
+   "behind": 261,
    "hasPR": true,
    "prNumber": 47,
    "severity": "ok"
@@ -6989,7 +6989,7 @@
    "ahead": 4,
    "aheadReal": 0,
    "landedEquivalent": 4,
-   "behind": 33,
+   "behind": 38,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -7002,7 +7002,7 @@
    "ahead": 2,
    "aheadReal": 0,
    "landedEquivalent": 2,
-   "behind": 66,
+   "behind": 71,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -7015,7 +7015,7 @@
    "ahead": 10,
    "aheadReal": 0,
    "landedEquivalent": 10,
-   "behind": 47,
+   "behind": 52,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -7028,7 +7028,7 @@
    "ahead": 1,
    "aheadReal": 0,
    "landedEquivalent": 1,
-   "behind": 54,
+   "behind": 59,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -7041,7 +7041,7 @@
    "ahead": 3,
    "aheadReal": 0,
    "landedEquivalent": 3,
-   "behind": 91,
+   "behind": 96,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -7054,7 +7054,7 @@
    "ahead": 2,
    "aheadReal": 2,
    "landedEquivalent": 0,
-   "behind": 54,
+   "behind": 59,
    "hasPR": false,
    "prNumber": null,
    "severity": "info"
@@ -7067,7 +7067,7 @@
    "ahead": 5,
    "aheadReal": 0,
    "landedEquivalent": 5,
-   "behind": 33,
+   "behind": 38,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -7080,7 +7080,7 @@
    "ahead": 113,
    "aheadReal": 113,
    "landedEquivalent": 0,
-   "behind": 880,
+   "behind": 885,
    "hasPR": false,
    "prNumber": null,
    "severity": "info"
@@ -7093,7 +7093,7 @@
    "ahead": 1,
    "aheadReal": 0,
    "landedEquivalent": 1,
-   "behind": 3,
+   "behind": 8,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -7106,7 +7106,7 @@
    "ahead": 2,
    "aheadReal": 2,
    "landedEquivalent": 0,
-   "behind": 262,
+   "behind": 267,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -7119,7 +7119,7 @@
    "ahead": 3,
    "aheadReal": 3,
    "landedEquivalent": 0,
-   "behind": 262,
+   "behind": 267,
    "hasPR": true,
    "prNumber": 54,
    "severity": "ok"
@@ -7132,7 +7132,7 @@
    "ahead": 3,
    "aheadReal": 2,
    "landedEquivalent": 0,
-   "behind": 66,
+   "behind": 71,
    "hasPR": true,
    "prNumber": 60,
    "severity": "ok"
@@ -7145,7 +7145,7 @@
    "ahead": 2,
    "aheadReal": 2,
    "landedEquivalent": 0,
-   "behind": 634,
+   "behind": 639,
    "hasPR": true,
    "prNumber": 61,
    "severity": "ok"
@@ -7262,7 +7262,7 @@
    "ahead": 1,
    "aheadReal": 0,
    "landedEquivalent": 1,
-   "behind": 8,
+   "behind": 10,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -7275,7 +7275,7 @@
    "ahead": 1,
    "aheadReal": 0,
    "landedEquivalent": 1,
-   "behind": 3,
+   "behind": 5,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -7288,7 +7288,7 @@
    "ahead": 0,
    "aheadReal": 0,
    "landedEquivalent": null,
-   "behind": 1,
+   "behind": 2,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -7707,6 +7707,121 @@
     },
     {
      "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "v4"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "v4"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "v4"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "v4"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "v4"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "v4"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "v4"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "v4"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "v4"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "v4"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "v4"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "v4"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-portability.yml",
+     "ref": "v4"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-portability.yml",
+     "ref": "v4"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-portability.yml",
+     "ref": "v4"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-portability.yml",
+     "ref": "v4"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-portability.yml",
+     "ref": "v4"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-portability.yml",
+     "ref": "v4"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-portability.yml",
+     "ref": "v4"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-portability.yml",
+     "ref": "v4"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-portability.yml",
+     "ref": "v4"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-portability.yml",
+     "ref": "v4"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-portability.yml",
+     "ref": "v4"
+    },
+    {
+     "repo": "ossia/actions",
      "workflow": "builds-dev.yml",
      "ref": "v4"
     },
@@ -7826,6 +7941,26 @@
      "repo": "celtera/libremidi",
      "workflow": "publish_pypi.yml",
      "ref": "v7"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "v4"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "v4"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "v4"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "v4"
     }
    ],
    "mutableRefs": [],
@@ -7843,6 +7978,11 @@
     {
      "repo": "celtera/libremidi",
      "workflow": "android.yml",
+     "ref": "v4"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-portability.yml",
      "ref": "v4"
     }
    ],
@@ -7865,6 +8005,22 @@
    "mutableRefs": [],
    "outdatedRefs": [],
    "severity": "ok"
+  },
+  {
+   "action": "actions/setup-python",
+   "latestTag": "v6.2.0",
+   "refs": [
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "v5"
+    }
+   ],
+   "mutableRefs": [],
+   "outdatedRefs": [
+    "v5"
+   ],
+   "severity": "warn"
   },
   {
    "action": "actions/upload-artifact",
@@ -8087,6 +8243,76 @@
     },
     {
      "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "v4"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "v4"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "v4"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "v4"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "v4"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "v4"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "v4"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "v4"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "v4"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "v4"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "v4"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "v4"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "v4"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "v4"
+    },
+    {
+     "repo": "ossia/actions",
      "workflow": "builds-dev.yml",
      "ref": "v4"
     },
@@ -8150,6 +8376,11 @@
     {
      "repo": "celtera/libremidi",
      "workflow": "android.yml",
+     "ref": "v3"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-portability.yml",
      "ref": "v3"
     }
    ],
@@ -8383,6 +8614,66 @@
     },
     {
      "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "v1"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "v1"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "v1"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "v1"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "v1"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "v1"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "v1"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "v1"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "v1"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "v1"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-portability.yml",
+     "ref": "v1"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-portability.yml",
+     "ref": "v1"
+    },
+    {
+     "repo": "ossia/actions",
      "workflow": "builds-dev.yml",
      "ref": "v1"
     },
@@ -8419,6 +8710,27 @@
    "mutableRefs": [],
    "outdatedRefs": [],
    "severity": "ok"
+  },
+  {
+   "action": "mymindstorm/setup-emsdk",
+   "latestTag": "v16",
+   "refs": [
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "v14"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-portability.yml",
+     "ref": "v14"
+    }
+   ],
+   "mutableRefs": [],
+   "outdatedRefs": [
+    "v14"
+   ],
+   "severity": "warn"
   },
   {
    "action": "ossia/actions/.github/workflows/builds-dev.yml",
@@ -8521,6 +8833,61 @@
    "refs": [
     {
      "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "master"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "master"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "master"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "master"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "master"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "master"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "master"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "master"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "master"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "master"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "master"
+    },
+    {
+     "repo": "ossia/actions",
      "workflow": "builds-dev.yml",
      "ref": "master"
     },
@@ -8585,6 +8952,182 @@
     {
      "repo": "ossia/actions",
      "workflow": "builds-sdk.yml",
+     "ref": "master"
+    }
+   ],
+   "mutableRefs": [
+    "master"
+   ],
+   "outdatedRefs": [],
+   "severity": "info"
+  },
+  {
+   "action": "ossia/actions/package-clap-addon",
+   "latestTag": null,
+   "refs": [
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "master"
+    }
+   ],
+   "mutableRefs": [
+    "master"
+   ],
+   "outdatedRefs": [],
+   "severity": "info"
+  },
+  {
+   "action": "ossia/actions/package-godot-addon",
+   "latestTag": null,
+   "refs": [
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "master"
+    }
+   ],
+   "mutableRefs": [
+    "master"
+   ],
+   "outdatedRefs": [],
+   "severity": "info"
+  },
+  {
+   "action": "ossia/actions/package-gstreamer-addon",
+   "latestTag": null,
+   "refs": [
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "master"
+    }
+   ],
+   "mutableRefs": [
+    "master"
+   ],
+   "outdatedRefs": [],
+   "severity": "info"
+  },
+  {
+   "action": "ossia/actions/package-max-addon",
+   "latestTag": null,
+   "refs": [
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "master"
+    }
+   ],
+   "mutableRefs": [
+    "master"
+   ],
+   "outdatedRefs": [],
+   "severity": "info"
+  },
+  {
+   "action": "ossia/actions/package-pd-addon",
+   "latestTag": null,
+   "refs": [
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "master"
+    }
+   ],
+   "mutableRefs": [
+    "master"
+   ],
+   "outdatedRefs": [],
+   "severity": "info"
+  },
+  {
+   "action": "ossia/actions/package-python-addon",
+   "latestTag": null,
+   "refs": [
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "master"
+    }
+   ],
+   "mutableRefs": [
+    "master"
+   ],
+   "outdatedRefs": [],
+   "severity": "info"
+  },
+  {
+   "action": "ossia/actions/package-standalone-addon",
+   "latestTag": null,
+   "refs": [
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "master"
+    }
+   ],
+   "mutableRefs": [
+    "master"
+   ],
+   "outdatedRefs": [],
+   "severity": "info"
+  },
+  {
+   "action": "ossia/actions/package-touchdesigner-addon",
+   "latestTag": null,
+   "refs": [
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "master"
+    }
+   ],
+   "mutableRefs": [
+    "master"
+   ],
+   "outdatedRefs": [],
+   "severity": "info"
+  },
+  {
+   "action": "ossia/actions/package-vintage-addon",
+   "latestTag": null,
+   "refs": [
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "master"
+    }
+   ],
+   "mutableRefs": [
+    "master"
+   ],
+   "outdatedRefs": [],
+   "severity": "info"
+  },
+  {
+   "action": "ossia/actions/package-vst3-addon",
+   "latestTag": null,
+   "refs": [
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "master"
+    }
+   ],
+   "mutableRefs": [
+    "master"
+   ],
+   "outdatedRefs": [],
+   "severity": "info"
+  },
+  {
+   "action": "ossia/actions/package-wasm-addon",
+   "latestTag": null,
+   "refs": [
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
      "ref": "master"
     }
    ],
@@ -8820,6 +9363,11 @@
    "refs": [
     {
      "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "v2"
+    },
+    {
+     "repo": "ossia/actions",
      "workflow": "release.yml",
      "ref": "v2"
     }
@@ -8840,6 +9388,11 @@
     {
      "repo": "celtera/libremidi",
      "workflow": "build_cmake.yml",
+     "ref": "v1"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-portability.yml",
      "ref": "v1"
     }
    ],
@@ -9116,13 +9669,37 @@
   {
    "category": "runner",
    "repo": "ossia/actions",
-   "location": "builds-dev.yml, builds-sdk.yml, release.yml",
+   "location": "avnd-addon.yml, avnd-portability.yml, builds-dev.yml, builds-sdk.yml, release.yml",
    "name": "runs-on",
    "current": "ubuntu-latest",
    "missingFromMatrix": [],
    "latest": null,
    "eolDate": null,
    "status": "current",
+   "severity": "ok"
+  },
+  {
+   "category": "runner",
+   "repo": "ossia/actions",
+   "location": "avnd-portability.yml",
+   "name": "runs-on",
+   "current": "ubuntu-24.04",
+   "missingFromMatrix": [],
+   "latest": "26.04",
+   "eolDate": "2029-05-31",
+   "status": "behind",
+   "severity": "ok"
+  },
+  {
+   "category": "runner",
+   "repo": "ossia/actions",
+   "location": "avnd-portability.yml",
+   "name": "runs-on",
+   "current": "macos-15",
+   "missingFromMatrix": [],
+   "latest": "26",
+   "eolDate": null,
+   "status": "behind",
    "severity": "ok"
   },
   {
@@ -9471,6 +10048,15 @@
    "severity": "warn"
   },
   {
+   "id": "action:*:actions/setup-python",
+   "category": "action",
+   "repo": "ossia/actions",
+   "subject": "actions/setup-python",
+   "message": "used at v5, latest is v6.2.0",
+   "url": "https://github.com/actions/setup-python",
+   "severity": "warn"
+  },
+  {
    "id": "action:*:actions/upload-artifact",
    "category": "action",
    "repo": "ossia/score",
@@ -9495,6 +10081,15 @@
    "subject": "github/super-linter",
    "message": "used at v4, latest is v7",
    "url": "https://github.com/github/super-linter",
+   "severity": "warn"
+  },
+  {
+   "id": "action:*:mymindstorm/setup-emsdk",
+   "category": "action",
+   "repo": "ossia/actions",
+   "subject": "mymindstorm/setup-emsdk",
+   "message": "used at v14, latest is v16",
+   "url": "https://github.com/mymindstorm/setup-emsdk",
    "severity": "warn"
   },
   {
@@ -10087,7 +10682,7 @@
    "category": "pr",
    "repo": "celtera/avendish",
    "subject": "#29 First Pull Request",
-   "message": "idle 2d, 685 commits behind main",
+   "message": "idle 3d, 690 commits behind main",
    "url": "https://github.com/celtera/avendish/pull/29",
    "severity": "warn"
   },
@@ -10096,7 +10691,7 @@
    "category": "pr",
    "repo": "celtera/avendish",
    "subject": "#43 pd: start implementing support for clock",
-   "message": "idle 2d, 421 commits behind main",
+   "message": "idle 3d, 426 commits behind main",
    "url": "https://github.com/celtera/avendish/pull/43",
    "severity": "warn"
   },
@@ -10105,7 +10700,7 @@
    "category": "pr",
    "repo": "celtera/avendish",
    "subject": "#44 examples: add an audio-to-osc example",
-   "message": "idle 2d, 277 commits behind main",
+   "message": "idle 3d, 282 commits behind main",
    "url": "https://github.com/celtera/avendish/pull/44",
    "severity": "warn"
   },
@@ -10114,7 +10709,7 @@
    "category": "pr",
    "repo": "celtera/avendish",
    "subject": "#45 bindings: add a libmapper binding",
-   "message": "idle 2d, 66 commits behind main",
+   "message": "idle 3d, 71 commits behind main",
    "url": "https://github.com/celtera/avendish/pull/45",
    "severity": "warn"
   },
@@ -10123,7 +10718,7 @@
    "category": "pr",
    "repo": "celtera/avendish",
    "subject": "#46 concepts: play with a visual range concept separate from the mapping range",
-   "message": "idle 2d, 265 commits behind main",
+   "message": "idle 3d, 270 commits behind main",
    "url": "https://github.com/celtera/avendish/pull/46",
    "severity": "warn"
   },
@@ -10132,7 +10727,7 @@
    "category": "pr",
    "repo": "celtera/avendish",
    "subject": "#47 ossia: work on making avnd objects support polyphonic controls",
-   "message": "idle 2d, 256 commits behind main",
+   "message": "idle 3d, 261 commits behind main",
    "url": "https://github.com/celtera/avendish/pull/47",
    "severity": "warn"
   },
@@ -10141,7 +10736,7 @@
    "category": "pr",
    "repo": "celtera/avendish",
    "subject": "#60 [ossia] Improve standalone & oscquery bindings",
-   "message": "idle 2d, 66 commits behind main",
+   "message": "idle 3d, 71 commits behind main",
    "url": "https://github.com/celtera/avendish/pull/60",
    "severity": "warn"
   },
@@ -10150,7 +10745,7 @@
    "category": "pr",
    "repo": "celtera/avendish",
    "subject": "#61 [wip] Try SDL-based UI for vst",
-   "message": "idle 2d, 634 commits behind main",
+   "message": "idle 3d, 639 commits behind main",
    "url": "https://github.com/celtera/avendish/pull/61",
    "severity": "warn"
   },
@@ -10159,7 +10754,7 @@
    "category": "pr",
    "repo": "celtera/avendish",
    "subject": "#62 concepts: start work on file output",
-   "message": "idle 2d, 66 commits behind main",
+   "message": "idle 3d, 71 commits behind main",
    "url": "https://github.com/celtera/avendish/pull/62",
    "severity": "warn"
   },
@@ -10168,7 +10763,7 @@
    "category": "pr",
    "repo": "celtera/avendish",
    "subject": "#63 concepts: define note port",
-   "message": "idle 2d, 66 commits behind main",
+   "message": "idle 3d, 71 commits behind main",
    "url": "https://github.com/celtera/avendish/pull/63",
    "severity": "warn"
   },
@@ -10222,7 +10817,7 @@
    "category": "pr",
    "repo": "ossia/libossia",
    "subject": "#875 feature/remove geometry ports",
-   "message": "idle 94d, 45 commits behind master",
+   "message": "idle 95d, 45 commits behind master",
    "url": "https://github.com/ossia/libossia/pull/875",
    "severity": "warn"
   },
@@ -10240,7 +10835,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1288 Feature/wasm remote 2",
-   "message": "idle 14d, 3912 commits behind master",
+   "message": "idle 15d, 3912 commits behind master",
    "url": "https://github.com/ossia/score/pull/1288",
    "severity": "warn"
   },
@@ -10249,7 +10844,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1399 [wip] Supporting more midi messages in MidiDrop plugin",
-   "message": "idle 14d, 3212 commits behind master",
+   "message": "idle 15d, 3212 commits behind master",
    "url": "https://github.com/ossia/score/pull/1399",
    "severity": "warn"
   },
@@ -10258,7 +10853,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1454 fix #1451 and #1452",
-   "message": "idle 14d, 2683 commits behind master",
+   "message": "idle 15d, 2683 commits behind master",
    "url": "https://github.com/ossia/score/pull/1454",
    "severity": "warn"
   },
@@ -10267,7 +10862,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1601 perf: prereserve some audio buffers",
-   "message": "idle 14d, 1515 commits behind master",
+   "message": "idle 15d, 1515 commits behind master",
    "url": "https://github.com/ossia/score/pull/1601",
    "severity": "warn"
   },
@@ -10276,7 +10871,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1603 wip: better implementation of customfloatcontrol",
-   "message": "idle 14d, 1300 commits behind master",
+   "message": "idle 15d, 1300 commits behind master",
    "url": "https://github.com/ossia/score/pull/1603",
    "severity": "warn"
   },
@@ -10285,7 +10880,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1604 core: Implement a command transaction system",
-   "message": "idle 14d, 1300 commits behind master",
+   "message": "idle 15d, 1300 commits behind master",
    "url": "https://github.com/ossia/score/pull/1604",
    "severity": "warn"
   },
@@ -10294,7 +10889,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1605 curve: start work on optimized pointarray rendering",
-   "message": "idle 14d, 1515 commits behind master",
+   "message": "idle 15d, 1515 commits behind master",
    "url": "https://github.com/ossia/score/pull/1605",
    "severity": "warn"
   },
@@ -10303,7 +10898,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1631 ui: work on improving drag and drop magnetic behaviour",
-   "message": "idle 14d, 1300 commits behind master",
+   "message": "idle 15d, 1300 commits behind master",
    "url": "https://github.com/ossia/score/pull/1631",
    "severity": "warn"
   },
@@ -10312,7 +10907,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1632 simpleio: improve pwm handling",
-   "message": "idle 14d, 1515 commits behind master",
+   "message": "idle 15d, 1515 commits behind master",
    "url": "https://github.com/ossia/score/pull/1632",
    "severity": "warn"
   },
@@ -10321,7 +10916,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1636 video: start working towards control ports in video proces",
-   "message": "idle 14d, 1300 commits behind master",
+   "message": "idle 15d, 1300 commits behind master",
    "url": "https://github.com/ossia/score/pull/1636",
    "severity": "warn"
   },
@@ -10330,7 +10925,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1638 faust: use default FAUSTFLOAT configuration if using faust from distro",
-   "message": "idle 14d, 1515 commits behind master",
+   "message": "idle 15d, 1515 commits behind master",
    "url": "https://github.com/ossia/score/pull/1638",
    "severity": "warn"
   },
@@ -10339,7 +10934,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1676 osc: work on adding more features to rate limiter",
-   "message": "idle 14d, 953 commits behind master",
+   "message": "idle 15d, 953 commits behind master",
    "url": "https://github.com/ossia/score/pull/1676",
    "severity": "warn"
   },
@@ -10348,7 +10943,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1710 Improve package manager UX",
-   "message": "idle 14d, 526 commits behind master",
+   "message": "idle 15d, 526 commits behind master",
    "url": "https://github.com/ossia/score/pull/1710",
    "severity": "warn"
   },
@@ -10357,7 +10952,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1745 video: try a different tradeoff of video playback options",
-   "message": "idle 14d, 1294 commits behind master",
+   "message": "idle 15d, 1294 commits behind master",
    "url": "https://github.com/ossia/score/pull/1745",
    "severity": "warn"
   },
@@ -10366,7 +10961,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1757 mcp: try to see how would an implementation would look",
-   "message": "idle 14d, 1272 commits behind master",
+   "message": "idle 15d, 1272 commits behind master",
    "url": "https://github.com/ossia/score/pull/1757",
    "severity": "warn"
   },
@@ -10375,7 +10970,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1768 fix/adjust_grid_size_to_generate_values_from_-1_to_1",
-   "message": "idle 14d, 1192 commits behind master",
+   "message": "idle 15d, 1192 commits behind master",
    "url": "https://github.com/ossia/score/pull/1768",
    "severity": "warn"
   },
@@ -10384,7 +10979,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1772 make a debug appimage",
-   "message": "idle 14d, 1153 commits behind master",
+   "message": "idle 15d, 1153 commits behind master",
    "url": "https://github.com/ossia/score/pull/1772",
    "severity": "warn"
   },
@@ -10393,7 +10988,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1778 wip/pico next 2",
-   "message": "idle 14d, 1117 commits behind master",
+   "message": "idle 15d, 1117 commits behind master",
    "url": "https://github.com/ossia/score/pull/1778",
    "severity": "warn"
   },
@@ -10402,7 +10997,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1827 feature/enable vulkan raytracing extensions",
-   "message": "idle 14d, 1063 commits behind master",
+   "message": "idle 15d, 1063 commits behind master",
    "url": "https://github.com/ossia/score/pull/1827",
    "severity": "warn"
   },
@@ -10411,7 +11006,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1892 ble: use qtbluetooth",
-   "message": "idle 14d, 526 commits behind master",
+   "message": "idle 15d, 526 commits behind master",
    "url": "https://github.com/ossia/score/pull/1892",
    "severity": "warn"
   },
@@ -10420,7 +11015,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1933 feature/codeeditor dock",
-   "message": "idle 14d, 467 commits behind master",
+   "message": "idle 15d, 467 commits behind master",
    "url": "https://github.com/ossia/score/pull/1933",
    "severity": "warn"
   },
@@ -10429,7 +11024,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1940 wip: experiment with bw64",
-   "message": "idle 14d, 450 commits behind master",
+   "message": "idle 15d, 450 commits behind master",
    "url": "https://github.com/ossia/score/pull/1940",
    "severity": "warn"
   },
@@ -10438,7 +11033,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1941 midi: wip on MIDI parsing of automations, tempo, etc.",
-   "message": "idle 14d, 450 commits behind master",
+   "message": "idle 15d, 450 commits behind master",
    "url": "https://github.com/ossia/score/pull/1941",
    "severity": "warn"
   },
@@ -10447,7 +11042,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1946 ui: experiment with a generic view tool",
-   "message": "idle 14d, 397 commits behind master",
+   "message": "idle 15d, 397 commits behind master",
    "url": "https://github.com/ossia/score/pull/1946",
    "severity": "warn"
   },
@@ -10456,7 +11051,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1950 table: try to see if 1D and 2D make the cut",
-   "message": "idle 14d, 373 commits behind master",
+   "message": "idle 15d, 373 commits behind master",
    "url": "https://github.com/ossia/score/pull/1950",
    "severity": "warn"
   },
@@ -10465,7 +11060,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1963 inspector: suggest alternative label display for better readability",
-   "message": "idle 14d, 284 commits behind master",
+   "message": "idle 15d, 284 commits behind master",
    "url": "https://github.com/ossia/score/pull/1963",
    "severity": "warn"
   },
@@ -10474,7 +11069,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1969 dynamic ports: handle live reloading in ossia",
-   "message": "idle 14d, 272 commits behind master",
+   "message": "idle 15d, 272 commits behind master",
    "url": "https://github.com/ossia/score/pull/1969",
    "severity": "warn"
   },
@@ -10483,7 +11078,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1975 audio: implement an ASIO-based audio backend. Fixes #1422",
-   "message": "idle 14d, 244 commits behind master",
+   "message": "idle 15d, 244 commits behind master",
    "url": "https://github.com/ossia/score/pull/1975",
    "severity": "warn"
   },
@@ -10492,7 +11087,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1978 js: experiment with QtQuick-based nodal process",
-   "message": "idle 14d, 244 commits behind master",
+   "message": "idle 15d, 244 commits behind master",
    "url": "https://github.com/ossia/score/pull/1978",
    "severity": "warn"
   },
@@ -10501,7 +11096,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1989 feature/clip launcher",
-   "message": "idle 14d, 235 commits behind master",
+   "message": "idle 15d, 235 commits behind master",
    "url": "https://github.com/ossia/score/pull/1989",
    "severity": "warn"
   },
@@ -10510,7 +11105,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#2019 [ci skip] wip: webengine support",
-   "message": "idle 14d, 137 commits behind master",
+   "message": "idle 15d, 137 commits behind master",
    "url": "https://github.com/ossia/score/pull/2019",
    "severity": "warn"
   },
@@ -10519,7 +11114,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#2032 TBD: mapper: keep mapper device readable via Device.read() after device reconnects",
-   "message": "idle 14d, 60 commits behind master",
+   "message": "idle 15d, 60 commits behind master",
    "url": "https://github.com/ossia/score/pull/2032",
    "severity": "warn"
   },
@@ -10528,7 +11123,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#2034 wip: wasm: update to latest Qt, make gfx work",
-   "message": "idle 14d, 136 commits behind master",
+   "message": "idle 15d, 136 commits behind master",
    "url": "https://github.com/ossia/score/pull/2034",
    "severity": "warn"
   },
@@ -10564,7 +11159,7 @@
    "category": "submodule",
    "repo": "ossia/libossia",
    "subject": "3rdparty/fmt",
-   "message": "274 commits / 9 months behind fmtlib/fmt@main",
+   "message": "275 commits / 9 months behind fmtlib/fmt@main",
    "url": "https://github.com/fmtlib/fmt",
    "severity": "warn"
   },
