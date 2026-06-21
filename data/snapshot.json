@@ -1,47 +1,47 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-06-21T14:34:28.394Z",
+ "generatedAt": "2026-06-21T20:23:29.113Z",
  "sections": {
   "repos": {
    "source": "live",
-   "collectedAt": "2026-06-21T14:34:16.406Z"
+   "collectedAt": "2026-06-21T20:23:17.351Z"
   },
   "submodules": {
    "source": "live",
-   "collectedAt": "2026-06-21T14:34:26.020Z"
+   "collectedAt": "2026-06-21T20:23:26.734Z"
   },
   "upstreams": {
    "source": "live",
-   "collectedAt": "2026-06-21T14:34:25.595Z"
+   "collectedAt": "2026-06-21T20:23:26.484Z"
   },
   "prs": {
    "source": "fixture",
-   "collectedAt": "2026-06-21T14:34:22.261Z",
+   "collectedAt": "2026-06-21T20:23:23.198Z",
    "error": "graphql sat-mtl/skills: Could not resolve to a Repository with the name 'sat-mtl/skills'."
   },
   "branches": {
    "source": "live",
-   "collectedAt": "2026-06-21T14:34:28.394Z"
+   "collectedAt": "2026-06-21T20:23:29.113Z"
   },
   "actions": {
    "source": "live",
-   "collectedAt": "2026-06-21T14:34:20.497Z"
+   "collectedAt": "2026-06-21T20:23:21.399Z"
   },
   "environments": {
    "source": "live",
-   "collectedAt": "2026-06-21T14:34:20.911Z"
+   "collectedAt": "2026-06-21T20:23:21.713Z"
   },
   "packaging": {
    "source": "live",
-   "collectedAt": "2026-06-21T14:34:20.342Z"
+   "collectedAt": "2026-06-21T20:23:20.904Z"
   }
  },
  "repos": [
   {
    "slug": "ossia/score",
    "defaultBranch": "master",
-   "headSha": "db7443f3f8b60eabe70cb1c76db7b482c46da8e5",
-   "headDate": "2026-06-21T05:33:14-04:00",
+   "headSha": "2b9f9d2f96fef1e8fd0b82e4a5fd571bb4058f42",
+   "headDate": "2026-06-21T15:03:09-04:00",
    "counts": {
     "submodules": {
      "warn": 16,
@@ -56,7 +56,7 @@
     "branches": {
      "warn": 36,
      "crit": 0,
-     "info": 15
+     "info": 13
     },
     "actions": {
      "warn": 4,
@@ -165,8 +165,8 @@
   {
    "slug": "ossia/dashboard",
    "defaultBranch": "main",
-   "headSha": "cd988139859169d5ecbb90d426d64092761a49a2",
-   "headDate": "2026-06-21T11:41:22Z",
+   "headSha": "33528f8eacb19f417546a3817712dbe38198d357",
+   "headDate": "2026-06-21T14:34:28Z",
    "counts": {
     "actions": {
      "warn": 2,
@@ -698,7 +698,7 @@
     "master"
    ],
    "behindCount": 5,
-   "behindDays": 123.96619212962963,
+   "behindDays": 123.96619212962962,
    "targetHeadSha": "327cea8183f4bc09581b3b4c54702f2f388926fd",
    "targetHeadDate": "2026-04-02T20:11:43+01:00",
    "severity": "warn",
@@ -1364,7 +1364,7 @@
     "master"
    ],
    "behindCount": 4,
-   "behindDays": 0.15468750000000142,
+   "behindDays": 0.15468749999999787,
    "targetHeadSha": "1c1c7ceeecd40e6c6072dc59bdd83ce1741dd57f",
    "targetHeadDate": "2026-06-01T22:52:44-04:00",
    "severity": "info",
@@ -1555,7 +1555,7 @@
     "devel-use-delete-instead-of-static-assert-false"
    ],
    "behindCount": 204,
-   "behindDays": 524.7806944444445,
+   "behindDays": 524.7806944444444,
    "targetHeadSha": "675f9eaeb191c51b9d2ffb2bb198009533895051",
    "targetHeadDate": "2026-06-14T20:25:57+02:00",
    "severity": "crit",
@@ -1597,7 +1597,7 @@
     "stable"
    ],
    "behindCount": 19,
-   "behindDays": 68.01341435185184,
+   "behindDays": 68.01341435185185,
    "targetHeadSha": "80fc772eb812b45097c28fc0a46d8ff006138d69",
    "targetHeadDate": "2026-02-23T13:18:12-07:00",
    "severity": "warn",
@@ -1718,7 +1718,7 @@
     "main"
    ],
    "behindCount": 3,
-   "behindDays": 78.36759259259262,
+   "behindDays": 78.36759259259259,
    "targetHeadSha": "972a15cedd008d846f1a39b2e88ce48d7f166cbd",
    "targetHeadDate": "2026-01-22T18:27:47-05:00",
    "severity": "warn",
@@ -1824,7 +1824,7 @@
     "master"
    ],
    "behindCount": 65,
-   "behindDays": 173.98489583333333,
+   "behindDays": 173.98489583333335,
    "targetHeadSha": "9634bedb5b5a2ca38c1ee7108a9358a4e233f14d",
    "targetHeadDate": "2026-03-04T06:25:00+10:00",
    "severity": "warn",
@@ -1845,7 +1845,7 @@
     "develop"
    ],
    "behindCount": 242,
-   "behindDays": 358.8955787037037,
+   "behindDays": 358.89557870370373,
    "targetHeadSha": "3891726e1796f9737f2e1bf8584885e649083a0e",
    "targetHeadDate": "2026-06-20T12:53:01+01:00",
    "severity": "warn",
@@ -1886,7 +1886,7 @@
     "v4"
    ],
    "behindCount": 1,
-   "behindDays": 104.92405092592594,
+   "behindDays": 104.92405092592593,
    "targetHeadSha": "5c62c4b3352c7d4c87ed3429d2329ddaf9b74df9",
    "targetHeadDate": "2026-06-02T11:22:51-04:00",
    "severity": "warn",
@@ -3476,9 +3476,9 @@
    "draft": false,
    "createdAt": "2026-05-31T23:16:46Z",
    "updatedAt": "2026-06-06T16:35:17Z",
-   "ageDays": 20.6,
-   "idleDays": 14.9,
-   "behindBase": 25,
+   "ageDays": 20.9,
+   "idleDays": 15.2,
+   "behindBase": 26,
    "aheadOfBase": 1,
    "ciStatus": null,
    "severity": "info"
@@ -3494,9 +3494,9 @@
    "draft": false,
    "createdAt": "2026-05-21T19:59:34Z",
    "updatedAt": "2026-06-05T19:05:19Z",
-   "ageDays": 30.8,
-   "idleDays": 15.8,
-   "behindBase": 40,
+   "ageDays": 31,
+   "idleDays": 16.1,
+   "behindBase": 41,
    "aheadOfBase": 7,
    "ciStatus": null,
    "severity": "info"
@@ -3512,9 +3512,9 @@
    "draft": true,
    "createdAt": "2026-05-14T03:36:42Z",
    "updatedAt": "2026-06-11T00:12:35Z",
-   "ageDays": 38.5,
-   "idleDays": 10.6,
-   "behindBase": 16,
+   "ageDays": 38.7,
+   "idleDays": 10.8,
+   "behindBase": 17,
    "aheadOfBase": 55,
    "ciStatus": null,
    "severity": "info"
@@ -3530,9 +3530,9 @@
    "draft": false,
    "createdAt": "2026-04-21T08:17:30Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 61.3,
-   "idleDays": 23.5,
-   "behindBase": 151,
+   "ageDays": 61.5,
+   "idleDays": 23.7,
+   "behindBase": 152,
    "aheadOfBase": 1,
    "ciStatus": null,
    "severity": "warn"
@@ -3548,9 +3548,9 @@
    "draft": false,
    "createdAt": "2026-04-20T03:05:16Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 62.5,
-   "idleDays": 23.5,
-   "behindBase": 75,
+   "ageDays": 62.7,
+   "idleDays": 23.7,
+   "behindBase": 76,
    "aheadOfBase": 1,
    "ciStatus": null,
    "severity": "warn"
@@ -3566,9 +3566,9 @@
    "draft": false,
    "createdAt": "2026-04-02T12:57:29Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 80.1,
-   "idleDays": 23.5,
-   "behindBase": 152,
+   "ageDays": 80.3,
+   "idleDays": 23.7,
+   "behindBase": 153,
    "aheadOfBase": 1,
    "ciStatus": null,
    "severity": "warn"
@@ -3584,9 +3584,9 @@
    "draft": false,
    "createdAt": "2026-03-07T01:30:39Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 106.5,
-   "idleDays": 23.5,
-   "behindBase": 250,
+   "ageDays": 106.8,
+   "idleDays": 23.7,
+   "behindBase": 251,
    "aheadOfBase": 5,
    "ciStatus": null,
    "severity": "warn"
@@ -3602,9 +3602,9 @@
    "draft": false,
    "createdAt": "2026-03-01T23:03:06Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 111.6,
-   "idleDays": 23.5,
-   "behindBase": 259,
+   "ageDays": 111.9,
+   "idleDays": 23.7,
+   "behindBase": 260,
    "aheadOfBase": 1,
    "ciStatus": null,
    "severity": "warn"
@@ -3620,9 +3620,9 @@
    "draft": false,
    "createdAt": "2026-02-28T01:26:20Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 113.5,
-   "idleDays": 23.5,
-   "behindBase": 259,
+   "ageDays": 113.8,
+   "idleDays": 23.7,
+   "behindBase": 260,
    "aheadOfBase": 1,
    "ciStatus": null,
    "severity": "warn"
@@ -3638,9 +3638,9 @@
    "draft": false,
    "createdAt": "2026-02-23T05:46:50Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 118.4,
-   "idleDays": 23.5,
-   "behindBase": 287,
+   "ageDays": 118.6,
+   "idleDays": 23.7,
+   "behindBase": 288,
    "aheadOfBase": 4,
    "ciStatus": null,
    "severity": "warn"
@@ -3656,9 +3656,9 @@
    "draft": false,
    "createdAt": "2026-02-14T19:53:19Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 126.8,
-   "idleDays": 23.5,
-   "behindBase": 299,
+   "ageDays": 127,
+   "idleDays": 23.7,
+   "behindBase": 300,
    "aheadOfBase": 1,
    "ciStatus": null,
    "severity": "warn"
@@ -3674,9 +3674,9 @@
    "draft": false,
    "createdAt": "2026-01-28T00:56:46Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 144.6,
-   "idleDays": 23.5,
-   "behindBase": 388,
+   "ageDays": 144.8,
+   "idleDays": 23.7,
+   "behindBase": 389,
    "aheadOfBase": 3,
    "ciStatus": null,
    "severity": "warn"
@@ -3692,9 +3692,9 @@
    "draft": false,
    "createdAt": "2026-01-25T21:05:19Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 146.7,
-   "idleDays": 23.5,
-   "behindBase": 412,
+   "ageDays": 147,
+   "idleDays": 23.7,
+   "behindBase": 413,
    "aheadOfBase": 1,
    "ciStatus": null,
    "severity": "warn"
@@ -3710,9 +3710,9 @@
    "draft": false,
    "createdAt": "2026-01-21T06:07:25Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 151.4,
-   "idleDays": 23.5,
-   "behindBase": 465,
+   "ageDays": 151.6,
+   "idleDays": 23.7,
+   "behindBase": 466,
    "aheadOfBase": 1,
    "ciStatus": null,
    "severity": "warn"
@@ -3728,9 +3728,9 @@
    "draft": false,
    "createdAt": "2026-01-21T06:05:56Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 151.4,
-   "idleDays": 23.5,
-   "behindBase": 465,
+   "ageDays": 151.6,
+   "idleDays": 23.7,
+   "behindBase": 466,
    "aheadOfBase": 1,
    "ciStatus": null,
    "severity": "warn"
@@ -3746,9 +3746,9 @@
    "draft": false,
    "createdAt": "2026-01-11T03:43:42Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 161.5,
-   "idleDays": 23.5,
-   "behindBase": 482,
+   "ageDays": 161.7,
+   "idleDays": 23.7,
+   "behindBase": 483,
    "aheadOfBase": 3,
    "ciStatus": null,
    "severity": "warn"
@@ -3764,9 +3764,9 @@
    "draft": false,
    "createdAt": "2025-11-01T02:39:20Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 232.5,
-   "idleDays": 23.5,
-   "behindBase": 541,
+   "ageDays": 232.7,
+   "idleDays": 23.7,
+   "behindBase": 542,
    "aheadOfBase": 3,
    "ciStatus": null,
    "severity": "warn"
@@ -3782,9 +3782,9 @@
    "draft": false,
    "createdAt": "2025-07-13T19:01:19Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 342.8,
-   "idleDays": 23.5,
-   "behindBase": 1078,
+   "ageDays": 343.1,
+   "idleDays": 23.7,
+   "behindBase": 1079,
    "aheadOfBase": 2,
    "ciStatus": null,
    "severity": "warn"
@@ -3800,9 +3800,9 @@
    "draft": false,
    "createdAt": "2025-05-02T17:34:29Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 414.9,
-   "idleDays": 23.5,
-   "behindBase": 1132,
+   "ageDays": 415.1,
+   "idleDays": 23.7,
+   "behindBase": 1133,
    "aheadOfBase": 19,
    "ciStatus": null,
    "severity": "warn"
@@ -3818,9 +3818,9 @@
    "draft": false,
    "createdAt": "2025-04-21T20:15:12Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 425.8,
-   "idleDays": 23.5,
-   "behindBase": 1168,
+   "ageDays": 426,
+   "idleDays": 23.7,
+   "behindBase": 1169,
    "aheadOfBase": 1,
    "ciStatus": null,
    "severity": "warn"
@@ -3836,9 +3836,9 @@
    "draft": false,
    "createdAt": "2025-04-17T18:39:09Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 429.8,
-   "idleDays": 23.5,
-   "behindBase": 1207,
+   "ageDays": 430.1,
+   "idleDays": 23.7,
+   "behindBase": 1208,
    "aheadOfBase": 1,
    "ciStatus": null,
    "severity": "warn"
@@ -3854,9 +3854,9 @@
    "draft": false,
    "createdAt": "2025-04-04T04:12:09Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 443.4,
-   "idleDays": 23.5,
-   "behindBase": 1287,
+   "ageDays": 443.7,
+   "idleDays": 23.7,
+   "behindBase": 1288,
    "aheadOfBase": 1,
    "ciStatus": null,
    "severity": "warn"
@@ -3872,9 +3872,9 @@
    "draft": false,
    "createdAt": "2025-03-22T21:34:38Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 455.7,
-   "idleDays": 23.5,
-   "behindBase": 1309,
+   "ageDays": 456,
+   "idleDays": 23.7,
+   "behindBase": 1310,
    "aheadOfBase": 1,
    "ciStatus": null,
    "severity": "warn"
@@ -3890,9 +3890,9 @@
    "draft": false,
    "createdAt": "2025-02-06T17:47:49Z",
    "updatedAt": "2026-05-29T02:52:00Z",
-   "ageDays": 499.9,
-   "idleDays": 23.5,
-   "behindBase": 541,
+   "ageDays": 500.1,
+   "idleDays": 23.7,
+   "behindBase": 542,
    "aheadOfBase": 4,
    "ciStatus": null,
    "severity": "warn"
@@ -3908,9 +3908,9 @@
    "draft": false,
    "createdAt": "2025-01-16T03:58:31Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 521.4,
-   "idleDays": 23.5,
-   "behindBase": 968,
+   "ageDays": 521.7,
+   "idleDays": 23.7,
+   "behindBase": 969,
    "aheadOfBase": 6,
    "ciStatus": null,
    "severity": "warn"
@@ -3926,9 +3926,9 @@
    "draft": true,
    "createdAt": "2024-12-30T14:33:01Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 538,
-   "idleDays": 23.5,
-   "behindBase": 968,
+   "ageDays": 538.2,
+   "idleDays": 23.7,
+   "behindBase": 969,
    "aheadOfBase": 1,
    "ciStatus": null,
    "severity": "info"
@@ -3944,9 +3944,9 @@
    "draft": false,
    "createdAt": "2024-12-30T03:47:50Z",
    "updatedAt": "2026-06-02T23:37:44Z",
-   "ageDays": 538.4,
-   "idleDays": 18.6,
-   "behindBase": 47,
+   "ageDays": 538.7,
+   "idleDays": 18.9,
+   "behindBase": 48,
    "aheadOfBase": 3,
    "ciStatus": null,
    "severity": "info"
@@ -3962,9 +3962,9 @@
    "draft": false,
    "createdAt": "2024-12-24T22:59:38Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 543.6,
-   "idleDays": 23.5,
-   "behindBase": 1530,
+   "ageDays": 543.9,
+   "idleDays": 23.7,
+   "behindBase": 1531,
    "aheadOfBase": 1,
    "ciStatus": null,
    "severity": "warn"
@@ -3980,9 +3980,9 @@
    "draft": false,
    "createdAt": "2024-12-24T22:55:16Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 543.7,
-   "idleDays": 23.5,
-   "behindBase": 1315,
+   "ageDays": 543.9,
+   "idleDays": 23.7,
+   "behindBase": 1316,
    "aheadOfBase": 1,
    "ciStatus": null,
    "severity": "warn"
@@ -3998,9 +3998,9 @@
    "draft": false,
    "createdAt": "2024-12-24T19:04:13Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 543.8,
-   "idleDays": 23.5,
-   "behindBase": 1530,
+   "ageDays": 544.1,
+   "idleDays": 23.7,
+   "behindBase": 1531,
    "aheadOfBase": 1,
    "ciStatus": null,
    "severity": "warn"
@@ -4016,9 +4016,9 @@
    "draft": false,
    "createdAt": "2024-12-24T19:03:21Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 543.8,
-   "idleDays": 23.5,
-   "behindBase": 1315,
+   "ageDays": 544.1,
+   "idleDays": 23.7,
+   "behindBase": 1316,
    "aheadOfBase": 1,
    "ciStatus": null,
    "severity": "warn"
@@ -4034,9 +4034,9 @@
    "draft": false,
    "createdAt": "2024-12-01T17:48:05Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 566.9,
-   "idleDays": 23.5,
-   "behindBase": 1530,
+   "ageDays": 567.1,
+   "idleDays": 23.7,
+   "behindBase": 1531,
    "aheadOfBase": 1,
    "ciStatus": null,
    "severity": "warn"
@@ -4052,9 +4052,9 @@
    "draft": false,
    "createdAt": "2024-12-01T17:47:05Z",
    "updatedAt": "2026-05-29T02:52:00Z",
-   "ageDays": 566.9,
-   "idleDays": 23.5,
-   "behindBase": 1315,
+   "ageDays": 567.1,
+   "idleDays": 23.7,
+   "behindBase": 1316,
    "aheadOfBase": 3,
    "ciStatus": null,
    "severity": "warn"
@@ -4070,9 +4070,9 @@
    "draft": false,
    "createdAt": "2024-12-01T17:46:24Z",
    "updatedAt": "2026-05-29T02:52:00Z",
-   "ageDays": 566.9,
-   "idleDays": 23.5,
-   "behindBase": 1315,
+   "ageDays": 567.1,
+   "idleDays": 23.7,
+   "behindBase": 1316,
    "aheadOfBase": 1,
    "ciStatus": null,
    "severity": "warn"
@@ -4088,9 +4088,9 @@
    "draft": false,
    "createdAt": "2024-12-01T17:46:08Z",
    "updatedAt": "2026-05-29T02:52:00Z",
-   "ageDays": 566.9,
-   "idleDays": 23.5,
-   "behindBase": 1530,
+   "ageDays": 567.1,
+   "idleDays": 23.7,
+   "behindBase": 1531,
    "aheadOfBase": 1,
    "ciStatus": null,
    "severity": "warn"
@@ -4106,9 +4106,9 @@
    "draft": true,
    "createdAt": "2024-09-25T16:25:13Z",
    "updatedAt": "2026-05-29T02:52:00Z",
-   "ageDays": 633.9,
-   "idleDays": 23.5,
-   "behindBase": 298,
+   "ageDays": 634.2,
+   "idleDays": 23.7,
+   "behindBase": 299,
    "aheadOfBase": 1,
    "ciStatus": null,
    "severity": "info"
@@ -4124,9 +4124,9 @@
    "draft": false,
    "createdAt": "2023-02-14T12:39:55Z",
    "updatedAt": "2026-05-29T02:52:00Z",
-   "ageDays": 1223.1,
-   "idleDays": 23.5,
-   "behindBase": 2698,
+   "ageDays": 1223.3,
+   "idleDays": 23.7,
+   "behindBase": 2699,
    "aheadOfBase": 1,
    "ciStatus": null,
    "severity": "warn"
@@ -4142,9 +4142,9 @@
    "draft": false,
    "createdAt": "2022-05-10T15:30:38Z",
    "updatedAt": "2026-05-29T02:52:00Z",
-   "ageDays": 1503,
-   "idleDays": 23.5,
-   "behindBase": 3227,
+   "ageDays": 1503.2,
+   "idleDays": 23.7,
+   "behindBase": 3228,
    "aheadOfBase": 3,
    "ciStatus": null,
    "severity": "warn"
@@ -4160,9 +4160,9 @@
    "draft": false,
    "createdAt": "2021-08-19T08:02:14Z",
    "updatedAt": "2026-05-29T02:52:00Z",
-   "ageDays": 1767.3,
-   "idleDays": 23.5,
-   "behindBase": 3927,
+   "ageDays": 1767.5,
+   "idleDays": 23.7,
+   "behindBase": 3928,
    "aheadOfBase": 20,
    "ciStatus": null,
    "severity": "warn"
@@ -4178,8 +4178,8 @@
    "draft": false,
    "createdAt": "2021-08-18T12:22:47Z",
    "updatedAt": "2021-08-19T07:27:08Z",
-   "ageDays": 1768.1,
-   "idleDays": 1767.3,
+   "ageDays": 1768.3,
+   "idleDays": 1767.5,
    "behindBase": 0,
    "aheadOfBase": 9,
    "ciStatus": null,
@@ -4196,8 +4196,8 @@
    "draft": false,
    "createdAt": "2026-06-10T22:57:48Z",
    "updatedAt": "2026-06-10T22:57:48Z",
-   "ageDays": 10.7,
-   "idleDays": 10.7,
+   "ageDays": 10.9,
+   "idleDays": 10.9,
    "behindBase": 10,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -4214,8 +4214,8 @@
    "draft": false,
    "createdAt": "2026-06-10T06:11:45Z",
    "updatedAt": "2026-06-10T08:46:30Z",
-   "ageDays": 11.3,
-   "idleDays": 11.2,
+   "ageDays": 11.6,
+   "idleDays": 11.5,
    "behindBase": 10,
    "aheadOfBase": 4,
    "ciStatus": null,
@@ -4232,8 +4232,8 @@
    "draft": false,
    "createdAt": "2026-04-21T08:16:34Z",
    "updatedAt": "2026-05-29T19:50:59Z",
-   "ageDays": 61.3,
-   "idleDays": 22.8,
+   "ageDays": 61.5,
+   "idleDays": 23,
    "behindBase": 42,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -4250,8 +4250,8 @@
    "draft": false,
    "createdAt": "2026-03-24T08:58:00Z",
    "updatedAt": "2026-06-03T01:22:37Z",
-   "ageDays": 89.2,
-   "idleDays": 18.5,
+   "ageDays": 89.5,
+   "idleDays": 18.8,
    "behindBase": 27,
    "aheadOfBase": 11,
    "ciStatus": null,
@@ -4268,8 +4268,8 @@
    "draft": false,
    "createdAt": "2026-03-10T03:23:16Z",
    "updatedAt": "2026-03-10T03:23:16Z",
-   "ageDays": 103.5,
-   "idleDays": 103.5,
+   "ageDays": 103.7,
+   "idleDays": 103.7,
    "behindBase": 55,
    "aheadOfBase": 3,
    "ciStatus": null,
@@ -4286,8 +4286,8 @@
    "draft": false,
    "createdAt": "2026-03-10T03:20:39Z",
    "updatedAt": "2026-04-07T08:45:57Z",
-   "ageDays": 103.5,
-   "idleDays": 75.2,
+   "ageDays": 103.7,
+   "idleDays": 75.5,
    "behindBase": 43,
    "aheadOfBase": 6,
    "ciStatus": null,
@@ -4304,8 +4304,8 @@
    "draft": false,
    "createdAt": "2025-03-22T12:27:31Z",
    "updatedAt": "2026-03-02T20:12:25Z",
-   "ageDays": 456.1,
-   "idleDays": 110.8,
+   "ageDays": 456.3,
+   "idleDays": 111,
    "behindBase": 182,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -4322,8 +4322,8 @@
    "draft": false,
    "createdAt": "2025-03-22T12:23:17Z",
    "updatedAt": "2026-05-29T19:51:54Z",
-   "ageDays": 456.1,
-   "idleDays": 22.8,
+   "ageDays": 456.3,
+   "idleDays": 23,
    "behindBase": 42,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -4340,8 +4340,8 @@
    "draft": false,
    "createdAt": "2025-01-16T03:57:41Z",
    "updatedAt": "2026-05-29T19:51:58Z",
-   "ageDays": 521.4,
-   "idleDays": 22.8,
+   "ageDays": 521.7,
+   "idleDays": 23,
    "behindBase": 42,
    "aheadOfBase": 2,
    "ciStatus": null,
@@ -4358,8 +4358,8 @@
    "draft": false,
    "createdAt": "2023-02-14T12:44:06Z",
    "updatedAt": "2026-03-02T20:12:25Z",
-   "ageDays": 1223.1,
-   "idleDays": 110.8,
+   "ageDays": 1223.3,
+   "idleDays": 111,
    "behindBase": 636,
    "aheadOfBase": 2,
    "ciStatus": null,
@@ -4376,8 +4376,8 @@
    "draft": false,
    "createdAt": "2026-06-10T20:30:06Z",
    "updatedAt": "2026-06-10T20:30:06Z",
-   "ageDays": 10.8,
-   "idleDays": 10.8,
+   "ageDays": 11,
+   "idleDays": 11,
    "behindBase": 33,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -4394,8 +4394,8 @@
    "draft": false,
    "createdAt": "2025-01-04T22:06:58Z",
    "updatedAt": "2026-06-09T23:58:41Z",
-   "ageDays": 532.7,
-   "idleDays": 11.6,
+   "ageDays": 532.9,
+   "idleDays": 11.9,
    "behindBase": 96,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -4412,8 +4412,8 @@
    "draft": false,
    "createdAt": "2025-01-02T18:20:42Z",
    "updatedAt": "2026-06-09T23:58:41Z",
-   "ageDays": 534.8,
-   "idleDays": 11.6,
+   "ageDays": 535.1,
+   "idleDays": 11.9,
    "behindBase": 96,
    "aheadOfBase": 2,
    "ciStatus": null,
@@ -4430,8 +4430,8 @@
    "draft": false,
    "createdAt": "2024-12-24T15:13:11Z",
    "updatedAt": "2026-06-09T23:58:41Z",
-   "ageDays": 544,
-   "idleDays": 11.6,
+   "ageDays": 544.2,
+   "idleDays": 11.9,
    "behindBase": 664,
    "aheadOfBase": 2,
    "ciStatus": null,
@@ -4448,8 +4448,8 @@
    "draft": false,
    "createdAt": "2024-12-24T15:12:04Z",
    "updatedAt": "2026-06-09T23:58:41Z",
-   "ageDays": 544,
-   "idleDays": 11.6,
+   "ageDays": 544.2,
+   "idleDays": 11.9,
    "behindBase": 96,
    "aheadOfBase": 3,
    "ciStatus": null,
@@ -4466,8 +4466,8 @@
    "draft": true,
    "createdAt": "2024-12-17T17:46:00Z",
    "updatedAt": "2026-06-09T23:58:41Z",
-   "ageDays": 550.9,
-   "idleDays": 11.6,
+   "ageDays": 551.1,
+   "idleDays": 11.9,
    "behindBase": 292,
    "aheadOfBase": 3,
    "ciStatus": null,
@@ -4484,8 +4484,8 @@
    "draft": false,
    "createdAt": "2024-12-09T20:10:24Z",
    "updatedAt": "2026-06-09T23:58:41Z",
-   "ageDays": 558.8,
-   "idleDays": 11.6,
+   "ageDays": 559,
+   "idleDays": 11.9,
    "behindBase": 286,
    "aheadOfBase": 2,
    "ciStatus": null,
@@ -4502,8 +4502,8 @@
    "draft": false,
    "createdAt": "2024-12-09T20:10:16Z",
    "updatedAt": "2026-06-09T23:58:41Z",
-   "ageDays": 558.8,
-   "idleDays": 11.6,
+   "ageDays": 559,
+   "idleDays": 11.9,
    "behindBase": 295,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -4520,8 +4520,8 @@
    "draft": false,
    "createdAt": "2024-11-26T16:22:40Z",
    "updatedAt": "2026-06-09T23:58:41Z",
-   "ageDays": 571.9,
-   "idleDays": 11.6,
+   "ageDays": 572.2,
+   "idleDays": 11.9,
    "behindBase": 96,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -4538,8 +4538,8 @@
    "draft": false,
    "createdAt": "2024-11-26T16:22:07Z",
    "updatedAt": "2026-06-09T23:58:41Z",
-   "ageDays": 571.9,
-   "idleDays": 11.6,
+   "ageDays": 572.2,
+   "idleDays": 11.9,
    "behindBase": 307,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -4556,8 +4556,8 @@
    "draft": false,
    "createdAt": "2024-11-26T16:20:59Z",
    "updatedAt": "2026-06-09T23:58:42Z",
-   "ageDays": 571.9,
-   "idleDays": 11.6,
+   "ageDays": 572.2,
+   "idleDays": 11.9,
    "behindBase": 451,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -4574,8 +4574,8 @@
    "draft": false,
    "createdAt": "2022-04-22T15:13:20Z",
    "updatedAt": "2026-06-09T23:58:41Z",
-   "ageDays": 1521,
-   "idleDays": 11.6,
+   "ageDays": 1521.2,
+   "idleDays": 11.9,
    "behindBase": 715,
    "aheadOfBase": 4,
    "ciStatus": null,
@@ -4592,8 +4592,8 @@
    "draft": false,
    "createdAt": "2026-06-02T06:19:55Z",
    "updatedAt": "2026-06-02T16:17:13Z",
-   "ageDays": 19.3,
-   "idleDays": 18.9,
+   "ageDays": 19.6,
+   "idleDays": 19.2,
    "behindBase": 0,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -4610,8 +4610,8 @@
    "draft": false,
    "createdAt": "2026-03-30T14:09:50Z",
    "updatedAt": "2026-06-02T05:30:35Z",
-   "ageDays": 83,
-   "idleDays": 19.4,
+   "ageDays": 83.3,
+   "idleDays": 19.6,
    "behindBase": 0,
    "aheadOfBase": 4,
    "ciStatus": null,
@@ -4628,8 +4628,8 @@
    "draft": false,
    "createdAt": "2026-01-17T23:34:50Z",
    "updatedAt": "2026-01-17T23:34:50Z",
-   "ageDays": 154.6,
-   "idleDays": 154.6,
+   "ageDays": 154.9,
+   "idleDays": 154.9,
    "behindBase": 46,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -4646,8 +4646,8 @@
    "draft": true,
    "createdAt": "2025-05-30T17:03:07Z",
    "updatedAt": "2026-01-12T06:54:34Z",
-   "ageDays": 386.9,
-   "idleDays": 160.3,
+   "ageDays": 387.1,
+   "idleDays": 160.6,
    "behindBase": 130,
    "aheadOfBase": 14,
    "ciStatus": null,
@@ -4664,8 +4664,8 @@
    "draft": false,
    "createdAt": "2024-12-01T17:57:17Z",
    "updatedAt": "2026-01-12T06:54:34Z",
-   "ageDays": 566.9,
-   "idleDays": 160.3,
+   "ageDays": 567.1,
+   "idleDays": 160.6,
    "behindBase": 209,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -4681,7 +4681,7 @@
    "ahead": 4,
    "aheadReal": 1,
    "landedEquivalent": 3,
-   "behind": 1861,
+   "behind": 1862,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -4694,7 +4694,7 @@
    "ahead": 0,
    "aheadReal": 0,
    "landedEquivalent": null,
-   "behind": 1860,
+   "behind": 1861,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -4707,7 +4707,7 @@
    "ahead": 0,
    "aheadReal": 0,
    "landedEquivalent": null,
-   "behind": 2037,
+   "behind": 2038,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -4720,7 +4720,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 298,
+   "behind": 299,
    "hasPR": true,
    "prNumber": 1571,
    "severity": "ok"
@@ -4733,7 +4733,7 @@
    "ahead": 0,
    "aheadReal": 0,
    "landedEquivalent": null,
-   "behind": 1648,
+   "behind": 1649,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -4746,7 +4746,7 @@
    "ahead": 4,
    "aheadReal": 4,
    "landedEquivalent": 0,
-   "behind": 541,
+   "behind": 542,
    "hasPR": true,
    "prNumber": 1710,
    "severity": "ok"
@@ -4759,7 +4759,7 @@
    "ahead": 0,
    "aheadReal": 0,
    "landedEquivalent": null,
-   "behind": 1158,
+   "behind": 1159,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -4772,7 +4772,7 @@
    "ahead": 7,
    "aheadReal": 5,
    "landedEquivalent": 2,
-   "behind": 40,
+   "behind": 41,
    "hasPR": true,
    "prNumber": 2052,
    "severity": "ok"
@@ -4785,7 +4785,7 @@
    "ahead": 0,
    "aheadReal": 0,
    "landedEquivalent": null,
-   "behind": 231,
+   "behind": 232,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -4798,7 +4798,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 299,
+   "behind": 300,
    "hasPR": true,
    "prNumber": 1963,
    "severity": "ok"
@@ -4811,7 +4811,7 @@
    "ahead": 2,
    "aheadReal": 2,
    "landedEquivalent": 0,
-   "behind": 5847,
+   "behind": 5848,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -4824,7 +4824,7 @@
    "ahead": 1,
    "aheadReal": 0,
    "landedEquivalent": 1,
-   "behind": 196,
+   "behind": 197,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -4837,7 +4837,7 @@
    "ahead": 13,
    "aheadReal": 0,
    "landedEquivalent": 13,
-   "behind": 1522,
+   "behind": 1523,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -4850,7 +4850,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 3185,
+   "behind": 3186,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -4863,7 +4863,7 @@
    "ahead": 1,
    "aheadReal": 0,
    "landedEquivalent": 1,
-   "behind": 1436,
+   "behind": 1437,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -4876,7 +4876,7 @@
    "ahead": 3,
    "aheadReal": 3,
    "landedEquivalent": 0,
-   "behind": 17,
+   "behind": 18,
    "hasPR": false,
    "prNumber": null,
    "severity": "info"
@@ -4889,7 +4889,7 @@
    "ahead": 1,
    "aheadReal": 0,
    "landedEquivalent": 1,
-   "behind": 17,
+   "behind": 18,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -4902,7 +4902,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 9,
+   "behind": 10,
    "hasPR": false,
    "prNumber": null,
    "severity": "info"
@@ -4915,7 +4915,7 @@
    "ahead": 68,
    "aheadReal": 64,
    "landedEquivalent": 4,
-   "behind": 16,
+   "behind": 17,
    "hasPR": false,
    "prNumber": null,
    "severity": "info"
@@ -4928,7 +4928,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 4941,
+   "behind": 4942,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -4941,7 +4941,7 @@
    "ahead": 2,
    "aheadReal": 0,
    "landedEquivalent": 2,
-   "behind": 40,
+   "behind": 41,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -4954,7 +4954,7 @@
    "ahead": 2,
    "aheadReal": 2,
    "landedEquivalent": 0,
-   "behind": 9346,
+   "behind": 9347,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -4967,7 +4967,7 @@
    "ahead": 2,
    "aheadReal": 0,
    "landedEquivalent": 2,
-   "behind": 63,
+   "behind": 64,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -4980,7 +4980,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 259,
+   "behind": 260,
    "hasPR": true,
    "prNumber": 1975,
    "severity": "ok"
@@ -4993,7 +4993,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 465,
+   "behind": 466,
    "hasPR": true,
    "prNumber": 1940,
    "severity": "ok"
@@ -5006,7 +5006,7 @@
    "ahead": 5,
    "aheadReal": 2,
    "landedEquivalent": 3,
-   "behind": 250,
+   "behind": 251,
    "hasPR": true,
    "prNumber": 1989,
    "severity": "ok"
@@ -5019,7 +5019,7 @@
    "ahead": 3,
    "aheadReal": 3,
    "landedEquivalent": 0,
-   "behind": 482,
+   "behind": 483,
    "hasPR": true,
    "prNumber": 1933,
    "severity": "ok"
@@ -5032,7 +5032,7 @@
    "ahead": 3,
    "aheadReal": 2,
    "landedEquivalent": 1,
-   "behind": 1315,
+   "behind": 1316,
    "hasPR": true,
    "prNumber": 1604,
    "severity": "ok"
@@ -5045,7 +5045,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 47,
+   "behind": 48,
    "hasPR": false,
    "prNumber": null,
    "severity": "info"
@@ -5058,7 +5058,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 1315,
+   "behind": 1316,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -5071,7 +5071,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 1315,
+   "behind": 1316,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -5084,7 +5084,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 968,
+   "behind": 969,
    "hasPR": true,
    "prNumber": 1652,
    "severity": "ok"
@@ -5097,7 +5097,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 1530,
+   "behind": 1531,
    "hasPR": true,
    "prNumber": 1638,
    "severity": "ok"
@@ -5110,7 +5110,7 @@
    "ahead": 1,
    "aheadReal": 0,
    "landedEquivalent": 1,
-   "behind": 7,
+   "behind": 8,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -5123,7 +5123,7 @@
    "ahead": 2,
    "aheadReal": 0,
    "landedEquivalent": 2,
-   "behind": 2847,
+   "behind": 2848,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -5136,7 +5136,7 @@
    "ahead": 2,
    "aheadReal": 2,
    "landedEquivalent": 0,
-   "behind": 1875,
+   "behind": 1876,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -5149,7 +5149,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 1315,
+   "behind": 1316,
    "hasPR": true,
    "prNumber": 1631,
    "severity": "ok"
@@ -5162,7 +5162,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 1530,
+   "behind": 1531,
    "hasPR": true,
    "prNumber": 1632,
    "severity": "ok"
@@ -5175,7 +5175,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 1315,
+   "behind": 1316,
    "hasPR": true,
    "prNumber": 1636,
    "severity": "ok"
@@ -5188,7 +5188,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 1530,
+   "behind": 1531,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -5201,7 +5201,7 @@
    "ahead": 2,
    "aheadReal": 1,
    "landedEquivalent": 1,
-   "behind": 1376,
+   "behind": 1377,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -5214,7 +5214,7 @@
    "ahead": 5,
    "aheadReal": 0,
    "landedEquivalent": 5,
-   "behind": 25,
+   "behind": 26,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -5227,7 +5227,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 1530,
+   "behind": 1531,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -5240,7 +5240,7 @@
    "ahead": 3,
    "aheadReal": 0,
    "landedEquivalent": 3,
-   "behind": 2316,
+   "behind": 2317,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -5253,7 +5253,7 @@
    "ahead": 7,
    "aheadReal": 1,
    "landedEquivalent": 6,
-   "behind": 225,
+   "behind": 226,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -5266,7 +5266,7 @@
    "ahead": 1,
    "aheadReal": 0,
    "landedEquivalent": 1,
-   "behind": 3135,
+   "behind": 3136,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -5279,7 +5279,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 1287,
+   "behind": 1288,
    "hasPR": true,
    "prNumber": 1757,
    "severity": "ok"
@@ -5292,7 +5292,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 465,
+   "behind": 466,
    "hasPR": true,
    "prNumber": 1941,
    "severity": "ok"
@@ -5305,7 +5305,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 4706,
+   "behind": 4707,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -5318,7 +5318,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 6108,
+   "behind": 6109,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -5331,7 +5331,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 25,
+   "behind": 26,
    "hasPR": false,
    "prNumber": null,
    "severity": "info"
@@ -5344,7 +5344,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 10,
+   "behind": 11,
    "hasPR": false,
    "prNumber": null,
    "severity": "info"
@@ -5357,7 +5357,7 @@
    "ahead": 8,
    "aheadReal": 0,
    "landedEquivalent": 8,
-   "behind": 1724,
+   "behind": 1725,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -5370,7 +5370,7 @@
    "ahead": 3,
    "aheadReal": 0,
    "landedEquivalent": 3,
-   "behind": 43,
+   "behind": 44,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -5383,7 +5383,7 @@
    "ahead": 1,
    "aheadReal": 0,
    "landedEquivalent": 1,
-   "behind": 1315,
+   "behind": 1316,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -5396,7 +5396,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 259,
+   "behind": 260,
    "hasPR": true,
    "prNumber": 1978,
    "severity": "ok"
@@ -5409,7 +5409,7 @@
    "ahead": 3,
    "aheadReal": 3,
    "landedEquivalent": 0,
-   "behind": 541,
+   "behind": 542,
    "hasPR": true,
    "prNumber": 1892,
    "severity": "ok"
@@ -5422,7 +5422,7 @@
    "ahead": 4,
    "aheadReal": 3,
    "landedEquivalent": 0,
-   "behind": 8065,
+   "behind": 8066,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -5435,7 +5435,7 @@
    "ahead": 2,
    "aheadReal": 0,
    "landedEquivalent": 2,
-   "behind": 60,
+   "behind": 61,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -5448,7 +5448,7 @@
    "ahead": 6,
    "aheadReal": 6,
    "landedEquivalent": 0,
-   "behind": 968,
+   "behind": 969,
    "hasPR": true,
    "prNumber": 1676,
    "severity": "ok"
@@ -5461,7 +5461,7 @@
    "ahead": 14,
    "aheadReal": 12,
    "landedEquivalent": 2,
-   "behind": 152,
+   "behind": 153,
    "hasPR": false,
    "prNumber": null,
    "severity": "info"
@@ -5474,7 +5474,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 47,
+   "behind": 48,
    "hasPR": false,
    "prNumber": null,
    "severity": "info"
@@ -5487,7 +5487,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 6135,
+   "behind": 6136,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -5500,7 +5500,7 @@
    "ahead": 13,
    "aheadReal": 11,
    "landedEquivalent": 1,
-   "behind": 6237,
+   "behind": 6238,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -5513,7 +5513,7 @@
    "ahead": 3,
    "aheadReal": 2,
    "landedEquivalent": 1,
-   "behind": 47,
+   "behind": 48,
    "hasPR": true,
    "prNumber": 1649,
    "severity": "ok"
@@ -5526,7 +5526,7 @@
    "ahead": 1,
    "aheadReal": 0,
    "landedEquivalent": 1,
-   "behind": 48,
+   "behind": 49,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -5539,7 +5539,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 1315,
+   "behind": 1316,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -5552,7 +5552,7 @@
    "ahead": 1,
    "aheadReal": 0,
    "landedEquivalent": 1,
-   "behind": 60,
+   "behind": 61,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -5565,7 +5565,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 1309,
+   "behind": 1310,
    "hasPR": true,
    "prNumber": 1745,
    "severity": "ok"
@@ -5578,7 +5578,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 412,
+   "behind": 413,
    "hasPR": true,
    "prNumber": 1946,
    "severity": "ok"
@@ -5591,7 +5591,7 @@
    "ahead": 4,
    "aheadReal": 4,
    "landedEquivalent": 0,
-   "behind": 4009,
+   "behind": 4010,
    "hasPR": true,
    "prNumber": 1287,
    "severity": "ok"
@@ -5604,7 +5604,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 152,
+   "behind": 153,
    "hasPR": true,
    "prNumber": 2019,
    "severity": "ok"
@@ -5617,7 +5617,7 @@
    "ahead": 12,
    "aheadReal": 0,
    "landedEquivalent": 12,
-   "behind": 38,
+   "behind": 39,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -5630,7 +5630,7 @@
    "ahead": 55,
    "aheadReal": 51,
    "landedEquivalent": 4,
-   "behind": 16,
+   "behind": 17,
    "hasPR": true,
    "prNumber": 2050,
    "severity": "ok"
@@ -5643,7 +5643,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 25,
+   "behind": 26,
    "hasPR": true,
    "prNumber": 2065,
    "severity": "ok"
@@ -5656,7 +5656,7 @@
    "ahead": 2,
    "aheadReal": 0,
    "landedEquivalent": 2,
-   "behind": 46,
+   "behind": 47,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -5669,7 +5669,7 @@
    "ahead": 1,
    "aheadReal": 0,
    "landedEquivalent": 1,
-   "behind": 1538,
+   "behind": 1539,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -5682,7 +5682,7 @@
    "ahead": 2,
    "aheadReal": 0,
    "landedEquivalent": 2,
-   "behind": 50,
+   "behind": 51,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -5695,7 +5695,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 1207,
+   "behind": 1208,
    "hasPR": true,
    "prNumber": 1768,
    "severity": "ok"
@@ -5708,7 +5708,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 1168,
+   "behind": 1169,
    "hasPR": true,
    "prNumber": 1772,
    "severity": "ok"
@@ -5721,7 +5721,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 2757,
+   "behind": 2758,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -5734,7 +5734,7 @@
    "ahead": 1,
    "aheadReal": 0,
    "landedEquivalent": 1,
-   "behind": 8,
+   "behind": 9,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -5747,7 +5747,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 75,
+   "behind": 76,
    "hasPR": true,
    "prNumber": 2032,
    "severity": "ok"
@@ -5760,7 +5760,7 @@
    "ahead": 3,
    "aheadReal": 3,
    "landedEquivalent": 0,
-   "behind": 388,
+   "behind": 389,
    "hasPR": true,
    "prNumber": 1950,
    "severity": "ok"
@@ -5773,7 +5773,7 @@
    "ahead": 4,
    "aheadReal": 2,
    "landedEquivalent": 2,
-   "behind": 287,
+   "behind": 288,
    "hasPR": true,
    "prNumber": 1969,
    "severity": "ok"
@@ -5786,7 +5786,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 151,
+   "behind": 152,
    "hasPR": true,
    "prNumber": 2034,
    "severity": "ok"
@@ -5799,7 +5799,7 @@
    "ahead": 4,
    "aheadReal": 3,
    "landedEquivalent": 1,
-   "behind": 266,
+   "behind": 267,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -5812,7 +5812,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 610,
+   "behind": 611,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -5825,23 +5825,10 @@
    "ahead": 1,
    "aheadReal": 0,
    "landedEquivalent": 1,
-   "behind": 4,
+   "behind": 5,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
-  },
-  {
-   "repo": "ossia/score",
-   "name": "jit-macos-cf-enum-sdk",
-   "sha": "6f7be309e3f75f08227b8236f50e358a90df1502",
-   "lastCommitDate": "2026-06-21T02:07:06-04:00",
-   "ahead": 4,
-   "aheadReal": 4,
-   "landedEquivalent": 0,
-   "behind": 3,
-   "hasPR": false,
-   "prNumber": null,
-   "severity": "info"
   },
   {
    "repo": "ossia/score",
@@ -5851,7 +5838,7 @@
    "ahead": 4,
    "aheadReal": 4,
    "landedEquivalent": 0,
-   "behind": 148,
+   "behind": 149,
    "hasPR": false,
    "prNumber": null,
    "severity": "info"
@@ -5864,7 +5851,7 @@
    "ahead": 8,
    "aheadReal": 7,
    "landedEquivalent": 1,
-   "behind": 8741,
+   "behind": 8742,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -5877,7 +5864,7 @@
    "ahead": 12,
    "aheadReal": 12,
    "landedEquivalent": 0,
-   "behind": 2531,
+   "behind": 2532,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -5890,7 +5877,7 @@
    "ahead": 0,
    "aheadReal": 0,
    "landedEquivalent": null,
-   "behind": 2075,
+   "behind": 2076,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -5903,7 +5890,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 3403,
+   "behind": 3404,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -5916,7 +5903,7 @@
    "ahead": 1,
    "aheadReal": 0,
    "landedEquivalent": 1,
-   "behind": 15,
+   "behind": 16,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -5929,7 +5916,7 @@
    "ahead": 48,
    "aheadReal": 48,
    "landedEquivalent": 0,
-   "behind": 9,
+   "behind": 10,
    "hasPR": false,
    "prNumber": null,
    "severity": "info"
@@ -5942,7 +5929,7 @@
    "ahead": 40,
    "aheadReal": 40,
    "landedEquivalent": 0,
-   "behind": 10,
+   "behind": 11,
    "hasPR": false,
    "prNumber": null,
    "severity": "info"
@@ -5955,7 +5942,7 @@
    "ahead": 58,
    "aheadReal": 58,
    "landedEquivalent": 0,
-   "behind": 10,
+   "behind": 11,
    "hasPR": false,
    "prNumber": null,
    "severity": "info"
@@ -5968,7 +5955,7 @@
    "ahead": 3,
    "aheadReal": 2,
    "landedEquivalent": 1,
-   "behind": 5828,
+   "behind": 5829,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -5981,23 +5968,10 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 5899,
+   "behind": 5900,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
-  },
-  {
-   "repo": "ossia/score",
-   "name": "tmp-macos-jit-2089",
-   "sha": "1a440fceeced278917f9c4c3c968594605e259fd",
-   "lastCommitDate": "2026-06-21T00:21:28-04:00",
-   "ahead": 4,
-   "aheadReal": 4,
-   "landedEquivalent": 0,
-   "behind": 3,
-   "hasPR": false,
-   "prNumber": null,
-   "severity": "info"
   },
   {
    "repo": "ossia/score",
@@ -6007,7 +5981,7 @@
    "ahead": 10,
    "aheadReal": 0,
    "landedEquivalent": 10,
-   "behind": 3179,
+   "behind": 3180,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -6020,7 +5994,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 47,
+   "behind": 48,
    "hasPR": false,
    "prNumber": null,
    "severity": "info"
@@ -6033,7 +6007,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 2929,
+   "behind": 2930,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -6046,7 +6020,7 @@
    "ahead": 0,
    "aheadReal": 0,
    "landedEquivalent": null,
-   "behind": 7330,
+   "behind": 7331,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -6059,7 +6033,7 @@
    "ahead": 5,
    "aheadReal": 5,
    "landedEquivalent": 0,
-   "behind": 8741,
+   "behind": 8742,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -6072,7 +6046,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 3118,
+   "behind": 3119,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -6085,7 +6059,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 1530,
+   "behind": 1531,
    "hasPR": true,
    "prNumber": 1601,
    "severity": "ok"
@@ -6098,7 +6072,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 1530,
+   "behind": 1531,
    "hasPR": true,
    "prNumber": 1605,
    "severity": "ok"
@@ -6111,7 +6085,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 1315,
+   "behind": 1316,
    "hasPR": true,
    "prNumber": 1603,
    "severity": "ok"
@@ -6124,7 +6098,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 666,
+   "behind": 667,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -6137,7 +6111,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 2774,
+   "behind": 2775,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -6150,7 +6124,7 @@
    "ahead": 8,
    "aheadReal": 8,
    "landedEquivalent": 0,
-   "behind": 1908,
+   "behind": 1909,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -6163,7 +6137,7 @@
    "ahead": 14,
    "aheadReal": 13,
    "landedEquivalent": 1,
-   "behind": 1408,
+   "behind": 1409,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -6176,7 +6150,7 @@
    "ahead": 19,
    "aheadReal": 16,
    "landedEquivalent": 3,
-   "behind": 1132,
+   "behind": 1133,
    "hasPR": true,
    "prNumber": 1778,
    "severity": "ok"
@@ -6189,7 +6163,7 @@
    "ahead": 21,
    "aheadReal": 17,
    "landedEquivalent": 4,
-   "behind": 410,
+   "behind": 411,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -6202,7 +6176,7 @@
    "ahead": 24,
    "aheadReal": 20,
    "landedEquivalent": 4,
-   "behind": 238,
+   "behind": 239,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -6215,7 +6189,7 @@
    "ahead": 2,
    "aheadReal": 0,
    "landedEquivalent": 2,
-   "behind": 5017,
+   "behind": 5018,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -6228,7 +6202,7 @@
    "ahead": 2,
    "aheadReal": 2,
    "landedEquivalent": 0,
-   "behind": 2399,
+   "behind": 2400,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -7593,7 +7567,7 @@
    "ahead": 0,
    "aheadReal": 0,
    "landedEquivalent": null,
-   "behind": 37,
+   "behind": 38,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -11074,7 +11048,7 @@
    "category": "pr",
    "repo": "celtera/libremidi",
    "subject": "#124 api: annotate with nodiscard",
-   "message": "idle 160d, 209 commits behind master",
+   "message": "idle 161d, 209 commits behind master",
    "url": "https://github.com/celtera/libremidi/pull/124",
    "severity": "warn"
   },
@@ -11110,7 +11084,7 @@
    "category": "pr",
    "repo": "ossia/libossia",
    "subject": "#874 feature/feedback",
-   "message": "idle 75d, 43 commits behind master",
+   "message": "idle 76d, 43 commits behind master",
    "url": "https://github.com/ossia/libossia/pull/874",
    "severity": "warn"
   },
@@ -11128,7 +11102,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1287 Feature/wasm remote",
-   "message": "idle 1767d, 0 commits behind feature/wasm-remote",
+   "message": "idle 1768d, 0 commits behind feature/wasm-remote",
    "url": "https://github.com/ossia/score/pull/1287",
    "severity": "warn"
   },
@@ -11137,7 +11111,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1288 Feature/wasm remote 2",
-   "message": "idle 24d, 3927 commits behind master",
+   "message": "idle 24d, 3928 commits behind master",
    "url": "https://github.com/ossia/score/pull/1288",
    "severity": "warn"
   },
@@ -11146,7 +11120,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1399 [wip] Supporting more midi messages in MidiDrop plugin",
-   "message": "idle 24d, 3227 commits behind master",
+   "message": "idle 24d, 3228 commits behind master",
    "url": "https://github.com/ossia/score/pull/1399",
    "severity": "warn"
   },
@@ -11155,7 +11129,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1454 fix #1451 and #1452",
-   "message": "idle 24d, 2698 commits behind master",
+   "message": "idle 24d, 2699 commits behind master",
    "url": "https://github.com/ossia/score/pull/1454",
    "severity": "warn"
   },
@@ -11164,7 +11138,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1601 perf: prereserve some audio buffers",
-   "message": "idle 24d, 1530 commits behind master",
+   "message": "idle 24d, 1531 commits behind master",
    "url": "https://github.com/ossia/score/pull/1601",
    "severity": "warn"
   },
@@ -11173,7 +11147,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1603 wip: better implementation of customfloatcontrol",
-   "message": "idle 24d, 1315 commits behind master",
+   "message": "idle 24d, 1316 commits behind master",
    "url": "https://github.com/ossia/score/pull/1603",
    "severity": "warn"
   },
@@ -11182,7 +11156,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1604 core: Implement a command transaction system",
-   "message": "idle 24d, 1315 commits behind master",
+   "message": "idle 24d, 1316 commits behind master",
    "url": "https://github.com/ossia/score/pull/1604",
    "severity": "warn"
   },
@@ -11191,7 +11165,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1605 curve: start work on optimized pointarray rendering",
-   "message": "idle 24d, 1530 commits behind master",
+   "message": "idle 24d, 1531 commits behind master",
    "url": "https://github.com/ossia/score/pull/1605",
    "severity": "warn"
   },
@@ -11200,7 +11174,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1631 ui: work on improving drag and drop magnetic behaviour",
-   "message": "idle 24d, 1315 commits behind master",
+   "message": "idle 24d, 1316 commits behind master",
    "url": "https://github.com/ossia/score/pull/1631",
    "severity": "warn"
   },
@@ -11209,7 +11183,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1632 simpleio: improve pwm handling",
-   "message": "idle 24d, 1530 commits behind master",
+   "message": "idle 24d, 1531 commits behind master",
    "url": "https://github.com/ossia/score/pull/1632",
    "severity": "warn"
   },
@@ -11218,7 +11192,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1636 video: start working towards control ports in video proces",
-   "message": "idle 24d, 1315 commits behind master",
+   "message": "idle 24d, 1316 commits behind master",
    "url": "https://github.com/ossia/score/pull/1636",
    "severity": "warn"
   },
@@ -11227,7 +11201,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1638 faust: use default FAUSTFLOAT configuration if using faust from distro",
-   "message": "idle 24d, 1530 commits behind master",
+   "message": "idle 24d, 1531 commits behind master",
    "url": "https://github.com/ossia/score/pull/1638",
    "severity": "warn"
   },
@@ -11236,7 +11210,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1676 osc: work on adding more features to rate limiter",
-   "message": "idle 24d, 968 commits behind master",
+   "message": "idle 24d, 969 commits behind master",
    "url": "https://github.com/ossia/score/pull/1676",
    "severity": "warn"
   },
@@ -11245,7 +11219,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1710 Improve package manager UX",
-   "message": "idle 24d, 541 commits behind master",
+   "message": "idle 24d, 542 commits behind master",
    "url": "https://github.com/ossia/score/pull/1710",
    "severity": "warn"
   },
@@ -11254,7 +11228,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1745 video: try a different tradeoff of video playback options",
-   "message": "idle 24d, 1309 commits behind master",
+   "message": "idle 24d, 1310 commits behind master",
    "url": "https://github.com/ossia/score/pull/1745",
    "severity": "warn"
   },
@@ -11263,7 +11237,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1757 mcp: try to see how would an implementation would look",
-   "message": "idle 24d, 1287 commits behind master",
+   "message": "idle 24d, 1288 commits behind master",
    "url": "https://github.com/ossia/score/pull/1757",
    "severity": "warn"
   },
@@ -11272,7 +11246,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1768 fix/adjust_grid_size_to_generate_values_from_-1_to_1",
-   "message": "idle 24d, 1207 commits behind master",
+   "message": "idle 24d, 1208 commits behind master",
    "url": "https://github.com/ossia/score/pull/1768",
    "severity": "warn"
   },
@@ -11281,7 +11255,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1772 make a debug appimage",
-   "message": "idle 24d, 1168 commits behind master",
+   "message": "idle 24d, 1169 commits behind master",
    "url": "https://github.com/ossia/score/pull/1772",
    "severity": "warn"
   },
@@ -11290,7 +11264,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1778 wip/pico next 2",
-   "message": "idle 24d, 1132 commits behind master",
+   "message": "idle 24d, 1133 commits behind master",
    "url": "https://github.com/ossia/score/pull/1778",
    "severity": "warn"
   },
@@ -11299,7 +11273,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1827 feature/enable vulkan raytracing extensions",
-   "message": "idle 24d, 1078 commits behind master",
+   "message": "idle 24d, 1079 commits behind master",
    "url": "https://github.com/ossia/score/pull/1827",
    "severity": "warn"
   },
@@ -11308,7 +11282,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1892 ble: use qtbluetooth",
-   "message": "idle 24d, 541 commits behind master",
+   "message": "idle 24d, 542 commits behind master",
    "url": "https://github.com/ossia/score/pull/1892",
    "severity": "warn"
   },
@@ -11317,7 +11291,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1933 feature/codeeditor dock",
-   "message": "idle 24d, 482 commits behind master",
+   "message": "idle 24d, 483 commits behind master",
    "url": "https://github.com/ossia/score/pull/1933",
    "severity": "warn"
   },
@@ -11326,7 +11300,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1940 wip: experiment with bw64",
-   "message": "idle 24d, 465 commits behind master",
+   "message": "idle 24d, 466 commits behind master",
    "url": "https://github.com/ossia/score/pull/1940",
    "severity": "warn"
   },
@@ -11335,7 +11309,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1941 midi: wip on MIDI parsing of automations, tempo, etc.",
-   "message": "idle 24d, 465 commits behind master",
+   "message": "idle 24d, 466 commits behind master",
    "url": "https://github.com/ossia/score/pull/1941",
    "severity": "warn"
   },
@@ -11344,7 +11318,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1946 ui: experiment with a generic view tool",
-   "message": "idle 24d, 412 commits behind master",
+   "message": "idle 24d, 413 commits behind master",
    "url": "https://github.com/ossia/score/pull/1946",
    "severity": "warn"
   },
@@ -11353,7 +11327,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1950 table: try to see if 1D and 2D make the cut",
-   "message": "idle 24d, 388 commits behind master",
+   "message": "idle 24d, 389 commits behind master",
    "url": "https://github.com/ossia/score/pull/1950",
    "severity": "warn"
   },
@@ -11362,7 +11336,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1963 inspector: suggest alternative label display for better readability",
-   "message": "idle 24d, 299 commits behind master",
+   "message": "idle 24d, 300 commits behind master",
    "url": "https://github.com/ossia/score/pull/1963",
    "severity": "warn"
   },
@@ -11371,7 +11345,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1969 dynamic ports: handle live reloading in ossia",
-   "message": "idle 24d, 287 commits behind master",
+   "message": "idle 24d, 288 commits behind master",
    "url": "https://github.com/ossia/score/pull/1969",
    "severity": "warn"
   },
@@ -11380,7 +11354,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1975 audio: implement an ASIO-based audio backend. Fixes #1422",
-   "message": "idle 24d, 259 commits behind master",
+   "message": "idle 24d, 260 commits behind master",
    "url": "https://github.com/ossia/score/pull/1975",
    "severity": "warn"
   },
@@ -11389,7 +11363,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1978 js: experiment with QtQuick-based nodal process",
-   "message": "idle 24d, 259 commits behind master",
+   "message": "idle 24d, 260 commits behind master",
    "url": "https://github.com/ossia/score/pull/1978",
    "severity": "warn"
   },
@@ -11398,7 +11372,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1989 feature/clip launcher",
-   "message": "idle 24d, 250 commits behind master",
+   "message": "idle 24d, 251 commits behind master",
    "url": "https://github.com/ossia/score/pull/1989",
    "severity": "warn"
   },
@@ -11407,7 +11381,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#2019 [ci skip] wip: webengine support",
-   "message": "idle 24d, 152 commits behind master",
+   "message": "idle 24d, 153 commits behind master",
    "url": "https://github.com/ossia/score/pull/2019",
    "severity": "warn"
   },
@@ -11416,7 +11390,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#2032 TBD: mapper: keep mapper device readable via Device.read() after device reconnects",
-   "message": "idle 24d, 75 commits behind master",
+   "message": "idle 24d, 76 commits behind master",
    "url": "https://github.com/ossia/score/pull/2032",
    "severity": "warn"
   },
@@ -11425,7 +11399,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#2034 wip: wasm: update to latest Qt, make gfx work",
-   "message": "idle 24d, 151 commits behind master",
+   "message": "idle 24d, 152 commits behind master",
    "url": "https://github.com/ossia/score/pull/2034",
    "severity": "warn"
   },
