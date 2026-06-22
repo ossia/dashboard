@@ -7,7 +7,7 @@ import { commitDate, lsRemote } from "./lib/git.ts";
 import type { SectionMeta, Snapshot } from "./lib/types.ts";
 import { buildAttention, rollupRepoCounts } from "./lib/severity.ts";
 import { collectSubmodules } from "./collect/submodules.ts";
-import { collectUpstreams } from "./collect/upstreams.ts";
+import { collectDependencies } from "./collect/dependencies.ts";
 import { collectPRs } from "./collect/prs.ts";
 import { collectBranches } from "./collect/branches.ts";
 import { collectActions, readWorkflows } from "./collect/actions.ts";
@@ -64,14 +64,14 @@ const repos = await section("repos", [], async () => ({
 
 const workflows = await readWorkflows(cfg);
 
-const [submodules, upstreams, prsRes, actions, environments, packaging] =
+const [submodules, dependencies, prsRes, actions, environments, packaging] =
   await Promise.all([
     section("submodules", [], async () => ({
       data: await collectSubmodules(cfg),
       meta: liveMeta(),
     })),
-    section("upstreams", [], async () => ({
-      data: await collectUpstreams(cfg),
+    section("dependencies", [], async () => ({
+      data: await collectDependencies(cfg),
       meta: liveMeta(),
     })),
     section("prs", [], async () => {
@@ -103,7 +103,7 @@ const snapshot: Snapshot = {
   sections: {
     repos: repos.meta,
     submodules: submodules.meta,
-    upstreams: upstreams.meta,
+    dependencies: dependencies.meta,
     prs: prsRes.meta,
     branches: branches.meta,
     actions: actions.meta,
@@ -112,7 +112,7 @@ const snapshot: Snapshot = {
   },
   repos: repos.data,
   submodules: submodules.data,
-  upstreams: upstreams.data,
+  dependencies: dependencies.data,
   prs: prsRes.data,
   branches: branches.data,
   actions: actions.data,
@@ -131,7 +131,7 @@ const stale = daysAgo(snapshot.generatedAt);
 void stale;
 console.log(
   `snapshot written: ${snapshot.attention.length} attention items, ` +
-    `${snapshot.submodules.length} submodule pins, ${snapshot.upstreams.length} upstream watches, ` +
+    `${snapshot.submodules.length} submodule pins, ${snapshot.dependencies.length} dependencies, ` +
     `${snapshot.prs.length} PRs, ${snapshot.branches.length} branches, ` +
     `${snapshot.actions.length} actions, ${snapshot.environments.length} env pins ` +
     `(${((Date.now() - t0) / 1000).toFixed(1)}s)`,

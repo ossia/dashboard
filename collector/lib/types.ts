@@ -32,13 +32,25 @@ export interface SubmodulePin {
   notes: string[];
 }
 
-export interface UpstreamWatch {
+export type DependencySource =
+  | "deps.yaml"
+  | "versions.sh"
+  | "cmake-fetchcontent"
+  | "cmake-externalproject"
+  | "cmake-url"
+  | "vcpkg";
+
+export interface Dependency {
   name: string;
-  registry: string; // which deps.yaml section it came from
-  upstream: string; // owner/repo or gitlab:owner/repo
-  kind: "fork" | "upstream" | "vendored";
+  source: DependencySource;
+  repo: string; // tracked repo the pin was found in
+  location: string; // file path the pin lives in
+  upstream: string; // owner/repo or gitlab:owner/repo, "" if none/unresolved
+  kind: "fork" | "upstream" | "vendored" | "manifest";
   pinnedVersion: string | null;
   pinnedSha: string | null;
+  pinnedRef: string | null; // raw ref text as written (tag / branch / sha / url)
+  tracksBranch: boolean; // pinned to a moving branch (master/main) — not reproducible
   latestTag: string | null;
   latestTagDate: string | null;
   upstreamHeadSha: string | null;
@@ -130,7 +142,7 @@ export interface AttentionItem {
   id: string; // "<category>:<repo>:<subject>"
   category:
     | "submodule"
-    | "upstream"
+    | "dependency"
     | "pr"
     | "branch"
     | "action"
@@ -149,7 +161,7 @@ export interface Snapshot {
   sections: Record<string, SectionMeta>;
   repos: RepoHealth[];
   submodules: SubmodulePin[];
-  upstreams: UpstreamWatch[];
+  dependencies: Dependency[];
   prs: PullRequest[];
   branches: BranchInfo[];
   actions: ActionUse[];

@@ -29,17 +29,19 @@ export function buildAttention(s: Snapshot, cfg: Config): AttentionItem[] {
       severity: m.severity,
     });
 
-  for (const u of s.upstreams)
+  for (const d of s.dependencies)
     push({
-      id: `upstream:${u.upstream}:${u.name}`,
-      category: "upstream",
-      repo: u.registry,
-      subject: u.name,
-      message: u.notes.join("; "),
-      url: u.upstream.startsWith("gitlab:")
-        ? `https://gitlab.com/${u.upstream.slice(7)}`
-        : `https://github.com/${u.upstream}`,
-      severity: u.severity,
+      id: `dependency:${d.repo}:${d.source}:${d.name}`,
+      category: "dependency",
+      repo: d.repo,
+      subject: `${d.name} (${d.source})`,
+      message: d.notes.join("; "),
+      url: !d.upstream
+        ? null
+        : d.upstream.startsWith("gitlab:")
+          ? `https://gitlab.com/${d.upstream.slice(7)}`
+          : `https://github.com/${d.upstream}`,
+      severity: d.severity,
     });
 
   for (const p of s.prs)
@@ -127,6 +129,7 @@ export function rollupRepoCounts(s: Snapshot): void {
     else c.crit++;
   };
   for (const m of s.submodules) bump(m.parentRepo, "submodules", m.severity);
+  for (const d of s.dependencies) bump(d.repo, "dependencies", d.severity);
   for (const p of s.prs) bump(p.repo, "prs", p.severity);
   for (const b of s.branches) bump(b.repo, "branches", b.severity);
   for (const a of s.actions)

@@ -299,7 +299,13 @@ export async function readFileAtHead(
   return null;
 }
 
-/** Highest version-looking tag, with optional required prefix. */
+/**
+ * Highest version-looking tag, with optional required prefix.
+ * When `prefix` is provided (including the empty string), the remainder after
+ * the prefix must begin with a digit — so a declared prefix of "" selects only
+ * bare numeric tags and rejects junk like "ubuntu16.04" or "cppcon2018" that
+ * would otherwise win the numeric maximum. Pass `undefined` to scan leniently.
+ */
 export function latestTag(
   refs: RemoteRefs,
   prefix?: string,
@@ -307,9 +313,10 @@ export function latestTag(
   let best: { tag: string; sha: string; key: number[] } | null = null;
   for (const [tag, sha] of refs.tags) {
     let t = tag;
-    if (prefix) {
+    if (prefix !== undefined) {
       if (!t.startsWith(prefix)) continue;
       t = t.slice(prefix.length);
+      if (!/^[0-9]/.test(t)) continue; // after the declared prefix: numeric only
     }
     const key = versionKey(t);
     if (!key) continue;

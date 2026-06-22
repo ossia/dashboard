@@ -4,10 +4,10 @@ import Sev from "../components/Sev.astro";
 import { snapshot, fmtAgo, sevRank } from "../lib/snapshot.ts";
 
 const base = import.meta.env.BASE_URL.replace(/\/$/, "");
-const cats = ["submodules", "prs", "branches", "actions", "environments"] as const;
+const cats = ["submodules", "dependencies", "prs", "branches", "actions", "environments"] as const;
 const catPage: Record<string, string> = {
   submodule: "submodules",
-  upstream: "upstreams",
+  dependency: "dependencies",
   pr: "prs",
   branch: "branches",
   action: "actions",
@@ -31,7 +31,7 @@ function worstOf(counts: Record<string, { warn: number; crit: number; info: numb
   <h1>overview</h1>
   <p class="note">
     {crit.length} critical · {warn.length} warnings across {snapshot.repos.length} repositories,
-    {snapshot.submodules.length} submodule pins, {snapshot.upstreams.length} tracked upstreams,
+    {snapshot.submodules.length} submodule pins, {snapshot.dependencies.length} tracked dependencies,
     {snapshot.prs.length} open PRs.
   </p>
 

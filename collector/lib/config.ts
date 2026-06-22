@@ -26,6 +26,23 @@ export interface FileWatch {
   pins: WatchPin[];
 }
 
+export interface VersionVar {
+  upstream: string;
+  prefix?: string;
+}
+
+export interface VersionFile {
+  repo: string;
+  file: string;
+  vars: Record<string, VersionVar>;
+}
+
+export interface DependenciesConfig {
+  versionFiles: VersionFile[];
+  cmakeScan: { repos: string[] };
+  vcpkg: { repos: string[] };
+}
+
 export interface Config {
   repos: RepoConfig[];
   releaseSources: string[];
@@ -33,6 +50,7 @@ export interface Config {
   imageProducts: Record<string, string>;
   matrixCoverage: string[];
   repology: string[];
+  dependencies: DependenciesConfig;
   thresholds: Thresholds;
   ignore: { match: string; reason: string }[];
 }
@@ -58,6 +76,7 @@ export function loadConfig(): Config {
     matrixCoverage: string[];
     repology: string[];
   }>("watch.yaml");
+  const dependencies = load<DependenciesConfig>("dependencies.yaml");
   const thresholds = load<Thresholds>("thresholds.yaml");
   const ignore = load<{ ignore: { match: string; reason: string }[] }>("ignore.yaml");
   return {
@@ -67,6 +86,11 @@ export function loadConfig(): Config {
     imageProducts: watch.imageProducts,
     matrixCoverage: watch.matrixCoverage,
     repology: watch.repology,
+    dependencies: {
+      versionFiles: dependencies.versionFiles ?? [],
+      cmakeScan: dependencies.cmakeScan ?? { repos: [] },
+      vcpkg: dependencies.vcpkg ?? { repos: [] },
+    },
     thresholds,
     ignore: ignore.ignore ?? [],
   };

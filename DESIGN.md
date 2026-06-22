@@ -11,8 +11,13 @@ It tracks, across the ossia / celtera / sat-mtl repositories:
 2. **PR-less branches** — branches with unique commits and no open PR.
 3. **PR staleness** — how far behind their base branch open PRs are, and how long
    they have been idle.
-4. **3rd-party / vendored deps** — driven by `score/3rdparty/deps.yaml` (the registry
-   Renovate already consumes): pinned version/SHA vs upstream latest tag / HEAD.
+4. **3rd-party dependencies (every source)** — a unified inventory that accounts for
+   every pinned dependency, not just submodules: `score/3rdparty/deps.yaml` (the
+   registry Renovate consumes), shell version files (`ossia/sdk` `common/versions.sh`),
+   CMake `FetchContent_Declare` / `ExternalProject_Add` / release-URL pins, and
+   `vcpkg.json` ports. Each resolves to an upstream and is graded: pinned version vs
+   latest tag, pinned SHA vs upstream HEAD, and pins that track a moving branch
+   (`GIT_TAG master`) are flagged as non-reproducible.
 5. **Fork revival** — many of our submodules are forks (`jcelerier/*`) of upstreams
    that were dead when we forked. When upstream wakes up again we want a signal.
 6. **GitHub Actions** — every `uses:` across every workflow vs the action's latest
@@ -73,9 +78,11 @@ Snapshot {
   submodules:   SubmodulePin[]   // parent, path, target, pinned sha/date,
                                  // onDefaultBranch, containingBranches,
                                  // behindCount, behindDays, severity
-  upstreams:    UpstreamWatch[]  // from deps.yaml: kind fork|upstream|vendored,
-                                 // pinned version/sha, latest tag (+date),
-                                 // upstream HEAD date, revived?, severity
+  dependencies: Dependency[]     // unified inventory across all sources
+                                 // (deps.yaml, versions.sh, cmake-*, vcpkg):
+                                 // source, repo, location, upstream, pinned
+                                 // version/sha/ref, tracksBranch, latest tag
+                                 // (+date), upstream HEAD date, revived?, severity
   prs:          PullRequest[]    // number, title, base/head, behindBase, ageDays,
                                  // idleDays, draft, ciStatus, severity
   branches:     BranchInfo[]     // ahead/behind default, hasPR, lastCommitDate
@@ -95,7 +102,8 @@ Everything carries `severity: ok | info | warn | crit`, assigned by
 |---|---|---|---|
 | submodule pin behind target default HEAD | > 0 commits | > 60 days | > 365 days |
 | submodule pin not reachable from target default branch | — | always | — |
-| deps.yaml pinned tag ≠ upstream latest tag | newer patch | newer minor/major | — |
+| dependency pinned tag ≠ upstream latest tag (any source) | newer patch | newer minor/major | — |
+| dependency pinned to a moving branch (`GIT_TAG master`) | always | — | — |
 | dead-upstream fork: upstream commits < 180 d old, newer than pin | — | always | — |
 | branch w/ real unmerged commits (cherry-pick/rebase-aware), no PR | idle < 90 d | idle ≥ 90 d | — |
 | open PR | behind base > 0 | idle > 30 d or behind > 50 commits | — |
@@ -118,9 +126,12 @@ requires a `reason:`.
   `fetch-sdk.sh`, distro matrices, and any future pinned file are tracked —
   adding one is a config edit, not code.
 - `config/thresholds.yaml`, `config/ignore.yaml` — see above.
-- Fork→upstream mapping comes from `score/3rdparty/deps.yaml` (fetched at collect
-  time from the score repo, so it stays single-source); `config/upstreams.yaml`
-  only adds entries for repos deps.yaml doesn't cover.
+- `config/dependencies.yaml` — the non-submodule dependency sources:
+  `versionFiles` (shell version files, mapping each `*_VERSION` var to an
+  upstream + tag prefix), `cmakeScan` (repos whose CMake build files are scanned
+  for FetchContent/ExternalProject/URL pins), and `vcpkg` (repos with a
+  `vcpkg.json` to inventory). The deps.yaml registry is still read from each
+  repo's `depsRegistry` in `repos.yaml`, so it stays single-source.
 
 ## Site
 
@@ -141,7 +152,7 @@ Pages — `/` is the unified visualization, the rest are drill-downs:
 |---|---|
 | `/` | attention feed (all warn/crit, grouped by category, worst first) + per-repo health strip (default branch age, counts per category) |
 | `/submodules` | full pin matrix across all repos |
-| `/upstreams` | deps.yaml registry: pinned vs latest, fork-revival column |
+| `/dependencies` | unified inventory (deps.yaml, versions.sh, CMake, vcpkg): pinned vs latest, floating-branch + fork-revival sections |
 | `/prs` | all open PRs, behind/idle/CI |
 | `/branches` | PR-less and stale branches |
 | `/actions` | action version matrix + mutable-ref flags |

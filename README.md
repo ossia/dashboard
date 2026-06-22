@@ -37,6 +37,7 @@ Useful environment variables for `npm run collect`:
 |---|---|
 | `config/repos.yaml` | which repositories are tracked |
 | `config/watch.yaml` | watched file pins (Dockerfile.llvm, fetch-sdk.sh, …), image→EOL product map, matrix coverage, repology projects |
+| `config/dependencies.yaml` | non-submodule dependency sources: version files (versions.sh), CMake-scan repos, vcpkg manifests |
 | `config/thresholds.yaml` | severity thresholds |
 | `config/ignore.yaml` | silenced findings (each needs a `reason:`) |
 

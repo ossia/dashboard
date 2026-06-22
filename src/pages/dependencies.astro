@@ -1,0 +1,106 @@
+---
+import Layout from "../components/Layout.astro";
+import Sev from "../components/Sev.astro";
+import { snapshot, fmtDate, sevRank } from "../lib/snapshot.ts";
+
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+const deps = snapshot.dependencies;
+const rows = [...deps].sort(
+  (a, b) =>
+    sevRank[b.severity] - sevRank[a.severity] ||
+    Number(b.revived) - Number(a.revived) ||
+    a.source.localeCompare(b.source) ||
+    a.name.localeCompare(b.name),
+);
+const revived = rows.filter((d) => d.revived);
+const floating = rows.filter((d) => d.tracksBranch);
+const upstreamUrl = (u: string) =>
+  u.startsWith("gitlab:") ? `https://gitlab.com/${u.slice(7)}` : `https://github.com/${u}`;
+
+const sources = [...new Set(deps.map((d) => d.source))].sort();
+const countBy = (s: string) => deps.filter((d) => d.source === s).length;
+const sourceLabel: Record<string, string> = {
+  "deps.yaml": "deps.yaml registry",
+  "versions.sh": "version files (versions.sh)",
+  "cmake-fetchcontent": "CMake FetchContent",
+  "cmake-externalproject": "CMake ExternalProject",
+  "cmake-url": "CMake release URLs",
+  vcpkg: "vcpkg ports",
+};
+---
+
+<Layout title="dependencies" active="dependencies">
+  <h1>third-party dependencies</h1>
+  <p class="note">
+    Every pinned third-party dependency across the tracked repos, from all
+    manifest and build-file sources: {sources.map((s, i) => (
+      <>{i > 0 && ", "}{countBy(s)} {sourceLabel[s] ?? s}</>
+    ))}. Git submodules are tracked with their freshness and on-branch checks on the
+    <a href={`${base}/submodules`}>submodules page</a> ({snapshot.submodules.length} pins).
+    <strong>revived</strong> = a dormant upstream has new commits (consider upstreaming
+    our patches); <strong>floating</strong> = pinned to a moving branch, not reproducible.
+  </p>
+
+  {revived.length > 0 && (
+    <>
+      <h2>upstreams that came back to life ({revived.length})</h2>
+      <ul class="attention">
+        {revived.map((d) => (
+          <li>
+            <Sev sev={d.severity} label="" />
+            <a class="mono" href={upstreamUrl(d.upstream)}>{d.upstream}</a>
+            <span class="msg">{d.notes.join("; ")}</span>
+          </li>
+        ))}
+      </ul>
+    </>
+  )}
+
+  {floating.length > 0 && (
+    <>
+      <h2>pinned to a moving branch ({floating.length})</h2>
+      <ul class="attention">
+        {floating.map((d) => (
+          <li>
+            <Sev sev={d.severity} label="" />
+            <span class="mono">{d.repo.split("/")[1]}</span>
+            <span>{d.name}</span>
+            <span class="mono">@{d.pinnedRef}</span>
+            <span class="msg">{d.location}</span>
+          </li>
+        ))}
+      </ul>
+    </>
+  )}
+
+  <h2>full inventory ({deps.length})</h2>
+  <input class="filter" data-table="t" placeholder="filter…" />
+  <table class="data" id="t">
+    <thead>
+      <tr>
+        <th>sev</th><th>source</th><th>repo</th><th>name</th><th>upstream</th>
+        <th>pinned</th><th>latest tag</th><th>tag date</th><th>notes</th>
+      </tr>
+    </thead>
+    <tbody>
+      {rows.map((d) => (
+        <tr>
+          <td data-k={sevRank[d.severity]}><Sev sev={d.severity} /></td>
+          <td class="mono">{d.source}</td>
+          <td class="mono">{d.repo.split("/")[1]}</td>
+          <td>{d.name}</td>
+          <td class="mono">
+            {d.upstream ? <a href={upstreamUrl(d.upstream)}>{d.upstream}</a> : "—"}
+          </td>
+          <td class="mono">
+            {d.pinnedVersion ?? (d.pinnedSha ? d.pinnedSha.slice(0, 9) : d.pinnedRef) ?? "—"}
+            {d.tracksBranch && <span class="sev-info"> (branch)</span>}
+          </td>
+          <td class="mono">{d.latestTag ?? "—"}</td>
+          <td data-k={d.latestTagDate ?? ""}>{fmtDate(d.latestTagDate)}</td>
+          <td class="msg">{d.notes.join("; ")}</td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+</Layout>

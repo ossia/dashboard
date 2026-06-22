@@ -1,0 +1,47 @@
+# Sources for the unified third-party dependency inventory, beyond the git
+# submodules (which have their own page) and score/3rdparty/deps.yaml (read
+# automatically from every repo with a `depsRegistry` in repos.yaml).
+
+# --- version-variable files -------------------------------------------
+# Shell-style `export NAME=value` pins (e.g. ossia/sdk common/versions.sh).
+# Each variable is mapped to its upstream repo and the prefix that repo puts
+# in front of the numeric version in its git tags, so the pinned value can be
+# compared to the latest release. `prefix` omitted => tags are bare versions.
+versionFiles:
+  - repo: ossia/sdk
+    file: common/versions.sh
+    vars:
+      SDL_VERSION: { upstream: libsdl-org/SDL, prefix: "release-" }
+      FFMPEG_VERSION: { upstream: FFmpeg/FFmpeg, prefix: "n" }
+      FFTW_VERSION: { upstream: FFTW/fftw3, prefix: "fftw-" }
+      LLVM_MINGW_VERSION: { upstream: mstorsjo/llvm-mingw }
+      LLVM_VERSION: { upstream: llvm/llvm-project, prefix: "llvmorg-" }
+      OPENSSL_VERSION: { upstream: openssl/openssl, prefix: "openssl-" }
+      QT_VERSION: { upstream: qt/qtbase, prefix: "v" }
+      CMAKE_VERSION: { upstream: Kitware/CMake, prefix: "v" }
+      PYTHON_VERSION: { upstream: python/cpython, prefix: "v" }
+      MESON_VERSION: { upstream: mesonbuild/meson }
+      # PipeWire lives on gitlab.freedesktop.org, which the git layer doesn't
+      # address (only github.com + gitlab.com); the gitlab.com mirror is stale,
+      # so leave PIPEWIRE_VERSION untracked rather than report a wrong "latest".
+
+# --- CMake build-file scan --------------------------------------------
+# Walk *.cmake / CMakeLists.txt of these repos for FetchContent_Declare,
+# ExternalProject_Add and release-URL pins. GIT_REPOSITORY resolves the
+# upstream; GIT_TAG is classified as a version tag, a commit SHA, or a
+# floating branch (master/main — flagged: not reproducible).
+cmakeScan:
+  repos:
+    - ossia/score
+    - ossia/libossia
+    - celtera/avendish
+    - celtera/libremidi
+    - sat-mtl/carto-tcp-avendish
+
+# --- vcpkg manifests ---------------------------------------------------
+# vcpkg.json `dependencies` are inventoried (port names + any version
+# overrides). Ports resolve to a registry baseline, not a git tag, so these
+# are listed for completeness rather than version-compared.
+vcpkg:
+  repos:
+    - sat-mtl/carto-tcp-avendish
