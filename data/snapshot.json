@@ -1,41 +1,39 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-06-22T20:16:18.408Z",
+ "generatedAt": "2026-06-22T23:44:07.738Z",
  "sections": {
   "repos": {
    "source": "live",
-   "collectedAt": "2026-06-22T20:16:08.924Z"
+   "collectedAt": "2026-06-22T23:43:07.621Z"
   },
   "submodules": {
    "source": "live",
-   "collectedAt": "2026-06-22T20:16:16.578Z"
+   "collectedAt": "2026-06-22T23:43:30.517Z"
   },
   "dependencies": {
    "source": "live",
-   "collectedAt": "2026-06-22T20:16:16.234Z"
+   "collectedAt": "2026-06-22T23:44:00.314Z"
   },
   "prs": {
    "source": "fixture",
-   "collectedAt": "2026-06-22T20:16:08.930Z",
-   "error": "no GITHUB_TOKEN"
+   "collectedAt": "2026-06-22T23:43:16.877Z",
+   "error": "graphql sat-mtl/skills: Could not resolve to a Repository with the name 'sat-mtl/skills'."
   },
   "branches": {
    "source": "live",
-   "collectedAt": "2026-06-22T20:16:18.408Z"
+   "collectedAt": "2026-06-22T23:44:07.738Z"
   },
   "actions": {
    "source": "live",
-   "collectedAt": "2026-06-22T20:16:10.672Z"
+   "collectedAt": "2026-06-22T23:43:14.452Z"
   },
   "environments": {
-   "source": "fixture",
-   "collectedAt": "2026-06-22T20:16:12.522Z",
-   "error": "endoflife.date unreachable; cycle data from committed fixture"
+   "source": "live",
+   "collectedAt": "2026-06-22T23:43:15.115Z"
   },
   "packaging": {
-   "source": "unavailable",
-   "collectedAt": "2026-06-22T20:16:10.051Z",
-   "error": "HTTP 403"
+   "source": "live",
+   "collectedAt": "2026-06-22T23:43:13.456Z"
   }
  },
  "repos": [
@@ -46,9 +44,9 @@
    "headDate": "2026-06-22T03:24:17-04:00",
    "counts": {
     "submodules": {
-     "warn": 18,
+     "warn": 16,
      "crit": 5,
-     "info": 1
+     "info": 3
     },
     "dependencies": {
      "warn": 2,
@@ -63,7 +61,7 @@
     "branches": {
      "warn": 36,
      "crit": 0,
-     "info": 18
+     "info": 20
     },
     "actions": {
      "warn": 4,
@@ -71,8 +69,8 @@
      "info": 2
     },
     "environments": {
-     "warn": 0,
-     "crit": 2,
+     "warn": 1,
+     "crit": 1,
      "info": 4
     }
    }
@@ -84,9 +82,9 @@
    "headDate": "2026-06-22T08:11:37+01:00",
    "counts": {
     "submodules": {
-     "warn": 18,
+     "warn": 17,
      "crit": 9,
-     "info": 3
+     "info": 4
     },
     "prs": {
      "warn": 4,
@@ -173,17 +171,17 @@
      "info": 1
     },
     "actions": {
-     "warn": 2,
+     "warn": 7,
      "crit": 0,
-     "info": 9
+     "info": 20
     }
    }
   },
   {
    "slug": "ossia/dashboard",
    "defaultBranch": "main",
-   "headSha": "c87e089d14ec2f8894ccd6b42f9942d2707bb83e",
-   "headDate": null,
+   "headSha": "39533f598bdb19fda08d9bb1da97d7653a7fc7c6",
+   "headDate": "2026-06-22T20:16:18Z",
    "counts": {
     "actions": {
      "warn": 2,
@@ -194,28 +192,17 @@
   },
   {
    "slug": "sat-mtl/skills",
-   "defaultBranch": "main",
-   "headSha": "de2cfef8e2df78addba5925cab0c9aac7fdde234",
+   "defaultBranch": "?",
+   "headSha": "",
    "headDate": null,
    "counts": {}
   },
   {
    "slug": "sat-mtl/carto-tcp-avendish",
-   "defaultBranch": "main",
-   "headSha": "4f629f1812565c6171029bc20d4191be8f05ddce",
+   "defaultBranch": "?",
+   "headSha": "",
    "headDate": null,
-   "counts": {
-    "dependencies": {
-     "warn": 1,
-     "crit": 0,
-     "info": 0
-    },
-    "actions": {
-     "warn": 3,
-     "crit": 0,
-     "info": 0
-    }
-   }
+   "counts": {}
   }
  ],
  "submodules": [
@@ -271,7 +258,7 @@
     "master"
    ],
    "behindCount": 2,
-   "behindDays": 728.852164351852,
+   "behindDays": 728.8521643518516,
    "targetHeadSha": "eccc6459a9d5e2a947a05b3489d4cee863579276",
    "targetHeadDate": "2019-01-03T09:43:55-05:00",
    "severity": "crit",
@@ -410,7 +397,7 @@
     "master"
    ],
    "behindCount": 3,
-   "behindDays": 641.0784143518517,
+   "behindDays": 641.0784143518518,
    "targetHeadSha": "3d2e82f8e6bff59c1d8b7a27491a29c2286b5206",
    "targetHeadDate": "2025-10-20T18:55:01+02:00",
    "severity": "crit",
@@ -444,25 +431,24 @@
    "path": "3rdparty/libossia",
    "url": "https://github.com/ossia/libossia",
    "targetRepo": "ossia/libossia",
-   "pinnedSha": "f222c236177c9507b2e8ecb5ef8adb219fd584fa",
-   "pinnedDate": "2026-06-08T00:14:53-04:00",
+   "pinnedSha": "476e6e50d2ac11298b9ea2f6e4d9372973a52db0",
+   "pinnedDate": "2026-06-20T09:19:09+01:00",
    "targetDefaultBranch": "master",
-   "onDefaultBranch": false,
+   "onDefaultBranch": true,
    "containingBranches": [
-    "claude/fmt-12.2-compat",
-    "claude/gfx-scene-deps",
-    "claude/upbeat-brahmagupta-xhgc2a",
     "feature/remove-websocketpp",
-    "feature/vendoring-cmake-variables"
+    "feature/vendoring-cmake-variables",
+    "fix-abseil-time-h-shadow",
+    "master",
+    "vendoring-fixes"
    ],
-   "behindCount": 12,
-   "behindDays": 14.122731481481482,
+   "behindCount": 7,
+   "behindDays": 1.9531018518518517,
    "targetHeadSha": "50286cb65d5421fb5737ee9a1c68a323d5e8e146",
    "targetHeadDate": "2026-06-22T08:11:37+01:00",
-   "severity": "warn",
+   "severity": "info",
    "notes": [
-    "pin not on 'master' (on: claude/fmt-12.2-compat, claude/gfx-scene-deps, claude/upbeat-brahmagupta-xhgc2a, feature/remove-websocketpp, feature/vendoring-cmake-variables)",
-    "12 commits / 14 days behind ossia/libossia@master"
+    "7 commits / 2 days behind ossia/libossia@master"
    ]
   },
   {
@@ -563,7 +549,7 @@
     "master"
    ],
    "behindCount": 19,
-   "behindDays": 520.118912037037,
+   "behindDays": 520.1189120370371,
    "targetHeadSha": "43d2fe1b133cc9ded823fde6bd10560721a36e98",
    "targetHeadDate": "2024-03-20T12:15:56-04:00",
    "severity": "crit",
@@ -616,25 +602,24 @@
    "path": "3rdparty/avendish",
    "url": "https://github.com/celtera/avendish",
    "targetRepo": "celtera/avendish",
-   "pinnedSha": "1e6c1a16975aefbf9f1e78495e55f31943b032a0",
-   "pinnedDate": "2026-06-10T19:24:32+09:00",
+   "pinnedSha": "7eafe1735a2c6c20891ead7404333884a6e15971",
+   "pinnedDate": "2026-06-18T02:46:25+01:00",
    "targetDefaultBranch": "main",
-   "onDefaultBranch": false,
+   "onDefaultBranch": true,
    "containingBranches": [
-    "addon-cmake-score-ci",
     "addon-standalone-base-target",
-    "avendishconfig-score-bootstrap",
-    "avnd-addon-ci-support",
-    "claude/touchdesigner-memory-leak-dj85i2"
+    "feature/cpp26-reflection",
+    "feature/halp-module",
+    "fix-max-jitter-raw-data-cast",
+    "main"
    ],
-   "behindCount": 35,
-   "behindDays": 12.39329861111111,
+   "behindCount": 15,
+   "behindDays": 4.753101851851852,
    "targetHeadSha": "fa0b8836b46723a15d89e06426f225f2431574db",
    "targetHeadDate": "2026-06-22T20:50:53+01:00",
-   "severity": "warn",
+   "severity": "info",
    "notes": [
-    "pin not on 'main' (on: addon-cmake-score-ci, addon-standalone-base-target, avendishconfig-score-bootstrap, avnd-addon-ci-support, claude/touchdesigner-memory-leak-dj85i2)",
-    "35 commits / 12 days behind celtera/avendish@main"
+    "15 commits / 5 days behind celtera/avendish@main"
    ]
   },
   {
@@ -691,7 +676,7 @@
     "master"
    ],
    "behindCount": 2,
-   "behindDays": 11.861469907407407,
+   "behindDays": 11.861469907407404,
    "targetHeadSha": "32f203695dea0073722699890d8f3faca58ff9bb",
    "targetHeadDate": "2026-06-02T19:17:51+01:00",
    "severity": "info",
@@ -724,7 +709,7 @@
    "url": "https://github.com/LancePutnam/Gamma",
    "targetRepo": "LancePutnam/Gamma",
    "pinnedSha": "65f98a3bfcc476e8434f94ea712c67d0f589321d",
-   "pinnedDate": "2025-11-29T20:00:24+00:00",
+   "pinnedDate": "2025-11-29T20:00:24Z",
    "targetDefaultBranch": "master",
    "onDefaultBranch": true,
    "containingBranches": [
@@ -810,7 +795,7 @@
    "url": "https://github.com/microsoft/snmalloc/",
    "targetRepo": "microsoft/snmalloc",
    "pinnedSha": "229c6d04fea5b6b0757be99a2b6394e3aea5d562",
-   "pinnedDate": "2025-01-16T10:31:31+00:00",
+   "pinnedDate": "2025-01-16T10:31:31Z",
    "targetDefaultBranch": "main",
    "onDefaultBranch": false,
    "containingBranches": [
@@ -821,7 +806,7 @@
     "dll_unloading"
    ],
    "behindCount": 253,
-   "behindDays": 517.0140624999999,
+   "behindDays": 517.0140625,
    "targetHeadSha": "526c55bdffa17aae20a9a3d24fe68a7a3b8d9894",
    "targetHeadDate": "2026-06-17T04:51:46-06:00",
    "severity": "crit",
@@ -863,7 +848,7 @@
     "main"
    ],
    "behindCount": 1,
-   "behindDays": 292.84749999999997,
+   "behindDays": 292.8475,
    "targetHeadSha": "515f55df910369390428e1411205f7e669f15bd3",
    "targetHeadDate": "2026-05-10T11:10:56+02:00",
    "severity": "warn",
@@ -884,7 +869,7 @@
     "5.0"
    ],
    "behindCount": 605,
-   "behindDays": 225.82725694444446,
+   "behindDays": 225.82725694444443,
    "targetHeadSha": "bf7d62172f53c40e01090cdb71348457f6663a55",
    "targetHeadDate": "2026-06-22T09:36:11-07:00",
    "severity": "warn",
@@ -923,7 +908,7 @@
    "onDefaultBranch": false,
    "containingBranches": [],
    "behindCount": 2,
-   "behindDays": 52.40299768518517,
+   "behindDays": 52.4029976851852,
    "targetHeadSha": "3100c21f864aacbeece57a3bd93af340074f34cb",
    "targetHeadDate": "2026-04-07T20:20:53-04:00",
    "severity": "warn",
@@ -981,7 +966,7 @@
    "url": "https://github.com/xtensor-stack/xsimd",
    "targetRepo": "xtensor-stack/xsimd",
    "pinnedSha": "6842624fc8adafd7168a999e7150b384411da448",
-   "pinnedDate": "2026-02-03T22:11:32+00:00",
+   "pinnedDate": "2026-02-03T22:11:32Z",
    "targetDefaultBranch": "master",
    "onDefaultBranch": false,
    "containingBranches": [
@@ -994,7 +979,7 @@
    "behindCount": 154,
    "behindDays": 127.97862268518519,
    "targetHeadSha": "5d2490f515cf773f984da9ec0a1aec103d00d238",
-   "targetHeadDate": "2026-06-11T21:40:45+00:00",
+   "targetHeadDate": "2026-06-11T21:40:45Z",
    "severity": "warn",
    "notes": [
     "pin not on 'master' (on: arm-sve-ci, ci/clang-format, fix/fast-math-to-float-avx2, fix/simplify-github-actions, fix/uninitialized-error)",
@@ -1121,45 +1106,40 @@
    "path": "3rdparty/spdlog",
    "url": "https://github.com/gabime/spdlog",
    "targetRepo": "gabime/spdlog",
-   "pinnedSha": "f1d748e5e3edfa4b1778edea003bac94781bc7b7",
-   "pinnedDate": "2025-08-07T23:47:11+03:00",
+   "pinnedSha": "f544fce006850a58063277068948dcda5681a27c",
+   "pinnedDate": "2026-06-13T19:38:05+03:00",
    "targetDefaultBranch": "v1.x",
    "onDefaultBranch": true,
    "containingBranches": [
-    "copilot/fix-code-review-suggestion",
-    "copilot/fix-github-actions-job-failure",
-    "copilot/understand-repo-structure",
     "v1.x"
    ],
-   "behindCount": 53,
-   "behindDays": 309.8270138888889,
+   "behindCount": 0,
+   "behindDays": 0,
    "targetHeadSha": "f544fce006850a58063277068948dcda5681a27c",
    "targetHeadDate": "2026-06-13T19:38:05+03:00",
-   "severity": "warn",
-   "notes": [
-    "53 commits / 10 months behind gabime/spdlog@v1.x"
-   ]
+   "severity": "ok",
+   "notes": []
   },
   {
    "parentRepo": "ossia/libossia",
    "path": "3rdparty/fmt",
    "url": "https://github.com/fmtlib/fmt",
    "targetRepo": "fmtlib/fmt",
-   "pinnedSha": "e424e3f2e607da02742f73db84873b8084fc714c",
-   "pinnedDate": "2025-09-17T09:45:35-07:00",
+   "pinnedSha": "1be298e1bd68957e4cd352e1f676f00e07dcfb57",
+   "pinnedDate": "2026-06-16T07:05:35+02:00",
    "targetDefaultBranch": "main",
    "onDefaultBranch": true,
    "containingBranches": [
     "main",
     "pipe"
    ],
-   "behindCount": 280,
-   "behindDays": 273.5879282407407,
+   "behindCount": 3,
+   "behindDays": 2.0740393518518516,
    "targetHeadSha": "588b3a0f8f6a8bcf2a959cae882d5b2703e86737",
    "targetHeadDate": "2026-06-17T23:52:12-07:00",
-   "severity": "warn",
+   "severity": "info",
    "notes": [
-    "280 commits / 9 months behind fmtlib/fmt@main"
+    "3 commits / 2 days behind fmtlib/fmt@main"
    ]
   },
   {
@@ -1273,14 +1253,14 @@
    "url": "https://github.com/ArashPartow/exprtk",
    "targetRepo": "ArashPartow/exprtk",
    "pinnedSha": "dd7b1ff4ad66572e09078a49eaf5bfec5adeaedb",
-   "pinnedDate": "2024-01-01T00:00:00+00:00",
+   "pinnedDate": "2024-01-01T00:00:00Z",
    "targetDefaultBranch": "master",
    "onDefaultBranch": false,
    "containingBranches": [],
    "behindCount": 2,
    "behindDays": 366,
    "targetHeadSha": "66883f0ddb034371ef38f2799f772c05bc904571",
-   "targetHeadDate": "2025-01-01T00:00:00+00:00",
+   "targetHeadDate": "2025-01-01T00:00:00Z",
    "severity": "crit",
    "notes": [
     "pin not reachable from any branch of ArashPartow/exprtk",
@@ -1394,7 +1374,7 @@
    "url": "https://github.com/jcelerier/libremidi",
    "targetRepo": "jcelerier/libremidi",
    "pinnedSha": "cccc943045dc4326395584cd4bc416a622de4b1a",
-   "pinnedDate": "2026-06-01T23:09:59+00:00",
+   "pinnedDate": "2026-06-01T23:09:59Z",
    "targetDefaultBranch": "master",
    "onDefaultBranch": true,
    "containingBranches": [
@@ -1636,7 +1616,7 @@
     "stable"
    ],
    "behindCount": 19,
-   "behindDays": 68.01341435185184,
+   "behindDays": 68.01341435185186,
    "targetHeadSha": "80fc772eb812b45097c28fc0a46d8ff006138d69",
    "targetHeadDate": "2026-02-23T13:18:12-07:00",
    "severity": "warn",
@@ -1674,7 +1654,7 @@
    "onDefaultBranch": false,
    "containingBranches": [],
    "behindCount": 2,
-   "behindDays": 17.317685185185155,
+   "behindDays": 17.317685185185383,
    "targetHeadSha": "2c5ea419d289398ee65aa30991d684c5466ed706",
    "targetHeadDate": "2022-01-29T19:31:38+01:00",
    "severity": "warn",
@@ -1749,20 +1729,20 @@
    "path": "3rdparty/re2",
    "url": "https://github.com/google/re2",
    "targetRepo": "google/re2",
-   "pinnedSha": "c9cba76063cf4235c1a15dd14a24a4ef8d623761",
-   "pinnedDate": "2023-05-01T14:52:25+00:00",
+   "pinnedSha": "927f5d53caf8111721e734cf24724686bb745f55",
+   "pinnedDate": "2025-11-05T09:38:27-05:00",
    "targetDefaultBranch": "main",
    "onDefaultBranch": true,
    "containingBranches": [
     "main"
    ],
-   "behindCount": 213,
-   "behindDays": 997.3578935185185,
+   "behindCount": 3,
+   "behindDays": 78.36759259259259,
    "targetHeadSha": "972a15cedd008d846f1a39b2e88ce48d7f166cbd",
    "targetHeadDate": "2026-01-22T18:27:47-05:00",
-   "severity": "crit",
+   "severity": "warn",
    "notes": [
-    "213 commits / 2.7 years behind google/re2@main"
+    "3 commits / 3 months behind google/re2@main"
    ]
   },
   {
@@ -1819,7 +1799,7 @@
     "master"
    ],
    "behindCount": 40,
-   "behindDays": 470.6837384259259,
+   "behindDays": 470.683738425926,
    "targetHeadSha": "36462bbc2f6637cc19567c3382d659286454d773",
    "targetHeadDate": "2026-04-01T10:40:43+02:00",
    "severity": "crit",
@@ -1884,7 +1864,7 @@
     "develop"
    ],
    "behindCount": 246,
-   "behindDays": 360.9342708333333,
+   "behindDays": 360.93427083333336,
    "targetHeadSha": "2e995218f356d63070afee0517f3c89dd44a944e",
    "targetHeadDate": "2026-06-22T13:48:44+01:00",
    "severity": "warn",
@@ -1925,12 +1905,34 @@
     "v4"
    ],
    "behindCount": 1,
-   "behindDays": 104.92405092592591,
+   "behindDays": 104.92405092592593,
    "targetHeadSha": "5c62c4b3352c7d4c87ed3429d2329ddaf9b74df9",
    "targetHeadDate": "2026-06-02T11:22:51-04:00",
    "severity": "warn",
    "notes": [
     "1 commits / 3 months behind Nicoshev/rapidhash@master"
+   ]
+  },
+  {
+   "parentRepo": "ossia/libossia",
+   "path": "3rdparty/abseil-cpp",
+   "url": "https://github.com/abseil/abseil-cpp",
+   "targetRepo": "abseil/abseil-cpp",
+   "pinnedSha": "76bb24329e8bf5f39704eb10d21b9a80befa7c81",
+   "pinnedDate": "2025-06-17T10:48:08-04:00",
+   "targetDefaultBranch": "master",
+   "onDefaultBranch": false,
+   "containingBranches": [
+    "lts_2025_05_12"
+   ],
+   "behindCount": 643,
+   "behindDays": 370.18391203703703,
+   "targetHeadSha": "41253e45ef6cc814ffe297db03a388379007f3cf",
+   "targetHeadDate": "2026-06-22T12:12:58-07:00",
+   "severity": "crit",
+   "notes": [
+    "pin not on 'master' (on: lts_2025_05_12)",
+    "643 commits / 12 months behind abseil/abseil-cpp@master"
    ]
   }
  ],
@@ -2115,9 +2117,9 @@
    "pinnedRef": "1.2.2",
    "tracksBranch": false,
    "latestTag": "1.2.2",
-   "latestTagDate": "2025-03-26T15:19:22+00:00",
+   "latestTagDate": "2025-03-26T15:19:22Z",
    "upstreamHeadSha": "27ab5f7f518430a021239bc26a5b2fd64affbc7b",
-   "upstreamHeadDate": "2026-05-09T18:58:29+00:00",
+   "upstreamHeadDate": "2026-05-09T18:58:29Z",
    "outdated": false,
    "revived": false,
    "severity": "ok",
@@ -2175,7 +2177,7 @@
    "pinnedRef": "5",
    "tracksBranch": false,
    "latestTag": "5",
-   "latestTagDate": "2019-03-02T21:41:20+00:00",
+   "latestTagDate": "2019-03-02T21:41:20Z",
    "upstreamHeadSha": "71351d4b484cd2d1917867f7846a5cdca724552d",
    "upstreamHeadDate": "2025-10-06T10:51:49-04:00",
    "outdated": false,
@@ -2217,7 +2219,7 @@
    "latestTag": "v1.2.1",
    "latestTagDate": "2021-08-12T12:18:20+01:00",
    "upstreamHeadSha": "0beea433e2130473d934f5d46a138a0a148d84db",
-   "upstreamHeadDate": "2023-02-18T04:42:58+00:00",
+   "upstreamHeadDate": "2023-02-18T04:42:58Z",
    "outdated": false,
    "revived": false,
    "severity": "ok",
@@ -2377,7 +2379,7 @@
    "pinnedRef": "v2.2.15",
    "tracksBranch": false,
    "latestTag": "v2.2.15",
-   "latestTagDate": "2026-01-18T21:58:45+00:00",
+   "latestTagDate": "2026-01-18T21:58:45Z",
    "upstreamHeadSha": "32f203695dea0073722699890d8f3faca58ff9bb",
    "upstreamHeadDate": "2026-06-02T19:17:51+01:00",
    "outdated": false,
@@ -2628,7 +2630,7 @@
    "latestTag": "14.2.0",
    "latestTagDate": "2026-04-29T11:42:17+02:00",
    "upstreamHeadSha": "5d2490f515cf773f984da9ec0a1aec103d00d238",
-   "upstreamHeadDate": "2026-06-11T21:40:45+00:00",
+   "upstreamHeadDate": "2026-06-11T21:40:45Z",
    "outdated": false,
    "revived": false,
    "severity": "ok",
@@ -2982,7 +2984,7 @@
    "latestTag": null,
    "latestTagDate": null,
    "upstreamHeadSha": "10392376a3ffa8b421f1cbfbc9240bab624ff875",
-   "upstreamHeadDate": "2014-09-13T23:10:49+00:00",
+   "upstreamHeadDate": "2014-09-13T23:10:49Z",
    "outdated": false,
    "revived": false,
    "severity": "ok",
@@ -3102,7 +3104,7 @@
    "latestTag": null,
    "latestTagDate": null,
    "upstreamHeadSha": "04d6a1d2cdda6e17c1658cce304ed0f4a2bab9b4",
-   "upstreamHeadDate": "2018-01-04T14:18:41+00:00",
+   "upstreamHeadDate": "2018-01-04T14:18:41Z",
    "outdated": false,
    "revived": false,
    "severity": "ok",
@@ -3182,7 +3184,7 @@
    "latestTag": "v4.0.0",
    "latestTagDate": "2024-10-25T17:26:08+01:00",
    "upstreamHeadSha": "e4296ac80b1170018a110bc326fd0d45a0eb27d6",
-   "upstreamHeadDate": "2025-02-27T11:04:40+00:00",
+   "upstreamHeadDate": "2025-02-27T11:04:40Z",
    "outdated": false,
    "revived": false,
    "severity": "ok",
@@ -3442,9 +3444,9 @@
    "pinnedRef": "0.0.3",
    "tracksBranch": false,
    "latestTag": "0.0.3",
-   "latestTagDate": "2024-01-01T00:00:00+00:00",
+   "latestTagDate": "2024-01-01T00:00:00Z",
    "upstreamHeadSha": "66883f0ddb034371ef38f2799f772c05bc904571",
-   "upstreamHeadDate": "2025-01-01T00:00:00+00:00",
+   "upstreamHeadDate": "2025-01-01T00:00:00Z",
    "outdated": false,
    "revived": false,
    "severity": "ok",
@@ -3806,7 +3808,7 @@
    "latestTag": "v1.4.0",
    "latestTagDate": "2018-05-14T14:30:34+01:00",
    "upstreamHeadSha": "a134b1f818252107b987c1263a5dd04e4dc68bb3",
-   "upstreamHeadDate": "2025-03-21T12:04:33+00:00",
+   "upstreamHeadDate": "2025-03-21T12:04:33Z",
    "outdated": false,
    "revived": false,
    "severity": "ok",
@@ -3867,8 +3869,8 @@
    "tracksBranch": false,
    "latestTag": "release-3.4.10",
    "latestTagDate": "2026-05-31T10:38:41-07:00",
-   "upstreamHeadSha": "0bb539314d17209eaa4e06029a89345899bcdd84",
-   "upstreamHeadDate": "2026-06-22T03:32:20+00:00",
+   "upstreamHeadSha": "07ecc125cf34cc0f1787c13c50176b0730aecbc5",
+   "upstreamHeadDate": "2026-06-22T17:01:54-05:00",
    "outdated": true,
    "revived": false,
    "severity": "warn",
@@ -3889,8 +3891,8 @@
    "tracksBranch": false,
    "latestTag": "n8.1.2",
    "latestTagDate": "2026-06-17T04:33:35+02:00",
-   "upstreamHeadSha": "efa8b209874d5801e474f1ee834f86a7bcce27c4",
-   "upstreamHeadDate": "2026-06-22T16:18:59+00:00",
+   "upstreamHeadSha": "e999ea73bcb09eaec2f894039df26519bb9c5ab9",
+   "upstreamHeadDate": "2026-06-22T21:02:17Z",
    "outdated": true,
    "revived": false,
    "severity": "info",
@@ -3950,9 +3952,9 @@
    "pinnedRef": "llvmorg-22.1.8",
    "tracksBranch": false,
    "latestTag": "llvmorg-22.1.8",
-   "latestTagDate": "2026-06-15T22:33:53+00:00",
-   "upstreamHeadSha": "871990a01ea72cb2090e73e52b0e66605a770f34",
-   "upstreamHeadDate": "2026-06-22T22:07:49+02:00",
+   "latestTagDate": "2026-06-15T22:33:53Z",
+   "upstreamHeadSha": "a7263bea29efd710a1207afe5641fad54692284d",
+   "upstreamHeadDate": "2026-06-22T16:19:23-07:00",
    "outdated": false,
    "revived": false,
    "severity": "ok",
@@ -3970,7 +3972,7 @@
    "pinnedRef": "3.5.7",
    "tracksBranch": false,
    "latestTag": "openssl-4.0.1",
-   "latestTagDate": "2026-06-09T11:36:41+00:00",
+   "latestTagDate": "2026-06-09T11:36:41Z",
    "upstreamHeadSha": "bf41baa2bf3215625d44f7c0dc438ab1b2e3a3d0",
    "upstreamHeadDate": "2026-06-22T13:54:39+02:00",
    "outdated": true,
@@ -3992,9 +3994,9 @@
    "pinnedRef": "v6.12.0-beta1",
    "tracksBranch": false,
    "latestTag": "v6.11.1",
-   "latestTagDate": "2026-05-07T15:36:32+00:00",
-   "upstreamHeadSha": "87ac8a47c7491d76193d320cd33da24c841e369d",
-   "upstreamHeadDate": "2026-06-22T19:16:02+00:00",
+   "latestTagDate": "2026-05-07T15:36:32Z",
+   "upstreamHeadSha": "6effa06e7590fff05cdce83651d9844f80bc2225",
+   "upstreamHeadDate": "2026-06-22T22:57:23Z",
    "outdated": false,
    "revived": false,
    "severity": "info",
@@ -4015,8 +4017,8 @@
    "tracksBranch": false,
    "latestTag": "v4.3.4",
    "latestTagDate": "2026-06-17T09:53:06-04:00",
-   "upstreamHeadSha": "71765609dc128bb68e7835de757eced2abfbd009",
-   "upstreamHeadDate": "2026-06-22T12:19:40-04:00",
+   "upstreamHeadSha": "066b9cf7a1dcfac91d7cf343b48992476441e5e5",
+   "upstreamHeadDate": "2026-06-22T18:21:02-04:00",
    "outdated": false,
    "revived": false,
    "severity": "ok",
@@ -4035,8 +4037,8 @@
    "tracksBranch": false,
    "latestTag": "v3.14.6",
    "latestTagDate": "2026-06-10T13:03:53+03:00",
-   "upstreamHeadSha": "1c5a11018ad605072b2efac67f3ca87b41b622c6",
-   "upstreamHeadDate": "2026-06-22T21:01:09+01:00",
+   "upstreamHeadSha": "b1c4bdaaf74ded2039b78d2376a033b491b252a5",
+   "upstreamHeadDate": "2026-06-22T20:21:08Z",
    "outdated": true,
    "revived": false,
    "severity": "info",
@@ -4154,6 +4156,26 @@
    "notes": [
     "pinned to moving branch 'master'"
    ]
+  },
+  {
+   "name": "yyjson",
+   "source": "cmake-fetchcontent",
+   "repo": "celtera/avendish",
+   "location": "cmake/avendish.dependencies.cmake",
+   "upstream": "ibireme/yyjson",
+   "kind": "upstream",
+   "pinnedVersion": "0.12.0",
+   "pinnedSha": null,
+   "pinnedRef": "0.12.0",
+   "tracksBranch": false,
+   "latestTag": "0.12.0",
+   "latestTagDate": "2025-08-19T02:44:14+08:00",
+   "upstreamHeadSha": "92ae1e2216548eb1dee78c09145a9a9bd067e9e9",
+   "upstreamHeadDate": "2026-06-20T00:42:04+08:00",
+   "outdated": false,
+   "revived": false,
+   "severity": "ok",
+   "notes": []
   },
   {
    "name": "pantor_inja",
@@ -4343,7 +4365,7 @@
    "latestTag": "boost-1.91.0-1",
    "latestTagDate": "2026-04-23T20:50:44+03:00",
    "upstreamHeadSha": "cdfc3df7627ed38154e3a6066603d4fa57de9505",
-   "upstreamHeadDate": "2026-06-21T16:09:06+00:00",
+   "upstreamHeadDate": "2026-06-21T16:09:06Z",
    "outdated": true,
    "revived": false,
    "severity": "info",
@@ -4394,227 +4416,6 @@
    "notes": [
     "pinned v3.4.0, upstream released v3.15.1"
    ]
-  },
-  {
-   "name": "avendish",
-   "source": "cmake-fetchcontent",
-   "repo": "sat-mtl/carto-tcp-avendish",
-   "location": "CMakeLists.txt",
-   "upstream": "celtera/avendish",
-   "kind": "fork",
-   "pinnedVersion": null,
-   "pinnedSha": "11a6ae1b404b24bfec0e2841751eee3bc21cb60d",
-   "pinnedRef": "11a6ae1b404b24bfec0e2841751eee3bc21cb60d",
-   "tracksBranch": false,
-   "latestTag": "v3.1",
-   "latestTagDate": "2023-10-01T00:29:17-04:00",
-   "upstreamHeadSha": "fa0b8836b46723a15d89e06426f225f2431574db",
-   "upstreamHeadDate": "2026-06-22T20:50:53+01:00",
-   "outdated": true,
-   "revived": true,
-   "severity": "warn",
-   "notes": [
-    "upstream HEAD moved 20 days past our pin",
-    "upstream active again (last commit 2026-06-22)"
-   ]
-  },
-  {
-   "name": "boost-container",
-   "source": "vcpkg",
-   "repo": "sat-mtl/carto-tcp-avendish",
-   "location": "vcpkg.json",
-   "upstream": "",
-   "kind": "manifest",
-   "pinnedVersion": null,
-   "pinnedSha": null,
-   "pinnedRef": null,
-   "tracksBranch": false,
-   "latestTag": null,
-   "latestTagDate": null,
-   "upstreamHeadSha": null,
-   "upstreamHeadDate": null,
-   "outdated": false,
-   "revived": false,
-   "severity": "ok",
-   "notes": [
-    "vcpkg port (registry baseline)"
-   ]
-  },
-  {
-   "name": "boost-core",
-   "source": "vcpkg",
-   "repo": "sat-mtl/carto-tcp-avendish",
-   "location": "vcpkg.json",
-   "upstream": "",
-   "kind": "manifest",
-   "pinnedVersion": null,
-   "pinnedSha": null,
-   "pinnedRef": null,
-   "tracksBranch": false,
-   "latestTag": null,
-   "latestTagDate": null,
-   "upstreamHeadSha": null,
-   "upstreamHeadDate": null,
-   "outdated": false,
-   "revived": false,
-   "severity": "ok",
-   "notes": [
-    "vcpkg port (registry baseline)"
-   ]
-  },
-  {
-   "name": "boost-lexical-cast",
-   "source": "vcpkg",
-   "repo": "sat-mtl/carto-tcp-avendish",
-   "location": "vcpkg.json",
-   "upstream": "",
-   "kind": "manifest",
-   "pinnedVersion": null,
-   "pinnedSha": null,
-   "pinnedRef": null,
-   "tracksBranch": false,
-   "latestTag": null,
-   "latestTagDate": null,
-   "upstreamHeadSha": null,
-   "upstreamHeadDate": null,
-   "outdated": false,
-   "revived": false,
-   "severity": "ok",
-   "notes": [
-    "vcpkg port (registry baseline)"
-   ]
-  },
-  {
-   "name": "boost-lockfree",
-   "source": "vcpkg",
-   "repo": "sat-mtl/carto-tcp-avendish",
-   "location": "vcpkg.json",
-   "upstream": "",
-   "kind": "manifest",
-   "pinnedVersion": null,
-   "pinnedSha": null,
-   "pinnedRef": null,
-   "tracksBranch": false,
-   "latestTag": null,
-   "latestTagDate": null,
-   "upstreamHeadSha": null,
-   "upstreamHeadDate": null,
-   "outdated": false,
-   "revived": false,
-   "severity": "ok",
-   "notes": [
-    "vcpkg port (registry baseline)"
-   ]
-  },
-  {
-   "name": "boost-mp11",
-   "source": "vcpkg",
-   "repo": "sat-mtl/carto-tcp-avendish",
-   "location": "vcpkg.json",
-   "upstream": "",
-   "kind": "manifest",
-   "pinnedVersion": null,
-   "pinnedSha": null,
-   "pinnedRef": null,
-   "tracksBranch": false,
-   "latestTag": null,
-   "latestTagDate": null,
-   "upstreamHeadSha": null,
-   "upstreamHeadDate": null,
-   "outdated": false,
-   "revived": false,
-   "severity": "ok",
-   "notes": [
-    "vcpkg port (registry baseline)"
-   ]
-  },
-  {
-   "name": "boost-pfr",
-   "source": "vcpkg",
-   "repo": "sat-mtl/carto-tcp-avendish",
-   "location": "vcpkg.json",
-   "upstream": "",
-   "kind": "manifest",
-   "pinnedVersion": null,
-   "pinnedSha": null,
-   "pinnedRef": null,
-   "tracksBranch": false,
-   "latestTag": null,
-   "latestTagDate": null,
-   "upstreamHeadSha": null,
-   "upstreamHeadDate": null,
-   "outdated": false,
-   "revived": false,
-   "severity": "ok",
-   "notes": [
-    "vcpkg port (registry baseline)"
-   ]
-  },
-  {
-   "name": "boost-smart-ptr",
-   "source": "vcpkg",
-   "repo": "sat-mtl/carto-tcp-avendish",
-   "location": "vcpkg.json",
-   "upstream": "",
-   "kind": "manifest",
-   "pinnedVersion": null,
-   "pinnedSha": null,
-   "pinnedRef": null,
-   "tracksBranch": false,
-   "latestTag": null,
-   "latestTagDate": null,
-   "upstreamHeadSha": null,
-   "upstreamHeadDate": null,
-   "outdated": false,
-   "revived": false,
-   "severity": "ok",
-   "notes": [
-    "vcpkg port (registry baseline)"
-   ]
-  },
-  {
-   "name": "boost-type-index",
-   "source": "vcpkg",
-   "repo": "sat-mtl/carto-tcp-avendish",
-   "location": "vcpkg.json",
-   "upstream": "",
-   "kind": "manifest",
-   "pinnedVersion": null,
-   "pinnedSha": null,
-   "pinnedRef": null,
-   "tracksBranch": false,
-   "latestTag": null,
-   "latestTagDate": null,
-   "upstreamHeadSha": null,
-   "upstreamHeadDate": null,
-   "outdated": false,
-   "revived": false,
-   "severity": "ok",
-   "notes": [
-    "vcpkg port (registry baseline)"
-   ]
-  },
-  {
-   "name": "boost-variant2",
-   "source": "vcpkg",
-   "repo": "sat-mtl/carto-tcp-avendish",
-   "location": "vcpkg.json",
-   "upstream": "",
-   "kind": "manifest",
-   "pinnedVersion": null,
-   "pinnedSha": null,
-   "pinnedRef": null,
-   "tracksBranch": false,
-   "latestTag": null,
-   "latestTagDate": null,
-   "upstreamHeadSha": null,
-   "upstreamHeadDate": null,
-   "outdated": false,
-   "revived": false,
-   "severity": "ok",
-   "notes": [
-    "vcpkg port (registry baseline)"
-   ]
   }
  ],
  "prs": [
@@ -4629,8 +4430,8 @@
    "draft": false,
    "createdAt": "2026-05-31T23:16:46Z",
    "updatedAt": "2026-06-06T16:35:17Z",
-   "ageDays": 21.9,
-   "idleDays": 16.2,
+   "ageDays": 22,
+   "idleDays": 16.3,
    "behindBase": 28,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -4647,8 +4448,8 @@
    "draft": false,
    "createdAt": "2026-05-21T19:59:34Z",
    "updatedAt": "2026-06-05T19:05:19Z",
-   "ageDays": 32,
-   "idleDays": 17,
+   "ageDays": 32.2,
+   "idleDays": 17.2,
    "behindBase": 43,
    "aheadOfBase": 7,
    "ciStatus": null,
@@ -4665,8 +4466,8 @@
    "draft": true,
    "createdAt": "2026-05-14T03:36:42Z",
    "updatedAt": "2026-06-11T00:12:35Z",
-   "ageDays": 39.7,
-   "idleDays": 11.8,
+   "ageDays": 39.8,
+   "idleDays": 12,
    "behindBase": 19,
    "aheadOfBase": 55,
    "ciStatus": null,
@@ -4683,8 +4484,8 @@
    "draft": false,
    "createdAt": "2026-04-21T08:17:30Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 62.5,
-   "idleDays": 24.7,
+   "ageDays": 62.6,
+   "idleDays": 24.9,
    "behindBase": 154,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -4701,8 +4502,8 @@
    "draft": false,
    "createdAt": "2026-04-20T03:05:16Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 63.7,
-   "idleDays": 24.7,
+   "ageDays": 63.9,
+   "idleDays": 24.9,
    "behindBase": 78,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -4719,8 +4520,8 @@
    "draft": false,
    "createdAt": "2026-04-02T12:57:29Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 81.3,
-   "idleDays": 24.7,
+   "ageDays": 81.4,
+   "idleDays": 24.9,
    "behindBase": 155,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -4737,8 +4538,8 @@
    "draft": false,
    "createdAt": "2026-03-07T01:30:39Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 107.8,
-   "idleDays": 24.7,
+   "ageDays": 107.9,
+   "idleDays": 24.9,
    "behindBase": 253,
    "aheadOfBase": 5,
    "ciStatus": null,
@@ -4755,8 +4556,8 @@
    "draft": false,
    "createdAt": "2026-03-01T23:03:06Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 112.9,
-   "idleDays": 24.7,
+   "ageDays": 113,
+   "idleDays": 24.9,
    "behindBase": 262,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -4773,8 +4574,8 @@
    "draft": false,
    "createdAt": "2026-02-28T01:26:20Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 114.8,
-   "idleDays": 24.7,
+   "ageDays": 114.9,
+   "idleDays": 24.9,
    "behindBase": 262,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -4791,8 +4592,8 @@
    "draft": false,
    "createdAt": "2026-02-23T05:46:50Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 119.6,
-   "idleDays": 24.7,
+   "ageDays": 119.7,
+   "idleDays": 24.9,
    "behindBase": 290,
    "aheadOfBase": 4,
    "ciStatus": null,
@@ -4809,8 +4610,8 @@
    "draft": false,
    "createdAt": "2026-02-14T19:53:19Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 128,
-   "idleDays": 24.7,
+   "ageDays": 128.2,
+   "idleDays": 24.9,
    "behindBase": 302,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -4827,8 +4628,8 @@
    "draft": false,
    "createdAt": "2026-01-28T00:56:46Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 145.8,
-   "idleDays": 24.7,
+   "ageDays": 145.9,
+   "idleDays": 24.9,
    "behindBase": 391,
    "aheadOfBase": 3,
    "ciStatus": null,
@@ -4845,8 +4646,8 @@
    "draft": false,
    "createdAt": "2026-01-25T21:05:19Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 148,
-   "idleDays": 24.7,
+   "ageDays": 148.1,
+   "idleDays": 24.9,
    "behindBase": 415,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -4863,8 +4664,8 @@
    "draft": false,
    "createdAt": "2026-01-21T06:07:25Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 152.6,
-   "idleDays": 24.7,
+   "ageDays": 152.7,
+   "idleDays": 24.9,
    "behindBase": 468,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -4881,8 +4682,8 @@
    "draft": false,
    "createdAt": "2026-01-21T06:05:56Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 152.6,
-   "idleDays": 24.7,
+   "ageDays": 152.7,
+   "idleDays": 24.9,
    "behindBase": 468,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -4899,8 +4700,8 @@
    "draft": false,
    "createdAt": "2026-01-11T03:43:42Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 162.7,
-   "idleDays": 24.7,
+   "ageDays": 162.8,
+   "idleDays": 24.9,
    "behindBase": 485,
    "aheadOfBase": 3,
    "ciStatus": null,
@@ -4917,8 +4718,8 @@
    "draft": false,
    "createdAt": "2025-11-01T02:39:20Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 233.7,
-   "idleDays": 24.7,
+   "ageDays": 233.9,
+   "idleDays": 24.9,
    "behindBase": 544,
    "aheadOfBase": 3,
    "ciStatus": null,
@@ -4935,8 +4736,8 @@
    "draft": false,
    "createdAt": "2025-07-13T19:01:19Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 344.1,
-   "idleDays": 24.7,
+   "ageDays": 344.2,
+   "idleDays": 24.9,
    "behindBase": 1081,
    "aheadOfBase": 2,
    "ciStatus": null,
@@ -4953,8 +4754,8 @@
    "draft": false,
    "createdAt": "2025-05-02T17:34:29Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 416.1,
-   "idleDays": 24.7,
+   "ageDays": 416.3,
+   "idleDays": 24.9,
    "behindBase": 1135,
    "aheadOfBase": 19,
    "ciStatus": null,
@@ -4971,8 +4772,8 @@
    "draft": false,
    "createdAt": "2025-04-21T20:15:12Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 427,
-   "idleDays": 24.7,
+   "ageDays": 427.1,
+   "idleDays": 24.9,
    "behindBase": 1171,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -4989,8 +4790,8 @@
    "draft": false,
    "createdAt": "2025-04-17T18:39:09Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 431.1,
-   "idleDays": 24.7,
+   "ageDays": 431.2,
+   "idleDays": 24.9,
    "behindBase": 1210,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -5007,8 +4808,8 @@
    "draft": false,
    "createdAt": "2025-04-04T04:12:09Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 444.7,
-   "idleDays": 24.7,
+   "ageDays": 444.8,
+   "idleDays": 24.9,
    "behindBase": 1290,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -5025,8 +4826,8 @@
    "draft": false,
    "createdAt": "2025-03-22T21:34:38Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 456.9,
-   "idleDays": 24.7,
+   "ageDays": 457.1,
+   "idleDays": 24.9,
    "behindBase": 1312,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -5043,8 +4844,8 @@
    "draft": false,
    "createdAt": "2025-02-06T17:47:49Z",
    "updatedAt": "2026-05-29T02:52:00Z",
-   "ageDays": 501.1,
-   "idleDays": 24.7,
+   "ageDays": 501.2,
+   "idleDays": 24.9,
    "behindBase": 544,
    "aheadOfBase": 4,
    "ciStatus": null,
@@ -5061,8 +4862,8 @@
    "draft": false,
    "createdAt": "2025-01-16T03:58:31Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 522.7,
-   "idleDays": 24.7,
+   "ageDays": 522.8,
+   "idleDays": 24.9,
    "behindBase": 971,
    "aheadOfBase": 6,
    "ciStatus": null,
@@ -5079,8 +4880,8 @@
    "draft": true,
    "createdAt": "2024-12-30T14:33:01Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 539.2,
-   "idleDays": 24.7,
+   "ageDays": 539.4,
+   "idleDays": 24.9,
    "behindBase": 971,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -5097,8 +4898,8 @@
    "draft": false,
    "createdAt": "2024-12-30T03:47:50Z",
    "updatedAt": "2026-06-02T23:37:44Z",
-   "ageDays": 539.7,
-   "idleDays": 19.9,
+   "ageDays": 539.8,
+   "idleDays": 20,
    "behindBase": 50,
    "aheadOfBase": 3,
    "ciStatus": null,
@@ -5115,8 +4916,8 @@
    "draft": false,
    "createdAt": "2024-12-24T22:59:38Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 544.9,
-   "idleDays": 24.7,
+   "ageDays": 545,
+   "idleDays": 24.9,
    "behindBase": 1533,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -5133,8 +4934,8 @@
    "draft": false,
    "createdAt": "2024-12-24T22:55:16Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 544.9,
-   "idleDays": 24.7,
+   "ageDays": 545,
+   "idleDays": 24.9,
    "behindBase": 1318,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -5151,8 +4952,8 @@
    "draft": false,
    "createdAt": "2024-12-24T19:04:13Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 545,
-   "idleDays": 24.7,
+   "ageDays": 545.2,
+   "idleDays": 24.9,
    "behindBase": 1533,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -5169,8 +4970,8 @@
    "draft": false,
    "createdAt": "2024-12-24T19:03:21Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 545.1,
-   "idleDays": 24.7,
+   "ageDays": 545.2,
+   "idleDays": 24.9,
    "behindBase": 1318,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -5187,8 +4988,8 @@
    "draft": false,
    "createdAt": "2024-12-01T17:48:05Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 568.1,
-   "idleDays": 24.7,
+   "ageDays": 568.2,
+   "idleDays": 24.9,
    "behindBase": 1533,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -5205,8 +5006,8 @@
    "draft": false,
    "createdAt": "2024-12-01T17:47:05Z",
    "updatedAt": "2026-05-29T02:52:00Z",
-   "ageDays": 568.1,
-   "idleDays": 24.7,
+   "ageDays": 568.2,
+   "idleDays": 24.9,
    "behindBase": 1318,
    "aheadOfBase": 3,
    "ciStatus": null,
@@ -5223,8 +5024,8 @@
    "draft": false,
    "createdAt": "2024-12-01T17:46:24Z",
    "updatedAt": "2026-05-29T02:52:00Z",
-   "ageDays": 568.1,
-   "idleDays": 24.7,
+   "ageDays": 568.2,
+   "idleDays": 24.9,
    "behindBase": 1318,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -5241,8 +5042,8 @@
    "draft": false,
    "createdAt": "2024-12-01T17:46:08Z",
    "updatedAt": "2026-05-29T02:52:00Z",
-   "ageDays": 568.1,
-   "idleDays": 24.7,
+   "ageDays": 568.2,
+   "idleDays": 24.9,
    "behindBase": 1533,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -5259,8 +5060,8 @@
    "draft": true,
    "createdAt": "2024-09-25T16:25:13Z",
    "updatedAt": "2026-05-29T02:52:00Z",
-   "ageDays": 635.2,
-   "idleDays": 24.7,
+   "ageDays": 635.3,
+   "idleDays": 24.9,
    "behindBase": 301,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -5277,8 +5078,8 @@
    "draft": false,
    "createdAt": "2023-02-14T12:39:55Z",
    "updatedAt": "2026-05-29T02:52:00Z",
-   "ageDays": 1224.3,
-   "idleDays": 24.7,
+   "ageDays": 1224.5,
+   "idleDays": 24.9,
    "behindBase": 2701,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -5295,8 +5096,8 @@
    "draft": false,
    "createdAt": "2022-05-10T15:30:38Z",
    "updatedAt": "2026-05-29T02:52:00Z",
-   "ageDays": 1504.2,
-   "idleDays": 24.7,
+   "ageDays": 1504.3,
+   "idleDays": 24.9,
    "behindBase": 3230,
    "aheadOfBase": 3,
    "ciStatus": null,
@@ -5313,8 +5114,8 @@
    "draft": false,
    "createdAt": "2021-08-19T08:02:14Z",
    "updatedAt": "2026-05-29T02:52:00Z",
-   "ageDays": 1768.5,
-   "idleDays": 24.7,
+   "ageDays": 1768.7,
+   "idleDays": 24.9,
    "behindBase": 3930,
    "aheadOfBase": 20,
    "ciStatus": null,
@@ -5331,8 +5132,8 @@
    "draft": false,
    "createdAt": "2021-08-18T12:22:47Z",
    "updatedAt": "2021-08-19T07:27:08Z",
-   "ageDays": 1769.3,
-   "idleDays": 1768.5,
+   "ageDays": 1769.5,
+   "idleDays": 1768.7,
    "behindBase": 0,
    "aheadOfBase": 9,
    "ciStatus": null,
@@ -5349,8 +5150,8 @@
    "draft": false,
    "createdAt": "2026-06-10T22:57:48Z",
    "updatedAt": "2026-06-10T22:57:48Z",
-   "ageDays": 11.9,
-   "idleDays": 11.9,
+   "ageDays": 12,
+   "idleDays": 12,
    "behindBase": 12,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -5367,8 +5168,8 @@
    "draft": false,
    "createdAt": "2026-06-10T06:11:45Z",
    "updatedAt": "2026-06-10T08:46:30Z",
-   "ageDays": 12.6,
-   "idleDays": 12.5,
+   "ageDays": 12.7,
+   "idleDays": 12.6,
    "behindBase": 12,
    "aheadOfBase": 4,
    "ciStatus": null,
@@ -5385,8 +5186,8 @@
    "draft": false,
    "createdAt": "2026-04-21T08:16:34Z",
    "updatedAt": "2026-05-29T19:50:59Z",
-   "ageDays": 62.5,
-   "idleDays": 24,
+   "ageDays": 62.6,
+   "idleDays": 24.2,
    "behindBase": 44,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -5403,8 +5204,8 @@
    "draft": false,
    "createdAt": "2026-03-24T08:58:00Z",
    "updatedAt": "2026-06-03T01:22:37Z",
-   "ageDays": 90.5,
-   "idleDays": 19.8,
+   "ageDays": 90.6,
+   "idleDays": 19.9,
    "behindBase": 29,
    "aheadOfBase": 11,
    "ciStatus": null,
@@ -5421,8 +5222,8 @@
    "draft": false,
    "createdAt": "2026-03-10T03:23:16Z",
    "updatedAt": "2026-03-10T03:23:16Z",
-   "ageDays": 104.7,
-   "idleDays": 104.7,
+   "ageDays": 104.8,
+   "idleDays": 104.8,
    "behindBase": 57,
    "aheadOfBase": 3,
    "ciStatus": null,
@@ -5439,8 +5240,8 @@
    "draft": false,
    "createdAt": "2026-03-10T03:20:39Z",
    "updatedAt": "2026-04-07T08:45:57Z",
-   "ageDays": 104.7,
-   "idleDays": 76.5,
+   "ageDays": 104.8,
+   "idleDays": 76.6,
    "behindBase": 45,
    "aheadOfBase": 6,
    "ciStatus": null,
@@ -5457,8 +5258,8 @@
    "draft": false,
    "createdAt": "2025-03-22T12:27:31Z",
    "updatedAt": "2026-03-02T20:12:25Z",
-   "ageDays": 457.3,
-   "idleDays": 112,
+   "ageDays": 457.5,
+   "idleDays": 112.1,
    "behindBase": 184,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -5475,8 +5276,8 @@
    "draft": false,
    "createdAt": "2025-03-22T12:23:17Z",
    "updatedAt": "2026-05-29T19:51:54Z",
-   "ageDays": 457.3,
-   "idleDays": 24,
+   "ageDays": 457.5,
+   "idleDays": 24.2,
    "behindBase": 44,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -5493,8 +5294,8 @@
    "draft": false,
    "createdAt": "2025-01-16T03:57:41Z",
    "updatedAt": "2026-05-29T19:51:58Z",
-   "ageDays": 522.7,
-   "idleDays": 24,
+   "ageDays": 522.8,
+   "idleDays": 24.2,
    "behindBase": 44,
    "aheadOfBase": 2,
    "ciStatus": null,
@@ -5511,8 +5312,8 @@
    "draft": false,
    "createdAt": "2023-02-14T12:44:06Z",
    "updatedAt": "2026-03-02T20:12:25Z",
-   "ageDays": 1224.3,
-   "idleDays": 112,
+   "ageDays": 1224.5,
+   "idleDays": 112.1,
    "behindBase": 638,
    "aheadOfBase": 2,
    "ciStatus": null,
@@ -5529,8 +5330,8 @@
    "draft": false,
    "createdAt": "2026-06-10T20:30:06Z",
    "updatedAt": "2026-06-10T20:30:06Z",
-   "ageDays": 12,
-   "idleDays": 12,
+   "ageDays": 12.1,
+   "idleDays": 12.1,
    "behindBase": 35,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -5547,8 +5348,8 @@
    "draft": false,
    "createdAt": "2025-01-04T22:06:58Z",
    "updatedAt": "2026-06-09T23:58:41Z",
-   "ageDays": 533.9,
-   "idleDays": 12.8,
+   "ageDays": 534.1,
+   "idleDays": 13,
    "behindBase": 98,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -5565,8 +5366,8 @@
    "draft": false,
    "createdAt": "2025-01-02T18:20:42Z",
    "updatedAt": "2026-06-09T23:58:41Z",
-   "ageDays": 536.1,
-   "idleDays": 12.8,
+   "ageDays": 536.2,
+   "idleDays": 13,
    "behindBase": 98,
    "aheadOfBase": 2,
    "ciStatus": null,
@@ -5583,8 +5384,8 @@
    "draft": false,
    "createdAt": "2024-12-24T15:13:11Z",
    "updatedAt": "2026-06-09T23:58:41Z",
-   "ageDays": 545.2,
-   "idleDays": 12.8,
+   "ageDays": 545.4,
+   "idleDays": 13,
    "behindBase": 666,
    "aheadOfBase": 2,
    "ciStatus": null,
@@ -5601,8 +5402,8 @@
    "draft": false,
    "createdAt": "2024-12-24T15:12:04Z",
    "updatedAt": "2026-06-09T23:58:41Z",
-   "ageDays": 545.2,
-   "idleDays": 12.8,
+   "ageDays": 545.4,
+   "idleDays": 13,
    "behindBase": 98,
    "aheadOfBase": 3,
    "ciStatus": null,
@@ -5619,8 +5420,8 @@
    "draft": true,
    "createdAt": "2024-12-17T17:46:00Z",
    "updatedAt": "2026-06-09T23:58:41Z",
-   "ageDays": 552.1,
-   "idleDays": 12.8,
+   "ageDays": 552.2,
+   "idleDays": 13,
    "behindBase": 294,
    "aheadOfBase": 3,
    "ciStatus": null,
@@ -5637,8 +5438,8 @@
    "draft": false,
    "createdAt": "2024-12-09T20:10:24Z",
    "updatedAt": "2026-06-09T23:58:41Z",
-   "ageDays": 560,
-   "idleDays": 12.8,
+   "ageDays": 560.1,
+   "idleDays": 13,
    "behindBase": 288,
    "aheadOfBase": 2,
    "ciStatus": null,
@@ -5655,8 +5456,8 @@
    "draft": false,
    "createdAt": "2024-12-09T20:10:16Z",
    "updatedAt": "2026-06-09T23:58:41Z",
-   "ageDays": 560,
-   "idleDays": 12.8,
+   "ageDays": 560.1,
+   "idleDays": 13,
    "behindBase": 297,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -5673,8 +5474,8 @@
    "draft": false,
    "createdAt": "2024-11-26T16:22:40Z",
    "updatedAt": "2026-06-09T23:58:41Z",
-   "ageDays": 573.2,
-   "idleDays": 12.8,
+   "ageDays": 573.3,
+   "idleDays": 13,
    "behindBase": 98,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -5691,8 +5492,8 @@
    "draft": false,
    "createdAt": "2024-11-26T16:22:07Z",
    "updatedAt": "2026-06-09T23:58:41Z",
-   "ageDays": 573.2,
-   "idleDays": 12.8,
+   "ageDays": 573.3,
+   "idleDays": 13,
    "behindBase": 309,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -5709,8 +5510,8 @@
    "draft": false,
    "createdAt": "2024-11-26T16:20:59Z",
    "updatedAt": "2026-06-09T23:58:42Z",
-   "ageDays": 573.2,
-   "idleDays": 12.8,
+   "ageDays": 573.3,
+   "idleDays": 13,
    "behindBase": 453,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -5727,8 +5528,8 @@
    "draft": false,
    "createdAt": "2022-04-22T15:13:20Z",
    "updatedAt": "2026-06-09T23:58:41Z",
-   "ageDays": 1522.2,
-   "idleDays": 12.8,
+   "ageDays": 1522.4,
+   "idleDays": 13,
    "behindBase": 717,
    "aheadOfBase": 4,
    "ciStatus": null,
@@ -5745,8 +5546,8 @@
    "draft": false,
    "createdAt": "2026-06-02T06:19:55Z",
    "updatedAt": "2026-06-02T16:17:13Z",
-   "ageDays": 20.6,
-   "idleDays": 20.2,
+   "ageDays": 20.7,
+   "idleDays": 20.3,
    "behindBase": 0,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -5763,8 +5564,8 @@
    "draft": false,
    "createdAt": "2026-03-30T14:09:50Z",
    "updatedAt": "2026-06-02T05:30:35Z",
-   "ageDays": 84.3,
-   "idleDays": 20.6,
+   "ageDays": 84.4,
+   "idleDays": 20.8,
    "behindBase": 0,
    "aheadOfBase": 4,
    "ciStatus": null,
@@ -5781,8 +5582,8 @@
    "draft": false,
    "createdAt": "2026-01-17T23:34:50Z",
    "updatedAt": "2026-01-17T23:34:50Z",
-   "ageDays": 155.9,
-   "idleDays": 155.9,
+   "ageDays": 156,
+   "idleDays": 156,
    "behindBase": 46,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -5799,8 +5600,8 @@
    "draft": true,
    "createdAt": "2025-05-30T17:03:07Z",
    "updatedAt": "2026-01-12T06:54:34Z",
-   "ageDays": 388.1,
-   "idleDays": 161.6,
+   "ageDays": 388.3,
+   "idleDays": 161.7,
    "behindBase": 130,
    "aheadOfBase": 14,
    "ciStatus": null,
@@ -5817,8 +5618,8 @@
    "draft": false,
    "createdAt": "2024-12-01T17:57:17Z",
    "updatedAt": "2026-01-12T06:54:34Z",
-   "ageDays": 568.1,
-   "idleDays": 161.6,
+   "ageDays": 568.2,
+   "idleDays": 161.7,
    "behindBase": 209,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -5945,6 +5746,19 @@
   },
   {
    "repo": "ossia/score",
+   "name": "1910-process-search-tags",
+   "sha": "567caa159714eb86b9277379fd2024307291c3a7",
+   "lastCommitDate": "2026-06-22T17:15:12-04:00",
+   "ahead": 1,
+   "aheadReal": 1,
+   "landedEquivalent": 0,
+   "behind": 0,
+   "hasPR": false,
+   "prNumber": null,
+   "severity": "info"
+  },
+  {
+   "repo": "ossia/score",
    "name": "1954-make-obj-process-title-more-prominent",
    "sha": "2aa4e0185244b5236c596d6ce5dc78af3784cd17",
    "lastCommitDate": "2026-02-14T14:52:42-05:00",
@@ -6064,11 +5878,24 @@
    "repo": "ossia/score",
    "name": "claude/scene-graph-build-fixes-cyhwnm",
    "sha": "2562991346da6ea6957b09d76b8f278b065e202e",
-   "lastCommitDate": "2026-06-11T23:14:42+00:00",
+   "lastCommitDate": "2026-06-11T23:14:42Z",
    "ahead": 68,
    "aheadReal": 64,
    "landedEquivalent": 4,
    "behind": 19,
+   "hasPR": false,
+   "prNumber": null,
+   "severity": "info"
+  },
+  {
+   "repo": "ossia/score",
+   "name": "edu/preset-help-urls",
+   "sha": "345876e8dbe4410bd927dcc65e0aef2633ba0075",
+   "lastCommitDate": "2026-06-22T14:17:16-04:00",
+   "ahead": 1,
+   "aheadReal": 1,
+   "landedEquivalent": 0,
+   "behind": 13,
    "hasPR": false,
    "prNumber": null,
    "severity": "info"
@@ -7455,7 +7282,7 @@
    "repo": "ossia/libossia",
    "name": "claude/upbeat-brahmagupta-xhgc2a",
    "sha": "e128d601bae3918f98c80d1fa1b6a8a1e803e061",
-   "lastCommitDate": "2026-06-10T22:57:09+00:00",
+   "lastCommitDate": "2026-06-10T22:57:09Z",
    "ahead": 1,
    "aheadReal": 0,
    "landedEquivalent": 1,
@@ -7975,7 +7802,7 @@
    "repo": "ossia/libossia",
    "name": "gh-pages",
    "sha": "c414cc8e7928ba039de47ed7f2e56a3f35d74288",
-   "lastCommitDate": "2026-06-22T18:30:48+00:00",
+   "lastCommitDate": "2026-06-22T18:30:48Z",
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
@@ -8248,7 +8075,7 @@
    "repo": "celtera/avendish",
    "name": "claude/geometry-texture-semantic-tagging-qtnj2a",
    "sha": "82f0bb65bb393ce19d7440ca7c0e2c6a9efda1e9",
-   "lastCommitDate": "2026-06-10T05:48:21+00:00",
+   "lastCommitDate": "2026-06-10T05:48:21Z",
    "ahead": 20,
    "aheadReal": 0,
    "landedEquivalent": 20,
@@ -8261,7 +8088,7 @@
    "repo": "celtera/avendish",
    "name": "claude/semantic-tagging-followups",
    "sha": "33bfd42e673aef8d6ff99b63fb2d89150077ca60",
-   "lastCommitDate": "2026-06-10T08:21:46+00:00",
+   "lastCommitDate": "2026-06-10T08:21:46Z",
    "ahead": 5,
    "aheadReal": 0,
    "landedEquivalent": 5,
@@ -8274,7 +8101,7 @@
    "repo": "celtera/avendish",
    "name": "claude/touchdesigner-memory-leak-dj85i2",
    "sha": "e51f568393ca383e27a62b18d4ff50c53d5a1da2",
-   "lastCommitDate": "2026-06-10T20:29:41+00:00",
+   "lastCommitDate": "2026-06-10T20:29:41Z",
    "ahead": 1,
    "aheadReal": 0,
    "landedEquivalent": 1,
@@ -8416,12 +8243,12 @@
   {
    "repo": "celtera/avendish",
    "name": "feature/halp-module",
-   "sha": "f0c20f4557c5750e4e65cd9dba53d86d3f48d730",
-   "lastCommitDate": "2026-06-20T15:07:31-04:00",
+   "sha": "df690161f8cbe8e5af6319f0974799583dbd1705",
+   "lastCommitDate": "2026-06-22T21:59:20+01:00",
    "ahead": 4,
    "aheadReal": 4,
    "landedEquivalent": 0,
-   "behind": 2,
+   "behind": 0,
    "hasPR": false,
    "prNumber": null,
    "severity": "info"
@@ -8599,7 +8426,7 @@
    "repo": "celtera/avendish",
    "name": "gh-pages",
    "sha": "3c2636bf826e62ec96729066088c67949d5150a8",
-   "lastCommitDate": "2026-06-02T21:32:09+00:00",
+   "lastCommitDate": "2026-06-02T21:32:09Z",
    "ahead": 113,
    "aheadReal": 113,
    "landedEquivalent": 0,
@@ -8755,7 +8582,7 @@
    "repo": "celtera/libremidi",
    "name": "gh-pages",
    "sha": "00d3b0634b2610481ee504e6fcda9821c8b52910",
-   "lastCommitDate": "2026-06-01T21:08:14+00:00",
+   "lastCommitDate": "2026-06-01T21:08:14Z",
    "ahead": 26,
    "aheadReal": 26,
    "landedEquivalent": 0,
@@ -8832,12 +8659,12 @@
   {
    "repo": "ossia/dashboard",
    "name": "claude/submodule-dependency-dashboard-of1zuq",
-   "sha": "d5d4845c1a8b4738301ff2f0e02612eed6acdfec",
-   "lastCommitDate": null,
-   "ahead": null,
-   "aheadReal": null,
+   "sha": "39533f598bdb19fda08d9bb1da97d7653a7fc7c6",
+   "lastCommitDate": "2026-06-22T20:16:18Z",
+   "ahead": 0,
+   "aheadReal": 0,
    "landedEquivalent": null,
-   "behind": null,
+   "behind": 0,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -8857,11 +8684,6 @@
      "repo": "ossia/dashboard",
      "workflow": "build.yml",
      "ref": "v5"
-    },
-    {
-     "repo": "sat-mtl/carto-tcp-avendish",
-     "workflow": "windows.yml",
-     "ref": "v4"
     }
    ],
    "mutableRefs": [],
@@ -9156,6 +8978,11 @@
     },
     {
      "repo": "celtera/avendish",
+     "workflow": "backend_matrix.yml",
+     "ref": "v4"
+    },
+    {
+     "repo": "celtera/avendish",
      "workflow": "book.yml",
      "ref": "v2"
     },
@@ -9261,6 +9088,146 @@
     },
     {
      "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "v4"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "v4"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "v4"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "v4"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "v4"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "v4"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "v4"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "v4"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "v4"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "v4"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "v4"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "v4"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "v4"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "v4"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "v4"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "v4"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "v4"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-portability.yml",
+     "ref": "v4"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-portability.yml",
+     "ref": "v4"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-portability.yml",
+     "ref": "v4"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-portability.yml",
+     "ref": "v4"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-portability.yml",
+     "ref": "v4"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-portability.yml",
+     "ref": "v4"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-portability.yml",
+     "ref": "v4"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-portability.yml",
+     "ref": "v4"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-portability.yml",
+     "ref": "v4"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-portability.yml",
+     "ref": "v4"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-portability.yml",
+     "ref": "v4"
+    },
+    {
+     "repo": "ossia/actions",
      "workflow": "builds-dev.yml",
      "ref": "v4"
     },
@@ -9298,11 +9265,6 @@
      "repo": "ossia/dashboard",
      "workflow": "build.yml",
      "ref": "v6"
-    },
-    {
-     "repo": "sat-mtl/carto-tcp-avendish",
-     "workflow": "windows.yml",
-     "ref": "v4"
     }
    ],
    "mutableRefs": [],
@@ -9386,6 +9348,26 @@
      "repo": "celtera/libremidi",
      "workflow": "publish_pypi.yml",
      "ref": "v7"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "v4"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "v4"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "v4"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "v4"
     }
    ],
    "mutableRefs": [],
@@ -9403,6 +9385,11 @@
     {
      "repo": "celtera/libremidi",
      "workflow": "android.yml",
+     "ref": "v4"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-portability.yml",
      "ref": "v4"
     }
    ],
@@ -9425,6 +9412,22 @@
    "mutableRefs": [],
    "outdatedRefs": [],
    "severity": "ok"
+  },
+  {
+   "action": "actions/setup-python",
+   "latestTag": "v6.2.0",
+   "refs": [
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "v5"
+    }
+   ],
+   "mutableRefs": [],
+   "outdatedRefs": [
+    "v5"
+   ],
+   "severity": "warn"
   },
   {
    "action": "actions/upload-artifact",
@@ -9647,6 +9650,76 @@
     },
     {
      "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "v4"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "v4"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "v4"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "v4"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "v4"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "v4"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "v4"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "v4"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "v4"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "v4"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "v4"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "v4"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "v4"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "v4"
+    },
+    {
+     "repo": "ossia/actions",
      "workflow": "builds-dev.yml",
      "ref": "v4"
     },
@@ -9663,11 +9736,6 @@
     {
      "repo": "ossia/actions",
      "workflow": "builds-sdk.yml",
-     "ref": "v4"
-    },
-    {
-     "repo": "sat-mtl/carto-tcp-avendish",
-     "workflow": "windows.yml",
      "ref": "v4"
     }
    ],
@@ -9715,6 +9783,11 @@
     {
      "repo": "celtera/libremidi",
      "workflow": "android.yml",
+     "ref": "v3"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-portability.yml",
      "ref": "v3"
     }
    ],
@@ -9948,6 +10021,66 @@
     },
     {
      "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "v1"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "v1"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "v1"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "v1"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "v1"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "v1"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "v1"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "v1"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "v1"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "v1"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-portability.yml",
+     "ref": "v1"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-portability.yml",
+     "ref": "v1"
+    },
+    {
+     "repo": "ossia/actions",
      "workflow": "builds-dev.yml",
      "ref": "v1"
     },
@@ -9984,6 +10117,27 @@
    "mutableRefs": [],
    "outdatedRefs": [],
    "severity": "ok"
+  },
+  {
+   "action": "mymindstorm/setup-emsdk",
+   "latestTag": "v16",
+   "refs": [
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "v14"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-portability.yml",
+     "ref": "v14"
+    }
+   ],
+   "mutableRefs": [],
+   "outdatedRefs": [
+    "v14"
+   ],
+   "severity": "warn"
   },
   {
    "action": "ossia/actions/.github/workflows/builds-dev.yml",
@@ -10150,6 +10304,182 @@
     {
      "repo": "ossia/actions",
      "workflow": "builds-sdk.yml",
+     "ref": "master"
+    }
+   ],
+   "mutableRefs": [
+    "master"
+   ],
+   "outdatedRefs": [],
+   "severity": "info"
+  },
+  {
+   "action": "ossia/actions/package-clap-addon",
+   "latestTag": null,
+   "refs": [
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "master"
+    }
+   ],
+   "mutableRefs": [
+    "master"
+   ],
+   "outdatedRefs": [],
+   "severity": "info"
+  },
+  {
+   "action": "ossia/actions/package-godot-addon",
+   "latestTag": null,
+   "refs": [
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "master"
+    }
+   ],
+   "mutableRefs": [
+    "master"
+   ],
+   "outdatedRefs": [],
+   "severity": "info"
+  },
+  {
+   "action": "ossia/actions/package-gstreamer-addon",
+   "latestTag": null,
+   "refs": [
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "master"
+    }
+   ],
+   "mutableRefs": [
+    "master"
+   ],
+   "outdatedRefs": [],
+   "severity": "info"
+  },
+  {
+   "action": "ossia/actions/package-max-addon",
+   "latestTag": null,
+   "refs": [
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "master"
+    }
+   ],
+   "mutableRefs": [
+    "master"
+   ],
+   "outdatedRefs": [],
+   "severity": "info"
+  },
+  {
+   "action": "ossia/actions/package-pd-addon",
+   "latestTag": null,
+   "refs": [
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "master"
+    }
+   ],
+   "mutableRefs": [
+    "master"
+   ],
+   "outdatedRefs": [],
+   "severity": "info"
+  },
+  {
+   "action": "ossia/actions/package-python-addon",
+   "latestTag": null,
+   "refs": [
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "master"
+    }
+   ],
+   "mutableRefs": [
+    "master"
+   ],
+   "outdatedRefs": [],
+   "severity": "info"
+  },
+  {
+   "action": "ossia/actions/package-standalone-addon",
+   "latestTag": null,
+   "refs": [
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "master"
+    }
+   ],
+   "mutableRefs": [
+    "master"
+   ],
+   "outdatedRefs": [],
+   "severity": "info"
+  },
+  {
+   "action": "ossia/actions/package-touchdesigner-addon",
+   "latestTag": null,
+   "refs": [
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "master"
+    }
+   ],
+   "mutableRefs": [
+    "master"
+   ],
+   "outdatedRefs": [],
+   "severity": "info"
+  },
+  {
+   "action": "ossia/actions/package-vintage-addon",
+   "latestTag": null,
+   "refs": [
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "master"
+    }
+   ],
+   "mutableRefs": [
+    "master"
+   ],
+   "outdatedRefs": [],
+   "severity": "info"
+  },
+  {
+   "action": "ossia/actions/package-vst3-addon",
+   "latestTag": null,
+   "refs": [
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "master"
+    }
+   ],
+   "mutableRefs": [
+    "master"
+   ],
+   "outdatedRefs": [],
+   "severity": "info"
+  },
+  {
+   "action": "ossia/actions/package-wasm-addon",
+   "latestTag": null,
+   "refs": [
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
      "ref": "master"
     }
    ],
@@ -10385,6 +10715,11 @@
    "refs": [
     {
      "repo": "ossia/actions",
+     "workflow": "avnd-addon.yml",
+     "ref": "v2"
+    },
+    {
+     "repo": "ossia/actions",
      "workflow": "release.yml",
      "ref": "v2"
     }
@@ -10405,6 +10740,11 @@
     {
      "repo": "celtera/libremidi",
      "workflow": "build_cmake.yml",
+     "ref": "v1"
+    },
+    {
+     "repo": "ossia/actions",
+     "workflow": "avnd-portability.yml",
      "ref": "v1"
     }
    ],
@@ -10458,9 +10798,9 @@
    "current": "bookworm",
    "missingFromMatrix": [],
    "latest": "13",
-   "eolDate": "2026-06-10",
-   "status": "eol",
-   "severity": "crit"
+   "eolDate": "2026-07-11",
+   "status": "eol-soon",
+   "severity": "warn"
   },
   {
    "category": "image",
@@ -10506,7 +10846,7 @@
    "current": "26.04",
    "missingFromMatrix": [],
    "latest": "26.04",
-   "eolDate": "2031-04-23",
+   "eolDate": "2031-04-30",
    "status": "current",
    "severity": "ok"
   },
@@ -10621,6 +10961,18 @@
   {
    "category": "runner",
    "repo": "celtera/avendish",
+   "location": "backend_matrix.yml",
+   "name": "runs-on",
+   "current": "ubuntu-24.04",
+   "missingFromMatrix": [],
+   "latest": "26.04",
+   "eolDate": "2029-05-31",
+   "status": "behind",
+   "severity": "ok"
+  },
+  {
+   "category": "runner",
+   "repo": "celtera/avendish",
    "location": "book.yml",
    "name": "runs-on",
    "current": "ubuntu-latest",
@@ -10681,13 +11033,37 @@
   {
    "category": "runner",
    "repo": "ossia/actions",
-   "location": "builds-dev.yml, builds-sdk.yml, release.yml",
+   "location": "avnd-addon.yml, avnd-portability.yml, builds-dev.yml, builds-sdk.yml, jit.yml, release.yml",
    "name": "runs-on",
    "current": "ubuntu-latest",
    "missingFromMatrix": [],
    "latest": null,
    "eolDate": null,
    "status": "current",
+   "severity": "ok"
+  },
+  {
+   "category": "runner",
+   "repo": "ossia/actions",
+   "location": "avnd-portability.yml",
+   "name": "runs-on",
+   "current": "ubuntu-24.04",
+   "missingFromMatrix": [],
+   "latest": "26.04",
+   "eolDate": "2029-05-31",
+   "status": "behind",
+   "severity": "ok"
+  },
+  {
+   "category": "runner",
+   "repo": "ossia/actions",
+   "location": "avnd-portability.yml",
+   "name": "runs-on",
+   "current": "macos-15",
+   "missingFromMatrix": [],
+   "latest": "26",
+   "eolDate": null,
+   "status": "behind",
    "severity": "ok"
   },
   {
@@ -10696,18 +11072,6 @@
    "location": "build.yml",
    "name": "runs-on",
    "current": "ubuntu-latest",
-   "missingFromMatrix": [],
-   "latest": null,
-   "eolDate": null,
-   "status": "current",
-   "severity": "ok"
-  },
-  {
-   "category": "runner",
-   "repo": "sat-mtl/carto-tcp-avendish",
-   "location": "windows.yml",
-   "name": "runs-on",
-   "current": "windows-latest",
    "missingFromMatrix": [],
    "latest": null,
    "eolDate": null,
@@ -10775,17 +11139,98 @@
    "severity": "info"
   }
  ],
- "packaging": [],
- "attention": [
+ "packaging": [
   {
-   "id": "environment:ossia/score:debian@debian-builds.yaml",
-   "category": "environment",
-   "repo": "ossia/score",
-   "subject": "debian (bookworm)",
-   "message": "EOL since 2026-06-10",
-   "url": null,
-   "severity": "crit"
+   "project": "ossia-score",
+   "newestVersion": "3.8.2",
+   "total": 14,
+   "outdated": 10,
+   "newest": 4,
+   "versions": [
+    {
+     "repo": "aur",
+     "version": "3.7.1",
+     "status": "outdated"
+    },
+    {
+     "repo": "aur",
+     "version": "3.7.1",
+     "status": "outdated"
+    },
+    {
+     "repo": "aur",
+     "version": "3.5.2",
+     "status": "outdated"
+    },
+    {
+     "repo": "freebsd",
+     "version": "3.8.2",
+     "status": "newest"
+    },
+    {
+     "repo": "homebrew_casks",
+     "version": "3.8.2",
+     "status": "newest"
+    },
+    {
+     "repo": "msys2_clang64",
+     "version": "3.7.1",
+     "status": "outdated"
+    },
+    {
+     "repo": "msys2_clangarm64",
+     "version": "3.7.1",
+     "status": "outdated"
+    },
+    {
+     "repo": "msys2_mingw",
+     "version": "3.7.1",
+     "status": "outdated"
+    },
+    {
+     "repo": "msys2_ucrt64",
+     "version": "3.7.1",
+     "status": "outdated"
+    },
+    {
+     "repo": "nix_stable_24_11",
+     "version": "3.3.2",
+     "status": "outdated"
+    },
+    {
+     "repo": "nix_stable_25_05",
+     "version": "3.5.2",
+     "status": "outdated"
+    },
+    {
+     "repo": "nix_stable_25_11",
+     "version": "3.7.1",
+     "status": "outdated"
+    },
+    {
+     "repo": "nix_stable_26_05",
+     "version": "3.8.2",
+     "status": "newest"
+    },
+    {
+     "repo": "nix_unstable",
+     "version": "3.8.2",
+     "status": "newest"
+    }
+   ],
+   "severity": "warn"
   },
+  {
+   "project": "libossia",
+   "newestVersion": null,
+   "total": 0,
+   "outdated": 0,
+   "newest": 0,
+   "versions": [],
+   "severity": "ok"
+  }
+ ],
+ "attention": [
   {
    "id": "environment:ossia/score:ubuntu@ubuntu-builds.yaml",
    "category": "environment",
@@ -10793,6 +11238,15 @@
    "subject": "ubuntu (plucky)",
    "message": "EOL since 2026-01-17",
    "url": null,
+   "severity": "crit"
+  },
+  {
+   "id": "submodule:ossia/libossia:3rdparty/abseil-cpp",
+   "category": "submodule",
+   "repo": "ossia/libossia",
+   "subject": "3rdparty/abseil-cpp",
+   "message": "pin not on 'master' (on: lts_2025_05_12); 643 commits / 12 months behind abseil/abseil-cpp@master",
+   "url": "https://github.com/abseil/abseil-cpp",
    "severity": "crit"
   },
   {
@@ -10856,15 +11310,6 @@
    "subject": "3rdparty/rapidfuzz-cpp",
    "message": "38 commits / 2.1 years behind maxbachmann/rapidfuzz-cpp@main",
    "url": "https://github.com/maxbachmann/rapidfuzz-cpp",
-   "severity": "crit"
-  },
-  {
-   "id": "submodule:ossia/libossia:3rdparty/re2",
-   "category": "submodule",
-   "repo": "ossia/libossia",
-   "subject": "3rdparty/re2",
-   "message": "213 commits / 2.7 years behind google/re2@main",
-   "url": "https://github.com/google/re2",
    "severity": "crit"
   },
   {
@@ -10958,6 +11403,15 @@
    "severity": "warn"
   },
   {
+   "id": "action:*:actions/setup-python",
+   "category": "action",
+   "repo": "ossia/actions",
+   "subject": "actions/setup-python",
+   "message": "used at v5, latest is v6.2.0",
+   "url": "https://github.com/actions/setup-python",
+   "severity": "warn"
+  },
+  {
    "id": "action:*:actions/upload-artifact",
    "category": "action",
    "repo": "ossia/score",
@@ -10982,6 +11436,15 @@
    "subject": "github/super-linter",
    "message": "used at v4, latest is v7",
    "url": "https://github.com/github/super-linter",
+   "severity": "warn"
+  },
+  {
+   "id": "action:*:mymindstorm/setup-emsdk",
+   "category": "action",
+   "repo": "ossia/actions",
+   "subject": "mymindstorm/setup-emsdk",
+   "message": "used at v14, latest is v16",
+   "url": "https://github.com/mymindstorm/setup-emsdk",
    "severity": "warn"
   },
   {
@@ -11615,12 +12078,21 @@
    "severity": "warn"
   },
   {
-   "id": "dependency:sat-mtl/carto-tcp-avendish:cmake-fetchcontent:avendish",
-   "category": "dependency",
-   "repo": "sat-mtl/carto-tcp-avendish",
-   "subject": "avendish (cmake-fetchcontent)",
-   "message": "upstream HEAD moved 20 days past our pin; upstream active again (last commit 2026-06-22)",
-   "url": "https://github.com/celtera/avendish",
+   "id": "environment:ossia/score:debian@debian-builds.yaml",
+   "category": "environment",
+   "repo": "ossia/score",
+   "subject": "debian (bookworm)",
+   "message": "EOL on 2026-07-11",
+   "url": null,
+   "severity": "warn"
+  },
+  {
+   "id": "packaging:repology:ossia-score",
+   "category": "packaging",
+   "repo": "ossia-score",
+   "subject": "ossia-score",
+   "message": "10/14 downstream repos ship an outdated version (newest: 3.8.2)",
+   "url": "https://repology.org/project/ossia-score/versions",
    "severity": "warn"
   },
   {
@@ -12101,15 +12573,6 @@
    "severity": "warn"
   },
   {
-   "id": "submodule:ossia/libossia:3rdparty/fmt",
-   "category": "submodule",
-   "repo": "ossia/libossia",
-   "subject": "3rdparty/fmt",
-   "message": "280 commits / 9 months behind fmtlib/fmt@main",
-   "url": "https://github.com/fmtlib/fmt",
-   "severity": "warn"
-  },
-  {
    "id": "submodule:ossia/libossia:3rdparty/kfr",
    "category": "submodule",
    "repo": "ossia/libossia",
@@ -12173,21 +12636,21 @@
    "severity": "warn"
   },
   {
+   "id": "submodule:ossia/libossia:3rdparty/re2",
+   "category": "submodule",
+   "repo": "ossia/libossia",
+   "subject": "3rdparty/re2",
+   "message": "3 commits / 3 months behind google/re2@main",
+   "url": "https://github.com/google/re2",
+   "severity": "warn"
+  },
+  {
    "id": "submodule:ossia/libossia:3rdparty/rubberband",
    "category": "submodule",
    "repo": "ossia/libossia",
    "subject": "3rdparty/rubberband",
    "message": "pin not on 'master' (on: ossia-2025-03-18)",
    "url": "https://github.com/jcelerier/rubberband",
-   "severity": "warn"
-  },
-  {
-   "id": "submodule:ossia/libossia:3rdparty/spdlog",
-   "category": "submodule",
-   "repo": "ossia/libossia",
-   "subject": "3rdparty/spdlog",
-   "message": "53 commits / 10 months behind gabime/spdlog@v1.x",
-   "url": "https://github.com/gabime/spdlog",
    "severity": "warn"
   },
   {
@@ -12236,15 +12699,6 @@
    "severity": "warn"
   },
   {
-   "id": "submodule:ossia/score:3rdparty/avendish",
-   "category": "submodule",
-   "repo": "ossia/score",
-   "subject": "3rdparty/avendish",
-   "message": "pin not on 'main' (on: addon-cmake-score-ci, addon-standalone-base-target, avendishconfig-score-bootstrap, avnd-addon-ci-support, claude/touchdesigner-memory-leak-dj85i2); 35 commits / 12 days behind celtera/avendish@main",
-   "url": "https://github.com/celtera/avendish",
-   "severity": "warn"
-  },
-  {
    "id": "submodule:ossia/score:3rdparty/clap",
    "category": "submodule",
    "repo": "ossia/score",
@@ -12269,15 +12723,6 @@
    "subject": "3rdparty/Gamma",
    "message": "5 commits / 4 months behind LancePutnam/Gamma@master",
    "url": "https://github.com/LancePutnam/Gamma",
-   "severity": "warn"
-  },
-  {
-   "id": "submodule:ossia/score:3rdparty/libossia",
-   "category": "submodule",
-   "repo": "ossia/score",
-   "subject": "3rdparty/libossia",
-   "message": "pin not on 'master' (on: claude/fmt-12.2-compat, claude/gfx-scene-deps, claude/upbeat-brahmagupta-xhgc2a, feature/remove-websocketpp, feature/vendoring-cmake-variables); 12 commits / 14 days behind ossia/libossia@master",
-   "url": "https://github.com/ossia/libossia",
    "severity": "warn"
   },
   {
