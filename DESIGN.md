@@ -118,8 +118,10 @@ requires a `reason:`.
 
 ## Configuration
 
-- `config/repos.yaml` — tracked repositories (org/name, default branch override,
-  which collectors apply).
+- `config/repos.yaml` — tracked repositories, plus an `orgs:` block whose name
+  globs (e.g. `ossia/score-addon-*`) are expanded to concrete repos via the
+  GitHub API at collect time (needs a token; archived repos excluded by
+  default), so repo families stay covered without a hand-maintained list.
 - `config/watch.yaml` — declarative "file pin" watches: file path in a repo, regex
   extractors, and a `latest:` resolver per pin (`git-tag:<owner/repo>`,
   `eol:<product>`, `static:<value>`). This is how `Dockerfile.llvm`,
@@ -152,7 +154,7 @@ Pages — `/` is the unified visualization, the rest are drill-downs:
 |---|---|
 | `/` | attention feed (all warn/crit, grouped by category, worst first) + per-repo health strip (default branch age, counts per category) |
 | `/submodules` | full pin matrix across all repos |
-| `/dependencies` | unified inventory (deps.yaml, versions.sh, CMake, vcpkg): pinned vs latest, floating-branch + fork-revival sections |
+| `/dependencies` | unified inventory (deps.yaml, versions.sh, CMake, vcpkg): pinned vs latest, commit-distance columns (vs main / vs latest / latest→main with GitHub diff links), floating-branch + fork-revival sections |
 | `/prs` | all open PRs, behind/idle/CI |
 | `/branches` | PR-less and stale branches |
 | `/actions` | action version matrix + mutable-ref flags |

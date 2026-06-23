@@ -24,6 +24,16 @@ repos:
 
   - slug: sat-mtl/carto-tcp-avendish
 
+# Dynamic discovery: every repo in an org whose name matches an `include`
+# glob is tracked too, resolved via the GitHub API at collect time (needs a
+# token; without one this is skipped and only the explicit list above is used).
+# Archived repos are excluded unless `includeArchived: true`. This keeps repo
+# families (e.g. ossia/score-addon-*) covered without hand-maintaining a list.
+orgs:
+  - org: ossia
+    include:
+      - "score-addon-*"
+
 # Repositories that are not tracked themselves but whose releases matter
 # (used by watch.yaml `latest: git-tag:` resolvers and the SDK checks).
 releaseSources:

@@ -3,6 +3,7 @@
 
 import { mkdirSync, writeFileSync } from "node:fs";
 import { loadConfig, daysAgo } from "./lib/config.ts";
+import { discoverOrgRepos, mergeRepos } from "./lib/discover.ts";
 import { commitDate, lsRemote } from "./lib/git.ts";
 import type { SectionMeta, Snapshot } from "./lib/types.ts";
 import { buildAttention, rollupRepoCounts } from "./lib/severity.ts";
@@ -16,6 +17,14 @@ import { collectRepology } from "./collect/repology.ts";
 
 const cfg = loadConfig();
 const t0 = Date.now();
+
+// expand `orgs:` globs (e.g. ossia/score-addon-*) into concrete repos
+const discovered = await discoverOrgRepos(cfg.orgs);
+if (discovered.length > 0) {
+  const before = cfg.repos.length;
+  cfg.repos = mergeRepos(cfg.repos, discovered);
+  console.log(`discovered ${cfg.repos.length - before} repos from orgs (${cfg.repos.length} tracked total)`);
+}
 
 function liveMeta(): SectionMeta {
   return { source: "live", collectedAt: new Date().toISOString() };

@@ -55,6 +55,14 @@ export interface Dependency {
   latestTagDate: string | null;
   upstreamHeadSha: string | null;
   upstreamHeadDate: string | null;
+  defaultBranch: string | null;
+  pinnedRefName: string | null; // tag name or sha usable in a compare URL
+  // commit/day distances (null when not computable):
+  behindMainCommits: number | null; // our pin → upstream default branch HEAD
+  behindMainDays: number | null;
+  behindLatestCommits: number | null; // our pin → latest tagged release
+  unreleasedCommits: number | null; // latest tagged release → default branch HEAD
+  unreleasedDays: number | null;
   outdated: boolean;
   revived: boolean;
   severity: Severity;

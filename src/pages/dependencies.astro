@@ -1,7 +1,7 @@
 ---
 import Layout from "../components/Layout.astro";
 import Sev from "../components/Sev.astro";
-import { snapshot, fmtDate, sevRank } from "../lib/snapshot.ts";
+import { snapshot, fmtDate, fmtBehind, sevRank, num } from "../lib/snapshot.ts";
 
 const base = import.meta.env.BASE_URL.replace(/\/$/, "");
 const deps = snapshot.dependencies;
@@ -16,6 +16,13 @@ const revived = rows.filter((d) => d.revived);
 const floating = rows.filter((d) => d.tracksBranch);
 const upstreamUrl = (u: string) =>
   u.startsWith("gitlab:") ? `https://gitlab.com/${u.slice(7)}` : `https://github.com/${u}`;
+// github compare link (base...head); null for gitlab or missing refs
+const ghCompare = (u: string, base: string | null, head: string | null) =>
+  u && !u.startsWith("gitlab:") && base && head
+    ? `https://github.com/${u}/compare/${encodeURIComponent(base)}...${encodeURIComponent(head)}`
+    : null;
+const delta = (commits: number | null, days: number | null) =>
+  commits === null ? "—" : commits === 0 ? "even" : days != null ? `${commits} · ${fmtBehind(days)}` : `${commits}`;
 
 const sources = [...new Set(deps.map((d) => d.source))].sort();
 const countBy = (s: string) => deps.filter((d) => d.source === s).length;
@@ -74,16 +81,27 @@ const sourceLabel: Record<string, string> = {
   )}
 
   <h2>full inventory ({deps.length})</h2>
+  <p class="note">
+    Distances are commit counts (with age). <strong>vs main</strong>: our pin behind the
+    upstream default branch. <strong>vs latest</strong>: our pin behind the latest tagged
+    release. <strong>latest→main</strong>: unreleased commits on the default branch since
+    that release. Numbers link to the GitHub diff.
+  </p>
   <input class="filter" data-table="t" placeholder="filter…" />
   <table class="data" id="t">
     <thead>
       <tr>
         <th>sev</th><th>source</th><th>repo</th><th>name</th><th>upstream</th>
-        <th>pinned</th><th>latest tag</th><th>tag date</th><th>notes</th>
+        <th>pinned</th><th>latest tag</th><th>vs main</th><th>vs latest</th>
+        <th>latest→main</th><th>notes</th>
       </tr>
     </thead>
     <tbody>
-      {rows.map((d) => (
+      {rows.map((d) => {
+        const vsMain = ghCompare(d.upstream, d.pinnedRefName, d.defaultBranch);
+        const vsLatest = ghCompare(d.upstream, d.pinnedRefName, d.latestTag);
+        const latestMain = ghCompare(d.upstream, d.latestTag, d.defaultBranch);
+        return (
         <tr>
           <td data-k={sevRank[d.severity]}><Sev sev={d.severity} /></td>
           <td class="mono">{d.source}</td>
@@ -97,10 +115,18 @@ const sourceLabel: Record<string, string> = {
             {d.tracksBranch && <span class="sev-info"> (branch)</span>}
           </td>
           <td class="mono">{d.latestTag ?? "—"}</td>
-          <td data-k={d.latestTagDate ?? ""}>{fmtDate(d.latestTagDate)}</td>
+          <td class="num" data-k={num(d.behindMainCommits)}>
+            {vsMain ? <a href={vsMain}>{delta(d.behindMainCommits, d.behindMainDays)}</a> : delta(d.behindMainCommits, d.behindMainDays)}
+          </td>
+          <td class="num" data-k={num(d.behindLatestCommits)}>
+            {vsLatest ? <a href={vsLatest}>{delta(d.behindLatestCommits, null)}</a> : delta(d.behindLatestCommits, null)}
+          </td>
+          <td class="num" data-k={num(d.unreleasedCommits)}>
+            {latestMain ? <a href={latestMain}>{delta(d.unreleasedCommits, d.unreleasedDays)}</a> : delta(d.unreleasedCommits, d.unreleasedDays)}
+          </td>
           <td class="msg">{d.notes.join("; ")}</td>
         </tr>
-      ))}
+      );})}
     </tbody>
   </table>
 </Layout>

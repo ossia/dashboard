@@ -14,6 +14,13 @@ export interface RepoConfig {
   collect?: string[];
 }
 
+export interface OrgDiscovery {
+  org: string;
+  include?: string[]; // name globs, default ["*"]
+  exclude?: string[];
+  includeArchived?: boolean; // default false
+}
+
 export interface WatchPin {
   name: string;
   regex: string;
@@ -45,6 +52,7 @@ export interface DependenciesConfig {
 
 export interface Config {
   repos: RepoConfig[];
+  orgs: OrgDiscovery[];
   releaseSources: string[];
   watches: FileWatch[];
   imageProducts: Record<string, string>;
@@ -69,7 +77,11 @@ export interface Thresholds {
 }
 
 export function loadConfig(): Config {
-  const repos = load<{ repos: RepoConfig[]; releaseSources?: string[] }>("repos.yaml");
+  const repos = load<{
+    repos: RepoConfig[];
+    orgs?: OrgDiscovery[];
+    releaseSources?: string[];
+  }>("repos.yaml");
   const watch = load<{
     watches: FileWatch[];
     imageProducts: Record<string, string>;
@@ -81,6 +93,7 @@ export function loadConfig(): Config {
   const ignore = load<{ ignore: { match: string; reason: string }[] }>("ignore.yaml");
   return {
     repos: repos.repos,
+    orgs: repos.orgs ?? [],
     releaseSources: repos.releaseSources ?? [],
     watches: watch.watches,
     imageProducts: watch.imageProducts,

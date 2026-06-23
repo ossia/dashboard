@@ -28,6 +28,7 @@ import {
   lsRemote,
   pmap,
   readFileAtHead,
+  revListCount,
   versionKey,
 } from "../lib/git.ts";
 import { workTree } from "../lib/worktree.ts";
@@ -58,11 +59,47 @@ function blank(
     latestTagDate: null,
     upstreamHeadSha: null,
     upstreamHeadDate: null,
+    defaultBranch: null,
+    pinnedRefName: null,
+    behindMainCommits: null,
+    behindMainDays: null,
+    behindLatestCommits: null,
+    unreleasedCommits: null,
+    unreleasedDays: null,
     outdated: false,
     revived: false,
     severity: "ok",
     notes: [],
   };
+}
+
+/** The upstream tag SHA + name that our pinned version refers to, if any. */
+function resolvePinnedTag(
+  refs: { tags: Map<string, string> },
+  d: Dependency,
+  prefix?: string,
+): { sha: string; name: string } | null {
+  if (!d.pinnedVersion) return null;
+  // exact name matches first
+  for (const cand of [d.pinnedRef, d.pinnedVersion, prefix != null ? prefix + d.pinnedVersion : null]) {
+    if (cand && refs.tags.has(cand)) return { sha: refs.tags.get(cand)!, name: cand };
+  }
+  // otherwise match by numeric key among prefix-respecting tags
+  const want = versionKey(d.pinnedVersion);
+  if (!want) return null;
+  for (const [name, sha] of refs.tags) {
+    let t = name;
+    if (prefix != null) {
+      if (!t.startsWith(prefix)) continue;
+      t = t.slice(prefix.length);
+      if (!/^[0-9]/.test(t)) continue;
+    }
+    const k = versionKey(t);
+    if (k && k.length === want.length && k.every((n, i) => n === want[i])) {
+      return { sha, name };
+    }
+  }
+  return null;
 }
 
 /** Fill latest-tag / HEAD fields and grade a dep whose pin fields are set. */
@@ -90,6 +127,41 @@ async function grade(cfg: Config, d: Dependency, prefix?: string): Promise<void>
   if (latest) {
     d.latestTag = latest.tag;
     d.latestTagDate = await commitDate(d.upstream, latest.sha);
+  }
+
+  // --- commit/day distances: our pin vs latest release vs default branch ---
+  // All three are rev-list counts on the commit graph we already cloned, so we
+  // just need the pin's and the latest tag's commits present locally.
+  d.defaultBranch = refs.headBranch;
+  const headSha = refs.headSha;
+  let pinSha: string | null = null;
+  if (d.pinnedSha) {
+    pinSha = (await ensureSha(d.upstream, d.pinnedSha)) ? d.pinnedSha : null;
+    d.pinnedRefName = d.pinnedSha;
+  } else if (d.pinnedVersion) {
+    const t = resolvePinnedTag(refs, d, pfx);
+    if (t && (await ensureSha(d.upstream, t.sha))) {
+      pinSha = t.sha;
+      d.pinnedRefName = t.name;
+    }
+  }
+  const latestSha = latest && (await ensureSha(d.upstream, latest.sha)) ? latest.sha : null;
+  if (headSha) {
+    if (pinSha) {
+      d.behindMainCommits = await revListCount(d.upstream, pinSha, headSha);
+      const pa = daysAgo(await commitDate(d.upstream, pinSha));
+      const ha = daysAgo(d.upstreamHeadDate);
+      if (pa !== null && ha !== null) d.behindMainDays = Math.max(0, Math.round(pa - ha));
+    }
+    if (pinSha && latestSha) {
+      d.behindLatestCommits = await revListCount(d.upstream, pinSha, latestSha);
+    }
+    if (latestSha) {
+      d.unreleasedCommits = await revListCount(d.upstream, latestSha, headSha);
+      const la = daysAgo(d.latestTagDate);
+      const ha = daysAgo(d.upstreamHeadDate);
+      if (la !== null && ha !== null) d.unreleasedDays = Math.max(0, Math.round(la - ha));
+    }
   }
 
   // pinned to a moving branch — reproducibility hazard, like a mutable action ref
@@ -334,7 +406,13 @@ function parseReleaseUrl(url: string): { upstream: string; tag: string } | null 
 
 async function fromCMake(cfg: Config): Promise<Dependency[]> {
   const out: Dependency[] = [];
-  for (const slug of cfg.dependencies.cmakeScan.repos) {
+  // scan the configured repos plus every tracked repo (so org-discovered
+  // addons get their FetchContent/ExternalProject pins covered too)
+  const scan = new Set<string>([
+    ...cfg.dependencies.cmakeScan.repos,
+    ...cfg.repos.map((r) => r.slug),
+  ]);
+  for (const slug of scan) {
     const tree = await workTree(slug);
     if (!tree) continue;
     const files = walkCMake(tree);
