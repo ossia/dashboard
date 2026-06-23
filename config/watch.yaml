@@ -52,7 +52,11 @@ matrixCoverage:
   - debian
   - fedora
 
-# Repology projects to ingest (downstream packaging freshness).
+# Repology projects to ingest (downstream packaging freshness). Names are
+# repology project slugs (the last path segment of repology.org/project/<slug>).
+# A slug with no downstream packages simply renders as "no data".
 repology:
   - ossia-score
   - libossia
+  - libremidi
+  - avendish
