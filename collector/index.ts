@@ -3,7 +3,7 @@
 
 import { mkdirSync, writeFileSync } from "node:fs";
 import { loadConfig, daysAgo } from "./lib/config.ts";
-import { discoverOrgRepos, mergeRepos } from "./lib/discover.ts";
+import { archivedRepos, discoverOrgRepos, mergeRepos } from "./lib/discover.ts";
 import { commitDate, lsRemote } from "./lib/git.ts";
 import type { SectionMeta, Snapshot } from "./lib/types.ts";
 import { buildAttention, rollupRepoCounts } from "./lib/severity.ts";
@@ -19,11 +19,20 @@ const cfg = loadConfig();
 const t0 = Date.now();
 
 // expand `orgs:` globs (e.g. ossia/score-addon-*) into concrete repos
-const discovered = await discoverOrgRepos(cfg.orgs);
+const discovered = await discoverOrgRepos(cfg.orgs, cfg.ignoreArchived);
 if (discovered.length > 0) {
   const before = cfg.repos.length;
   cfg.repos = mergeRepos(cfg.repos, discovered);
   console.log(`discovered ${cfg.repos.length - before} repos from orgs (${cfg.repos.length} tracked total)`);
+}
+
+// drop archived repositories (explicit list + anything discovery let through)
+if (cfg.ignoreArchived) {
+  const archived = await archivedRepos(cfg.repos.map((r) => r.slug));
+  if (archived.size > 0) {
+    cfg.repos = cfg.repos.filter((r) => !archived.has(r.slug));
+    console.log(`ignoring ${archived.size} archived repos: ${[...archived].join(", ")}`);
+  }
 }
 
 function liveMeta(): SectionMeta {

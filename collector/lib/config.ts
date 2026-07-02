@@ -53,6 +53,7 @@ export interface DependenciesConfig {
 export interface Config {
   repos: RepoConfig[];
   orgs: OrgDiscovery[];
+  ignoreArchived: boolean;
   releaseSources: string[];
   watches: FileWatch[];
   imageProducts: Record<string, string>;
@@ -80,6 +81,7 @@ export function loadConfig(): Config {
   const repos = load<{
     repos: RepoConfig[];
     orgs?: OrgDiscovery[];
+    ignoreArchived?: boolean;
     releaseSources?: string[];
   }>("repos.yaml");
   const watch = load<{
@@ -94,6 +96,7 @@ export function loadConfig(): Config {
   return {
     repos: repos.repos,
     orgs: repos.orgs ?? [],
+    ignoreArchived: repos.ignoreArchived ?? true,
     releaseSources: repos.releaseSources ?? [],
     watches: watch.watches,
     imageProducts: watch.imageProducts,

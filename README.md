@@ -108,6 +108,8 @@ Instead of listing dozens of repos by hand, expand a name glob across an org. In
 `config/repos.yaml`:
 
 ```yaml
+ignoreArchived: true        # global (default true): archived repos are ignored
+                            # everywhere — explicit list and discovery alike
 orgs:
   - org: ossia
     include:
@@ -115,13 +117,18 @@ orgs:
       - "ossia-*"
     exclude:
       - "*-deprecated"
-    includeArchived: false  # default false; archived repos are skipped
+    includeArchived: true   # optional per-org override of the global setting
 ```
 
 At collect time the GitHub API is queried and every matching repo is added to the
 tracked set (deduped against the explicit `repos:` list). **This needs a token**
 (`GITHUB_TOKEN`); without one it is silently skipped and only the explicit list is
 used. Private repos appear only if the token can see them.
+
+Archived repositories are dropped from the tracked set globally
+(`ignoreArchived: true`, the default) — both discovered ones and any that end up
+in the explicit `repos:` list. Set it to `false`, or a specific org's
+`includeArchived: true`, to keep them.
 
 > Cost note: each discovered repo is cloned (shallow) and ls-remoted by the
 > collectors. The `.gitcache` makes subsequent runs cheap, but the first run after

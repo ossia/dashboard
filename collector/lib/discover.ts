@@ -5,6 +5,19 @@
 // it is a no-op and only the explicit `repos:` list is used.
 
 import type { OrgDiscovery, RepoConfig } from "./config.ts";
+import { pmap } from "./git.ts";
+
+function token(): string | undefined {
+  return process.env.GITHUB_TOKEN ?? process.env.GH_TOKEN;
+}
+
+function apiHeaders(t: string) {
+  return {
+    authorization: `bearer ${t}`,
+    accept: "application/vnd.github+json",
+    "user-agent": "ossia-dashboard",
+  };
+}
 
 function globToRe(glob: string): RegExp {
   const body = glob.replace(/[.+^${}()|[\]\\]/g, "\\$&").replace(/\*/g, ".*").replace(/\?/g, ".");
@@ -18,22 +31,22 @@ interface ApiRepo {
   fork: boolean;
 }
 
-export async function discoverOrgRepos(orgs: OrgDiscovery[]): Promise<string[]> {
+export async function discoverOrgRepos(
+  orgs: OrgDiscovery[],
+  ignoreArchived: boolean,
+): Promise<string[]> {
   if (orgs.length === 0) return [];
-  const token = process.env.GITHUB_TOKEN ?? process.env.GH_TOKEN;
-  if (!token) {
+  const t = token();
+  if (!t) {
     console.warn("org discovery skipped (no GITHUB_TOKEN); using explicit repo list only");
     return [];
   }
-  const headers = {
-    authorization: `bearer ${token}`,
-    accept: "application/vnd.github+json",
-    "user-agent": "ossia-dashboard",
-  };
+  const headers = apiHeaders(t);
   const found = new Set<string>();
   for (const o of orgs) {
     const inc = (o.include ?? ["*"]).map(globToRe);
     const exc = (o.exclude ?? []).map(globToRe);
+    const skipArchived = ignoreArchived && !o.includeArchived;
     for (let page = 1; page <= 20; page++) {
       let arr: ApiRepo[];
       try {
@@ -52,7 +65,7 @@ export async function discoverOrgRepos(orgs: OrgDiscovery[]): Promise<string[]> 
       }
       if (arr.length === 0) break;
       for (const r of arr) {
-        if (r.archived && !o.includeArchived) continue;
+        if (r.archived && skipArchived) continue;
         if (!inc.some((re) => re.test(r.name))) continue;
         if (exc.some((re) => re.test(r.name))) continue;
         found.add(r.full_name);
@@ -61,6 +74,28 @@ export async function discoverOrgRepos(orgs: OrgDiscovery[]): Promise<string[]> 
     }
   }
   return [...found];
+}
+
+/**
+ * Which of the given repos are archived on GitHub. Needs a token; returns an
+ * empty set (nothing dropped) without one, so behaviour is unchanged offline.
+ */
+export async function archivedRepos(slugs: string[]): Promise<Set<string>> {
+  const t = token();
+  if (!t || slugs.length === 0) return new Set();
+  const headers = apiHeaders(t);
+  const archived = new Set<string>();
+  await pmap(slugs, 8, async (slug) => {
+    try {
+      const res = await fetch(`https://api.github.com/repos/${slug}`, { headers });
+      if (!res.ok) return;
+      const j = (await res.json()) as { archived?: boolean };
+      if (j.archived) archived.add(slug);
+    } catch {
+      /* leave it tracked on error */
+    }
+  });
+  return archived;
 }
 
 /** Merge discovered slugs into the explicit repo list, de-duplicated. */
