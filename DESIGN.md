@@ -160,6 +160,7 @@ Pages — `/` is the unified visualization, the rest are drill-downs:
 | `/actions` | action version matrix + mutable-ref flags |
 | `/environments` | runners, container images, Dockerfile.llvm, fetch-sdk.sh, distro EOL timeline |
 | `/packaging` | repology per-distro freshness |
+| `/updates` | proposed dependency-bump PRs (dry run from the inventory; `apply-updates` opens them) |
 
 ## CI (`.github/workflows/build.yml`)
 

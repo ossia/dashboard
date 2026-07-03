@@ -1,0 +1,22 @@
+{
+ "generatedAt": "2026-07-03T02:42:40.945Z",
+ "enabled": true,
+ "proposals": [
+  {
+   "repo": "sat-mtl/carto-tcp-avendish",
+   "source": "cmake-fetchcontent",
+   "name": "avendish",
+   "file": "CMakeLists.txt",
+   "upstream": "celtera/avendish",
+   "kind": "sha",
+   "currentRef": "11a6ae1b404b24bfec0e2841751eee3bc21cb60d",
+   "targetRef": "82c034b865efe7eb2bd74f14ae6ec30ed027948d",
+   "targetDisplay": "82c034b865ef (main)",
+   "behindCommits": 143,
+   "behindDays": 30,
+   "branch": "chore/bump-carto-tcp-avendish/avendish",
+   "title": "chore(deps): bump avendish to 82c034b865ef (main)",
+   "compareUrl": "https://github.com/celtera/avendish/compare/11a6ae1b404b24bfec0e2841751eee3bc21cb60d...82c034b865efe7eb2bd74f14ae6ec30ed027948d"
+  }
+ ]
+}

@@ -163,6 +163,29 @@ export interface AttentionItem {
   severity: Severity;
 }
 
+export interface UpdateProposal {
+  repo: string; // repo the pin lives in (where the PR would be opened)
+  source: DependencySource;
+  name: string;
+  file: string;
+  upstream: string;
+  kind: "version" | "sha";
+  currentRef: string; // what is pinned now
+  targetRef: string; // what to bump to (tag name or full sha)
+  targetDisplay: string; // human label for the target
+  behindCommits: number | null;
+  behindDays: number | null;
+  branch: string; // stable, idempotent branch name
+  title: string;
+  compareUrl: string | null;
+}
+
+export interface UpdatePlan {
+  generatedAt: string;
+  enabled: boolean;
+  proposals: UpdateProposal[];
+}
+
 export interface Snapshot {
   schemaVersion: 1;
   generatedAt: string;

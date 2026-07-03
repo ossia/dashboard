@@ -1,0 +1,67 @@
+---
+import Layout from "../components/Layout.astro";
+import { updatePlan, snapshot } from "../lib/snapshot.ts";
+
+const byRepo = new Map<string, typeof updatePlan.proposals>();
+for (const p of updatePlan.proposals) {
+  const list = byRepo.get(p.repo) ?? [];
+  list.push(p);
+  byRepo.set(p.repo, list);
+}
+const repos = [...byRepo.keys()].sort();
+---
+
+<Layout title="updates" active="updates">
+  <h1>proposed dependency updates</h1>
+  <p class="note">
+    {updatePlan.enabled
+      ? `${updatePlan.proposals.length} bump${updatePlan.proposals.length === 1 ? "" : "s"} proposed across ${repos.length} repositories.`
+      : "Update proposals are disabled (config/updates.yaml → enabled: false)."}
+    This is a <strong>dry run</strong>: it opens no PRs. Each row is a concrete
+    edit — bump the pin in <code>file</code> from <code>current</code> to
+    <code>target</code>. To actually open the PRs, run
+    <code>npm run apply-updates -- --apply</code> with a write-scoped token; each
+    proposal maps to one idempotent PR on branch <code>branch</code>.
+    Submodules and <code>deps.yaml</code> are handled by Renovate, not here.
+  </p>
+
+  {updatePlan.proposals.length === 0 && updatePlan.enabled && (
+    <p class="note">Everything in scope is up to date. Nothing to propose.</p>
+  )}
+
+  {repos.map((repo) => (
+    <>
+      <h2 class="mono">{repo}</h2>
+      <table class="data">
+        <thead>
+          <tr>
+            <th>dep</th><th>source</th><th>file</th><th>current</th>
+            <th>target</th><th>behind</th><th>branch</th>
+          </tr>
+        </thead>
+        <tbody>
+          {byRepo.get(repo)!.map((p) => (
+            <tr>
+              <td><a href={`https://github.com/${p.upstream}`}>{p.name}</a></td>
+              <td class="mono">{p.source}</td>
+              <td class="mono">{p.file}</td>
+              <td class="mono">
+                {p.compareUrl
+                  ? <a href={p.compareUrl}>{p.currentRef.length > 12 ? p.currentRef.slice(0, 12) : p.currentRef}</a>
+                  : (p.currentRef.length > 12 ? p.currentRef.slice(0, 12) : p.currentRef)}
+              </td>
+              <td class="mono">{p.targetDisplay}</td>
+              <td class="num">{p.behindCommits ?? "—"}</td>
+              <td class="mono">{p.branch}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </>
+  ))}
+
+  <p class="note">
+    Generated {snapshot.generatedAt.slice(0, 16).replace("T", " ")}Z from the
+    dependency inventory.
+  </p>
+</Layout>

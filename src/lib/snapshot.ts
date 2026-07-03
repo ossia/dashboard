@@ -1,7 +1,9 @@
-import type { Snapshot, Severity } from "../../collector/lib/types.ts";
+import type { Snapshot, Severity, UpdatePlan } from "../../collector/lib/types.ts";
 import raw from "../../data/snapshot.json";
+import planRaw from "../../data/update-plan.json";
 
 export const snapshot = raw as unknown as Snapshot;
+export const updatePlan = planRaw as unknown as UpdatePlan;
 export type { Severity };
 
 export const sevRank: Record<Severity, number> = { ok: 0, info: 1, warn: 2, crit: 3 };

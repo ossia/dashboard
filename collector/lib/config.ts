@@ -50,6 +50,13 @@ export interface DependenciesConfig {
   vcpkg: { repos: string[] };
 }
 
+export interface UpdatesConfig {
+  enabled: boolean;
+  ourUpstreams: string[];
+  sources: string[];
+  branchPrefix: string;
+}
+
 export interface Config {
   repos: RepoConfig[];
   orgs: OrgDiscovery[];
@@ -60,6 +67,7 @@ export interface Config {
   matrixCoverage: string[];
   repology: string[];
   dependencies: DependenciesConfig;
+  updates: UpdatesConfig;
   thresholds: Thresholds;
   ignore: { match: string; reason: string }[];
 }
@@ -91,6 +99,7 @@ export function loadConfig(): Config {
     repology: string[];
   }>("watch.yaml");
   const dependencies = load<DependenciesConfig>("dependencies.yaml");
+  const updates = load<Partial<UpdatesConfig>>("updates.yaml");
   const thresholds = load<Thresholds>("thresholds.yaml");
   const ignore = load<{ ignore: { match: string; reason: string }[] }>("ignore.yaml");
   return {
@@ -102,6 +111,12 @@ export function loadConfig(): Config {
     imageProducts: watch.imageProducts,
     matrixCoverage: watch.matrixCoverage,
     repology: watch.repology,
+    updates: {
+      enabled: updates.enabled ?? false,
+      ourUpstreams: updates.ourUpstreams ?? [],
+      sources: updates.sources ?? [],
+      branchPrefix: updates.branchPrefix ?? "chore/bump-",
+    },
     dependencies: {
       versionFiles: dependencies.versionFiles ?? [],
       cmakeScan: dependencies.cmakeScan ?? { repos: [] },

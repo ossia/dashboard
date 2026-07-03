@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "collect": "tsx collector/index.ts",
+    "apply-updates": "tsx scripts/apply-updates.ts",
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",

@@ -7,6 +7,7 @@ import { archivedRepos, discoverOrgRepos, mergeRepos } from "./lib/discover.ts";
 import { commitDate, lsRemote } from "./lib/git.ts";
 import type { SectionMeta, Snapshot } from "./lib/types.ts";
 import { buildAttention, rollupRepoCounts } from "./lib/severity.ts";
+import { buildUpdatePlan } from "./updater/plan.ts";
 import { collectSubmodules } from "./collect/submodules.ts";
 import { collectDependencies } from "./collect/dependencies.ts";
 import { collectPRs } from "./collect/prs.ts";
@@ -144,6 +145,11 @@ rollupRepoCounts(snapshot);
 
 mkdirSync("data", { recursive: true });
 writeFileSync("data/snapshot.json", JSON.stringify(snapshot, null, 1) + "\n");
+
+// update proposals (dry-run plan; opens nothing — see scripts/apply-updates.ts)
+const plan = buildUpdatePlan(cfg, snapshot.dependencies, snapshot.generatedAt);
+writeFileSync("data/update-plan.json", JSON.stringify(plan, null, 1) + "\n");
+console.log(`update plan: ${plan.proposals.length} proposed bumps (enabled=${plan.enabled})`);
 
 const stale = daysAgo(snapshot.generatedAt);
 void stale;

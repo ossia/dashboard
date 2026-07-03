@@ -78,6 +78,7 @@ a config edit, not code.** Each recipe below is self-contained.
 |---|---|
 | `config/repos.yaml` | which repositories are tracked + dynamic org discovery |
 | `config/dependencies.yaml` | non-submodule dependency sources (version files, CMake scan, vcpkg) |
+| `config/updates.yaml` | automated update-PR scope (which sources/upstreams get bump proposals) |
 | `config/watch.yaml` | watched file pins, CI image→EOL mapping, matrix coverage, Repology projects |
 | `config/thresholds.yaml` | severity thresholds |
 | `config/ignore.yaml` | silenced findings (false positives) |
@@ -341,6 +342,84 @@ tagged with such words, that's the one case needing a code tweak in
 `collector/lib/git.ts` (`versionKey`).
 
 ---
+
+## Automating update PRs
+
+The dashboard detects staleness; two complementary mechanisms turn that into PRs.
+
+### Renovate (recommended for standard pins)
+
+For anything Renovate can express — git submodules, `deps.yaml`, and standard
+CMake `FetchContent` version tags — let Renovate own the whole PR lifecycle
+(open, rebase, dedupe, respect closed PRs, group, schedule). It already runs on
+`score`'s `deps.yaml`. To cover a consumer that pins one of our libs via
+FetchContent, add a `customManager` in that repo's `renovate.json5`:
+
+```json5
+{
+  customManagers: [
+    {
+      // bump: FetchContent_Declare(avendish GIT_REPOSITORY .../avendish GIT_TAG <sha|tag>)
+      customType: "regex",
+      managerFilePatterns: ["/\\.cmake$/", "/CMakeLists\\.txt$/"],
+      matchStrings: [
+        "GIT_REPOSITORY\\s+\"?https://github.com/(?<depName>[\\w.-]+/[\\w.-]+?)\"?\\s+GIT_TAG\\s+(?<currentDigest>[0-9a-f]{7,40})",
+      ],
+      currentValueTemplate: "main",       // branch the sha tracks
+      datasourceTemplate: "git-refs",      // tracks branch HEAD → digest bumps
+    },
+  ],
+}
+```
+
+Use `datasourceTemplate: "github-tags"` (with `currentValue` capturing the tag)
+for version-tag pins instead of commit pins. This is the lowest-risk path: each
+consumer repo opts in and Renovate does the rest.
+
+### Snapshot-driven planner (for cross-repo release sweeps)
+
+Renovate can't coordinate *"our lib released → bump every consumer in one
+sweep"*, and it doesn't cover the non-standard pins the inventory finds. The
+dashboard already knows every pin, so it can. **`npm run collect` writes
+`data/update-plan.json`** and the **`/updates` page**: for each eligible outdated
+dependency, the exact bump (repo, file, current ref → target ref, idempotent
+branch). It opens nothing.
+
+Scope and behaviour are set in `config/updates.yaml`:
+
+```yaml
+enabled: true
+ourUpstreams:            # only bump consumers of libraries we release
+  - celtera/avendish
+  - celtera/libremidi
+  - ossia/libossia
+  - ossia/score
+sources:                 # editable single-line pins (submodules/deps.yaml → Renovate)
+  - cmake-fetchcontent
+  - cmake-externalproject
+  - cmake-url
+  - versions.sh
+branchPrefix: "chore/bump-"
+```
+
+Review the plan on `/updates`. When you want the PRs opened for real:
+
+```bash
+npm run apply-updates                 # dry run: prints intended edits, opens nothing
+GITHUB_TOKEN=<write-PAT> npm run apply-updates -- --apply
+```
+
+`apply-updates` opens **one idempotent PR per proposal** (stable branch per dep):
+re-runs advance the same PR rather than duplicating, an already-open PR's branch
+is refreshed in place, and a **closed** PR for that branch is respected (never
+reopened). The edit is a surgical replacement of the pinned ref in the pinned
+file; if the current ref isn't found verbatim, the proposal is skipped and
+reported rather than guessed at. It needs a token with write access to the
+target repos — wire it as a scheduled job only once you're happy with the plan.
+
+> Division of labour: **Renovate** for submodules + `deps.yaml` + standard
+> FetchContent; the **planner/apply step** for cross-repo sweeps of our own
+> libraries and the pins Renovate doesn't see.
 
 ## Secrets & permissions (CI)
 

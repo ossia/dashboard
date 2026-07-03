@@ -1,0 +1,35 @@
+# Automated dependency-update proposals.
+#
+# The planner (part of `npm run collect`) reads the dependency inventory and,
+# for every eligible OUTDATED dependency, computes a concrete bump: which repo,
+# which file, current ref -> target ref. It writes data/update-plan.json and the
+# /updates page. It opens NOTHING.
+#
+# Turning proposals into real PRs is a separate, opt-in step:
+#     GITHUB_TOKEN=<write-scoped PAT> npm run apply-updates -- --apply
+# which reads the same plan and opens one idempotent PR per proposal (stable
+# branch per dep, so re-runs update the existing PR instead of spamming).
+
+enabled: true
+
+# Restrict proposals to dependencies whose upstream is one of OURS — the
+# libraries we release and whose consumers we want to keep current. This is the
+# highest-value, lowest-risk starting scope. Leave empty to propose bumps for
+# ANY outdated dependency.
+ourUpstreams:
+  - celtera/avendish
+  - celtera/libremidi
+  - ossia/libossia
+  - ossia/score
+
+# Which inventory sources are file-editable single-line pins the apply step can
+# safely rewrite. Submodules and deps.yaml are intentionally excluded: Renovate
+# already owns those (git-submodules manager + the deps.yaml customManagers).
+sources:
+  - cmake-fetchcontent
+  - cmake-externalproject
+  - cmake-url
+  - versions.sh
+
+# Idempotent branch prefix for the PRs the apply step opens.
+branchPrefix: "chore/bump-"
