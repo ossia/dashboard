@@ -48,10 +48,10 @@ jobs:
       - name: Commit refreshed snapshot
         if: github.event_name != 'push'
         run: |
-          if ! git diff --quiet data/snapshot.json; then
+          if ! git diff --quiet data/snapshot.json data/update-plan.json; then
             git config user.name "dashboard-bot"
             git config user.email "actions@github.com"
-            git add data/snapshot.json
+            git add data/snapshot.json data/update-plan.json
             git commit -m "data: refresh snapshot"
             git push
           fi
