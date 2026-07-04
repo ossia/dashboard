@@ -1,23 +1,7 @@
 {
- "generatedAt": "2026-07-03T19:52:59.150Z",
+ "generatedAt": "2026-07-04T04:04:37.698Z",
  "enabled": true,
  "proposals": [
-  {
-   "repo": "ossia/score-addon-cv",
-   "source": "cmake-fetchcontent",
-   "name": "Avendish",
-   "file": "CMakeLists.txt",
-   "upstream": "celtera/avendish",
-   "kind": "sha",
-   "currentRef": "9b726a20292c87ea1327e0765e7d2ee8301ec7de",
-   "targetRef": "82c034b865efe7eb2bd74f14ae6ec30ed027948d",
-   "targetDisplay": "82c034b865ef (main)",
-   "behindCommits": 55,
-   "behindDays": 7,
-   "branch": "chore/bump-score-addon-cv/avendish",
-   "title": "chore(deps): bump Avendish to 82c034b865ef (main)",
-   "compareUrl": "https://github.com/celtera/avendish/compare/9b726a20292c87ea1327e0765e7d2ee8301ec7de...82c034b865efe7eb2bd74f14ae6ec30ed027948d"
-  },
   {
    "repo": "ossia/score-addon-librediffusion",
    "source": "cmake-fetchcontent",

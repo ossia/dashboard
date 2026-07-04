@@ -1,39 +1,39 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-07-03T19:52:59.150Z",
+ "generatedAt": "2026-07-04T04:04:37.698Z",
  "sections": {
   "repos": {
    "source": "live",
-   "collectedAt": "2026-07-03T19:52:13.917Z"
+   "collectedAt": "2026-07-04T04:04:06.094Z"
   },
   "submodules": {
    "source": "live",
-   "collectedAt": "2026-07-03T19:52:54.818Z"
+   "collectedAt": "2026-07-04T04:04:31.676Z"
   },
   "dependencies": {
    "source": "live",
-   "collectedAt": "2026-07-03T19:52:41.964Z"
+   "collectedAt": "2026-07-04T04:04:25.430Z"
   },
   "prs": {
    "source": "fixture",
-   "collectedAt": "2026-07-03T19:52:36.702Z",
+   "collectedAt": "2026-07-04T04:04:21.974Z",
    "error": "graphql sat-mtl/skills: Could not resolve to a Repository with the name 'sat-mtl/skills'."
   },
   "branches": {
    "source": "live",
-   "collectedAt": "2026-07-03T19:52:59.150Z"
+   "collectedAt": "2026-07-04T04:04:37.698Z"
   },
   "actions": {
    "source": "live",
-   "collectedAt": "2026-07-03T19:52:34.209Z"
+   "collectedAt": "2026-07-04T04:04:17.951Z"
   },
   "environments": {
    "source": "live",
-   "collectedAt": "2026-07-03T19:52:35.151Z"
+   "collectedAt": "2026-07-04T04:04:20.048Z"
   },
   "packaging": {
    "source": "live",
-   "collectedAt": "2026-07-03T19:52:34.168Z"
+   "collectedAt": "2026-07-04T04:04:18.862Z"
   }
  },
  "repos": [
@@ -122,7 +122,7 @@
     "branches": {
      "warn": 1,
      "crit": 0,
-     "info": 22
+     "info": 26
     },
     "actions": {
      "warn": 2,
@@ -150,7 +150,7 @@
     "branches": {
      "warn": 2,
      "crit": 0,
-     "info": 2
+     "info": 4
     },
     "actions": {
      "warn": 7,
@@ -162,13 +162,13 @@
   {
    "slug": "ossia/actions",
    "defaultBranch": "master",
-   "headSha": "1b817849d4d1ecfb750a415ebcc9bc39417e2df5",
-   "headDate": "2026-07-03T14:19:43-04:00",
+   "headSha": "b8cb0782efc70dad784b52e3110045ccc2cd8acb",
+   "headDate": "2026-07-03T17:11:15-04:00",
    "counts": {
     "branches": {
      "warn": 0,
      "crit": 0,
-     "info": 4
+     "info": 3
     },
     "actions": {
      "warn": 7,
@@ -180,8 +180,8 @@
   {
    "slug": "ossia/dashboard",
    "defaultBranch": "main",
-   "headSha": "492fb638d4df0ba7d18cea9f31ed80e268923a6e",
-   "headDate": "2026-07-03T14:33:59Z",
+   "headSha": "079797012708c446fc3c74b4cbe1c4f71e78923c",
+   "headDate": "2026-07-03T19:52:59Z",
    "counts": {
     "actions": {
      "warn": 2,
@@ -262,8 +262,8 @@
   {
    "slug": "ossia/score-addon-ndi",
    "defaultBranch": "main",
-   "headSha": "178ee67dcb076c9d3b11606b346347e5b59cf854",
-   "headDate": "2026-04-13T14:15:28-04:00",
+   "headSha": "5279250e00bb2201b44ff82dfe0eb803b2d9b45f",
+   "headDate": "2026-07-03T18:29:49-04:00",
    "counts": {
     "branches": {
      "warn": 0,
@@ -287,8 +287,8 @@
   {
    "slug": "ossia/score-addon-spat",
    "defaultBranch": "main",
-   "headSha": "a0f05b401d14cc19a6c1cf43b539e51f460cc7d1",
-   "headDate": "2022-06-22T11:21:33+02:00",
+   "headSha": "7d9fc66ff7c72801e05a9ef1fd72b9d1ba798f33",
+   "headDate": "2026-07-03T18:56:21-04:00",
    "counts": {
     "branches": {
      "warn": 8,
@@ -305,18 +305,18 @@
   {
    "slug": "ossia/score-addon-cv",
    "defaultBranch": "main",
-   "headSha": "067e02652331ed342a93e8508a7051d96ccbb652",
-   "headDate": "2026-06-25T11:58:12-04:00",
+   "headSha": "a7fa5823b2f08d26e4de058fada6a5fad181e6f9",
+   "headDate": "2026-07-03T18:58:31-04:00",
    "counts": {
     "dependencies": {
-     "warn": 2,
+     "warn": 1,
      "crit": 0,
      "info": 1
     },
     "branches": {
      "warn": 0,
      "crit": 0,
-     "info": 1
+     "info": 2
     },
     "actions": {
      "warn": 0,
@@ -328,8 +328,8 @@
   {
    "slug": "ossia/score-addon-jk",
    "defaultBranch": "main",
-   "headSha": "095bd62588f6dc821c952ca1d07eaf9b3dba0176",
-   "headDate": "2025-07-20T14:47:37-04:00",
+   "headSha": "4cde83d3824ebec2641e0da16f5bd315cac067f8",
+   "headDate": "2026-07-03T18:57:24-04:00",
    "counts": {
     "branches": {
      "warn": 0,
@@ -346,13 +346,13 @@
   {
    "slug": "ossia/score-addon-synthimi",
    "defaultBranch": "main",
-   "headSha": "a951e757a1efcde15eebc1de39a6fbe70be9acb7",
-   "headDate": "2025-09-07T19:37:35+02:00",
+   "headSha": "7545633a0076852157c2e7cf23c8a717ac8f5440",
+   "headDate": "2026-07-03T18:59:44-04:00",
    "counts": {
     "branches": {
      "warn": 1,
      "crit": 0,
-     "info": 2
+     "info": 1
     },
     "actions": {
      "warn": 1,
@@ -364,8 +364,8 @@
   {
    "slug": "ossia/score-addon-pico",
    "defaultBranch": "main",
-   "headSha": "f2ed4de79ca997668daa1348cedfd0ce02650a87",
-   "headDate": "2026-03-09T17:35:48-04:00",
+   "headSha": "9df33f40a98894694157678841b70e7a1a662e07",
+   "headDate": "2026-07-03T18:56:41-04:00",
    "counts": {
     "actions": {
      "warn": 1,
@@ -377,8 +377,8 @@
   {
    "slug": "ossia/score-addon-contextfree",
    "defaultBranch": "main",
-   "headSha": "746dca2e2795923daecc0286e9e7676c16f7d7f0",
-   "headDate": "2025-08-04T17:10:11-04:00",
+   "headSha": "cda0fe15b0e68e529932391fe95ef1e75952f2e4",
+   "headDate": "2026-07-03T18:58:56-04:00",
    "counts": {
     "submodules": {
      "warn": 1,
@@ -388,7 +388,7 @@
     "branches": {
      "warn": 0,
      "crit": 0,
-     "info": 1
+     "info": 2
     },
     "actions": {
      "warn": 2,
@@ -416,7 +416,7 @@
     "branches": {
      "warn": 3,
      "crit": 0,
-     "info": 0
+     "info": 2
     },
     "actions": {
      "warn": 0,
@@ -428,13 +428,18 @@
   {
    "slug": "ossia/score-addon-ultraleap",
    "defaultBranch": "master",
-   "headSha": "2de5cc172649c03aafa842d9d5877be7f66cb261",
-   "headDate": "2026-04-02T08:59:05-04:00",
+   "headSha": "a961ce65d02ecfe734991a463b2fc7e0b44f5790",
+   "headDate": "2026-07-03T18:55:50-04:00",
    "counts": {
     "submodules": {
      "warn": 1,
      "crit": 0,
      "info": 0
+    },
+    "branches": {
+     "warn": 0,
+     "crit": 0,
+     "info": 1
     },
     "actions": {
      "warn": 2,
@@ -446,8 +451,8 @@
   {
    "slug": "ossia/score-addon-ble",
    "defaultBranch": "master",
-   "headSha": "07760ef1019d0c66df16f3b22dce4d37e6b5ffe6",
-   "headDate": "2026-06-19T00:57:01-04:00",
+   "headSha": "664ecaf1c6e37d27b58ef471dc780f4e99115780",
+   "headDate": "2026-07-03T19:00:27-04:00",
    "counts": {
     "submodules": {
      "warn": 1,
@@ -457,7 +462,7 @@
     "branches": {
      "warn": 1,
      "crit": 0,
-     "info": 0
+     "info": 1
     },
     "actions": {
      "warn": 2,
@@ -469,14 +474,9 @@
   {
    "slug": "ossia/score-addon-onnx",
    "defaultBranch": "main",
-   "headSha": "73b819c52e1dfd578ab620910ff645f4cb9dd7e9",
-   "headDate": "2026-06-29T08:36:08-04:00",
+   "headSha": "13ae5f2786c2a9169be9bda064eef845378117f8",
+   "headDate": "2026-07-03T18:30:04-04:00",
    "counts": {
-    "submodules": {
-     "warn": 1,
-     "crit": 0,
-     "info": 0
-    },
     "dependencies": {
      "warn": 2,
      "crit": 0,
@@ -497,8 +497,8 @@
   {
    "slug": "ossia/score-addon-led",
    "defaultBranch": "master",
-   "headSha": "68d68e105a969b1829b50e4a6b39edaa6077db57",
-   "headDate": "2025-01-19T11:36:41-05:00",
+   "headSha": "b8cc36ddf912c7977fb1a4a7c7784254e7ba33de",
+   "headDate": "2026-07-03T18:30:54-04:00",
    "counts": {
     "branches": {
      "warn": 1,
@@ -515,8 +515,8 @@
   {
    "slug": "ossia/score-addon-spatgris",
    "defaultBranch": "main",
-   "headSha": "dc82200032286bf93d387eda81f86d952e758c7c",
-   "headDate": "2025-08-21T09:09:54-04:00",
+   "headSha": "7b1597dce8350b992854a84f8057f6499ba76464",
+   "headDate": "2026-07-03T18:56:10-04:00",
    "counts": {
     "actions": {
      "warn": 2,
@@ -528,8 +528,8 @@
   {
    "slug": "ossia/score-addon-hdf5",
    "defaultBranch": "master",
-   "headSha": "7c039ffb9252e6e71852d492a3b8e4d7234695f0",
-   "headDate": "2026-01-17T21:01:32-05:00",
+   "headSha": "3bed0e1b424eade2fe0eac300a0b4eb7aa0e4466",
+   "headDate": "2026-07-03T18:57:34-04:00",
    "counts": {
     "submodules": {
      "warn": 2,
@@ -539,7 +539,7 @@
     "branches": {
      "warn": 0,
      "crit": 0,
-     "info": 1
+     "info": 2
     },
     "actions": {
      "warn": 2,
@@ -559,6 +559,11 @@
      "crit": 0,
      "info": 0
     },
+    "branches": {
+     "warn": 0,
+     "crit": 0,
+     "info": 1
+    },
     "actions": {
      "warn": 1,
      "crit": 0,
@@ -569,8 +574,8 @@
   {
    "slug": "ossia/score-addon-ltc",
    "defaultBranch": "master",
-   "headSha": "181e086dfb21bce3fa277b73c0e4aaac47307341",
-   "headDate": "2026-01-31T16:29:31-05:00",
+   "headSha": "9debbff78ee91c88cb148dd154c0fd74b68e92a4",
+   "headDate": "2026-07-03T18:29:34-04:00",
    "counts": {
     "branches": {
      "warn": 0,
@@ -587,8 +592,8 @@
   {
    "slug": "ossia/score-addon-deuterium",
    "defaultBranch": "master",
-   "headSha": "d707f563100f86bc4275309c7a84e6aa3fd8ae3a",
-   "headDate": "2025-10-05T12:48:35-04:00",
+   "headSha": "25e103d404d8246f41d48a5b23060afc0cf19f2c",
+   "headDate": "2026-07-03T18:57:49-04:00",
    "counts": {
     "actions": {
      "warn": 2,
@@ -600,14 +605,9 @@
   {
    "slug": "ossia/score-addon-airwindows",
    "defaultBranch": "master",
-   "headSha": "e6ab2b20e125b515dda4561881fe95b994b0a5a3",
-   "headDate": "2026-01-31T16:28:34-05:00",
+   "headSha": "0be5fae1eef3e5e0c1e3aec3fb5055626bbaafe4",
+   "headDate": "2026-07-03T19:00:34-04:00",
    "counts": {
-    "submodules": {
-     "warn": 1,
-     "crit": 0,
-     "info": 0
-    },
     "actions": {
      "warn": 0,
      "crit": 0,
@@ -625,6 +625,11 @@
      "warn": 1,
      "crit": 0,
      "info": 0
+    },
+    "branches": {
+     "warn": 0,
+     "crit": 0,
+     "info": 1
     }
    }
   },
@@ -638,20 +643,20 @@
      "warn": 1,
      "crit": 0,
      "info": 0
+    },
+    "branches": {
+     "warn": 0,
+     "crit": 0,
+     "info": 1
     }
    }
   },
   {
    "slug": "ossia/score-addon-librediffusion",
    "defaultBranch": "master",
-   "headSha": "dfee4b6b680ee0d2312c767f4226cab1dc94dbe8",
-   "headDate": "2026-06-25T21:36:11-04:00",
+   "headSha": "415353edf64d13d2df56f8554bfeb1145c2beec9",
+   "headDate": "2026-07-03T18:56:52-04:00",
    "counts": {
-    "submodules": {
-     "warn": 0,
-     "crit": 0,
-     "info": 1
-    },
     "dependencies": {
      "warn": 1,
      "crit": 0,
@@ -660,7 +665,7 @@
     "branches": {
      "warn": 0,
      "crit": 0,
-     "info": 2
+     "info": 3
     },
     "actions": {
      "warn": 0,
@@ -679,6 +684,11 @@
      "warn": 1,
      "crit": 0,
      "info": 0
+    },
+    "branches": {
+     "warn": 0,
+     "crit": 0,
+     "info": 1
     }
    }
   }
@@ -875,7 +885,7 @@
     "master"
    ],
    "behindCount": 3,
-   "behindDays": 641.0784143518517,
+   "behindDays": 641.0784143518518,
    "targetHeadSha": "3d2e82f8e6bff59c1d8b7a27491a29c2286b5206",
    "targetHeadDate": "2025-10-20T18:55:01+02:00",
    "severity": "crit",
@@ -1027,7 +1037,7 @@
     "master"
    ],
    "behindCount": 19,
-   "behindDays": 520.118912037037,
+   "behindDays": 520.1189120370369,
    "targetHeadSha": "43d2fe1b133cc9ded823fde6bd10560721a36e98",
    "targetHeadDate": "2024-03-20T12:15:56-04:00",
    "severity": "crit",
@@ -1086,10 +1096,10 @@
    "onDefaultBranch": false,
    "containingBranches": [
     "addon-standalone-base-target",
+    "avendish-ui",
     "combined/help-patches-and-td-verification",
     "feat/test-harness",
-    "feature/cpp26-reflection",
-    "feature/csound"
+    "feature/cpp26-reflection"
    ],
    "behindCount": 73,
    "behindDays": 14.589108796296296,
@@ -1097,7 +1107,7 @@
    "targetHeadDate": "2026-07-02T11:54:44-04:00",
    "severity": "warn",
    "notes": [
-    "pin not on 'main' (on: addon-standalone-base-target, combined/help-patches-and-td-verification, feat/test-harness, feature/cpp26-reflection, feature/csound)",
+    "pin not on 'main' (on: addon-standalone-base-target, avendish-ui, combined/help-patches-and-td-verification, feat/test-harness, feature/cpp26-reflection)",
     "73 commits / 15 days behind celtera/avendish@main"
    ]
   },
@@ -1155,7 +1165,7 @@
     "master"
    ],
    "behindCount": 2,
-   "behindDays": 11.861469907407407,
+   "behindDays": 11.861469907407404,
    "targetHeadSha": "32f203695dea0073722699890d8f3faca58ff9bb",
    "targetHeadDate": "2026-06-02T19:17:51+01:00",
    "severity": "info",
@@ -1327,7 +1337,7 @@
     "main"
    ],
    "behindCount": 1,
-   "behindDays": 292.84749999999997,
+   "behindDays": 292.8475,
    "targetHeadSha": "515f55df910369390428e1411205f7e669f15bd3",
    "targetHeadDate": "2026-05-10T11:10:56+02:00",
    "severity": "warn",
@@ -1387,7 +1397,7 @@
    "onDefaultBranch": false,
    "containingBranches": [],
    "behindCount": 2,
-   "behindDays": 52.4029976851852,
+   "behindDays": 52.40299768518517,
    "targetHeadSha": "3100c21f864aacbeece57a3bd93af340074f34cb",
    "targetHeadDate": "2026-04-07T20:20:53-04:00",
    "severity": "warn",
@@ -1431,7 +1441,7 @@
     "master"
    ],
    "behindCount": 30,
-   "behindDays": 149.06711805555554,
+   "behindDays": 149.06711805555557,
    "targetHeadSha": "01798fa032a4774602e9ec698e82f86735f2b483",
    "targetHeadDate": "2026-06-27T16:42:38+02:00",
    "severity": "warn",
@@ -1593,7 +1603,7 @@
     "v1.x"
    ],
    "behindCount": 3,
-   "behindDays": 13.732592592592592,
+   "behindDays": 13.732592592592594,
    "targetHeadSha": "8671ca4d492c8ee1cdfd3dd88afb9f88dd268178",
    "targetHeadDate": "2026-06-27T13:13:01+03:00",
    "severity": "info",
@@ -1615,7 +1625,7 @@
     "main"
    ],
    "behindCount": 11,
-   "behindDays": 17.523310185185185,
+   "behindDays": 17.52331018518519,
    "targetHeadSha": "b54093c658ae5656799756ec5d4467f49064929f",
    "targetHeadDate": "2026-07-03T10:39:09-07:00",
    "severity": "info",
@@ -1657,14 +1667,14 @@
     "stable",
     "v2.13"
    ],
-   "behindCount": 416,
-   "behindDays": 732.2538773148148,
-   "targetHeadSha": "db92ad940f143a48ba8c422d6bfee7f536f35e6d",
-   "targetHeadDate": "2026-06-29T00:38:56-04:00",
+   "behindCount": 417,
+   "behindDays": 736.9703935185186,
+   "targetHeadSha": "b57b4393ff92dfcea0da1b64eb359c8f900cbcec",
+   "targetHeadDate": "2026-07-03T14:50:43-07:00",
    "severity": "crit",
    "notes": [
     "pin not on 'master' (on: stable, v2.13)",
-    "416 commits / 2.0 years behind pybind/pybind11@master"
+    "417 commits / 2.0 years behind pybind/pybind11@master"
    ]
   },
   {
@@ -1860,10 +1870,12 @@
    "onDefaultBranch": true,
    "containingBranches": [
     "fix/freebsd",
-    "master"
+    "master",
+    "renovate/all",
+    "renovate/github-artifact-actions"
    ],
    "behindCount": 4,
-   "behindDays": 0.15468749999999787,
+   "behindDays": 0.15468750000000142,
    "targetHeadSha": "1c1c7ceeecd40e6c6072dc59bdd83ce1741dd57f",
    "targetHeadDate": "2026-06-01T22:52:44-04:00",
    "severity": "info",
@@ -1905,7 +1917,7 @@
     "master"
    ],
    "behindCount": 2,
-   "behindDays": 49.065312500000005,
+   "behindDays": 49.0653125,
    "targetHeadSha": "cd99e2cca5ccb48f8d000f1cd844424dcdbbaf59",
    "targetHeadDate": "2026-06-29T07:08:02+10:00",
    "severity": "info",
@@ -2030,7 +2042,7 @@
     "test3"
    ],
    "behindCount": 38,
-   "behindDays": 772.0351388888889,
+   "behindDays": 772.0351388888888,
    "targetHeadSha": "b5830af53bd1b3c7460a8de1e9f7095df99b3470",
    "targetHeadDate": "2026-05-19T22:56:15+02:00",
    "severity": "crit",
@@ -2054,7 +2066,7 @@
     "devel-use-delete-instead-of-static-assert-false"
    ],
    "behindCount": 204,
-   "behindDays": 524.7806944444444,
+   "behindDays": 524.7806944444445,
    "targetHeadSha": "675f9eaeb191c51b9d2ffb2bb198009533895051",
    "targetHeadDate": "2026-06-14T20:25:57+02:00",
    "severity": "crit",
@@ -2097,7 +2109,7 @@
     "stable"
    ],
    "behindCount": 22,
-   "behindDays": 191.05906249999998,
+   "behindDays": 191.0590625,
    "targetHeadSha": "3fdf85b01e10629ddb18a0a3ffd468d7f9cfa185",
    "targetHeadDate": "2026-06-26T15:23:56-06:00",
    "severity": "warn",
@@ -2135,7 +2147,7 @@
    "onDefaultBranch": false,
    "containingBranches": [],
    "behindCount": 2,
-   "behindDays": 17.317685185185155,
+   "behindDays": 17.317685185185383,
    "targetHeadSha": "2c5ea419d289398ee65aa30991d684c5466ed706",
    "targetHeadDate": "2022-01-29T19:31:38+01:00",
    "severity": "warn",
@@ -2218,7 +2230,7 @@
     "main"
    ],
    "behindCount": 3,
-   "behindDays": 78.36759259259259,
+   "behindDays": 78.36759259259262,
    "targetHeadSha": "972a15cedd008d846f1a39b2e88ce48d7f166cbd",
    "targetHeadDate": "2026-01-22T18:27:47-05:00",
    "severity": "warn",
@@ -2280,7 +2292,7 @@
     "master"
    ],
    "behindCount": 40,
-   "behindDays": 470.683738425926,
+   "behindDays": 470.6837384259259,
    "targetHeadSha": "36462bbc2f6637cc19567c3382d659286454d773",
    "targetHeadDate": "2026-04-01T10:40:43+02:00",
    "severity": "crit",
@@ -2301,7 +2313,7 @@
     "master"
    ],
    "behindCount": 73,
-   "behindDays": 626.8779745370371,
+   "behindDays": 626.877974537037,
    "targetHeadSha": "38451983070cbd9408d0ab5562776183cb9f07a8",
    "targetHeadDate": "2026-07-03T16:10:12+04:00",
    "severity": "crit",
@@ -2386,7 +2398,7 @@
     "v4"
    ],
    "behindCount": 1,
-   "behindDays": 104.92405092592591,
+   "behindDays": 104.92405092592593,
    "targetHeadSha": "5c62c4b3352c7d4c87ed3429d2329ddaf9b74df9",
    "targetHeadDate": "2026-06-02T11:22:51-04:00",
    "severity": "warn",
@@ -2555,7 +2567,7 @@
     "wip/ossia_device"
    ],
    "behindCount": 21,
-   "behindDays": 136.86921296296293,
+   "behindDays": 136.86921296296305,
    "targetHeadSha": "1a7961cea241e6893e86d720008502a631c622f7",
    "targetHeadDate": "2024-09-29T17:31:27-04:00",
    "severity": "warn",
@@ -2633,19 +2645,22 @@
    "path": "3rdparty/onnxruntime-extensions",
    "url": "https://github.com/ossia/onnxruntime-extensions.git",
    "targetRepo": "ossia/onnxruntime-extensions",
-   "pinnedSha": "b9652aa171e07f658bb5dab82b0441546669ff5e",
-   "pinnedDate": "2026-06-24T06:22:42-04:00",
+   "pinnedSha": "f6940f355009d9e29b08f3185191fa0ab9a8187f",
+   "pinnedDate": "2026-06-12T22:53:36Z",
    "targetDefaultBranch": "main",
-   "onDefaultBranch": false,
-   "containingBranches": [],
-   "behindCount": 70,
+   "onDefaultBranch": true,
+   "containingBranches": [
+    "asonawane/audio-decoder",
+    "fix-windows-libcxx-file_sys",
+    "fix/minja-missing-string-methods",
+    "main"
+   ],
+   "behindCount": 0,
    "behindDays": 0,
    "targetHeadSha": "f6940f355009d9e29b08f3185191fa0ab9a8187f",
    "targetHeadDate": "2026-06-12T22:53:36Z",
-   "severity": "warn",
-   "notes": [
-    "pin not reachable from any branch of ossia/onnxruntime-extensions"
-   ]
+   "severity": "ok",
+   "notes": []
   },
   {
    "parentRepo": "ossia/score-addon-hdf5",
@@ -2739,19 +2754,20 @@
    "path": "3rdparty/airwin2rack",
    "url": "https://github.com/jcelerier/airwin2rack",
    "targetRepo": "jcelerier/airwin2rack",
-   "pinnedSha": "4f58f31c4fa183cfeaa5e2ac2b48d7da3f97d003",
-   "pinnedDate": "2026-01-28T20:02:30Z",
+   "pinnedSha": "360ef65c449fa7b758015e93c67e27ccd1315f16",
+   "pinnedDate": "2025-10-25T15:53:08Z",
    "targetDefaultBranch": "main",
-   "onDefaultBranch": false,
-   "containingBranches": [],
+   "onDefaultBranch": true,
+   "containingBranches": [
+    "main",
+    "patch-1"
+   ],
    "behindCount": 0,
    "behindDays": 0,
    "targetHeadSha": "360ef65c449fa7b758015e93c67e27ccd1315f16",
    "targetHeadDate": "2025-10-25T15:53:08Z",
-   "severity": "warn",
-   "notes": [
-    "pin not reachable from any branch of jcelerier/airwin2rack"
-   ]
+   "severity": "ok",
+   "notes": []
   },
   {
    "parentRepo": "ossia/score-addon-lsl",
@@ -2857,21 +2873,19 @@
    "path": "3rdparty/librediffusion",
    "url": "https://github.com/jcelerier/librediffusion",
    "targetRepo": "jcelerier/librediffusion",
-   "pinnedSha": "b64f012f9d0c963407de0ae2e56cf26a9cc48dc0",
-   "pinnedDate": "2026-06-24T14:56:40-04:00",
+   "pinnedSha": "50de337a7e7fec4df7d0e5cc5e1cb4f60939952a",
+   "pinnedDate": "2026-06-25T11:10:35-04:00",
    "targetDefaultBranch": "main",
    "onDefaultBranch": true,
    "containingBranches": [
     "main"
    ],
-   "behindCount": 1,
-   "behindDays": 0.8429976851851855,
+   "behindCount": 0,
+   "behindDays": 0,
    "targetHeadSha": "50de337a7e7fec4df7d0e5cc5e1cb4f60939952a",
    "targetHeadDate": "2026-06-25T11:10:35-04:00",
-   "severity": "info",
-   "notes": [
-    "1 commits / 1 day behind jcelerier/librediffusion@main"
-   ]
+   "severity": "ok",
+   "notes": []
   },
   {
    "parentRepo": "ossia/score-addon-videoio",
@@ -4888,15 +4902,15 @@
    "tracksBranch": false,
    "latestTag": "v3.0.4",
    "latestTagDate": "2026-04-19T10:01:51+07:00",
-   "upstreamHeadSha": "db92ad940f143a48ba8c422d6bfee7f536f35e6d",
-   "upstreamHeadDate": "2026-06-29T00:38:56-04:00",
+   "upstreamHeadSha": "b57b4393ff92dfcea0da1b64eb359c8f900cbcec",
+   "upstreamHeadDate": "2026-07-03T14:50:43-07:00",
    "defaultBranch": "master",
    "pinnedRefName": "v3.0.4",
-   "behindMainCommits": 58,
-   "behindMainDays": 71,
+   "behindMainCommits": 59,
+   "behindMainDays": 76,
    "behindLatestCommits": 0,
-   "unreleasedCommits": 58,
-   "unreleasedDays": 71,
+   "unreleasedCommits": 59,
+   "unreleasedDays": 76,
    "outdated": false,
    "revived": false,
    "severity": "ok",
@@ -5486,14 +5500,14 @@
    "tracksBranch": false,
    "latestTag": "release-3.4.12",
    "latestTagDate": "2026-07-01T09:20:42-07:00",
-   "upstreamHeadSha": "ad86dc9811763fac4cc7300069856f6f37fcde91",
-   "upstreamHeadDate": "2026-07-03T09:23:33-07:00",
+   "upstreamHeadSha": "095e8999737419a82df7e321a33fd2d2141722a0",
+   "upstreamHeadDate": "2026-07-03T17:11:35-07:00",
    "defaultBranch": "main",
    "pinnedRefName": "release-2.32.10",
-   "behindMainCommits": 11306,
+   "behindMainCommits": 11317,
    "behindMainDays": 305,
    "behindLatestCommits": 10802,
-   "unreleasedCommits": 1091,
+   "unreleasedCommits": 1102,
    "unreleasedDays": 2,
    "outdated": true,
    "revived": false,
@@ -5515,14 +5529,14 @@
    "tracksBranch": false,
    "latestTag": "n8.1.2",
    "latestTagDate": "2026-06-17T04:33:35+02:00",
-   "upstreamHeadSha": "2f779272e061fbdf2725009f9e327c2f7a6b0a61",
-   "upstreamHeadDate": "2026-07-03T19:47:10Z",
+   "upstreamHeadSha": "6f2f3755a06bdab40028dd8bfcfe91e057aac845",
+   "upstreamHeadDate": "2026-07-04T02:39:08Z",
    "defaultBranch": "master",
    "pinnedRefName": "n8.1",
-   "behindMainCommits": 2180,
+   "behindMainCommits": 2182,
    "behindMainDays": 109,
    "behindLatestCommits": 240,
-   "unreleasedCommits": 2180,
+   "unreleasedCommits": 2182,
    "unreleasedDays": 17,
    "outdated": true,
    "revived": false,
@@ -5598,14 +5612,14 @@
    "tracksBranch": false,
    "latestTag": "llvmorg-22.1.8",
    "latestTagDate": "2026-06-15T22:33:53Z",
-   "upstreamHeadSha": "66ae5b8f699a31240a738311e4acc81ef3ce700b",
-   "upstreamHeadDate": "2026-07-03T21:39:55+02:00",
+   "upstreamHeadSha": "0f1f456263b5889935514ecf81440d0909d06dc7",
+   "upstreamHeadDate": "2026-07-03T20:08:59-04:00",
    "defaultBranch": "main",
    "pinnedRefName": "llvmorg-22.1.8",
-   "behindMainCommits": 21712,
+   "behindMainCommits": 21722,
    "behindMainDays": 18,
    "behindLatestCommits": 0,
-   "unreleasedCommits": 21712,
+   "unreleasedCommits": 21722,
    "unreleasedDays": 18,
    "outdated": false,
    "revived": false,
@@ -5654,14 +5668,14 @@
    "tracksBranch": false,
    "latestTag": "v6.11.1",
    "latestTagDate": "2026-05-07T15:36:32Z",
-   "upstreamHeadSha": "cdd4961eff988bbea40b67c8629ebab1a470391b",
-   "upstreamHeadDate": "2026-07-03T18:03:33Z",
+   "upstreamHeadSha": "45c1390881d2f4f25cf6ae9e23e4b71b889d50b7",
+   "upstreamHeadDate": "2026-07-03T20:49:36Z",
    "defaultBranch": "dev",
    "pinnedRefName": "v6.12.0-beta1",
-   "behindMainCommits": 756,
+   "behindMainCommits": 763,
    "behindMainDays": 32,
    "behindLatestCommits": 1122,
-   "unreleasedCommits": 3037,
+   "unreleasedCommits": 3044,
    "unreleasedDays": 57,
    "outdated": false,
    "revived": false,
@@ -5710,15 +5724,15 @@
    "tracksBranch": false,
    "latestTag": "v3.14.6",
    "latestTagDate": "2026-06-10T13:03:53+03:00",
-   "upstreamHeadSha": "423ae0ff36c6485f722e0fe3274124dc3df09862",
-   "upstreamHeadDate": "2026-07-03T18:11:16Z",
+   "upstreamHeadSha": "8b1dbb1754040ec9d24eec9f48a82e899ffcf8d9",
+   "upstreamHeadDate": "2026-07-03T19:07:29-07:00",
    "defaultBranch": "main",
    "pinnedRefName": "v3.13.14",
-   "behindMainCommits": 10064,
-   "behindMainDays": 23,
+   "behindMainCommits": 10067,
+   "behindMainDays": 24,
    "behindLatestCommits": 7328,
-   "unreleasedCommits": 5261,
-   "unreleasedDays": 23,
+   "unreleasedCommits": 5264,
+   "unreleasedDays": 24,
    "outdated": true,
    "revived": false,
    "severity": "info",
@@ -5739,15 +5753,15 @@
    "tracksBranch": false,
    "latestTag": "1.11.1",
    "latestTagDate": "2026-04-20T10:58:15-04:00",
-   "upstreamHeadSha": "d7ced03b42079e4fa4166ec2126e63e489038509",
-   "upstreamHeadDate": "2026-06-30T16:47:42+02:00",
+   "upstreamHeadSha": "16a4cd6e3070a463e2ff1fc57a1ed3ba82cdf612",
+   "upstreamHeadDate": "2026-07-04T00:10:31+03:00",
    "defaultBranch": "master",
    "pinnedRefName": "0.61.1",
-   "behindMainCommits": 5521,
-   "behindMainDays": 1626,
+   "behindMainCommits": 5523,
+   "behindMainDays": 1629,
    "behindLatestCommits": 4948,
-   "unreleasedCommits": 581,
-   "unreleasedDays": 71,
+   "unreleasedCommits": 583,
+   "unreleasedDays": 74,
    "outdated": true,
    "revived": false,
    "severity": "warn",
@@ -6142,14 +6156,14 @@
    "tracksBranch": false,
    "latestTag": "boost-1.91.0-1",
    "latestTagDate": "2026-04-23T20:50:44+03:00",
-   "upstreamHeadSha": "002c263b15cee649ef9f077fb4970c5991f82cea",
-   "upstreamHeadDate": "2026-07-03T16:07:10Z",
+   "upstreamHeadSha": "00501b9b7dd3f0deb96f9e5ff3b3723bc4f9322c",
+   "upstreamHeadDate": "2026-07-03T23:57:49Z",
    "defaultBranch": "master",
    "pinnedRefName": "boost-1.90.0",
-   "behindMainCommits": 425,
+   "behindMainCommits": 427,
    "behindMainDays": 212,
    "behindLatestCommits": 278,
-   "unreleasedCommits": 148,
+   "unreleasedCommits": 150,
    "unreleasedDays": 71,
    "outdated": true,
    "revived": false,
@@ -6224,27 +6238,24 @@
    "upstream": "celtera/avendish",
    "kind": "fork",
    "pinnedVersion": null,
-   "pinnedSha": "9b726a20292c87ea1327e0765e7d2ee8301ec7de",
-   "pinnedRef": "9b726a20292c87ea1327e0765e7d2ee8301ec7de",
+   "pinnedSha": "82c034b865efe7eb2bd74f14ae6ec30ed027948d",
+   "pinnedRef": "82c034b865efe7eb2bd74f14ae6ec30ed027948d",
    "tracksBranch": false,
    "latestTag": "v3.1",
    "latestTagDate": "2023-10-01T00:29:17-04:00",
    "upstreamHeadSha": "82c034b865efe7eb2bd74f14ae6ec30ed027948d",
    "upstreamHeadDate": "2026-07-02T11:54:44-04:00",
    "defaultBranch": "main",
-   "pinnedRefName": "9b726a20292c87ea1327e0765e7d2ee8301ec7de",
-   "behindMainCommits": 55,
-   "behindMainDays": 7,
+   "pinnedRefName": "82c034b865efe7eb2bd74f14ae6ec30ed027948d",
+   "behindMainCommits": 0,
+   "behindMainDays": 0,
    "behindLatestCommits": 0,
    "unreleasedCommits": 547,
    "unreleasedDays": 1005,
-   "outdated": true,
-   "revived": true,
-   "severity": "warn",
-   "notes": [
-    "upstream HEAD moved 7 days past our pin",
-    "upstream active again (last commit 2026-07-02)"
-   ]
+   "outdated": false,
+   "revived": false,
+   "severity": "ok",
+   "notes": []
   },
   {
    "name": "Eigen3cv",
@@ -6553,8 +6564,8 @@
    "draft": false,
    "createdAt": "2026-05-31T23:16:46Z",
    "updatedAt": "2026-06-06T16:35:17Z",
-   "ageDays": 32.9,
-   "idleDays": 27.1,
+   "ageDays": 33.2,
+   "idleDays": 27.5,
    "behindBase": 33,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -6571,8 +6582,8 @@
    "draft": false,
    "createdAt": "2026-05-21T19:59:34Z",
    "updatedAt": "2026-06-05T19:05:19Z",
-   "ageDays": 43,
-   "idleDays": 28,
+   "ageDays": 43.3,
+   "idleDays": 28.4,
    "behindBase": 48,
    "aheadOfBase": 7,
    "ciStatus": null,
@@ -6589,8 +6600,8 @@
    "draft": true,
    "createdAt": "2026-05-14T03:36:42Z",
    "updatedAt": "2026-06-11T00:12:35Z",
-   "ageDays": 50.7,
-   "idleDays": 22.8,
+   "ageDays": 51,
+   "idleDays": 23.2,
    "behindBase": 24,
    "aheadOfBase": 55,
    "ciStatus": null,
@@ -6607,8 +6618,8 @@
    "draft": false,
    "createdAt": "2026-04-21T08:17:30Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 73.5,
-   "idleDays": 35.7,
+   "ageDays": 73.8,
+   "idleDays": 36.1,
    "behindBase": 159,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -6625,8 +6636,8 @@
    "draft": false,
    "createdAt": "2026-04-20T03:05:16Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 74.7,
-   "idleDays": 35.7,
+   "ageDays": 75,
+   "idleDays": 36.1,
    "behindBase": 83,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -6643,8 +6654,8 @@
    "draft": false,
    "createdAt": "2026-04-02T12:57:29Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 92.3,
-   "idleDays": 35.7,
+   "ageDays": 92.6,
+   "idleDays": 36.1,
    "behindBase": 160,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -6661,8 +6672,8 @@
    "draft": false,
    "createdAt": "2026-03-07T01:30:39Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 118.8,
-   "idleDays": 35.7,
+   "ageDays": 119.1,
+   "idleDays": 36.1,
    "behindBase": 258,
    "aheadOfBase": 5,
    "ciStatus": null,
@@ -6679,8 +6690,8 @@
    "draft": false,
    "createdAt": "2026-03-01T23:03:06Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 123.9,
-   "idleDays": 35.7,
+   "ageDays": 124.2,
+   "idleDays": 36.1,
    "behindBase": 267,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -6697,8 +6708,8 @@
    "draft": false,
    "createdAt": "2026-02-28T01:26:20Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 125.8,
-   "idleDays": 35.7,
+   "ageDays": 126.1,
+   "idleDays": 36.1,
    "behindBase": 267,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -6715,8 +6726,8 @@
    "draft": false,
    "createdAt": "2026-02-23T05:46:50Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 130.6,
-   "idleDays": 35.7,
+   "ageDays": 130.9,
+   "idleDays": 36.1,
    "behindBase": 295,
    "aheadOfBase": 4,
    "ciStatus": null,
@@ -6733,8 +6744,8 @@
    "draft": false,
    "createdAt": "2026-02-14T19:53:19Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 139,
-   "idleDays": 35.7,
+   "ageDays": 139.3,
+   "idleDays": 36.1,
    "behindBase": 307,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -6751,8 +6762,8 @@
    "draft": false,
    "createdAt": "2026-01-28T00:56:46Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 156.8,
-   "idleDays": 35.7,
+   "ageDays": 157.1,
+   "idleDays": 36.1,
    "behindBase": 396,
    "aheadOfBase": 3,
    "ciStatus": null,
@@ -6769,8 +6780,8 @@
    "draft": false,
    "createdAt": "2026-01-25T21:05:19Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 158.9,
-   "idleDays": 35.7,
+   "ageDays": 159.3,
+   "idleDays": 36.1,
    "behindBase": 420,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -6787,8 +6798,8 @@
    "draft": false,
    "createdAt": "2026-01-21T06:07:25Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 163.6,
-   "idleDays": 35.7,
+   "ageDays": 163.9,
+   "idleDays": 36.1,
    "behindBase": 473,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -6805,8 +6816,8 @@
    "draft": false,
    "createdAt": "2026-01-21T06:05:56Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 163.6,
-   "idleDays": 35.7,
+   "ageDays": 163.9,
+   "idleDays": 36.1,
    "behindBase": 473,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -6823,8 +6834,8 @@
    "draft": false,
    "createdAt": "2026-01-11T03:43:42Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 173.7,
-   "idleDays": 35.7,
+   "ageDays": 174,
+   "idleDays": 36.1,
    "behindBase": 490,
    "aheadOfBase": 3,
    "ciStatus": null,
@@ -6841,8 +6852,8 @@
    "draft": false,
    "createdAt": "2025-11-01T02:39:20Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 244.7,
-   "idleDays": 35.7,
+   "ageDays": 245.1,
+   "idleDays": 36.1,
    "behindBase": 549,
    "aheadOfBase": 3,
    "ciStatus": null,
@@ -6859,8 +6870,8 @@
    "draft": false,
    "createdAt": "2025-07-13T19:01:19Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 355,
-   "idleDays": 35.7,
+   "ageDays": 355.4,
+   "idleDays": 36.1,
    "behindBase": 1086,
    "aheadOfBase": 2,
    "ciStatus": null,
@@ -6877,8 +6888,8 @@
    "draft": false,
    "createdAt": "2025-05-02T17:34:29Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 427.1,
-   "idleDays": 35.7,
+   "ageDays": 427.4,
+   "idleDays": 36.1,
    "behindBase": 1140,
    "aheadOfBase": 19,
    "ciStatus": null,
@@ -6895,8 +6906,8 @@
    "draft": false,
    "createdAt": "2025-04-21T20:15:12Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 438,
-   "idleDays": 35.7,
+   "ageDays": 438.3,
+   "idleDays": 36.1,
    "behindBase": 1176,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -6913,8 +6924,8 @@
    "draft": false,
    "createdAt": "2025-04-17T18:39:09Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 442.1,
-   "idleDays": 35.7,
+   "ageDays": 442.4,
+   "idleDays": 36.1,
    "behindBase": 1215,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -6931,8 +6942,8 @@
    "draft": false,
    "createdAt": "2025-04-04T04:12:09Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 455.7,
-   "idleDays": 35.7,
+   "ageDays": 456,
+   "idleDays": 36.1,
    "behindBase": 1295,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -6949,8 +6960,8 @@
    "draft": false,
    "createdAt": "2025-03-22T21:34:38Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 467.9,
-   "idleDays": 35.7,
+   "ageDays": 468.3,
+   "idleDays": 36.1,
    "behindBase": 1317,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -6967,8 +6978,8 @@
    "draft": false,
    "createdAt": "2025-02-06T17:47:49Z",
    "updatedAt": "2026-05-29T02:52:00Z",
-   "ageDays": 512.1,
-   "idleDays": 35.7,
+   "ageDays": 512.4,
+   "idleDays": 36.1,
    "behindBase": 549,
    "aheadOfBase": 4,
    "ciStatus": null,
@@ -6985,8 +6996,8 @@
    "draft": false,
    "createdAt": "2025-01-16T03:58:31Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 533.7,
-   "idleDays": 35.7,
+   "ageDays": 534,
+   "idleDays": 36.1,
    "behindBase": 976,
    "aheadOfBase": 6,
    "ciStatus": null,
@@ -7003,8 +7014,8 @@
    "draft": true,
    "createdAt": "2024-12-30T14:33:01Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 550.2,
-   "idleDays": 35.7,
+   "ageDays": 550.6,
+   "idleDays": 36.1,
    "behindBase": 976,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -7021,8 +7032,8 @@
    "draft": false,
    "createdAt": "2024-12-30T03:47:50Z",
    "updatedAt": "2026-06-02T23:37:44Z",
-   "ageDays": 550.7,
-   "idleDays": 30.8,
+   "ageDays": 551,
+   "idleDays": 31.2,
    "behindBase": 55,
    "aheadOfBase": 3,
    "ciStatus": null,
@@ -7039,8 +7050,8 @@
    "draft": false,
    "createdAt": "2024-12-24T22:59:38Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 555.9,
-   "idleDays": 35.7,
+   "ageDays": 556.2,
+   "idleDays": 36.1,
    "behindBase": 1538,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -7057,8 +7068,8 @@
    "draft": false,
    "createdAt": "2024-12-24T22:55:16Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 555.9,
-   "idleDays": 35.7,
+   "ageDays": 556.2,
+   "idleDays": 36.1,
    "behindBase": 1323,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -7075,8 +7086,8 @@
    "draft": false,
    "createdAt": "2024-12-24T19:04:13Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 556,
-   "idleDays": 35.7,
+   "ageDays": 556.4,
+   "idleDays": 36.1,
    "behindBase": 1538,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -7093,8 +7104,8 @@
    "draft": false,
    "createdAt": "2024-12-24T19:03:21Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 556,
-   "idleDays": 35.7,
+   "ageDays": 556.4,
+   "idleDays": 36.1,
    "behindBase": 1323,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -7111,8 +7122,8 @@
    "draft": false,
    "createdAt": "2024-12-01T17:48:05Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 579.1,
-   "idleDays": 35.7,
+   "ageDays": 579.4,
+   "idleDays": 36.1,
    "behindBase": 1538,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -7129,8 +7140,8 @@
    "draft": false,
    "createdAt": "2024-12-01T17:47:05Z",
    "updatedAt": "2026-05-29T02:52:00Z",
-   "ageDays": 579.1,
-   "idleDays": 35.7,
+   "ageDays": 579.4,
+   "idleDays": 36.1,
    "behindBase": 1323,
    "aheadOfBase": 3,
    "ciStatus": null,
@@ -7147,8 +7158,8 @@
    "draft": false,
    "createdAt": "2024-12-01T17:46:24Z",
    "updatedAt": "2026-05-29T02:52:00Z",
-   "ageDays": 579.1,
-   "idleDays": 35.7,
+   "ageDays": 579.4,
+   "idleDays": 36.1,
    "behindBase": 1323,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -7165,8 +7176,8 @@
    "draft": false,
    "createdAt": "2024-12-01T17:46:08Z",
    "updatedAt": "2026-05-29T02:52:00Z",
-   "ageDays": 579.1,
-   "idleDays": 35.7,
+   "ageDays": 579.4,
+   "idleDays": 36.1,
    "behindBase": 1538,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -7183,8 +7194,8 @@
    "draft": true,
    "createdAt": "2024-09-25T16:25:13Z",
    "updatedAt": "2026-05-29T02:52:00Z",
-   "ageDays": 646.1,
-   "idleDays": 35.7,
+   "ageDays": 646.5,
+   "idleDays": 36.1,
    "behindBase": 306,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -7201,8 +7212,8 @@
    "draft": false,
    "createdAt": "2023-02-14T12:39:55Z",
    "updatedAt": "2026-05-29T02:52:00Z",
-   "ageDays": 1235.3,
-   "idleDays": 35.7,
+   "ageDays": 1235.6,
+   "idleDays": 36.1,
    "behindBase": 2706,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -7219,8 +7230,8 @@
    "draft": false,
    "createdAt": "2022-05-10T15:30:38Z",
    "updatedAt": "2026-05-29T02:52:00Z",
-   "ageDays": 1515.2,
-   "idleDays": 35.7,
+   "ageDays": 1515.5,
+   "idleDays": 36.1,
    "behindBase": 3235,
    "aheadOfBase": 3,
    "ciStatus": null,
@@ -7237,8 +7248,8 @@
    "draft": false,
    "createdAt": "2021-08-19T08:02:14Z",
    "updatedAt": "2026-05-29T02:52:00Z",
-   "ageDays": 1779.5,
-   "idleDays": 35.7,
+   "ageDays": 1779.8,
+   "idleDays": 36.1,
    "behindBase": 3935,
    "aheadOfBase": 20,
    "ciStatus": null,
@@ -7255,8 +7266,8 @@
    "draft": false,
    "createdAt": "2021-08-18T12:22:47Z",
    "updatedAt": "2021-08-19T07:27:08Z",
-   "ageDays": 1780.3,
-   "idleDays": 1779.5,
+   "ageDays": 1780.7,
+   "idleDays": 1779.9,
    "behindBase": 0,
    "aheadOfBase": 9,
    "ciStatus": null,
@@ -7273,8 +7284,8 @@
    "draft": false,
    "createdAt": "2026-06-10T22:57:48Z",
    "updatedAt": "2026-06-10T22:57:48Z",
-   "ageDays": 22.9,
-   "idleDays": 22.9,
+   "ageDays": 23.2,
+   "idleDays": 23.2,
    "behindBase": 14,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -7291,8 +7302,8 @@
    "draft": false,
    "createdAt": "2026-06-10T06:11:45Z",
    "updatedAt": "2026-06-10T08:46:30Z",
-   "ageDays": 23.6,
-   "idleDays": 23.5,
+   "ageDays": 23.9,
+   "idleDays": 23.8,
    "behindBase": 14,
    "aheadOfBase": 4,
    "ciStatus": null,
@@ -7309,8 +7320,8 @@
    "draft": false,
    "createdAt": "2026-04-21T08:16:34Z",
    "updatedAt": "2026-05-29T19:50:59Z",
-   "ageDays": 73.5,
-   "idleDays": 35,
+   "ageDays": 73.8,
+   "idleDays": 35.3,
    "behindBase": 46,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -7327,8 +7338,8 @@
    "draft": false,
    "createdAt": "2026-03-24T08:58:00Z",
    "updatedAt": "2026-06-03T01:22:37Z",
-   "ageDays": 101.5,
-   "idleDays": 30.8,
+   "ageDays": 101.8,
+   "idleDays": 31.1,
    "behindBase": 31,
    "aheadOfBase": 11,
    "ciStatus": null,
@@ -7345,8 +7356,8 @@
    "draft": false,
    "createdAt": "2026-03-10T03:23:16Z",
    "updatedAt": "2026-03-10T03:23:16Z",
-   "ageDays": 115.7,
-   "idleDays": 115.7,
+   "ageDays": 116,
+   "idleDays": 116,
    "behindBase": 59,
    "aheadOfBase": 3,
    "ciStatus": null,
@@ -7363,8 +7374,8 @@
    "draft": false,
    "createdAt": "2026-03-10T03:20:39Z",
    "updatedAt": "2026-04-07T08:45:57Z",
-   "ageDays": 115.7,
-   "idleDays": 87.5,
+   "ageDays": 116,
+   "idleDays": 87.8,
    "behindBase": 47,
    "aheadOfBase": 6,
    "ciStatus": null,
@@ -7381,8 +7392,8 @@
    "draft": false,
    "createdAt": "2025-03-22T12:27:31Z",
    "updatedAt": "2026-03-02T20:12:25Z",
-   "ageDays": 468.3,
-   "idleDays": 123,
+   "ageDays": 468.7,
+   "idleDays": 123.3,
    "behindBase": 186,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -7399,8 +7410,8 @@
    "draft": false,
    "createdAt": "2025-03-22T12:23:17Z",
    "updatedAt": "2026-05-29T19:51:54Z",
-   "ageDays": 468.3,
-   "idleDays": 35,
+   "ageDays": 468.7,
+   "idleDays": 35.3,
    "behindBase": 46,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -7417,8 +7428,8 @@
    "draft": false,
    "createdAt": "2025-01-16T03:57:41Z",
    "updatedAt": "2026-05-29T19:51:58Z",
-   "ageDays": 533.7,
-   "idleDays": 35,
+   "ageDays": 534,
+   "idleDays": 35.3,
    "behindBase": 46,
    "aheadOfBase": 2,
    "ciStatus": null,
@@ -7435,8 +7446,8 @@
    "draft": false,
    "createdAt": "2023-02-14T12:44:06Z",
    "updatedAt": "2026-03-02T20:12:25Z",
-   "ageDays": 1235.3,
-   "idleDays": 123,
+   "ageDays": 1235.6,
+   "idleDays": 123.3,
    "behindBase": 640,
    "aheadOfBase": 2,
    "ciStatus": null,
@@ -7453,8 +7464,8 @@
    "draft": false,
    "createdAt": "2026-06-10T20:30:06Z",
    "updatedAt": "2026-06-10T20:30:06Z",
-   "ageDays": 23,
-   "idleDays": 23,
+   "ageDays": 23.3,
+   "idleDays": 23.3,
    "behindBase": 93,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -7471,8 +7482,8 @@
    "draft": false,
    "createdAt": "2025-01-04T22:06:58Z",
    "updatedAt": "2026-06-09T23:58:41Z",
-   "ageDays": 544.9,
-   "idleDays": 23.8,
+   "ageDays": 545.2,
+   "idleDays": 24.2,
    "behindBase": 156,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -7489,8 +7500,8 @@
    "draft": false,
    "createdAt": "2025-01-02T18:20:42Z",
    "updatedAt": "2026-06-09T23:58:41Z",
-   "ageDays": 547.1,
-   "idleDays": 23.8,
+   "ageDays": 547.4,
+   "idleDays": 24.2,
    "behindBase": 156,
    "aheadOfBase": 2,
    "ciStatus": null,
@@ -7507,8 +7518,8 @@
    "draft": false,
    "createdAt": "2024-12-24T15:13:11Z",
    "updatedAt": "2026-06-09T23:58:41Z",
-   "ageDays": 556.2,
-   "idleDays": 23.8,
+   "ageDays": 556.5,
+   "idleDays": 24.2,
    "behindBase": 724,
    "aheadOfBase": 2,
    "ciStatus": null,
@@ -7525,8 +7536,8 @@
    "draft": false,
    "createdAt": "2024-12-24T15:12:04Z",
    "updatedAt": "2026-06-09T23:58:41Z",
-   "ageDays": 556.2,
-   "idleDays": 23.8,
+   "ageDays": 556.5,
+   "idleDays": 24.2,
    "behindBase": 156,
    "aheadOfBase": 3,
    "ciStatus": null,
@@ -7543,8 +7554,8 @@
    "draft": true,
    "createdAt": "2024-12-17T17:46:00Z",
    "updatedAt": "2026-06-09T23:58:41Z",
-   "ageDays": 563.1,
-   "idleDays": 23.8,
+   "ageDays": 563.4,
+   "idleDays": 24.2,
    "behindBase": 352,
    "aheadOfBase": 3,
    "ciStatus": null,
@@ -7561,8 +7572,8 @@
    "draft": false,
    "createdAt": "2024-12-09T20:10:24Z",
    "updatedAt": "2026-06-09T23:58:41Z",
-   "ageDays": 571,
-   "idleDays": 23.8,
+   "ageDays": 571.3,
+   "idleDays": 24.2,
    "behindBase": 346,
    "aheadOfBase": 2,
    "ciStatus": null,
@@ -7579,8 +7590,8 @@
    "draft": false,
    "createdAt": "2024-12-09T20:10:16Z",
    "updatedAt": "2026-06-09T23:58:41Z",
-   "ageDays": 571,
-   "idleDays": 23.8,
+   "ageDays": 571.3,
+   "idleDays": 24.2,
    "behindBase": 355,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -7597,8 +7608,8 @@
    "draft": false,
    "createdAt": "2024-11-26T16:22:40Z",
    "updatedAt": "2026-06-09T23:58:41Z",
-   "ageDays": 584.1,
-   "idleDays": 23.8,
+   "ageDays": 584.5,
+   "idleDays": 24.2,
    "behindBase": 156,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -7615,8 +7626,8 @@
    "draft": false,
    "createdAt": "2024-11-26T16:22:07Z",
    "updatedAt": "2026-06-09T23:58:41Z",
-   "ageDays": 584.1,
-   "idleDays": 23.8,
+   "ageDays": 584.5,
+   "idleDays": 24.2,
    "behindBase": 367,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -7633,8 +7644,8 @@
    "draft": false,
    "createdAt": "2024-11-26T16:20:59Z",
    "updatedAt": "2026-06-09T23:58:42Z",
-   "ageDays": 584.1,
-   "idleDays": 23.8,
+   "ageDays": 584.5,
+   "idleDays": 24.2,
    "behindBase": 511,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -7651,8 +7662,8 @@
    "draft": false,
    "createdAt": "2022-04-22T15:13:20Z",
    "updatedAt": "2026-06-09T23:58:41Z",
-   "ageDays": 1533.2,
-   "idleDays": 23.8,
+   "ageDays": 1533.5,
+   "idleDays": 24.2,
    "behindBase": 775,
    "aheadOfBase": 4,
    "ciStatus": null,
@@ -7669,8 +7680,8 @@
    "draft": false,
    "createdAt": "2026-06-02T06:19:55Z",
    "updatedAt": "2026-06-02T16:17:13Z",
-   "ageDays": 31.6,
-   "idleDays": 31.1,
+   "ageDays": 31.9,
+   "idleDays": 31.5,
    "behindBase": 0,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -7687,8 +7698,8 @@
    "draft": false,
    "createdAt": "2026-03-30T14:09:50Z",
    "updatedAt": "2026-06-02T05:30:35Z",
-   "ageDays": 95.2,
-   "idleDays": 31.6,
+   "ageDays": 95.6,
+   "idleDays": 31.9,
    "behindBase": 0,
    "aheadOfBase": 4,
    "ciStatus": null,
@@ -7705,8 +7716,8 @@
    "draft": false,
    "createdAt": "2026-01-17T23:34:50Z",
    "updatedAt": "2026-01-17T23:34:50Z",
-   "ageDays": 166.8,
-   "idleDays": 166.8,
+   "ageDays": 167.2,
+   "idleDays": 167.2,
    "behindBase": 46,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -7723,8 +7734,8 @@
    "draft": true,
    "createdAt": "2025-05-30T17:03:07Z",
    "updatedAt": "2026-01-12T06:54:34Z",
-   "ageDays": 399.1,
-   "idleDays": 172.5,
+   "ageDays": 399.5,
+   "idleDays": 172.9,
    "behindBase": 130,
    "aheadOfBase": 14,
    "ciStatus": null,
@@ -7741,8 +7752,8 @@
    "draft": false,
    "createdAt": "2024-12-01T17:57:17Z",
    "updatedAt": "2026-01-12T06:54:34Z",
-   "ageDays": 579.1,
-   "idleDays": 172.5,
+   "ageDays": 579.4,
+   "idleDays": 172.9,
    "behindBase": 209,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -10209,6 +10220,19 @@
   },
   {
    "repo": "celtera/avendish",
+   "name": "avendish-ui",
+   "sha": "b96aa75d0c7259243b54427fac9b77973846a6c2",
+   "lastCommitDate": "2026-07-03T20:52:26-04:00",
+   "ahead": 32,
+   "aheadReal": 31,
+   "landedEquivalent": 0,
+   "behind": 0,
+   "hasPR": false,
+   "prNumber": null,
+   "severity": "info"
+  },
+  {
+   "repo": "celtera/avendish",
    "name": "avendishconfig-score-bootstrap",
    "sha": "711bcf1be44c9d6b4ba5625877209dd1f28c25f9",
    "lastCommitDate": "2026-06-10T20:21:46-04:00",
@@ -10677,6 +10701,19 @@
   },
   {
    "repo": "celtera/avendish",
+   "name": "fix/clap-conformance",
+   "sha": "c5d47aac4ffc7cd28439721b2fb6b22165688a07",
+   "lastCommitDate": "2026-07-03T18:23:34-04:00",
+   "ahead": 1,
+   "aheadReal": 1,
+   "landedEquivalent": 0,
+   "behind": 0,
+   "hasPR": false,
+   "prNumber": null,
+   "severity": "info"
+  },
+  {
+   "repo": "celtera/avendish",
    "name": "fix/clap-entry-symbol",
    "sha": "09ac34804732dcbb2e9eedc28b127e1336fc38f3",
    "lastCommitDate": "2026-07-03T09:00:33-04:00",
@@ -10704,10 +10741,10 @@
   {
    "repo": "celtera/avendish",
    "name": "fix/core-zero-filled-channels",
-   "sha": "90b1ee285e7ef63bb36d3fc455ba117de2de72ef",
-   "lastCommitDate": "2026-07-03T13:18:02-04:00",
-   "ahead": 8,
-   "aheadReal": 8,
+   "sha": "969ce306435d2bcbaf3666ba9544c59942f3758c",
+   "lastCommitDate": "2026-07-03T19:07:05-04:00",
+   "ahead": 14,
+   "aheadReal": 14,
    "landedEquivalent": 0,
    "behind": 0,
    "hasPR": false,
@@ -10775,6 +10812,19 @@
    "aheadReal": 4,
    "landedEquivalent": 1,
    "behind": 57,
+   "hasPR": false,
+   "prNumber": null,
+   "severity": "info"
+  },
+  {
+   "repo": "celtera/avendish",
+   "name": "fix/msvc-range-concept",
+   "sha": "58155888ff5b782ac9eb7c2022e73dd1e513d6d5",
+   "lastCommitDate": "2026-07-03T18:23:13-04:00",
+   "ahead": 1,
+   "aheadReal": 1,
+   "landedEquivalent": 0,
+   "behind": 0,
    "hasPR": false,
    "prNumber": null,
    "severity": "info"
@@ -10905,6 +10955,19 @@
    "aheadReal": 113,
    "landedEquivalent": 0,
    "behind": 970,
+   "hasPR": false,
+   "prNumber": null,
+   "severity": "info"
+  },
+  {
+   "repo": "celtera/avendish",
+   "name": "renovate/all",
+   "sha": "0d96728815ffd8db49abfafb9e681633b5a7f61e",
+   "lastCommitDate": "2026-07-03T21:12:39Z",
+   "ahead": 1,
+   "aheadReal": 1,
+   "landedEquivalent": 0,
+   "behind": 0,
    "hasPR": false,
    "prNumber": null,
    "severity": "info"
@@ -11080,6 +11143,32 @@
   },
   {
    "repo": "celtera/libremidi",
+   "name": "renovate/all",
+   "sha": "514604034ff95b4de7346ce9749e91f2c06f2efa",
+   "lastCommitDate": "2026-07-03T21:14:22Z",
+   "ahead": 1,
+   "aheadReal": 1,
+   "landedEquivalent": 0,
+   "behind": 0,
+   "hasPR": false,
+   "prNumber": null,
+   "severity": "info"
+  },
+  {
+   "repo": "celtera/libremidi",
+   "name": "renovate/github-artifact-actions",
+   "sha": "84226c66793a071c48c7c8856c514ca20626fbe5",
+   "lastCommitDate": "2026-07-03T21:14:27Z",
+   "ahead": 1,
+   "aheadReal": 1,
+   "landedEquivalent": 0,
+   "behind": 0,
+   "hasPR": false,
+   "prNumber": null,
+   "severity": "info"
+  },
+  {
+   "repo": "celtera/libremidi",
    "name": "v3",
    "sha": "db48a4d3c362c99356681ce98b2024e88cbb5ba9",
    "lastCommitDate": "2023-07-20T07:52:50-04:00",
@@ -11107,15 +11196,15 @@
   {
    "repo": "ossia/actions",
    "name": "chore/renovate-grouping",
-   "sha": "89d9a818866d59ad855e884c0b19dd921b59976a",
-   "lastCommitDate": "2026-07-03T15:19:57-04:00",
-   "ahead": 1,
-   "aheadReal": 1,
-   "landedEquivalent": 0,
-   "behind": 0,
+   "sha": "6e0d339607676093780868491ff2904f45f43dd6",
+   "lastCommitDate": "2026-07-03T15:52:42-04:00",
+   "ahead": 2,
+   "aheadReal": 0,
+   "landedEquivalent": 2,
+   "behind": 2,
    "hasPR": false,
    "prNumber": null,
-   "severity": "info"
+   "severity": "ok"
   },
   {
    "repo": "ossia/actions",
@@ -11125,7 +11214,7 @@
    "ahead": 2,
    "aheadReal": 2,
    "landedEquivalent": 0,
-   "behind": 2,
+   "behind": 4,
    "hasPR": false,
    "prNumber": null,
    "severity": "info"
@@ -11138,7 +11227,7 @@
    "ahead": 15,
    "aheadReal": 15,
    "landedEquivalent": 0,
-   "behind": 10,
+   "behind": 12,
    "hasPR": false,
    "prNumber": null,
    "severity": "info"
@@ -11151,7 +11240,7 @@
    "ahead": 1,
    "aheadReal": 0,
    "landedEquivalent": 1,
-   "behind": 20,
+   "behind": 22,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -11164,7 +11253,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 1,
+   "behind": 3,
    "hasPR": false,
    "prNumber": null,
    "severity": "info"
@@ -11177,7 +11266,7 @@
    "ahead": 1,
    "aheadReal": 0,
    "landedEquivalent": 1,
-   "behind": 15,
+   "behind": 17,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -11190,7 +11279,7 @@
    "ahead": 0,
    "aheadReal": 0,
    "landedEquivalent": null,
-   "behind": 3,
+   "behind": 4,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -11242,7 +11331,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 0,
+   "behind": 2,
    "hasPR": false,
    "prNumber": null,
    "severity": "info"
@@ -11255,7 +11344,7 @@
    "ahead": 1,
    "aheadReal": 0,
    "landedEquivalent": 1,
-   "behind": 12,
+   "behind": 14,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -11268,7 +11357,46 @@
    "ahead": 1,
    "aheadReal": 0,
    "landedEquivalent": 1,
+   "behind": 4,
+   "hasPR": false,
+   "prNumber": null,
+   "severity": "ok"
+  },
+  {
+   "repo": "ossia/score-addon-ndi",
+   "name": "renovate/all",
+   "sha": "c1673ed551df650755fd11fb7a7f20d2b393f6fc",
+   "lastCommitDate": "2026-07-03T21:20:41Z",
+   "ahead": 1,
+   "aheadReal": 0,
+   "landedEquivalent": 1,
    "behind": 2,
+   "hasPR": false,
+   "prNumber": null,
+   "severity": "ok"
+  },
+  {
+   "repo": "ossia/score-addon-ndi",
+   "name": "renovate/github-artifact-actions",
+   "sha": "f4ee7f91c3da1a52bcb2132f8cdaa48963b39e8e",
+   "lastCommitDate": "2026-07-03T21:20:44Z",
+   "ahead": 1,
+   "aheadReal": 0,
+   "landedEquivalent": 1,
+   "behind": 2,
+   "hasPR": false,
+   "prNumber": null,
+   "severity": "ok"
+  },
+  {
+   "repo": "ossia/score-addon-spat",
+   "name": "renovate/all",
+   "sha": "7ad140f5b4a995cda30ebc837d43a4477f4ab27a",
+   "lastCommitDate": "2026-07-03T21:21:57Z",
+   "ahead": 1,
+   "aheadReal": 0,
+   "landedEquivalent": 1,
+   "behind": 1,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -11281,7 +11409,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 7,
+   "behind": 8,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -11294,7 +11422,7 @@
    "ahead": 15,
    "aheadReal": 15,
    "landedEquivalent": 0,
-   "behind": 29,
+   "behind": 30,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -11307,7 +11435,7 @@
    "ahead": 9,
    "aheadReal": 8,
    "landedEquivalent": 0,
-   "behind": 4,
+   "behind": 5,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -11320,7 +11448,7 @@
    "ahead": 3,
    "aheadReal": 2,
    "landedEquivalent": 1,
-   "behind": 6,
+   "behind": 7,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -11333,7 +11461,7 @@
    "ahead": 3,
    "aheadReal": 3,
    "landedEquivalent": 0,
-   "behind": 1,
+   "behind": 2,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -11346,7 +11474,7 @@
    "ahead": 4,
    "aheadReal": 2,
    "landedEquivalent": 1,
-   "behind": 0,
+   "behind": 1,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -11359,7 +11487,7 @@
    "ahead": 4,
    "aheadReal": 2,
    "landedEquivalent": 1,
-   "behind": 0,
+   "behind": 1,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -11372,7 +11500,7 @@
    "ahead": 7,
    "aheadReal": 5,
    "landedEquivalent": 1,
-   "behind": 0,
+   "behind": 1,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -11385,7 +11513,7 @@
    "ahead": 1,
    "aheadReal": 0,
    "landedEquivalent": 1,
-   "behind": 6,
+   "behind": 7,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -11398,10 +11526,36 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
+   "behind": 2,
+   "hasPR": false,
+   "prNumber": null,
+   "severity": "info"
+  },
+  {
+   "repo": "ossia/score-addon-cv",
+   "name": "renovate/all",
+   "sha": "df6e45ec51736bd68db501bb4b93e46fc7f52494",
+   "lastCommitDate": "2026-07-03T21:18:12Z",
+   "ahead": 1,
+   "aheadReal": 1,
+   "landedEquivalent": 0,
    "behind": 1,
    "hasPR": false,
    "prNumber": null,
    "severity": "info"
+  },
+  {
+   "repo": "ossia/score-addon-cv",
+   "name": "renovate/avendish",
+   "sha": "73cda51d1bf1f60f2da4d069ac556f531424d292",
+   "lastCommitDate": "2026-07-03T21:18:09Z",
+   "ahead": 1,
+   "aheadReal": 0,
+   "landedEquivalent": 1,
+   "behind": 1,
+   "hasPR": false,
+   "prNumber": null,
+   "severity": "ok"
   },
   {
    "repo": "ossia/score-addon-jk",
@@ -11411,10 +11565,36 @@
    "ahead": 11,
    "aheadReal": 11,
    "landedEquivalent": 0,
-   "behind": 0,
+   "behind": 2,
    "hasPR": false,
    "prNumber": null,
    "severity": "info"
+  },
+  {
+   "repo": "ossia/score-addon-jk",
+   "name": "renovate/all",
+   "sha": "dc166bfcdfa319928dcf96e9a95ffd54778fa892",
+   "lastCommitDate": "2026-07-03T21:19:47Z",
+   "ahead": 1,
+   "aheadReal": 0,
+   "landedEquivalent": 1,
+   "behind": 2,
+   "hasPR": false,
+   "prNumber": null,
+   "severity": "ok"
+  },
+  {
+   "repo": "ossia/score-addon-jk",
+   "name": "renovate/github-artifact-actions",
+   "sha": "6749a3812f837d55643bf7ccdc1960e5680259ba",
+   "lastCommitDate": "2026-07-03T21:19:50Z",
+   "ahead": 1,
+   "aheadReal": 0,
+   "landedEquivalent": 1,
+   "behind": 2,
+   "hasPR": false,
+   "prNumber": null,
+   "severity": "ok"
   },
   {
    "repo": "ossia/score-addon-synthimi",
@@ -11422,12 +11602,12 @@
    "sha": "aebdee4d680578f9f2a14f1785d0d105255b90a8",
    "lastCommitDate": "2026-06-18T19:22:00-04:00",
    "ahead": 1,
-   "aheadReal": 1,
-   "landedEquivalent": 0,
-   "behind": 0,
+   "aheadReal": 0,
+   "landedEquivalent": 1,
+   "behind": 2,
    "hasPR": false,
    "prNumber": null,
-   "severity": "info"
+   "severity": "ok"
   },
   {
    "repo": "ossia/score-addon-synthimi",
@@ -11437,10 +11617,23 @@
    "ahead": 4,
    "aheadReal": 4,
    "landedEquivalent": 0,
-   "behind": 0,
+   "behind": 2,
    "hasPR": false,
    "prNumber": null,
    "severity": "info"
+  },
+  {
+   "repo": "ossia/score-addon-synthimi",
+   "name": "renovate/all",
+   "sha": "84d2bd3d82cb45872f3a8564e5e4c0d87938a976",
+   "lastCommitDate": "2026-07-03T21:22:15Z",
+   "ahead": 1,
+   "aheadReal": 0,
+   "landedEquivalent": 1,
+   "behind": 2,
+   "hasPR": false,
+   "prNumber": null,
+   "severity": "ok"
   },
   {
    "repo": "ossia/score-addon-synthimi",
@@ -11450,10 +11643,23 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 1,
+   "behind": 3,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
+  },
+  {
+   "repo": "ossia/score-addon-pico",
+   "name": "renovate/all",
+   "sha": "f39ad511e136abd33c88a54566764d7b90bae74a",
+   "lastCommitDate": "2026-07-03T21:21:27Z",
+   "ahead": 1,
+   "aheadReal": 0,
+   "landedEquivalent": 1,
+   "behind": 1,
+   "hasPR": false,
+   "prNumber": null,
+   "severity": "ok"
   },
   {
    "repo": "ossia/score-addon-contextfree",
@@ -11463,10 +11669,36 @@
    "ahead": 5,
    "aheadReal": 5,
    "landedEquivalent": 0,
-   "behind": 0,
+   "behind": 1,
    "hasPR": false,
    "prNumber": null,
    "severity": "info"
+  },
+  {
+   "repo": "ossia/score-addon-contextfree",
+   "name": "renovate/all",
+   "sha": "e291b6bc85f613992cb1cf6ca033e1c2e6781112",
+   "lastCommitDate": "2026-07-03T21:18:02Z",
+   "ahead": 1,
+   "aheadReal": 1,
+   "landedEquivalent": 0,
+   "behind": 1,
+   "hasPR": false,
+   "prNumber": null,
+   "severity": "info"
+  },
+  {
+   "repo": "ossia/score-addon-contextfree",
+   "name": "renovate/github-artifact-actions",
+   "sha": "2c0edc9ce2f7cf87c181c30b94c44769b8b9a225",
+   "lastCommitDate": "2026-07-03T21:17:55Z",
+   "ahead": 1,
+   "aheadReal": 0,
+   "landedEquivalent": 1,
+   "behind": 1,
+   "hasPR": false,
+   "prNumber": null,
+   "severity": "ok"
   },
   {
    "repo": "ossia/score-addon-puara",
@@ -11521,6 +11753,58 @@
    "severity": "warn"
   },
   {
+   "repo": "ossia/score-addon-puara",
+   "name": "renovate/all",
+   "sha": "7b47bbf36ca944d2e74506b4364751469a8cdbdf",
+   "lastCommitDate": "2026-07-03T21:21:36Z",
+   "ahead": 1,
+   "aheadReal": 1,
+   "landedEquivalent": 0,
+   "behind": 0,
+   "hasPR": false,
+   "prNumber": null,
+   "severity": "info"
+  },
+  {
+   "repo": "ossia/score-addon-puara",
+   "name": "renovate/avendish",
+   "sha": "a029eba17d3bd225c05fddf5eeda9232567c7c6e",
+   "lastCommitDate": "2026-07-03T21:21:39Z",
+   "ahead": 1,
+   "aheadReal": 1,
+   "landedEquivalent": 0,
+   "behind": 0,
+   "hasPR": false,
+   "prNumber": null,
+   "severity": "info"
+  },
+  {
+   "repo": "ossia/score-addon-ultraleap",
+   "name": "renovate/all",
+   "sha": "a01607d25fd8d7748ee87637f7af29dc309ce94d",
+   "lastCommitDate": "2026-07-03T21:22:39Z",
+   "ahead": 1,
+   "aheadReal": 1,
+   "landedEquivalent": 0,
+   "behind": 1,
+   "hasPR": false,
+   "prNumber": null,
+   "severity": "info"
+  },
+  {
+   "repo": "ossia/score-addon-ultraleap",
+   "name": "renovate/github-artifact-actions",
+   "sha": "74d3e7e089e12674b8858cbcc315fe44e2841c20",
+   "lastCommitDate": "2026-07-03T21:22:35Z",
+   "ahead": 1,
+   "aheadReal": 0,
+   "landedEquivalent": 1,
+   "behind": 1,
+   "hasPR": false,
+   "prNumber": null,
+   "severity": "ok"
+  },
+  {
    "repo": "ossia/score-addon-ble",
    "name": "feature/qtbluetooth",
    "sha": "ce332cfe66206bf23cb96670d906d01a5b9adfe6",
@@ -11528,10 +11812,36 @@
    "ahead": 3,
    "aheadReal": 3,
    "landedEquivalent": 0,
-   "behind": 1,
+   "behind": 2,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
+  },
+  {
+   "repo": "ossia/score-addon-ble",
+   "name": "renovate/all",
+   "sha": "d7a96c36cd42f8701a9ce6eb92e53b1b61f1740b",
+   "lastCommitDate": "2026-07-03T21:17:48Z",
+   "ahead": 1,
+   "aheadReal": 1,
+   "landedEquivalent": 0,
+   "behind": 1,
+   "hasPR": false,
+   "prNumber": null,
+   "severity": "info"
+  },
+  {
+   "repo": "ossia/score-addon-ble",
+   "name": "renovate/github-artifact-actions",
+   "sha": "a07e528c6895d9f0289132aed59bcaf2bcb879a3",
+   "lastCommitDate": "2026-07-03T21:17:42Z",
+   "ahead": 1,
+   "aheadReal": 0,
+   "landedEquivalent": 1,
+   "behind": 1,
+   "hasPR": false,
+   "prNumber": null,
+   "severity": "ok"
   },
   {
    "repo": "ossia/score-addon-onnx",
@@ -11541,7 +11851,7 @@
    "ahead": 0,
    "aheadReal": 0,
    "landedEquivalent": null,
-   "behind": 41,
+   "behind": 42,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -11554,7 +11864,7 @@
    "ahead": 5,
    "aheadReal": 5,
    "landedEquivalent": 0,
-   "behind": 92,
+   "behind": 93,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -11567,7 +11877,7 @@
    "ahead": 1,
    "aheadReal": 0,
    "landedEquivalent": 1,
-   "behind": 35,
+   "behind": 36,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -11580,7 +11890,7 @@
    "ahead": 1,
    "aheadReal": 0,
    "landedEquivalent": 1,
-   "behind": 48,
+   "behind": 49,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -11593,7 +11903,7 @@
    "ahead": 0,
    "aheadReal": 0,
    "landedEquivalent": null,
-   "behind": 3,
+   "behind": 4,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -11606,7 +11916,7 @@
    "ahead": 0,
    "aheadReal": 0,
    "landedEquivalent": null,
-   "behind": 1,
+   "behind": 2,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -11619,7 +11929,7 @@
    "ahead": 8,
    "aheadReal": 8,
    "landedEquivalent": 0,
-   "behind": 85,
+   "behind": 86,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -11632,10 +11942,23 @@
    "ahead": 22,
    "aheadReal": 22,
    "landedEquivalent": 0,
-   "behind": 1,
+   "behind": 2,
    "hasPR": false,
    "prNumber": null,
    "severity": "info"
+  },
+  {
+   "repo": "ossia/score-addon-onnx",
+   "name": "renovate/all",
+   "sha": "b065589c76adfcc9f4e976391837100b48e02b24",
+   "lastCommitDate": "2026-07-03T21:21:03Z",
+   "ahead": 1,
+   "aheadReal": 0,
+   "landedEquivalent": 1,
+   "behind": 1,
+   "hasPR": false,
+   "prNumber": null,
+   "severity": "ok"
   },
   {
    "repo": "ossia/score-addon-onnx",
@@ -11645,7 +11968,7 @@
    "ahead": 11,
    "aheadReal": 11,
    "landedEquivalent": 0,
-   "behind": 85,
+   "behind": 86,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -11658,7 +11981,7 @@
    "ahead": 2,
    "aheadReal": 2,
    "landedEquivalent": 0,
-   "behind": 85,
+   "behind": 86,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -11671,7 +11994,7 @@
    "ahead": 2,
    "aheadReal": 2,
    "landedEquivalent": 0,
-   "behind": 0,
+   "behind": 1,
    "hasPR": false,
    "prNumber": null,
    "severity": "info"
@@ -11684,7 +12007,7 @@
    "ahead": 3,
    "aheadReal": 3,
    "landedEquivalent": 0,
-   "behind": 0,
+   "behind": 1,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -11697,10 +12020,49 @@
    "ahead": 4,
    "aheadReal": 4,
    "landedEquivalent": 0,
-   "behind": 0,
+   "behind": 1,
    "hasPR": false,
    "prNumber": null,
    "severity": "info"
+  },
+  {
+   "repo": "ossia/score-addon-led",
+   "name": "renovate/all",
+   "sha": "8053aa885a4f9dd9c8ce7f4822433f31fe9380fa",
+   "lastCommitDate": "2026-07-03T21:19:57Z",
+   "ahead": 1,
+   "aheadReal": 0,
+   "landedEquivalent": 1,
+   "behind": 1,
+   "hasPR": false,
+   "prNumber": null,
+   "severity": "ok"
+  },
+  {
+   "repo": "ossia/score-addon-spatgris",
+   "name": "renovate/all",
+   "sha": "5cd219a76ecfdc1187b2d3c6e7e87a17a2a5a027",
+   "lastCommitDate": "2026-07-03T21:22:05Z",
+   "ahead": 1,
+   "aheadReal": 0,
+   "landedEquivalent": 1,
+   "behind": 2,
+   "hasPR": false,
+   "prNumber": null,
+   "severity": "ok"
+  },
+  {
+   "repo": "ossia/score-addon-spatgris",
+   "name": "renovate/github-artifact-actions",
+   "sha": "2bcce5b24d83015ad5ebae17f31dd6af9585dd4d",
+   "lastCommitDate": "2026-07-03T21:22:09Z",
+   "ahead": 1,
+   "aheadReal": 0,
+   "landedEquivalent": 1,
+   "behind": 2,
+   "hasPR": false,
+   "prNumber": null,
+   "severity": "ok"
   },
   {
    "repo": "ossia/score-addon-hdf5",
@@ -11709,6 +12071,45 @@
    "lastCommitDate": "2026-06-17T22:04:03-04:00",
    "ahead": 5,
    "aheadReal": 5,
+   "landedEquivalent": 0,
+   "behind": 1,
+   "hasPR": false,
+   "prNumber": null,
+   "severity": "info"
+  },
+  {
+   "repo": "ossia/score-addon-hdf5",
+   "name": "renovate/all",
+   "sha": "5838628ae653675b71ec8b989a3943b80ee93858",
+   "lastCommitDate": "2026-07-03T21:19:39Z",
+   "ahead": 1,
+   "aheadReal": 1,
+   "landedEquivalent": 0,
+   "behind": 1,
+   "hasPR": false,
+   "prNumber": null,
+   "severity": "info"
+  },
+  {
+   "repo": "ossia/score-addon-hdf5",
+   "name": "renovate/github-artifact-actions",
+   "sha": "e448f7054965c6ad864fdff2523c524fd7bdfd20",
+   "lastCommitDate": "2026-07-03T21:18:36Z",
+   "ahead": 1,
+   "aheadReal": 0,
+   "landedEquivalent": 1,
+   "behind": 1,
+   "hasPR": false,
+   "prNumber": null,
+   "severity": "ok"
+  },
+  {
+   "repo": "ossia/score-addon-orbbec",
+   "name": "renovate/all",
+   "sha": "604ddcbbe7b8cdd4a75f065acc73063008966252",
+   "lastCommitDate": "2026-07-03T21:21:16Z",
+   "ahead": 1,
+   "aheadReal": 1,
    "landedEquivalent": 0,
    "behind": 0,
    "hasPR": false,
@@ -11723,6 +12124,97 @@
    "ahead": 6,
    "aheadReal": 6,
    "landedEquivalent": 0,
+   "behind": 2,
+   "hasPR": false,
+   "prNumber": null,
+   "severity": "info"
+  },
+  {
+   "repo": "ossia/score-addon-ltc",
+   "name": "renovate/all",
+   "sha": "97199b23be7bce58392db45a2e3cb5b959367bc5",
+   "lastCommitDate": "2026-07-03T21:20:27Z",
+   "ahead": 1,
+   "aheadReal": 0,
+   "landedEquivalent": 1,
+   "behind": 2,
+   "hasPR": false,
+   "prNumber": null,
+   "severity": "ok"
+  },
+  {
+   "repo": "ossia/score-addon-ltc",
+   "name": "renovate/github-artifact-actions",
+   "sha": "2d64647a6df7b1642858b75364565b61a8e0b2f9",
+   "lastCommitDate": "2026-07-03T21:20:30Z",
+   "ahead": 1,
+   "aheadReal": 0,
+   "landedEquivalent": 1,
+   "behind": 2,
+   "hasPR": false,
+   "prNumber": null,
+   "severity": "ok"
+  },
+  {
+   "repo": "ossia/score-addon-deuterium",
+   "name": "renovate/all",
+   "sha": "3f07252a3ca156beb627ea9141ed7a69fb7ad019",
+   "lastCommitDate": "2026-07-03T21:18:20Z",
+   "ahead": 1,
+   "aheadReal": 0,
+   "landedEquivalent": 1,
+   "behind": 2,
+   "hasPR": false,
+   "prNumber": null,
+   "severity": "ok"
+  },
+  {
+   "repo": "ossia/score-addon-deuterium",
+   "name": "renovate/github-artifact-actions",
+   "sha": "603b935111c71cf72bf01121a9ddd9490b5e1217",
+   "lastCommitDate": "2026-07-03T21:18:23Z",
+   "ahead": 1,
+   "aheadReal": 0,
+   "landedEquivalent": 1,
+   "behind": 2,
+   "hasPR": false,
+   "prNumber": null,
+   "severity": "ok"
+  },
+  {
+   "repo": "ossia/score-addon-airwindows",
+   "name": "renovate/all",
+   "sha": "8777942dcae48400f508051c9436b9902f4d0bc3",
+   "lastCommitDate": "2026-07-03T21:17:34Z",
+   "ahead": 1,
+   "aheadReal": 0,
+   "landedEquivalent": 1,
+   "behind": 1,
+   "hasPR": false,
+   "prNumber": null,
+   "severity": "ok"
+  },
+  {
+   "repo": "ossia/score-addon-lsl",
+   "name": "renovate/all",
+   "sha": "ddad0546e812ded8fde87a28833fe52320db25f4",
+   "lastCommitDate": "2026-07-03T21:20:20Z",
+   "ahead": 1,
+   "aheadReal": 1,
+   "landedEquivalent": 0,
+   "behind": 0,
+   "hasPR": false,
+   "prNumber": null,
+   "severity": "info"
+  },
+  {
+   "repo": "ossia/score-addon-trackingprotocols",
+   "name": "renovate/all",
+   "sha": "ffb2628515d504773afdc27bd1c1adae0691c3da",
+   "lastCommitDate": "2026-07-03T21:22:24Z",
+   "ahead": 1,
+   "aheadReal": 1,
+   "landedEquivalent": 0,
    "behind": 0,
    "hasPR": false,
    "prNumber": null,
@@ -11736,7 +12228,7 @@
    "ahead": 23,
    "aheadReal": 1,
    "landedEquivalent": 22,
-   "behind": 44,
+   "behind": 45,
    "hasPR": false,
    "prNumber": null,
    "severity": "info"
@@ -11749,7 +12241,46 @@
    "ahead": 43,
    "aheadReal": 1,
    "landedEquivalent": 42,
-   "behind": 44,
+   "behind": 45,
+   "hasPR": false,
+   "prNumber": null,
+   "severity": "info"
+  },
+  {
+   "repo": "ossia/score-addon-librediffusion",
+   "name": "renovate/all",
+   "sha": "048dcc27333730718b0551b610e4a792ad17a78c",
+   "lastCommitDate": "2026-07-03T21:20:07Z",
+   "ahead": 1,
+   "aheadReal": 0,
+   "landedEquivalent": 1,
+   "behind": 1,
+   "hasPR": false,
+   "prNumber": null,
+   "severity": "ok"
+  },
+  {
+   "repo": "ossia/score-addon-librediffusion",
+   "name": "renovate/avendish",
+   "sha": "c979410e32931173d7815086a398a761b69322a5",
+   "lastCommitDate": "2026-07-03T21:20:10Z",
+   "ahead": 1,
+   "aheadReal": 1,
+   "landedEquivalent": 0,
+   "behind": 1,
+   "hasPR": false,
+   "prNumber": null,
+   "severity": "info"
+  },
+  {
+   "repo": "ossia/score-addon-videoio",
+   "name": "renovate/all",
+   "sha": "54dd503c2cacdf02805ca02fa710146484e4e75d",
+   "lastCommitDate": "2026-07-03T21:22:54Z",
+   "ahead": 1,
+   "aheadReal": 1,
+   "landedEquivalent": 0,
+   "behind": 0,
    "hasPR": false,
    "prNumber": null,
    "severity": "info"
@@ -12360,167 +12891,167 @@
     {
      "repo": "ossia/score-addon-ndi",
      "workflow": "builds-dev.yaml",
-     "ref": "v4"
+     "ref": "v7"
     },
     {
      "repo": "ossia/score-addon-ndi",
      "workflow": "builds-dev.yaml",
-     "ref": "v4"
+     "ref": "v7"
     },
     {
      "repo": "ossia/score-addon-ndi",
      "workflow": "builds-dev.yaml",
-     "ref": "v4"
+     "ref": "v7"
     },
     {
      "repo": "ossia/score-addon-ndi",
      "workflow": "builds-sdk.yaml",
-     "ref": "v4"
+     "ref": "v7"
     },
     {
      "repo": "ossia/score-addon-ndi",
      "workflow": "builds-sdk.yaml",
-     "ref": "v4"
+     "ref": "v7"
     },
     {
      "repo": "ossia/score-addon-ndi",
      "workflow": "builds.yaml",
-     "ref": "v2"
+     "ref": "v7"
     },
     {
      "repo": "ossia/score-addon-ndi",
      "workflow": "builds.yaml",
-     "ref": "v2"
+     "ref": "v7"
     },
     {
      "repo": "ossia/score-addon-ndi",
      "workflow": "jit.yml",
-     "ref": "v4"
+     "ref": "v7"
     },
     {
      "repo": "ossia/score-addon-ndi",
      "workflow": "release.yml",
-     "ref": "v4"
+     "ref": "v7"
     },
     {
      "repo": "ossia/score-addon-spat",
      "workflow": "builds.yaml",
-     "ref": "v2"
+     "ref": "v7"
     },
     {
      "repo": "ossia/score-addon-spat",
      "workflow": "builds.yaml",
-     "ref": "v2"
+     "ref": "v7"
     },
     {
      "repo": "ossia/score-addon-spat",
      "workflow": "jit.yml",
-     "ref": "v2"
+     "ref": "v7"
     },
     {
      "repo": "ossia/score-addon-spat",
      "workflow": "jit.yml",
-     "ref": "v2"
+     "ref": "v7"
     },
     {
      "repo": "ossia/score-addon-spat",
      "workflow": "release.yml",
-     "ref": "v2"
+     "ref": "v7"
     },
     {
      "repo": "ossia/score-addon-jk",
      "workflow": "builds-dev.yaml",
-     "ref": "v4"
+     "ref": "v7"
     },
     {
      "repo": "ossia/score-addon-jk",
      "workflow": "builds-dev.yaml",
-     "ref": "v4"
+     "ref": "v7"
     },
     {
      "repo": "ossia/score-addon-jk",
      "workflow": "builds-dev.yaml",
-     "ref": "v4"
+     "ref": "v7"
     },
     {
      "repo": "ossia/score-addon-jk",
      "workflow": "builds-sdk.yaml",
-     "ref": "v4"
+     "ref": "v7"
     },
     {
      "repo": "ossia/score-addon-jk",
      "workflow": "builds-sdk.yaml",
-     "ref": "v4"
+     "ref": "v7"
     },
     {
      "repo": "ossia/score-addon-jk",
      "workflow": "builds.yaml",
-     "ref": "v2"
+     "ref": "v7"
     },
     {
      "repo": "ossia/score-addon-jk",
      "workflow": "builds.yaml",
-     "ref": "v2"
+     "ref": "v7"
     },
     {
      "repo": "ossia/score-addon-jk",
      "workflow": "jit.yml",
-     "ref": "v4"
+     "ref": "v7"
     },
     {
      "repo": "ossia/score-addon-jk",
      "workflow": "release.yml",
-     "ref": "v4"
+     "ref": "v7"
     },
     {
      "repo": "ossia/score-addon-synthimi",
      "workflow": "builds.yaml",
-     "ref": "v2"
+     "ref": "v7"
     },
     {
      "repo": "ossia/score-addon-synthimi",
      "workflow": "builds.yaml",
-     "ref": "v2"
+     "ref": "v7"
     },
     {
      "repo": "ossia/score-addon-synthimi",
      "workflow": "jit.yml",
-     "ref": "v2"
+     "ref": "v7"
     },
     {
      "repo": "ossia/score-addon-synthimi",
      "workflow": "jit.yml",
-     "ref": "v2"
+     "ref": "v7"
     },
     {
      "repo": "ossia/score-addon-synthimi",
      "workflow": "release.yml",
-     "ref": "v2"
+     "ref": "v7"
     },
     {
      "repo": "ossia/score-addon-pico",
      "workflow": "builds.yaml",
-     "ref": "v2"
+     "ref": "v7"
     },
     {
      "repo": "ossia/score-addon-pico",
      "workflow": "builds.yaml",
-     "ref": "v2"
+     "ref": "v7"
     },
     {
      "repo": "ossia/score-addon-pico",
      "workflow": "jit.yml",
-     "ref": "v2"
+     "ref": "v7"
     },
     {
      "repo": "ossia/score-addon-pico",
      "workflow": "jit.yml",
-     "ref": "v2"
+     "ref": "v7"
     },
     {
      "repo": "ossia/score-addon-pico",
      "workflow": "release.yml",
-     "ref": "v2"
+     "ref": "v7"
     },
     {
      "repo": "ossia/score-addon-contextfree",
@@ -12630,72 +13161,72 @@
     {
      "repo": "ossia/score-addon-led",
      "workflow": "builds.yaml",
-     "ref": "v2"
+     "ref": "v7"
     },
     {
      "repo": "ossia/score-addon-led",
      "workflow": "builds.yaml",
-     "ref": "v2"
+     "ref": "v7"
     },
     {
      "repo": "ossia/score-addon-led",
      "workflow": "jit.yml",
-     "ref": "v2"
+     "ref": "v7"
     },
     {
      "repo": "ossia/score-addon-led",
      "workflow": "jit.yml",
-     "ref": "v2"
+     "ref": "v7"
     },
     {
      "repo": "ossia/score-addon-led",
      "workflow": "release.yml",
-     "ref": "v2"
+     "ref": "v7"
     },
     {
      "repo": "ossia/score-addon-spatgris",
      "workflow": "builds-dev.yaml",
-     "ref": "v4"
+     "ref": "v7"
     },
     {
      "repo": "ossia/score-addon-spatgris",
      "workflow": "builds-dev.yaml",
-     "ref": "v4"
+     "ref": "v7"
     },
     {
      "repo": "ossia/score-addon-spatgris",
      "workflow": "builds-dev.yaml",
-     "ref": "v4"
+     "ref": "v7"
     },
     {
      "repo": "ossia/score-addon-spatgris",
      "workflow": "builds-sdk.yaml",
-     "ref": "v4"
+     "ref": "v7"
     },
     {
      "repo": "ossia/score-addon-spatgris",
      "workflow": "builds-sdk.yaml",
-     "ref": "v4"
+     "ref": "v7"
     },
     {
      "repo": "ossia/score-addon-spatgris",
      "workflow": "builds.yaml",
-     "ref": "v2"
+     "ref": "v7"
     },
     {
      "repo": "ossia/score-addon-spatgris",
      "workflow": "builds.yaml",
-     "ref": "v2"
+     "ref": "v7"
     },
     {
      "repo": "ossia/score-addon-spatgris",
      "workflow": "jit.yml",
-     "ref": "v4"
+     "ref": "v7"
     },
     {
      "repo": "ossia/score-addon-spatgris",
      "workflow": "release.yml",
-     "ref": "v4"
+     "ref": "v7"
     },
     {
      "repo": "ossia/score-addon-hdf5",
@@ -12731,11 +13262,6 @@
      "repo": "ossia/score-addon-hdf5",
      "workflow": "release.yml",
      "ref": "v4"
-    },
-    {
-     "repo": "ossia/score-addon-orbbec",
-     "workflow": "builds.yaml",
-     "ref": "v2"
     },
     {
      "repo": "ossia/score-addon-orbbec",
@@ -12744,7 +13270,7 @@
     },
     {
      "repo": "ossia/score-addon-orbbec",
-     "workflow": "jit.yml",
+     "workflow": "builds.yaml",
      "ref": "v2"
     },
     {
@@ -12754,78 +13280,83 @@
     },
     {
      "repo": "ossia/score-addon-orbbec",
+     "workflow": "jit.yml",
+     "ref": "v2"
+    },
+    {
+     "repo": "ossia/score-addon-orbbec",
      "workflow": "release.yml",
      "ref": "v2"
     },
     {
      "repo": "ossia/score-addon-ltc",
      "workflow": "builds-dev.yaml",
-     "ref": "v4"
+     "ref": "v7"
     },
     {
      "repo": "ossia/score-addon-ltc",
      "workflow": "builds-dev.yaml",
-     "ref": "v4"
+     "ref": "v7"
     },
     {
      "repo": "ossia/score-addon-ltc",
      "workflow": "builds-dev.yaml",
-     "ref": "v4"
+     "ref": "v7"
     },
     {
      "repo": "ossia/score-addon-ltc",
      "workflow": "builds-sdk.yaml",
-     "ref": "v4"
+     "ref": "v7"
     },
     {
      "repo": "ossia/score-addon-ltc",
      "workflow": "builds-sdk.yaml",
-     "ref": "v4"
+     "ref": "v7"
     },
     {
      "repo": "ossia/score-addon-ltc",
      "workflow": "jit.yml",
-     "ref": "v4"
+     "ref": "v7"
     },
     {
      "repo": "ossia/score-addon-ltc",
      "workflow": "release.yml",
-     "ref": "v4"
+     "ref": "v7"
     },
     {
      "repo": "ossia/score-addon-deuterium",
      "workflow": "builds-dev.yaml",
-     "ref": "v4"
+     "ref": "v7"
     },
     {
      "repo": "ossia/score-addon-deuterium",
      "workflow": "builds-dev.yaml",
-     "ref": "v4"
+     "ref": "v7"
     },
     {
      "repo": "ossia/score-addon-deuterium",
      "workflow": "builds-dev.yaml",
-     "ref": "v4"
+     "ref": "v7"
     },
     {
      "repo": "ossia/score-addon-deuterium",
      "workflow": "builds-sdk.yaml",
-     "ref": "v4"
+     "ref": "v7"
     },
     {
      "repo": "ossia/score-addon-deuterium",
      "workflow": "builds-sdk.yaml",
-     "ref": "v4"
+     "ref": "v7"
     },
     {
      "repo": "ossia/score-addon-deuterium",
      "workflow": "jit.yml",
-     "ref": "v4"
+     "ref": "v7"
     },
     {
      "repo": "ossia/score-addon-deuterium",
      "workflow": "release.yml",
-     "ref": "v4"
+     "ref": "v7"
     }
    ],
    "mutableRefs": [],
@@ -13302,182 +13833,182 @@
     {
      "repo": "ossia/score-addon-ndi",
      "workflow": "builds-dev.yaml",
-     "ref": "v4"
+     "ref": "v7"
     },
     {
      "repo": "ossia/score-addon-ndi",
      "workflow": "builds-dev.yaml",
-     "ref": "v4"
+     "ref": "v7"
     },
     {
      "repo": "ossia/score-addon-ndi",
      "workflow": "builds-sdk.yaml",
-     "ref": "v4"
+     "ref": "v7"
     },
     {
      "repo": "ossia/score-addon-ndi",
      "workflow": "builds-sdk.yaml",
-     "ref": "v4"
+     "ref": "v7"
     },
     {
      "repo": "ossia/score-addon-jk",
      "workflow": "builds-dev.yaml",
-     "ref": "v4"
+     "ref": "v7"
     },
     {
      "repo": "ossia/score-addon-jk",
      "workflow": "builds-dev.yaml",
-     "ref": "v4"
+     "ref": "v7"
     },
     {
      "repo": "ossia/score-addon-jk",
      "workflow": "builds-sdk.yaml",
-     "ref": "v4"
+     "ref": "v7"
     },
     {
      "repo": "ossia/score-addon-jk",
      "workflow": "builds-sdk.yaml",
-     "ref": "v4"
+     "ref": "v7"
     },
     {
      "repo": "ossia/score-addon-contextfree",
      "workflow": "builds-dev.yaml",
-     "ref": "v4"
+     "ref": "v7"
     },
     {
      "repo": "ossia/score-addon-contextfree",
      "workflow": "builds-dev.yaml",
-     "ref": "v4"
+     "ref": "v7"
     },
     {
      "repo": "ossia/score-addon-contextfree",
      "workflow": "builds-sdk.yaml",
-     "ref": "v4"
+     "ref": "v7"
     },
     {
      "repo": "ossia/score-addon-contextfree",
      "workflow": "builds-sdk.yaml",
-     "ref": "v4"
+     "ref": "v7"
     },
     {
      "repo": "ossia/score-addon-ultraleap",
      "workflow": "builds-dev.yaml",
-     "ref": "v4"
+     "ref": "v7"
     },
     {
      "repo": "ossia/score-addon-ultraleap",
      "workflow": "builds-dev.yaml",
-     "ref": "v4"
+     "ref": "v7"
     },
     {
      "repo": "ossia/score-addon-ultraleap",
      "workflow": "builds-sdk.yaml",
-     "ref": "v4"
+     "ref": "v7"
     },
     {
      "repo": "ossia/score-addon-ultraleap",
      "workflow": "builds-sdk.yaml",
-     "ref": "v4"
+     "ref": "v7"
     },
     {
      "repo": "ossia/score-addon-ble",
      "workflow": "builds-dev.yaml",
-     "ref": "v4"
+     "ref": "v7"
     },
     {
      "repo": "ossia/score-addon-ble",
      "workflow": "builds-dev.yaml",
-     "ref": "v4"
+     "ref": "v7"
     },
     {
      "repo": "ossia/score-addon-ble",
      "workflow": "builds-sdk.yaml",
-     "ref": "v4"
+     "ref": "v7"
     },
     {
      "repo": "ossia/score-addon-ble",
      "workflow": "builds-sdk.yaml",
-     "ref": "v4"
+     "ref": "v7"
     },
     {
      "repo": "ossia/score-addon-spatgris",
      "workflow": "builds-dev.yaml",
-     "ref": "v4"
+     "ref": "v7"
     },
     {
      "repo": "ossia/score-addon-spatgris",
      "workflow": "builds-dev.yaml",
-     "ref": "v4"
+     "ref": "v7"
     },
     {
      "repo": "ossia/score-addon-spatgris",
      "workflow": "builds-sdk.yaml",
-     "ref": "v4"
+     "ref": "v7"
     },
     {
      "repo": "ossia/score-addon-spatgris",
      "workflow": "builds-sdk.yaml",
-     "ref": "v4"
+     "ref": "v7"
     },
     {
      "repo": "ossia/score-addon-hdf5",
      "workflow": "builds-dev.yaml",
-     "ref": "v4"
+     "ref": "v7"
     },
     {
      "repo": "ossia/score-addon-hdf5",
      "workflow": "builds-dev.yaml",
-     "ref": "v4"
+     "ref": "v7"
     },
     {
      "repo": "ossia/score-addon-hdf5",
      "workflow": "builds-sdk.yaml",
-     "ref": "v4"
+     "ref": "v7"
     },
     {
      "repo": "ossia/score-addon-hdf5",
      "workflow": "builds-sdk.yaml",
-     "ref": "v4"
+     "ref": "v7"
     },
     {
      "repo": "ossia/score-addon-ltc",
      "workflow": "builds-dev.yaml",
-     "ref": "v4"
+     "ref": "v7"
     },
     {
      "repo": "ossia/score-addon-ltc",
      "workflow": "builds-dev.yaml",
-     "ref": "v4"
+     "ref": "v7"
     },
     {
      "repo": "ossia/score-addon-ltc",
      "workflow": "builds-sdk.yaml",
-     "ref": "v4"
+     "ref": "v7"
     },
     {
      "repo": "ossia/score-addon-ltc",
      "workflow": "builds-sdk.yaml",
-     "ref": "v4"
+     "ref": "v7"
     },
     {
      "repo": "ossia/score-addon-deuterium",
      "workflow": "builds-dev.yaml",
-     "ref": "v4"
+     "ref": "v7"
     },
     {
      "repo": "ossia/score-addon-deuterium",
      "workflow": "builds-dev.yaml",
-     "ref": "v4"
+     "ref": "v7"
     },
     {
      "repo": "ossia/score-addon-deuterium",
      "workflow": "builds-sdk.yaml",
-     "ref": "v4"
+     "ref": "v7"
     },
     {
      "repo": "ossia/score-addon-deuterium",
      "workflow": "builds-sdk.yaml",
-     "ref": "v4"
+     "ref": "v7"
     }
    ],
    "mutableRefs": [],
@@ -15969,7 +16500,7 @@
    "category": "submodule",
    "repo": "ossia/libossia",
    "subject": "3rdparty/pybind11",
-   "message": "pin not on 'master' (on: stable, v2.13); 416 commits / 2.0 years behind pybind/pybind11@master",
+   "message": "pin not on 'master' (on: stable, v2.13); 417 commits / 2.0 years behind pybind/pybind11@master",
    "url": "https://github.com/pybind/pybind11",
    "severity": "crit"
   },
@@ -16901,15 +17432,6 @@
    "severity": "warn"
   },
   {
-   "id": "dependency:ossia/score-addon-cv:cmake-fetchcontent:Avendish",
-   "category": "dependency",
-   "repo": "ossia/score-addon-cv",
-   "subject": "Avendish (cmake-fetchcontent)",
-   "message": "upstream HEAD moved 7 days past our pin; upstream active again (last commit 2026-07-02)",
-   "url": "https://github.com/celtera/avendish",
-   "severity": "warn"
-  },
-  {
    "id": "dependency:ossia/score-addon-cv:cmake-fetchcontent:Eigen3cv",
    "category": "dependency",
    "repo": "ossia/score-addon-cv",
@@ -17184,7 +17706,7 @@
    "category": "pr",
    "repo": "celtera/libremidi",
    "subject": "#217 winmidi: fix input dropped when a group terminal block's Number() isn't its group index",
-   "message": "idle 31d, 0 commits behind master",
+   "message": "idle 32d, 0 commits behind master",
    "url": "https://github.com/celtera/libremidi/pull/217",
    "severity": "warn"
   },
@@ -17720,15 +18242,6 @@
    "severity": "warn"
   },
   {
-   "id": "submodule:ossia/score-addon-airwindows:3rdparty/airwin2rack",
-   "category": "submodule",
-   "repo": "ossia/score-addon-airwindows",
-   "subject": "3rdparty/airwin2rack",
-   "message": "pin not reachable from any branch of jcelerier/airwin2rack",
-   "url": "https://github.com/jcelerier/airwin2rack",
-   "severity": "warn"
-  },
-  {
    "id": "submodule:ossia/score-addon-ble:3rdparty/SimpleBLE",
    "category": "submodule",
    "repo": "ossia/score-addon-ble",
@@ -17771,15 +18284,6 @@
    "subject": "3rdparty/liblsl",
    "message": "pin not on 'dev' (on: feature/disable_install)",
    "url": "https://github.com/jcelerier/liblsl",
-   "severity": "warn"
-  },
-  {
-   "id": "submodule:ossia/score-addon-onnx:3rdparty/onnxruntime-extensions",
-   "category": "submodule",
-   "repo": "ossia/score-addon-onnx",
-   "subject": "3rdparty/onnxruntime-extensions",
-   "message": "pin not reachable from any branch of ossia/onnxruntime-extensions",
-   "url": "https://github.com/ossia/onnxruntime-extensions",
    "severity": "warn"
   },
   {
@@ -17841,7 +18345,7 @@
    "category": "submodule",
    "repo": "ossia/score",
    "subject": "3rdparty/avendish",
-   "message": "pin not on 'main' (on: addon-standalone-base-target, combined/help-patches-and-td-verification, feat/test-harness, feature/cpp26-reflection, feature/csound); 73 commits / 15 days behind celtera/avendish@main",
+   "message": "pin not on 'main' (on: addon-standalone-base-target, avendish-ui, combined/help-patches-and-td-verification, feat/test-harness, feature/cpp26-reflection); 73 commits / 15 days behind celtera/avendish@main",
    "url": "https://github.com/celtera/avendish",
    "severity": "warn"
   },
