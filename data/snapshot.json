@@ -1,40 +1,39 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-07-05T14:12:18.231Z",
+ "generatedAt": "2026-07-05T19:44:23.722Z",
  "sections": {
   "repos": {
    "source": "live",
-   "collectedAt": "2026-07-05T14:11:32.074Z"
+   "collectedAt": "2026-07-05T19:43:55.137Z"
   },
   "submodules": {
    "source": "live",
-   "collectedAt": "2026-07-05T14:12:14.149Z"
+   "collectedAt": "2026-07-05T19:44:19.239Z"
   },
   "dependencies": {
    "source": "live",
-   "collectedAt": "2026-07-05T14:12:00.257Z"
+   "collectedAt": "2026-07-05T19:44:13.378Z"
   },
   "prs": {
    "source": "fixture",
-   "collectedAt": "2026-07-05T14:11:55.297Z",
+   "collectedAt": "2026-07-05T19:44:09.406Z",
    "error": "graphql sat-mtl/skills: Could not resolve to a Repository with the name 'sat-mtl/skills'."
   },
   "branches": {
    "source": "live",
-   "collectedAt": "2026-07-05T14:12:18.231Z"
+   "collectedAt": "2026-07-05T19:44:23.722Z"
   },
   "actions": {
    "source": "live",
-   "collectedAt": "2026-07-05T14:11:52.626Z"
+   "collectedAt": "2026-07-05T19:44:05.946Z"
   },
   "environments": {
    "source": "live",
-   "collectedAt": "2026-07-05T14:11:52.804Z"
+   "collectedAt": "2026-07-05T19:44:08.289Z"
   },
   "packaging": {
    "source": "live",
-   "collectedAt": "2026-07-05T14:11:52.209Z",
-   "error": "fetch failed"
+   "collectedAt": "2026-07-05T19:44:06.997Z"
   }
  },
  "repos": [
@@ -55,9 +54,9 @@
      "info": 13
     },
     "prs": {
-     "warn": 35,
+     "warn": 36,
      "crit": 0,
-     "info": 5
+     "info": 4
     },
     "branches": {
      "warn": 37,
@@ -107,13 +106,13 @@
   {
    "slug": "celtera/avendish",
    "defaultBranch": "main",
-   "headSha": "4e424c473992912a52fc1380654599c93783d4a0",
-   "headDate": "2026-07-04T21:33:22-04:00",
+   "headSha": "a0a22a03c03b926d16d0a41867643c9d6cab9aa5",
+   "headDate": "2026-07-05T11:57:22-04:00",
    "counts": {
     "dependencies": {
      "warn": 0,
      "crit": 0,
-     "info": 7
+     "info": 5
     },
     "prs": {
      "warn": 11,
@@ -123,7 +122,7 @@
     "branches": {
      "warn": 1,
      "crit": 0,
-     "info": 30
+     "info": 24
     },
     "actions": {
      "warn": 2,
@@ -181,8 +180,8 @@
   {
    "slug": "ossia/dashboard",
    "defaultBranch": "main",
-   "headSha": "bee6691a45d091573a2f63537a7f5a07d879f73b",
-   "headDate": "2026-07-05T09:24:56Z",
+   "headSha": "51e288f639829089230536e9d661210b0e4368a5",
+   "headDate": "2026-07-05T14:12:18Z",
    "counts": {
     "actions": {
      "warn": 2,
@@ -475,8 +474,8 @@
   {
    "slug": "ossia/score-addon-onnx",
    "defaultBranch": "main",
-   "headSha": "61cbd79f9ff5d4766d2faff871f88707157cb018",
-   "headDate": "2026-07-05T09:37:06-04:00",
+   "headSha": "e17af1e5b68c55b1807cd1c9cf8051654ddb1ee0",
+   "headDate": "2026-07-05T12:57:59-04:00",
    "counts": {
     "submodules": {
      "warn": 1,
@@ -891,7 +890,7 @@
     "master"
    ],
    "behindCount": 3,
-   "behindDays": 641.0784143518517,
+   "behindDays": 641.0784143518518,
    "targetHeadSha": "3d2e82f8e6bff59c1d8b7a27491a29c2286b5206",
    "targetHeadDate": "2025-10-20T18:55:01+02:00",
    "severity": "crit",
@@ -937,7 +936,7 @@
     "vendoring-wiiuse-fallback"
    ],
    "behindCount": 9,
-   "behindDays": 6.111018518518518,
+   "behindDays": 6.11101851851852,
    "targetHeadSha": "ccb4120fda553959721bb32522c9e153e90f7289",
    "targetHeadDate": "2026-06-26T06:59:01-04:00",
    "severity": "info",
@@ -1043,7 +1042,7 @@
     "master"
    ],
    "behindCount": 19,
-   "behindDays": 520.1189120370369,
+   "behindDays": 520.118912037037,
    "targetHeadSha": "43d2fe1b133cc9ded823fde6bd10560721a36e98",
    "targetHeadDate": "2024-03-20T12:15:56-04:00",
    "severity": "crit",
@@ -1107,14 +1106,14 @@
     "feat/clap-soft-ui-wiring",
     "feat/max-pd-help-packaging"
    ],
-   "behindCount": 74,
-   "behindDays": 16.9909375,
-   "targetHeadSha": "4e424c473992912a52fc1380654599c93783d4a0",
-   "targetHeadDate": "2026-07-04T21:33:22-04:00",
+   "behindCount": 80,
+   "behindDays": 17.5909375,
+   "targetHeadSha": "a0a22a03c03b926d16d0a41867643c9d6cab9aa5",
+   "targetHeadDate": "2026-07-05T11:57:22-04:00",
    "severity": "warn",
    "notes": [
     "pin not on 'main' (on: addon-standalone-base-target, avendish-ui, combined/help-patches-and-td-verification, feat/clap-soft-ui-wiring, feat/max-pd-help-packaging)",
-    "74 commits / 17 days behind celtera/avendish@main"
+    "80 commits / 18 days behind celtera/avendish@main"
    ]
   },
   {
@@ -1211,7 +1210,7 @@
     "master"
    ],
    "behindCount": 5,
-   "behindDays": 123.96619212962965,
+   "behindDays": 123.96619212962962,
    "targetHeadSha": "327cea8183f4bc09581b3b4c54702f2f388926fd",
    "targetHeadDate": "2026-04-02T20:11:43+01:00",
    "severity": "warn",
@@ -1301,7 +1300,7 @@
     "dll_unloading"
    ],
    "behindCount": 254,
-   "behindDays": 527.3755208333334,
+   "behindDays": 527.3755208333333,
    "targetHeadSha": "f70eb82634ff280bd39a815ed5a1315bb064c164",
    "targetHeadDate": "2026-06-27T20:32:16+01:00",
    "severity": "crit",
@@ -1343,7 +1342,7 @@
     "main"
    ],
    "behindCount": 3,
-   "behindDays": 348.0061689814815,
+   "behindDays": 348.00616898148144,
    "targetHeadSha": "5cae2abc2f9056785b0537dcbe156c40da2aea20",
    "targetHeadDate": "2026-07-04T14:59:25+02:00",
    "severity": "warn",
@@ -1363,14 +1362,14 @@
    "containingBranches": [
     "5.0"
    ],
-   "behindCount": 627,
-   "behindDays": 238.1404861111111,
-   "targetHeadSha": "392342145487ffa97d1d00ed350a98725d473cf3",
-   "targetHeadDate": "2026-07-04T17:07:14-07:00",
+   "behindCount": 628,
+   "behindDays": 238.93908564814814,
+   "targetHeadSha": "b8ca06f310e06fc699d3a17b9d6efe3697570ff8",
+   "targetHeadDate": "2026-07-05T12:17:13-07:00",
    "severity": "warn",
    "notes": [
     "pin not on 'master' (on: 5.0)",
-    "627 commits / 8 months behind gitlab:libeigen/eigen@master"
+    "628 commits / 8 months behind gitlab:libeigen/eigen@master"
    ]
   },
   {
@@ -1447,7 +1446,7 @@
     "master"
    ],
    "behindCount": 30,
-   "behindDays": 149.06711805555554,
+   "behindDays": 149.06711805555557,
    "targetHeadSha": "01798fa032a4774602e9ec698e82f86735f2b483",
    "targetHeadDate": "2026-06-27T16:42:38+02:00",
    "severity": "warn",
@@ -1609,7 +1608,7 @@
     "v1.x"
    ],
    "behindCount": 3,
-   "behindDays": 13.732592592592594,
+   "behindDays": 13.732592592592592,
    "targetHeadSha": "8671ca4d492c8ee1cdfd3dd88afb9f88dd268178",
    "targetHeadDate": "2026-06-27T13:13:01+03:00",
    "severity": "info",
@@ -1629,13 +1628,13 @@
    "containingBranches": [
     "main"
    ],
-   "behindCount": 12,
-   "behindDays": 18.496944444444445,
-   "targetHeadSha": "cd67635a19d027d2eae1cd6f0f0fa8f057492907",
-   "targetHeadDate": "2026-07-04T10:01:11-07:00",
+   "behindCount": 13,
+   "behindDays": 19.46994212962963,
+   "targetHeadSha": "6dac6cad052d6593f5fa07529d912f3bd0d6bb11",
+   "targetHeadDate": "2026-07-05T09:22:18-07:00",
    "severity": "info",
    "notes": [
-    "12 commits / 18 days behind fmtlib/fmt@main"
+    "13 commits / 19 days behind fmtlib/fmt@main"
    ]
   },
   {
@@ -1673,7 +1672,7 @@
     "v2.13"
    ],
    "behindCount": 417,
-   "behindDays": 736.9703935185186,
+   "behindDays": 736.9703935185184,
    "targetHeadSha": "b57b4393ff92dfcea0da1b64eb359c8f900cbcec",
    "targetHeadDate": "2026-07-03T14:50:43-07:00",
    "severity": "crit",
@@ -1922,7 +1921,7 @@
     "master"
    ],
    "behindCount": 2,
-   "behindDays": 49.065312500000005,
+   "behindDays": 49.0653125,
    "targetHeadSha": "cd99e2cca5ccb48f8d000f1cd844424dcdbbaf59",
    "targetHeadDate": "2026-06-29T07:08:02+10:00",
    "severity": "info",
@@ -2047,7 +2046,7 @@
     "test3"
    ],
    "behindCount": 38,
-   "behindDays": 772.0351388888889,
+   "behindDays": 772.0351388888888,
    "targetHeadSha": "b5830af53bd1b3c7460a8de1e9f7095df99b3470",
    "targetHeadDate": "2026-05-19T22:56:15+02:00",
    "severity": "crit",
@@ -2318,7 +2317,7 @@
     "master"
    ],
    "behindCount": 79,
-   "behindDays": 628.6952199074074,
+   "behindDays": 628.6952199074075,
    "targetHeadSha": "d325b7b47d9cf1596c481b83d92875da641aa5a8",
    "targetHeadDate": "2026-07-05T11:47:02+04:00",
    "severity": "crit",
@@ -2362,7 +2361,7 @@
     "develop"
    ],
    "behindCount": 259,
-   "behindDays": 371.6755324074074,
+   "behindDays": 371.67553240740745,
    "targetHeadSha": "e2463f007f64d5f4fa98ca27e7c7497c775ad5f7",
    "targetHeadDate": "2026-07-03T07:36:09+01:00",
    "severity": "crit",
@@ -2403,7 +2402,7 @@
     "v4"
    ],
    "behindCount": 1,
-   "behindDays": 104.92405092592593,
+   "behindDays": 104.92405092592591,
    "targetHeadSha": "5c62c4b3352c7d4c87ed3429d2329ddaf9b74df9",
    "targetHeadDate": "2026-06-02T11:22:51-04:00",
    "severity": "warn",
@@ -2423,14 +2422,14 @@
    "containingBranches": [
     "lts_2025_05_12"
    ],
-   "behindCount": 682,
-   "behindDays": 380.92417824074073,
-   "targetHeadSha": "7a3816493fa5ab71b23f8122a7fa1e040d9c204d",
-   "targetHeadDate": "2026-07-03T05:58:57-07:00",
+   "behindCount": 683,
+   "behindDays": 383.1337962962963,
+   "targetHeadSha": "473c785a79b16722648b6ec4b07b0cd404c6799a",
+   "targetHeadDate": "2026-07-05T11:00:48-07:00",
    "severity": "crit",
    "notes": [
     "pin not on 'master' (on: lts_2025_05_12)",
-    "682 commits / 13 months behind abseil/abseil-cpp@master"
+    "683 commits / 13 months behind abseil/abseil-cpp@master"
    ]
   },
   {
@@ -2572,7 +2571,7 @@
     "wip/ossia_device"
    ],
    "behindCount": 23,
-   "behindDays": 779.5950810185185,
+   "behindDays": 779.5950810185186,
    "targetHeadSha": "036b732a7b7c4de4c138e9d7f877f91f4ff156f4",
    "targetHeadDate": "2026-07-04T10:56:42-04:00",
    "severity": "crit",
@@ -2683,7 +2682,7 @@
     "dependabot/github_actions/codecov/codecov-action-7"
    ],
    "behindCount": 2,
-   "behindDays": 129.75293981481482,
+   "behindDays": 129.7529398148148,
    "targetHeadSha": "959ec30c5cee48ff4dbb458b9f233beded708a36",
    "targetHeadDate": "2026-05-09T10:44:44+02:00",
    "severity": "warn",
@@ -3422,14 +3421,14 @@
    "tracksBranch": false,
    "latestTag": "v3.1",
    "latestTagDate": "2023-10-01T00:29:17-04:00",
-   "upstreamHeadSha": "4e424c473992912a52fc1380654599c93783d4a0",
-   "upstreamHeadDate": "2026-07-04T21:33:22-04:00",
+   "upstreamHeadSha": "a0a22a03c03b926d16d0a41867643c9d6cab9aa5",
+   "upstreamHeadDate": "2026-07-05T11:57:22-04:00",
    "defaultBranch": "main",
    "pinnedRefName": "v3.1",
-   "behindMainCommits": 548,
+   "behindMainCommits": 554,
    "behindMainDays": 1008,
    "behindLatestCommits": 0,
-   "unreleasedCommits": 548,
+   "unreleasedCommits": 554,
    "unreleasedDays": 1008,
    "outdated": false,
    "revived": false,
@@ -3699,15 +3698,15 @@
    "tracksBranch": false,
    "latestTag": "5.0.1",
    "latestTagDate": "2025-11-08T12:44:56-08:00",
-   "upstreamHeadSha": "392342145487ffa97d1d00ed350a98725d473cf3",
-   "upstreamHeadDate": "2026-07-04T17:07:14-07:00",
+   "upstreamHeadSha": "b8ca06f310e06fc699d3a17b9d6efe3697570ff8",
+   "upstreamHeadDate": "2026-07-05T12:17:13-07:00",
    "defaultBranch": "master",
    "pinnedRefName": "5.0.1",
-   "behindMainCommits": 627,
-   "behindMainDays": 238,
+   "behindMainCommits": 628,
+   "behindMainDays": 239,
    "behindLatestCommits": 0,
-   "unreleasedCommits": 627,
-   "unreleasedDays": 238,
+   "unreleasedCommits": 628,
+   "unreleasedDays": 239,
    "outdated": false,
    "revived": false,
    "severity": "ok",
@@ -4849,15 +4848,15 @@
    "tracksBranch": false,
    "latestTag": "12.2.0",
    "latestTagDate": "2026-06-16T07:05:35+02:00",
-   "upstreamHeadSha": "cd67635a19d027d2eae1cd6f0f0fa8f057492907",
-   "upstreamHeadDate": "2026-07-04T10:01:11-07:00",
+   "upstreamHeadSha": "6dac6cad052d6593f5fa07529d912f3bd0d6bb11",
+   "upstreamHeadDate": "2026-07-05T09:22:18-07:00",
    "defaultBranch": "main",
    "pinnedRefName": "12.1.0",
-   "behindMainCommits": 235,
-   "behindMainDays": 248,
+   "behindMainCommits": 236,
+   "behindMainDays": 249,
    "behindLatestCommits": 223,
-   "unreleasedCommits": 12,
-   "unreleasedDays": 18,
+   "unreleasedCommits": 13,
+   "unreleasedDays": 19,
    "outdated": true,
    "revived": false,
    "severity": "info",
@@ -5503,15 +5502,15 @@
    "tracksBranch": false,
    "latestTag": "release-3.4.12",
    "latestTagDate": "2026-07-01T09:20:42-07:00",
-   "upstreamHeadSha": "655c8166a1434a6ea916664db41c91247f2b6abe",
-   "upstreamHeadDate": "2026-07-04T11:19:20-07:00",
+   "upstreamHeadSha": "362165ed9bca5e758e310f191129ce3600d13ed2",
+   "upstreamHeadDate": "2026-07-05T12:37:25-07:00",
    "defaultBranch": "main",
    "pinnedRefName": "release-2.32.10",
-   "behindMainCommits": 11319,
-   "behindMainDays": 306,
+   "behindMainCommits": 11328,
+   "behindMainDays": 307,
    "behindLatestCommits": 10802,
-   "unreleasedCommits": 1104,
-   "unreleasedDays": 3,
+   "unreleasedCommits": 1113,
+   "unreleasedDays": 4,
    "outdated": true,
    "revived": false,
    "severity": "warn",
@@ -5532,15 +5531,15 @@
    "tracksBranch": false,
    "latestTag": "n8.1.2",
    "latestTagDate": "2026-06-17T04:33:35+02:00",
-   "upstreamHeadSha": "97cbffe9172f1614af56363022f560700fa0c36b",
-   "upstreamHeadDate": "2026-07-05T09:02:40+02:00",
+   "upstreamHeadSha": "79adb692a2720647e9dbe57de33fd50b41db295c",
+   "upstreamHeadDate": "2026-07-05T17:47:56Z",
    "defaultBranch": "master",
    "pinnedRefName": "n8.1",
-   "behindMainCommits": 2200,
+   "behindMainCommits": 2202,
    "behindMainDays": 111,
    "behindLatestCommits": 240,
-   "unreleasedCommits": 2200,
-   "unreleasedDays": 18,
+   "unreleasedCommits": 2202,
+   "unreleasedDays": 19,
    "outdated": true,
    "revived": false,
    "severity": "info",
@@ -5615,14 +5614,14 @@
    "tracksBranch": false,
    "latestTag": "llvmorg-22.1.8",
    "latestTagDate": "2026-06-15T22:33:53Z",
-   "upstreamHeadSha": "f2342e84e66c015a43437620f825fe884c8bdd4e",
-   "upstreamHeadDate": "2026-07-05T13:15:04Z",
+   "upstreamHeadSha": "3be67c72f5d5b9f459c0b11fce2c92c2cac5a984",
+   "upstreamHeadDate": "2026-07-05T12:01:27-07:00",
    "defaultBranch": "main",
    "pinnedRefName": "llvmorg-22.1.8",
-   "behindMainCommits": 21771,
+   "behindMainCommits": 21786,
    "behindMainDays": 20,
    "behindLatestCommits": 0,
-   "unreleasedCommits": 21771,
+   "unreleasedCommits": 21786,
    "unreleasedDays": 20,
    "outdated": false,
    "revived": false,
@@ -5671,15 +5670,15 @@
    "tracksBranch": false,
    "latestTag": "v6.11.1",
    "latestTagDate": "2026-05-07T15:36:32Z",
-   "upstreamHeadSha": "870ad13eb820b8f684d406e4cd9eb511d664df8b",
-   "upstreamHeadDate": "2026-07-05T03:27:26Z",
+   "upstreamHeadSha": "b9ca5e4cafdf012e957ff27c7c4ac085366b5788",
+   "upstreamHeadDate": "2026-07-05T14:57:14Z",
    "defaultBranch": "dev",
    "pinnedRefName": "v6.12.0-beta1",
-   "behindMainCommits": 767,
+   "behindMainCommits": 768,
    "behindMainDays": 33,
    "behindLatestCommits": 1122,
-   "unreleasedCommits": 3048,
-   "unreleasedDays": 58,
+   "unreleasedCommits": 3049,
+   "unreleasedDays": 59,
    "outdated": false,
    "revived": false,
    "severity": "info",
@@ -5727,14 +5726,14 @@
    "tracksBranch": false,
    "latestTag": "v3.14.6",
    "latestTagDate": "2026-06-10T13:03:53+03:00",
-   "upstreamHeadSha": "74a2438bf783077cf49460ed0fed8853675fb103",
-   "upstreamHeadDate": "2026-07-05T14:08:58Z",
+   "upstreamHeadSha": "d733b104d53e96584a6881d2772df65ad82573a0",
+   "upstreamHeadDate": "2026-07-05T19:02:58Z",
    "defaultBranch": "main",
    "pinnedRefName": "v3.13.14",
-   "behindMainCommits": 10095,
+   "behindMainCommits": 10101,
    "behindMainDays": 25,
    "behindLatestCommits": 7328,
-   "unreleasedCommits": 5292,
+   "unreleasedCommits": 5298,
    "unreleasedDays": 25,
    "outdated": true,
    "revived": false,
@@ -5756,15 +5755,15 @@
    "tracksBranch": false,
    "latestTag": "1.11.1",
    "latestTagDate": "2026-04-20T10:58:15-04:00",
-   "upstreamHeadSha": "25395cc32a0cd86a38a4b1f2176004d17bfa99c9",
-   "upstreamHeadDate": "2026-07-04T19:04:10+02:00",
+   "upstreamHeadSha": "f99d3c0e56c12220375c9cea60c9b64ab1695ccc",
+   "upstreamHeadDate": "2026-07-05T14:16:27+03:00",
    "defaultBranch": "master",
    "pinnedRefName": "0.61.1",
-   "behindMainCommits": 5529,
-   "behindMainDays": 1630,
+   "behindMainCommits": 5530,
+   "behindMainDays": 1631,
    "behindLatestCommits": 4948,
-   "unreleasedCommits": 589,
-   "unreleasedDays": 75,
+   "unreleasedCommits": 590,
+   "unreleasedDays": 76,
    "outdated": true,
    "revived": false,
    "severity": "warn",
@@ -5809,27 +5808,25 @@
    "location": "cmake/avendish.dependencies.cmake",
    "upstream": "fmtlib/fmt",
    "kind": "upstream",
-   "pinnedVersion": "12.0.0",
+   "pinnedVersion": "12.2.0",
    "pinnedSha": null,
-   "pinnedRef": "12.0.0",
+   "pinnedRef": "12.2.0",
    "tracksBranch": false,
    "latestTag": "12.2.0",
    "latestTagDate": "2026-06-16T07:05:35+02:00",
-   "upstreamHeadSha": "cd67635a19d027d2eae1cd6f0f0fa8f057492907",
-   "upstreamHeadDate": "2026-07-04T10:01:11-07:00",
+   "upstreamHeadSha": "6dac6cad052d6593f5fa07529d912f3bd0d6bb11",
+   "upstreamHeadDate": "2026-07-05T09:22:18-07:00",
    "defaultBranch": "main",
-   "pinnedRefName": "12.0.0",
-   "behindMainCommits": 289,
-   "behindMainDays": 290,
-   "behindLatestCommits": 277,
-   "unreleasedCommits": 12,
-   "unreleasedDays": 18,
-   "outdated": true,
+   "pinnedRefName": "12.2.0",
+   "behindMainCommits": 13,
+   "behindMainDays": 19,
+   "behindLatestCommits": 0,
+   "unreleasedCommits": 13,
+   "unreleasedDays": 19,
+   "outdated": false,
    "revived": false,
-   "severity": "info",
-   "notes": [
-    "pinned 12.0.0, upstream released 12.2.0"
-   ]
+   "severity": "ok",
+   "notes": []
   },
   {
    "name": "concurrentqueue",
@@ -5873,14 +5870,14 @@
    "tracksBranch": true,
    "latestTag": "v3.12.0",
    "latestTagDate": "2025-04-11T10:42:28+02:00",
-   "upstreamHeadSha": "eed15870002d50d7b2f858292ed6fb3d0c2f0e25",
-   "upstreamHeadDate": "2026-07-05T10:42:48+02:00",
+   "upstreamHeadSha": "83c87cb9e087d81717c5ac7c50fac694bcb82ad7",
+   "upstreamHeadDate": "2026-07-05T19:26:02+02:00",
    "defaultBranch": "develop",
    "pinnedRefName": null,
    "behindMainCommits": null,
    "behindMainDays": null,
    "behindLatestCommits": null,
-   "unreleasedCommits": 250,
+   "unreleasedCommits": 251,
    "unreleasedDays": 450,
    "outdated": false,
    "revived": false,
@@ -6037,27 +6034,25 @@
    "location": "cmake/avendish.tests.cmake",
    "upstream": "catchorg/Catch2",
    "kind": "upstream",
-   "pinnedVersion": "v3.4.0",
+   "pinnedVersion": "v3.15.1",
    "pinnedSha": null,
-   "pinnedRef": "v3.4.0",
+   "pinnedRef": "v3.15.1",
    "tracksBranch": false,
    "latestTag": "v3.15.1",
    "latestTagDate": "2026-06-14T10:57:30+02:00",
    "upstreamHeadSha": "15d52830ee1c010c8e7c21faeeb1c4ad8e772435",
    "upstreamHeadDate": "2026-07-05T12:08:06+02:00",
    "defaultBranch": "devel",
-   "pinnedRefName": "v3.4.0",
-   "behindMainCommits": 427,
-   "behindMainDays": 1088,
-   "behindLatestCommits": 424,
+   "pinnedRefName": "v3.15.1",
+   "behindMainCommits": 3,
+   "behindMainDays": 21,
+   "behindLatestCommits": 0,
    "unreleasedCommits": 3,
    "unreleasedDays": 21,
-   "outdated": true,
+   "outdated": false,
    "revived": false,
-   "severity": "info",
-   "notes": [
-    "pinned v3.4.0, upstream released v3.15.1"
-   ]
+   "severity": "ok",
+   "notes": []
   },
   {
    "name": "readerwriterqueue",
@@ -6246,21 +6241,21 @@
    "tracksBranch": false,
    "latestTag": "v3.1",
    "latestTagDate": "2023-10-01T00:29:17-04:00",
-   "upstreamHeadSha": "4e424c473992912a52fc1380654599c93783d4a0",
-   "upstreamHeadDate": "2026-07-04T21:33:22-04:00",
+   "upstreamHeadSha": "a0a22a03c03b926d16d0a41867643c9d6cab9aa5",
+   "upstreamHeadDate": "2026-07-05T11:57:22-04:00",
    "defaultBranch": "main",
    "pinnedRefName": "82c034b865efe7eb2bd74f14ae6ec30ed027948d",
-   "behindMainCommits": 1,
-   "behindMainDays": 2,
+   "behindMainCommits": 7,
+   "behindMainDays": 3,
    "behindLatestCommits": 0,
-   "unreleasedCommits": 548,
+   "unreleasedCommits": 554,
    "unreleasedDays": 1008,
    "outdated": true,
    "revived": true,
    "severity": "warn",
    "notes": [
-    "upstream HEAD moved 2 days past our pin",
-    "upstream active again (last commit 2026-07-04)"
+    "upstream HEAD moved 3 days past our pin",
+    "upstream active again (last commit 2026-07-05)"
    ]
   },
   {
@@ -6276,15 +6271,15 @@
    "tracksBranch": false,
    "latestTag": "5.0.1",
    "latestTagDate": "2025-11-08T12:44:56-08:00",
-   "upstreamHeadSha": "392342145487ffa97d1d00ed350a98725d473cf3",
-   "upstreamHeadDate": "2026-07-04T17:07:14-07:00",
+   "upstreamHeadSha": "b8ca06f310e06fc699d3a17b9d6efe3697570ff8",
+   "upstreamHeadDate": "2026-07-05T12:17:13-07:00",
    "defaultBranch": "master",
    "pinnedRefName": "3.4.0",
-   "behindMainCommits": 2058,
-   "behindMainDays": 1781,
+   "behindMainCommits": 2059,
+   "behindMainDays": 1782,
    "behindLatestCommits": 1474,
-   "unreleasedCommits": 627,
-   "unreleasedDays": 238,
+   "unreleasedCommits": 628,
+   "unreleasedDays": 239,
    "outdated": true,
    "revived": false,
    "severity": "warn",
@@ -6332,21 +6327,21 @@
    "tracksBranch": false,
    "latestTag": "v3.1",
    "latestTagDate": "2023-10-01T00:29:17-04:00",
-   "upstreamHeadSha": "4e424c473992912a52fc1380654599c93783d4a0",
-   "upstreamHeadDate": "2026-07-04T21:33:22-04:00",
+   "upstreamHeadSha": "a0a22a03c03b926d16d0a41867643c9d6cab9aa5",
+   "upstreamHeadDate": "2026-07-05T11:57:22-04:00",
    "defaultBranch": "main",
    "pinnedRefName": "82c034b865efe7eb2bd74f14ae6ec30ed027948d",
-   "behindMainCommits": 1,
-   "behindMainDays": 2,
+   "behindMainCommits": 7,
+   "behindMainDays": 3,
    "behindLatestCommits": 0,
-   "unreleasedCommits": 548,
+   "unreleasedCommits": 554,
    "unreleasedDays": 1008,
    "outdated": true,
    "revived": true,
    "severity": "warn",
    "notes": [
-    "upstream HEAD moved 2 days past our pin",
-    "upstream active again (last commit 2026-07-04)"
+    "upstream HEAD moved 3 days past our pin",
+    "upstream active again (last commit 2026-07-05)"
    ]
   },
   {
@@ -6362,21 +6357,21 @@
    "tracksBranch": false,
    "latestTag": "5.0.1",
    "latestTagDate": "2025-11-08T12:44:56-08:00",
-   "upstreamHeadSha": "392342145487ffa97d1d00ed350a98725d473cf3",
-   "upstreamHeadDate": "2026-07-04T17:07:14-07:00",
+   "upstreamHeadSha": "b8ca06f310e06fc699d3a17b9d6efe3697570ff8",
+   "upstreamHeadDate": "2026-07-05T12:17:13-07:00",
    "defaultBranch": "master",
    "pinnedRefName": "bc3b39870ecb690a623a3f49149a358b95c5781d",
-   "behindMainCommits": 627,
-   "behindMainDays": 238,
+   "behindMainCommits": 628,
+   "behindMainDays": 239,
    "behindLatestCommits": 0,
-   "unreleasedCommits": 627,
-   "unreleasedDays": 238,
+   "unreleasedCommits": 628,
+   "unreleasedDays": 239,
    "outdated": true,
    "revived": true,
    "severity": "warn",
    "notes": [
     "upstream HEAD moved 8 months past our pin",
-    "upstream active again (last commit 2026-07-04)"
+    "upstream active again (last commit 2026-07-05)"
    ]
   },
   {
@@ -6479,21 +6474,21 @@
    "tracksBranch": false,
    "latestTag": "v3.1",
    "latestTagDate": "2023-10-01T00:29:17-04:00",
-   "upstreamHeadSha": "4e424c473992912a52fc1380654599c93783d4a0",
-   "upstreamHeadDate": "2026-07-04T21:33:22-04:00",
+   "upstreamHeadSha": "a0a22a03c03b926d16d0a41867643c9d6cab9aa5",
+   "upstreamHeadDate": "2026-07-05T11:57:22-04:00",
    "defaultBranch": "main",
    "pinnedRefName": "6660f3d25924c304e8bf42cae76ab766d23f7dda",
-   "behindMainCommits": 49,
+   "behindMainCommits": 55,
    "behindMainDays": 8,
    "behindLatestCommits": 0,
-   "unreleasedCommits": 548,
+   "unreleasedCommits": 554,
    "unreleasedDays": 1008,
    "outdated": true,
    "revived": true,
    "severity": "warn",
    "notes": [
     "upstream HEAD moved 8 days past our pin",
-    "upstream active again (last commit 2026-07-04)"
+    "upstream active again (last commit 2026-07-05)"
    ]
   },
   {
@@ -6509,15 +6504,15 @@
    "tracksBranch": false,
    "latestTag": "5.0.1",
    "latestTagDate": "2025-11-08T12:44:56-08:00",
-   "upstreamHeadSha": "392342145487ffa97d1d00ed350a98725d473cf3",
-   "upstreamHeadDate": "2026-07-04T17:07:14-07:00",
+   "upstreamHeadSha": "b8ca06f310e06fc699d3a17b9d6efe3697570ff8",
+   "upstreamHeadDate": "2026-07-05T12:17:13-07:00",
    "defaultBranch": "master",
    "pinnedRefName": "3.4.0",
-   "behindMainCommits": 2058,
-   "behindMainDays": 1781,
+   "behindMainCommits": 2059,
+   "behindMainDays": 1782,
    "behindLatestCommits": 1474,
-   "unreleasedCommits": 627,
-   "unreleasedDays": 238,
+   "unreleasedCommits": 628,
+   "unreleasedDays": 239,
    "outdated": true,
    "revived": false,
    "severity": "warn",
@@ -6538,21 +6533,21 @@
    "tracksBranch": false,
    "latestTag": "v3.1",
    "latestTagDate": "2023-10-01T00:29:17-04:00",
-   "upstreamHeadSha": "4e424c473992912a52fc1380654599c93783d4a0",
-   "upstreamHeadDate": "2026-07-04T21:33:22-04:00",
+   "upstreamHeadSha": "a0a22a03c03b926d16d0a41867643c9d6cab9aa5",
+   "upstreamHeadDate": "2026-07-05T11:57:22-04:00",
    "defaultBranch": "main",
    "pinnedRefName": "82c034b865efe7eb2bd74f14ae6ec30ed027948d",
-   "behindMainCommits": 1,
-   "behindMainDays": 2,
+   "behindMainCommits": 7,
+   "behindMainDays": 3,
    "behindLatestCommits": 0,
-   "unreleasedCommits": 548,
+   "unreleasedCommits": 554,
    "unreleasedDays": 1008,
    "outdated": true,
    "revived": true,
    "severity": "warn",
    "notes": [
-    "upstream HEAD moved 2 days past our pin",
-    "upstream active again (last commit 2026-07-04)"
+    "upstream HEAD moved 3 days past our pin",
+    "upstream active again (last commit 2026-07-05)"
    ]
   }
  ],
@@ -6568,8 +6563,8 @@
    "draft": false,
    "createdAt": "2026-05-31T23:16:46Z",
    "updatedAt": "2026-06-06T16:35:17Z",
-   "ageDays": 34.6,
-   "idleDays": 28.9,
+   "ageDays": 34.9,
+   "idleDays": 29.1,
    "behindBase": 33,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -6586,12 +6581,12 @@
    "draft": false,
    "createdAt": "2026-05-21T19:59:34Z",
    "updatedAt": "2026-06-05T19:05:19Z",
-   "ageDays": 44.8,
-   "idleDays": 29.8,
+   "ageDays": 45,
+   "idleDays": 30,
    "behindBase": 48,
    "aheadOfBase": 7,
    "ciStatus": null,
-   "severity": "info"
+   "severity": "warn"
   },
   {
    "repo": "ossia/score",
@@ -6604,8 +6599,8 @@
    "draft": true,
    "createdAt": "2026-05-14T03:36:42Z",
    "updatedAt": "2026-06-11T00:12:35Z",
-   "ageDays": 52.4,
-   "idleDays": 24.6,
+   "ageDays": 52.7,
+   "idleDays": 24.8,
    "behindBase": 24,
    "aheadOfBase": 55,
    "ciStatus": null,
@@ -6622,8 +6617,8 @@
    "draft": false,
    "createdAt": "2026-04-21T08:17:30Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 75.2,
-   "idleDays": 37.5,
+   "ageDays": 75.5,
+   "idleDays": 37.7,
    "behindBase": 159,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -6640,8 +6635,8 @@
    "draft": false,
    "createdAt": "2026-04-20T03:05:16Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 76.5,
-   "idleDays": 37.5,
+   "ageDays": 76.7,
+   "idleDays": 37.7,
    "behindBase": 83,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -6658,8 +6653,8 @@
    "draft": false,
    "createdAt": "2026-04-02T12:57:29Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 94.1,
-   "idleDays": 37.5,
+   "ageDays": 94.3,
+   "idleDays": 37.7,
    "behindBase": 160,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -6676,8 +6671,8 @@
    "draft": false,
    "createdAt": "2026-03-07T01:30:39Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 120.5,
-   "idleDays": 37.5,
+   "ageDays": 120.8,
+   "idleDays": 37.7,
    "behindBase": 258,
    "aheadOfBase": 5,
    "ciStatus": null,
@@ -6694,8 +6689,8 @@
    "draft": false,
    "createdAt": "2026-03-01T23:03:06Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 125.6,
-   "idleDays": 37.5,
+   "ageDays": 125.9,
+   "idleDays": 37.7,
    "behindBase": 267,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -6712,8 +6707,8 @@
    "draft": false,
    "createdAt": "2026-02-28T01:26:20Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 127.5,
-   "idleDays": 37.5,
+   "ageDays": 127.8,
+   "idleDays": 37.7,
    "behindBase": 267,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -6730,8 +6725,8 @@
    "draft": false,
    "createdAt": "2026-02-23T05:46:50Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 132.4,
-   "idleDays": 37.5,
+   "ageDays": 132.6,
+   "idleDays": 37.7,
    "behindBase": 295,
    "aheadOfBase": 4,
    "ciStatus": null,
@@ -6748,8 +6743,8 @@
    "draft": false,
    "createdAt": "2026-02-14T19:53:19Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 140.8,
-   "idleDays": 37.5,
+   "ageDays": 141,
+   "idleDays": 37.7,
    "behindBase": 307,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -6766,8 +6761,8 @@
    "draft": false,
    "createdAt": "2026-01-28T00:56:46Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 158.6,
-   "idleDays": 37.5,
+   "ageDays": 158.8,
+   "idleDays": 37.7,
    "behindBase": 396,
    "aheadOfBase": 3,
    "ciStatus": null,
@@ -6784,8 +6779,8 @@
    "draft": false,
    "createdAt": "2026-01-25T21:05:19Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 160.7,
-   "idleDays": 37.5,
+   "ageDays": 160.9,
+   "idleDays": 37.7,
    "behindBase": 420,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -6802,8 +6797,8 @@
    "draft": false,
    "createdAt": "2026-01-21T06:07:25Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 165.3,
-   "idleDays": 37.5,
+   "ageDays": 165.6,
+   "idleDays": 37.7,
    "behindBase": 473,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -6820,8 +6815,8 @@
    "draft": false,
    "createdAt": "2026-01-21T06:05:56Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 165.3,
-   "idleDays": 37.5,
+   "ageDays": 165.6,
+   "idleDays": 37.7,
    "behindBase": 473,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -6838,8 +6833,8 @@
    "draft": false,
    "createdAt": "2026-01-11T03:43:42Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 175.4,
-   "idleDays": 37.5,
+   "ageDays": 175.7,
+   "idleDays": 37.7,
    "behindBase": 490,
    "aheadOfBase": 3,
    "ciStatus": null,
@@ -6856,8 +6851,8 @@
    "draft": false,
    "createdAt": "2025-11-01T02:39:20Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 246.5,
-   "idleDays": 37.5,
+   "ageDays": 246.7,
+   "idleDays": 37.7,
    "behindBase": 549,
    "aheadOfBase": 3,
    "ciStatus": null,
@@ -6874,8 +6869,8 @@
    "draft": false,
    "createdAt": "2025-07-13T19:01:19Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 356.8,
-   "idleDays": 37.5,
+   "ageDays": 357,
+   "idleDays": 37.7,
    "behindBase": 1086,
    "aheadOfBase": 2,
    "ciStatus": null,
@@ -6892,8 +6887,8 @@
    "draft": false,
    "createdAt": "2025-05-02T17:34:29Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 428.9,
-   "idleDays": 37.5,
+   "ageDays": 429.1,
+   "idleDays": 37.7,
    "behindBase": 1140,
    "aheadOfBase": 19,
    "ciStatus": null,
@@ -6910,8 +6905,8 @@
    "draft": false,
    "createdAt": "2025-04-21T20:15:12Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 439.7,
-   "idleDays": 37.5,
+   "ageDays": 440,
+   "idleDays": 37.7,
    "behindBase": 1176,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -6928,8 +6923,8 @@
    "draft": false,
    "createdAt": "2025-04-17T18:39:09Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 443.8,
-   "idleDays": 37.5,
+   "ageDays": 444,
+   "idleDays": 37.7,
    "behindBase": 1215,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -6946,8 +6941,8 @@
    "draft": false,
    "createdAt": "2025-04-04T04:12:09Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 457.4,
-   "idleDays": 37.5,
+   "ageDays": 457.6,
+   "idleDays": 37.7,
    "behindBase": 1295,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -6964,8 +6959,8 @@
    "draft": false,
    "createdAt": "2025-03-22T21:34:38Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 469.7,
-   "idleDays": 37.5,
+   "ageDays": 469.9,
+   "idleDays": 37.7,
    "behindBase": 1317,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -6982,8 +6977,8 @@
    "draft": false,
    "createdAt": "2025-02-06T17:47:49Z",
    "updatedAt": "2026-05-29T02:52:00Z",
-   "ageDays": 513.9,
-   "idleDays": 37.5,
+   "ageDays": 514.1,
+   "idleDays": 37.7,
    "behindBase": 549,
    "aheadOfBase": 4,
    "ciStatus": null,
@@ -7000,8 +6995,8 @@
    "draft": false,
    "createdAt": "2025-01-16T03:58:31Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 535.4,
-   "idleDays": 37.5,
+   "ageDays": 535.7,
+   "idleDays": 37.7,
    "behindBase": 976,
    "aheadOfBase": 6,
    "ciStatus": null,
@@ -7018,8 +7013,8 @@
    "draft": true,
    "createdAt": "2024-12-30T14:33:01Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 552,
-   "idleDays": 37.5,
+   "ageDays": 552.2,
+   "idleDays": 37.7,
    "behindBase": 976,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -7036,8 +7031,8 @@
    "draft": false,
    "createdAt": "2024-12-30T03:47:50Z",
    "updatedAt": "2026-06-02T23:37:44Z",
-   "ageDays": 552.4,
-   "idleDays": 32.6,
+   "ageDays": 552.7,
+   "idleDays": 32.8,
    "behindBase": 55,
    "aheadOfBase": 3,
    "ciStatus": null,
@@ -7054,8 +7049,8 @@
    "draft": false,
    "createdAt": "2024-12-24T22:59:38Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 557.6,
-   "idleDays": 37.5,
+   "ageDays": 557.9,
+   "idleDays": 37.7,
    "behindBase": 1538,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -7072,8 +7067,8 @@
    "draft": false,
    "createdAt": "2024-12-24T22:55:16Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 557.6,
-   "idleDays": 37.5,
+   "ageDays": 557.9,
+   "idleDays": 37.7,
    "behindBase": 1323,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -7090,8 +7085,8 @@
    "draft": false,
    "createdAt": "2024-12-24T19:04:13Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 557.8,
-   "idleDays": 37.5,
+   "ageDays": 558,
+   "idleDays": 37.7,
    "behindBase": 1538,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -7108,8 +7103,8 @@
    "draft": false,
    "createdAt": "2024-12-24T19:03:21Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 557.8,
-   "idleDays": 37.5,
+   "ageDays": 558,
+   "idleDays": 37.7,
    "behindBase": 1323,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -7126,8 +7121,8 @@
    "draft": false,
    "createdAt": "2024-12-01T17:48:05Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 580.8,
-   "idleDays": 37.5,
+   "ageDays": 581.1,
+   "idleDays": 37.7,
    "behindBase": 1538,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -7144,8 +7139,8 @@
    "draft": false,
    "createdAt": "2024-12-01T17:47:05Z",
    "updatedAt": "2026-05-29T02:52:00Z",
-   "ageDays": 580.9,
-   "idleDays": 37.5,
+   "ageDays": 581.1,
+   "idleDays": 37.7,
    "behindBase": 1323,
    "aheadOfBase": 3,
    "ciStatus": null,
@@ -7162,8 +7157,8 @@
    "draft": false,
    "createdAt": "2024-12-01T17:46:24Z",
    "updatedAt": "2026-05-29T02:52:00Z",
-   "ageDays": 580.9,
-   "idleDays": 37.5,
+   "ageDays": 581.1,
+   "idleDays": 37.7,
    "behindBase": 1323,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -7180,8 +7175,8 @@
    "draft": false,
    "createdAt": "2024-12-01T17:46:08Z",
    "updatedAt": "2026-05-29T02:52:00Z",
-   "ageDays": 580.9,
-   "idleDays": 37.5,
+   "ageDays": 581.1,
+   "idleDays": 37.7,
    "behindBase": 1538,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -7198,8 +7193,8 @@
    "draft": true,
    "createdAt": "2024-09-25T16:25:13Z",
    "updatedAt": "2026-05-29T02:52:00Z",
-   "ageDays": 647.9,
-   "idleDays": 37.5,
+   "ageDays": 648.1,
+   "idleDays": 37.7,
    "behindBase": 306,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -7216,8 +7211,8 @@
    "draft": false,
    "createdAt": "2023-02-14T12:39:55Z",
    "updatedAt": "2026-05-29T02:52:00Z",
-   "ageDays": 1237.1,
-   "idleDays": 37.5,
+   "ageDays": 1237.3,
+   "idleDays": 37.7,
    "behindBase": 2706,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -7234,8 +7229,8 @@
    "draft": false,
    "createdAt": "2022-05-10T15:30:38Z",
    "updatedAt": "2026-05-29T02:52:00Z",
-   "ageDays": 1516.9,
-   "idleDays": 37.5,
+   "ageDays": 1517.2,
+   "idleDays": 37.7,
    "behindBase": 3235,
    "aheadOfBase": 3,
    "ciStatus": null,
@@ -7252,8 +7247,8 @@
    "draft": false,
    "createdAt": "2021-08-19T08:02:14Z",
    "updatedAt": "2026-05-29T02:52:00Z",
-   "ageDays": 1781.3,
-   "idleDays": 37.5,
+   "ageDays": 1781.5,
+   "idleDays": 37.7,
    "behindBase": 3935,
    "aheadOfBase": 20,
    "ciStatus": null,
@@ -7270,8 +7265,8 @@
    "draft": false,
    "createdAt": "2021-08-18T12:22:47Z",
    "updatedAt": "2021-08-19T07:27:08Z",
-   "ageDays": 1782.1,
-   "idleDays": 1781.3,
+   "ageDays": 1782.3,
+   "idleDays": 1781.5,
    "behindBase": 0,
    "aheadOfBase": 9,
    "ciStatus": null,
@@ -7288,8 +7283,8 @@
    "draft": false,
    "createdAt": "2026-06-10T22:57:48Z",
    "updatedAt": "2026-06-10T22:57:48Z",
-   "ageDays": 24.6,
-   "idleDays": 24.6,
+   "ageDays": 24.9,
+   "idleDays": 24.9,
    "behindBase": 14,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -7306,8 +7301,8 @@
    "draft": false,
    "createdAt": "2026-06-10T06:11:45Z",
    "updatedAt": "2026-06-10T08:46:30Z",
-   "ageDays": 25.3,
-   "idleDays": 25.2,
+   "ageDays": 25.6,
+   "idleDays": 25.5,
    "behindBase": 14,
    "aheadOfBase": 4,
    "ciStatus": null,
@@ -7324,8 +7319,8 @@
    "draft": false,
    "createdAt": "2026-04-21T08:16:34Z",
    "updatedAt": "2026-05-29T19:50:59Z",
-   "ageDays": 75.2,
-   "idleDays": 36.8,
+   "ageDays": 75.5,
+   "idleDays": 37,
    "behindBase": 46,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -7342,8 +7337,8 @@
    "draft": false,
    "createdAt": "2026-03-24T08:58:00Z",
    "updatedAt": "2026-06-03T01:22:37Z",
-   "ageDays": 103.2,
-   "idleDays": 32.5,
+   "ageDays": 103.4,
+   "idleDays": 32.8,
    "behindBase": 31,
    "aheadOfBase": 11,
    "ciStatus": null,
@@ -7360,8 +7355,8 @@
    "draft": false,
    "createdAt": "2026-03-10T03:23:16Z",
    "updatedAt": "2026-03-10T03:23:16Z",
-   "ageDays": 117.5,
-   "idleDays": 117.5,
+   "ageDays": 117.7,
+   "idleDays": 117.7,
    "behindBase": 59,
    "aheadOfBase": 3,
    "ciStatus": null,
@@ -7378,8 +7373,8 @@
    "draft": false,
    "createdAt": "2026-03-10T03:20:39Z",
    "updatedAt": "2026-04-07T08:45:57Z",
-   "ageDays": 117.5,
-   "idleDays": 89.2,
+   "ageDays": 117.7,
+   "idleDays": 89.5,
    "behindBase": 47,
    "aheadOfBase": 6,
    "ciStatus": null,
@@ -7396,8 +7391,8 @@
    "draft": false,
    "createdAt": "2025-03-22T12:27:31Z",
    "updatedAt": "2026-03-02T20:12:25Z",
-   "ageDays": 470.1,
-   "idleDays": 124.7,
+   "ageDays": 470.3,
+   "idleDays": 125,
    "behindBase": 186,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -7414,8 +7409,8 @@
    "draft": false,
    "createdAt": "2025-03-22T12:23:17Z",
    "updatedAt": "2026-05-29T19:51:54Z",
-   "ageDays": 470.1,
-   "idleDays": 36.8,
+   "ageDays": 470.3,
+   "idleDays": 37,
    "behindBase": 46,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -7432,8 +7427,8 @@
    "draft": false,
    "createdAt": "2025-01-16T03:57:41Z",
    "updatedAt": "2026-05-29T19:51:58Z",
-   "ageDays": 535.4,
-   "idleDays": 36.8,
+   "ageDays": 535.7,
+   "idleDays": 37,
    "behindBase": 46,
    "aheadOfBase": 2,
    "ciStatus": null,
@@ -7450,8 +7445,8 @@
    "draft": false,
    "createdAt": "2023-02-14T12:44:06Z",
    "updatedAt": "2026-03-02T20:12:25Z",
-   "ageDays": 1237.1,
-   "idleDays": 124.7,
+   "ageDays": 1237.3,
+   "idleDays": 125,
    "behindBase": 640,
    "aheadOfBase": 2,
    "ciStatus": null,
@@ -7468,9 +7463,9 @@
    "draft": false,
    "createdAt": "2026-06-10T20:30:06Z",
    "updatedAt": "2026-06-10T20:30:06Z",
-   "ageDays": 24.7,
-   "idleDays": 24.7,
-   "behindBase": 94,
+   "ageDays": 25,
+   "idleDays": 25,
+   "behindBase": 100,
    "aheadOfBase": 1,
    "ciStatus": null,
    "severity": "warn"
@@ -7486,9 +7481,9 @@
    "draft": false,
    "createdAt": "2025-01-04T22:06:58Z",
    "updatedAt": "2026-06-09T23:58:41Z",
-   "ageDays": 546.7,
-   "idleDays": 25.6,
-   "behindBase": 157,
+   "ageDays": 546.9,
+   "idleDays": 25.8,
+   "behindBase": 163,
    "aheadOfBase": 1,
    "ciStatus": null,
    "severity": "warn"
@@ -7504,9 +7499,9 @@
    "draft": false,
    "createdAt": "2025-01-02T18:20:42Z",
    "updatedAt": "2026-06-09T23:58:41Z",
-   "ageDays": 548.8,
-   "idleDays": 25.6,
-   "behindBase": 157,
+   "ageDays": 549.1,
+   "idleDays": 25.8,
+   "behindBase": 163,
    "aheadOfBase": 2,
    "ciStatus": null,
    "severity": "warn"
@@ -7522,9 +7517,9 @@
    "draft": false,
    "createdAt": "2024-12-24T15:13:11Z",
    "updatedAt": "2026-06-09T23:58:41Z",
-   "ageDays": 558,
-   "idleDays": 25.6,
-   "behindBase": 725,
+   "ageDays": 558.2,
+   "idleDays": 25.8,
+   "behindBase": 731,
    "aheadOfBase": 2,
    "ciStatus": null,
    "severity": "warn"
@@ -7540,9 +7535,9 @@
    "draft": false,
    "createdAt": "2024-12-24T15:12:04Z",
    "updatedAt": "2026-06-09T23:58:41Z",
-   "ageDays": 558,
-   "idleDays": 25.6,
-   "behindBase": 157,
+   "ageDays": 558.2,
+   "idleDays": 25.8,
+   "behindBase": 163,
    "aheadOfBase": 3,
    "ciStatus": null,
    "severity": "warn"
@@ -7558,9 +7553,9 @@
    "draft": true,
    "createdAt": "2024-12-17T17:46:00Z",
    "updatedAt": "2026-06-09T23:58:41Z",
-   "ageDays": 564.9,
-   "idleDays": 25.6,
-   "behindBase": 353,
+   "ageDays": 565.1,
+   "idleDays": 25.8,
+   "behindBase": 359,
    "aheadOfBase": 3,
    "ciStatus": null,
    "severity": "info"
@@ -7576,9 +7571,9 @@
    "draft": false,
    "createdAt": "2024-12-09T20:10:24Z",
    "updatedAt": "2026-06-09T23:58:41Z",
-   "ageDays": 572.8,
-   "idleDays": 25.6,
-   "behindBase": 347,
+   "ageDays": 573,
+   "idleDays": 25.8,
+   "behindBase": 353,
    "aheadOfBase": 2,
    "ciStatus": null,
    "severity": "warn"
@@ -7594,9 +7589,9 @@
    "draft": false,
    "createdAt": "2024-12-09T20:10:16Z",
    "updatedAt": "2026-06-09T23:58:41Z",
-   "ageDays": 572.8,
-   "idleDays": 25.6,
-   "behindBase": 356,
+   "ageDays": 573,
+   "idleDays": 25.8,
+   "behindBase": 362,
    "aheadOfBase": 1,
    "ciStatus": null,
    "severity": "warn"
@@ -7612,9 +7607,9 @@
    "draft": false,
    "createdAt": "2024-11-26T16:22:40Z",
    "updatedAt": "2026-06-09T23:58:41Z",
-   "ageDays": 585.9,
-   "idleDays": 25.6,
-   "behindBase": 157,
+   "ageDays": 586.1,
+   "idleDays": 25.8,
+   "behindBase": 163,
    "aheadOfBase": 1,
    "ciStatus": null,
    "severity": "warn"
@@ -7630,9 +7625,9 @@
    "draft": false,
    "createdAt": "2024-11-26T16:22:07Z",
    "updatedAt": "2026-06-09T23:58:41Z",
-   "ageDays": 585.9,
-   "idleDays": 25.6,
-   "behindBase": 368,
+   "ageDays": 586.1,
+   "idleDays": 25.8,
+   "behindBase": 374,
    "aheadOfBase": 1,
    "ciStatus": null,
    "severity": "warn"
@@ -7648,9 +7643,9 @@
    "draft": false,
    "createdAt": "2024-11-26T16:20:59Z",
    "updatedAt": "2026-06-09T23:58:42Z",
-   "ageDays": 585.9,
-   "idleDays": 25.6,
-   "behindBase": 512,
+   "ageDays": 586.1,
+   "idleDays": 25.8,
+   "behindBase": 518,
    "aheadOfBase": 1,
    "ciStatus": null,
    "severity": "warn"
@@ -7666,9 +7661,9 @@
    "draft": false,
    "createdAt": "2022-04-22T15:13:20Z",
    "updatedAt": "2026-06-09T23:58:41Z",
-   "ageDays": 1535,
-   "idleDays": 25.6,
-   "behindBase": 776,
+   "ageDays": 1535.2,
+   "idleDays": 25.8,
+   "behindBase": 782,
    "aheadOfBase": 4,
    "ciStatus": null,
    "severity": "warn"
@@ -7684,8 +7679,8 @@
    "draft": false,
    "createdAt": "2026-06-02T06:19:55Z",
    "updatedAt": "2026-06-02T16:17:13Z",
-   "ageDays": 33.3,
-   "idleDays": 32.9,
+   "ageDays": 33.6,
+   "idleDays": 33.1,
    "behindBase": 0,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -7702,8 +7697,8 @@
    "draft": false,
    "createdAt": "2026-03-30T14:09:50Z",
    "updatedAt": "2026-06-02T05:30:35Z",
-   "ageDays": 97,
-   "idleDays": 33.4,
+   "ageDays": 97.2,
+   "idleDays": 33.6,
    "behindBase": 0,
    "aheadOfBase": 4,
    "ciStatus": null,
@@ -7720,8 +7715,8 @@
    "draft": false,
    "createdAt": "2026-01-17T23:34:50Z",
    "updatedAt": "2026-01-17T23:34:50Z",
-   "ageDays": 168.6,
-   "idleDays": 168.6,
+   "ageDays": 168.8,
+   "idleDays": 168.8,
    "behindBase": 46,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -7738,8 +7733,8 @@
    "draft": true,
    "createdAt": "2025-05-30T17:03:07Z",
    "updatedAt": "2026-01-12T06:54:34Z",
-   "ageDays": 400.9,
-   "idleDays": 174.3,
+   "ageDays": 401.1,
+   "idleDays": 174.5,
    "behindBase": 130,
    "aheadOfBase": 14,
    "ciStatus": null,
@@ -7756,8 +7751,8 @@
    "draft": false,
    "createdAt": "2024-12-01T17:57:17Z",
    "updatedAt": "2026-01-12T06:54:34Z",
-   "ageDays": 580.8,
-   "idleDays": 174.3,
+   "ageDays": 581.1,
+   "idleDays": 174.5,
    "behindBase": 209,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -10191,7 +10186,7 @@
    "ahead": 3,
    "aheadReal": 0,
    "landedEquivalent": 3,
-   "behind": 127,
+   "behind": 133,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -10204,7 +10199,7 @@
    "ahead": 0,
    "aheadReal": 0,
    "landedEquivalent": null,
-   "behind": 92,
+   "behind": 98,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -10217,7 +10212,7 @@
    "ahead": 4,
    "aheadReal": 0,
    "landedEquivalent": 4,
-   "behind": 127,
+   "behind": 133,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -10230,7 +10225,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 73,
+   "behind": 79,
    "hasPR": false,
    "prNumber": null,
    "severity": "info"
@@ -10241,9 +10236,9 @@
    "sha": "b96aa75d0c7259243b54427fac9b77973846a6c2",
    "lastCommitDate": "2026-07-03T20:52:26-04:00",
    "ahead": 32,
-   "aheadReal": 31,
-   "landedEquivalent": 0,
-   "behind": 1,
+   "aheadReal": 25,
+   "landedEquivalent": 6,
+   "behind": 7,
    "hasPR": false,
    "prNumber": null,
    "severity": "info"
@@ -10256,7 +10251,7 @@
    "ahead": 1,
    "aheadReal": 0,
    "landedEquivalent": 1,
-   "behind": 94,
+   "behind": 100,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -10269,7 +10264,7 @@
    "ahead": 5,
    "aheadReal": 0,
    "landedEquivalent": 5,
-   "behind": 92,
+   "behind": 98,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -10282,7 +10277,7 @@
    "ahead": 20,
    "aheadReal": 0,
    "landedEquivalent": 20,
-   "behind": 124,
+   "behind": 130,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -10295,7 +10290,7 @@
    "ahead": 5,
    "aheadReal": 0,
    "landedEquivalent": 5,
-   "behind": 99,
+   "behind": 105,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -10308,7 +10303,7 @@
    "ahead": 1,
    "aheadReal": 0,
    "landedEquivalent": 1,
-   "behind": 94,
+   "behind": 100,
    "hasPR": true,
    "prNumber": 101,
    "severity": "ok"
@@ -10321,7 +10316,7 @@
    "ahead": 8,
    "aheadReal": 0,
    "landedEquivalent": 8,
-   "behind": 9,
+   "behind": 15,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -10334,7 +10329,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 368,
+   "behind": 374,
    "hasPR": true,
    "prNumber": 44,
    "severity": "ok"
@@ -10342,8 +10337,8 @@
   {
    "repo": "celtera/avendish",
    "name": "feat/clap-soft-ui-wiring",
-   "sha": "bd82220e1bda530298ae3411f5d65673538f5b5c",
-   "lastCommitDate": "2026-07-04T21:49:38-04:00",
+   "sha": "5f7102a80f83ecd0c568d518f9c3c0d1f86fd7bf",
+   "lastCommitDate": "2026-07-05T12:01:48-04:00",
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
@@ -10355,8 +10350,8 @@
   {
    "repo": "celtera/avendish",
    "name": "feat/max-pd-help-packaging",
-   "sha": "dbf30f8b3450b0daefcad256c066a010e879b507",
-   "lastCommitDate": "2026-07-04T22:40:24-04:00",
+   "sha": "878cf7bd551baa41086c0ad2d415be6cf8bf6a86",
+   "lastCommitDate": "2026-07-05T12:01:38-04:00",
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
@@ -10373,7 +10368,7 @@
    "ahead": 17,
    "aheadReal": 0,
    "landedEquivalent": 17,
-   "behind": 56,
+   "behind": 62,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -10386,7 +10381,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 356,
+   "behind": 362,
    "hasPR": true,
    "prNumber": 46,
    "severity": "ok"
@@ -10399,7 +10394,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 512,
+   "behind": 518,
    "hasPR": true,
    "prNumber": 43,
    "severity": "ok"
@@ -10412,7 +10407,7 @@
    "ahead": 12,
    "aheadReal": 11,
    "landedEquivalent": 0,
-   "behind": 74,
+   "behind": 80,
    "hasPR": false,
    "prNumber": null,
    "severity": "info"
@@ -10425,7 +10420,7 @@
    "ahead": 23,
    "aheadReal": 23,
    "landedEquivalent": 0,
-   "behind": 83,
+   "behind": 89,
    "hasPR": false,
    "prNumber": null,
    "severity": "info"
@@ -10438,7 +10433,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 38,
+   "behind": 44,
    "hasPR": false,
    "prNumber": null,
    "severity": "info"
@@ -10451,7 +10446,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 83,
+   "behind": 89,
    "hasPR": false,
    "prNumber": null,
    "severity": "info"
@@ -10464,7 +10459,7 @@
    "ahead": 2,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 157,
+   "behind": 163,
    "hasPR": true,
    "prNumber": 62,
    "severity": "ok"
@@ -10477,7 +10472,7 @@
    "ahead": 10,
    "aheadReal": 0,
    "landedEquivalent": 10,
-   "behind": 155,
+   "behind": 161,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -10490,7 +10485,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 144,
+   "behind": 150,
    "hasPR": false,
    "prNumber": null,
    "severity": "info"
@@ -10503,7 +10498,7 @@
    "ahead": 2,
    "aheadReal": 2,
    "landedEquivalent": 0,
-   "behind": 12,
+   "behind": 18,
    "hasPR": false,
    "prNumber": null,
    "severity": "info"
@@ -10516,7 +10511,7 @@
    "ahead": 8,
    "aheadReal": 0,
    "landedEquivalent": 8,
-   "behind": 124,
+   "behind": 130,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -10529,7 +10524,7 @@
    "ahead": 4,
    "aheadReal": 4,
    "landedEquivalent": 0,
-   "behind": 59,
+   "behind": 65,
    "hasPR": false,
    "prNumber": null,
    "severity": "info"
@@ -10542,7 +10537,7 @@
    "ahead": 6,
    "aheadReal": 6,
    "landedEquivalent": 0,
-   "behind": 12,
+   "behind": 18,
    "hasPR": false,
    "prNumber": null,
    "severity": "info"
@@ -10555,7 +10550,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 157,
+   "behind": 163,
    "hasPR": true,
    "prNumber": 45,
    "severity": "ok"
@@ -10568,7 +10563,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 157,
+   "behind": 163,
    "hasPR": true,
    "prNumber": 63,
    "severity": "ok"
@@ -10581,7 +10576,7 @@
    "ahead": 2,
    "aheadReal": 2,
    "landedEquivalent": 0,
-   "behind": 347,
+   "behind": 353,
    "hasPR": true,
    "prNumber": 47,
    "severity": "ok"
@@ -10594,7 +10589,7 @@
    "ahead": 4,
    "aheadReal": 0,
    "landedEquivalent": 4,
-   "behind": 124,
+   "behind": 130,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -10607,7 +10602,7 @@
    "ahead": 11,
    "aheadReal": 11,
    "landedEquivalent": 0,
-   "behind": 12,
+   "behind": 18,
    "hasPR": false,
    "prNumber": null,
    "severity": "info"
@@ -10620,7 +10615,7 @@
    "ahead": 2,
    "aheadReal": 0,
    "landedEquivalent": 2,
-   "behind": 157,
+   "behind": 163,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -10633,7 +10628,7 @@
    "ahead": 0,
    "aheadReal": 0,
    "landedEquivalent": null,
-   "behind": 39,
+   "behind": 45,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -10646,7 +10641,7 @@
    "ahead": 10,
    "aheadReal": 0,
    "landedEquivalent": 10,
-   "behind": 138,
+   "behind": 144,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -10659,7 +10654,7 @@
    "ahead": 26,
    "aheadReal": 0,
    "landedEquivalent": 26,
-   "behind": 38,
+   "behind": 44,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -10672,7 +10667,7 @@
    "ahead": 1,
    "aheadReal": 0,
    "landedEquivalent": 1,
-   "behind": 61,
+   "behind": 67,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -10685,7 +10680,7 @@
    "ahead": 1,
    "aheadReal": 0,
    "landedEquivalent": 1,
-   "behind": 145,
+   "behind": 151,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -10698,7 +10693,7 @@
    "ahead": 2,
    "aheadReal": 0,
    "landedEquivalent": 2,
-   "behind": 86,
+   "behind": 92,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -10711,7 +10706,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 83,
+   "behind": 89,
    "hasPR": false,
    "prNumber": null,
    "severity": "info"
@@ -10719,8 +10714,8 @@
   {
    "repo": "celtera/avendish",
    "name": "fix/backend-audio-texture-correctness",
-   "sha": "ca7d5d9f1f793db47d443d474f9a5b0d40cccc13",
-   "lastCommitDate": "2026-07-04T22:38:06-04:00",
+   "sha": "3b13d633f1a08a2736d7c4372d40b46be3b40642",
+   "lastCommitDate": "2026-07-05T12:01:35-04:00",
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
@@ -10737,7 +10732,7 @@
    "ahead": 1,
    "aheadReal": 0,
    "landedEquivalent": 1,
-   "behind": 10,
+   "behind": 16,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -10750,7 +10745,7 @@
    "ahead": 3,
    "aheadReal": 0,
    "landedEquivalent": 3,
-   "behind": 182,
+   "behind": 188,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -10761,12 +10756,12 @@
    "sha": "c5d47aac4ffc7cd28439721b2fb6b22165688a07",
    "lastCommitDate": "2026-07-03T18:23:34-04:00",
    "ahead": 1,
-   "aheadReal": 1,
-   "landedEquivalent": 0,
-   "behind": 1,
+   "aheadReal": 0,
+   "landedEquivalent": 1,
+   "behind": 7,
    "hasPR": false,
    "prNumber": null,
-   "severity": "info"
+   "severity": "ok"
   },
   {
    "repo": "celtera/avendish",
@@ -10774,22 +10769,22 @@
    "sha": "731b1d3a6a392d49ea78025f835b23fe94ff46f8",
    "lastCommitDate": "2026-07-04T22:35:19-04:00",
    "ahead": 1,
-   "aheadReal": 1,
-   "landedEquivalent": 0,
-   "behind": 1,
+   "aheadReal": 0,
+   "landedEquivalent": 1,
+   "behind": 7,
    "hasPR": false,
    "prNumber": null,
-   "severity": "info"
+   "severity": "ok"
   },
   {
    "repo": "celtera/avendish",
    "name": "fix/clap-process-events",
-   "sha": "c75764a726b44c88c5ba5c83654cb0c4e68ec47b",
-   "lastCommitDate": "2026-07-03T09:05:11-04:00",
-   "ahead": 2,
-   "aheadReal": 2,
+   "sha": "09c426f1be8d73b691e92fff28c78d09c6e0e1a1",
+   "lastCommitDate": "2026-07-05T13:48:14-04:00",
+   "ahead": 3,
+   "aheadReal": 3,
    "landedEquivalent": 0,
-   "behind": 1,
+   "behind": 0,
    "hasPR": false,
    "prNumber": null,
    "severity": "info"
@@ -10802,7 +10797,7 @@
    "ahead": 17,
    "aheadReal": 17,
    "landedEquivalent": 0,
-   "behind": 1,
+   "behind": 7,
    "hasPR": false,
    "prNumber": null,
    "severity": "info"
@@ -10815,7 +10810,7 @@
    "ahead": 2,
    "aheadReal": 2,
    "landedEquivalent": 0,
-   "behind": 145,
+   "behind": 151,
    "hasPR": false,
    "prNumber": null,
    "severity": "info"
@@ -10828,7 +10823,7 @@
    "ahead": 1,
    "aheadReal": 0,
    "landedEquivalent": 1,
-   "behind": 12,
+   "behind": 18,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -10839,12 +10834,12 @@
    "sha": "dd4caeb5d37c70f339ac2ce5d01883eb6e5e9d67",
    "lastCommitDate": "2026-07-03T11:00:21-04:00",
    "ahead": 1,
-   "aheadReal": 1,
-   "landedEquivalent": 0,
-   "behind": 1,
+   "aheadReal": 0,
+   "landedEquivalent": 1,
+   "behind": 7,
    "hasPR": false,
    "prNumber": null,
-   "severity": "info"
+   "severity": "ok"
   },
   {
    "repo": "celtera/avendish",
@@ -10854,7 +10849,7 @@
    "ahead": 1,
    "aheadReal": 0,
    "landedEquivalent": 1,
-   "behind": 12,
+   "behind": 18,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -10867,7 +10862,7 @@
    "ahead": 5,
    "aheadReal": 4,
    "landedEquivalent": 1,
-   "behind": 58,
+   "behind": 64,
    "hasPR": false,
    "prNumber": null,
    "severity": "info"
@@ -10878,12 +10873,12 @@
    "sha": "58155888ff5b782ac9eb7c2022e73dd1e513d6d5",
    "lastCommitDate": "2026-07-03T18:23:13-04:00",
    "ahead": 1,
-   "aheadReal": 1,
-   "landedEquivalent": 0,
-   "behind": 1,
+   "aheadReal": 0,
+   "landedEquivalent": 1,
+   "behind": 7,
    "hasPR": false,
    "prNumber": null,
-   "severity": "info"
+   "severity": "ok"
   },
   {
    "repo": "celtera/avendish",
@@ -10893,7 +10888,7 @@
    "ahead": 5,
    "aheadReal": 0,
    "landedEquivalent": 5,
-   "behind": 124,
+   "behind": 130,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -10901,8 +10896,8 @@
   {
    "repo": "celtera/avendish",
    "name": "fix/python-binding-improvements",
-   "sha": "430aab9875340f1a9d953401956dc7f201783213",
-   "lastCommitDate": "2026-07-04T22:39:48-04:00",
+   "sha": "a749b21e122831816203523dda8b4373a3852008",
+   "lastCommitDate": "2026-07-05T12:01:37-04:00",
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
@@ -10919,7 +10914,7 @@
    "ahead": 1,
    "aheadReal": 0,
    "landedEquivalent": 1,
-   "behind": 12,
+   "behind": 18,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -10932,7 +10927,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 1,
+   "behind": 7,
    "hasPR": false,
    "prNumber": null,
    "severity": "info"
@@ -10945,7 +10940,7 @@
    "ahead": 1,
    "aheadReal": 0,
    "landedEquivalent": 1,
-   "behind": 12,
+   "behind": 18,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -10958,7 +10953,7 @@
    "ahead": 1,
    "aheadReal": 0,
    "landedEquivalent": 1,
-   "behind": 12,
+   "behind": 18,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -10971,7 +10966,7 @@
    "ahead": 1,
    "aheadReal": 0,
    "landedEquivalent": 1,
-   "behind": 1,
+   "behind": 7,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -10984,7 +10979,7 @@
    "ahead": 1,
    "aheadReal": 0,
    "landedEquivalent": 1,
-   "behind": 12,
+   "behind": 18,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -10995,12 +10990,12 @@
    "sha": "6774c8e95e78af1449382b32cf9cd0b5276c5f0b",
    "lastCommitDate": "2026-07-03T13:24:20-04:00",
    "ahead": 1,
-   "aheadReal": 1,
-   "landedEquivalent": 0,
-   "behind": 1,
+   "aheadReal": 0,
+   "landedEquivalent": 1,
+   "behind": 7,
    "hasPR": false,
    "prNumber": null,
-   "severity": "info"
+   "severity": "ok"
   },
   {
    "repo": "celtera/avendish",
@@ -11010,7 +11005,7 @@
    "ahead": 1,
    "aheadReal": 0,
    "landedEquivalent": 1,
-   "behind": 56,
+   "behind": 62,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -11018,12 +11013,12 @@
   {
    "repo": "celtera/avendish",
    "name": "gh-pages",
-   "sha": "3c2636bf826e62ec96729066088c67949d5150a8",
-   "lastCommitDate": "2026-06-02T21:32:09Z",
-   "ahead": 113,
-   "aheadReal": 113,
+   "sha": "fbac6d8361a270cc758b819777dfc1c3525a34f1",
+   "lastCommitDate": "2026-07-05T16:17:48Z",
+   "ahead": 115,
+   "aheadReal": 115,
    "landedEquivalent": 0,
-   "behind": 971,
+   "behind": 977,
    "hasPR": false,
    "prNumber": null,
    "severity": "info"
@@ -11034,12 +11029,12 @@
    "sha": "0d96728815ffd8db49abfafb9e681633b5a7f61e",
    "lastCommitDate": "2026-07-03T21:12:39Z",
    "ahead": 1,
-   "aheadReal": 1,
-   "landedEquivalent": 0,
-   "behind": 1,
+   "aheadReal": 0,
+   "landedEquivalent": 1,
+   "behind": 7,
    "hasPR": false,
    "prNumber": null,
-   "severity": "info"
+   "severity": "ok"
   },
   {
    "repo": "celtera/avendish",
@@ -11049,7 +11044,7 @@
    "ahead": 1,
    "aheadReal": 0,
    "landedEquivalent": 1,
-   "behind": 94,
+   "behind": 100,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -11062,7 +11057,7 @@
    "ahead": 2,
    "aheadReal": 2,
    "landedEquivalent": 0,
-   "behind": 353,
+   "behind": 359,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -11075,7 +11070,7 @@
    "ahead": 3,
    "aheadReal": 3,
    "landedEquivalent": 0,
-   "behind": 353,
+   "behind": 359,
    "hasPR": true,
    "prNumber": 54,
    "severity": "ok"
@@ -11083,8 +11078,8 @@
   {
    "repo": "celtera/avendish",
    "name": "test/golden-differential-harness",
-   "sha": "f24c75578eaa38cc6211e9586866dbfb069eca0d",
-   "lastCommitDate": "2026-07-04T22:41:16-04:00",
+   "sha": "c97bf76745e5d29815ba859221fc6a21643fe0f1",
+   "lastCommitDate": "2026-07-05T12:01:39-04:00",
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
@@ -11101,7 +11096,7 @@
    "ahead": 3,
    "aheadReal": 3,
    "landedEquivalent": 0,
-   "behind": 12,
+   "behind": 18,
    "hasPR": false,
    "prNumber": null,
    "severity": "info"
@@ -11114,7 +11109,7 @@
    "ahead": 6,
    "aheadReal": 0,
    "landedEquivalent": 6,
-   "behind": 82,
+   "behind": 88,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -11127,7 +11122,7 @@
    "ahead": 3,
    "aheadReal": 2,
    "landedEquivalent": 0,
-   "behind": 157,
+   "behind": 163,
    "hasPR": true,
    "prNumber": 60,
    "severity": "ok"
@@ -11140,7 +11135,7 @@
    "ahead": 2,
    "aheadReal": 2,
    "landedEquivalent": 0,
-   "behind": 725,
+   "behind": 731,
    "hasPR": true,
    "prNumber": 61,
    "severity": "ok"
@@ -11361,7 +11356,7 @@
    "ahead": 0,
    "aheadReal": 0,
    "landedEquivalent": null,
-   "behind": 10,
+   "behind": 11,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -11933,7 +11928,7 @@
    "ahead": 0,
    "aheadReal": 0,
    "landedEquivalent": null,
-   "behind": 43,
+   "behind": 44,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -11946,7 +11941,7 @@
    "ahead": 5,
    "aheadReal": 5,
    "landedEquivalent": 0,
-   "behind": 94,
+   "behind": 95,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -11959,7 +11954,7 @@
    "ahead": 1,
    "aheadReal": 0,
    "landedEquivalent": 1,
-   "behind": 37,
+   "behind": 38,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -11972,7 +11967,7 @@
    "ahead": 1,
    "aheadReal": 0,
    "landedEquivalent": 1,
-   "behind": 50,
+   "behind": 51,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -11985,7 +11980,7 @@
    "ahead": 0,
    "aheadReal": 0,
    "landedEquivalent": null,
-   "behind": 5,
+   "behind": 6,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -11998,7 +11993,7 @@
    "ahead": 0,
    "aheadReal": 0,
    "landedEquivalent": null,
-   "behind": 3,
+   "behind": 4,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -12011,7 +12006,7 @@
    "ahead": 8,
    "aheadReal": 8,
    "landedEquivalent": 0,
-   "behind": 87,
+   "behind": 88,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -12024,7 +12019,7 @@
    "ahead": 22,
    "aheadReal": 22,
    "landedEquivalent": 0,
-   "behind": 3,
+   "behind": 4,
    "hasPR": false,
    "prNumber": null,
    "severity": "info"
@@ -12037,7 +12032,7 @@
    "ahead": 1,
    "aheadReal": 0,
    "landedEquivalent": 1,
-   "behind": 2,
+   "behind": 3,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -12050,7 +12045,7 @@
    "ahead": 11,
    "aheadReal": 11,
    "landedEquivalent": 0,
-   "behind": 87,
+   "behind": 88,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -12063,7 +12058,7 @@
    "ahead": 2,
    "aheadReal": 2,
    "landedEquivalent": 0,
-   "behind": 87,
+   "behind": 88,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -12076,7 +12071,7 @@
    "ahead": 2,
    "aheadReal": 2,
    "landedEquivalent": 0,
-   "behind": 2,
+   "behind": 3,
    "hasPR": false,
    "prNumber": null,
    "severity": "info"
@@ -12678,67 +12673,67 @@
     {
      "repo": "celtera/avendish",
      "workflow": "backend_matrix.yml",
-     "ref": "v4"
+     "ref": "v7"
     },
     {
      "repo": "celtera/avendish",
      "workflow": "book.yml",
-     "ref": "v2"
+     "ref": "v7"
     },
     {
      "repo": "celtera/avendish",
      "workflow": "build_cmake.yml",
-     "ref": "v3"
+     "ref": "v7"
     },
     {
      "repo": "celtera/avendish",
      "workflow": "build_cmake.yml",
-     "ref": "v3"
+     "ref": "v7"
     },
     {
      "repo": "celtera/avendish",
      "workflow": "build_cmake.yml",
-     "ref": "v3"
+     "ref": "v7"
     },
     {
      "repo": "celtera/avendish",
      "workflow": "build_cmake.yml",
-     "ref": "v3"
+     "ref": "v7"
     },
     {
      "repo": "celtera/avendish",
      "workflow": "build_vs.yml",
-     "ref": "v6"
+     "ref": "v7"
     },
     {
      "repo": "celtera/avendish",
      "workflow": "build_vs.yml",
-     "ref": "v6"
+     "ref": "v7"
     },
     {
      "repo": "celtera/avendish",
      "workflow": "build_vs.yml",
-     "ref": "v6"
+     "ref": "v7"
     },
     {
      "repo": "celtera/avendish",
      "workflow": "build_vs.yml",
-     "ref": "v6"
+     "ref": "v7"
     },
     {
      "repo": "celtera/avendish",
      "workflow": "mingw.yml",
-     "ref": "v4"
+     "ref": "v7"
     },
     {
      "repo": "celtera/avendish",
      "workflow": "mingw.yml",
-     "ref": "v3"
+     "ref": "v7"
     },
     {
      "repo": "celtera/avendish",
      "workflow": "mingw.yml",
-     "ref": "v3"
+     "ref": "v7"
     },
     {
      "repo": "celtera/libremidi",
@@ -13445,8 +13440,7 @@
    "outdatedRefs": [
     "v6",
     "v4",
-    "v2",
-    "v3"
+    "v2"
    ],
    "severity": "warn"
   },
@@ -15463,7 +15457,7 @@
     {
      "repo": "celtera/avendish",
      "workflow": "book.yml",
-     "ref": "v3"
+     "ref": "v4"
     },
     {
      "repo": "celtera/libremidi",
@@ -16444,6 +16438,66 @@
    "severity": "ok"
   },
   {
+   "project": "libremidi",
+   "newestVersion": "5.4.3",
+   "total": 10,
+   "outdated": 8,
+   "newest": 2,
+   "versions": [
+    {
+     "repo": "aur",
+     "version": "4.5.0",
+     "status": "outdated"
+    },
+    {
+     "repo": "freebsd",
+     "version": "5.4.3",
+     "status": "newest"
+    },
+    {
+     "repo": "nix_stable_23_11",
+     "version": "3.0",
+     "status": "outdated"
+    },
+    {
+     "repo": "nix_stable_24_05",
+     "version": "4.4.0",
+     "status": "outdated"
+    },
+    {
+     "repo": "nix_stable_24_11",
+     "version": "4.4.0",
+     "status": "outdated"
+    },
+    {
+     "repo": "nix_stable_25_05",
+     "version": "4.5.0",
+     "status": "outdated"
+    },
+    {
+     "repo": "nix_stable_25_11",
+     "version": "4.5.0",
+     "status": "outdated"
+    },
+    {
+     "repo": "nix_stable_26_05",
+     "version": "4.5.0",
+     "status": "outdated"
+    },
+    {
+     "repo": "nix_unstable",
+     "version": "4.5.0",
+     "status": "outdated"
+    },
+    {
+     "repo": "vcpkg",
+     "version": "5.4.3",
+     "status": "newest"
+    }
+   ],
+   "severity": "warn"
+  },
+  {
    "project": "avendish",
    "newestVersion": null,
    "total": 0,
@@ -16468,7 +16522,7 @@
    "category": "submodule",
    "repo": "ossia/libossia",
    "subject": "3rdparty/abseil-cpp",
-   "message": "pin not on 'master' (on: lts_2025_05_12); 682 commits / 13 months behind abseil/abseil-cpp@master",
+   "message": "pin not on 'master' (on: lts_2025_05_12); 683 commits / 13 months behind abseil/abseil-cpp@master",
    "url": "https://github.com/abseil/abseil-cpp",
    "severity": "crit"
   },
@@ -16630,7 +16684,7 @@
    "category": "action",
    "repo": "ossia/score",
    "subject": "actions/checkout",
-   "message": "used at v6, v4, v2, v3, latest is v7",
+   "message": "used at v6, v4, v2, latest is v7",
    "url": "https://github.com/actions/checkout",
    "severity": "warn"
   },
@@ -17467,7 +17521,7 @@
    "category": "dependency",
    "repo": "ossia/score-addon-cv",
    "subject": "Avendish (cmake-fetchcontent)",
-   "message": "upstream HEAD moved 2 days past our pin; upstream active again (last commit 2026-07-04)",
+   "message": "upstream HEAD moved 3 days past our pin; upstream active again (last commit 2026-07-05)",
    "url": "https://github.com/celtera/avendish",
    "severity": "warn"
   },
@@ -17485,7 +17539,7 @@
    "category": "dependency",
    "repo": "ossia/score-addon-librediffusion",
    "subject": "Avendish (cmake-fetchcontent)",
-   "message": "upstream HEAD moved 2 days past our pin; upstream active again (last commit 2026-07-04)",
+   "message": "upstream HEAD moved 3 days past our pin; upstream active again (last commit 2026-07-05)",
    "url": "https://github.com/celtera/avendish",
    "severity": "warn"
   },
@@ -17494,7 +17548,7 @@
    "category": "dependency",
    "repo": "ossia/score-addon-onnx",
    "subject": "Avendish (cmake-fetchcontent)",
-   "message": "upstream HEAD moved 8 days past our pin; upstream active again (last commit 2026-07-04)",
+   "message": "upstream HEAD moved 8 days past our pin; upstream active again (last commit 2026-07-05)",
    "url": "https://github.com/celtera/avendish",
    "severity": "warn"
   },
@@ -17512,7 +17566,7 @@
    "category": "dependency",
    "repo": "ossia/score-addon-puara",
    "subject": "Avendish (cmake-fetchcontent)",
-   "message": "upstream HEAD moved 2 days past our pin; upstream active again (last commit 2026-07-04)",
+   "message": "upstream HEAD moved 3 days past our pin; upstream active again (last commit 2026-07-05)",
    "url": "https://github.com/celtera/avendish",
    "severity": "warn"
   },
@@ -17521,7 +17575,7 @@
    "category": "dependency",
    "repo": "ossia/score-addon-puara",
    "subject": "Eigen3 (cmake-fetchcontent)",
-   "message": "upstream HEAD moved 8 months past our pin; upstream active again (last commit 2026-07-04)",
+   "message": "upstream HEAD moved 8 months past our pin; upstream active again (last commit 2026-07-05)",
    "url": "https://gitlab.com/libeigen/eigen",
    "severity": "warn"
   },
@@ -17598,6 +17652,15 @@
    "severity": "warn"
   },
   {
+   "id": "packaging:repology:libremidi",
+   "category": "packaging",
+   "repo": "libremidi",
+   "subject": "libremidi",
+   "message": "8/10 downstream repos ship an outdated version (newest: 5.4.3)",
+   "url": "https://repology.org/project/libremidi/versions",
+   "severity": "warn"
+  },
+  {
    "id": "packaging:repology:ossia-score",
    "category": "packaging",
    "repo": "ossia-score",
@@ -17611,7 +17674,7 @@
    "category": "pr",
    "repo": "celtera/avendish",
    "subject": "#101 touchdesigner: POP binding: gate buffer submission on `changed`, fix input buffer use-after-free",
-   "message": "idle 25d, 94 commits behind main",
+   "message": "idle 25d, 100 commits behind main",
    "url": "https://github.com/celtera/avendish/pull/101",
    "severity": "warn"
   },
@@ -17620,7 +17683,7 @@
    "category": "pr",
    "repo": "celtera/avendish",
    "subject": "#29 First Pull Request",
-   "message": "idle 26d, 776 commits behind main",
+   "message": "idle 26d, 782 commits behind main",
    "url": "https://github.com/celtera/avendish/pull/29",
    "severity": "warn"
   },
@@ -17629,7 +17692,7 @@
    "category": "pr",
    "repo": "celtera/avendish",
    "subject": "#43 pd: start implementing support for clock",
-   "message": "idle 26d, 512 commits behind main",
+   "message": "idle 26d, 518 commits behind main",
    "url": "https://github.com/celtera/avendish/pull/43",
    "severity": "warn"
   },
@@ -17638,7 +17701,7 @@
    "category": "pr",
    "repo": "celtera/avendish",
    "subject": "#44 examples: add an audio-to-osc example",
-   "message": "idle 26d, 368 commits behind main",
+   "message": "idle 26d, 374 commits behind main",
    "url": "https://github.com/celtera/avendish/pull/44",
    "severity": "warn"
   },
@@ -17647,7 +17710,7 @@
    "category": "pr",
    "repo": "celtera/avendish",
    "subject": "#45 bindings: add a libmapper binding",
-   "message": "idle 26d, 157 commits behind main",
+   "message": "idle 26d, 163 commits behind main",
    "url": "https://github.com/celtera/avendish/pull/45",
    "severity": "warn"
   },
@@ -17656,7 +17719,7 @@
    "category": "pr",
    "repo": "celtera/avendish",
    "subject": "#46 concepts: play with a visual range concept separate from the mapping range",
-   "message": "idle 26d, 356 commits behind main",
+   "message": "idle 26d, 362 commits behind main",
    "url": "https://github.com/celtera/avendish/pull/46",
    "severity": "warn"
   },
@@ -17665,7 +17728,7 @@
    "category": "pr",
    "repo": "celtera/avendish",
    "subject": "#47 ossia: work on making avnd objects support polyphonic controls",
-   "message": "idle 26d, 347 commits behind main",
+   "message": "idle 26d, 353 commits behind main",
    "url": "https://github.com/celtera/avendish/pull/47",
    "severity": "warn"
   },
@@ -17674,7 +17737,7 @@
    "category": "pr",
    "repo": "celtera/avendish",
    "subject": "#60 [ossia] Improve standalone & oscquery bindings",
-   "message": "idle 26d, 157 commits behind main",
+   "message": "idle 26d, 163 commits behind main",
    "url": "https://github.com/celtera/avendish/pull/60",
    "severity": "warn"
   },
@@ -17683,7 +17746,7 @@
    "category": "pr",
    "repo": "celtera/avendish",
    "subject": "#61 [wip] Try SDL-based UI for vst",
-   "message": "idle 26d, 725 commits behind main",
+   "message": "idle 26d, 731 commits behind main",
    "url": "https://github.com/celtera/avendish/pull/61",
    "severity": "warn"
   },
@@ -17692,7 +17755,7 @@
    "category": "pr",
    "repo": "celtera/avendish",
    "subject": "#62 concepts: start work on file output",
-   "message": "idle 26d, 157 commits behind main",
+   "message": "idle 26d, 163 commits behind main",
    "url": "https://github.com/celtera/avendish/pull/62",
    "severity": "warn"
   },
@@ -17701,7 +17764,7 @@
    "category": "pr",
    "repo": "celtera/avendish",
    "subject": "#63 concepts: define note port",
-   "message": "idle 26d, 157 commits behind main",
+   "message": "idle 26d, 163 commits behind main",
    "url": "https://github.com/celtera/avendish/pull/63",
    "severity": "warn"
   },
@@ -17710,7 +17773,7 @@
    "category": "pr",
    "repo": "celtera/libremidi",
    "subject": "#124 api: annotate with nodiscard",
-   "message": "idle 174d, 209 commits behind master",
+   "message": "idle 175d, 209 commits behind master",
    "url": "https://github.com/celtera/libremidi/pull/124",
    "severity": "warn"
   },
@@ -17728,7 +17791,7 @@
    "category": "pr",
    "repo": "celtera/libremidi",
    "subject": "#204 macos ump endpoint backend",
-   "message": "idle 33d, 0 commits behind feature/ump_endpoint",
+   "message": "idle 34d, 0 commits behind feature/ump_endpoint",
    "url": "https://github.com/celtera/libremidi/pull/204",
    "severity": "warn"
   },
@@ -17782,7 +17845,7 @@
    "category": "pr",
    "repo": "ossia/libossia",
    "subject": "#874 feature/feedback",
-   "message": "idle 89d, 47 commits behind master",
+   "message": "idle 90d, 47 commits behind master",
    "url": "https://github.com/ossia/libossia/pull/874",
    "severity": "warn"
   },
@@ -17818,7 +17881,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1287 Feature/wasm remote",
-   "message": "idle 1781d, 0 commits behind feature/wasm-remote",
+   "message": "idle 1782d, 0 commits behind feature/wasm-remote",
    "url": "https://github.com/ossia/score/pull/1287",
    "severity": "warn"
   },
@@ -18129,6 +18192,15 @@
    "severity": "warn"
   },
   {
+   "id": "pr:ossia/score:2052",
+   "category": "pr",
+   "repo": "ossia/score",
+   "subject": "#2052 1886 feature request mouse selection and dragging of multiple processes",
+   "message": "idle 30d, 48 commits behind master",
+   "url": "https://github.com/ossia/score/pull/2052",
+   "severity": "warn"
+  },
+  {
    "id": "submodule:ossia/libossia:3rdparty/compile-time-regular-expressions",
    "category": "submodule",
    "repo": "ossia/libossia",
@@ -18376,7 +18448,7 @@
    "category": "submodule",
    "repo": "ossia/score",
    "subject": "3rdparty/avendish",
-   "message": "pin not on 'main' (on: addon-standalone-base-target, avendish-ui, combined/help-patches-and-td-verification, feat/clap-soft-ui-wiring, feat/max-pd-help-packaging); 74 commits / 17 days behind celtera/avendish@main",
+   "message": "pin not on 'main' (on: addon-standalone-base-target, avendish-ui, combined/help-patches-and-td-verification, feat/clap-soft-ui-wiring, feat/max-pd-help-packaging); 80 commits / 18 days behind celtera/avendish@main",
    "url": "https://github.com/celtera/avendish",
    "severity": "warn"
   },
@@ -18394,7 +18466,7 @@
    "category": "submodule",
    "repo": "ossia/score",
    "subject": "3rdparty/eigen",
-   "message": "pin not on 'master' (on: 5.0); 627 commits / 8 months behind gitlab:libeigen/eigen@master",
+   "message": "pin not on 'master' (on: 5.0); 628 commits / 8 months behind gitlab:libeigen/eigen@master",
    "url": "https://github.com/gitlab:libeigen/eigen",
    "severity": "warn"
   },
