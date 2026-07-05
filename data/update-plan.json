@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-04T19:40:43.263Z",
+ "generatedAt": "2026-07-05T04:32:30.036Z",
  "enabled": true,
  "proposals": [
   {
@@ -10,13 +10,61 @@
    "upstream": "celtera/avendish",
    "kind": "sha",
    "currentRef": "6660f3d25924c304e8bf42cae76ab766d23f7dda",
-   "targetRef": "82c034b865efe7eb2bd74f14ae6ec30ed027948d",
-   "targetDisplay": "82c034b865ef (main)",
-   "behindCommits": 48,
-   "behindDays": 5,
+   "targetRef": "4e424c473992912a52fc1380654599c93783d4a0",
+   "targetDisplay": "4e424c473992 (main)",
+   "behindCommits": 49,
+   "behindDays": 8,
    "branch": "chore/bump-score-addon-onnx/avendish",
-   "title": "chore(deps): bump Avendish to 82c034b865ef (main)",
-   "compareUrl": "https://github.com/celtera/avendish/compare/6660f3d25924c304e8bf42cae76ab766d23f7dda...82c034b865efe7eb2bd74f14ae6ec30ed027948d"
+   "title": "chore(deps): bump Avendish to 4e424c473992 (main)",
+   "compareUrl": "https://github.com/celtera/avendish/compare/6660f3d25924c304e8bf42cae76ab766d23f7dda...4e424c473992912a52fc1380654599c93783d4a0"
+  },
+  {
+   "repo": "ossia/score-addon-cv",
+   "source": "cmake-fetchcontent",
+   "name": "Avendish",
+   "file": "CMakeLists.txt",
+   "upstream": "celtera/avendish",
+   "kind": "sha",
+   "currentRef": "82c034b865efe7eb2bd74f14ae6ec30ed027948d",
+   "targetRef": "4e424c473992912a52fc1380654599c93783d4a0",
+   "targetDisplay": "4e424c473992 (main)",
+   "behindCommits": 1,
+   "behindDays": 2,
+   "branch": "chore/bump-score-addon-cv/avendish",
+   "title": "chore(deps): bump Avendish to 4e424c473992 (main)",
+   "compareUrl": "https://github.com/celtera/avendish/compare/82c034b865efe7eb2bd74f14ae6ec30ed027948d...4e424c473992912a52fc1380654599c93783d4a0"
+  },
+  {
+   "repo": "ossia/score-addon-librediffusion",
+   "source": "cmake-fetchcontent",
+   "name": "Avendish",
+   "file": "CMakeLists.txt",
+   "upstream": "celtera/avendish",
+   "kind": "sha",
+   "currentRef": "82c034b865efe7eb2bd74f14ae6ec30ed027948d",
+   "targetRef": "4e424c473992912a52fc1380654599c93783d4a0",
+   "targetDisplay": "4e424c473992 (main)",
+   "behindCommits": 1,
+   "behindDays": 2,
+   "branch": "chore/bump-score-addon-librediffusion/avendish",
+   "title": "chore(deps): bump Avendish to 4e424c473992 (main)",
+   "compareUrl": "https://github.com/celtera/avendish/compare/82c034b865efe7eb2bd74f14ae6ec30ed027948d...4e424c473992912a52fc1380654599c93783d4a0"
+  },
+  {
+   "repo": "ossia/score-addon-puara",
+   "source": "cmake-fetchcontent",
+   "name": "Avendish",
+   "file": "CMakeLists.txt",
+   "upstream": "celtera/avendish",
+   "kind": "sha",
+   "currentRef": "82c034b865efe7eb2bd74f14ae6ec30ed027948d",
+   "targetRef": "4e424c473992912a52fc1380654599c93783d4a0",
+   "targetDisplay": "4e424c473992 (main)",
+   "behindCommits": 1,
+   "behindDays": 2,
+   "branch": "chore/bump-score-addon-puara/avendish",
+   "title": "chore(deps): bump Avendish to 4e424c473992 (main)",
+   "compareUrl": "https://github.com/celtera/avendish/compare/82c034b865efe7eb2bd74f14ae6ec30ed027948d...4e424c473992912a52fc1380654599c93783d4a0"
   }
  ]
 }
