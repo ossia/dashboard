@@ -1,25 +1,9 @@
 {
- "generatedAt": "2026-07-10T15:05:36.564Z",
+ "generatedAt": "2026-07-10T19:56:44.539Z",
  "enabled": true,
  "proposals": [
   {
    "repo": "ossia/score-addon-cv",
-   "source": "cmake-fetchcontent",
-   "name": "Avendish",
-   "file": "CMakeLists.txt",
-   "upstream": "celtera/avendish",
-   "kind": "sha",
-   "currentRef": "82c034b865efe7eb2bd74f14ae6ec30ed027948d",
-   "targetRef": "480759886e295127c6bb2e6f62ba6af0c84ac145",
-   "targetDisplay": "480759886e29 (main)",
-   "behindCommits": 27,
-   "behindDays": 7,
-   "branch": "chore/bump-score-addon-cv/avendish",
-   "title": "chore(deps): bump Avendish to 480759886e29 (main)",
-   "compareUrl": "https://github.com/celtera/avendish/compare/82c034b865efe7eb2bd74f14ae6ec30ed027948d...480759886e295127c6bb2e6f62ba6af0c84ac145"
-  },
-  {
-   "repo": "ossia/score-addon-librediffusion",
    "source": "cmake-fetchcontent",
    "name": "Avendish",
    "file": "CMakeLists.txt",
@@ -30,7 +14,7 @@
    "targetDisplay": "480759886e29 (main)",
    "behindCommits": 6,
    "behindDays": 1,
-   "branch": "chore/bump-score-addon-librediffusion/avendish",
+   "branch": "chore/bump-score-addon-cv/avendish",
    "title": "chore(deps): bump Avendish to 480759886e29 (main)",
    "compareUrl": "https://github.com/celtera/avendish/compare/558744dcd18657163a1d6955ed9992188e00e8ad...480759886e295127c6bb2e6f62ba6af0c84ac145"
   },
@@ -47,22 +31,6 @@
    "behindCommits": 6,
    "behindDays": 1,
    "branch": "chore/bump-score-addon-onnx/avendish",
-   "title": "chore(deps): bump Avendish to 480759886e29 (main)",
-   "compareUrl": "https://github.com/celtera/avendish/compare/558744dcd18657163a1d6955ed9992188e00e8ad...480759886e295127c6bb2e6f62ba6af0c84ac145"
-  },
-  {
-   "repo": "ossia/score-addon-puara",
-   "source": "cmake-fetchcontent",
-   "name": "Avendish",
-   "file": "CMakeLists.txt",
-   "upstream": "celtera/avendish",
-   "kind": "sha",
-   "currentRef": "558744dcd18657163a1d6955ed9992188e00e8ad",
-   "targetRef": "480759886e295127c6bb2e6f62ba6af0c84ac145",
-   "targetDisplay": "480759886e29 (main)",
-   "behindCommits": 6,
-   "behindDays": 1,
-   "branch": "chore/bump-score-addon-puara/avendish",
    "title": "chore(deps): bump Avendish to 480759886e29 (main)",
    "compareUrl": "https://github.com/celtera/avendish/compare/558744dcd18657163a1d6955ed9992188e00e8ad...480759886e295127c6bb2e6f62ba6af0c84ac145"
   }

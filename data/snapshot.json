@@ -1,39 +1,40 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-07-10T15:05:36.564Z",
+ "generatedAt": "2026-07-10T19:56:44.539Z",
  "sections": {
   "repos": {
    "source": "live",
-   "collectedAt": "2026-07-10T15:04:48.561Z"
+   "collectedAt": "2026-07-10T19:56:09.653Z"
   },
   "submodules": {
    "source": "live",
-   "collectedAt": "2026-07-10T15:05:31.282Z"
+   "collectedAt": "2026-07-10T19:56:39.573Z"
   },
   "dependencies": {
    "source": "live",
-   "collectedAt": "2026-07-10T15:05:18.859Z"
+   "collectedAt": "2026-07-10T19:56:31.326Z"
   },
   "prs": {
    "source": "fixture",
-   "collectedAt": "2026-07-10T15:05:13.605Z",
+   "collectedAt": "2026-07-10T19:56:26.954Z",
    "error": "graphql sat-mtl/skills: Could not resolve to a Repository with the name 'sat-mtl/skills'."
   },
   "branches": {
    "source": "live",
-   "collectedAt": "2026-07-10T15:05:36.563Z"
+   "collectedAt": "2026-07-10T19:56:44.539Z"
   },
   "actions": {
    "source": "live",
-   "collectedAt": "2026-07-10T15:05:10.941Z"
+   "collectedAt": "2026-07-10T19:56:23.635Z"
   },
   "environments": {
    "source": "live",
-   "collectedAt": "2026-07-10T15:05:11.770Z"
+   "collectedAt": "2026-07-10T19:56:25.221Z"
   },
   "packaging": {
    "source": "live",
-   "collectedAt": "2026-07-10T15:05:11.129Z"
+   "collectedAt": "2026-07-10T19:56:23.711Z",
+   "error": "fetch failed"
   }
  },
  "repos": [
@@ -82,9 +83,9 @@
    "headDate": "2026-07-05T17:31:15-04:00",
    "counts": {
     "submodules": {
-     "warn": 16,
+     "warn": 17,
      "crit": 10,
-     "info": 5
+     "info": 4
     },
     "prs": {
      "warn": 9,
@@ -134,13 +135,13 @@
   {
    "slug": "celtera/libremidi",
    "defaultBranch": "master",
-   "headSha": "72136b0e511ff428d126040661eabf8b6df7f4c4",
-   "headDate": "2026-07-06T09:30:30-04:00",
+   "headSha": "5a3f7b50cdbff5c11e1bd57ad9ad426f44aac470",
+   "headDate": "2026-07-10T13:44:57-04:00",
    "counts": {
     "dependencies": {
      "warn": 0,
      "crit": 0,
-     "info": 6
+     "info": 5
     },
     "prs": {
      "warn": 4,
@@ -150,10 +151,10 @@
     "branches": {
      "warn": 2,
      "crit": 0,
-     "info": 5
+     "info": 4
     },
     "actions": {
-     "warn": 7,
+     "warn": 8,
      "crit": 0,
      "info": 2
     }
@@ -180,8 +181,8 @@
   {
    "slug": "ossia/dashboard",
    "defaultBranch": "main",
-   "headSha": "d50e4e2e8dadcb246132f434cd89603c61ae1cc7",
-   "headDate": "2026-07-10T12:59:53Z",
+   "headSha": "2465e1963a212b089ef5d329cfb72c95a00636f5",
+   "headDate": "2026-07-10T15:05:36Z",
    "counts": {
     "actions": {
      "warn": 2,
@@ -305,18 +306,18 @@
   {
    "slug": "ossia/score-addon-cv",
    "defaultBranch": "main",
-   "headSha": "cba34304c8670499104e088b012f5404f7833349",
-   "headDate": "2026-07-10T10:14:11-04:00",
+   "headSha": "79f7a97956ea636fcd9dad6205391a63a0a77b56",
+   "headDate": "2026-07-10T11:22:01-04:00",
    "counts": {
     "dependencies": {
      "warn": 2,
      "crit": 0,
-     "info": 1
+     "info": 0
     },
     "branches": {
      "warn": 0,
      "crit": 0,
-     "info": 4
+     "info": 2
     },
     "actions": {
      "warn": 0,
@@ -400,8 +401,8 @@
   {
    "slug": "ossia/score-addon-puara",
    "defaultBranch": "master",
-   "headSha": "cc300da8916d37771546227fb8e0a64d0fcd12be",
-   "headDate": "2026-07-08T19:51:34-04:00",
+   "headSha": "d4d508425c23759218a97b19dbcb37649d846726",
+   "headDate": "2026-07-10T11:13:58-04:00",
    "counts": {
     "submodules": {
      "warn": 2,
@@ -409,14 +410,14 @@
      "info": 0
     },
     "dependencies": {
-     "warn": 5,
+     "warn": 4,
      "crit": 0,
      "info": 0
     },
     "branches": {
      "warn": 3,
      "crit": 0,
-     "info": 2
+     "info": 1
     },
     "actions": {
      "warn": 0,
@@ -533,8 +534,8 @@
   {
    "slug": "ossia/score-addon-hdf5",
    "defaultBranch": "master",
-   "headSha": "3bed0e1b424eade2fe0eac300a0b4eb7aa0e4466",
-   "headDate": "2026-07-03T18:57:34-04:00",
+   "headSha": "6416dde1132427a228563f834543e871a515a557",
+   "headDate": "2026-07-10T11:42:49-04:00",
    "counts": {
     "submodules": {
      "warn": 2,
@@ -544,12 +545,12 @@
     "branches": {
      "warn": 0,
      "crit": 0,
-     "info": 3
+     "info": 2
     },
     "actions": {
-     "warn": 2,
+     "warn": 0,
      "crit": 0,
-     "info": 5
+     "info": 1
     }
    }
   },
@@ -659,23 +660,13 @@
   {
    "slug": "ossia/score-addon-librediffusion",
    "defaultBranch": "master",
-   "headSha": "ec8c5deb176252420438374e768e21783ab7ba02",
-   "headDate": "2026-07-08T19:51:30-04:00",
+   "headSha": "50bd759b79eaa7d7cea790beac6d66412cd79541",
+   "headDate": "2026-07-10T11:47:05-04:00",
    "counts": {
-    "submodules": {
-     "warn": 0,
-     "crit": 0,
-     "info": 1
-    },
-    "dependencies": {
-     "warn": 1,
-     "crit": 0,
-     "info": 0
-    },
     "branches": {
      "warn": 0,
      "crit": 0,
-     "info": 4
+     "info": 2
     },
     "actions": {
      "warn": 0,
@@ -756,7 +747,7 @@
     "master"
    ],
    "behindCount": 2,
-   "behindDays": 728.8521643518516,
+   "behindDays": 728.852164351852,
    "targetHeadSha": "eccc6459a9d5e2a947a05b3489d4cee863579276",
    "targetHeadDate": "2019-01-03T09:43:55-05:00",
    "severity": "crit",
@@ -895,7 +886,7 @@
     "master"
    ],
    "behindCount": 3,
-   "behindDays": 641.0784143518517,
+   "behindDays": 641.078414351852,
    "targetHeadSha": "3d2e82f8e6bff59c1d8b7a27491a29c2286b5206",
    "targetHeadDate": "2025-10-20T18:55:01+02:00",
    "severity": "crit",
@@ -1043,7 +1034,7 @@
     "master"
    ],
    "behindCount": 19,
-   "behindDays": 520.1189120370369,
+   "behindDays": 520.1189120370371,
    "targetHeadSha": "43d2fe1b133cc9ded823fde6bd10560721a36e98",
    "targetHeadDate": "2024-03-20T12:15:56-04:00",
    "severity": "crit",
@@ -1108,7 +1099,7 @@
     "fix-pd-class-name"
    ],
    "behindCount": 13,
-   "behindDays": 3.933831018518519,
+   "behindDays": 3.9338310185185184,
    "targetHeadSha": "480759886e295127c6bb2e6f62ba6af0c84ac145",
    "targetHeadDate": "2026-07-09T19:26:41-04:00",
    "severity": "warn",
@@ -1211,7 +1202,7 @@
     "master"
    ],
    "behindCount": 5,
-   "behindDays": 123.96619212962963,
+   "behindDays": 123.96619212962962,
    "targetHeadSha": "327cea8183f4bc09581b3b4c54702f2f388926fd",
    "targetHeadDate": "2026-04-02T20:11:43+01:00",
    "severity": "warn",
@@ -1362,14 +1353,14 @@
    "containingBranches": [
     "5.0"
    ],
-   "behindCount": 648,
-   "behindDays": 243.2094675925926,
-   "targetHeadSha": "26f009dbbe1f8520439e6b1b6c564d897e80ace6",
-   "targetHeadDate": "2026-07-09T18:46:34-07:00",
+   "behindCount": 649,
+   "behindDays": 243.84649305555556,
+   "targetHeadSha": "3006c69d4e703b3c6a6a00c1aa838b7d93e84434",
+   "targetHeadDate": "2026-07-10T10:03:53-07:00",
    "severity": "warn",
    "notes": [
     "pin not on 'master' (on: 5.0)",
-    "648 commits / 8 months behind gitlab:libeigen/eigen@master"
+    "649 commits / 8 months behind gitlab:libeigen/eigen@master"
    ]
   },
   {
@@ -1402,7 +1393,7 @@
    "onDefaultBranch": false,
    "containingBranches": [],
    "behindCount": 2,
-   "behindDays": 52.402997685185184,
+   "behindDays": 52.40299768518517,
    "targetHeadSha": "3100c21f864aacbeece57a3bd93af340074f34cb",
    "targetHeadDate": "2026-04-07T20:20:53-04:00",
    "severity": "warn",
@@ -1470,14 +1461,14 @@
     "fix/simplify-github-actions",
     "fix/uninitialized-error"
    ],
-   "behindCount": 168,
-   "behindDays": 156.66460648148148,
-   "targetHeadSha": "4bb4fe4458db20f89f57e4989e1b0b261d7ab4e4",
-   "targetHeadDate": "2026-07-10T10:08:34-04:00",
+   "behindCount": 169,
+   "behindDays": 156.7264699074074,
+   "targetHeadSha": "171349b0dfeb297ffd17e8af0c20c41bcc6a44ba",
+   "targetHeadDate": "2026-07-10T11:37:39-04:00",
    "severity": "warn",
    "notes": [
     "pin not on 'master' (on: arm-sve-ci, ci/clang-format, fix/fast-math-to-float-avx2, fix/simplify-github-actions, fix/uninitialized-error)",
-    "168 commits / 5 months behind xtensor-stack/xsimd@master"
+    "169 commits / 5 months behind xtensor-stack/xsimd@master"
    ]
   },
   {
@@ -1610,7 +1601,7 @@
     "v1.x"
    ],
    "behindCount": 3,
-   "behindDays": 13.732592592592594,
+   "behindDays": 13.732592592592592,
    "targetHeadSha": "8671ca4d492c8ee1cdfd3dd88afb9f88dd268178",
    "targetHeadDate": "2026-06-27T13:13:01+03:00",
    "severity": "info",
@@ -1652,7 +1643,7 @@
     "master"
    ],
    "behindCount": 5,
-   "behindDays": 627.2471412037037,
+   "behindDays": 627.2471412037038,
    "targetHeadSha": "131af2c479c6ba36142ee9805e9f60fc4adfa22c",
    "targetHeadDate": "2026-03-28T13:16:24-04:00",
    "severity": "crit",
@@ -1873,21 +1864,22 @@
    "pinnedSha": "cccc943045dc4326395584cd4bc416a622de4b1a",
    "pinnedDate": "2026-06-01T23:09:59Z",
    "targetDefaultBranch": "master",
-   "onDefaultBranch": true,
+   "onDefaultBranch": false,
    "containingBranches": [
     "feature/pipewire-ump-update",
     "fix/freebsd",
     "fix/pipewire-blocking-invoke-lock",
-    "fix/wasm-emscripten-midi-update",
-    "master"
+    "fix/pipewire-context-hardening",
+    "fix/wasm-emscripten-midi-update"
    ],
-   "behindCount": 7,
-   "behindDays": 34.59758101851852,
-   "targetHeadSha": "72136b0e511ff428d126040661eabf8b6df7f4c4",
-   "targetHeadDate": "2026-07-06T09:30:30-04:00",
-   "severity": "info",
+   "behindCount": 11,
+   "behindDays": 38.774282407407405,
+   "targetHeadSha": "5a3f7b50cdbff5c11e1bd57ad9ad426f44aac470",
+   "targetHeadDate": "2026-07-10T13:44:57-04:00",
+   "severity": "warn",
    "notes": [
-    "7 commits / 35 days behind jcelerier/libremidi@master"
+    "pin not on 'master' (on: feature/pipewire-ump-update, fix/freebsd, fix/pipewire-blocking-invoke-lock, fix/pipewire-context-hardening, fix/wasm-emscripten-midi-update)",
+    "11 commits / 39 days behind jcelerier/libremidi@master"
    ]
   },
   {
@@ -1924,7 +1916,7 @@
     "master"
    ],
    "behindCount": 2,
-   "behindDays": 49.0653125,
+   "behindDays": 49.065312500000005,
    "targetHeadSha": "cd99e2cca5ccb48f8d000f1cd844424dcdbbaf59",
    "targetHeadDate": "2026-06-29T07:08:02+10:00",
    "severity": "info",
@@ -2070,10 +2062,11 @@
     "devel",
     "devel-attempt-at-counter-warning-fix",
     "devel-c++17",
-    "devel-use-delete-instead-of-static-assert-false"
+    "devel-use-delete-instead-of-static-assert-false",
+    "docs/xcode-apple-silicon-discovery-mode"
    ],
    "behindCount": 211,
-   "behindDays": 548.3668287037036,
+   "behindDays": 548.3668287037037,
    "targetHeadSha": "a15f718c825b29d009c98e0770c35646332217c1",
    "targetHeadDate": "2026-07-08T10:29:59+02:00",
    "severity": "crit",
@@ -2257,7 +2250,7 @@
     "main"
    ],
    "behindCount": 12,
-   "behindDays": 353.20518518518514,
+   "behindDays": 353.2051851851852,
    "targetHeadSha": "dab09336d6a221299159a5ddc76cdcf6967ba9dd",
    "targetHeadDate": "2026-05-08T12:52:58+02:00",
    "severity": "warn",
@@ -2404,7 +2397,7 @@
     "v4"
    ],
    "behindCount": 1,
-   "behindDays": 104.92405092592591,
+   "behindDays": 104.92405092592594,
    "targetHeadSha": "5c62c4b3352c7d4c87ed3429d2329ddaf9b74df9",
    "targetHeadDate": "2026-06-02T11:22:51-04:00",
    "severity": "warn",
@@ -2424,14 +2417,14 @@
    "containingBranches": [
     "lts_2025_05_12"
    ],
-   "behindCount": 709,
-   "behindDays": 387.8838310185185,
-   "targetHeadSha": "67ae0034c30e9e4f057c22600d4561a3346c4373",
-   "targetHeadDate": "2026-07-10T05:00:51-07:00",
+   "behindCount": 711,
+   "behindDays": 388.1210763888889,
+   "targetHeadSha": "0784689a65b4ea1329fbc5174b8a57c88ec796a9",
+   "targetHeadDate": "2026-07-10T10:42:29-07:00",
    "severity": "crit",
    "notes": [
     "pin not on 'master' (on: lts_2025_05_12)",
-    "709 commits / 13 months behind abseil/abseil-cpp@master"
+    "711 commits / 13 months behind abseil/abseil-cpp@master"
    ]
   },
   {
@@ -2530,7 +2523,7 @@
     "copilot/compare-commit-changes"
    ],
    "behindCount": 313,
-   "behindDays": 340.25466435185183,
+   "behindDays": 340.2546643518519,
    "targetHeadSha": "e20e8e2bccdbab417b9697a91b888c51f544dfdc",
    "targetHeadDate": "2026-07-06T15:49:34-04:00",
    "severity": "warn",
@@ -2655,16 +2648,14 @@
    "pinnedDate": "2026-07-05T09:36:25-04:00",
    "targetDefaultBranch": "main",
    "onDefaultBranch": false,
-   "containingBranches": [
-    "fix-windows-libcxx-file_sys"
-   ],
+   "containingBranches": [],
    "behindCount": 0,
    "behindDays": 0,
    "targetHeadSha": "f6940f355009d9e29b08f3185191fa0ab9a8187f",
    "targetHeadDate": "2026-06-12T22:53:36Z",
    "severity": "warn",
    "notes": [
-    "pin not on 'main' (on: fix-windows-libcxx-file_sys)"
+    "pin not reachable from any branch of ossia/onnxruntime-extensions"
    ]
   },
   {
@@ -2877,22 +2868,19 @@
    "path": "3rdparty/librediffusion",
    "url": "https://github.com/jcelerier/librediffusion",
    "targetRepo": "jcelerier/librediffusion",
-   "pinnedSha": "50de337a7e7fec4df7d0e5cc5e1cb4f60939952a",
-   "pinnedDate": "2026-06-25T11:10:35-04:00",
+   "pinnedSha": "c18245f14d9f2317f65e3f4f2cfa2b69218899ad",
+   "pinnedDate": "2026-07-09T16:48:35-04:00",
    "targetDefaultBranch": "main",
    "onDefaultBranch": true,
    "containingBranches": [
-    "fix/live-update-scheduler-and-addnoise",
     "main"
    ],
-   "behindCount": 4,
-   "behindDays": 14.234722222222222,
+   "behindCount": 0,
+   "behindDays": 0,
    "targetHeadSha": "c18245f14d9f2317f65e3f4f2cfa2b69218899ad",
    "targetHeadDate": "2026-07-09T16:48:35-04:00",
-   "severity": "info",
-   "notes": [
-    "4 commits / 14 days behind jcelerier/librediffusion@main"
-   ]
+   "severity": "ok",
+   "notes": []
   },
   {
    "parentRepo": "ossia/score-addon-videoio",
@@ -3703,15 +3691,15 @@
    "tracksBranch": false,
    "latestTag": "5.0.1",
    "latestTagDate": "2025-11-08T12:44:56-08:00",
-   "upstreamHeadSha": "26f009dbbe1f8520439e6b1b6c564d897e80ace6",
-   "upstreamHeadDate": "2026-07-09T18:46:34-07:00",
+   "upstreamHeadSha": "3006c69d4e703b3c6a6a00c1aa838b7d93e84434",
+   "upstreamHeadDate": "2026-07-10T10:03:53-07:00",
    "defaultBranch": "master",
    "pinnedRefName": "5.0.1",
-   "behindMainCommits": 648,
-   "behindMainDays": 243,
+   "behindMainCommits": 649,
+   "behindMainDays": 244,
    "behindLatestCommits": 0,
-   "unreleasedCommits": 648,
-   "unreleasedDays": 243,
+   "unreleasedCommits": 649,
+   "unreleasedDays": 244,
    "outdated": false,
    "revived": false,
    "severity": "ok",
@@ -3840,14 +3828,14 @@
    "tracksBranch": false,
    "latestTag": "14.2.0",
    "latestTagDate": "2026-04-29T11:42:17+02:00",
-   "upstreamHeadSha": "4bb4fe4458db20f89f57e4989e1b0b261d7ab4e4",
-   "upstreamHeadDate": "2026-07-10T10:08:34-04:00",
+   "upstreamHeadSha": "171349b0dfeb297ffd17e8af0c20c41bcc6a44ba",
+   "upstreamHeadDate": "2026-07-10T11:37:39-04:00",
    "defaultBranch": "master",
    "pinnedRefName": "14.2.0",
-   "behindMainCommits": 47,
+   "behindMainCommits": 48,
    "behindMainDays": 72,
    "behindLatestCommits": 0,
-   "unreleasedCommits": 47,
+   "unreleasedCommits": 48,
    "unreleasedDays": 72,
    "outdated": false,
    "revived": false,
@@ -5343,15 +5331,15 @@
    "tracksBranch": false,
    "latestTag": "v5.4.3",
    "latestTagDate": "2026-01-18T16:06:17-05:00",
-   "upstreamHeadSha": "72136b0e511ff428d126040661eabf8b6df7f4c4",
-   "upstreamHeadDate": "2026-07-06T09:30:30-04:00",
+   "upstreamHeadSha": "5a3f7b50cdbff5c11e1bd57ad9ad426f44aac470",
+   "upstreamHeadDate": "2026-07-10T13:44:57-04:00",
    "defaultBranch": "master",
    "pinnedRefName": "v5.4.3",
-   "behindMainCommits": 50,
-   "behindMainDays": 169,
+   "behindMainCommits": 54,
+   "behindMainDays": 173,
    "behindLatestCommits": 0,
-   "unreleasedCommits": 50,
-   "unreleasedDays": 169,
+   "unreleasedCommits": 54,
+   "unreleasedDays": 173,
    "outdated": false,
    "revived": false,
    "severity": "ok",
@@ -5507,15 +5495,15 @@
    "tracksBranch": false,
    "latestTag": "release-3.4.12",
    "latestTagDate": "2026-07-01T09:20:42-07:00",
-   "upstreamHeadSha": "f653c5e91c2a3594edd63677cabeae2d71317727",
-   "upstreamHeadDate": "2026-07-10T03:55:50+03:00",
+   "upstreamHeadSha": "9149eca2077940bdfa29e743a7cf3aafbf10e3dc",
+   "upstreamHeadDate": "2026-07-10T11:40:30-07:00",
    "defaultBranch": "main",
    "pinnedRefName": "release-2.32.10",
-   "behindMainCommits": 11352,
-   "behindMainDays": 311,
+   "behindMainCommits": 11358,
+   "behindMainDays": 312,
    "behindLatestCommits": 10802,
-   "unreleasedCommits": 1137,
-   "unreleasedDays": 8,
+   "unreleasedCommits": 1143,
+   "unreleasedDays": 9,
    "outdated": true,
    "revived": false,
    "severity": "warn",
@@ -5536,15 +5524,15 @@
    "tracksBranch": false,
    "latestTag": "n8.1.2",
    "latestTagDate": "2026-06-17T04:33:35+02:00",
-   "upstreamHeadSha": "35f8f4bdc075db1ae63d999edf7ae682fcaf3cf7",
-   "upstreamHeadDate": "2026-07-10T12:12:54+02:00",
+   "upstreamHeadSha": "19a2758e55a6edcc185061958740fcac4b83378f",
+   "upstreamHeadDate": "2026-07-10T17:45:09Z",
    "defaultBranch": "master",
    "pinnedRefName": "n8.1",
-   "behindMainCommits": 2243,
+   "behindMainCommits": 2244,
    "behindMainDays": 116,
    "behindLatestCommits": 240,
-   "unreleasedCommits": 2243,
-   "unreleasedDays": 23,
+   "unreleasedCommits": 2244,
+   "unreleasedDays": 24,
    "outdated": true,
    "revived": false,
    "severity": "info",
@@ -5619,14 +5607,14 @@
    "tracksBranch": false,
    "latestTag": "llvmorg-22.1.8",
    "latestTagDate": "2026-06-15T22:33:53Z",
-   "upstreamHeadSha": "8834939829a3e3cfee2b98a3db6f12d068686ed8",
-   "upstreamHeadDate": "2026-07-10T17:04:59+02:00",
+   "upstreamHeadSha": "4a717571c2d313c6cf3a54b3d3da1fe52cbe5453",
+   "upstreamHeadDate": "2026-07-10T12:55:49-07:00",
    "defaultBranch": "main",
    "pinnedRefName": "llvmorg-22.1.8",
-   "behindMainCommits": 22613,
+   "behindMainCommits": 22669,
    "behindMainDays": 25,
    "behindLatestCommits": 0,
-   "unreleasedCommits": 22613,
+   "unreleasedCommits": 22669,
    "unreleasedDays": 25,
    "outdated": false,
    "revived": false,
@@ -5646,14 +5634,14 @@
    "tracksBranch": false,
    "latestTag": "openssl-4.0.1",
    "latestTagDate": "2026-06-09T11:36:41Z",
-   "upstreamHeadSha": "1768a5a1be8895f3cf54d418093c337ea1f3238d",
-   "upstreamHeadDate": "2026-07-10T16:54:46+02:00",
+   "upstreamHeadSha": "914ba181cec9ca2c41a5542c94018de0fea9e059",
+   "upstreamHeadDate": "2026-07-10T13:39:24-04:00",
    "defaultBranch": "master",
    "pinnedRefName": "openssl-3.5.7",
-   "behindMainCommits": 3329,
+   "behindMainCommits": 3343,
    "behindMainDays": 31,
    "behindLatestCommits": 2751,
-   "unreleasedCommits": 982,
+   "unreleasedCommits": 996,
    "unreleasedDays": 31,
    "outdated": true,
    "revived": false,
@@ -5675,14 +5663,14 @@
    "tracksBranch": false,
    "latestTag": "v6.11.1",
    "latestTagDate": "2026-05-07T15:36:32Z",
-   "upstreamHeadSha": "d4c2738749b422aab7ed43553251d4726dbd9aea",
-   "upstreamHeadDate": "2026-07-10T14:34:36Z",
+   "upstreamHeadSha": "bc97406551f5479cf88d908134078bd4736c20f1",
+   "upstreamHeadDate": "2026-07-10T18:45:32Z",
    "defaultBranch": "dev",
    "pinnedRefName": "v6.12.0-beta1",
-   "behindMainCommits": 856,
-   "behindMainDays": 38,
+   "behindMainCommits": 860,
+   "behindMainDays": 39,
    "behindLatestCommits": 1122,
-   "unreleasedCommits": 3137,
+   "unreleasedCommits": 3141,
    "unreleasedDays": 64,
    "outdated": false,
    "revived": false,
@@ -5733,14 +5721,14 @@
    "tracksBranch": false,
    "latestTag": "v3.14.6",
    "latestTagDate": "2026-06-10T13:03:53+03:00",
-   "upstreamHeadSha": "8a32914f78e0a1b1238548c3d575aa8ce3854d8c",
-   "upstreamHeadDate": "2026-07-10T17:29:53+03:00",
+   "upstreamHeadSha": "c22e9c9daef4d97a3fdf1d41a119947ed46ad937",
+   "upstreamHeadDate": "2026-07-10T11:40:12-07:00",
    "defaultBranch": "main",
    "pinnedRefName": "v3.13.14",
-   "behindMainCommits": 10188,
+   "behindMainCommits": 10196,
    "behindMainDays": 30,
    "behindLatestCommits": 7328,
-   "unreleasedCommits": 5385,
+   "unreleasedCommits": 5393,
    "unreleasedDays": 30,
    "outdated": true,
    "revived": false,
@@ -6269,120 +6257,30 @@
    "location": "cmake/libremidi.tests.cmake",
    "upstream": "catchorg/Catch2",
    "kind": "upstream",
-   "pinnedVersion": "v3.15.1",
+   "pinnedVersion": "v3.15.2",
    "pinnedSha": null,
-   "pinnedRef": "v3.15.1",
+   "pinnedRef": "v3.15.2",
    "tracksBranch": false,
    "latestTag": "v3.15.2",
    "latestTagDate": "2026-07-07T20:44:33+02:00",
    "upstreamHeadSha": "a15f718c825b29d009c98e0770c35646332217c1",
    "upstreamHeadDate": "2026-07-08T10:29:59+02:00",
    "defaultBranch": "devel",
-   "pinnedRefName": "v3.15.1",
-   "behindMainCommits": 8,
-   "behindMainDays": 24,
-   "behindLatestCommits": 7,
-   "unreleasedCommits": 1,
-   "unreleasedDays": 1,
-   "outdated": true,
-   "revived": false,
-   "severity": "info",
-   "notes": [
-    "pinned v3.15.1, upstream released v3.15.2"
-   ]
-  },
-  {
-   "name": "Avendish",
-   "source": "cmake-fetchcontent",
-   "repo": "ossia/score-addon-cv",
-   "location": "CMakeLists.txt",
-   "upstream": "celtera/avendish",
-   "kind": "fork",
-   "pinnedVersion": null,
-   "pinnedSha": "82c034b865efe7eb2bd74f14ae6ec30ed027948d",
-   "pinnedRef": "82c034b865efe7eb2bd74f14ae6ec30ed027948d",
-   "tracksBranch": false,
-   "latestTag": "v3.1",
-   "latestTagDate": "2023-10-01T00:29:17-04:00",
-   "upstreamHeadSha": "480759886e295127c6bb2e6f62ba6af0c84ac145",
-   "upstreamHeadDate": "2026-07-09T19:26:41-04:00",
-   "defaultBranch": "main",
-   "pinnedRefName": "82c034b865efe7eb2bd74f14ae6ec30ed027948d",
-   "behindMainCommits": 27,
-   "behindMainDays": 7,
+   "pinnedRefName": "v3.15.2",
+   "behindMainCommits": 1,
+   "behindMainDays": 1,
    "behindLatestCommits": 0,
-   "unreleasedCommits": 574,
-   "unreleasedDays": 1013,
-   "outdated": true,
-   "revived": true,
-   "severity": "warn",
-   "notes": [
-    "upstream HEAD moved 7 days past our pin",
-    "upstream active again (last commit 2026-07-09)"
-   ]
-  },
-  {
-   "name": "Eigen3cv",
-   "source": "cmake-fetchcontent",
-   "repo": "ossia/score-addon-cv",
-   "location": "CMakeLists.txt",
-   "upstream": "gitlab:libeigen/eigen",
-   "kind": "upstream",
-   "pinnedVersion": "3.4.0",
-   "pinnedSha": null,
-   "pinnedRef": "3.4.0",
-   "tracksBranch": false,
-   "latestTag": "5.0.1",
-   "latestTagDate": "2025-11-08T12:44:56-08:00",
-   "upstreamHeadSha": "26f009dbbe1f8520439e6b1b6c564d897e80ace6",
-   "upstreamHeadDate": "2026-07-09T18:46:34-07:00",
-   "defaultBranch": "master",
-   "pinnedRefName": "3.4.0",
-   "behindMainCommits": 2079,
-   "behindMainDays": 1786,
-   "behindLatestCommits": 1474,
-   "unreleasedCommits": 648,
-   "unreleasedDays": 243,
-   "outdated": true,
-   "revived": false,
-   "severity": "warn",
-   "notes": [
-    "pinned 3.4.0, upstream released 5.0.1"
-   ]
-  },
-  {
-   "name": "Catch2cv",
-   "source": "cmake-fetchcontent",
-   "repo": "ossia/score-addon-cv",
-   "location": "CMakeLists.txt",
-   "upstream": "catchorg/Catch2",
-   "kind": "upstream",
-   "pinnedVersion": "v3.15.1",
-   "pinnedSha": null,
-   "pinnedRef": "v3.15.1",
-   "tracksBranch": false,
-   "latestTag": "v3.15.2",
-   "latestTagDate": "2026-07-07T20:44:33+02:00",
-   "upstreamHeadSha": "a15f718c825b29d009c98e0770c35646332217c1",
-   "upstreamHeadDate": "2026-07-08T10:29:59+02:00",
-   "defaultBranch": "devel",
-   "pinnedRefName": "v3.15.1",
-   "behindMainCommits": 8,
-   "behindMainDays": 24,
-   "behindLatestCommits": 7,
    "unreleasedCommits": 1,
    "unreleasedDays": 1,
-   "outdated": true,
+   "outdated": false,
    "revived": false,
-   "severity": "info",
-   "notes": [
-    "pinned v3.15.1, upstream released v3.15.2"
-   ]
+   "severity": "ok",
+   "notes": []
   },
   {
    "name": "Avendish",
    "source": "cmake-fetchcontent",
-   "repo": "ossia/score-addon-puara",
+   "repo": "ossia/score-addon-cv",
    "location": "CMakeLists.txt",
    "upstream": "celtera/avendish",
    "kind": "fork",
@@ -6410,6 +6308,89 @@
    ]
   },
   {
+   "name": "Eigen3cv",
+   "source": "cmake-fetchcontent",
+   "repo": "ossia/score-addon-cv",
+   "location": "CMakeLists.txt",
+   "upstream": "gitlab:libeigen/eigen",
+   "kind": "upstream",
+   "pinnedVersion": "3.4.0",
+   "pinnedSha": null,
+   "pinnedRef": "3.4.0",
+   "tracksBranch": false,
+   "latestTag": "5.0.1",
+   "latestTagDate": "2025-11-08T12:44:56-08:00",
+   "upstreamHeadSha": "3006c69d4e703b3c6a6a00c1aa838b7d93e84434",
+   "upstreamHeadDate": "2026-07-10T10:03:53-07:00",
+   "defaultBranch": "master",
+   "pinnedRefName": "3.4.0",
+   "behindMainCommits": 2080,
+   "behindMainDays": 1787,
+   "behindLatestCommits": 1474,
+   "unreleasedCommits": 649,
+   "unreleasedDays": 244,
+   "outdated": true,
+   "revived": false,
+   "severity": "warn",
+   "notes": [
+    "pinned 3.4.0, upstream released 5.0.1"
+   ]
+  },
+  {
+   "name": "Catch2cv",
+   "source": "cmake-fetchcontent",
+   "repo": "ossia/score-addon-cv",
+   "location": "CMakeLists.txt",
+   "upstream": "catchorg/Catch2",
+   "kind": "upstream",
+   "pinnedVersion": "v3.15.2",
+   "pinnedSha": null,
+   "pinnedRef": "v3.15.2",
+   "tracksBranch": false,
+   "latestTag": "v3.15.2",
+   "latestTagDate": "2026-07-07T20:44:33+02:00",
+   "upstreamHeadSha": "a15f718c825b29d009c98e0770c35646332217c1",
+   "upstreamHeadDate": "2026-07-08T10:29:59+02:00",
+   "defaultBranch": "devel",
+   "pinnedRefName": "v3.15.2",
+   "behindMainCommits": 1,
+   "behindMainDays": 1,
+   "behindLatestCommits": 0,
+   "unreleasedCommits": 1,
+   "unreleasedDays": 1,
+   "outdated": false,
+   "revived": false,
+   "severity": "ok",
+   "notes": []
+  },
+  {
+   "name": "Avendish",
+   "source": "cmake-fetchcontent",
+   "repo": "ossia/score-addon-puara",
+   "location": "CMakeLists.txt",
+   "upstream": "celtera/avendish",
+   "kind": "fork",
+   "pinnedVersion": null,
+   "pinnedSha": "480759886e295127c6bb2e6f62ba6af0c84ac145",
+   "pinnedRef": "480759886e295127c6bb2e6f62ba6af0c84ac145",
+   "tracksBranch": false,
+   "latestTag": "v3.1",
+   "latestTagDate": "2023-10-01T00:29:17-04:00",
+   "upstreamHeadSha": "480759886e295127c6bb2e6f62ba6af0c84ac145",
+   "upstreamHeadDate": "2026-07-09T19:26:41-04:00",
+   "defaultBranch": "main",
+   "pinnedRefName": "480759886e295127c6bb2e6f62ba6af0c84ac145",
+   "behindMainCommits": 0,
+   "behindMainDays": 0,
+   "behindLatestCommits": 0,
+   "unreleasedCommits": 574,
+   "unreleasedDays": 1013,
+   "outdated": false,
+   "revived": false,
+   "severity": "ok",
+   "notes": []
+  },
+  {
    "name": "Eigen3",
    "source": "cmake-fetchcontent",
    "repo": "ossia/score-addon-puara",
@@ -6422,21 +6403,21 @@
    "tracksBranch": false,
    "latestTag": "5.0.1",
    "latestTagDate": "2025-11-08T12:44:56-08:00",
-   "upstreamHeadSha": "26f009dbbe1f8520439e6b1b6c564d897e80ace6",
-   "upstreamHeadDate": "2026-07-09T18:46:34-07:00",
+   "upstreamHeadSha": "3006c69d4e703b3c6a6a00c1aa838b7d93e84434",
+   "upstreamHeadDate": "2026-07-10T10:03:53-07:00",
    "defaultBranch": "master",
    "pinnedRefName": "bc3b39870ecb690a623a3f49149a358b95c5781d",
-   "behindMainCommits": 648,
-   "behindMainDays": 243,
+   "behindMainCommits": 649,
+   "behindMainDays": 244,
    "behindLatestCommits": 0,
-   "unreleasedCommits": 648,
-   "unreleasedDays": 243,
+   "unreleasedCommits": 649,
+   "unreleasedDays": 244,
    "outdated": true,
    "revived": true,
    "severity": "warn",
    "notes": [
     "upstream HEAD moved 8 months past our pin",
-    "upstream active again (last commit 2026-07-09)"
+    "upstream active again (last commit 2026-07-10)"
    ]
   },
   {
@@ -6482,14 +6463,14 @@
    "tracksBranch": false,
    "latestTag": "14.2.0",
    "latestTagDate": "2026-04-29T11:42:17+02:00",
-   "upstreamHeadSha": "4bb4fe4458db20f89f57e4989e1b0b261d7ab4e4",
-   "upstreamHeadDate": "2026-07-10T10:08:34-04:00",
+   "upstreamHeadSha": "171349b0dfeb297ffd17e8af0c20c41bcc6a44ba",
+   "upstreamHeadDate": "2026-07-10T11:37:39-04:00",
    "defaultBranch": "master",
    "pinnedRefName": "6842624fc8adafd7168a999e7150b384411da448",
-   "behindMainCommits": 168,
+   "behindMainCommits": 169,
    "behindMainDays": 157,
    "behindLatestCommits": 121,
-   "unreleasedCommits": 47,
+   "unreleasedCommits": 48,
    "unreleasedDays": 72,
    "outdated": true,
    "revived": true,
@@ -6572,15 +6553,15 @@
    "tracksBranch": false,
    "latestTag": "5.0.1",
    "latestTagDate": "2025-11-08T12:44:56-08:00",
-   "upstreamHeadSha": "26f009dbbe1f8520439e6b1b6c564d897e80ace6",
-   "upstreamHeadDate": "2026-07-09T18:46:34-07:00",
+   "upstreamHeadSha": "3006c69d4e703b3c6a6a00c1aa838b7d93e84434",
+   "upstreamHeadDate": "2026-07-10T10:03:53-07:00",
    "defaultBranch": "master",
    "pinnedRefName": "3.4.0",
-   "behindMainCommits": 2079,
-   "behindMainDays": 1786,
+   "behindMainCommits": 2080,
+   "behindMainDays": 1787,
    "behindLatestCommits": 1474,
-   "unreleasedCommits": 648,
-   "unreleasedDays": 243,
+   "unreleasedCommits": 649,
+   "unreleasedDays": 244,
    "outdated": true,
    "revived": false,
    "severity": "warn",
@@ -6596,27 +6577,24 @@
    "upstream": "celtera/avendish",
    "kind": "fork",
    "pinnedVersion": null,
-   "pinnedSha": "558744dcd18657163a1d6955ed9992188e00e8ad",
-   "pinnedRef": "558744dcd18657163a1d6955ed9992188e00e8ad",
+   "pinnedSha": "480759886e295127c6bb2e6f62ba6af0c84ac145",
+   "pinnedRef": "480759886e295127c6bb2e6f62ba6af0c84ac145",
    "tracksBranch": false,
    "latestTag": "v3.1",
    "latestTagDate": "2023-10-01T00:29:17-04:00",
    "upstreamHeadSha": "480759886e295127c6bb2e6f62ba6af0c84ac145",
    "upstreamHeadDate": "2026-07-09T19:26:41-04:00",
    "defaultBranch": "main",
-   "pinnedRefName": "558744dcd18657163a1d6955ed9992188e00e8ad",
-   "behindMainCommits": 6,
-   "behindMainDays": 1,
+   "pinnedRefName": "480759886e295127c6bb2e6f62ba6af0c84ac145",
+   "behindMainCommits": 0,
+   "behindMainDays": 0,
    "behindLatestCommits": 0,
    "unreleasedCommits": 574,
    "unreleasedDays": 1013,
-   "outdated": true,
-   "revived": true,
-   "severity": "warn",
-   "notes": [
-    "upstream HEAD moved 1 day past our pin",
-    "upstream active again (last commit 2026-07-09)"
-   ]
+   "outdated": false,
+   "revived": false,
+   "severity": "ok",
+   "notes": []
   }
  ],
  "prs": [
@@ -6631,8 +6609,8 @@
    "draft": false,
    "createdAt": "2026-05-31T23:16:46Z",
    "updatedAt": "2026-06-06T16:35:17Z",
-   "ageDays": 39.7,
-   "idleDays": 33.9,
+   "ageDays": 39.9,
+   "idleDays": 34.1,
    "behindBase": 39,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -6649,8 +6627,8 @@
    "draft": false,
    "createdAt": "2026-05-21T19:59:34Z",
    "updatedAt": "2026-06-05T19:05:19Z",
-   "ageDays": 49.8,
-   "idleDays": 34.8,
+   "ageDays": 50,
+   "idleDays": 35,
    "behindBase": 54,
    "aheadOfBase": 7,
    "ciStatus": null,
@@ -6667,8 +6645,8 @@
    "draft": true,
    "createdAt": "2026-05-14T03:36:42Z",
    "updatedAt": "2026-06-11T00:12:35Z",
-   "ageDays": 57.5,
-   "idleDays": 29.6,
+   "ageDays": 57.7,
+   "idleDays": 29.8,
    "behindBase": 30,
    "aheadOfBase": 55,
    "ciStatus": null,
@@ -6685,8 +6663,8 @@
    "draft": false,
    "createdAt": "2026-04-21T08:17:30Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 80.3,
-   "idleDays": 42.5,
+   "ageDays": 80.5,
+   "idleDays": 42.7,
    "behindBase": 165,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -6703,8 +6681,8 @@
    "draft": false,
    "createdAt": "2026-04-20T03:05:16Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 81.5,
-   "idleDays": 42.5,
+   "ageDays": 81.7,
+   "idleDays": 42.7,
    "behindBase": 89,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -6721,8 +6699,8 @@
    "draft": false,
    "createdAt": "2026-04-02T12:57:29Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 99.1,
-   "idleDays": 42.5,
+   "ageDays": 99.3,
+   "idleDays": 42.7,
    "behindBase": 166,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -6739,8 +6717,8 @@
    "draft": false,
    "createdAt": "2026-03-07T01:30:39Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 125.6,
-   "idleDays": 42.5,
+   "ageDays": 125.8,
+   "idleDays": 42.7,
    "behindBase": 264,
    "aheadOfBase": 5,
    "ciStatus": null,
@@ -6757,8 +6735,8 @@
    "draft": false,
    "createdAt": "2026-03-01T23:03:06Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 130.7,
-   "idleDays": 42.5,
+   "ageDays": 130.9,
+   "idleDays": 42.7,
    "behindBase": 273,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -6775,8 +6753,8 @@
    "draft": false,
    "createdAt": "2026-02-28T01:26:20Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 132.6,
-   "idleDays": 42.5,
+   "ageDays": 132.8,
+   "idleDays": 42.7,
    "behindBase": 273,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -6793,8 +6771,8 @@
    "draft": false,
    "createdAt": "2026-02-23T05:46:50Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 137.4,
-   "idleDays": 42.5,
+   "ageDays": 137.6,
+   "idleDays": 42.7,
    "behindBase": 301,
    "aheadOfBase": 4,
    "ciStatus": null,
@@ -6811,8 +6789,8 @@
    "draft": false,
    "createdAt": "2026-02-14T19:53:19Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 145.8,
-   "idleDays": 42.5,
+   "ageDays": 146,
+   "idleDays": 42.7,
    "behindBase": 313,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -6829,8 +6807,8 @@
    "draft": false,
    "createdAt": "2026-01-28T00:56:46Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 163.6,
-   "idleDays": 42.5,
+   "ageDays": 163.8,
+   "idleDays": 42.7,
    "behindBase": 402,
    "aheadOfBase": 3,
    "ciStatus": null,
@@ -6847,8 +6825,8 @@
    "draft": false,
    "createdAt": "2026-01-25T21:05:19Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 165.7,
-   "idleDays": 42.5,
+   "ageDays": 166,
+   "idleDays": 42.7,
    "behindBase": 426,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -6865,8 +6843,8 @@
    "draft": false,
    "createdAt": "2026-01-21T06:07:25Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 170.4,
-   "idleDays": 42.5,
+   "ageDays": 170.6,
+   "idleDays": 42.7,
    "behindBase": 479,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -6883,8 +6861,8 @@
    "draft": false,
    "createdAt": "2026-01-21T06:05:56Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 170.4,
-   "idleDays": 42.5,
+   "ageDays": 170.6,
+   "idleDays": 42.7,
    "behindBase": 479,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -6901,8 +6879,8 @@
    "draft": false,
    "createdAt": "2026-01-11T03:43:42Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 180.5,
-   "idleDays": 42.5,
+   "ageDays": 180.7,
+   "idleDays": 42.7,
    "behindBase": 496,
    "aheadOfBase": 3,
    "ciStatus": null,
@@ -6919,8 +6897,8 @@
    "draft": false,
    "createdAt": "2025-11-01T02:39:20Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 251.5,
-   "idleDays": 42.5,
+   "ageDays": 251.7,
+   "idleDays": 42.7,
    "behindBase": 555,
    "aheadOfBase": 3,
    "ciStatus": null,
@@ -6937,8 +6915,8 @@
    "draft": false,
    "createdAt": "2025-07-13T19:01:19Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 361.8,
-   "idleDays": 42.5,
+   "ageDays": 362,
+   "idleDays": 42.7,
    "behindBase": 1092,
    "aheadOfBase": 2,
    "ciStatus": null,
@@ -6955,8 +6933,8 @@
    "draft": false,
    "createdAt": "2025-05-02T17:34:29Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 433.9,
-   "idleDays": 42.5,
+   "ageDays": 434.1,
+   "idleDays": 42.7,
    "behindBase": 1146,
    "aheadOfBase": 19,
    "ciStatus": null,
@@ -6973,8 +6951,8 @@
    "draft": false,
    "createdAt": "2025-04-21T20:15:12Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 444.8,
-   "idleDays": 42.5,
+   "ageDays": 445,
+   "idleDays": 42.7,
    "behindBase": 1182,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -6991,8 +6969,8 @@
    "draft": false,
    "createdAt": "2025-04-17T18:39:09Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 448.9,
-   "idleDays": 42.5,
+   "ageDays": 449.1,
+   "idleDays": 42.7,
    "behindBase": 1221,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -7009,8 +6987,8 @@
    "draft": false,
    "createdAt": "2025-04-04T04:12:09Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 462.5,
-   "idleDays": 42.5,
+   "ageDays": 462.7,
+   "idleDays": 42.7,
    "behindBase": 1301,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -7027,8 +7005,8 @@
    "draft": false,
    "createdAt": "2025-03-22T21:34:38Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 474.7,
-   "idleDays": 42.5,
+   "ageDays": 474.9,
+   "idleDays": 42.7,
    "behindBase": 1323,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -7045,8 +7023,8 @@
    "draft": false,
    "createdAt": "2025-02-06T17:47:49Z",
    "updatedAt": "2026-05-29T02:52:00Z",
-   "ageDays": 518.9,
-   "idleDays": 42.5,
+   "ageDays": 519.1,
+   "idleDays": 42.7,
    "behindBase": 555,
    "aheadOfBase": 4,
    "ciStatus": null,
@@ -7063,8 +7041,8 @@
    "draft": false,
    "createdAt": "2025-01-16T03:58:31Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 540.5,
-   "idleDays": 42.5,
+   "ageDays": 540.7,
+   "idleDays": 42.7,
    "behindBase": 982,
    "aheadOfBase": 6,
    "ciStatus": null,
@@ -7081,8 +7059,8 @@
    "draft": true,
    "createdAt": "2024-12-30T14:33:01Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 557,
-   "idleDays": 42.5,
+   "ageDays": 557.2,
+   "idleDays": 42.7,
    "behindBase": 982,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -7099,8 +7077,8 @@
    "draft": false,
    "createdAt": "2024-12-30T03:47:50Z",
    "updatedAt": "2026-06-02T23:37:44Z",
-   "ageDays": 557.5,
-   "idleDays": 37.6,
+   "ageDays": 557.7,
+   "idleDays": 37.8,
    "behindBase": 61,
    "aheadOfBase": 3,
    "ciStatus": null,
@@ -7117,8 +7095,8 @@
    "draft": false,
    "createdAt": "2024-12-24T22:59:38Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 562.7,
-   "idleDays": 42.5,
+   "ageDays": 562.9,
+   "idleDays": 42.7,
    "behindBase": 1544,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -7135,8 +7113,8 @@
    "draft": false,
    "createdAt": "2024-12-24T22:55:16Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 562.7,
-   "idleDays": 42.5,
+   "ageDays": 562.9,
+   "idleDays": 42.7,
    "behindBase": 1329,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -7153,8 +7131,8 @@
    "draft": false,
    "createdAt": "2024-12-24T19:04:13Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 562.8,
-   "idleDays": 42.5,
+   "ageDays": 563,
+   "idleDays": 42.7,
    "behindBase": 1544,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -7171,8 +7149,8 @@
    "draft": false,
    "createdAt": "2024-12-24T19:03:21Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 562.8,
-   "idleDays": 42.5,
+   "ageDays": 563,
+   "idleDays": 42.7,
    "behindBase": 1329,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -7189,8 +7167,8 @@
    "draft": false,
    "createdAt": "2024-12-01T17:48:05Z",
    "updatedAt": "2026-05-29T02:51:59Z",
-   "ageDays": 585.9,
-   "idleDays": 42.5,
+   "ageDays": 586.1,
+   "idleDays": 42.7,
    "behindBase": 1544,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -7207,8 +7185,8 @@
    "draft": false,
    "createdAt": "2024-12-01T17:47:05Z",
    "updatedAt": "2026-05-29T02:52:00Z",
-   "ageDays": 585.9,
-   "idleDays": 42.5,
+   "ageDays": 586.1,
+   "idleDays": 42.7,
    "behindBase": 1329,
    "aheadOfBase": 3,
    "ciStatus": null,
@@ -7225,8 +7203,8 @@
    "draft": false,
    "createdAt": "2024-12-01T17:46:24Z",
    "updatedAt": "2026-05-29T02:52:00Z",
-   "ageDays": 585.9,
-   "idleDays": 42.5,
+   "ageDays": 586.1,
+   "idleDays": 42.7,
    "behindBase": 1329,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -7243,8 +7221,8 @@
    "draft": false,
    "createdAt": "2024-12-01T17:46:08Z",
    "updatedAt": "2026-05-29T02:52:00Z",
-   "ageDays": 585.9,
-   "idleDays": 42.5,
+   "ageDays": 586.1,
+   "idleDays": 42.7,
    "behindBase": 1544,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -7261,8 +7239,8 @@
    "draft": true,
    "createdAt": "2024-09-25T16:25:13Z",
    "updatedAt": "2026-05-29T02:52:00Z",
-   "ageDays": 652.9,
-   "idleDays": 42.5,
+   "ageDays": 653.1,
+   "idleDays": 42.7,
    "behindBase": 312,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -7279,8 +7257,8 @@
    "draft": false,
    "createdAt": "2023-02-14T12:39:55Z",
    "updatedAt": "2026-05-29T02:52:00Z",
-   "ageDays": 1242.1,
-   "idleDays": 42.5,
+   "ageDays": 1242.3,
+   "idleDays": 42.7,
    "behindBase": 2712,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -7297,8 +7275,8 @@
    "draft": false,
    "createdAt": "2022-05-10T15:30:38Z",
    "updatedAt": "2026-05-29T02:52:00Z",
-   "ageDays": 1522,
-   "idleDays": 42.5,
+   "ageDays": 1522.2,
+   "idleDays": 42.7,
    "behindBase": 3241,
    "aheadOfBase": 3,
    "ciStatus": null,
@@ -7315,8 +7293,8 @@
    "draft": false,
    "createdAt": "2021-08-19T08:02:14Z",
    "updatedAt": "2026-05-29T02:52:00Z",
-   "ageDays": 1786.3,
-   "idleDays": 42.5,
+   "ageDays": 1786.5,
+   "idleDays": 42.7,
    "behindBase": 3941,
    "aheadOfBase": 20,
    "ciStatus": null,
@@ -7333,8 +7311,8 @@
    "draft": false,
    "createdAt": "2021-08-18T12:22:47Z",
    "updatedAt": "2021-08-19T07:27:08Z",
-   "ageDays": 1787.1,
-   "idleDays": 1786.3,
+   "ageDays": 1787.3,
+   "idleDays": 1786.5,
    "behindBase": 0,
    "aheadOfBase": 9,
    "ciStatus": null,
@@ -7351,8 +7329,8 @@
    "draft": false,
    "createdAt": "2026-06-10T22:57:48Z",
    "updatedAt": "2026-06-10T22:57:48Z",
-   "ageDays": 29.7,
-   "idleDays": 29.7,
+   "ageDays": 29.9,
+   "idleDays": 29.9,
    "behindBase": 15,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -7369,8 +7347,8 @@
    "draft": false,
    "createdAt": "2026-06-10T06:11:45Z",
    "updatedAt": "2026-06-10T08:46:30Z",
-   "ageDays": 30.4,
-   "idleDays": 30.3,
+   "ageDays": 30.6,
+   "idleDays": 30.5,
    "behindBase": 15,
    "aheadOfBase": 4,
    "ciStatus": null,
@@ -7387,8 +7365,8 @@
    "draft": false,
    "createdAt": "2026-04-21T08:16:34Z",
    "updatedAt": "2026-05-29T19:50:59Z",
-   "ageDays": 80.3,
-   "idleDays": 41.8,
+   "ageDays": 80.5,
+   "idleDays": 42,
    "behindBase": 47,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -7405,8 +7383,8 @@
    "draft": false,
    "createdAt": "2026-03-24T08:58:00Z",
    "updatedAt": "2026-06-03T01:22:37Z",
-   "ageDays": 108.3,
-   "idleDays": 37.6,
+   "ageDays": 108.5,
+   "idleDays": 37.8,
    "behindBase": 32,
    "aheadOfBase": 11,
    "ciStatus": null,
@@ -7423,8 +7401,8 @@
    "draft": false,
    "createdAt": "2026-03-10T03:23:16Z",
    "updatedAt": "2026-03-10T03:23:16Z",
-   "ageDays": 122.5,
-   "idleDays": 122.5,
+   "ageDays": 122.7,
+   "idleDays": 122.7,
    "behindBase": 60,
    "aheadOfBase": 3,
    "ciStatus": null,
@@ -7441,8 +7419,8 @@
    "draft": false,
    "createdAt": "2026-03-10T03:20:39Z",
    "updatedAt": "2026-04-07T08:45:57Z",
-   "ageDays": 122.5,
-   "idleDays": 94.3,
+   "ageDays": 122.7,
+   "idleDays": 94.5,
    "behindBase": 48,
    "aheadOfBase": 6,
    "ciStatus": null,
@@ -7459,8 +7437,8 @@
    "draft": false,
    "createdAt": "2025-03-22T12:27:31Z",
    "updatedAt": "2026-03-02T20:12:25Z",
-   "ageDays": 475.1,
-   "idleDays": 129.8,
+   "ageDays": 475.3,
+   "idleDays": 130,
    "behindBase": 187,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -7477,8 +7455,8 @@
    "draft": false,
    "createdAt": "2025-03-22T12:23:17Z",
    "updatedAt": "2026-05-29T19:51:54Z",
-   "ageDays": 475.1,
-   "idleDays": 41.8,
+   "ageDays": 475.3,
+   "idleDays": 42,
    "behindBase": 47,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -7495,8 +7473,8 @@
    "draft": false,
    "createdAt": "2025-01-16T03:57:41Z",
    "updatedAt": "2026-05-29T19:51:58Z",
-   "ageDays": 540.5,
-   "idleDays": 41.8,
+   "ageDays": 540.7,
+   "idleDays": 42,
    "behindBase": 47,
    "aheadOfBase": 2,
    "ciStatus": null,
@@ -7513,8 +7491,8 @@
    "draft": false,
    "createdAt": "2023-02-14T12:44:06Z",
    "updatedAt": "2026-03-02T20:12:25Z",
-   "ageDays": 1242.1,
-   "idleDays": 129.8,
+   "ageDays": 1242.3,
+   "idleDays": 130,
    "behindBase": 641,
    "aheadOfBase": 2,
    "ciStatus": null,
@@ -7531,8 +7509,8 @@
    "draft": false,
    "createdAt": "2026-06-10T20:30:06Z",
    "updatedAt": "2026-06-10T20:30:06Z",
-   "ageDays": 29.8,
-   "idleDays": 29.8,
+   "ageDays": 30,
+   "idleDays": 30,
    "behindBase": 120,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -7549,8 +7527,8 @@
    "draft": false,
    "createdAt": "2025-01-04T22:06:58Z",
    "updatedAt": "2026-06-09T23:58:41Z",
-   "ageDays": 551.7,
-   "idleDays": 30.6,
+   "ageDays": 551.9,
+   "idleDays": 30.8,
    "behindBase": 183,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -7567,8 +7545,8 @@
    "draft": false,
    "createdAt": "2025-01-02T18:20:42Z",
    "updatedAt": "2026-06-09T23:58:41Z",
-   "ageDays": 553.9,
-   "idleDays": 30.6,
+   "ageDays": 554.1,
+   "idleDays": 30.8,
    "behindBase": 183,
    "aheadOfBase": 2,
    "ciStatus": null,
@@ -7585,8 +7563,8 @@
    "draft": false,
    "createdAt": "2024-12-24T15:13:11Z",
    "updatedAt": "2026-06-09T23:58:41Z",
-   "ageDays": 563,
-   "idleDays": 30.6,
+   "ageDays": 563.2,
+   "idleDays": 30.8,
    "behindBase": 751,
    "aheadOfBase": 2,
    "ciStatus": null,
@@ -7603,8 +7581,8 @@
    "draft": false,
    "createdAt": "2024-12-24T15:12:04Z",
    "updatedAt": "2026-06-09T23:58:41Z",
-   "ageDays": 563,
-   "idleDays": 30.6,
+   "ageDays": 563.2,
+   "idleDays": 30.8,
    "behindBase": 183,
    "aheadOfBase": 3,
    "ciStatus": null,
@@ -7621,8 +7599,8 @@
    "draft": true,
    "createdAt": "2024-12-17T17:46:00Z",
    "updatedAt": "2026-06-09T23:58:41Z",
-   "ageDays": 569.9,
-   "idleDays": 30.6,
+   "ageDays": 570.1,
+   "idleDays": 30.8,
    "behindBase": 379,
    "aheadOfBase": 3,
    "ciStatus": null,
@@ -7639,8 +7617,8 @@
    "draft": false,
    "createdAt": "2024-12-09T20:10:24Z",
    "updatedAt": "2026-06-09T23:58:41Z",
-   "ageDays": 577.8,
-   "idleDays": 30.6,
+   "ageDays": 578,
+   "idleDays": 30.8,
    "behindBase": 373,
    "aheadOfBase": 2,
    "ciStatus": null,
@@ -7657,8 +7635,8 @@
    "draft": false,
    "createdAt": "2024-12-09T20:10:16Z",
    "updatedAt": "2026-06-09T23:58:41Z",
-   "ageDays": 577.8,
-   "idleDays": 30.6,
+   "ageDays": 578,
+   "idleDays": 30.8,
    "behindBase": 382,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -7675,8 +7653,8 @@
    "draft": false,
    "createdAt": "2024-11-26T16:22:40Z",
    "updatedAt": "2026-06-09T23:58:41Z",
-   "ageDays": 590.9,
-   "idleDays": 30.6,
+   "ageDays": 591.1,
+   "idleDays": 30.8,
    "behindBase": 183,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -7693,8 +7671,8 @@
    "draft": false,
    "createdAt": "2024-11-26T16:22:07Z",
    "updatedAt": "2026-06-09T23:58:41Z",
-   "ageDays": 590.9,
-   "idleDays": 30.6,
+   "ageDays": 591.1,
+   "idleDays": 30.8,
    "behindBase": 394,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -7711,8 +7689,8 @@
    "draft": false,
    "createdAt": "2024-11-26T16:20:59Z",
    "updatedAt": "2026-06-09T23:58:42Z",
-   "ageDays": 590.9,
-   "idleDays": 30.6,
+   "ageDays": 591.1,
+   "idleDays": 30.8,
    "behindBase": 538,
    "aheadOfBase": 1,
    "ciStatus": null,
@@ -7729,8 +7707,8 @@
    "draft": false,
    "createdAt": "2022-04-22T15:13:20Z",
    "updatedAt": "2026-06-09T23:58:41Z",
-   "ageDays": 1540,
-   "idleDays": 30.6,
+   "ageDays": 1540.2,
+   "idleDays": 30.8,
    "behindBase": 802,
    "aheadOfBase": 4,
    "ciStatus": null,
@@ -7747,9 +7725,9 @@
    "draft": false,
    "createdAt": "2026-06-02T06:19:55Z",
    "updatedAt": "2026-06-02T16:17:13Z",
-   "ageDays": 38.4,
-   "idleDays": 38,
-   "behindBase": 3,
+   "ageDays": 38.6,
+   "idleDays": 38.2,
+   "behindBase": 7,
    "aheadOfBase": 1,
    "ciStatus": null,
    "severity": "warn"
@@ -7765,8 +7743,8 @@
    "draft": false,
    "createdAt": "2026-03-30T14:09:50Z",
    "updatedAt": "2026-06-02T05:30:35Z",
-   "ageDays": 102,
-   "idleDays": 38.4,
+   "ageDays": 102.2,
+   "idleDays": 38.6,
    "behindBase": 0,
    "aheadOfBase": 4,
    "ciStatus": null,
@@ -7783,9 +7761,9 @@
    "draft": false,
    "createdAt": "2026-01-17T23:34:50Z",
    "updatedAt": "2026-01-17T23:34:50Z",
-   "ageDays": 173.6,
-   "idleDays": 173.6,
-   "behindBase": 49,
+   "ageDays": 173.8,
+   "idleDays": 173.8,
+   "behindBase": 53,
    "aheadOfBase": 1,
    "ciStatus": null,
    "severity": "warn"
@@ -7801,9 +7779,9 @@
    "draft": true,
    "createdAt": "2025-05-30T17:03:07Z",
    "updatedAt": "2026-01-12T06:54:34Z",
-   "ageDays": 405.9,
-   "idleDays": 179.3,
-   "behindBase": 133,
+   "ageDays": 406.1,
+   "idleDays": 179.5,
+   "behindBase": 137,
    "aheadOfBase": 14,
    "ciStatus": null,
    "severity": "info"
@@ -7819,9 +7797,9 @@
    "draft": false,
    "createdAt": "2024-12-01T17:57:17Z",
    "updatedAt": "2026-01-12T06:54:34Z",
-   "ageDays": 585.9,
-   "idleDays": 179.3,
-   "behindBase": 212,
+   "ageDays": 586.1,
+   "idleDays": 179.5,
+   "behindBase": 216,
    "aheadOfBase": 1,
    "ciStatus": null,
    "severity": "warn"
@@ -8884,10 +8862,10 @@
   {
    "repo": "ossia/score",
    "name": "feature/wasm-remote3",
-   "sha": "42984780272958b3effbdd35e8eb55d58d608c1f",
-   "lastCommitDate": "2026-07-09T23:45:23+01:00",
-   "ahead": 22,
-   "aheadReal": 22,
+   "sha": "59c2d51fa948c53c78ba3ebc0b48bc6d51dac530",
+   "lastCommitDate": "2026-07-10T19:37:36+01:00",
+   "ahead": 25,
+   "aheadReal": 25,
    "landedEquivalent": 0,
    "behind": 3,
    "hasPR": false,
@@ -9105,10 +9083,10 @@
   {
    "repo": "ossia/score",
    "name": "fix/wasm",
-   "sha": "3f2e2cf853247202a43858a4b4c2b6791638d1e6",
-   "lastCommitDate": "2026-07-10T16:57:06+02:00",
-   "ahead": 10,
-   "aheadReal": 9,
+   "sha": "31fcc01ec335a8cea120e16f9df12b38edca0e3b",
+   "lastCommitDate": "2026-07-10T19:03:06+02:00",
+   "ahead": 11,
+   "aheadReal": 10,
    "landedEquivalent": 0,
    "behind": 0,
    "hasPR": true,
@@ -9261,10 +9239,10 @@
   {
    "repo": "ossia/score",
    "name": "split/gpu-interop",
-   "sha": "8aeb5905c93ffb851a92a5b5a27a0af457a2e526",
-   "lastCommitDate": "2026-07-09T23:25:48-04:00",
-   "ahead": 111,
-   "aheadReal": 111,
+   "sha": "acada3cd3b1c5854c32295d352f431375e04771c",
+   "lastCommitDate": "2026-07-10T09:21:13-04:00",
+   "ahead": 116,
+   "aheadReal": 116,
    "landedEquivalent": 0,
    "behind": 1,
    "hasPR": false,
@@ -11372,7 +11350,7 @@
    "ahead": 4,
    "aheadReal": 0,
    "landedEquivalent": 4,
-   "behind": 309,
+   "behind": 313,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -11385,7 +11363,7 @@
    "ahead": 15,
    "aheadReal": 1,
    "landedEquivalent": 14,
-   "behind": 50,
+   "behind": 54,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -11398,7 +11376,7 @@
    "ahead": 1,
    "aheadReal": 0,
    "landedEquivalent": 1,
-   "behind": 3,
+   "behind": 7,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -11411,7 +11389,7 @@
    "ahead": 6,
    "aheadReal": 2,
    "landedEquivalent": 4,
-   "behind": 640,
+   "behind": 644,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -11424,7 +11402,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 49,
+   "behind": 53,
    "hasPR": true,
    "prNumber": 191,
    "severity": "ok"
@@ -11437,7 +11415,7 @@
    "ahead": 4,
    "aheadReal": 4,
    "landedEquivalent": 0,
-   "behind": 3,
+   "behind": 7,
    "hasPR": false,
    "prNumber": null,
    "severity": "info"
@@ -11450,7 +11428,20 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 7,
+   "behind": 11,
+   "hasPR": false,
+   "prNumber": null,
+   "severity": "info"
+  },
+  {
+   "repo": "celtera/libremidi",
+   "name": "fix/pipewire-context-hardening",
+   "sha": "91ecbd5705fc789e54c11a08c9c14027af9da741",
+   "lastCommitDate": "2026-07-10T14:05:29-04:00",
+   "ahead": 7,
+   "aheadReal": 7,
+   "landedEquivalent": 0,
+   "behind": 4,
    "hasPR": false,
    "prNumber": null,
    "severity": "info"
@@ -11461,22 +11452,22 @@
    "sha": "f6be81d2ac51758259bdb26c81fc30223bbeabdc",
    "lastCommitDate": "2026-07-10T15:21:16+02:00",
    "ahead": 2,
-   "aheadReal": 2,
-   "landedEquivalent": 0,
-   "behind": 0,
+   "aheadReal": 0,
+   "landedEquivalent": 2,
+   "behind": 4,
    "hasPR": false,
    "prNumber": null,
-   "severity": "info"
+   "severity": "ok"
   },
   {
    "repo": "celtera/libremidi",
    "name": "gh-pages",
-   "sha": "00d3b0634b2610481ee504e6fcda9821c8b52910",
-   "lastCommitDate": "2026-06-01T21:08:14Z",
-   "ahead": 26,
-   "aheadReal": 26,
+   "sha": "95aad2d1279edd56ee0cda989d7bb6b5fdc90f82",
+   "lastCommitDate": "2026-07-10T15:15:44Z",
+   "ahead": 27,
+   "aheadReal": 27,
    "landedEquivalent": 0,
-   "behind": 740,
+   "behind": 744,
    "hasPR": false,
    "prNumber": null,
    "severity": "info"
@@ -11487,12 +11478,12 @@
    "sha": "5931ff8dd02eb030db5e9d003ff42d9518f09227",
    "lastCommitDate": "2026-07-08T06:25:44Z",
    "ahead": 1,
-   "aheadReal": 1,
-   "landedEquivalent": 0,
-   "behind": 0,
+   "aheadReal": 0,
+   "landedEquivalent": 1,
+   "behind": 4,
    "hasPR": false,
    "prNumber": null,
-   "severity": "info"
+   "severity": "ok"
   },
   {
    "repo": "celtera/libremidi",
@@ -11502,7 +11493,7 @@
    "ahead": 1,
    "aheadReal": 0,
    "landedEquivalent": 1,
-   "behind": 566,
+   "behind": 570,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -11515,7 +11506,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 212,
+   "behind": 216,
    "hasPR": true,
    "prNumber": 124,
    "severity": "ok"
@@ -11645,7 +11636,7 @@
    "ahead": 0,
    "aheadReal": 0,
    "landedEquivalent": null,
-   "behind": 30,
+   "behind": 31,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -11853,7 +11844,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 5,
+   "behind": 7,
    "hasPR": false,
    "prNumber": null,
    "severity": "info"
@@ -11864,12 +11855,12 @@
    "sha": "521ec9d64afeb8620451e790ea46c4edea8bf1eb",
    "lastCommitDate": "2026-07-08T06:28:33Z",
    "ahead": 1,
-   "aheadReal": 1,
-   "landedEquivalent": 0,
-   "behind": 1,
+   "aheadReal": 0,
+   "landedEquivalent": 1,
+   "behind": 3,
    "hasPR": false,
    "prNumber": null,
-   "severity": "info"
+   "severity": "ok"
   },
   {
    "repo": "ossia/score-addon-cv",
@@ -11879,7 +11870,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 1,
+   "behind": 3,
    "hasPR": false,
    "prNumber": null,
    "severity": "info"
@@ -11890,12 +11881,12 @@
    "sha": "f2f2aa53b97be2cdaa4ac27f39d0a5f48be536df",
    "lastCommitDate": "2026-07-08T17:25:31-04:00",
    "ahead": 1,
-   "aheadReal": 1,
-   "landedEquivalent": 0,
-   "behind": 1,
+   "aheadReal": 0,
+   "landedEquivalent": 1,
+   "behind": 3,
    "hasPR": false,
    "prNumber": null,
-   "severity": "info"
+   "severity": "ok"
   },
   {
    "repo": "ossia/score-addon-jk",
@@ -11983,7 +11974,7 @@
    "ahead": 1,
    "aheadReal": 0,
    "landedEquivalent": 1,
-   "behind": 5,
+   "behind": 6,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -11996,7 +11987,7 @@
    "ahead": 7,
    "aheadReal": 6,
    "landedEquivalent": 1,
-   "behind": 20,
+   "behind": 21,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -12009,7 +12000,7 @@
    "ahead": 2,
    "aheadReal": 1,
    "landedEquivalent": 1,
-   "behind": 20,
+   "behind": 21,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -12022,7 +12013,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 42,
+   "behind": 43,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -12035,7 +12026,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 0,
+   "behind": 1,
    "hasPR": false,
    "prNumber": null,
    "severity": "info"
@@ -12046,12 +12037,12 @@
    "sha": "32573d7792165e2ee0058fa7472c6e10a8ecba02",
    "lastCommitDate": "2026-07-10T07:52:21Z",
    "ahead": 1,
-   "aheadReal": 1,
-   "landedEquivalent": 0,
-   "behind": 0,
+   "aheadReal": 0,
+   "landedEquivalent": 1,
+   "behind": 1,
    "hasPR": false,
    "prNumber": null,
-   "severity": "info"
+   "severity": "ok"
   },
   {
    "repo": "ossia/score-addon-ultraleap",
@@ -12282,7 +12273,7 @@
    "ahead": 5,
    "aheadReal": 5,
    "landedEquivalent": 0,
-   "behind": 1,
+   "behind": 2,
    "hasPR": false,
    "prNumber": null,
    "severity": "info"
@@ -12295,7 +12286,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 0,
+   "behind": 1,
    "hasPR": false,
    "prNumber": null,
    "severity": "info"
@@ -12306,12 +12297,12 @@
    "sha": "c268e62bbda74d869e204eb70925d43a6edfab18",
    "lastCommitDate": "2026-07-08T17:26:03-04:00",
    "ahead": 1,
-   "aheadReal": 1,
-   "landedEquivalent": 0,
-   "behind": 0,
+   "aheadReal": 0,
+   "landedEquivalent": 1,
+   "behind": 1,
    "hasPR": false,
    "prNumber": null,
-   "severity": "info"
+   "severity": "ok"
   },
   {
    "repo": "ossia/score-addon-orbbec",
@@ -12373,7 +12364,7 @@
    "ahead": 23,
    "aheadReal": 1,
    "landedEquivalent": 22,
-   "behind": 48,
+   "behind": 50,
    "hasPR": false,
    "prNumber": null,
    "severity": "info"
@@ -12386,7 +12377,7 @@
    "ahead": 43,
    "aheadReal": 1,
    "landedEquivalent": 42,
-   "behind": 48,
+   "behind": 50,
    "hasPR": false,
    "prNumber": null,
    "severity": "info"
@@ -12397,12 +12388,12 @@
    "sha": "38a5269b5ede3a3719381053c7e3fe277855e1f4",
    "lastCommitDate": "2026-07-10T07:51:14Z",
    "ahead": 1,
-   "aheadReal": 1,
-   "landedEquivalent": 0,
-   "behind": 0,
+   "aheadReal": 0,
+   "landedEquivalent": 1,
+   "behind": 2,
    "hasPR": false,
    "prNumber": null,
-   "severity": "info"
+   "severity": "ok"
   },
   {
    "repo": "ossia/score-addon-librediffusion",
@@ -12410,12 +12401,12 @@
    "sha": "3c3514e9a38f33d413e7c237f6b122725e2946d3",
    "lastCommitDate": "2026-07-10T07:51:17Z",
    "ahead": 1,
-   "aheadReal": 1,
-   "landedEquivalent": 0,
-   "behind": 0,
+   "aheadReal": 0,
+   "landedEquivalent": 1,
+   "behind": 2,
    "hasPR": false,
    "prNumber": null,
-   "severity": "info"
+   "severity": "ok"
   },
   {
    "repo": "ossia/score-addon-videoio",
@@ -12858,6 +12849,11 @@
     {
      "repo": "celtera/libremidi",
      "workflow": "publish_pypi.yml",
+     "ref": "v7"
+    },
+    {
+     "repo": "celtera/libremidi",
+     "workflow": "wasm.yml",
      "ref": "v7"
     },
     {
@@ -13304,41 +13300,6 @@
      "repo": "ossia/score-addon-spatgris",
      "workflow": "release.yml",
      "ref": "v7"
-    },
-    {
-     "repo": "ossia/score-addon-hdf5",
-     "workflow": "builds-dev.yaml",
-     "ref": "v4"
-    },
-    {
-     "repo": "ossia/score-addon-hdf5",
-     "workflow": "builds-dev.yaml",
-     "ref": "v4"
-    },
-    {
-     "repo": "ossia/score-addon-hdf5",
-     "workflow": "builds-dev.yaml",
-     "ref": "v4"
-    },
-    {
-     "repo": "ossia/score-addon-hdf5",
-     "workflow": "builds-sdk.yaml",
-     "ref": "v4"
-    },
-    {
-     "repo": "ossia/score-addon-hdf5",
-     "workflow": "builds-sdk.yaml",
-     "ref": "v4"
-    },
-    {
-     "repo": "ossia/score-addon-hdf5",
-     "workflow": "jit.yml",
-     "ref": "v4"
-    },
-    {
-     "repo": "ossia/score-addon-hdf5",
-     "workflow": "release.yml",
-     "ref": "v4"
     },
     {
      "repo": "ossia/score-addon-orbbec",
@@ -13986,26 +13947,6 @@
      "ref": "v7"
     },
     {
-     "repo": "ossia/score-addon-hdf5",
-     "workflow": "builds-dev.yaml",
-     "ref": "v7"
-    },
-    {
-     "repo": "ossia/score-addon-hdf5",
-     "workflow": "builds-dev.yaml",
-     "ref": "v7"
-    },
-    {
-     "repo": "ossia/score-addon-hdf5",
-     "workflow": "builds-sdk.yaml",
-     "ref": "v7"
-    },
-    {
-     "repo": "ossia/score-addon-hdf5",
-     "workflow": "builds-sdk.yaml",
-     "ref": "v7"
-    },
-    {
      "repo": "ossia/score-addon-ltc",
      "workflow": "builds-dev.yaml",
      "ref": "v7"
@@ -14429,6 +14370,11 @@
    "latestTag": "v16",
    "refs": [
     {
+     "repo": "celtera/libremidi",
+     "workflow": "wasm.yml",
+     "ref": "v14"
+    },
+    {
      "repo": "ossia/actions",
      "workflow": "avnd-addon.yml",
      "ref": "v14"
@@ -14621,6 +14567,11 @@
      "ref": "master"
     },
     {
+     "repo": "ossia/score-addon-hdf5",
+     "workflow": "builds.yaml",
+     "ref": "master"
+    },
+    {
      "repo": "ossia/score-addon-librediffusion",
      "workflow": "builds.yaml",
      "ref": "master"
@@ -14737,26 +14688,6 @@
      "ref": "master"
     },
     {
-     "repo": "ossia/score-addon-hdf5",
-     "workflow": "builds-dev.yaml",
-     "ref": "master"
-    },
-    {
-     "repo": "ossia/score-addon-hdf5",
-     "workflow": "builds-dev.yaml",
-     "ref": "master"
-    },
-    {
-     "repo": "ossia/score-addon-hdf5",
-     "workflow": "builds-sdk.yaml",
-     "ref": "master"
-    },
-    {
-     "repo": "ossia/score-addon-hdf5",
-     "workflow": "builds-sdk.yaml",
-     "ref": "master"
-    },
-    {
      "repo": "ossia/score-addon-ltc",
      "workflow": "builds-dev.yaml",
      "ref": "master"
@@ -14858,16 +14789,6 @@
      "ref": "master"
     },
     {
-     "repo": "ossia/score-addon-hdf5",
-     "workflow": "builds-dev.yaml",
-     "ref": "master"
-    },
-    {
-     "repo": "ossia/score-addon-hdf5",
-     "workflow": "builds-sdk.yaml",
-     "ref": "master"
-    },
-    {
      "repo": "ossia/score-addon-ltc",
      "workflow": "builds-dev.yaml",
      "ref": "master"
@@ -14949,16 +14870,6 @@
      "ref": "master"
     },
     {
-     "repo": "ossia/score-addon-hdf5",
-     "workflow": "builds-sdk.yaml",
-     "ref": "master"
-    },
-    {
-     "repo": "ossia/score-addon-hdf5",
-     "workflow": "jit.yml",
-     "ref": "master"
-    },
-    {
      "repo": "ossia/score-addon-ltc",
      "workflow": "builds-sdk.yaml",
      "ref": "master"
@@ -15011,11 +14922,6 @@
     },
     {
      "repo": "ossia/score-addon-spatgris",
-     "workflow": "jit.yml",
-     "ref": "master"
-    },
-    {
-     "repo": "ossia/score-addon-hdf5",
      "workflow": "jit.yml",
      "ref": "master"
     },
@@ -15087,16 +14993,6 @@
     },
     {
      "repo": "ossia/score-addon-spatgris",
-     "workflow": "builds-sdk.yaml",
-     "ref": "master"
-    },
-    {
-     "repo": "ossia/score-addon-hdf5",
-     "workflow": "builds-dev.yaml",
-     "ref": "master"
-    },
-    {
-     "repo": "ossia/score-addon-hdf5",
      "workflow": "builds-sdk.yaml",
      "ref": "master"
     },
@@ -15628,11 +15524,6 @@
      "ref": "v2"
     },
     {
-     "repo": "ossia/score-addon-hdf5",
-     "workflow": "release.yml",
-     "ref": "v2"
-    },
-    {
      "repo": "ossia/score-addon-orbbec",
      "workflow": "release.yml",
      "ref": "v2"
@@ -15933,7 +15824,7 @@
   {
    "category": "runner",
    "repo": "celtera/libremidi",
-   "location": "android.yml, book.yml, build_cmake.yml, publish_pypi.yml",
+   "location": "android.yml, book.yml, build_cmake.yml, publish_pypi.yml, wasm.yml",
    "name": "runs-on",
    "current": "ubuntu-latest",
    "missingFromMatrix": [],
@@ -16089,18 +15980,6 @@
   {
    "category": "runner",
    "repo": "ossia/score-addon-spatgris",
-   "location": "builds-dev.yaml, builds-sdk.yaml, release.yml",
-   "name": "runs-on",
-   "current": "ubuntu-latest",
-   "missingFromMatrix": [],
-   "latest": null,
-   "eolDate": null,
-   "status": "current",
-   "severity": "ok"
-  },
-  {
-   "category": "runner",
-   "repo": "ossia/score-addon-hdf5",
    "location": "builds-dev.yaml, builds-sdk.yaml, release.yml",
    "name": "runs-on",
    "current": "ubuntu-latest",
@@ -16298,66 +16177,6 @@
    "severity": "ok"
   },
   {
-   "project": "libremidi",
-   "newestVersion": "5.4.3",
-   "total": 10,
-   "outdated": 8,
-   "newest": 2,
-   "versions": [
-    {
-     "repo": "aur",
-     "version": "4.5.0",
-     "status": "outdated"
-    },
-    {
-     "repo": "freebsd",
-     "version": "5.4.3",
-     "status": "newest"
-    },
-    {
-     "repo": "nix_stable_23_11",
-     "version": "3.0",
-     "status": "outdated"
-    },
-    {
-     "repo": "nix_stable_24_05",
-     "version": "4.4.0",
-     "status": "outdated"
-    },
-    {
-     "repo": "nix_stable_24_11",
-     "version": "4.4.0",
-     "status": "outdated"
-    },
-    {
-     "repo": "nix_stable_25_05",
-     "version": "4.5.0",
-     "status": "outdated"
-    },
-    {
-     "repo": "nix_stable_25_11",
-     "version": "4.5.0",
-     "status": "outdated"
-    },
-    {
-     "repo": "nix_stable_26_05",
-     "version": "4.5.0",
-     "status": "outdated"
-    },
-    {
-     "repo": "nix_unstable",
-     "version": "4.5.0",
-     "status": "outdated"
-    },
-    {
-     "repo": "vcpkg",
-     "version": "5.4.3",
-     "status": "newest"
-    }
-   ],
-   "severity": "warn"
-  },
-  {
    "project": "avendish",
    "newestVersion": null,
    "total": 0,
@@ -16382,7 +16201,7 @@
    "category": "submodule",
    "repo": "ossia/libossia",
    "subject": "3rdparty/abseil-cpp",
-   "message": "pin not on 'master' (on: lts_2025_05_12); 709 commits / 13 months behind abseil/abseil-cpp@master",
+   "message": "pin not on 'master' (on: lts_2025_05_12); 711 commits / 13 months behind abseil/abseil-cpp@master",
    "url": "https://github.com/abseil/abseil-cpp",
    "severity": "crit"
   },
@@ -16605,7 +16424,7 @@
   {
    "id": "action:*:mymindstorm/setup-emsdk",
    "category": "action",
-   "repo": "ossia/actions",
+   "repo": "celtera/libremidi",
    "subject": "mymindstorm/setup-emsdk",
    "message": "used at v14, latest is v16",
    "url": "https://github.com/mymindstorm/setup-emsdk",
@@ -17390,7 +17209,7 @@
    "category": "dependency",
    "repo": "ossia/score-addon-cv",
    "subject": "Avendish (cmake-fetchcontent)",
-   "message": "upstream HEAD moved 7 days past our pin; upstream active again (last commit 2026-07-09)",
+   "message": "upstream HEAD moved 1 day past our pin; upstream active again (last commit 2026-07-09)",
    "url": "https://github.com/celtera/avendish",
    "severity": "warn"
   },
@@ -17401,15 +17220,6 @@
    "subject": "Eigen3cv (cmake-fetchcontent)",
    "message": "pinned 3.4.0, upstream released 5.0.1",
    "url": "https://gitlab.com/libeigen/eigen",
-   "severity": "warn"
-  },
-  {
-   "id": "dependency:ossia/score-addon-librediffusion:cmake-fetchcontent:Avendish",
-   "category": "dependency",
-   "repo": "ossia/score-addon-librediffusion",
-   "subject": "Avendish (cmake-fetchcontent)",
-   "message": "upstream HEAD moved 1 day past our pin; upstream active again (last commit 2026-07-09)",
-   "url": "https://github.com/celtera/avendish",
    "severity": "warn"
   },
   {
@@ -17431,20 +17241,11 @@
    "severity": "warn"
   },
   {
-   "id": "dependency:ossia/score-addon-puara:cmake-fetchcontent:Avendish",
-   "category": "dependency",
-   "repo": "ossia/score-addon-puara",
-   "subject": "Avendish (cmake-fetchcontent)",
-   "message": "upstream HEAD moved 1 day past our pin; upstream active again (last commit 2026-07-09)",
-   "url": "https://github.com/celtera/avendish",
-   "severity": "warn"
-  },
-  {
    "id": "dependency:ossia/score-addon-puara:cmake-fetchcontent:Eigen3",
    "category": "dependency",
    "repo": "ossia/score-addon-puara",
    "subject": "Eigen3 (cmake-fetchcontent)",
-   "message": "upstream HEAD moved 8 months past our pin; upstream active again (last commit 2026-07-09)",
+   "message": "upstream HEAD moved 8 months past our pin; upstream active again (last commit 2026-07-10)",
    "url": "https://gitlab.com/libeigen/eigen",
    "severity": "warn"
   },
@@ -17527,15 +17328,6 @@
    "subject": "debian (bookworm)",
    "message": "EOL on 2026-07-11",
    "url": null,
-   "severity": "warn"
-  },
-  {
-   "id": "packaging:repology:libremidi",
-   "category": "packaging",
-   "repo": "libremidi",
-   "subject": "libremidi",
-   "message": "8/10 downstream repos ship an outdated version (newest: 5.4.3)",
-   "url": "https://repology.org/project/libremidi/versions",
    "severity": "warn"
   },
   {
@@ -17651,7 +17443,7 @@
    "category": "pr",
    "repo": "celtera/libremidi",
    "subject": "#124 api: annotate with nodiscard",
-   "message": "idle 179d, 212 commits behind master",
+   "message": "idle 180d, 216 commits behind master",
    "url": "https://github.com/celtera/libremidi/pull/124",
    "severity": "warn"
   },
@@ -17660,7 +17452,7 @@
    "category": "pr",
    "repo": "celtera/libremidi",
    "subject": "#191 WIP ump endpoint",
-   "message": "idle 174d, 49 commits behind master",
+   "message": "idle 174d, 53 commits behind master",
    "url": "https://github.com/celtera/libremidi/pull/191",
    "severity": "warn"
   },
@@ -17669,7 +17461,7 @@
    "category": "pr",
    "repo": "celtera/libremidi",
    "subject": "#204 macos ump endpoint backend",
-   "message": "idle 38d, 0 commits behind feature/ump_endpoint",
+   "message": "idle 39d, 0 commits behind feature/ump_endpoint",
    "url": "https://github.com/celtera/libremidi/pull/204",
    "severity": "warn"
   },
@@ -17678,7 +17470,7 @@
    "category": "pr",
    "repo": "celtera/libremidi",
    "subject": "#217 winmidi: fix input dropped when a group terminal block's Number() isn't its group index",
-   "message": "idle 38d, 3 commits behind master",
+   "message": "idle 38d, 7 commits behind master",
    "url": "https://github.com/celtera/libremidi/pull/217",
    "severity": "warn"
   },
@@ -17723,7 +17515,7 @@
    "category": "pr",
    "repo": "ossia/libossia",
    "subject": "#874 feature/feedback",
-   "message": "idle 94d, 48 commits behind master",
+   "message": "idle 95d, 48 commits behind master",
    "url": "https://github.com/ossia/libossia/pull/874",
    "severity": "warn"
   },
@@ -17759,7 +17551,7 @@
    "category": "pr",
    "repo": "ossia/libossia",
    "subject": "#891 deps: vendor Abseil and update re2 to 2025-11-05",
-   "message": "idle 30d, 15 commits behind master",
+   "message": "idle 31d, 15 commits behind master",
    "url": "https://github.com/ossia/libossia/pull/891",
    "severity": "warn"
   },
@@ -17768,7 +17560,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1287 Feature/wasm remote",
-   "message": "idle 1786d, 0 commits behind feature/wasm-remote",
+   "message": "idle 1787d, 0 commits behind feature/wasm-remote",
    "url": "https://github.com/ossia/score/pull/1287",
    "severity": "warn"
   },
@@ -18133,6 +17925,15 @@
    "severity": "warn"
   },
   {
+   "id": "submodule:ossia/libossia:3rdparty/libremidi",
+   "category": "submodule",
+   "repo": "ossia/libossia",
+   "subject": "3rdparty/libremidi",
+   "message": "pin not on 'master' (on: feature/pipewire-ump-update, fix/freebsd, fix/pipewire-blocking-invoke-lock, fix/pipewire-context-hardening, fix/wasm-emscripten-midi-update); 11 commits / 39 days behind jcelerier/libremidi@master",
+   "url": "https://github.com/jcelerier/libremidi",
+   "severity": "warn"
+  },
+  {
    "id": "submodule:ossia/libossia:3rdparty/libsamplerate",
    "category": "submodule",
    "repo": "ossia/libossia",
@@ -18290,7 +18091,7 @@
    "category": "submodule",
    "repo": "ossia/score-addon-onnx",
    "subject": "3rdparty/onnxruntime-extensions",
-   "message": "pin not on 'main' (on: fix-windows-libcxx-file_sys)",
+   "message": "pin not reachable from any branch of ossia/onnxruntime-extensions",
    "url": "https://github.com/ossia/onnxruntime-extensions",
    "severity": "warn"
   },
@@ -18362,7 +18163,7 @@
    "category": "submodule",
    "repo": "ossia/score",
    "subject": "3rdparty/eigen",
-   "message": "pin not on 'master' (on: 5.0); 648 commits / 8 months behind gitlab:libeigen/eigen@master",
+   "message": "pin not on 'master' (on: 5.0); 649 commits / 8 months behind gitlab:libeigen/eigen@master",
    "url": "https://github.com/gitlab:libeigen/eigen",
    "severity": "warn"
   },
@@ -18479,7 +18280,7 @@
    "category": "submodule",
    "repo": "ossia/score",
    "subject": "3rdparty/xsimd",
-   "message": "pin not on 'master' (on: arm-sve-ci, ci/clang-format, fix/fast-math-to-float-avx2, fix/simplify-github-actions, fix/uninitialized-error); 168 commits / 5 months behind xtensor-stack/xsimd@master",
+   "message": "pin not on 'master' (on: arm-sve-ci, ci/clang-format, fix/fast-math-to-float-avx2, fix/simplify-github-actions, fix/uninitialized-error); 169 commits / 5 months behind xtensor-stack/xsimd@master",
    "url": "https://github.com/xtensor-stack/xsimd",
    "severity": "warn"
   },
