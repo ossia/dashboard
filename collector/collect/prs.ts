@@ -38,79 +38,113 @@ interface RawPR {
   ciStatus: PullRequest["ciStatus"];
 }
 
-async function fetchLive(cfg: Config, token: string): Promise<RawPR[]> {
+async function fetchLive(
+  cfg: Config,
+  token: string,
+): Promise<{ raw: RawPR[]; failed: { repo: string; error: string }[] }> {
   const all: RawPR[] = [];
+  const failed: { repo: string; error: string }[] = [];
+  // One query per repo, failure-isolated: a repo we can't resolve (private,
+  // renamed, no token access) must not discard the live PRs of every other
+  // repo — otherwise the whole section falls back to the stale fixture and
+  // keeps showing PRs that have since been merged or closed.
   for (const repo of cfg.repos) {
     const [owner, name] = repo.slug.split("/");
-    const res = await fetch("https://api.github.com/graphql", {
-      method: "POST",
-      headers: {
-        authorization: `bearer ${token}`,
-        "content-type": "application/json",
-        "user-agent": "ossia-dashboard",
-      },
-      body: JSON.stringify({ query: GQL, variables: { owner, name } }),
-    });
-    if (!res.ok) throw new Error(`graphql ${repo.slug}: HTTP ${res.status}`);
-    const json = (await res.json()) as any;
-    if (json.errors?.length) throw new Error(`graphql ${repo.slug}: ${json.errors[0].message}`);
-    for (const n of json.data.repository.pullRequests.nodes) {
-      const rollup = n.commits?.nodes?.[0]?.commit?.statusCheckRollup?.state ?? null;
-      all.push({
-        repo: repo.slug,
-        number: n.number,
-        title: n.title,
-        url: n.url,
-        isDraft: n.isDraft,
-        createdAt: n.createdAt,
-        updatedAt: n.updatedAt,
-        baseRefName: n.baseRefName,
-        headRefName: n.headRefName,
-        headRefOid: n.headRefOid,
-        author: n.author?.login ?? "?",
-        ciStatus:
-          rollup === "SUCCESS"
-            ? "success"
-            : rollup === "FAILURE" || rollup === "ERROR"
-              ? "failure"
-              : rollup === "PENDING" || rollup === "EXPECTED"
-                ? "pending"
-                : rollup === null
-                  ? "none"
-                  : null,
+    try {
+      const res = await fetch("https://api.github.com/graphql", {
+        method: "POST",
+        headers: {
+          authorization: `bearer ${token}`,
+          "content-type": "application/json",
+          "user-agent": "ossia-dashboard",
+        },
+        body: JSON.stringify({ query: GQL, variables: { owner, name } }),
       });
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const json = (await res.json()) as any;
+      if (json.errors?.length) throw new Error(json.errors[0].message);
+      const nodes = json.data?.repository?.pullRequests?.nodes ?? [];
+      for (const n of nodes) {
+        const rollup = n.commits?.nodes?.[0]?.commit?.statusCheckRollup?.state ?? null;
+        all.push({
+          repo: repo.slug,
+          number: n.number,
+          title: n.title,
+          url: n.url,
+          isDraft: n.isDraft,
+          createdAt: n.createdAt,
+          updatedAt: n.updatedAt,
+          baseRefName: n.baseRefName,
+          headRefName: n.headRefName,
+          headRefOid: n.headRefOid,
+          author: n.author?.login ?? "?",
+          ciStatus:
+            rollup === "SUCCESS"
+              ? "success"
+              : rollup === "FAILURE" || rollup === "ERROR"
+                ? "failure"
+                : rollup === "PENDING" || rollup === "EXPECTED"
+                  ? "pending"
+                  : rollup === null
+                    ? "none"
+                    : null,
+        });
+      }
+    } catch (e) {
+      failed.push({ repo: repo.slug, error: (e as Error).message });
+      console.warn(`prs: skipping ${repo.slug}: ${(e as Error).message}`);
     }
   }
-  return all;
+  return { raw: all, failed };
 }
 
 export async function collectPRs(
   cfg: Config,
 ): Promise<{ prs: PullRequest[]; meta: SectionMeta }> {
   const token = process.env.GITHUB_TOKEN ?? process.env.GH_TOKEN;
+  const now = () => new Date().toISOString();
   let raw: RawPR[];
-  let meta: SectionMeta = { source: "live", collectedAt: new Date().toISOString() };
-  try {
-    if (!token) throw new Error("no GITHUB_TOKEN");
-    raw = await fetchLive(cfg, token);
-  } catch (e) {
+  let meta: SectionMeta = { source: "live", collectedAt: now() };
+
+  // Fall back to the committed fixture ONLY when live data is truly
+  // unobtainable (no token, or every repo failed). A frozen fixture lists PRs
+  // that may since have merged/closed, so it must never mask partial success.
+  const fallback = (reason: string): { prs: RawPR[]; meta: SectionMeta } | null => {
     const fixture = "fixtures/prs.json";
     if (existsSync(fixture)) {
-      raw = JSON.parse(readFileSync(fixture, "utf8")) as RawPR[];
-      meta = {
-        source: "fixture",
-        collectedAt: new Date().toISOString(),
-        error: (e as Error).message,
-      };
-    } else {
       return {
-        prs: [],
-        meta: {
-          source: "unavailable",
-          collectedAt: new Date().toISOString(),
-          error: (e as Error).message,
-        },
+        prs: JSON.parse(readFileSync(fixture, "utf8")) as RawPR[],
+        meta: { source: "fixture", collectedAt: now(), error: reason },
       };
+    }
+    return null;
+  };
+
+  if (!token) {
+    const fb = fallback("no GITHUB_TOKEN");
+    if (!fb) return { prs: [], meta: { source: "unavailable", collectedAt: now(), error: "no GITHUB_TOKEN" } };
+    raw = fb.prs;
+    meta = fb.meta;
+  } else {
+    const { raw: live, failed } = await fetchLive(cfg, token);
+    if (failed.length === cfg.repos.length) {
+      // every repo failed → live data is unusable; use the fixture if present
+      const reason = failed.map((f) => `${f.repo}: ${f.error}`).join("; ");
+      const fb = fallback(reason);
+      if (!fb) return { prs: [], meta: { source: "unavailable", collectedAt: now(), error: reason } };
+      raw = fb.prs;
+      meta = fb.meta;
+    } else {
+      // live: some repos may be unreachable, but the rest are current — their
+      // merged/closed PRs correctly disappear. Note the skipped ones.
+      raw = live;
+      meta = failed.length
+        ? {
+            source: "live",
+            collectedAt: now(),
+            error: `${failed.length} repo(s) unreachable, skipped: ${failed.map((f) => f.repo).join(", ")}`,
+          }
+        : { source: "live", collectedAt: now() };
     }
   }
 
