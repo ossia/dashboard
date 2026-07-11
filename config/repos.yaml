@@ -24,8 +24,9 @@ repos:
 
   - slug: sat-mtl/carto-tcp-avendish
 
-  # sat-mtl apps (not every sat-mtl repo is an app, so these are listed
-  # explicitly rather than glob-discovered)
+  # sat-mtl apps + avendish plugins/tools we maintain (not every sat-mtl repo
+  # belongs here — libraries / integrations / infra are left out — so these
+  # are listed explicitly rather than glob-discovered)
   - slug: sat-mtl/koaia
 
   - slug: sat-mtl/livepose
@@ -37,6 +38,14 @@ repos:
   - slug: sat-mtl/spatial-protocol-mapper
 
   - slug: sat-mtl/sat_translator
+
+  - slug: sat-mtl/speaker-setup-format-converter
+
+  - slug: sat-mtl/sherpa-plugins
+
+  - slug: sat-mtl/mbap-avendish
+
+  - slug: sat-mtl/sat-fheel-hrv-algorithms
 
 # Archived repositories are ignored everywhere (explicit list + discovery).
 # Set to false to include them.
