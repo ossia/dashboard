@@ -24,6 +24,20 @@ repos:
 
   - slug: sat-mtl/carto-tcp-avendish
 
+  # sat-mtl apps (not every sat-mtl repo is an app, so these are listed
+  # explicitly rather than glob-discovered)
+  - slug: sat-mtl/koaia
+
+  - slug: sat-mtl/livepose
+
+  - slug: sat-mtl/DomeportPro
+
+  - slug: sat-mtl/esquisse
+
+  - slug: sat-mtl/spatial-protocol-mapper
+
+  - slug: sat-mtl/sat_translator
+
 # Archived repositories are ignored everywhere (explicit list + discovery).
 # Set to false to include them.
 ignoreArchived: true
@@ -38,6 +52,9 @@ orgs:
   - org: ossia
     include:
       - "score-addon-*"
+  - org: celtera
+    include:
+      - "avendish-*-template" # the avendish plugin templates
 
 # Repositories that are not tracked themselves but whose releases matter
 # (used by watch.yaml `latest: git-tag:` resolvers and the SDK checks).
