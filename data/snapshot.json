@@ -1,48 +1,47 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-07-19T19:02:34.811Z",
+ "generatedAt": "2026-07-19T21:14:11.706Z",
  "sections": {
   "repos": {
    "source": "live",
-   "collectedAt": "2026-07-19T19:01:54.779Z"
+   "collectedAt": "2026-07-19T21:13:33.995Z"
   },
   "submodules": {
    "source": "live",
-   "collectedAt": "2026-07-19T19:02:21.581Z"
+   "collectedAt": "2026-07-19T21:14:02.294Z"
   },
   "dependencies": {
    "source": "live",
-   "collectedAt": "2026-07-19T19:02:16.747Z"
+   "collectedAt": "2026-07-19T21:13:56.691Z"
   },
   "prs": {
    "source": "live",
-   "collectedAt": "2026-07-19T19:02:26.693Z",
+   "collectedAt": "2026-07-19T21:14:04.071Z",
    "error": "4 repo(s) unreachable, skipped: sat-mtl/skills, sat-mtl/carto-tcp-avendish, sat-mtl/sat_translator, sat-mtl/mbap-avendish"
   },
   "branches": {
    "source": "live",
-   "collectedAt": "2026-07-19T19:02:34.811Z"
+   "collectedAt": "2026-07-19T21:14:11.706Z"
   },
   "actions": {
    "source": "live",
-   "collectedAt": "2026-07-19T19:02:08.396Z"
+   "collectedAt": "2026-07-19T21:13:48.481Z"
   },
   "environments": {
    "source": "live",
-   "collectedAt": "2026-07-19T19:02:10.276Z"
+   "collectedAt": "2026-07-19T21:13:50.604Z"
   },
   "packaging": {
    "source": "live",
-   "collectedAt": "2026-07-19T19:02:08.901Z",
-   "error": "fetch failed"
+   "collectedAt": "2026-07-19T21:13:49.129Z"
   }
  },
  "repos": [
   {
    "slug": "ossia/score",
    "defaultBranch": "master",
-   "headSha": "4ace856e1f20dc32d83fab22faa7a139d167a5c8",
-   "headDate": "2026-07-18T09:02:51-04:00",
+   "headSha": "b0786c875ff795d6f66455b14a2e7d185b9a52e5",
+   "headDate": "2026-07-19T16:12:19-04:00",
    "counts": {
     "submodules": {
      "warn": 19,
@@ -55,9 +54,9 @@
      "info": 14
     },
     "prs": {
-     "warn": 34,
+     "warn": 37,
      "crit": 0,
-     "info": 14
+     "info": 13
     },
     "branches": {
      "warn": 39,
@@ -79,8 +78,8 @@
   {
    "slug": "ossia/libossia",
    "defaultBranch": "master",
-   "headSha": "09d8744c7c2a2cd2c12b60baa7fc3a2cae0f0668",
-   "headDate": "2026-07-13T12:44:14-04:00",
+   "headSha": "a8bd3058a1d790e94dc35a0b61ebc67b0d747eca",
+   "headDate": "2026-07-19T16:51:27-04:00",
    "counts": {
     "submodules": {
      "warn": 17,
@@ -116,7 +115,7 @@
      "info": 6
     },
     "prs": {
-     "warn": 13,
+     "warn": 12,
      "crit": 0,
      "info": 6
     },
@@ -181,8 +180,8 @@
   {
    "slug": "ossia/dashboard",
    "defaultBranch": "main",
-   "headSha": "7e5a56270a075340f88826d5445974846bb089f7",
-   "headDate": "2026-07-19T03:10:13Z",
+   "headSha": "a4ae99cf5da7a6df91473cd06681a25cf9ebdbcb",
+   "headDate": "2026-07-19T19:02:34Z",
    "counts": {
     "actions": {
      "warn": 5,
@@ -399,8 +398,8 @@
   {
    "slug": "ossia/score-addon-vmo",
    "defaultBranch": "master",
-   "headSha": "d7d2e3db3bdeeec1399b94f5b160894753fbccd5",
-   "headDate": "2026-07-11T17:35:32-04:00",
+   "headSha": "699a985a9f8720cc238f9a52703bbdac2d040fdf",
+   "headDate": "2026-07-19T15:53:30-04:00",
    "counts": {
     "actions": {
      "warn": 1,
@@ -443,8 +442,8 @@
   {
    "slug": "ossia/score-addon-ndi",
    "defaultBranch": "main",
-   "headSha": "a3d65d67e0429bbb4a1713c4cbbc4c37b168eed9",
-   "headDate": "2026-07-11T17:38:59-04:00",
+   "headSha": "261339b738162a3cab06489c41b327c4d0dc859d",
+   "headDate": "2026-07-19T15:56:07-04:00",
    "counts": {
     "prs": {
      "warn": 1,
@@ -459,23 +458,10 @@
    }
   },
   {
-   "slug": "ossia/score-addon-videomapping",
-   "defaultBranch": "main",
-   "headSha": "921af69ca4b5089927af020dd86507ba4dcfabcb",
-   "headDate": "2026-07-11T17:35:38-04:00",
-   "counts": {
-    "actions": {
-     "warn": 1,
-     "crit": 0,
-     "info": 0
-    }
-   }
-  },
-  {
    "slug": "ossia/score-addon-spat",
    "defaultBranch": "main",
-   "headSha": "7e4ff706cd62407dd3ce578e1438a41395f6d113",
-   "headDate": "2026-07-11T17:37:09-04:00",
+   "headSha": "61c0b9b364898198ef3a01fc3665b489e5f75326",
+   "headDate": "2026-07-19T15:55:14-04:00",
    "counts": {
     "prs": {
      "warn": 3,
@@ -497,8 +483,8 @@
   {
    "slug": "ossia/score-addon-cv",
    "defaultBranch": "main",
-   "headSha": "f8722499a7fb662e56754bd7b7a8f06a9a8291ea",
-   "headDate": "2026-07-11T17:41:18-04:00",
+   "headSha": "1de72bcfe1c8f25ff7270f8edb3d903c8bd26265",
+   "headDate": "2026-07-19T15:57:33-04:00",
    "counts": {
     "dependencies": {
      "warn": 2,
@@ -520,8 +506,8 @@
   {
    "slug": "ossia/score-addon-jk",
    "defaultBranch": "main",
-   "headSha": "430031ea3d54ef491f6bac86d8f02bb6082a9a45",
-   "headDate": "2026-07-11T17:40:18-04:00",
+   "headSha": "0a3ae89b27c7088e255e988cbf5536b4951335a1",
+   "headDate": "2026-07-19T15:57:15-04:00",
    "counts": {
     "prs": {
      "warn": 1,
@@ -538,8 +524,8 @@
   {
    "slug": "ossia/score-addon-synthimi",
    "defaultBranch": "main",
-   "headSha": "005e4ac5321a95f43cf276b3726de2ddb49e6200",
-   "headDate": "2026-07-11T17:37:00-04:00",
+   "headSha": "b99fd2a5e891d6fc8e51f5ed348f6fbfc7ac248c",
+   "headDate": "2026-07-19T15:54:39-04:00",
    "counts": {
     "prs": {
      "warn": 1,
@@ -602,8 +588,8 @@
   {
    "slug": "ossia/score-addon-puara",
    "defaultBranch": "master",
-   "headSha": "b6006e4d5e8e159fe3a53377eced7bed03499d8b",
-   "headDate": "2026-07-11T17:39:56-04:00",
+   "headSha": "62ae2e8dd81fec55feb3a7d4f523a86d3977c098",
+   "headDate": "2026-07-19T15:55:25-04:00",
    "counts": {
     "submodules": {
      "warn": 2,
@@ -618,7 +604,7 @@
     "prs": {
      "warn": 4,
      "crit": 0,
-     "info": 0
+     "info": 1
     },
     "branches": {
      "warn": 2,
@@ -722,8 +708,8 @@
   {
    "slug": "ossia/score-addon-spatgris",
    "defaultBranch": "main",
-   "headSha": "71825c562e3c4f6b8eab3002d3235c29d0cdd552",
-   "headDate": "2026-07-11T17:37:03-04:00",
+   "headSha": "36c9fb21c12e0bc01471a8724e68c35c2c0a7f61",
+   "headDate": "2026-07-19T15:54:57-04:00",
    "counts": {
     "actions": {
      "warn": 2,
@@ -776,8 +762,8 @@
   {
    "slug": "ossia/score-addon-ltc",
    "defaultBranch": "master",
-   "headSha": "2c6c242166e94da0c190372c1fe95c14abb5057f",
-   "headDate": "2026-07-11T17:39:08-04:00",
+   "headSha": "191e9d4a3ee4e3358c3e62028c6d9c072b59183a",
+   "headDate": "2026-07-19T15:56:39-04:00",
    "counts": {
     "prs": {
      "warn": 1,
@@ -856,13 +842,18 @@
   {
    "slug": "ossia/score-addon-librediffusion",
    "defaultBranch": "master",
-   "headSha": "a71e4ccc415e2ecce2c671819fde4306160df117",
-   "headDate": "2026-07-11T17:40:11-04:00",
+   "headSha": "263754f760f6ec6848fa9b5f2a6dfbe2354bd37a",
+   "headDate": "2026-07-19T15:57:03-04:00",
    "counts": {
     "dependencies": {
      "warn": 1,
      "crit": 0,
      "info": 0
+    },
+    "prs": {
+     "warn": 0,
+     "crit": 0,
+     "info": 1
     },
     "branches": {
      "warn": 0,
@@ -879,14 +870,9 @@
   {
    "slug": "ossia/score-addon-videoio",
    "defaultBranch": "master",
-   "headSha": "73991fa1abb505ad2dbd2d7b09c0a1b5437ba0c0",
-   "headDate": "2026-07-12T22:47:28-04:00",
+   "headSha": "765331e798316c3d7ceafdbafe430cf13a3f4483",
+   "headDate": "2026-07-19T15:54:04-04:00",
    "counts": {
-    "submodules": {
-     "warn": 1,
-     "crit": 0,
-     "info": 0
-    },
     "actions": {
      "warn": 1,
      "crit": 0,
@@ -920,18 +906,23 @@
   {
    "slug": "celtera/avendish-geometry-processor-template",
    "defaultBranch": "main",
-   "headSha": "3f012bfc98d4c0d9944986b1980ab7169ff02254",
-   "headDate": "2026-07-10T11:37:22-04:00",
+   "headSha": "654ed36aef0b6035cca5d6862e145abbe84b851d",
+   "headDate": "2026-07-19T15:48:08-04:00",
    "counts": {
     "dependencies": {
      "warn": 1,
      "crit": 0,
      "info": 0
     },
+    "prs": {
+     "warn": 0,
+     "crit": 0,
+     "info": 1
+    },
     "branches": {
      "warn": 0,
      "crit": 0,
-     "info": 3
+     "info": 4
     },
     "actions": {
      "warn": 0,
@@ -943,8 +934,8 @@
   {
    "slug": "celtera/avendish-video-processor-template",
    "defaultBranch": "main",
-   "headSha": "2f53e66c622574df7cd88539b95fc3f4583f0b1c",
-   "headDate": "2026-07-10T11:36:15-04:00",
+   "headSha": "b6a1ea9a96ae024d4037ad411f27ecc03caab8fe",
+   "headDate": "2026-07-19T15:47:41-04:00",
    "counts": {
     "dependencies": {
      "warn": 1,
@@ -954,10 +945,10 @@
     "branches": {
      "warn": 0,
      "crit": 0,
-     "info": 3
+     "info": 5
     },
     "actions": {
-     "warn": 0,
+     "warn": 1,
      "crit": 0,
      "info": 3
     }
@@ -966,18 +957,23 @@
   {
    "slug": "celtera/avendish-data-processor-template",
    "defaultBranch": "main",
-   "headSha": "5a02e228f1c3ace8fc0eb3587990fea003810307",
-   "headDate": "2026-07-10T11:37:45-04:00",
+   "headSha": "1af6ed00547cf02a57bc6e41c9a371f4c918da6f",
+   "headDate": "2026-07-19T15:48:21-04:00",
    "counts": {
     "dependencies": {
      "warn": 1,
      "crit": 0,
      "info": 0
     },
+    "prs": {
+     "warn": 0,
+     "crit": 0,
+     "info": 1
+    },
     "branches": {
      "warn": 0,
      "crit": 0,
-     "info": 3
+     "info": 4
     },
     "actions": {
      "warn": 0,
@@ -989,21 +985,26 @@
   {
    "slug": "celtera/avendish-ml-processor-template",
    "defaultBranch": "main",
-   "headSha": "830847f84d17630b4cf4c803c8013b01f5c2f637",
-   "headDate": "2026-07-10T11:37:00-04:00",
+   "headSha": "c24fccbb47308bca3f239e98441cef82c2b95190",
+   "headDate": "2026-07-19T15:47:51-04:00",
    "counts": {
     "dependencies": {
      "warn": 1,
      "crit": 0,
      "info": 0
     },
+    "prs": {
+     "warn": 0,
+     "crit": 0,
+     "info": 1
+    },
     "branches": {
      "warn": 0,
      "crit": 0,
-     "info": 3
+     "info": 4
     },
     "actions": {
-     "warn": 0,
+     "warn": 1,
      "crit": 0,
      "info": 3
     }
@@ -1063,7 +1064,7 @@
     "master"
    ],
    "behindCount": 2,
-   "behindDays": 728.8521643518516,
+   "behindDays": 728.852164351852,
    "targetHeadSha": "eccc6459a9d5e2a947a05b3489d4cee863579276",
    "targetHeadDate": "2019-01-03T09:43:55-05:00",
    "severity": "crit",
@@ -1243,14 +1244,14 @@
    "containingBranches": [
     "wip/miniaudio-wasm"
    ],
-   "behindCount": 7,
-   "behindDays": 0.5864120370370367,
-   "targetHeadSha": "09d8744c7c2a2cd2c12b60baa7fc3a2cae0f0668",
-   "targetHeadDate": "2026-07-13T12:44:14-04:00",
+   "behindCount": 9,
+   "behindDays": 6.758090277777778,
+   "targetHeadSha": "a8bd3058a1d790e94dc35a0b61ebc67b0d747eca",
+   "targetHeadDate": "2026-07-19T16:51:27-04:00",
    "severity": "warn",
    "notes": [
     "pin not on 'master' (on: wip/miniaudio-wasm)",
-    "7 commits / 1 day behind ossia/libossia@master"
+    "9 commits / 7 days behind ossia/libossia@master"
    ]
   },
   {
@@ -1416,7 +1417,7 @@
     "fix-buffer-wasm-narrowing"
    ],
    "behindCount": 21,
-   "behindDays": 12.795925925925925,
+   "behindDays": 12.795925925925927,
    "targetHeadSha": "5e57500533ac4dc602da3b066df9a318f18f0c1d",
    "targetHeadDate": "2026-07-18T16:08:06-04:00",
    "severity": "warn",
@@ -1479,7 +1480,7 @@
     "master"
    ],
    "behindCount": 2,
-   "behindDays": 11.861469907407411,
+   "behindDays": 11.861469907407404,
    "targetHeadSha": "32f203695dea0073722699890d8f3faca58ff9bb",
    "targetHeadDate": "2026-06-02T19:17:51+01:00",
    "severity": "info",
@@ -1519,7 +1520,7 @@
     "master"
    ],
    "behindCount": 5,
-   "behindDays": 123.96619212962962,
+   "behindDays": 123.96619212962963,
    "targetHeadSha": "327cea8183f4bc09581b3b4c54702f2f388926fd",
    "targetHeadDate": "2026-04-02T20:11:43+01:00",
    "severity": "warn",
@@ -1608,7 +1609,7 @@
     "dll_unloading"
    ],
    "behindCount": 255,
-   "behindDays": 537.0923032407406,
+   "behindDays": 537.0923032407408,
    "targetHeadSha": "481b6484ab8b1dd5cdf01a855d97152d1df15752",
    "targetHeadDate": "2026-07-07T13:44:26+01:00",
    "severity": "crit",
@@ -1671,7 +1672,7 @@
     "5.0"
    ],
    "behindCount": 671,
-   "behindDays": 248.8365625,
+   "behindDays": 248.83656249999999,
    "targetHeadSha": "e0f18b799e2cc7d416fdb0aec2075dceebbc8295",
    "targetHeadDate": "2026-07-15T09:49:35-07:00",
    "severity": "warn",
@@ -1733,7 +1734,7 @@
     "next"
    ],
    "behindCount": 23,
-   "behindDays": 228.68394675925927,
+   "behindDays": 228.68394675925924,
    "targetHeadSha": "195b42a004144fab0b3cf95e9c067187d15365b7",
    "targetHeadDate": "2026-07-13T11:51:20+02:00",
    "severity": "warn",
@@ -1779,7 +1780,7 @@
     "fix/uninitialized-error"
    ],
    "behindCount": 173,
-   "behindDays": 162.4278240740741,
+   "behindDays": 162.42782407407407,
    "targetHeadSha": "d0c4a8f4262cb844dd2ca58c331ed53a411f107b",
    "targetHeadDate": "2026-07-16T10:27:36+02:00",
    "severity": "warn",
@@ -1940,7 +1941,7 @@
     "main"
    ],
    "behindCount": 21,
-   "behindDays": 31.5880787037037,
+   "behindDays": 31.588078703703705,
    "targetHeadSha": "b5d1e5404bd678df41f20d0f053222a6c60fe74b",
    "targetHeadDate": "2026-07-17T12:12:25-07:00",
    "severity": "info",
@@ -1983,7 +1984,7 @@
     "v2.13"
    ],
    "behindCount": 420,
-   "behindDays": 749.2209027777778,
+   "behindDays": 749.2209027777777,
    "targetHeadSha": "34566e1d2ab190f38196d2c09ccd706fe4ccbeeb",
    "targetHeadDate": "2026-07-15T22:51:27-05:00",
    "severity": "crit",
@@ -2045,7 +2046,7 @@
     "master"
    ],
    "behindCount": 1,
-   "behindDays": 21.61944444444441,
+   "behindDays": 21.619444444444525,
    "targetHeadSha": "03ce77f4f0228783c1424aca0e62af3878971162",
    "targetHeadDate": "2024-12-31T09:40:59-05:00",
    "severity": "info",
@@ -2380,7 +2381,7 @@
     "docs/xcode-apple-silicon-discovery-mode"
    ],
    "behindCount": 212,
-   "behindDays": 555.4011226851851,
+   "behindDays": 555.4011226851852,
    "targetHeadSha": "ae5d271da2c88b859d6365281ac075112115d4b1",
    "targetHeadDate": "2026-07-15T11:19:22+02:00",
    "severity": "crit",
@@ -2422,7 +2423,7 @@
     "stable"
    ],
    "behindCount": 29,
-   "behindDays": 212.13488425925925,
+   "behindDays": 212.13488425925928,
    "targetHeadSha": "035af28effc589b4f08a4546853b9432aadbdb42",
    "targetHeadDate": "2026-07-17T17:13:07-06:00",
    "severity": "warn",
@@ -2543,7 +2544,7 @@
     "main"
    ],
    "behindCount": 3,
-   "behindDays": 78.36759259259262,
+   "behindDays": 78.36759259259259,
    "targetHeadSha": "972a15cedd008d846f1a39b2e88ce48d7f166cbd",
    "targetHeadDate": "2026-01-22T18:27:47-05:00",
    "severity": "warn",
@@ -2564,7 +2565,7 @@
     "main"
    ],
    "behindCount": 13,
-   "behindDays": 417.6502662037037,
+   "behindDays": 417.65026620370367,
    "targetHeadSha": "0bb96c12f89033461ae2d2b8e16bab7592515c31",
    "targetHeadDate": "2026-07-11T23:33:53+02:00",
    "severity": "crit",
@@ -2627,7 +2628,7 @@
     "module_target"
    ],
    "behindCount": 83,
-   "behindDays": 633.9296412037038,
+   "behindDays": 633.9296412037037,
    "targetHeadSha": "6336b3a8295f9c9ff0522ed37f4f444f2e56c881",
    "targetHeadDate": "2026-07-10T17:24:36+04:00",
    "severity": "crit",
@@ -2671,7 +2672,7 @@
     "develop"
    ],
    "behindCount": 271,
-   "behindDays": 386.0007407407407,
+   "behindDays": 386.00074074074075,
    "targetHeadSha": "09e91a2e5c9618b85ec45801aecd3ae49e1a11c2",
    "targetHeadDate": "2026-07-17T15:24:27+01:00",
    "severity": "crit",
@@ -2712,7 +2713,7 @@
     "v4"
    ],
    "behindCount": 1,
-   "behindDays": 104.92405092592594,
+   "behindDays": 104.92405092592593,
    "targetHeadSha": "5c62c4b3352c7d4c87ed3429d2329ddaf9b74df9",
    "targetHeadDate": "2026-06-02T11:22:51-04:00",
    "severity": "warn",
@@ -2733,7 +2734,7 @@
     "lts_2025_05_12"
    ],
    "behindCount": 741,
-   "behindDays": 395.2945138888889,
+   "behindDays": 395.29451388888884,
    "targetHeadSha": "1e6d60b2ca9356542fe62b73ab010424aa2796cf",
    "targetHeadDate": "2026-07-17T14:52:14-07:00",
    "severity": "crit",
@@ -3185,21 +3186,19 @@
    "path": "3rdparty/libajantv2",
    "url": "https://github.com/jcelerier/libajantv2",
    "targetRepo": "jcelerier/libajantv2",
-   "pinnedSha": "f0d6d2c746e6e5f062e1dda9169f7d0a630ef969",
-   "pinnedDate": "2026-06-26T06:08:53-04:00",
+   "pinnedSha": "74e033da018a2357a9be380aed4819144965b5f9",
+   "pinnedDate": "2026-06-20T11:42:44-07:00",
    "targetDefaultBranch": "main",
-   "onDefaultBranch": false,
+   "onDefaultBranch": true,
    "containingBranches": [
-    "ossia-2026-06-26"
+    "main"
    ],
-   "behindCount": 163,
+   "behindCount": 0,
    "behindDays": 0,
    "targetHeadSha": "74e033da018a2357a9be380aed4819144965b5f9",
    "targetHeadDate": "2026-06-20T11:42:44-07:00",
-   "severity": "warn",
-   "notes": [
-    "pin not on 'main' (on: ossia-2026-06-26)"
-   ]
+   "severity": "ok",
+   "notes": []
   }
  ],
  "dependencies": [
@@ -3631,15 +3630,15 @@
    "tracksBranch": false,
    "latestTag": "v2.1.0",
    "latestTagDate": "2026-06-20T10:07:11+01:00",
-   "upstreamHeadSha": "09d8744c7c2a2cd2c12b60baa7fc3a2cae0f0668",
-   "upstreamHeadDate": "2026-07-13T12:44:14-04:00",
+   "upstreamHeadSha": "a8bd3058a1d790e94dc35a0b61ebc67b0d747eca",
+   "upstreamHeadDate": "2026-07-19T16:51:27-04:00",
    "defaultBranch": "master",
    "pinnedRefName": null,
    "behindMainCommits": null,
    "behindMainDays": null,
    "behindLatestCommits": null,
-   "unreleasedCommits": 14,
-   "unreleasedDays": 23,
+   "unreleasedCommits": 16,
+   "unreleasedDays": 29,
    "outdated": false,
    "revived": false,
    "severity": "ok",
@@ -5824,14 +5823,14 @@
    "tracksBranch": false,
    "latestTag": "n8.1.2",
    "latestTagDate": "2026-06-17T04:33:35+02:00",
-   "upstreamHeadSha": "162c2784f90969ae53c1f4aa36d22ef93945a293",
-   "upstreamHeadDate": "2026-07-19T18:29:57+02:00",
+   "upstreamHeadSha": "1b0c9e3dce64423052e204ca5669a21f9f9a2eac",
+   "upstreamHeadDate": "2026-07-19T22:47:17+02:00",
    "defaultBranch": "master",
    "pinnedRefName": "n8.1",
-   "behindMainCommits": 2430,
+   "behindMainCommits": 2431,
    "behindMainDays": 125,
    "behindLatestCommits": 240,
-   "unreleasedCommits": 2430,
+   "unreleasedCommits": 2431,
    "unreleasedDays": 33,
    "outdated": true,
    "revived": false,
@@ -5907,14 +5906,14 @@
    "tracksBranch": false,
    "latestTag": "llvmorg-22.1.8",
    "latestTagDate": "2026-06-15T22:33:53Z",
-   "upstreamHeadSha": "ae023494fba615bb1c75292f93e4521cfe7068b5",
-   "upstreamHeadDate": "2026-07-19T15:00:37-04:00",
+   "upstreamHeadSha": "6bcdcb39c57ea926d3082ec3ecae74bf59b4658e",
+   "upstreamHeadDate": "2026-07-19T15:58:34-05:00",
    "defaultBranch": "main",
    "pinnedRefName": "llvmorg-22.1.8",
-   "behindMainCommits": 23874,
+   "behindMainCommits": 23875,
    "behindMainDays": 34,
    "behindLatestCommits": 0,
-   "unreleasedCommits": 23874,
+   "unreleasedCommits": 23875,
    "unreleasedDays": 34,
    "outdated": false,
    "revived": false,
@@ -6021,14 +6020,14 @@
    "tracksBranch": false,
    "latestTag": "v3.14.6",
    "latestTagDate": "2026-06-10T13:03:53+03:00",
-   "upstreamHeadSha": "aeedae8b44558ee5c406c8b31287195912c29107",
-   "upstreamHeadDate": "2026-07-19T20:32:43+02:00",
+   "upstreamHeadSha": "40f7fbf4a53d2f2cb0414a22f891d6e7e288280c",
+   "upstreamHeadDate": "2026-07-19T21:15:23+02:00",
    "defaultBranch": "main",
    "pinnedRefName": "v3.13.14",
-   "behindMainCommits": 10331,
+   "behindMainCommits": 10332,
    "behindMainDays": 39,
    "behindLatestCommits": 7328,
-   "unreleasedCommits": 5528,
+   "unreleasedCommits": 5529,
    "unreleasedDays": 39,
    "outdated": true,
    "revived": false,
@@ -6050,14 +6049,14 @@
    "tracksBranch": false,
    "latestTag": "1.11.2",
    "latestTagDate": "2026-07-10T17:23:17-04:00",
-   "upstreamHeadSha": "dde29f27fe2605a9e7af58ebbaf4abe691414a86",
-   "upstreamHeadDate": "2026-07-19T15:42:42+02:00",
+   "upstreamHeadSha": "14143beea86f8232d79b1f02327971e7890dba3d",
+   "upstreamHeadDate": "2026-07-19T21:34:37+01:00",
    "defaultBranch": "master",
    "pinnedRefName": "0.61.1",
-   "behindMainCommits": 5555,
+   "behindMainCommits": 5556,
    "behindMainDays": 1645,
    "behindLatestCommits": 4976,
-   "unreleasedCommits": 615,
+   "unreleasedCommits": 616,
    "unreleasedDays": 9,
    "outdated": true,
    "revived": false,
@@ -7020,17 +7019,17 @@
    "upstream": "celtera/avendish",
    "kind": "fork",
    "pinnedVersion": null,
-   "pinnedSha": "558744dcd18657163a1d6955ed9992188e00e8ad",
-   "pinnedRef": "558744dcd18657163a1d6955ed9992188e00e8ad",
+   "pinnedSha": "00827f5cc3b2323cfa3a554e799397b4fab14701",
+   "pinnedRef": "00827f5cc3b2323cfa3a554e799397b4fab14701",
    "tracksBranch": false,
    "latestTag": "v3.1",
    "latestTagDate": "2023-10-01T00:29:17-04:00",
    "upstreamHeadSha": "5e57500533ac4dc602da3b066df9a318f18f0c1d",
    "upstreamHeadDate": "2026-07-18T16:08:06-04:00",
    "defaultBranch": "main",
-   "pinnedRefName": "558744dcd18657163a1d6955ed9992188e00e8ad",
-   "behindMainCommits": 14,
-   "behindMainDays": 10,
+   "pinnedRefName": "00827f5cc3b2323cfa3a554e799397b4fab14701",
+   "behindMainCommits": 2,
+   "behindMainDays": 7,
    "behindLatestCommits": 0,
    "unreleasedCommits": 582,
    "unreleasedDays": 1022,
@@ -7038,7 +7037,7 @@
    "revived": true,
    "severity": "warn",
    "notes": [
-    "upstream HEAD moved 10 days past our pin",
+    "upstream HEAD moved 7 days past our pin",
     "upstream active again (last commit 2026-07-18)"
    ]
   },
@@ -7106,17 +7105,17 @@
    "upstream": "celtera/avendish",
    "kind": "fork",
    "pinnedVersion": null,
-   "pinnedSha": "480759886e295127c6bb2e6f62ba6af0c84ac145",
-   "pinnedRef": "480759886e295127c6bb2e6f62ba6af0c84ac145",
+   "pinnedSha": "00827f5cc3b2323cfa3a554e799397b4fab14701",
+   "pinnedRef": "00827f5cc3b2323cfa3a554e799397b4fab14701",
    "tracksBranch": false,
    "latestTag": "v3.1",
    "latestTagDate": "2023-10-01T00:29:17-04:00",
    "upstreamHeadSha": "5e57500533ac4dc602da3b066df9a318f18f0c1d",
    "upstreamHeadDate": "2026-07-18T16:08:06-04:00",
    "defaultBranch": "main",
-   "pinnedRefName": "480759886e295127c6bb2e6f62ba6af0c84ac145",
-   "behindMainCommits": 8,
-   "behindMainDays": 9,
+   "pinnedRefName": "00827f5cc3b2323cfa3a554e799397b4fab14701",
+   "behindMainCommits": 2,
+   "behindMainDays": 7,
    "behindLatestCommits": 0,
    "unreleasedCommits": 582,
    "unreleasedDays": 1022,
@@ -7124,7 +7123,7 @@
    "revived": true,
    "severity": "warn",
    "notes": [
-    "upstream HEAD moved 9 days past our pin",
+    "upstream HEAD moved 7 days past our pin",
     "upstream active again (last commit 2026-07-18)"
    ]
   },
@@ -7315,17 +7314,17 @@
    "upstream": "celtera/avendish",
    "kind": "fork",
    "pinnedVersion": null,
-   "pinnedSha": "480759886e295127c6bb2e6f62ba6af0c84ac145",
-   "pinnedRef": "480759886e295127c6bb2e6f62ba6af0c84ac145",
+   "pinnedSha": "00827f5cc3b2323cfa3a554e799397b4fab14701",
+   "pinnedRef": "00827f5cc3b2323cfa3a554e799397b4fab14701",
    "tracksBranch": false,
    "latestTag": "v3.1",
    "latestTagDate": "2023-10-01T00:29:17-04:00",
    "upstreamHeadSha": "5e57500533ac4dc602da3b066df9a318f18f0c1d",
    "upstreamHeadDate": "2026-07-18T16:08:06-04:00",
    "defaultBranch": "main",
-   "pinnedRefName": "480759886e295127c6bb2e6f62ba6af0c84ac145",
-   "behindMainCommits": 8,
-   "behindMainDays": 9,
+   "pinnedRefName": "00827f5cc3b2323cfa3a554e799397b4fab14701",
+   "behindMainCommits": 2,
+   "behindMainDays": 7,
    "behindLatestCommits": 0,
    "unreleasedCommits": 582,
    "unreleasedDays": 1022,
@@ -7333,7 +7332,7 @@
    "revived": true,
    "severity": "warn",
    "notes": [
-    "upstream HEAD moved 9 days past our pin",
+    "upstream HEAD moved 7 days past our pin",
     "upstream active again (last commit 2026-07-18)"
    ]
   },
@@ -7375,17 +7374,17 @@
    "upstream": "celtera/avendish",
    "kind": "fork",
    "pinnedVersion": null,
-   "pinnedSha": "480759886e295127c6bb2e6f62ba6af0c84ac145",
-   "pinnedRef": "480759886e295127c6bb2e6f62ba6af0c84ac145",
+   "pinnedSha": "00827f5cc3b2323cfa3a554e799397b4fab14701",
+   "pinnedRef": "00827f5cc3b2323cfa3a554e799397b4fab14701",
    "tracksBranch": false,
    "latestTag": "v3.1",
    "latestTagDate": "2023-10-01T00:29:17-04:00",
    "upstreamHeadSha": "5e57500533ac4dc602da3b066df9a318f18f0c1d",
    "upstreamHeadDate": "2026-07-18T16:08:06-04:00",
    "defaultBranch": "main",
-   "pinnedRefName": "480759886e295127c6bb2e6f62ba6af0c84ac145",
-   "behindMainCommits": 8,
-   "behindMainDays": 9,
+   "pinnedRefName": "00827f5cc3b2323cfa3a554e799397b4fab14701",
+   "behindMainCommits": 2,
+   "behindMainDays": 7,
    "behindLatestCommits": 0,
    "unreleasedCommits": 582,
    "unreleasedDays": 1022,
@@ -7393,7 +7392,7 @@
    "revived": true,
    "severity": "warn",
    "notes": [
-    "upstream HEAD moved 9 days past our pin",
+    "upstream HEAD moved 7 days past our pin",
     "upstream active again (last commit 2026-07-18)"
    ]
   },
@@ -7405,17 +7404,17 @@
    "upstream": "celtera/avendish",
    "kind": "fork",
    "pinnedVersion": null,
-   "pinnedSha": "480759886e295127c6bb2e6f62ba6af0c84ac145",
-   "pinnedRef": "480759886e295127c6bb2e6f62ba6af0c84ac145",
+   "pinnedSha": "00827f5cc3b2323cfa3a554e799397b4fab14701",
+   "pinnedRef": "00827f5cc3b2323cfa3a554e799397b4fab14701",
    "tracksBranch": false,
    "latestTag": "v3.1",
    "latestTagDate": "2023-10-01T00:29:17-04:00",
    "upstreamHeadSha": "5e57500533ac4dc602da3b066df9a318f18f0c1d",
    "upstreamHeadDate": "2026-07-18T16:08:06-04:00",
    "defaultBranch": "main",
-   "pinnedRefName": "480759886e295127c6bb2e6f62ba6af0c84ac145",
-   "behindMainCommits": 8,
-   "behindMainDays": 9,
+   "pinnedRefName": "00827f5cc3b2323cfa3a554e799397b4fab14701",
+   "behindMainCommits": 2,
+   "behindMainDays": 7,
    "behindLatestCommits": 0,
    "unreleasedCommits": 582,
    "unreleasedDays": 1022,
@@ -7423,7 +7422,7 @@
    "revived": true,
    "severity": "warn",
    "notes": [
-    "upstream HEAD moved 9 days past our pin",
+    "upstream HEAD moved 7 days past our pin",
     "upstream active again (last commit 2026-07-18)"
    ]
   },
@@ -7435,17 +7434,17 @@
    "upstream": "celtera/avendish",
    "kind": "fork",
    "pinnedVersion": null,
-   "pinnedSha": "480759886e295127c6bb2e6f62ba6af0c84ac145",
-   "pinnedRef": "480759886e295127c6bb2e6f62ba6af0c84ac145",
+   "pinnedSha": "00827f5cc3b2323cfa3a554e799397b4fab14701",
+   "pinnedRef": "00827f5cc3b2323cfa3a554e799397b4fab14701",
    "tracksBranch": false,
    "latestTag": "v3.1",
    "latestTagDate": "2023-10-01T00:29:17-04:00",
    "upstreamHeadSha": "5e57500533ac4dc602da3b066df9a318f18f0c1d",
    "upstreamHeadDate": "2026-07-18T16:08:06-04:00",
    "defaultBranch": "main",
-   "pinnedRefName": "480759886e295127c6bb2e6f62ba6af0c84ac145",
-   "behindMainCommits": 8,
-   "behindMainDays": 9,
+   "pinnedRefName": "00827f5cc3b2323cfa3a554e799397b4fab14701",
+   "behindMainCommits": 2,
+   "behindMainDays": 7,
    "behindLatestCommits": 0,
    "unreleasedCommits": 582,
    "unreleasedDays": 1022,
@@ -7453,7 +7452,7 @@
    "revived": true,
    "severity": "warn",
    "notes": [
-    "upstream HEAD moved 9 days past our pin",
+    "upstream HEAD moved 7 days past our pin",
     "upstream active again (last commit 2026-07-18)"
    ]
   },
@@ -7491,21 +7490,21 @@
  "prs": [
   {
    "repo": "ossia/score",
-   "number": 2130,
-   "title": "tools: add wasm (web) target to custom-app packaging",
-   "author": "jcelerier",
-   "url": "https://github.com/ossia/score/pull/2130",
+   "number": 2110,
+   "title": "avnd: support comboboxes with runtime-populated item lists",
+   "author": "bltzr",
+   "url": "https://github.com/ossia/score/pull/2110",
    "baseRef": "master",
-   "headRef": "feat/wasm-custom-app-packaging",
+   "headRef": "feature/dynamic-combobox",
    "draft": false,
-   "createdAt": "2026-07-19T13:48:43Z",
-   "updatedAt": "2026-07-19T13:48:43Z",
-   "ageDays": 0.2,
-   "idleDays": 0.2,
-   "behindBase": 0,
-   "aheadOfBase": 1,
-   "ciStatus": "pending",
-   "severity": "ok"
+   "createdAt": "2026-07-12T23:16:11Z",
+   "updatedAt": "2026-07-19T19:58:45Z",
+   "ageDays": 6.9,
+   "idleDays": 0.1,
+   "behindBase": 30,
+   "aheadOfBase": 8,
+   "ciStatus": "failure",
+   "severity": "info"
   },
   {
    "repo": "ossia/score",
@@ -7518,8 +7517,8 @@
    "draft": false,
    "createdAt": "2026-07-15T14:49:20Z",
    "updatedAt": "2026-07-19T03:14:04Z",
-   "ageDays": 4.2,
-   "idleDays": 0.7,
+   "ageDays": 4.3,
+   "idleDays": 0.8,
    "behindBase": 0,
    "aheadOfBase": 4,
    "ciStatus": "pending",
@@ -7536,8 +7535,8 @@
    "draft": false,
    "createdAt": "2026-07-14T19:51:49Z",
    "updatedAt": "2026-07-19T03:14:04Z",
-   "ageDays": 5,
-   "idleDays": 0.7,
+   "ageDays": 5.1,
+   "idleDays": 0.8,
    "behindBase": 0,
    "aheadOfBase": 9,
    "ciStatus": "pending",
@@ -7554,8 +7553,8 @@
    "draft": false,
    "createdAt": "2026-07-14T12:48:51Z",
    "updatedAt": "2026-07-19T03:14:04Z",
-   "ageDays": 5.3,
-   "idleDays": 0.7,
+   "ageDays": 5.4,
+   "idleDays": 0.8,
    "behindBase": 0,
    "aheadOfBase": 18,
    "ciStatus": "pending",
@@ -7572,8 +7571,8 @@
    "draft": false,
    "createdAt": "2026-07-14T12:40:36Z",
    "updatedAt": "2026-07-19T03:14:04Z",
-   "ageDays": 5.3,
-   "idleDays": 0.7,
+   "ageDays": 5.4,
+   "idleDays": 0.8,
    "behindBase": 0,
    "aheadOfBase": 11,
    "ciStatus": "pending",
@@ -7591,7 +7590,7 @@
    "createdAt": "2026-07-14T05:43:00Z",
    "updatedAt": "2026-07-19T03:14:03Z",
    "ageDays": 5.6,
-   "idleDays": 0.7,
+   "idleDays": 0.8,
    "behindBase": 0,
    "aheadOfBase": 9,
    "ciStatus": "failure",
@@ -7608,30 +7607,12 @@
    "draft": false,
    "createdAt": "2026-07-17T14:55:18Z",
    "updatedAt": "2026-07-19T03:08:01Z",
-   "ageDays": 2.2,
-   "idleDays": 0.7,
-   "behindBase": 0,
+   "ageDays": 2.3,
+   "idleDays": 0.8,
+   "behindBase": 16,
    "aheadOfBase": 1,
    "ciStatus": "failure",
-   "severity": "ok"
-  },
-  {
-   "repo": "ossia/score",
-   "number": 2129,
-   "title": "wasm: defer first engine start + fix ffmpeg SDK path",
-   "author": "jcelerier",
-   "url": "https://github.com/ossia/score/pull/2129",
-   "baseRef": "master",
-   "headRef": "fix/wasm-audio-start-and-ffmpeg-path",
-   "draft": false,
-   "createdAt": "2026-07-19T02:48:18Z",
-   "updatedAt": "2026-07-19T02:48:18Z",
-   "ageDays": 0.7,
-   "idleDays": 0.7,
-   "behindBase": 0,
-   "aheadOfBase": 2,
-   "ciStatus": "pending",
-   "severity": "ok"
+   "severity": "info"
   },
   {
    "repo": "ossia/score",
@@ -7644,12 +7625,12 @@
    "draft": false,
    "createdAt": "2026-07-18T08:24:13Z",
    "updatedAt": "2026-07-18T16:02:15Z",
-   "ageDays": 1.4,
-   "idleDays": 1.1,
-   "behindBase": 0,
+   "ageDays": 1.5,
+   "idleDays": 1.2,
+   "behindBase": 16,
    "aheadOfBase": 1,
    "ciStatus": "failure",
-   "severity": "ok"
+   "severity": "info"
   },
   {
    "repo": "ossia/score",
@@ -7662,30 +7643,12 @@
    "draft": false,
    "createdAt": "2026-07-18T03:06:40Z",
    "updatedAt": "2026-07-18T16:02:11Z",
-   "ageDays": 1.7,
-   "idleDays": 1.1,
-   "behindBase": 0,
+   "ageDays": 1.8,
+   "idleDays": 1.2,
+   "behindBase": 16,
    "aheadOfBase": 6,
    "ciStatus": "failure",
-   "severity": "ok"
-  },
-  {
-   "repo": "ossia/score",
-   "number": 2118,
-   "title": "App / headless robustness fixes (non-graphics, from #2109)",
-   "author": "jcelerier",
-   "url": "https://github.com/ossia/score/pull/2118",
-   "baseRef": "master",
-   "headRef": "planb/app-robustness",
-   "draft": false,
-   "createdAt": "2026-07-14T05:29:50Z",
-   "updatedAt": "2026-07-18T16:02:06Z",
-   "ageDays": 5.6,
-   "idleDays": 1.1,
-   "behindBase": 0,
-   "aheadOfBase": 12,
-   "ciStatus": "failure",
-   "severity": "ok"
+   "severity": "info"
   },
   {
    "repo": "ossia/score",
@@ -7698,27 +7661,9 @@
    "draft": false,
    "createdAt": "2026-06-22T21:15:50Z",
    "updatedAt": "2026-07-18T12:47:30Z",
-   "ageDays": 26.9,
-   "idleDays": 1.3,
-   "behindBase": 14,
-   "aheadOfBase": 1,
-   "ciStatus": "success",
-   "severity": "info"
-  },
-  {
-   "repo": "ossia/score",
-   "number": 2127,
-   "title": "jit: Windows CRT-correctness for JIT'd add-ons + teardown heap-corruption fixes",
-   "author": "jcelerier",
-   "url": "https://github.com/ossia/score/pull/2127",
-   "baseRef": "master",
-   "headRef": "jit-win32-crt-fixes",
-   "draft": false,
-   "createdAt": "2026-07-18T07:42:38Z",
-   "updatedAt": "2026-07-18T07:42:38Z",
-   "ageDays": 1.5,
-   "idleDays": 1.5,
-   "behindBase": 11,
+   "ageDays": 27,
+   "idleDays": 1.4,
+   "behindBase": 30,
    "aheadOfBase": 1,
    "ciStatus": "success",
    "severity": "info"
@@ -7735,29 +7680,11 @@
    "createdAt": "2026-07-06T17:43:19Z",
    "updatedAt": "2026-07-14T19:03:38Z",
    "ageDays": 13.1,
-   "idleDays": 5,
-   "behindBase": 44,
+   "idleDays": 5.1,
+   "behindBase": 60,
    "aheadOfBase": 31,
    "ciStatus": "failure",
-   "severity": "info"
-  },
-  {
-   "repo": "ossia/score",
-   "number": 2110,
-   "title": "avnd: support comboboxes with runtime-populated item lists",
-   "author": "bltzr",
-   "url": "https://github.com/ossia/score/pull/2110",
-   "baseRef": "master",
-   "headRef": "feature/dynamic-combobox",
-   "draft": false,
-   "createdAt": "2026-07-12T23:16:11Z",
-   "updatedAt": "2026-07-14T05:05:10Z",
-   "ageDays": 6.8,
-   "idleDays": 5.6,
-   "behindBase": 14,
-   "aheadOfBase": 8,
-   "ciStatus": "failure",
-   "severity": "info"
+   "severity": "warn"
   },
   {
    "repo": "ossia/score",
@@ -7770,9 +7697,9 @@
    "draft": false,
    "createdAt": "2026-07-13T23:40:56Z",
    "updatedAt": "2026-07-14T01:39:54Z",
-   "ageDays": 5.8,
-   "idleDays": 5.7,
-   "behindBase": 14,
+   "ageDays": 5.9,
+   "idleDays": 5.8,
+   "behindBase": 30,
    "aheadOfBase": 1,
    "ciStatus": "failure",
    "severity": "info"
@@ -7788,9 +7715,9 @@
    "draft": false,
    "createdAt": "2026-07-13T07:21:01Z",
    "updatedAt": "2026-07-14T00:18:36Z",
-   "ageDays": 6.5,
-   "idleDays": 5.8,
-   "behindBase": 22,
+   "ageDays": 6.6,
+   "idleDays": 5.9,
+   "behindBase": 38,
    "aheadOfBase": 1,
    "ciStatus": "success",
    "severity": "info"
@@ -7806,9 +7733,9 @@
    "draft": false,
    "createdAt": "2026-07-13T15:38:16Z",
    "updatedAt": "2026-07-13T23:49:24Z",
-   "ageDays": 6.1,
-   "idleDays": 5.8,
-   "behindBase": 22,
+   "ageDays": 6.2,
+   "idleDays": 5.9,
+   "behindBase": 38,
    "aheadOfBase": 1,
    "ciStatus": "success",
    "severity": "info"
@@ -7824,9 +7751,9 @@
    "draft": false,
    "createdAt": "2026-07-13T07:00:41Z",
    "updatedAt": "2026-07-13T23:20:20Z",
-   "ageDays": 6.5,
-   "idleDays": 5.8,
-   "behindBase": 22,
+   "ageDays": 6.6,
+   "idleDays": 5.9,
+   "behindBase": 38,
    "aheadOfBase": 1,
    "ciStatus": "success",
    "severity": "info"
@@ -7842,9 +7769,9 @@
    "draft": false,
    "createdAt": "2026-01-21T06:07:25Z",
    "updatedAt": "2026-07-13T19:02:49Z",
-   "ageDays": 179.5,
-   "idleDays": 6,
-   "behindBase": 520,
+   "ageDays": 179.6,
+   "idleDays": 6.1,
+   "behindBase": 536,
    "aheadOfBase": 1,
    "ciStatus": "failure",
    "severity": "warn"
@@ -7860,9 +7787,9 @@
    "draft": false,
    "createdAt": "2025-07-13T19:01:19Z",
    "updatedAt": "2026-07-13T19:02:49Z",
-   "ageDays": 371,
-   "idleDays": 6,
-   "behindBase": 1133,
+   "ageDays": 371.1,
+   "idleDays": 6.1,
+   "behindBase": 1149,
    "aheadOfBase": 2,
    "ciStatus": "failure",
    "severity": "warn"
@@ -7878,9 +7805,9 @@
    "draft": false,
    "createdAt": "2025-05-02T17:34:29Z",
    "updatedAt": "2026-07-13T19:02:49Z",
-   "ageDays": 443.1,
-   "idleDays": 6,
-   "behindBase": 1187,
+   "ageDays": 443.2,
+   "idleDays": 6.1,
+   "behindBase": 1203,
    "aheadOfBase": 19,
    "ciStatus": "none",
    "severity": "warn"
@@ -7896,9 +7823,9 @@
    "draft": false,
    "createdAt": "2025-03-22T21:34:38Z",
    "updatedAt": "2026-07-13T19:02:49Z",
-   "ageDays": 483.9,
-   "idleDays": 6,
-   "behindBase": 1364,
+   "ageDays": 484,
+   "idleDays": 6.1,
+   "behindBase": 1380,
    "aheadOfBase": 1,
    "ciStatus": "none",
    "severity": "warn"
@@ -7915,8 +7842,8 @@
    "createdAt": "2025-02-06T17:47:49Z",
    "updatedAt": "2026-07-13T19:02:49Z",
    "ageDays": 528.1,
-   "idleDays": 6,
-   "behindBase": 596,
+   "idleDays": 6.1,
+   "behindBase": 612,
    "aheadOfBase": 4,
    "ciStatus": "failure",
    "severity": "warn"
@@ -7932,9 +7859,9 @@
    "draft": false,
    "createdAt": "2025-01-16T03:58:31Z",
    "updatedAt": "2026-07-13T19:02:49Z",
-   "ageDays": 549.6,
-   "idleDays": 6,
-   "behindBase": 1023,
+   "ageDays": 549.7,
+   "idleDays": 6.1,
+   "behindBase": 1039,
    "aheadOfBase": 6,
    "ciStatus": "failure",
    "severity": "warn"
@@ -7950,9 +7877,9 @@
    "draft": false,
    "createdAt": "2024-12-30T03:47:50Z",
    "updatedAt": "2026-07-13T19:02:49Z",
-   "ageDays": 566.6,
-   "idleDays": 6,
-   "behindBase": 54,
+   "ageDays": 566.7,
+   "idleDays": 6.1,
+   "behindBase": 70,
    "aheadOfBase": 4,
    "ciStatus": "failure",
    "severity": "warn"
@@ -7968,9 +7895,9 @@
    "draft": false,
    "createdAt": "2024-12-24T22:59:38Z",
    "updatedAt": "2026-07-13T19:02:49Z",
-   "ageDays": 571.8,
-   "idleDays": 6,
-   "behindBase": 1585,
+   "ageDays": 571.9,
+   "idleDays": 6.1,
+   "behindBase": 1601,
    "aheadOfBase": 1,
    "ciStatus": "none",
    "severity": "warn"
@@ -7986,9 +7913,9 @@
    "draft": false,
    "createdAt": "2024-12-24T22:55:16Z",
    "updatedAt": "2026-07-13T19:02:49Z",
-   "ageDays": 571.8,
-   "idleDays": 6,
-   "behindBase": 1370,
+   "ageDays": 571.9,
+   "idleDays": 6.1,
+   "behindBase": 1386,
    "aheadOfBase": 1,
    "ciStatus": "none",
    "severity": "warn"
@@ -8004,9 +7931,9 @@
    "draft": false,
    "createdAt": "2024-12-24T19:04:13Z",
    "updatedAt": "2026-07-13T19:02:49Z",
-   "ageDays": 572,
-   "idleDays": 6,
-   "behindBase": 1585,
+   "ageDays": 572.1,
+   "idleDays": 6.1,
+   "behindBase": 1601,
    "aheadOfBase": 1,
    "ciStatus": "none",
    "severity": "warn"
@@ -8022,9 +7949,9 @@
    "draft": false,
    "createdAt": "2024-12-24T19:03:21Z",
    "updatedAt": "2026-07-13T19:02:49Z",
-   "ageDays": 572,
-   "idleDays": 6,
-   "behindBase": 1370,
+   "ageDays": 572.1,
+   "idleDays": 6.1,
+   "behindBase": 1386,
    "aheadOfBase": 1,
    "ciStatus": "none",
    "severity": "warn"
@@ -8041,8 +7968,8 @@
    "createdAt": "2024-12-01T17:48:05Z",
    "updatedAt": "2026-07-13T19:02:49Z",
    "ageDays": 595.1,
-   "idleDays": 6,
-   "behindBase": 1585,
+   "idleDays": 6.1,
+   "behindBase": 1601,
    "aheadOfBase": 1,
    "ciStatus": "none",
    "severity": "warn"
@@ -8059,8 +7986,8 @@
    "createdAt": "2024-12-01T17:47:05Z",
    "updatedAt": "2026-07-13T19:02:49Z",
    "ageDays": 595.1,
-   "idleDays": 6,
-   "behindBase": 1370,
+   "idleDays": 6.1,
+   "behindBase": 1386,
    "aheadOfBase": 3,
    "ciStatus": "none",
    "severity": "warn"
@@ -8077,8 +8004,8 @@
    "createdAt": "2024-12-01T17:46:24Z",
    "updatedAt": "2026-07-13T19:02:49Z",
    "ageDays": 595.1,
-   "idleDays": 6,
-   "behindBase": 1370,
+   "idleDays": 6.1,
+   "behindBase": 1386,
    "aheadOfBase": 1,
    "ciStatus": "none",
    "severity": "warn"
@@ -8095,8 +8022,8 @@
    "createdAt": "2024-12-01T17:46:08Z",
    "updatedAt": "2026-07-13T19:02:49Z",
    "ageDays": 595.1,
-   "idleDays": 6,
-   "behindBase": 1585,
+   "idleDays": 6.1,
+   "behindBase": 1601,
    "aheadOfBase": 1,
    "ciStatus": "none",
    "severity": "warn"
@@ -8112,9 +8039,9 @@
    "draft": true,
    "createdAt": "2024-09-25T16:25:13Z",
    "updatedAt": "2026-07-13T19:02:49Z",
-   "ageDays": 662.1,
-   "idleDays": 6,
-   "behindBase": 353,
+   "ageDays": 662.2,
+   "idleDays": 6.1,
+   "behindBase": 369,
    "aheadOfBase": 1,
    "ciStatus": "failure",
    "severity": "info"
@@ -8130,9 +8057,9 @@
    "draft": false,
    "createdAt": "2023-02-14T12:39:55Z",
    "updatedAt": "2026-07-13T19:02:49Z",
-   "ageDays": 1251.3,
-   "idleDays": 6,
-   "behindBase": 2753,
+   "ageDays": 1251.4,
+   "idleDays": 6.1,
+   "behindBase": 2769,
    "aheadOfBase": 1,
    "ciStatus": "none",
    "severity": "warn"
@@ -8148,9 +8075,9 @@
    "draft": false,
    "createdAt": "2022-05-10T15:30:38Z",
    "updatedAt": "2026-07-13T19:02:49Z",
-   "ageDays": 1531.1,
-   "idleDays": 6,
-   "behindBase": 3282,
+   "ageDays": 1531.2,
+   "idleDays": 6.1,
+   "behindBase": 3298,
    "aheadOfBase": 3,
    "ciStatus": "none",
    "severity": "warn"
@@ -8166,9 +8093,9 @@
    "draft": false,
    "createdAt": "2026-07-13T18:10:01Z",
    "updatedAt": "2026-07-13T19:02:48Z",
-   "ageDays": 6,
-   "idleDays": 6,
-   "behindBase": 22,
+   "ageDays": 6.1,
+   "idleDays": 6.1,
+   "behindBase": 38,
    "aheadOfBase": 4,
    "ciStatus": "failure",
    "severity": "info"
@@ -8184,9 +8111,9 @@
    "draft": true,
    "createdAt": "2026-07-12T18:20:17Z",
    "updatedAt": "2026-07-13T19:02:48Z",
-   "ageDays": 7,
-   "idleDays": 6,
-   "behindBase": 22,
+   "ageDays": 7.1,
+   "idleDays": 6.1,
+   "behindBase": 38,
    "aheadOfBase": 21,
    "ciStatus": "success",
    "severity": "info"
@@ -8202,9 +8129,9 @@
    "draft": false,
    "createdAt": "2026-06-22T20:43:56Z",
    "updatedAt": "2026-07-13T19:02:48Z",
-   "ageDays": 26.9,
-   "idleDays": 6,
-   "behindBase": 65,
+   "ageDays": 27,
+   "idleDays": 6.1,
+   "behindBase": 81,
    "aheadOfBase": 1,
    "ciStatus": "failure",
    "severity": "warn"
@@ -8220,9 +8147,9 @@
    "draft": false,
    "createdAt": "2026-06-21T21:08:19Z",
    "updatedAt": "2026-07-13T19:02:48Z",
-   "ageDays": 27.9,
-   "idleDays": 6,
-   "behindBase": 51,
+   "ageDays": 28,
+   "idleDays": 6.1,
+   "behindBase": 67,
    "aheadOfBase": 10,
    "ciStatus": "failure",
    "severity": "warn"
@@ -8238,12 +8165,12 @@
    "draft": false,
    "createdAt": "2026-06-14T04:33:46Z",
    "updatedAt": "2026-07-13T19:02:48Z",
-   "ageDays": 35.6,
-   "idleDays": 6,
-   "behindBase": 42,
+   "ageDays": 35.7,
+   "idleDays": 6.1,
+   "behindBase": 58,
    "aheadOfBase": 115,
    "ciStatus": "failure",
-   "severity": "info"
+   "severity": "warn"
   },
   {
    "repo": "ossia/score",
@@ -8256,12 +8183,12 @@
    "draft": false,
    "createdAt": "2026-05-31T23:16:46Z",
    "updatedAt": "2026-07-13T19:02:48Z",
-   "ageDays": 48.8,
-   "idleDays": 6,
-   "behindBase": 47,
+   "ageDays": 48.9,
+   "idleDays": 6.1,
+   "behindBase": 63,
    "aheadOfBase": 1,
    "ciStatus": "failure",
-   "severity": "info"
+   "severity": "warn"
   },
   {
    "repo": "ossia/score",
@@ -8274,9 +8201,9 @@
    "draft": false,
    "createdAt": "2026-04-20T03:05:16Z",
    "updatedAt": "2026-07-13T19:02:48Z",
-   "ageDays": 90.7,
-   "idleDays": 6,
-   "behindBase": 130,
+   "ageDays": 90.8,
+   "idleDays": 6.1,
+   "behindBase": 146,
    "aheadOfBase": 1,
    "ciStatus": "failure",
    "severity": "warn"
@@ -8293,8 +8220,8 @@
    "createdAt": "2026-04-02T12:57:29Z",
    "updatedAt": "2026-07-13T19:02:48Z",
    "ageDays": 108.3,
-   "idleDays": 6,
-   "behindBase": 207,
+   "idleDays": 6.1,
+   "behindBase": 223,
    "aheadOfBase": 1,
    "ciStatus": "success",
    "severity": "warn"
@@ -8310,9 +8237,9 @@
    "draft": false,
    "createdAt": "2026-03-07T01:30:39Z",
    "updatedAt": "2026-07-13T19:02:48Z",
-   "ageDays": 134.7,
-   "idleDays": 6,
-   "behindBase": 305,
+   "ageDays": 134.8,
+   "idleDays": 6.1,
+   "behindBase": 321,
    "aheadOfBase": 5,
    "ciStatus": "failure",
    "severity": "warn"
@@ -8328,9 +8255,9 @@
    "draft": false,
    "createdAt": "2026-03-01T23:03:06Z",
    "updatedAt": "2026-07-13T19:02:48Z",
-   "ageDays": 139.8,
-   "idleDays": 6,
-   "behindBase": 314,
+   "ageDays": 139.9,
+   "idleDays": 6.1,
+   "behindBase": 330,
    "aheadOfBase": 1,
    "ciStatus": "failure",
    "severity": "warn"
@@ -8346,9 +8273,9 @@
    "draft": false,
    "createdAt": "2026-02-28T01:26:20Z",
    "updatedAt": "2026-07-13T19:02:48Z",
-   "ageDays": 141.7,
-   "idleDays": 6,
-   "behindBase": 314,
+   "ageDays": 141.8,
+   "idleDays": 6.1,
+   "behindBase": 330,
    "aheadOfBase": 1,
    "ciStatus": "failure",
    "severity": "warn"
@@ -8365,8 +8292,8 @@
    "createdAt": "2026-02-23T05:46:50Z",
    "updatedAt": "2026-07-13T19:02:48Z",
    "ageDays": 146.6,
-   "idleDays": 6,
-   "behindBase": 342,
+   "idleDays": 6.1,
+   "behindBase": 358,
    "aheadOfBase": 4,
    "ciStatus": "failure",
    "severity": "warn"
@@ -8382,9 +8309,9 @@
    "draft": false,
    "createdAt": "2026-02-14T19:53:19Z",
    "updatedAt": "2026-07-13T19:02:48Z",
-   "ageDays": 155,
-   "idleDays": 6,
-   "behindBase": 354,
+   "ageDays": 155.1,
+   "idleDays": 6.1,
+   "behindBase": 370,
    "aheadOfBase": 1,
    "ciStatus": "failure",
    "severity": "warn"
@@ -8401,8 +8328,8 @@
    "createdAt": "2026-01-28T00:56:46Z",
    "updatedAt": "2026-07-13T19:02:48Z",
    "ageDays": 172.8,
-   "idleDays": 6,
-   "behindBase": 443,
+   "idleDays": 6.1,
+   "behindBase": 459,
    "aheadOfBase": 3,
    "ciStatus": "failure",
    "severity": "warn"
@@ -8418,9 +8345,9 @@
    "draft": false,
    "createdAt": "2026-01-25T21:05:19Z",
    "updatedAt": "2026-07-13T19:02:48Z",
-   "ageDays": 174.9,
-   "idleDays": 6,
-   "behindBase": 467,
+   "ageDays": 175,
+   "idleDays": 6.1,
+   "behindBase": 483,
    "aheadOfBase": 1,
    "ciStatus": "failure",
    "severity": "warn"
@@ -8436,9 +8363,9 @@
    "draft": false,
    "createdAt": "2026-01-21T06:05:56Z",
    "updatedAt": "2026-07-13T19:02:48Z",
-   "ageDays": 179.5,
-   "idleDays": 6,
-   "behindBase": 520,
+   "ageDays": 179.6,
+   "idleDays": 6.1,
+   "behindBase": 536,
    "aheadOfBase": 1,
    "ciStatus": "failure",
    "severity": "warn"
@@ -8454,9 +8381,9 @@
    "draft": false,
    "createdAt": "2026-01-11T03:43:42Z",
    "updatedAt": "2026-07-13T19:02:48Z",
-   "ageDays": 189.6,
-   "idleDays": 6,
-   "behindBase": 537,
+   "ageDays": 189.7,
+   "idleDays": 6.1,
+   "behindBase": 553,
    "aheadOfBase": 3,
    "ciStatus": "failure",
    "severity": "warn"
@@ -8472,9 +8399,9 @@
    "draft": false,
    "createdAt": "2025-11-01T02:39:20Z",
    "updatedAt": "2026-07-13T19:02:48Z",
-   "ageDays": 260.7,
-   "idleDays": 6,
-   "behindBase": 596,
+   "ageDays": 260.8,
+   "idleDays": 6.1,
+   "behindBase": 612,
    "aheadOfBase": 3,
    "ciStatus": "failure",
    "severity": "warn"
@@ -8490,9 +8417,9 @@
    "draft": false,
    "createdAt": "2025-04-21T20:15:12Z",
    "updatedAt": "2026-07-13T19:02:48Z",
-   "ageDays": 453.9,
-   "idleDays": 6,
-   "behindBase": 1223,
+   "ageDays": 454,
+   "idleDays": 6.1,
+   "behindBase": 1239,
    "aheadOfBase": 1,
    "ciStatus": "none",
    "severity": "warn"
@@ -8508,9 +8435,9 @@
    "draft": false,
    "createdAt": "2025-04-17T18:39:09Z",
    "updatedAt": "2026-07-13T19:02:48Z",
-   "ageDays": 458,
-   "idleDays": 6,
-   "behindBase": 1262,
+   "ageDays": 458.1,
+   "idleDays": 6.1,
+   "behindBase": 1278,
    "aheadOfBase": 1,
    "ciStatus": "none",
    "severity": "warn"
@@ -8526,9 +8453,9 @@
    "draft": false,
    "createdAt": "2025-04-04T04:12:09Z",
    "updatedAt": "2026-07-13T19:02:48Z",
-   "ageDays": 471.6,
-   "idleDays": 6,
-   "behindBase": 1342,
+   "ageDays": 471.7,
+   "idleDays": 6.1,
+   "behindBase": 1358,
    "aheadOfBase": 1,
    "ciStatus": "none",
    "severity": "warn"
@@ -8544,9 +8471,9 @@
    "draft": true,
    "createdAt": "2024-12-30T14:33:01Z",
    "updatedAt": "2026-07-13T19:02:48Z",
-   "ageDays": 566.2,
-   "idleDays": 6,
-   "behindBase": 1023,
+   "ageDays": 566.3,
+   "idleDays": 6.1,
+   "behindBase": 1039,
    "aheadOfBase": 1,
    "ciStatus": "failure",
    "severity": "info"
@@ -8562,29 +8489,11 @@
    "draft": false,
    "createdAt": "2026-07-05T21:32:49Z",
    "updatedAt": "2026-07-13T02:58:00Z",
-   "ageDays": 13.9,
-   "idleDays": 6.7,
+   "ageDays": 14,
+   "idleDays": 6.8,
    "behindBase": 0,
    "aheadOfBase": 10,
    "ciStatus": "success",
-   "severity": "ok"
-  },
-  {
-   "repo": "ossia/libossia",
-   "number": 909,
-   "title": "wasm: miniaudio audio-worklet fixes (tick guard + stack size)",
-   "author": "jcelerier",
-   "url": "https://github.com/ossia/libossia/pull/909",
-   "baseRef": "master",
-   "headRef": "wasm-audio-tick-guard",
-   "draft": false,
-   "createdAt": "2026-07-18T07:37:14Z",
-   "updatedAt": "2026-07-19T02:49:38Z",
-   "ageDays": 1.5,
-   "idleDays": 0.7,
-   "behindBase": 0,
-   "aheadOfBase": 2,
-   "ciStatus": "pending",
    "severity": "ok"
   },
   {
@@ -8598,9 +8507,9 @@
    "draft": false,
    "createdAt": "2026-03-24T08:58:00Z",
    "updatedAt": "2026-06-22T03:15:33Z",
-   "ageDays": 117.4,
+   "ageDays": 117.5,
    "idleDays": 27.7,
-   "behindBase": 14,
+   "behindBase": 16,
    "aheadOfBase": 15,
    "ciStatus": "success",
    "severity": "info"
@@ -8616,9 +8525,9 @@
    "draft": false,
    "createdAt": "2025-01-16T03:57:41Z",
    "updatedAt": "2026-05-29T19:51:58Z",
-   "ageDays": 549.6,
-   "idleDays": 51,
-   "behindBase": 55,
+   "ageDays": 549.7,
+   "idleDays": 51.1,
+   "behindBase": 57,
    "aheadOfBase": 2,
    "ciStatus": "success",
    "severity": "warn"
@@ -8634,9 +8543,9 @@
    "draft": false,
    "createdAt": "2025-03-22T12:23:17Z",
    "updatedAt": "2026-05-29T19:51:54Z",
-   "ageDays": 484.3,
-   "idleDays": 51,
-   "behindBase": 55,
+   "ageDays": 484.4,
+   "idleDays": 51.1,
+   "behindBase": 57,
    "aheadOfBase": 1,
    "ciStatus": "success",
    "severity": "warn"
@@ -8654,7 +8563,7 @@
    "updatedAt": "2026-03-10T03:23:16Z",
    "ageDays": 131.7,
    "idleDays": 131.7,
-   "behindBase": 68,
+   "behindBase": 70,
    "aheadOfBase": 3,
    "ciStatus": "failure",
    "severity": "warn"
@@ -8670,9 +8579,9 @@
    "draft": false,
    "createdAt": "2025-03-22T12:27:31Z",
    "updatedAt": "2026-03-02T20:12:25Z",
-   "ageDays": 484.3,
+   "ageDays": 484.4,
    "idleDays": 139,
-   "behindBase": 195,
+   "behindBase": 197,
    "aheadOfBase": 1,
    "ciStatus": "none",
    "severity": "warn"
@@ -8688,9 +8597,9 @@
    "draft": false,
    "createdAt": "2023-02-14T12:44:06Z",
    "updatedAt": "2026-03-02T20:12:25Z",
-   "ageDays": 1251.3,
+   "ageDays": 1251.4,
    "idleDays": 139,
-   "behindBase": 649,
+   "behindBase": 651,
    "aheadOfBase": 2,
    "ciStatus": "none",
    "severity": "warn"
@@ -8705,13 +8614,13 @@
    "headRef": "feature/dynamic-combobox",
    "draft": false,
    "createdAt": "2026-07-12T23:15:31Z",
-   "updatedAt": "2026-07-18T20:07:54Z",
-   "ageDays": 6.8,
-   "idleDays": 1,
-   "behindBase": 189,
+   "updatedAt": "2026-07-19T19:50:06Z",
+   "ageDays": 6.9,
+   "idleDays": 0.1,
+   "behindBase": 0,
    "aheadOfBase": 3,
    "ciStatus": "success",
-   "severity": "warn"
+   "severity": "ok"
   },
   {
    "repo": "celtera/avendish",
@@ -8725,7 +8634,7 @@
    "createdAt": "2026-07-03T13:00:08Z",
    "updatedAt": "2026-07-10T13:16:57Z",
    "ageDays": 16.3,
-   "idleDays": 9.2,
+   "idleDays": 9.3,
    "behindBase": 35,
    "aheadOfBase": 24,
    "ciStatus": "success",
@@ -8742,8 +8651,8 @@
    "draft": false,
    "createdAt": "2026-07-06T13:57:58Z",
    "updatedAt": "2026-07-09T02:46:48Z",
-   "ageDays": 13.2,
-   "idleDays": 10.7,
+   "ageDays": 13.3,
+   "idleDays": 10.8,
    "behindBase": 16,
    "aheadOfBase": 8,
    "ciStatus": "success",
@@ -8760,8 +8669,8 @@
    "draft": false,
    "createdAt": "2026-07-06T13:58:00Z",
    "updatedAt": "2026-07-06T22:18:23Z",
-   "ageDays": 13.2,
-   "idleDays": 12.9,
+   "ageDays": 13.3,
+   "idleDays": 13,
    "behindBase": 1,
    "aheadOfBase": 4,
    "ciStatus": "success",
@@ -8778,8 +8687,8 @@
    "draft": true,
    "createdAt": "2026-07-05T01:52:27Z",
    "updatedAt": "2026-07-05T16:01:51Z",
-   "ageDays": 14.7,
-   "idleDays": 14.1,
+   "ageDays": 14.8,
+   "idleDays": 14.2,
    "behindBase": 28,
    "aheadOfBase": 1,
    "ciStatus": "success",
@@ -8796,8 +8705,8 @@
    "draft": false,
    "createdAt": "2026-07-03T13:08:13Z",
    "updatedAt": "2026-07-03T13:08:13Z",
-   "ageDays": 16.2,
-   "idleDays": 16.2,
+   "ageDays": 16.3,
+   "idleDays": 16.3,
    "behindBase": 35,
    "aheadOfBase": 1,
    "ciStatus": "success",
@@ -8814,8 +8723,8 @@
    "draft": false,
    "createdAt": "2026-06-30T19:04:11Z",
    "updatedAt": "2026-06-30T19:04:11Z",
-   "ageDays": 19,
-   "idleDays": 19,
+   "ageDays": 19.1,
+   "idleDays": 19.1,
    "behindBase": 72,
    "aheadOfBase": 1,
    "ciStatus": "success",
@@ -8832,8 +8741,8 @@
    "draft": false,
    "createdAt": "2026-06-22T20:59:08Z",
    "updatedAt": "2026-06-22T20:59:22Z",
-   "ageDays": 26.9,
-   "idleDays": 26.9,
+   "ageDays": 27,
+   "idleDays": 27,
    "behindBase": 93,
    "aheadOfBase": 4,
    "ciStatus": "failure",
@@ -8850,8 +8759,8 @@
    "draft": false,
    "createdAt": "2024-11-26T16:20:59Z",
    "updatedAt": "2026-06-09T23:58:42Z",
-   "ageDays": 600.1,
-   "idleDays": 39.8,
+   "ageDays": 600.2,
+   "idleDays": 39.9,
    "behindBase": 546,
    "aheadOfBase": 1,
    "ciStatus": "none",
@@ -8868,8 +8777,8 @@
    "draft": false,
    "createdAt": "2025-01-04T22:06:58Z",
    "updatedAt": "2026-06-09T23:58:41Z",
-   "ageDays": 560.9,
-   "idleDays": 39.8,
+   "ageDays": 561,
+   "idleDays": 39.9,
    "behindBase": 191,
    "aheadOfBase": 1,
    "ciStatus": "success",
@@ -8886,8 +8795,8 @@
    "draft": false,
    "createdAt": "2025-01-02T18:20:42Z",
    "updatedAt": "2026-06-09T23:58:41Z",
-   "ageDays": 563,
-   "idleDays": 39.8,
+   "ageDays": 563.1,
+   "idleDays": 39.9,
    "behindBase": 191,
    "aheadOfBase": 2,
    "ciStatus": "success",
@@ -8904,8 +8813,8 @@
    "draft": false,
    "createdAt": "2024-12-24T15:13:11Z",
    "updatedAt": "2026-06-09T23:58:41Z",
-   "ageDays": 572.2,
-   "idleDays": 39.8,
+   "ageDays": 572.3,
+   "idleDays": 39.9,
    "behindBase": 759,
    "aheadOfBase": 2,
    "ciStatus": "none",
@@ -8922,8 +8831,8 @@
    "draft": false,
    "createdAt": "2024-12-24T15:12:04Z",
    "updatedAt": "2026-06-09T23:58:41Z",
-   "ageDays": 572.2,
-   "idleDays": 39.8,
+   "ageDays": 572.3,
+   "idleDays": 39.9,
    "behindBase": 191,
    "aheadOfBase": 3,
    "ciStatus": "failure",
@@ -8941,7 +8850,7 @@
    "createdAt": "2024-12-17T17:46:00Z",
    "updatedAt": "2026-06-09T23:58:41Z",
    "ageDays": 579.1,
-   "idleDays": 39.8,
+   "idleDays": 39.9,
    "behindBase": 387,
    "aheadOfBase": 3,
    "ciStatus": "none",
@@ -8959,7 +8868,7 @@
    "createdAt": "2024-12-09T20:10:24Z",
    "updatedAt": "2026-06-09T23:58:41Z",
    "ageDays": 587,
-   "idleDays": 39.8,
+   "idleDays": 39.9,
    "behindBase": 381,
    "aheadOfBase": 2,
    "ciStatus": "none",
@@ -8977,7 +8886,7 @@
    "createdAt": "2024-12-09T20:10:16Z",
    "updatedAt": "2026-06-09T23:58:41Z",
    "ageDays": 587,
-   "idleDays": 39.8,
+   "idleDays": 39.9,
    "behindBase": 390,
    "aheadOfBase": 1,
    "ciStatus": "none",
@@ -8994,8 +8903,8 @@
    "draft": false,
    "createdAt": "2024-11-26T16:22:40Z",
    "updatedAt": "2026-06-09T23:58:41Z",
-   "ageDays": 600.1,
-   "idleDays": 39.8,
+   "ageDays": 600.2,
+   "idleDays": 39.9,
    "behindBase": 191,
    "aheadOfBase": 1,
    "ciStatus": "success",
@@ -9012,8 +8921,8 @@
    "draft": false,
    "createdAt": "2024-11-26T16:22:07Z",
    "updatedAt": "2026-06-09T23:58:41Z",
-   "ageDays": 600.1,
-   "idleDays": 39.8,
+   "ageDays": 600.2,
+   "idleDays": 39.9,
    "behindBase": 402,
    "aheadOfBase": 1,
    "ciStatus": "none",
@@ -9030,8 +8939,8 @@
    "draft": false,
    "createdAt": "2022-04-22T15:13:20Z",
    "updatedAt": "2026-06-09T23:58:41Z",
-   "ageDays": 1549.2,
-   "idleDays": 39.8,
+   "ageDays": 1549.3,
+   "idleDays": 39.9,
    "behindBase": 810,
    "aheadOfBase": 4,
    "ciStatus": "none",
@@ -9048,8 +8957,8 @@
    "draft": false,
    "createdAt": "2026-07-15T15:02:53Z",
    "updatedAt": "2026-07-16T07:31:53Z",
-   "ageDays": 4.2,
-   "idleDays": 3.5,
+   "ageDays": 4.3,
+   "idleDays": 3.6,
    "behindBase": 0,
    "aheadOfBase": 9,
    "ciStatus": "none",
@@ -9066,8 +8975,8 @@
    "draft": false,
    "createdAt": "2026-03-30T14:09:50Z",
    "updatedAt": "2026-06-02T05:30:35Z",
-   "ageDays": 111.2,
-   "idleDays": 47.6,
+   "ageDays": 111.3,
+   "idleDays": 47.7,
    "behindBase": 0,
    "aheadOfBase": 4,
    "ciStatus": "failure",
@@ -9084,8 +8993,8 @@
    "draft": false,
    "createdAt": "2026-01-17T23:34:50Z",
    "updatedAt": "2026-01-17T23:34:50Z",
-   "ageDays": 182.8,
-   "idleDays": 182.8,
+   "ageDays": 182.9,
+   "idleDays": 182.9,
    "behindBase": 61,
    "aheadOfBase": 1,
    "ciStatus": "failure",
@@ -9102,8 +9011,8 @@
    "draft": true,
    "createdAt": "2025-05-30T17:03:07Z",
    "updatedAt": "2026-01-12T06:54:34Z",
-   "ageDays": 415.1,
-   "idleDays": 188.5,
+   "ageDays": 415.2,
+   "idleDays": 188.6,
    "behindBase": 145,
    "aheadOfBase": 14,
    "ciStatus": "none",
@@ -9120,8 +9029,8 @@
    "draft": false,
    "createdAt": "2024-12-01T17:57:17Z",
    "updatedAt": "2026-01-12T06:54:34Z",
-   "ageDays": 595,
-   "idleDays": 188.5,
+   "ageDays": 595.1,
+   "idleDays": 188.6,
    "behindBase": 224,
    "aheadOfBase": 1,
    "ciStatus": "none",
@@ -9138,8 +9047,8 @@
    "draft": false,
    "createdAt": "2026-06-10T04:36:23Z",
    "updatedAt": "2026-07-08T18:07:45Z",
-   "ageDays": 39.6,
-   "idleDays": 11,
+   "ageDays": 39.7,
+   "idleDays": 11.1,
    "behindBase": 2,
    "aheadOfBase": 2,
    "ciStatus": "failure",
@@ -9156,8 +9065,8 @@
    "draft": false,
    "createdAt": "2026-06-10T04:32:27Z",
    "updatedAt": "2026-06-18T15:39:39Z",
-   "ageDays": 39.6,
-   "idleDays": 31.1,
+   "ageDays": 39.7,
+   "idleDays": 31.2,
    "behindBase": 8,
    "aheadOfBase": 2,
    "ciStatus": "success",
@@ -9174,8 +9083,8 @@
    "draft": false,
    "createdAt": "2026-07-15T21:41:26Z",
    "updatedAt": "2026-07-16T14:45:50Z",
-   "ageDays": 3.9,
-   "idleDays": 3.2,
+   "ageDays": 4,
+   "idleDays": 3.3,
    "behindBase": 0,
    "aheadOfBase": 3,
    "ciStatus": "success",
@@ -9192,8 +9101,8 @@
    "draft": false,
    "createdAt": "2026-06-10T04:39:25Z",
    "updatedAt": "2026-07-06T02:32:37Z",
-   "ageDays": 39.6,
-   "idleDays": 13.7,
+   "ageDays": 39.7,
+   "idleDays": 13.8,
    "behindBase": 12,
    "aheadOfBase": 8,
    "ciStatus": "none",
@@ -9210,8 +9119,8 @@
    "draft": true,
    "createdAt": "2026-04-21T17:32:33Z",
    "updatedAt": "2026-07-06T02:32:37Z",
-   "ageDays": 89.1,
-   "idleDays": 13.7,
+   "ageDays": 89.2,
+   "idleDays": 13.8,
    "behindBase": 12,
    "aheadOfBase": 5,
    "ciStatus": "success",
@@ -9228,8 +9137,8 @@
    "draft": false,
    "createdAt": "2026-07-09T03:13:09Z",
    "updatedAt": "2026-07-13T20:46:55Z",
-   "ageDays": 10.7,
-   "idleDays": 5.9,
+   "ageDays": 10.8,
+   "idleDays": 6,
    "behindBase": 2,
    "aheadOfBase": 4,
    "ciStatus": "none",
@@ -9246,8 +9155,8 @@
    "draft": true,
    "createdAt": "2026-07-11T21:12:43Z",
    "updatedAt": "2026-07-13T20:14:40Z",
-   "ageDays": 7.9,
-   "idleDays": 5.9,
+   "ageDays": 8,
+   "idleDays": 6,
    "behindBase": 0,
    "aheadOfBase": 1,
    "ciStatus": "none",
@@ -9264,8 +9173,8 @@
    "draft": false,
    "createdAt": "2026-07-10T19:25:39Z",
    "updatedAt": "2026-07-10T19:33:13Z",
-   "ageDays": 9,
-   "idleDays": 9,
+   "ageDays": 9.1,
+   "idleDays": 9.1,
    "behindBase": 2,
    "aheadOfBase": 1,
    "ciStatus": "none",
@@ -9283,7 +9192,7 @@
    "createdAt": "2026-05-26T22:26:29Z",
    "updatedAt": "2026-05-26T23:29:21Z",
    "ageDays": 53.9,
-   "idleDays": 53.8,
+   "idleDays": 53.9,
    "behindBase": 3,
    "aheadOfBase": 1,
    "ciStatus": "success",
@@ -9300,26 +9209,8 @@
    "draft": false,
    "createdAt": "2026-07-13T11:03:00Z",
    "updatedAt": "2026-07-13T11:03:00Z",
-   "ageDays": 6.3,
-   "idleDays": 6.3,
-   "behindBase": 0,
-   "aheadOfBase": 1,
-   "ciStatus": "none",
-   "severity": "ok"
-  },
-  {
-   "repo": "ossia/score-addon-vmo",
-   "number": 4,
-   "title": "chore(deps): update actions/checkout action to v7",
-   "author": "jcelerier",
-   "url": "https://github.com/ossia/score-addon-vmo/pull/4",
-   "baseRef": "master",
-   "headRef": "renovate/all",
-   "draft": false,
-   "createdAt": "2026-07-13T11:03:35Z",
-   "updatedAt": "2026-07-13T11:03:36Z",
-   "ageDays": 6.3,
-   "idleDays": 6.3,
+   "ageDays": 6.4,
+   "idleDays": 6.4,
    "behindBase": 0,
    "aheadOfBase": 1,
    "ciStatus": "none",
@@ -9336,29 +9227,11 @@
    "draft": false,
    "createdAt": "2026-07-13T11:01:19Z",
    "updatedAt": "2026-07-13T11:01:20Z",
-   "ageDays": 6.3,
-   "idleDays": 6.3,
+   "ageDays": 6.4,
+   "idleDays": 6.4,
    "behindBase": 0,
    "aheadOfBase": 1,
    "ciStatus": "none",
-   "severity": "ok"
-  },
-  {
-   "repo": "ossia/score-addon-ndi",
-   "number": 10,
-   "title": "chore(deps): update actions/checkout action to v7",
-   "author": "jcelerier",
-   "url": "https://github.com/ossia/score-addon-ndi/pull/10",
-   "baseRef": "main",
-   "headRef": "renovate/all",
-   "draft": false,
-   "createdAt": "2026-07-13T11:01:26Z",
-   "updatedAt": "2026-07-13T11:01:27Z",
-   "ageDays": 6.3,
-   "idleDays": 6.3,
-   "behindBase": 0,
-   "aheadOfBase": 1,
-   "ciStatus": "failure",
    "severity": "ok"
   },
   {
@@ -9372,48 +9245,12 @@
    "draft": false,
    "createdAt": "2026-05-14T13:14:53Z",
    "updatedAt": "2026-05-14T13:14:53Z",
-   "ageDays": 66.2,
-   "idleDays": 66.2,
-   "behindBase": 3,
+   "ageDays": 66.3,
+   "idleDays": 66.3,
+   "behindBase": 4,
    "aheadOfBase": 1,
    "ciStatus": "failure",
    "severity": "warn"
-  },
-  {
-   "repo": "ossia/score-addon-videomapping",
-   "number": 3,
-   "title": "chore(deps): update actions/checkout action to v7",
-   "author": "jcelerier",
-   "url": "https://github.com/ossia/score-addon-videomapping/pull/3",
-   "baseRef": "main",
-   "headRef": "renovate/all",
-   "draft": false,
-   "createdAt": "2026-07-13T11:03:28Z",
-   "updatedAt": "2026-07-13T11:03:29Z",
-   "ageDays": 6.3,
-   "idleDays": 6.3,
-   "behindBase": 0,
-   "aheadOfBase": 1,
-   "ciStatus": "none",
-   "severity": "ok"
-  },
-  {
-   "repo": "ossia/score-addon-spat",
-   "number": 16,
-   "title": "chore(deps): update actions/checkout action to v7",
-   "author": "jcelerier",
-   "url": "https://github.com/ossia/score-addon-spat/pull/16",
-   "baseRef": "main",
-   "headRef": "renovate/all",
-   "draft": false,
-   "createdAt": "2026-07-13T11:02:31Z",
-   "updatedAt": "2026-07-13T11:02:32Z",
-   "ageDays": 6.3,
-   "idleDays": 6.3,
-   "behindBase": 0,
-   "aheadOfBase": 1,
-   "ciStatus": "failure",
-   "severity": "ok"
   },
   {
    "repo": "ossia/score-addon-spat",
@@ -9426,9 +9263,9 @@
    "draft": false,
    "createdAt": "2022-07-27T14:13:40Z",
    "updatedAt": "2022-07-28T08:45:09Z",
-   "ageDays": 1453.2,
-   "idleDays": 1452.4,
-   "behindBase": 3,
+   "ageDays": 1453.3,
+   "idleDays": 1452.5,
+   "behindBase": 4,
    "aheadOfBase": 3,
    "ciStatus": "none",
    "severity": "warn"
@@ -9444,9 +9281,9 @@
    "draft": false,
    "createdAt": "2022-07-21T13:27:04Z",
    "updatedAt": "2022-07-21T13:27:04Z",
-   "ageDays": 1459.2,
-   "idleDays": 1459.2,
-   "behindBase": 2,
+   "ageDays": 1459.3,
+   "idleDays": 1459.3,
+   "behindBase": 3,
    "aheadOfBase": 4,
    "ciStatus": "none",
    "severity": "warn"
@@ -9462,66 +9299,12 @@
    "draft": false,
    "createdAt": "2022-07-18T11:13:43Z",
    "updatedAt": "2022-07-18T15:10:05Z",
-   "ageDays": 1462.3,
-   "idleDays": 1462.2,
-   "behindBase": 2,
+   "ageDays": 1462.4,
+   "idleDays": 1462.3,
+   "behindBase": 3,
    "aheadOfBase": 4,
    "ciStatus": "none",
    "severity": "warn"
-  },
-  {
-   "repo": "ossia/score-addon-cv",
-   "number": 11,
-   "title": "chore(deps): update actions/checkout action to v7",
-   "author": "jcelerier",
-   "url": "https://github.com/ossia/score-addon-cv/pull/11",
-   "baseRef": "main",
-   "headRef": "renovate/all",
-   "draft": false,
-   "createdAt": "2026-07-13T10:59:17Z",
-   "updatedAt": "2026-07-13T10:59:18Z",
-   "ageDays": 6.3,
-   "idleDays": 6.3,
-   "behindBase": 0,
-   "aheadOfBase": 1,
-   "ciStatus": "failure",
-   "severity": "ok"
-  },
-  {
-   "repo": "ossia/score-addon-cv",
-   "number": 10,
-   "title": "chore(deps): update celtera/avendish digest to 00827f5",
-   "author": "jcelerier",
-   "url": "https://github.com/ossia/score-addon-cv/pull/10",
-   "baseRef": "main",
-   "headRef": "renovate/avendish",
-   "draft": false,
-   "createdAt": "2026-07-13T10:59:14Z",
-   "updatedAt": "2026-07-13T10:59:15Z",
-   "ageDays": 6.3,
-   "idleDays": 6.3,
-   "behindBase": 0,
-   "aheadOfBase": 1,
-   "ciStatus": "failure",
-   "severity": "ok"
-  },
-  {
-   "repo": "ossia/score-addon-jk",
-   "number": 7,
-   "title": "chore(deps): update actions/checkout action to v7",
-   "author": "jcelerier",
-   "url": "https://github.com/ossia/score-addon-jk/pull/7",
-   "baseRef": "main",
-   "headRef": "renovate/all",
-   "draft": false,
-   "createdAt": "2026-07-13T11:00:38Z",
-   "updatedAt": "2026-07-13T11:00:39Z",
-   "ageDays": 6.3,
-   "idleDays": 6.3,
-   "behindBase": 0,
-   "aheadOfBase": 1,
-   "ciStatus": "failure",
-   "severity": "ok"
   },
   {
    "repo": "ossia/score-addon-jk",
@@ -9534,30 +9317,12 @@
    "draft": false,
    "createdAt": "2026-06-09T19:34:15Z",
    "updatedAt": "2026-06-17T16:12:16Z",
-   "ageDays": 40,
-   "idleDays": 32.1,
-   "behindBase": 4,
+   "ageDays": 40.1,
+   "idleDays": 32.2,
+   "behindBase": 5,
    "aheadOfBase": 11,
    "ciStatus": "failure",
    "severity": "warn"
-  },
-  {
-   "repo": "ossia/score-addon-synthimi",
-   "number": 6,
-   "title": "chore(deps): update actions/checkout action to v7",
-   "author": "jcelerier",
-   "url": "https://github.com/ossia/score-addon-synthimi/pull/6",
-   "baseRef": "main",
-   "headRef": "renovate/all",
-   "draft": false,
-   "createdAt": "2026-07-13T11:02:45Z",
-   "updatedAt": "2026-07-13T11:02:46Z",
-   "ageDays": 6.3,
-   "idleDays": 6.3,
-   "behindBase": 0,
-   "aheadOfBase": 1,
-   "ciStatus": "failure",
-   "severity": "ok"
   },
   {
    "repo": "ossia/score-addon-synthimi",
@@ -9570,9 +9335,9 @@
    "draft": false,
    "createdAt": "2026-06-10T14:16:34Z",
    "updatedAt": "2026-06-18T02:04:08Z",
-   "ageDays": 39.2,
-   "idleDays": 31.7,
-   "behindBase": 3,
+   "ageDays": 39.3,
+   "idleDays": 31.8,
+   "behindBase": 4,
    "aheadOfBase": 4,
    "ciStatus": "failure",
    "severity": "warn"
@@ -9588,8 +9353,8 @@
    "draft": false,
    "createdAt": "2026-07-13T11:02:04Z",
    "updatedAt": "2026-07-13T11:02:05Z",
-   "ageDays": 6.3,
-   "idleDays": 6.3,
+   "ageDays": 6.4,
+   "idleDays": 6.4,
    "behindBase": 0,
    "aheadOfBase": 1,
    "ciStatus": "failure",
@@ -9606,8 +9371,8 @@
    "draft": false,
    "createdAt": "2026-07-03T21:18:04Z",
    "updatedAt": "2026-07-13T10:59:09Z",
-   "ageDays": 15.9,
-   "idleDays": 6.3,
+   "ageDays": 16,
+   "idleDays": 6.4,
    "behindBase": 0,
    "aheadOfBase": 1,
    "ciStatus": "failure",
@@ -9624,8 +9389,8 @@
    "draft": false,
    "createdAt": "2026-06-10T21:07:00Z",
    "updatedAt": "2026-06-18T09:08:18Z",
-   "ageDays": 38.9,
-   "idleDays": 31.4,
+   "ageDays": 39,
+   "idleDays": 31.5,
    "behindBase": 3,
    "aheadOfBase": 5,
    "ciStatus": "failure",
@@ -9642,30 +9407,12 @@
    "draft": false,
    "createdAt": "2026-07-03T21:21:38Z",
    "updatedAt": "2026-07-13T11:02:17Z",
-   "ageDays": 15.9,
-   "idleDays": 6.3,
-   "behindBase": 0,
+   "ageDays": 16,
+   "idleDays": 6.4,
+   "behindBase": 1,
    "aheadOfBase": 1,
    "ciStatus": "failure",
-   "severity": "ok"
-  },
-  {
-   "repo": "ossia/score-addon-puara",
-   "number": 64,
-   "title": "chore(deps): update celtera/avendish digest to 00827f5",
-   "author": "jcelerier",
-   "url": "https://github.com/ossia/score-addon-puara/pull/64",
-   "baseRef": "master",
-   "headRef": "renovate/avendish",
-   "draft": false,
-   "createdAt": "2026-07-13T11:02:13Z",
-   "updatedAt": "2026-07-13T11:02:13Z",
-   "ageDays": 6.3,
-   "idleDays": 6.3,
-   "behindBase": 0,
-   "aheadOfBase": 1,
-   "ciStatus": "failure",
-   "severity": "ok"
+   "severity": "info"
   },
   {
    "repo": "ossia/score-addon-puara",
@@ -9678,9 +9425,9 @@
    "draft": false,
    "createdAt": "2026-04-02T18:22:06Z",
    "updatedAt": "2026-04-02T19:54:12Z",
-   "ageDays": 108,
-   "idleDays": 108,
-   "behindBase": 22,
+   "ageDays": 108.1,
+   "idleDays": 108.1,
+   "behindBase": 23,
    "aheadOfBase": 7,
    "ciStatus": "failure",
    "severity": "warn"
@@ -9696,9 +9443,9 @@
    "draft": false,
    "createdAt": "2025-06-22T12:30:47Z",
    "updatedAt": "2025-08-10T14:34:52Z",
-   "ageDays": 392.3,
-   "idleDays": 343.2,
-   "behindBase": 52,
+   "ageDays": 392.4,
+   "idleDays": 343.3,
+   "behindBase": 53,
    "aheadOfBase": 2,
    "ciStatus": "failure",
    "severity": "warn"
@@ -9716,7 +9463,7 @@
    "updatedAt": "2025-07-29T20:04:01Z",
    "ageDays": 397.1,
    "idleDays": 355,
-   "behindBase": 73,
+   "behindBase": 74,
    "aheadOfBase": 3,
    "ciStatus": "none",
    "severity": "warn"
@@ -9732,9 +9479,9 @@
    "draft": false,
    "createdAt": "2025-06-10T07:22:37Z",
    "updatedAt": "2025-07-29T18:36:55Z",
-   "ageDays": 404.5,
-   "idleDays": 355,
-   "behindBase": 77,
+   "ageDays": 404.6,
+   "idleDays": 355.1,
+   "behindBase": 78,
    "aheadOfBase": 2,
    "ciStatus": "none",
    "severity": "warn"
@@ -9750,8 +9497,8 @@
    "draft": false,
    "createdAt": "2026-07-03T21:22:41Z",
    "updatedAt": "2026-07-13T11:03:09Z",
-   "ageDays": 15.9,
-   "idleDays": 6.3,
+   "ageDays": 16,
+   "idleDays": 6.4,
    "behindBase": 0,
    "aheadOfBase": 1,
    "ciStatus": "failure",
@@ -9768,8 +9515,8 @@
    "draft": false,
    "createdAt": "2026-07-03T21:17:50Z",
    "updatedAt": "2026-07-13T10:59:00Z",
-   "ageDays": 15.9,
-   "idleDays": 6.3,
+   "ageDays": 16,
+   "idleDays": 6.4,
    "behindBase": 0,
    "aheadOfBase": 1,
    "ciStatus": "failure",
@@ -9786,8 +9533,8 @@
    "draft": false,
    "createdAt": "2025-10-27T01:22:23Z",
    "updatedAt": "2025-11-01T20:52:22Z",
-   "ageDays": 265.7,
-   "idleDays": 259.9,
+   "ageDays": 265.8,
+   "idleDays": 260,
    "behindBase": 3,
    "aheadOfBase": 3,
    "ciStatus": "failure",
@@ -9804,8 +9551,8 @@
    "draft": false,
    "createdAt": "2026-07-06T08:22:31Z",
    "updatedAt": "2026-07-13T11:01:45Z",
-   "ageDays": 13.4,
-   "idleDays": 6.3,
+   "ageDays": 13.5,
+   "idleDays": 6.4,
    "behindBase": 0,
    "aheadOfBase": 1,
    "ciStatus": "failure",
@@ -9822,8 +9569,8 @@
    "draft": false,
    "createdAt": "2026-07-13T11:00:45Z",
    "updatedAt": "2026-07-13T11:00:46Z",
-   "ageDays": 6.3,
-   "idleDays": 6.3,
+   "ageDays": 6.4,
+   "idleDays": 6.4,
    "behindBase": 0,
    "aheadOfBase": 1,
    "ciStatus": "failure",
@@ -9840,8 +9587,8 @@
    "draft": false,
    "createdAt": "2026-05-14T13:15:04Z",
    "updatedAt": "2026-05-14T13:15:04Z",
-   "ageDays": 66.2,
-   "idleDays": 66.2,
+   "ageDays": 66.3,
+   "idleDays": 66.3,
    "behindBase": 2,
    "aheadOfBase": 4,
    "ciStatus": "failure",
@@ -9858,30 +9605,12 @@
    "draft": false,
    "createdAt": "2025-02-20T04:36:47Z",
    "updatedAt": "2025-07-30T11:47:12Z",
-   "ageDays": 514.6,
-   "idleDays": 354.3,
+   "ageDays": 514.7,
+   "idleDays": 354.4,
    "behindBase": 2,
    "aheadOfBase": 3,
    "ciStatus": "failure",
    "severity": "warn"
-  },
-  {
-   "repo": "ossia/score-addon-spatgris",
-   "number": 5,
-   "title": "chore(deps): update actions/checkout action to v7",
-   "author": "jcelerier",
-   "url": "https://github.com/ossia/score-addon-spatgris/pull/5",
-   "baseRef": "main",
-   "headRef": "renovate/all",
-   "draft": false,
-   "createdAt": "2026-07-13T11:02:38Z",
-   "updatedAt": "2026-07-13T11:02:39Z",
-   "ageDays": 6.3,
-   "idleDays": 6.3,
-   "behindBase": 0,
-   "aheadOfBase": 1,
-   "ciStatus": "failure",
-   "severity": "ok"
   },
   {
    "repo": "ossia/score-addon-hdf5",
@@ -9894,8 +9623,8 @@
    "draft": false,
    "createdAt": "2026-07-03T21:19:41Z",
    "updatedAt": "2026-07-13T11:00:32Z",
-   "ageDays": 15.9,
-   "idleDays": 6.3,
+   "ageDays": 16,
+   "idleDays": 6.4,
    "behindBase": 0,
    "aheadOfBase": 1,
    "ciStatus": "failure",
@@ -9912,8 +9641,8 @@
    "draft": false,
    "createdAt": "2026-06-10T21:14:20Z",
    "updatedAt": "2026-06-18T02:04:14Z",
-   "ageDays": 38.9,
-   "idleDays": 31.7,
+   "ageDays": 39,
+   "idleDays": 31.8,
    "behindBase": 3,
    "aheadOfBase": 5,
    "ciStatus": "failure",
@@ -9930,26 +9659,8 @@
    "draft": false,
    "createdAt": "2026-07-03T21:21:18Z",
    "updatedAt": "2026-07-13T11:01:58Z",
-   "ageDays": 15.9,
-   "idleDays": 6.3,
-   "behindBase": 0,
-   "aheadOfBase": 1,
-   "ciStatus": "failure",
-   "severity": "ok"
-  },
-  {
-   "repo": "ossia/score-addon-ltc",
-   "number": 6,
-   "title": "chore(deps): update actions/checkout action to v7",
-   "author": "jcelerier",
-   "url": "https://github.com/ossia/score-addon-ltc/pull/6",
-   "baseRef": "master",
-   "headRef": "renovate/all",
-   "draft": false,
-   "createdAt": "2026-07-13T11:01:12Z",
-   "updatedAt": "2026-07-13T11:01:13Z",
-   "ageDays": 6.3,
-   "idleDays": 6.3,
+   "ageDays": 16,
+   "idleDays": 6.4,
    "behindBase": 0,
    "aheadOfBase": 1,
    "ciStatus": "failure",
@@ -9966,9 +9677,9 @@
    "draft": false,
    "createdAt": "2026-06-10T14:05:46Z",
    "updatedAt": "2026-06-18T09:08:13Z",
-   "ageDays": 39.2,
-   "idleDays": 31.4,
-   "behindBase": 3,
+   "ageDays": 39.3,
+   "idleDays": 31.5,
+   "behindBase": 4,
    "aheadOfBase": 6,
    "ciStatus": "failure",
    "severity": "warn"
@@ -9984,8 +9695,8 @@
    "draft": false,
    "createdAt": "2026-07-13T10:58:49Z",
    "updatedAt": "2026-07-13T10:58:50Z",
-   "ageDays": 6.3,
-   "idleDays": 6.3,
+   "ageDays": 6.4,
+   "idleDays": 6.4,
    "behindBase": 0,
    "aheadOfBase": 1,
    "ciStatus": "failure",
@@ -10002,8 +9713,8 @@
    "draft": false,
    "createdAt": "2026-07-03T21:20:21Z",
    "updatedAt": "2026-07-13T11:01:06Z",
-   "ageDays": 15.9,
-   "idleDays": 6.3,
+   "ageDays": 16,
+   "idleDays": 6.4,
    "behindBase": 0,
    "aheadOfBase": 1,
    "ciStatus": "none",
@@ -10020,8 +9731,8 @@
    "draft": false,
    "createdAt": "2026-07-03T21:22:25Z",
    "updatedAt": "2026-07-13T11:02:54Z",
-   "ageDays": 15.9,
-   "idleDays": 6.3,
+   "ageDays": 16,
+   "idleDays": 6.4,
    "behindBase": 0,
    "aheadOfBase": 1,
    "ciStatus": "none",
@@ -10038,66 +9749,12 @@
    "draft": false,
    "createdAt": "2026-07-13T11:00:56Z",
    "updatedAt": "2026-07-13T11:00:57Z",
-   "ageDays": 6.3,
-   "idleDays": 6.3,
-   "behindBase": 0,
+   "ageDays": 6.4,
+   "idleDays": 6.4,
+   "behindBase": 1,
    "aheadOfBase": 1,
    "ciStatus": "failure",
-   "severity": "ok"
-  },
-  {
-   "repo": "ossia/score-addon-librediffusion",
-   "number": 12,
-   "title": "chore(deps): update celtera/avendish digest to 00827f5",
-   "author": "jcelerier",
-   "url": "https://github.com/ossia/score-addon-librediffusion/pull/12",
-   "baseRef": "master",
-   "headRef": "renovate/avendish",
-   "draft": false,
-   "createdAt": "2026-07-13T11:00:52Z",
-   "updatedAt": "2026-07-13T11:00:53Z",
-   "ageDays": 6.3,
-   "idleDays": 6.3,
-   "behindBase": 0,
-   "aheadOfBase": 1,
-   "ciStatus": "failure",
-   "severity": "ok"
-  },
-  {
-   "repo": "ossia/score-addon-videoio",
-   "number": 1,
-   "title": "chore(deps): update all dependencies",
-   "author": "jcelerier",
-   "url": "https://github.com/ossia/score-addon-videoio/pull/1",
-   "baseRef": "master",
-   "headRef": "renovate/all",
-   "draft": false,
-   "createdAt": "2026-07-03T21:22:56Z",
-   "updatedAt": "2026-07-13T11:03:23Z",
-   "ageDays": 15.9,
-   "idleDays": 6.3,
-   "behindBase": 0,
-   "aheadOfBase": 1,
-   "ciStatus": "none",
-   "severity": "ok"
-  },
-  {
-   "repo": "celtera/avendish-geometry-processor-template",
-   "number": 10,
-   "title": "chore(deps): update celtera/avendish digest to 00827f5",
-   "author": "jcelerier",
-   "url": "https://github.com/celtera/avendish-geometry-processor-template/pull/10",
-   "baseRef": "main",
-   "headRef": "renovate/avendish",
-   "draft": false,
-   "createdAt": "2026-07-13T10:55:15Z",
-   "updatedAt": "2026-07-13T10:55:16Z",
-   "ageDays": 6.3,
-   "idleDays": 6.3,
-   "behindBase": 0,
-   "aheadOfBase": 1,
-   "ciStatus": "failure",
-   "severity": "ok"
+   "severity": "info"
   },
   {
    "repo": "celtera/avendish-geometry-processor-template",
@@ -10112,64 +9769,10 @@
    "updatedAt": "2026-07-12T15:18:44Z",
    "ageDays": 7.2,
    "idleDays": 7.2,
-   "behindBase": 0,
+   "behindBase": 1,
    "aheadOfBase": 1,
    "ciStatus": "none",
-   "severity": "ok"
-  },
-  {
-   "repo": "celtera/avendish-video-processor-template",
-   "number": 10,
-   "title": "chore(deps): update celtera/avendish digest to 00827f5",
-   "author": "jcelerier",
-   "url": "https://github.com/celtera/avendish-video-processor-template/pull/10",
-   "baseRef": "main",
-   "headRef": "renovate/avendish",
-   "draft": false,
-   "createdAt": "2026-07-13T10:55:30Z",
-   "updatedAt": "2026-07-13T10:55:31Z",
-   "ageDays": 6.3,
-   "idleDays": 6.3,
-   "behindBase": 0,
-   "aheadOfBase": 1,
-   "ciStatus": "failure",
-   "severity": "ok"
-  },
-  {
-   "repo": "celtera/avendish-video-processor-template",
-   "number": 9,
-   "title": "ci: add Claude Code GitHub Action",
-   "author": "jcelerier",
-   "url": "https://github.com/celtera/avendish-video-processor-template/pull/9",
-   "baseRef": "main",
-   "headRef": "add-claude-code-github-action",
-   "draft": false,
-   "createdAt": "2026-07-12T15:18:55Z",
-   "updatedAt": "2026-07-12T15:18:55Z",
-   "ageDays": 7.2,
-   "idleDays": 7.2,
-   "behindBase": 0,
-   "aheadOfBase": 1,
-   "ciStatus": "none",
-   "severity": "ok"
-  },
-  {
-   "repo": "celtera/avendish-data-processor-template",
-   "number": 9,
-   "title": "chore(deps): update celtera/avendish digest to 00827f5",
-   "author": "jcelerier",
-   "url": "https://github.com/celtera/avendish-data-processor-template/pull/9",
-   "baseRef": "main",
-   "headRef": "renovate/avendish",
-   "draft": false,
-   "createdAt": "2026-07-13T10:55:08Z",
-   "updatedAt": "2026-07-13T10:55:09Z",
-   "ageDays": 6.3,
-   "idleDays": 6.3,
-   "behindBase": 0,
-   "aheadOfBase": 1,
-   "ciStatus": "failure",
-   "severity": "ok"
+   "severity": "info"
   },
   {
    "repo": "celtera/avendish-data-processor-template",
@@ -10184,10 +9787,10 @@
    "updatedAt": "2026-07-12T15:18:38Z",
    "ageDays": 7.2,
    "idleDays": 7.2,
-   "behindBase": 0,
+   "behindBase": 1,
    "aheadOfBase": 1,
    "ciStatus": "none",
-   "severity": "ok"
+   "severity": "info"
   },
   {
    "repo": "celtera/avendish-ml-processor-template",
@@ -10200,30 +9803,12 @@
    "draft": false,
    "createdAt": "2026-07-13T10:55:22Z",
    "updatedAt": "2026-07-13T10:55:23Z",
-   "ageDays": 6.3,
-   "idleDays": 6.3,
-   "behindBase": 0,
+   "ageDays": 6.4,
+   "idleDays": 6.4,
+   "behindBase": 1,
    "aheadOfBase": 1,
    "ciStatus": "failure",
-   "severity": "ok"
-  },
-  {
-   "repo": "celtera/avendish-ml-processor-template",
-   "number": 8,
-   "title": "ci: add Claude Code GitHub Action",
-   "author": "jcelerier",
-   "url": "https://github.com/celtera/avendish-ml-processor-template/pull/8",
-   "baseRef": "main",
-   "headRef": "add-claude-code-github-action",
-   "draft": false,
-   "createdAt": "2026-07-12T15:18:49Z",
-   "updatedAt": "2026-07-12T15:18:49Z",
-   "ageDays": 7.2,
-   "idleDays": 7.2,
-   "behindBase": 0,
-   "aheadOfBase": 1,
-   "ciStatus": "none",
-   "severity": "ok"
+   "severity": "info"
   }
  ],
  "branches": [
@@ -10235,7 +9820,7 @@
    "ahead": 4,
    "aheadReal": 1,
    "landedEquivalent": 3,
-   "behind": 1916,
+   "behind": 1932,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -10248,7 +9833,7 @@
    "ahead": 0,
    "aheadReal": 0,
    "landedEquivalent": null,
-   "behind": 1915,
+   "behind": 1931,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -10261,7 +9846,7 @@
    "ahead": 0,
    "aheadReal": 0,
    "landedEquivalent": null,
-   "behind": 2092,
+   "behind": 2108,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -10274,7 +9859,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 353,
+   "behind": 369,
    "hasPR": true,
    "prNumber": 1571,
    "severity": "ok"
@@ -10287,7 +9872,7 @@
    "ahead": 0,
    "aheadReal": 0,
    "landedEquivalent": null,
-   "behind": 1703,
+   "behind": 1719,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -10300,7 +9885,7 @@
    "ahead": 4,
    "aheadReal": 4,
    "landedEquivalent": 0,
-   "behind": 596,
+   "behind": 612,
    "hasPR": true,
    "prNumber": 1710,
    "severity": "ok"
@@ -10313,7 +9898,7 @@
    "ahead": 0,
    "aheadReal": 0,
    "landedEquivalent": null,
-   "behind": 1213,
+   "behind": 1229,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -10326,7 +9911,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 52,
+   "behind": 68,
    "hasPR": false,
    "prNumber": null,
    "severity": "info"
@@ -10339,7 +9924,7 @@
    "ahead": 7,
    "aheadReal": 0,
    "landedEquivalent": 7,
-   "behind": 47,
+   "behind": 63,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -10352,7 +9937,7 @@
    "ahead": 0,
    "aheadReal": 0,
    "landedEquivalent": null,
-   "behind": 286,
+   "behind": 302,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -10365,7 +9950,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 14,
+   "behind": 30,
    "hasPR": true,
    "prNumber": 2095,
    "severity": "ok"
@@ -10378,7 +9963,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 354,
+   "behind": 370,
    "hasPR": true,
    "prNumber": 1963,
    "severity": "ok"
@@ -10391,7 +9976,7 @@
    "ahead": 2,
    "aheadReal": 2,
    "landedEquivalent": 0,
-   "behind": 5902,
+   "behind": 5918,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -10404,7 +9989,7 @@
    "ahead": 1,
    "aheadReal": 0,
    "landedEquivalent": 1,
-   "behind": 251,
+   "behind": 267,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -10417,7 +10002,7 @@
    "ahead": 13,
    "aheadReal": 0,
    "landedEquivalent": 13,
-   "behind": 1577,
+   "behind": 1593,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -10430,7 +10015,7 @@
    "ahead": 2,
    "aheadReal": 2,
    "landedEquivalent": 0,
-   "behind": 41,
+   "behind": 57,
    "hasPR": false,
    "prNumber": null,
    "severity": "info"
@@ -10443,7 +10028,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 3240,
+   "behind": 3256,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -10456,7 +10041,7 @@
    "ahead": 1,
    "aheadReal": 0,
    "landedEquivalent": 1,
-   "behind": 1491,
+   "behind": 1507,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -10469,7 +10054,7 @@
    "ahead": 1,
    "aheadReal": 0,
    "landedEquivalent": 1,
-   "behind": 52,
+   "behind": 68,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -10482,7 +10067,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 0,
+   "behind": 16,
    "hasPR": true,
    "prNumber": 2125,
    "severity": "ok"
@@ -10495,7 +10080,7 @@
    "ahead": 3,
    "aheadReal": 3,
    "landedEquivalent": 0,
-   "behind": 72,
+   "behind": 88,
    "hasPR": false,
    "prNumber": null,
    "severity": "info"
@@ -10508,7 +10093,7 @@
    "ahead": 1,
    "aheadReal": 0,
    "landedEquivalent": 1,
-   "behind": 72,
+   "behind": 88,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -10521,7 +10106,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 64,
+   "behind": 80,
    "hasPR": false,
    "prNumber": null,
    "severity": "info"
@@ -10534,7 +10119,7 @@
    "ahead": 68,
    "aheadReal": 64,
    "landedEquivalent": 4,
-   "behind": 71,
+   "behind": 87,
    "hasPR": false,
    "prNumber": null,
    "severity": "info"
@@ -10547,7 +10132,7 @@
    "ahead": 16,
    "aheadReal": 16,
    "landedEquivalent": 0,
-   "behind": 130,
+   "behind": 146,
    "hasPR": false,
    "prNumber": null,
    "severity": "info"
@@ -10560,7 +10145,7 @@
    "ahead": 6,
    "aheadReal": 6,
    "landedEquivalent": 0,
-   "behind": 37,
+   "behind": 53,
    "hasPR": false,
    "prNumber": null,
    "severity": "info"
@@ -10571,9 +10156,9 @@
    "sha": "ef992e442faf893eb4502e13768f4493a08bf90f",
    "lastCommitDate": "2026-07-12T22:50:06-04:00",
    "ahead": 21,
-   "aheadReal": 21,
-   "landedEquivalent": 0,
-   "behind": 22,
+   "aheadReal": 13,
+   "landedEquivalent": 8,
+   "behind": 38,
    "hasPR": true,
    "prNumber": 2109,
    "severity": "ok"
@@ -10586,7 +10171,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 65,
+   "behind": 81,
    "hasPR": true,
    "prNumber": 2094,
    "severity": "ok"
@@ -10599,7 +10184,7 @@
    "ahead": 1,
    "aheadReal": 0,
    "landedEquivalent": 1,
-   "behind": 65,
+   "behind": 81,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -10612,7 +10197,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 4996,
+   "behind": 5012,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -10625,7 +10210,7 @@
    "ahead": 2,
    "aheadReal": 0,
    "landedEquivalent": 2,
-   "behind": 95,
+   "behind": 111,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -10636,11 +10221,11 @@
    "sha": "0dbc6c32d9cdb93650a1546a982265610cbe0b46",
    "lastCommitDate": "2026-07-19T09:48:27-04:00",
    "ahead": 1,
-   "aheadReal": 1,
-   "landedEquivalent": 0,
-   "behind": 0,
-   "hasPR": true,
-   "prNumber": 2130,
+   "aheadReal": 0,
+   "landedEquivalent": 1,
+   "behind": 16,
+   "hasPR": false,
+   "prNumber": null,
    "severity": "ok"
   },
   {
@@ -10651,7 +10236,7 @@
    "ahead": 2,
    "aheadReal": 2,
    "landedEquivalent": 0,
-   "behind": 9401,
+   "behind": 9417,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -10664,7 +10249,7 @@
    "ahead": 2,
    "aheadReal": 0,
    "landedEquivalent": 2,
-   "behind": 118,
+   "behind": 134,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -10677,7 +10262,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 314,
+   "behind": 330,
    "hasPR": true,
    "prNumber": 1975,
    "severity": "ok"
@@ -10690,7 +10275,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 520,
+   "behind": 536,
    "hasPR": true,
    "prNumber": 1940,
    "severity": "ok"
@@ -10703,7 +10288,7 @@
    "ahead": 5,
    "aheadReal": 2,
    "landedEquivalent": 3,
-   "behind": 305,
+   "behind": 321,
    "hasPR": true,
    "prNumber": 1989,
    "severity": "ok"
@@ -10716,7 +10301,7 @@
    "ahead": 3,
    "aheadReal": 3,
    "landedEquivalent": 0,
-   "behind": 537,
+   "behind": 553,
    "hasPR": true,
    "prNumber": 1933,
    "severity": "ok"
@@ -10729,7 +10314,7 @@
    "ahead": 3,
    "aheadReal": 2,
    "landedEquivalent": 1,
-   "behind": 1370,
+   "behind": 1386,
    "hasPR": true,
    "prNumber": 1604,
    "severity": "ok"
@@ -10742,7 +10327,7 @@
    "ahead": 1,
    "aheadReal": 0,
    "landedEquivalent": 1,
-   "behind": 46,
+   "behind": 62,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -10755,7 +10340,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 102,
+   "behind": 118,
    "hasPR": false,
    "prNumber": null,
    "severity": "info"
@@ -10768,7 +10353,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 1370,
+   "behind": 1386,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -10781,7 +10366,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 1370,
+   "behind": 1386,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -10794,7 +10379,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 1023,
+   "behind": 1039,
    "hasPR": true,
    "prNumber": 1652,
    "severity": "ok"
@@ -10807,7 +10392,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 1585,
+   "behind": 1601,
    "hasPR": true,
    "prNumber": 1638,
    "severity": "ok"
@@ -10820,7 +10405,7 @@
    "ahead": 1,
    "aheadReal": 0,
    "landedEquivalent": 1,
-   "behind": 62,
+   "behind": 78,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -10833,7 +10418,7 @@
    "ahead": 2,
    "aheadReal": 0,
    "landedEquivalent": 2,
-   "behind": 2902,
+   "behind": 2918,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -10846,7 +10431,7 @@
    "ahead": 2,
    "aheadReal": 2,
    "landedEquivalent": 0,
-   "behind": 1930,
+   "behind": 1946,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -10859,7 +10444,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 1370,
+   "behind": 1386,
    "hasPR": true,
    "prNumber": 1631,
    "severity": "ok"
@@ -10872,7 +10457,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 1585,
+   "behind": 1601,
    "hasPR": true,
    "prNumber": 1632,
    "severity": "ok"
@@ -10885,7 +10470,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 1370,
+   "behind": 1386,
    "hasPR": true,
    "prNumber": 1636,
    "severity": "ok"
@@ -10898,7 +10483,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 1585,
+   "behind": 1601,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -10911,7 +10496,7 @@
    "ahead": 2,
    "aheadReal": 1,
    "landedEquivalent": 1,
-   "behind": 1431,
+   "behind": 1447,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -10924,7 +10509,7 @@
    "ahead": 1,
    "aheadReal": 0,
    "landedEquivalent": 1,
-   "behind": 47,
+   "behind": 63,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -10937,7 +10522,7 @@
    "ahead": 5,
    "aheadReal": 0,
    "landedEquivalent": 5,
-   "behind": 80,
+   "behind": 96,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -10950,7 +10535,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 1585,
+   "behind": 1601,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -10963,7 +10548,7 @@
    "ahead": 1,
    "aheadReal": 0,
    "landedEquivalent": 1,
-   "behind": 46,
+   "behind": 62,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -10976,7 +10561,7 @@
    "ahead": 3,
    "aheadReal": 0,
    "landedEquivalent": 3,
-   "behind": 2371,
+   "behind": 2387,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -10989,7 +10574,7 @@
    "ahead": 7,
    "aheadReal": 1,
    "landedEquivalent": 6,
-   "behind": 280,
+   "behind": 296,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -11002,7 +10587,7 @@
    "ahead": 1,
    "aheadReal": 0,
    "landedEquivalent": 1,
-   "behind": 3190,
+   "behind": 3206,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -11015,7 +10600,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 1342,
+   "behind": 1358,
    "hasPR": true,
    "prNumber": 1757,
    "severity": "ok"
@@ -11028,7 +10613,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 520,
+   "behind": 536,
    "hasPR": true,
    "prNumber": 1941,
    "severity": "ok"
@@ -11041,7 +10626,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 4761,
+   "behind": 4777,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -11054,7 +10639,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 6163,
+   "behind": 6179,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -11067,7 +10652,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 80,
+   "behind": 96,
    "hasPR": false,
    "prNumber": null,
    "severity": "info"
@@ -11080,7 +10665,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 65,
+   "behind": 81,
    "hasPR": false,
    "prNumber": null,
    "severity": "info"
@@ -11093,7 +10678,7 @@
    "ahead": 8,
    "aheadReal": 0,
    "landedEquivalent": 8,
-   "behind": 1779,
+   "behind": 1795,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -11106,7 +10691,7 @@
    "ahead": 3,
    "aheadReal": 0,
    "landedEquivalent": 3,
-   "behind": 98,
+   "behind": 114,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -11119,7 +10704,7 @@
    "ahead": 1,
    "aheadReal": 0,
    "landedEquivalent": 1,
-   "behind": 1370,
+   "behind": 1386,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -11132,7 +10717,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 314,
+   "behind": 330,
    "hasPR": true,
    "prNumber": 1978,
    "severity": "ok"
@@ -11145,7 +10730,7 @@
    "ahead": 3,
    "aheadReal": 3,
    "landedEquivalent": 0,
-   "behind": 596,
+   "behind": 612,
    "hasPR": true,
    "prNumber": 1892,
    "severity": "ok"
@@ -11158,7 +10743,7 @@
    "ahead": 4,
    "aheadReal": 3,
    "landedEquivalent": 0,
-   "behind": 8120,
+   "behind": 8136,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -11171,7 +10756,7 @@
    "ahead": 2,
    "aheadReal": 0,
    "landedEquivalent": 2,
-   "behind": 115,
+   "behind": 131,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -11184,7 +10769,7 @@
    "ahead": 6,
    "aheadReal": 6,
    "landedEquivalent": 0,
-   "behind": 1023,
+   "behind": 1039,
    "hasPR": true,
    "prNumber": 1676,
    "severity": "ok"
@@ -11197,7 +10782,7 @@
    "ahead": 14,
    "aheadReal": 12,
    "landedEquivalent": 2,
-   "behind": 207,
+   "behind": 223,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -11210,7 +10795,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 102,
+   "behind": 118,
    "hasPR": false,
    "prNumber": null,
    "severity": "info"
@@ -11223,7 +10808,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 6190,
+   "behind": 6206,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -11236,7 +10821,7 @@
    "ahead": 13,
    "aheadReal": 11,
    "landedEquivalent": 1,
-   "behind": 6292,
+   "behind": 6308,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -11249,7 +10834,7 @@
    "ahead": 4,
    "aheadReal": 3,
    "landedEquivalent": 1,
-   "behind": 54,
+   "behind": 70,
    "hasPR": true,
    "prNumber": 1649,
    "severity": "ok"
@@ -11262,7 +10847,7 @@
    "ahead": 1,
    "aheadReal": 0,
    "landedEquivalent": 1,
-   "behind": 103,
+   "behind": 119,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -11275,7 +10860,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 1370,
+   "behind": 1386,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -11288,7 +10873,7 @@
    "ahead": 1,
    "aheadReal": 0,
    "landedEquivalent": 1,
-   "behind": 115,
+   "behind": 131,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -11301,7 +10886,7 @@
    "ahead": 10,
    "aheadReal": 10,
    "landedEquivalent": 0,
-   "behind": 51,
+   "behind": 67,
    "hasPR": true,
    "prNumber": 2091,
    "severity": "ok"
@@ -11314,7 +10899,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 1364,
+   "behind": 1380,
    "hasPR": true,
    "prNumber": 1745,
    "severity": "ok"
@@ -11327,7 +10912,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 467,
+   "behind": 483,
    "hasPR": true,
    "prNumber": 1946,
    "severity": "ok"
@@ -11340,7 +10925,7 @@
    "ahead": 4,
    "aheadReal": 4,
    "landedEquivalent": 0,
-   "behind": 4064,
+   "behind": 4080,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -11353,7 +10938,7 @@
    "ahead": 31,
    "aheadReal": 31,
    "landedEquivalent": 0,
-   "behind": 44,
+   "behind": 60,
    "hasPR": true,
    "prNumber": 2104,
    "severity": "ok"
@@ -11366,7 +10951,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 207,
+   "behind": 223,
    "hasPR": true,
    "prNumber": 2019,
    "severity": "ok"
@@ -11379,7 +10964,7 @@
    "ahead": 12,
    "aheadReal": 0,
    "landedEquivalent": 12,
-   "behind": 93,
+   "behind": 109,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -11392,7 +10977,7 @@
    "ahead": 55,
    "aheadReal": 51,
    "landedEquivalent": 4,
-   "behind": 71,
+   "behind": 87,
    "hasPR": false,
    "prNumber": null,
    "severity": "info"
@@ -11405,7 +10990,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 47,
+   "behind": 63,
    "hasPR": true,
    "prNumber": 2065,
    "severity": "ok"
@@ -11418,7 +11003,7 @@
    "ahead": 2,
    "aheadReal": 0,
    "landedEquivalent": 2,
-   "behind": 101,
+   "behind": 117,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -11431,7 +11016,7 @@
    "ahead": 1,
    "aheadReal": 0,
    "landedEquivalent": 1,
-   "behind": 1593,
+   "behind": 1609,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -11444,7 +11029,7 @@
    "ahead": 2,
    "aheadReal": 0,
    "landedEquivalent": 2,
-   "behind": 105,
+   "behind": 121,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -11457,7 +11042,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 1262,
+   "behind": 1278,
    "hasPR": true,
    "prNumber": 1768,
    "severity": "ok"
@@ -11470,7 +11055,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 1223,
+   "behind": 1239,
    "hasPR": true,
    "prNumber": 1772,
    "severity": "ok"
@@ -11483,7 +11068,7 @@
    "ahead": 1,
    "aheadReal": 0,
    "landedEquivalent": 1,
-   "behind": 47,
+   "behind": 63,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -11496,7 +11081,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 2812,
+   "behind": 2828,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -11509,7 +11094,7 @@
    "ahead": 1,
    "aheadReal": 0,
    "landedEquivalent": 1,
-   "behind": 63,
+   "behind": 79,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -11522,7 +11107,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 130,
+   "behind": 146,
    "hasPR": true,
    "prNumber": 2032,
    "severity": "ok"
@@ -11535,7 +11120,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 0,
+   "behind": 16,
    "hasPR": true,
    "prNumber": 2128,
    "severity": "ok"
@@ -11548,7 +11133,7 @@
    "ahead": 3,
    "aheadReal": 3,
    "landedEquivalent": 0,
-   "behind": 443,
+   "behind": 459,
    "hasPR": true,
    "prNumber": 1950,
    "severity": "ok"
@@ -11561,7 +11146,7 @@
    "ahead": 4,
    "aheadReal": 2,
    "landedEquivalent": 2,
-   "behind": 342,
+   "behind": 358,
    "hasPR": true,
    "prNumber": 1969,
    "severity": "ok"
@@ -11572,9 +11157,9 @@
    "sha": "1290424996bacbe4c5076186309eadf6013d63b2",
    "lastCommitDate": "2026-07-12T22:54:32-04:00",
    "ahead": 31,
-   "aheadReal": 31,
-   "landedEquivalent": 0,
-   "behind": 22,
+   "aheadReal": 18,
+   "landedEquivalent": 13,
+   "behind": 38,
    "hasPR": true,
    "prNumber": 2103,
    "severity": "ok"
@@ -11587,7 +11172,7 @@
    "ahead": 11,
    "aheadReal": 0,
    "landedEquivalent": 11,
-   "behind": 37,
+   "behind": 53,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -11598,11 +11183,11 @@
    "sha": "7bcf0169236b5b788f94bf8befadec849f406354",
    "lastCommitDate": "2026-07-18T22:47:57-04:00",
    "ahead": 2,
-   "aheadReal": 2,
-   "landedEquivalent": 0,
-   "behind": 0,
-   "hasPR": true,
-   "prNumber": 2129,
+   "aheadReal": 0,
+   "landedEquivalent": 2,
+   "behind": 16,
+   "hasPR": false,
+   "prNumber": null,
    "severity": "ok"
   },
   {
@@ -11613,7 +11198,7 @@
    "ahead": 4,
    "aheadReal": 4,
    "landedEquivalent": 0,
-   "behind": 22,
+   "behind": 38,
    "hasPR": true,
    "prNumber": 2115,
    "severity": "ok"
@@ -11626,7 +11211,7 @@
    "ahead": 4,
    "aheadReal": 3,
    "landedEquivalent": 1,
-   "behind": 321,
+   "behind": 337,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -11639,7 +11224,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 665,
+   "behind": 681,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -11652,7 +11237,7 @@
    "ahead": 4,
    "aheadReal": 0,
    "landedEquivalent": 4,
-   "behind": 37,
+   "behind": 53,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -11665,7 +11250,7 @@
    "ahead": 1,
    "aheadReal": 0,
    "landedEquivalent": 1,
-   "behind": 59,
+   "behind": 75,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -11676,11 +11261,11 @@
    "sha": "c6004198bb65ec4cf6dd704577c7da1b35bb5434",
    "lastCommitDate": "2026-07-18T03:42:02-04:00",
    "ahead": 1,
-   "aheadReal": 1,
-   "landedEquivalent": 0,
-   "behind": 11,
-   "hasPR": true,
-   "prNumber": 2127,
+   "aheadReal": 0,
+   "landedEquivalent": 1,
+   "behind": 27,
+   "hasPR": false,
+   "prNumber": null,
    "severity": "ok"
   },
   {
@@ -11691,7 +11276,7 @@
    "ahead": 4,
    "aheadReal": 4,
    "landedEquivalent": 0,
-   "behind": 203,
+   "behind": 219,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -11704,7 +11289,7 @@
    "ahead": 8,
    "aheadReal": 7,
    "landedEquivalent": 1,
-   "behind": 8796,
+   "behind": 8812,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -11717,7 +11302,7 @@
    "ahead": 12,
    "aheadReal": 12,
    "landedEquivalent": 0,
-   "behind": 2586,
+   "behind": 2602,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -11730,7 +11315,7 @@
    "ahead": 0,
    "aheadReal": 0,
    "landedEquivalent": null,
-   "behind": 2130,
+   "behind": 2146,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -11741,11 +11326,11 @@
    "sha": "a14d79a23099652a60b9925951e6b98f6ed3d17d",
    "lastCommitDate": "2026-07-18T09:34:06-04:00",
    "ahead": 12,
-   "aheadReal": 12,
-   "landedEquivalent": 0,
-   "behind": 0,
-   "hasPR": true,
-   "prNumber": 2118,
+   "aheadReal": 0,
+   "landedEquivalent": 12,
+   "behind": 16,
+   "hasPR": false,
+   "prNumber": null,
    "severity": "ok"
   },
   {
@@ -11754,9 +11339,9 @@
    "sha": "65ff611258b215fda6bdee428cd24655937451d2",
    "lastCommitDate": "2026-07-18T23:11:13-04:00",
    "ahead": 21,
-   "aheadReal": 21,
-   "landedEquivalent": 0,
-   "behind": 0,
+   "aheadReal": 9,
+   "landedEquivalent": 12,
+   "behind": 16,
    "hasPR": true,
    "prNumber": 2119,
    "severity": "ok"
@@ -11767,9 +11352,9 @@
    "sha": "bd66e34927f9b52e7430c2c2dce8f768481c807e",
    "lastCommitDate": "2026-07-18T23:11:14-04:00",
    "ahead": 32,
-   "aheadReal": 32,
-   "landedEquivalent": 0,
-   "behind": 0,
+   "aheadReal": 20,
+   "landedEquivalent": 12,
+   "behind": 16,
    "hasPR": true,
    "prNumber": 2120,
    "severity": "ok"
@@ -11780,9 +11365,9 @@
    "sha": "ea4cf988fecff8ea7c46321e84691ec6b8fd81fa",
    "lastCommitDate": "2026-07-18T23:11:14-04:00",
    "ahead": 50,
-   "aheadReal": 50,
-   "landedEquivalent": 0,
-   "behind": 0,
+   "aheadReal": 31,
+   "landedEquivalent": 19,
+   "behind": 16,
    "hasPR": true,
    "prNumber": 2121,
    "severity": "ok"
@@ -11793,9 +11378,9 @@
    "sha": "582ebb1dfbe51c3c6e1d1590ac2874272817b7d3",
    "lastCommitDate": "2026-07-18T23:11:15-04:00",
    "ahead": 59,
-   "aheadReal": 59,
-   "landedEquivalent": 0,
-   "behind": 0,
+   "aheadReal": 40,
+   "landedEquivalent": 19,
+   "behind": 16,
    "hasPR": true,
    "prNumber": 2122,
    "severity": "ok"
@@ -11806,9 +11391,9 @@
    "sha": "5c1950c55bf4f34fea7a31c2c5e683f34ec2784b",
    "lastCommitDate": "2026-07-18T23:11:15-04:00",
    "ahead": 63,
-   "aheadReal": 63,
-   "landedEquivalent": 0,
-   "behind": 0,
+   "aheadReal": 44,
+   "landedEquivalent": 19,
+   "behind": 16,
    "hasPR": true,
    "prNumber": 2123,
    "severity": "ok"
@@ -11821,7 +11406,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 3458,
+   "behind": 3474,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -11834,7 +11419,7 @@
    "ahead": 1,
    "aheadReal": 0,
    "landedEquivalent": 1,
-   "behind": 70,
+   "behind": 86,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -11845,9 +11430,9 @@
    "sha": "a7464ffeff3b0150b10ad74bf6a8516779069a9f",
    "lastCommitDate": "2026-07-10T02:26:10-04:00",
    "ahead": 75,
-   "aheadReal": 75,
-   "landedEquivalent": 0,
-   "behind": 42,
+   "aheadReal": 74,
+   "landedEquivalent": 1,
+   "behind": 58,
    "hasPR": false,
    "prNumber": null,
    "severity": "info"
@@ -11858,9 +11443,9 @@
    "sha": "ca11f8e41df5e78ba10cc363479981799d3c9cc2",
    "lastCommitDate": "2026-07-12T00:58:00-04:00",
    "ahead": 156,
-   "aheadReal": 156,
-   "landedEquivalent": 0,
-   "behind": 42,
+   "aheadReal": 151,
+   "landedEquivalent": 5,
+   "behind": 58,
    "hasPR": false,
    "prNumber": null,
    "severity": "info"
@@ -11871,9 +11456,9 @@
    "sha": "a93205e151040fd1801374b229102fab1d765017",
    "lastCommitDate": "2026-07-10T03:35:27-04:00",
    "ahead": 115,
-   "aheadReal": 115,
-   "landedEquivalent": 0,
-   "behind": 42,
+   "aheadReal": 114,
+   "landedEquivalent": 1,
+   "behind": 58,
    "hasPR": true,
    "prNumber": 2079,
    "severity": "ok"
@@ -11886,7 +11471,7 @@
    "ahead": 3,
    "aheadReal": 2,
    "landedEquivalent": 1,
-   "behind": 5883,
+   "behind": 5899,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -11899,7 +11484,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 5954,
+   "behind": 5970,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -11912,7 +11497,7 @@
    "ahead": 6,
    "aheadReal": 6,
    "landedEquivalent": 0,
-   "behind": 0,
+   "behind": 16,
    "hasPR": true,
    "prNumber": 2126,
    "severity": "ok"
@@ -11925,7 +11510,7 @@
    "ahead": 11,
    "aheadReal": 0,
    "landedEquivalent": 11,
-   "behind": 13,
+   "behind": 29,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -11938,7 +11523,7 @@
    "ahead": 3,
    "aheadReal": 3,
    "landedEquivalent": 0,
-   "behind": 54,
+   "behind": 70,
    "hasPR": false,
    "prNumber": null,
    "severity": "info"
@@ -11951,7 +11536,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 54,
+   "behind": 70,
    "hasPR": false,
    "prNumber": null,
    "severity": "info"
@@ -11964,7 +11549,7 @@
    "ahead": 10,
    "aheadReal": 0,
    "landedEquivalent": 10,
-   "behind": 3234,
+   "behind": 3250,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -11977,7 +11562,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 102,
+   "behind": 118,
    "hasPR": false,
    "prNumber": null,
    "severity": "info"
@@ -11990,7 +11575,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 2984,
+   "behind": 3000,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -12003,7 +11588,7 @@
    "ahead": 0,
    "aheadReal": 0,
    "landedEquivalent": null,
-   "behind": 7385,
+   "behind": 7401,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -12016,7 +11601,7 @@
    "ahead": 5,
    "aheadReal": 5,
    "landedEquivalent": 0,
-   "behind": 8796,
+   "behind": 8812,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -12029,7 +11614,7 @@
    "ahead": 4,
    "aheadReal": 0,
    "landedEquivalent": 4,
-   "behind": 41,
+   "behind": 57,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -12042,7 +11627,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 3173,
+   "behind": 3189,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -12055,7 +11640,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 1585,
+   "behind": 1601,
    "hasPR": true,
    "prNumber": 1601,
    "severity": "ok"
@@ -12068,7 +11653,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 1585,
+   "behind": 1601,
    "hasPR": true,
    "prNumber": 1605,
    "severity": "ok"
@@ -12081,7 +11666,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 1370,
+   "behind": 1386,
    "hasPR": true,
    "prNumber": 1603,
    "severity": "ok"
@@ -12094,7 +11679,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 721,
+   "behind": 737,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -12107,7 +11692,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 2829,
+   "behind": 2845,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -12120,7 +11705,7 @@
    "ahead": 8,
    "aheadReal": 8,
    "landedEquivalent": 0,
-   "behind": 1963,
+   "behind": 1979,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -12133,7 +11718,7 @@
    "ahead": 14,
    "aheadReal": 13,
    "landedEquivalent": 1,
-   "behind": 1463,
+   "behind": 1479,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -12146,7 +11731,7 @@
    "ahead": 19,
    "aheadReal": 16,
    "landedEquivalent": 3,
-   "behind": 1187,
+   "behind": 1203,
    "hasPR": true,
    "prNumber": 1778,
    "severity": "ok"
@@ -12159,7 +11744,7 @@
    "ahead": 21,
    "aheadReal": 17,
    "landedEquivalent": 4,
-   "behind": 465,
+   "behind": 481,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -12172,7 +11757,7 @@
    "ahead": 24,
    "aheadReal": 20,
    "landedEquivalent": 4,
-   "behind": 293,
+   "behind": 309,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -12185,7 +11770,7 @@
    "ahead": 2,
    "aheadReal": 0,
    "landedEquivalent": 2,
-   "behind": 5072,
+   "behind": 5088,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -12198,7 +11783,7 @@
    "ahead": 2,
    "aheadReal": 2,
    "landedEquivalent": 0,
-   "behind": 2454,
+   "behind": 2470,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -12211,7 +11796,7 @@
    "ahead": 1,
    "aheadReal": 0,
    "landedEquivalent": 1,
-   "behind": 8,
+   "behind": 10,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -12224,7 +11809,7 @@
    "ahead": 1,
    "aheadReal": 0,
    "landedEquivalent": 1,
-   "behind": 23,
+   "behind": 25,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -12237,7 +11822,7 @@
    "ahead": 1,
    "aheadReal": 0,
    "landedEquivalent": 1,
-   "behind": 22,
+   "behind": 24,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -12250,7 +11835,7 @@
    "ahead": 1,
    "aheadReal": 0,
    "landedEquivalent": 1,
-   "behind": 23,
+   "behind": 25,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -12263,7 +11848,7 @@
    "ahead": 3,
    "aheadReal": 0,
    "landedEquivalent": 3,
-   "behind": 1611,
+   "behind": 1613,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -12276,7 +11861,7 @@
    "ahead": 4,
    "aheadReal": 4,
    "landedEquivalent": 0,
-   "behind": 4421,
+   "behind": 4423,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -12289,7 +11874,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 195,
+   "behind": 197,
    "hasPR": true,
    "prNumber": 864,
    "severity": "ok"
@@ -12302,7 +11887,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 269,
+   "behind": 271,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -12315,7 +11900,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 3668,
+   "behind": 3670,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -12328,7 +11913,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 882,
+   "behind": 884,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -12341,7 +11926,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 2572,
+   "behind": 2574,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -12354,7 +11939,7 @@
    "ahead": 3,
    "aheadReal": 2,
    "landedEquivalent": 1,
-   "behind": 819,
+   "behind": 821,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -12367,7 +11952,7 @@
    "ahead": 6,
    "aheadReal": 6,
    "landedEquivalent": 0,
-   "behind": 56,
+   "behind": 58,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -12380,7 +11965,7 @@
    "ahead": 10,
    "aheadReal": 9,
    "landedEquivalent": 0,
-   "behind": 1075,
+   "behind": 1077,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -12393,7 +11978,7 @@
    "ahead": 1,
    "aheadReal": 0,
    "landedEquivalent": 1,
-   "behind": 47,
+   "behind": 49,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -12406,7 +11991,7 @@
    "ahead": 10,
    "aheadReal": 0,
    "landedEquivalent": 10,
-   "behind": 33,
+   "behind": 35,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -12419,7 +12004,7 @@
    "ahead": 0,
    "aheadReal": 0,
    "landedEquivalent": null,
-   "behind": 88,
+   "behind": 90,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -12432,7 +12017,7 @@
    "ahead": 3,
    "aheadReal": 3,
    "landedEquivalent": 0,
-   "behind": 1731,
+   "behind": 1733,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -12445,7 +12030,7 @@
    "ahead": 2,
    "aheadReal": 2,
    "landedEquivalent": 0,
-   "behind": 1611,
+   "behind": 1613,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -12458,7 +12043,7 @@
    "ahead": 8,
    "aheadReal": 8,
    "landedEquivalent": 0,
-   "behind": 1490,
+   "behind": 1492,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -12471,7 +12056,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 55,
+   "behind": 57,
    "hasPR": true,
    "prNumber": 863,
    "severity": "ok"
@@ -12484,7 +12069,7 @@
    "ahead": 1,
    "aheadReal": 0,
    "landedEquivalent": 1,
-   "behind": 1561,
+   "behind": 1563,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -12497,7 +12082,7 @@
    "ahead": 4,
    "aheadReal": 4,
    "landedEquivalent": 0,
-   "behind": 4062,
+   "behind": 4064,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -12510,7 +12095,7 @@
    "ahead": 1,
    "aheadReal": 0,
    "landedEquivalent": 1,
-   "behind": 794,
+   "behind": 796,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -12523,7 +12108,7 @@
    "ahead": 1,
    "aheadReal": 0,
    "landedEquivalent": 1,
-   "behind": 52,
+   "behind": 54,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -12536,7 +12121,7 @@
    "ahead": 15,
    "aheadReal": 15,
    "landedEquivalent": 0,
-   "behind": 14,
+   "behind": 16,
    "hasPR": true,
    "prNumber": 876,
    "severity": "ok"
@@ -12549,7 +12134,7 @@
    "ahead": 3,
    "aheadReal": 3,
    "landedEquivalent": 0,
-   "behind": 68,
+   "behind": 70,
    "hasPR": true,
    "prNumber": 875,
    "severity": "ok"
@@ -12562,7 +12147,7 @@
    "ahead": 1,
    "aheadReal": 0,
    "landedEquivalent": 1,
-   "behind": 53,
+   "behind": 55,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -12575,7 +12160,7 @@
    "ahead": 4,
    "aheadReal": 0,
    "landedEquivalent": 4,
-   "behind": 108,
+   "behind": 110,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -12588,7 +12173,7 @@
    "ahead": 2,
    "aheadReal": 2,
    "landedEquivalent": 0,
-   "behind": 55,
+   "behind": 57,
    "hasPR": true,
    "prNumber": 858,
    "severity": "ok"
@@ -12601,7 +12186,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 2658,
+   "behind": 2660,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -12614,7 +12199,7 @@
    "ahead": 2,
    "aheadReal": 2,
    "landedEquivalent": 0,
-   "behind": 3686,
+   "behind": 3688,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -12627,7 +12212,7 @@
    "ahead": 2,
    "aheadReal": 2,
    "landedEquivalent": 0,
-   "behind": 3901,
+   "behind": 3903,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -12640,7 +12225,7 @@
    "ahead": 2,
    "aheadReal": 0,
    "landedEquivalent": 2,
-   "behind": 18,
+   "behind": 20,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -12653,7 +12238,7 @@
    "ahead": 1,
    "aheadReal": 0,
    "landedEquivalent": 1,
-   "behind": 45,
+   "behind": 47,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -12666,7 +12251,7 @@
    "ahead": 1,
    "aheadReal": 0,
    "landedEquivalent": 1,
-   "behind": 55,
+   "behind": 57,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -12679,7 +12264,7 @@
    "ahead": 1,
    "aheadReal": 0,
    "landedEquivalent": 1,
-   "behind": 14,
+   "behind": 16,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -12692,7 +12277,7 @@
    "ahead": 4,
    "aheadReal": 1,
    "landedEquivalent": 3,
-   "behind": 3751,
+   "behind": 3753,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -12705,7 +12290,7 @@
    "ahead": 18,
    "aheadReal": 18,
    "landedEquivalent": 0,
-   "behind": 56,
+   "behind": 58,
    "hasPR": false,
    "prNumber": null,
    "severity": "info"
@@ -12718,7 +12303,7 @@
    "ahead": 3,
    "aheadReal": 3,
    "landedEquivalent": 0,
-   "behind": 2328,
+   "behind": 2330,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -12731,7 +12316,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 8,
+   "behind": 10,
    "hasPR": false,
    "prNumber": null,
    "severity": "info"
@@ -12744,7 +12329,7 @@
    "ahead": 3,
    "aheadReal": 2,
    "landedEquivalent": 1,
-   "behind": 3693,
+   "behind": 3695,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -12757,7 +12342,7 @@
    "ahead": 2,
    "aheadReal": 1,
    "landedEquivalent": 1,
-   "behind": 3048,
+   "behind": 3050,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -12770,7 +12355,7 @@
    "ahead": 1,
    "aheadReal": 0,
    "landedEquivalent": 1,
-   "behind": 7,
+   "behind": 9,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -12783,7 +12368,7 @@
    "ahead": 0,
    "aheadReal": 0,
    "landedEquivalent": null,
-   "behind": 86,
+   "behind": 88,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -12796,7 +12381,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 7590,
+   "behind": 7592,
    "hasPR": false,
    "prNumber": null,
    "severity": "info"
@@ -12809,7 +12394,7 @@
    "ahead": 2,
    "aheadReal": 1,
    "landedEquivalent": 1,
-   "behind": 2190,
+   "behind": 2192,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -12822,7 +12407,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 1258,
+   "behind": 1260,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -12835,7 +12420,7 @@
    "ahead": 20,
    "aheadReal": 2,
    "landedEquivalent": 18,
-   "behind": 2442,
+   "behind": 2444,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -12848,7 +12433,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 2461,
+   "behind": 2463,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -12861,7 +12446,7 @@
    "ahead": 0,
    "aheadReal": 0,
    "landedEquivalent": null,
-   "behind": 6577,
+   "behind": 6579,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -12874,7 +12459,7 @@
    "ahead": 0,
    "aheadReal": 0,
    "landedEquivalent": null,
-   "behind": 3668,
+   "behind": 3670,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -12887,7 +12472,7 @@
    "ahead": 1,
    "aheadReal": 0,
    "landedEquivalent": 1,
-   "behind": 3394,
+   "behind": 3396,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -12900,7 +12485,7 @@
    "ahead": 1,
    "aheadReal": 0,
    "landedEquivalent": 1,
-   "behind": 12,
+   "behind": 14,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -12911,11 +12496,11 @@
    "sha": "0609302d6daf1b7ae781a61575d764c977e3a4ca",
    "lastCommitDate": "2026-07-18T22:48:52-04:00",
    "ahead": 2,
-   "aheadReal": 2,
-   "landedEquivalent": 0,
-   "behind": 0,
-   "hasPR": true,
-   "prNumber": 909,
+   "aheadReal": 0,
+   "landedEquivalent": 2,
+   "behind": 2,
+   "hasPR": false,
+   "prNumber": null,
    "severity": "ok"
   },
   {
@@ -12926,7 +12511,7 @@
    "ahead": 4,
    "aheadReal": 0,
    "landedEquivalent": 4,
-   "behind": 2439,
+   "behind": 2441,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -12939,7 +12524,7 @@
    "ahead": 6,
    "aheadReal": 0,
    "landedEquivalent": 6,
-   "behind": 7,
+   "behind": 9,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -12952,7 +12537,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 713,
+   "behind": 715,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -12965,7 +12550,7 @@
    "ahead": 5,
    "aheadReal": 1,
    "landedEquivalent": 4,
-   "behind": 826,
+   "behind": 828,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -12978,7 +12563,7 @@
    "ahead": 4,
    "aheadReal": 0,
    "landedEquivalent": 4,
-   "behind": 826,
+   "behind": 828,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -14382,7 +13967,7 @@
    "ahead": 0,
    "aheadReal": 0,
    "landedEquivalent": null,
-   "behind": 23,
+   "behind": 24,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -15110,7 +14695,7 @@
    "ahead": 1,
    "aheadReal": 0,
    "landedEquivalent": 1,
-   "behind": 1,
+   "behind": 2,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -15121,11 +14706,11 @@
    "sha": "d804f2948b665a3507da306449fbc7e5782dadd8",
    "lastCommitDate": "2026-07-13T11:03:34Z",
    "ahead": 1,
-   "aheadReal": 1,
-   "landedEquivalent": 0,
-   "behind": 0,
-   "hasPR": true,
-   "prNumber": 4,
+   "aheadReal": 0,
+   "landedEquivalent": 1,
+   "behind": 1,
+   "hasPR": false,
+   "prNumber": null,
    "severity": "ok"
   },
   {
@@ -15214,7 +14799,7 @@
    "ahead": 1,
    "aheadReal": 0,
    "landedEquivalent": 1,
-   "behind": 1,
+   "behind": 2,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -15227,7 +14812,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 3,
+   "behind": 4,
    "hasPR": true,
    "prNumber": 5,
    "severity": "ok"
@@ -15240,7 +14825,7 @@
    "ahead": 1,
    "aheadReal": 0,
    "landedEquivalent": 1,
-   "behind": 15,
+   "behind": 16,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -15253,7 +14838,7 @@
    "ahead": 1,
    "aheadReal": 0,
    "landedEquivalent": 1,
-   "behind": 5,
+   "behind": 6,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -15266,35 +14851,9 @@
    "ahead": 1,
    "aheadReal": 0,
    "landedEquivalent": 1,
-   "behind": 0,
-   "hasPR": true,
-   "prNumber": 10,
-   "severity": "ok"
-  },
-  {
-   "repo": "ossia/score-addon-videomapping",
-   "name": "add-claude-code-github-action",
-   "sha": "8193b787e1210e1b67f4c035d498662164d5dc56",
-   "lastCommitDate": "2026-07-11T17:25:38-04:00",
-   "ahead": 1,
-   "aheadReal": 0,
-   "landedEquivalent": 1,
    "behind": 1,
    "hasPR": false,
    "prNumber": null,
-   "severity": "ok"
-  },
-  {
-   "repo": "ossia/score-addon-videomapping",
-   "name": "renovate/all",
-   "sha": "1c11a7ea6778f03e533d0f1dc431c6f6585a6202",
-   "lastCommitDate": "2026-07-13T11:03:27Z",
-   "ahead": 1,
-   "aheadReal": 1,
-   "landedEquivalent": 0,
-   "behind": 0,
-   "hasPR": true,
-   "prNumber": 3,
    "severity": "ok"
   },
   {
@@ -15305,7 +14864,7 @@
    "ahead": 1,
    "aheadReal": 0,
    "landedEquivalent": 1,
-   "behind": 1,
+   "behind": 2,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -15318,9 +14877,9 @@
    "ahead": 1,
    "aheadReal": 0,
    "landedEquivalent": 1,
-   "behind": 0,
-   "hasPR": true,
-   "prNumber": 16,
+   "behind": 1,
+   "hasPR": false,
+   "prNumber": null,
    "severity": "ok"
   },
   {
@@ -15331,7 +14890,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 9,
+   "behind": 10,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -15344,7 +14903,7 @@
    "ahead": 15,
    "aheadReal": 15,
    "landedEquivalent": 0,
-   "behind": 31,
+   "behind": 32,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -15357,7 +14916,7 @@
    "ahead": 9,
    "aheadReal": 8,
    "landedEquivalent": 0,
-   "behind": 6,
+   "behind": 7,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -15370,7 +14929,7 @@
    "ahead": 3,
    "aheadReal": 2,
    "landedEquivalent": 1,
-   "behind": 8,
+   "behind": 9,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -15383,7 +14942,7 @@
    "ahead": 3,
    "aheadReal": 3,
    "landedEquivalent": 0,
-   "behind": 3,
+   "behind": 4,
    "hasPR": true,
    "prNumber": 12,
    "severity": "ok"
@@ -15396,7 +14955,7 @@
    "ahead": 4,
    "aheadReal": 2,
    "landedEquivalent": 1,
-   "behind": 2,
+   "behind": 3,
    "hasPR": true,
    "prNumber": 11,
    "severity": "ok"
@@ -15409,7 +14968,7 @@
    "ahead": 4,
    "aheadReal": 2,
    "landedEquivalent": 1,
-   "behind": 2,
+   "behind": 3,
    "hasPR": true,
    "prNumber": 10,
    "severity": "ok"
@@ -15422,7 +14981,7 @@
    "ahead": 7,
    "aheadReal": 5,
    "landedEquivalent": 1,
-   "behind": 2,
+   "behind": 3,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -15435,7 +14994,7 @@
    "ahead": 1,
    "aheadReal": 0,
    "landedEquivalent": 1,
-   "behind": 8,
+   "behind": 9,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -15448,7 +15007,7 @@
    "ahead": 1,
    "aheadReal": 0,
    "landedEquivalent": 1,
-   "behind": 1,
+   "behind": 3,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -15461,7 +15020,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 8,
+   "behind": 10,
    "hasPR": false,
    "prNumber": null,
    "severity": "info"
@@ -15472,11 +15031,11 @@
    "sha": "76f0e182b0f386e66b1e8182fb8bd35b74c7fc95",
    "lastCommitDate": "2026-07-13T10:59:16Z",
    "ahead": 1,
-   "aheadReal": 1,
-   "landedEquivalent": 0,
-   "behind": 0,
-   "hasPR": true,
-   "prNumber": 11,
+   "aheadReal": 0,
+   "landedEquivalent": 1,
+   "behind": 2,
+   "hasPR": false,
+   "prNumber": null,
    "severity": "ok"
   },
   {
@@ -15485,11 +15044,11 @@
    "sha": "6525e56fcc76f3f5cb6089c9388a5c83b6d0341b",
    "lastCommitDate": "2026-07-13T10:59:13Z",
    "ahead": 1,
-   "aheadReal": 1,
-   "landedEquivalent": 0,
-   "behind": 0,
-   "hasPR": true,
-   "prNumber": 10,
+   "aheadReal": 0,
+   "landedEquivalent": 1,
+   "behind": 2,
+   "hasPR": false,
+   "prNumber": null,
    "severity": "ok"
   },
   {
@@ -15500,7 +15059,7 @@
    "ahead": 1,
    "aheadReal": 0,
    "landedEquivalent": 1,
-   "behind": 4,
+   "behind": 6,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -15513,7 +15072,7 @@
    "ahead": 1,
    "aheadReal": 0,
    "landedEquivalent": 1,
-   "behind": 1,
+   "behind": 2,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -15526,7 +15085,7 @@
    "ahead": 11,
    "aheadReal": 11,
    "landedEquivalent": 0,
-   "behind": 4,
+   "behind": 5,
    "hasPR": true,
    "prNumber": 1,
    "severity": "ok"
@@ -15539,9 +15098,9 @@
    "ahead": 1,
    "aheadReal": 0,
    "landedEquivalent": 1,
-   "behind": 0,
-   "hasPR": true,
-   "prNumber": 7,
+   "behind": 1,
+   "hasPR": false,
+   "prNumber": null,
    "severity": "ok"
   },
   {
@@ -15552,7 +15111,7 @@
    "ahead": 1,
    "aheadReal": 0,
    "landedEquivalent": 1,
-   "behind": 1,
+   "behind": 2,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -15565,7 +15124,7 @@
    "ahead": 1,
    "aheadReal": 0,
    "landedEquivalent": 1,
-   "behind": 3,
+   "behind": 4,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -15578,7 +15137,7 @@
    "ahead": 4,
    "aheadReal": 4,
    "landedEquivalent": 0,
-   "behind": 3,
+   "behind": 4,
    "hasPR": true,
    "prNumber": 1,
    "severity": "ok"
@@ -15591,9 +15150,9 @@
    "ahead": 1,
    "aheadReal": 0,
    "landedEquivalent": 1,
-   "behind": 0,
-   "hasPR": true,
-   "prNumber": 6,
+   "behind": 1,
+   "hasPR": false,
+   "prNumber": null,
    "severity": "ok"
   },
   {
@@ -15604,7 +15163,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 4,
+   "behind": 5,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -15682,7 +15241,7 @@
    "ahead": 1,
    "aheadReal": 0,
    "landedEquivalent": 1,
-   "behind": 1,
+   "behind": 2,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -15695,7 +15254,7 @@
    "ahead": 1,
    "aheadReal": 0,
    "landedEquivalent": 1,
-   "behind": 7,
+   "behind": 8,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -15708,7 +15267,7 @@
    "ahead": 7,
    "aheadReal": 6,
    "landedEquivalent": 1,
-   "behind": 22,
+   "behind": 23,
    "hasPR": true,
    "prNumber": 55,
    "severity": "ok"
@@ -15721,7 +15280,7 @@
    "ahead": 2,
    "aheadReal": 1,
    "landedEquivalent": 1,
-   "behind": 22,
+   "behind": 23,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -15734,7 +15293,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 44,
+   "behind": 45,
    "hasPR": false,
    "prNumber": null,
    "severity": "warn"
@@ -15747,7 +15306,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 0,
+   "behind": 1,
    "hasPR": true,
    "prNumber": 58,
    "severity": "ok"
@@ -15758,11 +15317,11 @@
    "sha": "052799dec92b47d0be9888ed7e9cdab9300956a6",
    "lastCommitDate": "2026-07-13T11:02:11Z",
    "ahead": 1,
-   "aheadReal": 1,
-   "landedEquivalent": 0,
-   "behind": 0,
-   "hasPR": true,
-   "prNumber": 64,
+   "aheadReal": 0,
+   "landedEquivalent": 1,
+   "behind": 1,
+   "hasPR": false,
+   "prNumber": null,
    "severity": "ok"
   },
   {
@@ -16059,7 +15618,7 @@
    "ahead": 1,
    "aheadReal": 0,
    "landedEquivalent": 1,
-   "behind": 1,
+   "behind": 2,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -16072,9 +15631,9 @@
    "ahead": 1,
    "aheadReal": 0,
    "landedEquivalent": 1,
-   "behind": 0,
-   "hasPR": true,
-   "prNumber": 5,
+   "behind": 1,
+   "hasPR": false,
+   "prNumber": null,
    "severity": "ok"
   },
   {
@@ -16163,7 +15722,7 @@
    "ahead": 1,
    "aheadReal": 0,
    "landedEquivalent": 1,
-   "behind": 1,
+   "behind": 2,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -16176,7 +15735,7 @@
    "ahead": 6,
    "aheadReal": 6,
    "landedEquivalent": 0,
-   "behind": 3,
+   "behind": 4,
    "hasPR": true,
    "prNumber": 1,
    "severity": "ok"
@@ -16189,9 +15748,9 @@
    "ahead": 1,
    "aheadReal": 0,
    "landedEquivalent": 1,
-   "behind": 0,
-   "hasPR": true,
-   "prNumber": 6,
+   "behind": 1,
+   "hasPR": false,
+   "prNumber": null,
    "severity": "ok"
   },
   {
@@ -16306,7 +15865,7 @@
    "ahead": 1,
    "aheadReal": 0,
    "landedEquivalent": 1,
-   "behind": 1,
+   "behind": 2,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -16319,7 +15878,7 @@
    "ahead": 23,
    "aheadReal": 1,
    "landedEquivalent": 22,
-   "behind": 51,
+   "behind": 52,
    "hasPR": false,
    "prNumber": null,
    "severity": "info"
@@ -16332,7 +15891,7 @@
    "ahead": 43,
    "aheadReal": 1,
    "landedEquivalent": 42,
-   "behind": 51,
+   "behind": 52,
    "hasPR": false,
    "prNumber": null,
    "severity": "info"
@@ -16345,7 +15904,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 0,
+   "behind": 1,
    "hasPR": true,
    "prNumber": 13,
    "severity": "ok"
@@ -16356,11 +15915,11 @@
    "sha": "867e7a5986d8356bb23f5020575b8c421c920681",
    "lastCommitDate": "2026-07-13T11:00:51Z",
    "ahead": 1,
-   "aheadReal": 1,
-   "landedEquivalent": 0,
-   "behind": 0,
-   "hasPR": true,
-   "prNumber": 12,
+   "aheadReal": 0,
+   "landedEquivalent": 1,
+   "behind": 1,
+   "hasPR": false,
+   "prNumber": null,
    "severity": "ok"
   },
   {
@@ -16371,7 +15930,7 @@
    "ahead": 1,
    "aheadReal": 0,
    "landedEquivalent": 1,
-   "behind": 45,
+   "behind": 46,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -16384,7 +15943,7 @@
    "ahead": 1,
    "aheadReal": 0,
    "landedEquivalent": 1,
-   "behind": 1,
+   "behind": 2,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -16397,7 +15956,7 @@
    "ahead": 36,
    "aheadReal": 0,
    "landedEquivalent": 36,
-   "behind": 45,
+   "behind": 46,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -16408,11 +15967,11 @@
    "sha": "1a3895eae310a0b4d6e7785f809f49528ac434fa",
    "lastCommitDate": "2026-07-13T11:03:21Z",
    "ahead": 1,
-   "aheadReal": 1,
-   "landedEquivalent": 0,
-   "behind": 0,
-   "hasPR": true,
-   "prNumber": 1,
+   "aheadReal": 0,
+   "landedEquivalent": 1,
+   "behind": 1,
+   "hasPR": false,
+   "prNumber": null,
    "severity": "ok"
   },
   {
@@ -16527,7 +16086,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 0,
+   "behind": 1,
    "hasPR": true,
    "prNumber": 9,
    "severity": "ok"
@@ -16540,7 +16099,7 @@
    "ahead": 3,
    "aheadReal": 0,
    "landedEquivalent": 3,
-   "behind": 11,
+   "behind": 12,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -16553,7 +16112,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 6,
+   "behind": 7,
    "hasPR": false,
    "prNumber": null,
    "severity": "info"
@@ -16566,7 +16125,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 6,
+   "behind": 7,
    "hasPR": false,
    "prNumber": null,
    "severity": "info"
@@ -16579,7 +16138,7 @@
    "ahead": 8,
    "aheadReal": 7,
    "landedEquivalent": 0,
-   "behind": 12,
+   "behind": 13,
    "hasPR": false,
    "prNumber": null,
    "severity": "info"
@@ -16592,10 +16151,10 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 0,
-   "hasPR": true,
-   "prNumber": 10,
-   "severity": "ok"
+   "behind": 1,
+   "hasPR": false,
+   "prNumber": null,
+   "severity": "info"
   },
   {
    "repo": "celtera/avendish-video-processor-template",
@@ -16605,10 +16164,10 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 0,
-   "hasPR": true,
-   "prNumber": 9,
-   "severity": "ok"
+   "behind": 2,
+   "hasPR": false,
+   "prNumber": null,
+   "severity": "info"
   },
   {
    "repo": "celtera/avendish-video-processor-template",
@@ -16618,7 +16177,7 @@
    "ahead": 4,
    "aheadReal": 0,
    "landedEquivalent": 4,
-   "behind": 12,
+   "behind": 14,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -16631,7 +16190,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 6,
+   "behind": 8,
    "hasPR": false,
    "prNumber": null,
    "severity": "info"
@@ -16644,7 +16203,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 6,
+   "behind": 8,
    "hasPR": false,
    "prNumber": null,
    "severity": "info"
@@ -16657,7 +16216,7 @@
    "ahead": 8,
    "aheadReal": 7,
    "landedEquivalent": 0,
-   "behind": 13,
+   "behind": 15,
    "hasPR": false,
    "prNumber": null,
    "severity": "info"
@@ -16670,10 +16229,10 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 0,
-   "hasPR": true,
-   "prNumber": 10,
-   "severity": "ok"
+   "behind": 2,
+   "hasPR": false,
+   "prNumber": null,
+   "severity": "info"
   },
   {
    "repo": "celtera/avendish-data-processor-template",
@@ -16683,7 +16242,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 0,
+   "behind": 1,
    "hasPR": true,
    "prNumber": 8,
    "severity": "ok"
@@ -16696,7 +16255,7 @@
    "ahead": 3,
    "aheadReal": 0,
    "landedEquivalent": 3,
-   "behind": 11,
+   "behind": 12,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -16709,7 +16268,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 6,
+   "behind": 7,
    "hasPR": false,
    "prNumber": null,
    "severity": "info"
@@ -16722,7 +16281,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 6,
+   "behind": 7,
    "hasPR": false,
    "prNumber": null,
    "severity": "info"
@@ -16735,7 +16294,7 @@
    "ahead": 5,
    "aheadReal": 5,
    "landedEquivalent": 0,
-   "behind": 12,
+   "behind": 13,
    "hasPR": false,
    "prNumber": null,
    "severity": "info"
@@ -16748,10 +16307,10 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 0,
-   "hasPR": true,
-   "prNumber": 9,
-   "severity": "ok"
+   "behind": 1,
+   "hasPR": false,
+   "prNumber": null,
+   "severity": "info"
   },
   {
    "repo": "celtera/avendish-ml-processor-template",
@@ -16761,10 +16320,10 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 0,
-   "hasPR": true,
-   "prNumber": 8,
-   "severity": "ok"
+   "behind": 1,
+   "hasPR": false,
+   "prNumber": null,
+   "severity": "info"
   },
   {
    "repo": "celtera/avendish-ml-processor-template",
@@ -16774,7 +16333,7 @@
    "ahead": 3,
    "aheadReal": 0,
    "landedEquivalent": 3,
-   "behind": 11,
+   "behind": 12,
    "hasPR": false,
    "prNumber": null,
    "severity": "ok"
@@ -16787,7 +16346,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 6,
+   "behind": 7,
    "hasPR": false,
    "prNumber": null,
    "severity": "info"
@@ -16800,7 +16359,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 6,
+   "behind": 7,
    "hasPR": false,
    "prNumber": null,
    "severity": "info"
@@ -16813,7 +16372,7 @@
    "ahead": 5,
    "aheadReal": 5,
    "landedEquivalent": 0,
-   "behind": 12,
+   "behind": 13,
    "hasPR": false,
    "prNumber": null,
    "severity": "info"
@@ -16826,7 +16385,7 @@
    "ahead": 1,
    "aheadReal": 1,
    "landedEquivalent": 0,
-   "behind": 0,
+   "behind": 1,
    "hasPR": true,
    "prNumber": 9,
    "severity": "ok"
@@ -17577,7 +17136,7 @@
     {
      "repo": "ossia/score-addon-vmo",
      "workflow": "claude.yml",
-     "ref": "v6"
+     "ref": "v7"
     },
     {
      "repo": "ossia/score-addon-multiloop",
@@ -17627,7 +17186,7 @@
     {
      "repo": "ossia/score-addon-ndi",
      "workflow": "claude.yml",
-     "ref": "v6"
+     "ref": "v7"
     },
     {
      "repo": "ossia/score-addon-ndi",
@@ -17640,11 +17199,6 @@
      "ref": "v7"
     },
     {
-     "repo": "ossia/score-addon-videomapping",
-     "workflow": "claude.yml",
-     "ref": "v6"
-    },
-    {
      "repo": "ossia/score-addon-spat",
      "workflow": "builds.yaml",
      "ref": "v7"
@@ -17657,7 +17211,7 @@
     {
      "repo": "ossia/score-addon-spat",
      "workflow": "claude.yml",
-     "ref": "v6"
+     "ref": "v7"
     },
     {
      "repo": "ossia/score-addon-spat",
@@ -17677,12 +17231,12 @@
     {
      "repo": "ossia/score-addon-cv",
      "workflow": "claude.yml",
-     "ref": "v6"
+     "ref": "v7"
     },
     {
      "repo": "ossia/score-addon-jk",
      "workflow": "claude.yml",
-     "ref": "v6"
+     "ref": "v7"
     },
     {
      "repo": "ossia/score-addon-synthimi",
@@ -17697,7 +17251,7 @@
     {
      "repo": "ossia/score-addon-synthimi",
      "workflow": "claude.yml",
-     "ref": "v6"
+     "ref": "v7"
     },
     {
      "repo": "ossia/score-addon-synthimi",
@@ -17907,7 +17461,7 @@
     {
      "repo": "ossia/score-addon-spatgris",
      "workflow": "claude.yml",
-     "ref": "v6"
+     "ref": "v7"
     },
     {
      "repo": "ossia/score-addon-spatgris",
@@ -17982,7 +17536,7 @@
     {
      "repo": "ossia/score-addon-ltc",
      "workflow": "claude.yml",
-     "ref": "v6"
+     "ref": "v7"
     },
     {
      "repo": "ossia/score-addon-ltc",
@@ -18057,10 +17611,20 @@
     {
      "repo": "ossia/score-addon-videoio",
      "workflow": "claude.yml",
-     "ref": "v6"
+     "ref": "v7"
     },
     {
      "repo": "celtera/avendish-audio-processor-template",
+     "workflow": "claude.yml",
+     "ref": "v6"
+    },
+    {
+     "repo": "celtera/avendish-video-processor-template",
+     "workflow": "claude.yml",
+     "ref": "v6"
+    },
+    {
+     "repo": "celtera/avendish-ml-processor-template",
      "workflow": "claude.yml",
      "ref": "v6"
     }
@@ -18363,6 +17927,11 @@
     {
      "repo": "ossia/score",
      "workflow": "ubuntu-builds.yaml",
+     "ref": "v7"
+    },
+    {
+     "repo": "ossia/score",
+     "workflow": "wasm.yaml",
      "ref": "v7"
     },
     {
@@ -18950,11 +18519,6 @@
      "ref": "v1"
     },
     {
-     "repo": "ossia/score-addon-videomapping",
-     "workflow": "claude.yml",
-     "ref": "v1"
-    },
-    {
      "repo": "ossia/score-addon-spat",
      "workflow": "claude.yml",
      "ref": "v1"
@@ -19061,6 +18625,16 @@
     },
     {
      "repo": "celtera/avendish-audio-processor-template",
+     "workflow": "claude.yml",
+     "ref": "v1"
+    },
+    {
+     "repo": "celtera/avendish-video-processor-template",
+     "workflow": "claude.yml",
+     "ref": "v1"
+    },
+    {
+     "repo": "celtera/avendish-ml-processor-template",
      "workflow": "claude.yml",
      "ref": "v1"
     }
@@ -20631,6 +20205,16 @@
     },
     {
      "repo": "ossia/score",
+     "workflow": "wasm.yaml",
+     "ref": "v3"
+    },
+    {
+     "repo": "ossia/score",
+     "workflow": "wasm.yaml",
+     "ref": "v3"
+    },
+    {
+     "repo": "ossia/score",
      "workflow": "win-builds.yaml",
      "ref": "v3"
     },
@@ -21414,18 +20998,6 @@
   },
   {
    "category": "runner",
-   "repo": "ossia/score-addon-videomapping",
-   "location": "claude.yml",
-   "name": "runs-on",
-   "current": "ubuntu-latest",
-   "missingFromMatrix": [],
-   "latest": null,
-   "eolDate": null,
-   "status": "current",
-   "severity": "ok"
-  },
-  {
-   "category": "runner",
    "repo": "ossia/score-addon-spat",
    "location": "claude.yml, release.yml",
    "name": "runs-on",
@@ -21689,6 +21261,30 @@
    "severity": "ok"
   },
   {
+   "category": "runner",
+   "repo": "celtera/avendish-video-processor-template",
+   "location": "claude.yml",
+   "name": "runs-on",
+   "current": "ubuntu-latest",
+   "missingFromMatrix": [],
+   "latest": null,
+   "eolDate": null,
+   "status": "current",
+   "severity": "ok"
+  },
+  {
+   "category": "runner",
+   "repo": "celtera/avendish-ml-processor-template",
+   "location": "claude.yml",
+   "name": "runs-on",
+   "current": "ubuntu-latest",
+   "missingFromMatrix": [],
+   "latest": null,
+   "eolDate": null,
+   "status": "current",
+   "severity": "ok"
+  },
+  {
    "category": "file-pin",
    "repo": "ossia/score",
    "location": "cmake/Deployment/Linux/AppImage/Dockerfile.llvm",
@@ -21750,6 +21346,86 @@
   }
  ],
  "packaging": [
+  {
+   "project": "ossia-score",
+   "newestVersion": "3.8.2",
+   "total": 14,
+   "outdated": 10,
+   "newest": 4,
+   "versions": [
+    {
+     "repo": "aur",
+     "version": "3.7.1",
+     "status": "outdated"
+    },
+    {
+     "repo": "aur",
+     "version": "3.7.1",
+     "status": "outdated"
+    },
+    {
+     "repo": "aur",
+     "version": "3.5.2",
+     "status": "outdated"
+    },
+    {
+     "repo": "freebsd",
+     "version": "3.8.2",
+     "status": "newest"
+    },
+    {
+     "repo": "homebrew_casks",
+     "version": "3.8.2",
+     "status": "newest"
+    },
+    {
+     "repo": "msys2_clang64",
+     "version": "3.7.1",
+     "status": "outdated"
+    },
+    {
+     "repo": "msys2_clangarm64",
+     "version": "3.7.1",
+     "status": "outdated"
+    },
+    {
+     "repo": "msys2_mingw",
+     "version": "3.7.1",
+     "status": "outdated"
+    },
+    {
+     "repo": "msys2_ucrt64",
+     "version": "3.7.1",
+     "status": "outdated"
+    },
+    {
+     "repo": "nix_stable_24_11",
+     "version": "3.3.2",
+     "status": "outdated"
+    },
+    {
+     "repo": "nix_stable_25_05",
+     "version": "3.5.2",
+     "status": "outdated"
+    },
+    {
+     "repo": "nix_stable_25_11",
+     "version": "3.7.1",
+     "status": "outdated"
+    },
+    {
+     "repo": "nix_stable_26_05",
+     "version": "3.8.2",
+     "status": "newest"
+    },
+    {
+     "repo": "nix_unstable",
+     "version": "3.8.2",
+     "status": "newest"
+    }
+   ],
+   "severity": "warn"
+  },
   {
    "project": "libossia",
    "newestVersion": null,
@@ -22946,7 +22622,7 @@
    "category": "dependency",
    "repo": "celtera/avendish-data-processor-template",
    "subject": "Avendish (cmake-fetchcontent)",
-   "message": "upstream HEAD moved 9 days past our pin; upstream active again (last commit 2026-07-18)",
+   "message": "upstream HEAD moved 7 days past our pin; upstream active again (last commit 2026-07-18)",
    "url": "https://github.com/celtera/avendish",
    "severity": "warn"
   },
@@ -22955,7 +22631,7 @@
    "category": "dependency",
    "repo": "celtera/avendish-geometry-processor-template",
    "subject": "Avendish (cmake-fetchcontent)",
-   "message": "upstream HEAD moved 9 days past our pin; upstream active again (last commit 2026-07-18)",
+   "message": "upstream HEAD moved 7 days past our pin; upstream active again (last commit 2026-07-18)",
    "url": "https://github.com/celtera/avendish",
    "severity": "warn"
   },
@@ -22973,7 +22649,7 @@
    "category": "dependency",
    "repo": "celtera/avendish-video-processor-template",
    "subject": "Avendish (cmake-fetchcontent)",
-   "message": "upstream HEAD moved 9 days past our pin; upstream active again (last commit 2026-07-18)",
+   "message": "upstream HEAD moved 7 days past our pin; upstream active again (last commit 2026-07-18)",
    "url": "https://github.com/celtera/avendish",
    "severity": "warn"
   },
@@ -22982,7 +22658,7 @@
    "category": "dependency",
    "repo": "ossia/score-addon-cv",
    "subject": "Avendish (cmake-fetchcontent)",
-   "message": "upstream HEAD moved 10 days past our pin; upstream active again (last commit 2026-07-18)",
+   "message": "upstream HEAD moved 7 days past our pin; upstream active again (last commit 2026-07-18)",
    "url": "https://github.com/celtera/avendish",
    "severity": "warn"
   },
@@ -23000,7 +22676,7 @@
    "category": "dependency",
    "repo": "ossia/score-addon-librediffusion",
    "subject": "Avendish (cmake-fetchcontent)",
-   "message": "upstream HEAD moved 9 days past our pin; upstream active again (last commit 2026-07-18)",
+   "message": "upstream HEAD moved 7 days past our pin; upstream active again (last commit 2026-07-18)",
    "url": "https://github.com/celtera/avendish",
    "severity": "warn"
   },
@@ -23027,7 +22703,7 @@
    "category": "dependency",
    "repo": "ossia/score-addon-puara",
    "subject": "Avendish (cmake-fetchcontent)",
-   "message": "upstream HEAD moved 9 days past our pin; upstream active again (last commit 2026-07-18)",
+   "message": "upstream HEAD moved 7 days past our pin; upstream active again (last commit 2026-07-18)",
    "url": "https://github.com/celtera/avendish",
    "severity": "warn"
   },
@@ -23149,6 +22825,15 @@
    "severity": "warn"
   },
   {
+   "id": "packaging:repology:ossia-score",
+   "category": "packaging",
+   "repo": "ossia-score",
+   "subject": "ossia-score",
+   "message": "10/14 downstream repos ship an outdated version (newest: 3.8.2)",
+   "url": "https://repology.org/project/ossia-score/versions",
+   "severity": "warn"
+  },
+  {
    "id": "pr:celtera/avendish:117",
    "category": "pr",
    "repo": "celtera/avendish",
@@ -23164,15 +22849,6 @@
    "subject": "#125 csound: add csound backend",
    "message": "idle 19d, 72 commits behind main",
    "url": "https://github.com/celtera/avendish/pull/125",
-   "severity": "warn"
-  },
-  {
-   "id": "pr:celtera/avendish:171",
-   "category": "pr",
-   "repo": "celtera/avendish",
-   "subject": "#171 Add dynamic_combobox: a combobox with a runtime-populated item list",
-   "message": "idle 1d, 189 commits behind main",
-   "url": "https://github.com/celtera/avendish/pull/171",
    "severity": "warn"
   },
   {
@@ -23297,7 +22973,7 @@
    "category": "pr",
    "repo": "ossia/libossia",
    "subject": "#825 fix #1451",
-   "message": "idle 139d, 649 commits behind master",
+   "message": "idle 139d, 651 commits behind master",
    "url": "https://github.com/ossia/libossia/pull/825",
    "severity": "warn"
   },
@@ -23306,7 +22982,7 @@
    "category": "pr",
    "repo": "ossia/libossia",
    "subject": "#858 osc: work on adding more features to rate limiter",
-   "message": "idle 51d, 55 commits behind master",
+   "message": "idle 51d, 57 commits behind master",
    "url": "https://github.com/ossia/libossia/pull/858",
    "severity": "warn"
   },
@@ -23315,7 +22991,7 @@
    "category": "pr",
    "repo": "ossia/libossia",
    "subject": "#863 feature: oscquery factory",
-   "message": "idle 51d, 55 commits behind master",
+   "message": "idle 51d, 57 commits behind master",
    "url": "https://github.com/ossia/libossia/pull/863",
    "severity": "warn"
   },
@@ -23324,7 +23000,7 @@
    "category": "pr",
    "repo": "ossia/libossia",
    "subject": "#864 exec: work on port preallocation",
-   "message": "idle 139d, 195 commits behind master",
+   "message": "idle 139d, 197 commits behind master",
    "url": "https://github.com/ossia/libossia/pull/864",
    "severity": "warn"
   },
@@ -23333,7 +23009,7 @@
    "category": "pr",
    "repo": "ossia/libossia",
    "subject": "#875 feature/remove geometry ports",
-   "message": "idle 132d, 68 commits behind master",
+   "message": "idle 132d, 70 commits behind master",
    "url": "https://github.com/ossia/libossia/pull/875",
    "severity": "warn"
   },
@@ -23351,7 +23027,7 @@
    "category": "pr",
    "repo": "ossia/score-addon-contextfree",
    "subject": "#1 cmake: converge to generic find_package(Avendish) + avnd_addon_* setup",
-   "message": "idle 31d, 3 commits behind main",
+   "message": "idle 32d, 3 commits behind main",
    "url": "https://github.com/ossia/score-addon-contextfree/pull/1",
    "severity": "warn"
   },
@@ -23369,7 +23045,7 @@
    "category": "pr",
    "repo": "ossia/score-addon-jk",
    "subject": "#1 cmake: converge to generic find_package(Avendish) + avnd_addon_* setup",
-   "message": "idle 32d, 4 commits behind main",
+   "message": "idle 32d, 5 commits behind main",
    "url": "https://github.com/ossia/score-addon-jk/pull/1",
    "severity": "warn"
   },
@@ -23396,7 +23072,7 @@
    "category": "pr",
    "repo": "ossia/score-addon-ltc",
    "subject": "#1 cmake: converge to generic find_package(Avendish) + avnd_addon_* setup",
-   "message": "idle 31d, 3 commits behind master",
+   "message": "idle 32d, 4 commits behind master",
    "url": "https://github.com/ossia/score-addon-ltc/pull/1",
    "severity": "warn"
   },
@@ -23405,7 +23081,7 @@
    "category": "pr",
    "repo": "ossia/score-addon-ndi",
    "subject": "#5 output: update with api changes",
-   "message": "idle 66d, 3 commits behind main",
+   "message": "idle 66d, 4 commits behind main",
    "url": "https://github.com/ossia/score-addon-ndi/pull/5",
    "severity": "warn"
   },
@@ -23414,7 +23090,7 @@
    "category": "pr",
    "repo": "ossia/score-addon-puara",
    "subject": "#11 feat: Add Puara TouchArrayGestureDetector processor",
-   "message": "idle 355d, 77 commits behind master",
+   "message": "idle 355d, 78 commits behind master",
    "url": "https://github.com/ossia/score-addon-puara/pull/11",
    "severity": "warn"
   },
@@ -23423,7 +23099,7 @@
    "category": "pr",
    "repo": "ossia/score-addon-puara",
    "subject": "#12 feat: Add Magnetometer Calibration",
-   "message": "idle 355d, 73 commits behind master",
+   "message": "idle 355d, 74 commits behind master",
    "url": "https://github.com/ossia/score-addon-puara/pull/12",
    "severity": "warn"
   },
@@ -23432,7 +23108,7 @@
    "category": "pr",
    "repo": "ossia/score-addon-puara",
    "subject": "#16 feat(analysis): Add Tuning Matrix and Tuning Reduction processors",
-   "message": "idle 343d, 52 commits behind master",
+   "message": "idle 343d, 53 commits behind master",
    "url": "https://github.com/ossia/score-addon-puara/pull/16",
    "severity": "warn"
   },
@@ -23441,7 +23117,7 @@
    "category": "pr",
    "repo": "ossia/score-addon-puara",
    "subject": "#55 Feature/amplitude",
-   "message": "idle 108d, 22 commits behind master",
+   "message": "idle 108d, 23 commits behind master",
    "url": "https://github.com/ossia/score-addon-puara/pull/55",
    "severity": "warn"
   },
@@ -23450,7 +23126,7 @@
    "category": "pr",
    "repo": "ossia/score-addon-spat",
    "subject": "#10 Widget Spect Display",
-   "message": "idle 1462d, 2 commits behind main",
+   "message": "idle 1462d, 3 commits behind main",
    "url": "https://github.com/ossia/score-addon-spat/pull/10",
    "severity": "warn"
   },
@@ -23459,7 +23135,7 @@
    "category": "pr",
    "repo": "ossia/score-addon-spat",
    "subject": "#11 Widget audio spat",
-   "message": "idle 1459d, 2 commits behind main",
+   "message": "idle 1459d, 3 commits behind main",
    "url": "https://github.com/ossia/score-addon-spat/pull/11",
    "severity": "warn"
   },
@@ -23468,7 +23144,7 @@
    "category": "pr",
    "repo": "ossia/score-addon-spat",
    "subject": "#12 Vbap",
-   "message": "idle 1452d, 3 commits behind main",
+   "message": "idle 1453d, 4 commits behind main",
    "url": "https://github.com/ossia/score-addon-spat/pull/12",
    "severity": "warn"
   },
@@ -23477,7 +23153,7 @@
    "category": "pr",
    "repo": "ossia/score-addon-synthimi",
    "subject": "#1 cmake: converge to generic find_package(Avendish) + avnd_addon_* setup",
-   "message": "idle 32d, 3 commits behind main",
+   "message": "idle 32d, 4 commits behind main",
    "url": "https://github.com/ossia/score-addon-synthimi/pull/1",
    "severity": "warn"
   },
@@ -23486,7 +23162,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1399 [wip] Supporting more midi messages in MidiDrop plugin",
-   "message": "idle 6d, 3282 commits behind master",
+   "message": "idle 6d, 3298 commits behind master",
    "url": "https://github.com/ossia/score/pull/1399",
    "severity": "warn"
   },
@@ -23495,7 +23171,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1454 fix #1451 and #1452",
-   "message": "idle 6d, 2753 commits behind master",
+   "message": "idle 6d, 2769 commits behind master",
    "url": "https://github.com/ossia/score/pull/1454",
    "severity": "warn"
   },
@@ -23504,7 +23180,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1601 perf: prereserve some audio buffers",
-   "message": "idle 6d, 1585 commits behind master",
+   "message": "idle 6d, 1601 commits behind master",
    "url": "https://github.com/ossia/score/pull/1601",
    "severity": "warn"
   },
@@ -23513,7 +23189,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1603 wip: better implementation of customfloatcontrol",
-   "message": "idle 6d, 1370 commits behind master",
+   "message": "idle 6d, 1386 commits behind master",
    "url": "https://github.com/ossia/score/pull/1603",
    "severity": "warn"
   },
@@ -23522,7 +23198,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1604 core: Implement a command transaction system",
-   "message": "idle 6d, 1370 commits behind master",
+   "message": "idle 6d, 1386 commits behind master",
    "url": "https://github.com/ossia/score/pull/1604",
    "severity": "warn"
   },
@@ -23531,7 +23207,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1605 curve: start work on optimized pointarray rendering",
-   "message": "idle 6d, 1585 commits behind master",
+   "message": "idle 6d, 1601 commits behind master",
    "url": "https://github.com/ossia/score/pull/1605",
    "severity": "warn"
   },
@@ -23540,7 +23216,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1631 ui: work on improving drag and drop magnetic behaviour",
-   "message": "idle 6d, 1370 commits behind master",
+   "message": "idle 6d, 1386 commits behind master",
    "url": "https://github.com/ossia/score/pull/1631",
    "severity": "warn"
   },
@@ -23549,7 +23225,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1632 simpleio: improve pwm handling",
-   "message": "idle 6d, 1585 commits behind master",
+   "message": "idle 6d, 1601 commits behind master",
    "url": "https://github.com/ossia/score/pull/1632",
    "severity": "warn"
   },
@@ -23558,7 +23234,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1636 video: start working towards control ports in video proces",
-   "message": "idle 6d, 1370 commits behind master",
+   "message": "idle 6d, 1386 commits behind master",
    "url": "https://github.com/ossia/score/pull/1636",
    "severity": "warn"
   },
@@ -23567,7 +23243,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1638 faust: use default FAUSTFLOAT configuration if using faust from distro",
-   "message": "idle 6d, 1585 commits behind master",
+   "message": "idle 6d, 1601 commits behind master",
    "url": "https://github.com/ossia/score/pull/1638",
    "severity": "warn"
   },
@@ -23576,7 +23252,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1649 protocols: minimal socketio client implementation",
-   "message": "idle 6d, 54 commits behind master",
+   "message": "idle 6d, 70 commits behind master",
    "url": "https://github.com/ossia/score/pull/1649",
    "severity": "warn"
   },
@@ -23585,7 +23261,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1676 osc: work on adding more features to rate limiter",
-   "message": "idle 6d, 1023 commits behind master",
+   "message": "idle 6d, 1039 commits behind master",
    "url": "https://github.com/ossia/score/pull/1676",
    "severity": "warn"
   },
@@ -23594,7 +23270,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1710 Improve package manager UX",
-   "message": "idle 6d, 596 commits behind master",
+   "message": "idle 6d, 612 commits behind master",
    "url": "https://github.com/ossia/score/pull/1710",
    "severity": "warn"
   },
@@ -23603,7 +23279,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1745 video: try a different tradeoff of video playback options",
-   "message": "idle 6d, 1364 commits behind master",
+   "message": "idle 6d, 1380 commits behind master",
    "url": "https://github.com/ossia/score/pull/1745",
    "severity": "warn"
   },
@@ -23612,7 +23288,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1757 mcp: try to see how would an implementation would look",
-   "message": "idle 6d, 1342 commits behind master",
+   "message": "idle 6d, 1358 commits behind master",
    "url": "https://github.com/ossia/score/pull/1757",
    "severity": "warn"
   },
@@ -23621,7 +23297,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1768 fix/adjust_grid_size_to_generate_values_from_-1_to_1",
-   "message": "idle 6d, 1262 commits behind master",
+   "message": "idle 6d, 1278 commits behind master",
    "url": "https://github.com/ossia/score/pull/1768",
    "severity": "warn"
   },
@@ -23630,7 +23306,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1772 make a debug appimage",
-   "message": "idle 6d, 1223 commits behind master",
+   "message": "idle 6d, 1239 commits behind master",
    "url": "https://github.com/ossia/score/pull/1772",
    "severity": "warn"
   },
@@ -23639,7 +23315,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1778 wip/pico next 2",
-   "message": "idle 6d, 1187 commits behind master",
+   "message": "idle 6d, 1203 commits behind master",
    "url": "https://github.com/ossia/score/pull/1778",
    "severity": "warn"
   },
@@ -23648,7 +23324,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1827 feature/enable vulkan raytracing extensions",
-   "message": "idle 6d, 1133 commits behind master",
+   "message": "idle 6d, 1149 commits behind master",
    "url": "https://github.com/ossia/score/pull/1827",
    "severity": "warn"
   },
@@ -23657,7 +23333,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1892 ble: use qtbluetooth",
-   "message": "idle 6d, 596 commits behind master",
+   "message": "idle 6d, 612 commits behind master",
    "url": "https://github.com/ossia/score/pull/1892",
    "severity": "warn"
   },
@@ -23666,7 +23342,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1933 feature/codeeditor dock",
-   "message": "idle 6d, 537 commits behind master",
+   "message": "idle 6d, 553 commits behind master",
    "url": "https://github.com/ossia/score/pull/1933",
    "severity": "warn"
   },
@@ -23675,7 +23351,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1940 wip: experiment with bw64",
-   "message": "idle 6d, 520 commits behind master",
+   "message": "idle 6d, 536 commits behind master",
    "url": "https://github.com/ossia/score/pull/1940",
    "severity": "warn"
   },
@@ -23684,7 +23360,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1941 midi: wip on MIDI parsing of automations, tempo, etc.",
-   "message": "idle 6d, 520 commits behind master",
+   "message": "idle 6d, 536 commits behind master",
    "url": "https://github.com/ossia/score/pull/1941",
    "severity": "warn"
   },
@@ -23693,7 +23369,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1946 ui: experiment with a generic view tool",
-   "message": "idle 6d, 467 commits behind master",
+   "message": "idle 6d, 483 commits behind master",
    "url": "https://github.com/ossia/score/pull/1946",
    "severity": "warn"
   },
@@ -23702,7 +23378,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1950 table: try to see if 1D and 2D make the cut",
-   "message": "idle 6d, 443 commits behind master",
+   "message": "idle 6d, 459 commits behind master",
    "url": "https://github.com/ossia/score/pull/1950",
    "severity": "warn"
   },
@@ -23711,7 +23387,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1963 inspector: suggest alternative label display for better readability",
-   "message": "idle 6d, 354 commits behind master",
+   "message": "idle 6d, 370 commits behind master",
    "url": "https://github.com/ossia/score/pull/1963",
    "severity": "warn"
   },
@@ -23720,7 +23396,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1969 dynamic ports: handle live reloading in ossia",
-   "message": "idle 6d, 342 commits behind master",
+   "message": "idle 6d, 358 commits behind master",
    "url": "https://github.com/ossia/score/pull/1969",
    "severity": "warn"
   },
@@ -23729,7 +23405,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1975 audio: implement an ASIO-based audio backend. Fixes #1422",
-   "message": "idle 6d, 314 commits behind master",
+   "message": "idle 6d, 330 commits behind master",
    "url": "https://github.com/ossia/score/pull/1975",
    "severity": "warn"
   },
@@ -23738,7 +23414,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1978 js: experiment with QtQuick-based nodal process",
-   "message": "idle 6d, 314 commits behind master",
+   "message": "idle 6d, 330 commits behind master",
    "url": "https://github.com/ossia/score/pull/1978",
    "severity": "warn"
   },
@@ -23747,7 +23423,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#1989 feature/clip launcher",
-   "message": "idle 6d, 305 commits behind master",
+   "message": "idle 6d, 321 commits behind master",
    "url": "https://github.com/ossia/score/pull/1989",
    "severity": "warn"
   },
@@ -23756,7 +23432,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#2019 [ci skip] wip: webengine support",
-   "message": "idle 6d, 207 commits behind master",
+   "message": "idle 6d, 223 commits behind master",
    "url": "https://github.com/ossia/score/pull/2019",
    "severity": "warn"
   },
@@ -23765,8 +23441,26 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#2032 TBD: mapper: keep mapper device readable via Device.read() after device reconnects",
-   "message": "idle 6d, 130 commits behind master",
+   "message": "idle 6d, 146 commits behind master",
    "url": "https://github.com/ossia/score/pull/2032",
+   "severity": "warn"
+  },
+  {
+   "id": "pr:ossia/score:2065",
+   "category": "pr",
+   "repo": "ossia/score",
+   "subject": "#2065 LV2: put scanning in a separate process too",
+   "message": "idle 6d, 63 commits behind master",
+   "url": "https://github.com/ossia/score/pull/2065",
+   "severity": "warn"
+  },
+  {
+   "id": "pr:ossia/score:2079",
+   "category": "pr",
+   "repo": "ossia/score",
+   "subject": "#2079 split/threedim",
+   "message": "idle 6d, 58 commits behind master",
+   "url": "https://github.com/ossia/score/pull/2079",
    "severity": "warn"
   },
   {
@@ -23774,7 +23468,7 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#2091 3rdparty: granular per-package system-library overrides",
-   "message": "idle 6d, 51 commits behind master",
+   "message": "idle 6d, 67 commits behind master",
    "url": "https://github.com/ossia/score/pull/2091",
    "severity": "warn"
   },
@@ -23783,8 +23477,17 @@
    "category": "pr",
    "repo": "ossia/score",
    "subject": "#2094 gfx/js: per-preset F1 help URLs for ISF shaders and JS scripts",
-   "message": "idle 6d, 65 commits behind master",
+   "message": "idle 6d, 81 commits behind master",
    "url": "https://github.com/ossia/score/pull/2094",
+   "severity": "warn"
+  },
+  {
+   "id": "pr:ossia/score:2104",
+   "category": "pr",
+   "repo": "ossia/score",
+   "subject": "#2104 Feature/wasm remote3",
+   "message": "idle 5d, 60 commits behind master",
+   "url": "https://github.com/ossia/score/pull/2104",
    "severity": "warn"
   },
   {
@@ -24049,15 +23752,6 @@
    "severity": "warn"
   },
   {
-   "id": "submodule:ossia/score-addon-videoio:3rdparty/libajantv2",
-   "category": "submodule",
-   "repo": "ossia/score-addon-videoio",
-   "subject": "3rdparty/libajantv2",
-   "message": "pin not on 'main' (on: ossia-2026-06-26)",
-   "url": "https://github.com/jcelerier/libajantv2",
-   "severity": "warn"
-  },
-  {
    "id": "submodule:ossia/score:3rdparty/avendish",
    "category": "submodule",
    "repo": "ossia/score",
@@ -24098,7 +23792,7 @@
    "category": "submodule",
    "repo": "ossia/score",
    "subject": "3rdparty/libossia",
-   "message": "pin not on 'master' (on: wip/miniaudio-wasm); 7 commits / 1 day behind ossia/libossia@master",
+   "message": "pin not on 'master' (on: wip/miniaudio-wasm); 9 commits / 7 days behind ossia/libossia@master",
    "url": "https://github.com/ossia/libossia",
    "severity": "warn"
   },
