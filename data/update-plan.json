@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-23T15:05:18.714Z",
+ "generatedAt": "2026-07-23T19:52:38.960Z",
  "enabled": true,
  "proposals": [
   {
@@ -65,22 +65,6 @@
    "branch": "chore/bump-avendish-ml-processor-template/avendish",
    "title": "chore(deps): bump Avendish to 79a26947559c (main)",
    "compareUrl": "https://github.com/celtera/avendish/compare/480759886e295127c6bb2e6f62ba6af0c84ac145...79a26947559c1c3f4a8659e49f474d5d2472f5ef"
-  },
-  {
-   "repo": "ossia/score-addon-cv",
-   "source": "cmake-fetchcontent",
-   "name": "Avendish",
-   "file": "CMakeLists.txt",
-   "upstream": "celtera/avendish",
-   "kind": "sha",
-   "currentRef": "00827f5cc3b2323cfa3a554e799397b4fab14701",
-   "targetRef": "79a26947559c1c3f4a8659e49f474d5d2472f5ef",
-   "targetDisplay": "79a26947559c (main)",
-   "behindCommits": 16,
-   "behindDays": 11,
-   "branch": "chore/bump-score-addon-cv/avendish",
-   "title": "chore(deps): bump Avendish to 79a26947559c (main)",
-   "compareUrl": "https://github.com/celtera/avendish/compare/00827f5cc3b2323cfa3a554e799397b4fab14701...79a26947559c1c3f4a8659e49f474d5d2472f5ef"
   },
   {
    "repo": "celtera/avendish-audio-processor-template",
