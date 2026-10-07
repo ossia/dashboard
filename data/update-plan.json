@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-07T17:45:44.905Z",
+ "generatedAt": "2026-10-07T23:46:36.142Z",
  "enabled": true,
  "proposals": [
   {
@@ -49,22 +49,6 @@
    "branch": "chore/bump-sherpa-plugins/avendish",
    "title": "chore(deps): bump Avendish to ec179e3b2219 (main)",
    "compareUrl": "https://github.com/celtera/avendish/compare/558744dcd18657163a1d6955ed9992188e00e8ad...ec179e3b22197079239f4413727589ca298c7b17"
-  },
-  {
-   "repo": "ossia/score-addon-librediffusion",
-   "source": "cmake-fetchcontent",
-   "name": "Avendish",
-   "file": "CMakeLists.txt",
-   "upstream": "celtera/avendish",
-   "kind": "sha",
-   "currentRef": "38f80755baf96ec6db0f5b428bf6b7b557f86658",
-   "targetRef": "ec179e3b22197079239f4413727589ca298c7b17",
-   "targetDisplay": "ec179e3b2219 (main)",
-   "behindCommits": 98,
-   "behindDays": 75,
-   "branch": "chore/bump-score-addon-librediffusion/avendish",
-   "title": "chore(deps): bump Avendish to ec179e3b2219 (main)",
-   "compareUrl": "https://github.com/celtera/avendish/compare/38f80755baf96ec6db0f5b428bf6b7b557f86658...ec179e3b22197079239f4413727589ca298c7b17"
   },
   {
    "repo": "sat-mtl/carto-tcp-avendish",
