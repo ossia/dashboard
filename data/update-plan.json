@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-03T01:04:08.539Z",
+ "generatedAt": "2026-11-03T14:25:56.108Z",
  "enabled": true,
  "proposals": [
   {
@@ -31,22 +31,6 @@
    "behindCommits": 173,
    "behindDays": 117,
    "branch": "chore/bump-score-addon-onnx/avendish",
-   "title": "chore(deps): bump Avendish to 945a60d1ac3e (main)",
-   "compareUrl": "https://github.com/celtera/avendish/compare/558744dcd18657163a1d6955ed9992188e00e8ad...945a60d1ac3e0e21a68c4a51534a39be28f1ebf9"
-  },
-  {
-   "repo": "sat-mtl/sherpa-plugins",
-   "source": "cmake-fetchcontent",
-   "name": "Avendish",
-   "file": "CMakeLists.txt",
-   "upstream": "celtera/avendish",
-   "kind": "sha",
-   "currentRef": "558744dcd18657163a1d6955ed9992188e00e8ad",
-   "targetRef": "945a60d1ac3e0e21a68c4a51534a39be28f1ebf9",
-   "targetDisplay": "945a60d1ac3e (main)",
-   "behindCommits": 173,
-   "behindDays": 117,
-   "branch": "chore/bump-sherpa-plugins/avendish",
    "title": "chore(deps): bump Avendish to 945a60d1ac3e (main)",
    "compareUrl": "https://github.com/celtera/avendish/compare/558744dcd18657163a1d6955ed9992188e00e8ad...945a60d1ac3e0e21a68c4a51534a39be28f1ebf9"
   },
@@ -207,6 +191,22 @@
    "behindCommits": 43,
    "behindDays": 22,
    "branch": "chore/bump-score-addon-librediffusion/avendish",
+   "title": "chore(deps): bump Avendish to 945a60d1ac3e (main)",
+   "compareUrl": "https://github.com/celtera/avendish/compare/64e1b98dbc227b7df079561b4aa9e66330e47263...945a60d1ac3e0e21a68c4a51534a39be28f1ebf9"
+  },
+  {
+   "repo": "sat-mtl/sherpa-plugins",
+   "source": "cmake-fetchcontent",
+   "name": "Avendish",
+   "file": "CMakeLists.txt",
+   "upstream": "celtera/avendish",
+   "kind": "sha",
+   "currentRef": "64e1b98dbc227b7df079561b4aa9e66330e47263",
+   "targetRef": "945a60d1ac3e0e21a68c4a51534a39be28f1ebf9",
+   "targetDisplay": "945a60d1ac3e (main)",
+   "behindCommits": 43,
+   "behindDays": 22,
+   "branch": "chore/bump-sherpa-plugins/avendish",
    "title": "chore(deps): bump Avendish to 945a60d1ac3e (main)",
    "compareUrl": "https://github.com/celtera/avendish/compare/64e1b98dbc227b7df079561b4aa9e66330e47263...945a60d1ac3e0e21a68c4a51534a39be28f1ebf9"
   },
